@@ -82,6 +82,26 @@ class SitePublisherTest(unittest.TestCase):
         self.assertEqual(stage['files_removed'], ['gone.txt'])
         self.assertEqual(sh('git', '-C', str(self.site), 'count-objects', '-v').count('count: 0'), 1)
 
+    def test_blob_size_guard_checks_controls_and_exact_boundary(self):
+        (self.preview / '.release-control').mkdir()
+        target = self.preview / '.release-control/asset-rights-registry.json'
+        target.write_bytes(b'x' * 256)
+        publisher.check_git_blob_sizes(self.preview, limit=256)
+        output = io.StringIO()
+        with redirect_stdout(output), self.assertRaises(SystemExit):
+            publisher.check_git_blob_sizes(self.preview, limit=255)
+        self.assertIn('Git blob limit', output.getvalue())
+        self.assertIn('.release-control/asset-rights-registry.json', output.getvalue())
+
+    def test_oversized_blob_cannot_reach_remote_push(self):
+        self.stage()
+        with mock.patch.object(publisher, 'check_git_blob_sizes', side_effect=SystemExit('oversized')), mock.patch.object(publisher, 'hash_objects') as objects:
+            with self.assertRaisesRegex(SystemExit, 'oversized'):
+                self.push()
+            objects.assert_not_called()
+        self.assertFalse((self.work / 'push.json').exists())
+        self.assertEqual(sh('git', '-C', str(self.remote), 'rev-parse', 'main'), self.base)
+
     def test_live_check_names_only_built_files(self):
         (self.preview / '.github/workflows/pages.yml').write_bytes(('name: pages v2\n').encode('utf-8'))
         (self.preview / '.release-control').mkdir()

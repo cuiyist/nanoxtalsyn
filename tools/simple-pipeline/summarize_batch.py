@@ -76,20 +76,19 @@ def baseline(site, checks):
     """Read the supplied site checkout as a baseline, not as anonymous deployment proof."""
     site = Path(site)
     dois, sources, counts = set(), {}, Counter()
-    with (site / 'data/records.jsonl').open(encoding='utf-8-sig') as source:
-        for line in source:
-            if not line.strip():
-                continue
-            record = json.loads(line)
-            sid = (record.get('lineage') or {}).get('source_group')
-            primary = next((s for s in record.get('sources') or [] if s.get('id') == sid), {})
-            doi = normalized_doi(primary.get('doi'))
-            if doi:
-                dois.add(doi)
-            if sid:
-                sources[sid] = {'doi': doi, 'status': (record.get('quality') or {}).get('review_status')}
-            if checks.is_route(record):
-                counts[(record.get('material') or {}).get('formula') or ''] += 1
+    scripts = Path(__file__).resolve().parents[2] / 'recipe-atlas/scripts'
+    spec = importlib.util.spec_from_file_location('simple_baseline_record_export', scripts / 'record_export.py')
+    module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    for record in module.read_export(site / 'data'):
+        sid = (record.get('lineage') or {}).get('source_group')
+        primary = next((s for s in record.get('sources') or [] if s.get('id') == sid), {})
+        doi = normalized_doi(primary.get('doi'))
+        if doi:
+            dois.add(doi)
+        if sid:
+            sources[sid] = {'doi': doi, 'status': (record.get('quality') or {}).get('review_status')}
+        if checks.is_route(record):
+            counts[(record.get('material') or {}).get('formula') or ''] += 1
     index_path = site / 'data/materials-index.json'
     if index_path.is_file():
         index = json.loads(index_path.read_text(encoding='utf-8-sig'))

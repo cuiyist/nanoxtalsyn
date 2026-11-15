@@ -135,7 +135,7 @@ def main():
             checked_path(root,path)
             if not path.is_file()or path.suffix not in TEXT:continue
             rel=path.relative_to(root).as_posix()
-            if rel.startswith('data/records/')or rel=='data/records.jsonl'or rel.startswith('data/exports/'):continue
+            if rel.startswith('data/records/')or rel=='data/records.jsonl'or re.fullmatch(r'data/records\.part[0-9]{4,}\.jsonl',rel)or rel.startswith('data/exports/'):continue
             raw=path.read_text(encoding='utf-8')
             if path.suffix=='.json':
                 before=json.loads(raw);after=project_display_json(copy.deepcopy(before),lookup,private,rel,pattern,replacements)

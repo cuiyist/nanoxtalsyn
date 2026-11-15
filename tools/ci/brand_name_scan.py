@@ -183,7 +183,7 @@ def record_export_spans(relative, text, load_record):
     literal string VALUES copied from that pinned record may qualify there.
     """
     task = PurePosixPath(relative).stem
-    full = relative == 'data/records.jsonl'
+    full = relative == 'data/records.jsonl' or re.fullmatch(r'data/records\.part[0-9]{4,}\.jsonl', relative) is not None
     training = relative == 'data/exports/' + task + '.jsonl' and task in EXPORT_TASKS
     if load_record is None or not (full or training):
         return []

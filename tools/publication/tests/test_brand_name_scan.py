@@ -94,6 +94,10 @@ class BrandScanTests(unittest.TestCase):
         aggregate = json.dumps(original).encode()
         counts, proof = n.classify('data/records.jsonl', aggregate, {}, self.ids, (), load)
         self.assertEqual(counts, {'record_bytes': 1}); self.assertEqual(proof[0]['proof']['basis'], 'exact_record_object_in_JSONL')
+        self.assertEqual(n.classify('data/records.part0001.jsonl', aggregate, {}, self.ids, (), load)[0], {'record_bytes': 1})
+        self.assertEqual(n.classify('data/records.part-any.jsonl', aggregate, {}, self.ids, (), load)[0], {'anything_else': 1})
+        with self.assertRaisesRegex(ValueError, 'differs from pinned'):
+            n.classify('data/records.part0001.jsonl', json.dumps({**original, 'new': 'field'}).encode(), {}, self.ids, (), load)
         export = {'record_id': 'r', 'task': 'partial_protocol', 'record_sha256': n.semantic_digest(original), 'input': {}, 'output': {'materials': original['materials']}, 'provenance': []}
         counts, proof = n.classify('data/exports/partial_protocol.jsonl', json.dumps(export).encode(), {}, self.ids, (), load)
         self.assertEqual(counts, {'record_bytes': 1}); self.assertEqual(proof[0]['proof']['Source_field'], '/materials/0/note')

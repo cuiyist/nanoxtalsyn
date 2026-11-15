@@ -156,6 +156,22 @@ class BatchSummaryTest(unittest.TestCase):
             self.assertEqual((row['figures_listed'], row['figure_files_found'], row['missing_figure_files']), (1, 1, 0))
             self.assertNotIn('PRIVATE', json.dumps(result))
 
+    def test_baseline_reads_all_verified_shards_and_rejects_tampering(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('synthetic_export', Path(__file__).resolve().parents[2] / 'recipe-atlas/scripts/record_export.py')
+        transport = importlib.util.module_from_spec(spec); spec.loader.exec_module(transport)
+        with TemporaryDirectory() as work:
+            site = Path(work); (site / 'data').mkdir()
+            first = helper.to_site.records_of(self.doc())[1][0]
+            second = json.loads(json.dumps(first)); second['record_id'] += '-second'
+            manifest = transport.write_export(site / 'data', [first, second], max(len(transport.encode_record(r)) for r in [first, second]))
+            self.assertEqual(len(manifest['parts']), 2)
+            dois, sources, routes = helper.baseline(site, SyntheticChecks())
+            self.assertEqual(dois, {'10.1234/sample'}); self.assertEqual(routes['CdSe'], 2)
+            self.assertEqual(sources[first['lineage']['source_group']]['status'], 'source_extracted')
+            (site / 'data' / manifest['parts'][1]['path']).write_bytes(b'bad')
+            with self.assertRaises(ValueError): helper.baseline(site, SyntheticChecks())
+
 
 if __name__ == '__main__':
     unittest.main()

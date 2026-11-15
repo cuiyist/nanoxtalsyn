@@ -1,5 +1,32 @@
 # Local-corpus intake: 96 papers verified live — 15 November 2026
 
+## Publication packaging repair pending — 17:03 UTC
+
+The next40papers/57records/227captioned figures merged through
+[PR168](https://github.com/cuiyist/nanoxtalsyn/pull/168), but are not live.
+[Publisher43731523971](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43731523971)
+passed its build, boundary and staged-browser checks before GitHub rejected
+the105,191,683-byte aggregate record file at the push step. No new publication
+or anonymous-verification credit is claimed.
+
+A source repair splits the complete JSONL transport into ordered whole-record
+parts, each below80MiB. Every part and the complete stream have record counts,
+byte counts and SHA-256 checksums. The catalogue still offers one complete
+records.jsonl download, assembled and verified in the browser. Automated clients
+can read data/records-manifest.json and concatenate every listed part in order;
+the former oversized monolithic URL is not replaced with an incomplete file.
+The7,068 canonical source records remain byte-identical, and reassembled export
+bytes match the original complete JSONL checksum. Scientific scope, review
+status and training eligibility are unchanged.365synthetic regression tests
+and desktop/phone synthetic browser download checks passed. Normal source CI,
+publication, production visual review and anonymous verification remain required.
+
+Later private cohorts currently contain11papers/13records/56reviewedcaptioned
+figures from batches29and30; none has been imported or published. Batch31has
+started18new local inputs. The full-folder job remains unfinished.
+
+## Previously verified releases
+
 Three verified releases have added **96 papers, 146 source-extracted records and
 515 captioned figures**. The local corpus is not finished. The latest verified
 Source contains 7,011 canonical records and 3,012 distinct primary-source DOIs;

@@ -42,6 +42,10 @@ jobs:
           node --test tools/ci/old-address-redirect.test.mjs
       - name: Test local package staging without private evidence
         run: python -m unittest discover -s tools/package-importer/tests -v
+      - name: Test complete bounded record exports
+        run: |
+          python -B -m unittest discover -s recipe-atlas/tests -p 'test_record_export.py' -v
+          node --test recipe-atlas/tests/record-export.test.mjs
       - name: Test scoped packages and event metrics
         run: python -m unittest discover -s tools/workflow/tests -v
       - name: Test local extraction and silver admission boundaries
