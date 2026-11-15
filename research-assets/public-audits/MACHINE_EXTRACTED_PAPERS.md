@@ -1,3 +1,52 @@
+## Local-corpus release 04 verified live — 15 November 2026
+
+40 primary papers / 57 original-ordinal source-extracted records / 227 captioned figure crops. Source `58b10fe7138b359bc7be152e238ca2048cfd6ceb`; Site `3a3554d54d36cb246b5fea631f8aa2612566e9df`.
+
+[Publisher 43746489949](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43746489949) completed successfully at 2026-11-15T19:44:34Z, with [Pages 43750956700](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43750956700), normal anonymous verification, exact checks of 57 new records and 465 referenced assets, and actual three-page desktop/phone visual review. The complete 7,068-record download also passed both devices. No independent scientific audit or training credit. These are additive contributions, counted once; the local corpus is unfinished.
+
+| DOI | Source ID | Record IDs | Batch | Status | Expert / training credit |
+|---|---|---|---|---|---|
+| 10.1021/jacs.5b05462 | li2015-jacs-5b05462 | li2015-jacs-5b05462-cdse-cds-al-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1021/jacs.6b04981 | bhattacharyya2016-jacs-6b04981 | bhattacharyya2016-jacs-6b04981-cufes2-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1021/jacs.6b10102 | cao2016-jacs-6b10102 | cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1021/nn505639q | chua2015-nn505639q | chua2015-nn505639q-graphene-quantum-dots-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/ncomms12749 | franke2016-ncomms12749 | franke2016-ncomms12749-inascdsecds-core-shell-shell-css-qds-2 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/ncomms2181 | du2012-ncomms2181 | du2012-ncomms2181-ultrathin-zns-nanowires-2; du2012-ncomms2181-ultrathin-bi2s3-nanowires-3; du2012-ncomms2181-ultrathin-sb2s3-nanowires-4 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41467-020-19573-4 | park2020-s41467-020-19573-4 | park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41467-020-20512-6 | mashiach2021-s41467-020-20512-6 | mashiach2021-s41467-020-20512-6-aep-caf2-ncs-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41467-026-71288-0 | hu2026-s41467-026-71288-0 | hu2026-s41467-026-71288-0-lt-ncs-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41563-024-01901-4 | liang2024-s41563-024-01901-4 | liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41598-018-32004-1 | stroyuk2018-s41598-018-32004-1 | stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1038/s41598-026-48145-7 | pei2026-s41598-026-48145-7 | pei2026-s41598-026-48145-7-p-cqds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/b916663g | yong2010-b916663g | yong2010-b916663g-cuins2-zns-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c0cc02304c | siy2011-c0cc02304c | siy2011-c0cc02304c-cdse-ncqds-synthesized-at-130-c-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c0lc00507j | nightingale2011-c0lc00507j | nightingale2011-c0lc00507j-cdse-quantum-dots-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c1cc11070e | ma2011-c1cc11070e | ma2011-c1cc11070e-cdse-sio2-nanobeads-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c1jm10617a | pahari2011-c1jm10617a | pahari2011-c1jm10617a-cds-nanoparticles-2; pahari2011-c1jm10617a-ceo2-nanoparticles-5 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2cp40848a | peng2012-c2cp40848a | peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1; peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2; peng2012-c2cp40848a-agins2-nanorods-3 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2jm33962e | kim2012-c2jm33962e | kim2012-c2jm33962e-inp-core-3 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2jm35101c | xiong2012-c2jm35101c | xiong2012-c2jm35101c-cucro2-nanocrystals-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2nr31054f | baumgardner2012-c2nr31054f | baumgardner2012-c2nr31054f-pbse-nanocubes-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2nr31724a | xu2012-c2nr31724a | xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c2ta00498d | kirkeminde2013-c2ta00498d | kirkeminde2013-c2ta00498d-fes2-nanocrystals-cubic-1; kirkeminde2013-c2ta00498d-fes2-nanocrystals-popcorn-shaped-2; kirkeminde2013-c2ta00498d-fes2-nanocrystals-nanospheres-3; kirkeminde2013-c2ta00498d-fes2-nanocrystals-thin-sheets-4; kirkeminde2013-c2ta00498d-fes2-nanocrystals-thick-sheets-5 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c3ta00357d | liu2013-c3ta00357d | liu2013-c3ta00357d-czts-nanocrystals-3-nm-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c4ce02405b | liang2015-c4ce02405b | liang2015-c4ce02405b-agbis2-nanocrystals-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c4gc02072c | mansur2015-c4gc02072c | mansur2015-c4gc02072c-zns-chi-abcd20-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c4ta05696e | niyamakom2015-c4ta05696e | niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c4tb00986j | zheng2014-c4tb00986j | zheng2014-c4tb00986j-cufe2o4-magnetic-nanocrystal-clusters-mn-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c5nr04181c | loc2015-c5nr04181c | loc2015-c5nr04181c-pbs-1d-nanowires-nws-1; loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2; loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3; loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c5ra27904f | li2016-c5ra27904f | li2016-c5ra27904f-calb-cu-1; li2016-c5ra27904f-calb-pvp-cu-2 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c5ta05304h | he2015-c5ta05304h | he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c6an01760f | page2016-c6an01760f | page2016-c6an01760f-cdzns-zns-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c6dt03382b | culver2016-c6dt03382b | culver2016-c6dt03382b-cawo4-1-eu-1; culver2016-c6dt03382b-cawo4-1-tb-2; culver2016-c6dt03382b-cawo4-1-tm-3 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c6nr07155d | yang2016-c6nr07155d | yang2016-c6nr07155d-fe3o4-cncs-138-nm-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c7ay01705g | huang2017-c7ay01705g | huang2017-c7ay01705g-cdte-qds-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c7nr04593j | wang2017-c7nr04593j | wang2017-c7nr04593j-bi2s3-c-dot-nanohybrids-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c7nr08369f | wang2018-c7nr08369f | wang2018-c7nr08369f-ag2s-ncs-4-510-nm-1; wang2018-c7nr08369f-agcus-ncs-1527-nm-2 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c8nr04606a | smilgies2018-c8nr04606a | smilgies2018-c8nr04606a-ausingle-ncs-1; smilgies2018-c8nr04606a-aupoly-ncs-2 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c9cc09368k | swain2020-c9cc09368k | swain2020-c9cc09368k-sample-3-3 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+| 10.1039/c9dt03163d | abate2019-c9dt03163d | abate2019-c9dt03163d-mn-cise-qds-cm8-1 | local-intake-20261115-r04 | Verified live; source_extracted | 0 |
+
 ## Local-corpus release 03 verified live — 15 November 2026
 
 47 primary papers / 67 original-ordinal source-extracted records / 261 captioned figure crops. Source `0a366781c8c2170142a97f3fac13cd255f32fe78`; Site `8fe07c0a51b483ba4a868d6687b3e338772e764c`.

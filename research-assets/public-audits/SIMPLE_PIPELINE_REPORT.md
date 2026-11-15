@@ -1,4 +1,52 @@
-# Local-corpus intake: 96 papers verified live — 15 November 2026
+# Local-corpus intake: 136 papers verified live — 15 November 2026
+
+## Release04 verified; next release remains local — 21:28 UTC checkpoint
+
+Four closed releases have added **136 papers, 203 source-extracted records and
+742 captioned figures**. The full-folder task remains unfinished. Release04
+adds 40 papers, 57 records and 227 figures; the verified Source now contains
+7,068 canonical records and 3,052 distinct primary-source DOIs. Draft additions
+are excluded from these live counts.
+
+The packaging repair passed through
+[PR169](https://github.com/cuiyist/nanoxtalsyn/pull/169), merged as
+`58b10fe7138b359bc7be152e238ca2048cfd6ceb`.
+[Publisher43746489949](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43746489949)
+completed successfully at 19:44:34Z; Site commit
+`3a3554d54d36cb246b5fea631f8aa2612566e9df` passed
+[Pages43750956700](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43750956700).
+Normal anonymous checks covered 1,862 files, all 40 new paper routes and 58
+material routes with no failures; all 68,902 published-text entries passed.
+The original failed publication and transient HTTP503 remain recorded.
+
+All 57 new canonical records and 465 referenced assets also matched anonymous
+live bytes. Three new pages passed desktop and phone checks, with all 24 saved
+views actually inspected; a tall figure's scrolled caption and locator were
+checked separately. Complete-record downloads passed on both devices:
+7,068 records, 105,191,683 bytes and the original complete-stream checksum.
+Transport splitting did not change scientific records or training eligibility.
+The exact 40 contributions are carried in the machine-extracted paper index
+with this next substantive paper release, without recounting older papers.
+
+The next local draft contains 53 papers, 86 records and 242 captioned figures
+from batches29–35, using batch31's narrowed ready02 selection. All imports,
+Reader synchronization, 601 new asset registrations and seven quote-free exports
+completed. The r20 reconciliation passed 57,581 chemical checks with no errors
+or warnings, plus 7,605 inventory files and 1,435 material-record lists. All 7,068
+previously verified canonical records and 6,510 prior Reader objects remain
+unchanged. This draft is not published; the normal release threshold is met.
+
+Batch35 completed 28 of 29 two-pass extractions with native CHECK exit0 and
+139 figure crops. One beta-zeolite paper exhausted its single redo; a faujasite
+paper recovered but remains held for a wrong material-identity conversion.
+Its admitted subset is 14 papers, 30 records and 69 figures after 31 whole-object
+deletions; 15 inputs are held or omitted with saved reasons. All 69 captions were
+compared, with 17 wording fixes, no locator changes and no extra model requests.
+Batch36 is processing 30 inputs; another 469 candidates are prepared but unlaunched.
+These are subsets of the broader corpus, not counts of eligible papers or live additions.
+No independent scientific audit, accuracy claim or training promotion is added.
+
+## Historical checkpoint retained below
 
 ## Publication packaging repair pending — 17:03 UTC
 
