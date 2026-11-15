@@ -1,4 +1,108 @@
-# Local-corpus intake: six papers verified live — 14 November 2026
+# Local-corpus intake: 49 papers verified live — 15 November 2026
+
+Two verified releases have added **49 papers, 79 source-extracted records and
+254 captioned figures**. This is progress on the local corpus, not completion.
+
+The second release adds43papers/65records/227figures through
+[Source PR166](https://github.com/cuiyist/nanoxtalsyn/pull/166), merged as
+`401e3e283b699f3bfffddd0223e159e8371b3664`. Its Site commit is
+`0df61cd66dcb104857185c096719a8deb22f6071`.
+[Publisher43666621256](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43666621256)
+finished successfully at2026-11-15T03:26:37Z, after
+[Pages43670055214](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43670055214).
+Normal anonymous verification checked2,167files, including2,131changed-file
+entries,43new paper routes and50material routes, with zero final mismatches or
+route failures. The full published-text check anonymously verified all67,653
+selected files. Candidate and final build trees match, and boundary/browser
+checks passed. Original transport attempts and historical failures remain saved.
+
+The integrating assistant also compared all65new canonical records and543
+referenced assets with their anonymous live bytes. Three new pages—Kumari,
+Hongo and Creutz—passed desktop/phone interaction checks; all24saved precursor,
+protocol, structure and enlarged-figure views were actually inspected. No layout
+defect was observed. These are presentation and publication checks, not an
+independent scientific audit or training-data promotion.
+
+The next source branch contains47more papers/67records/261captioned figures,
+with551new registered assets and ten quote-free exports. These drafts are
+**not live**. All earlier canonical files and Reader objects are preserved.
+Local chemical/material bindings passed57,161native checks without errors or warnings,
+with exact reconciliation of7,486inventory files and1,405material record lists.
+This is not a publication check. The40-paper release threshold is now met;
+normal source preparation, CI, deployment and anonymous verification remain required.
+
+Batch18 subsequently completed29of29two-pass extractions, including one successful
+retry, with native CHECK exit0,41matched candidate pairs and165figure crops.
+Five papers/six records were selected and imported;24inputs were omitted or held.
+The original Reader update stopped at a verification assumption that every paper
+had extracted figures. All earlier Reader objects were preserved before that
+failure. Five source plots skipped by the default category filter have now been
+recovered with the existing native all-figures option and visually checked. Their
+five new captions were compared with the source captions,while four exactly
+matching prior caption responses were reused. The narrow figure-only repair
+completed successfully,changing no canonical or scientific values and preserving
+the original failure. These five papers are now in the47-paper pending pool;
+they are not part of the49verified live contributions. No release gate was relaxed.
+
+Batch20completed24of26two-pass extractions,including two successful retries and
+two exhausted failures,with native CHECK exit0,27matched pairs and146crops.
+Four papers/four records were selected;22inputs were omitted or held. Nine
+rare-material corrections are whole-object deletions. All20selected figure
+captions were compared,with six wording corrections. Their records,Reader pages,
+43new registered assets and quote-free export are integrated locally,not live.
+Batch21completed27of30two-pass extractions,with three exhausted retry failures,
+native CHECK exit0,39matched candidate pairs and163crops. Two papers/two records
+were selected;28inputs were omitted or held. Their eight captions were compared,
+with three wording corrections and no scientific replacements or deletions.
+Records,Reader pages,14new assets and the quote-free export are integrated locally.
+The selected original pair ordinals remain unchanged;unselected variants are not
+in the public export. A metadata check caught a protocol's Nano Focus label,
+missed by the earlier detector;its original-research eligibility remains held.
+This format is listed separately from original research in the
+[official ACS guidance](https://researcher-resources.acs.org/publish/author_guidelines?coden=ancac3).
+Batch22completed27of28two-pass extractions,with one exhausted retry failure,
+native CHECK exit0,53matched candidate pairs and150crops. Eight papers/16records
+were selected;20inputs were omitted or held. Five rare-material corrections are
+whole-object deletions,not replacement facts. All44selected captions were compared,
+with16wording corrections and no locator changes or extra model requests.
+The records,Reader content,93new registered assets and quote-free export are
+integrated locally. The retraction exclusion and failed original/redo passes remain
+preserved. All308engineering regression tests passed,with no skipped tests.
+Batch23is running on29new duplicate-checked inputs;676prepared inputs remain
+unlaunched. Its candidates are not part of the47-paper release pool or live count.
+Batch43finished36of39two-pass extractions, with native CHECK exit0,198found
+figure crops and three failures after their permitted retry. Its final selection
+is nine papers/eleven records;30inputs are omitted or held with recorded reasons.
+Caption comparison exposed one precursor/final-product mismatch before import.
+A fresh cohort excludes that paper and reuses nine exactly matching previously
+reviewed caption packets without any new model request. Its54captions have23
+wording corrections. The14rare-material corrections are whole-object deletions,
+not replacement facts.
+
+Batch15completed30of30two-pass extractions with no retries or extraction failures,
+native CHECK exit0,47matched candidate pairs and186figure crops. Four papers with
+five records and37figures were selected;26inputs have recorded omissions or holds.
+All37captions were compared, with nine wording clarifications and one page locator
+restored to its immutable source-bound input. The original failed model packet is
+preserved; unchanged native caption checks pass and five focused locator tests pass.
+No scientific values were replaced, and no extra caption model request was needed.
+Batch16completed28of28two-pass extractions with no retries or failed passes,
+native CHECK exit0,45matched candidate pairs and154found figure crops. Seven papers
+with ten records and36figures were integrated;21inputs have recorded omissions or
+holds. Seven scientific corrections are whole-object deletions, with no replacement
+facts. All36captions were compared, with11wording fixes and six exact page-locator
+repairs. Two original failed packets are preserved; unchanged native checks pass.
+Batch17completed22of23two-pass extractions;one paper failed again after its permitted
+retry. Native CHECK exited0,retaining37candidate pairs and99figure crops. Five papers
+with eight records and22figures were integrated;18inputs are omitted or held.
+Eight scientific corrections are whole-object deletions. All22captions were compared,
+with eight wording clarifications and no extra model requests. A private read-only
+preview now reports native conversion failures and continues to later papers; it
+does not coerce scientific values or change any admission rule.
+Remaining corpus work, paused audits and existing safety/identity holds are not
+marked complete. Storage after the latest local atlas refresh:371.92GB free,0GB removed.
+
+## Historical checkpoint: first six-paper release — 14 November 2026
 
 The first intake release is now live: **6 new primary papers, 14 source-extracted
 records and 27 captioned figure crops**. These contributions are counted once.
