@@ -323,6 +323,16 @@ def left_caption_image(cap, images, page_width):
     return matches[0] if len(matches) == 1 else None
 
 
+def right_caption_image(cap, images, page_width):
+    """A narrow left-margin caption can accompany one close raster on its right."""
+    if cap.width > page_width / 3:
+        return None
+    matches = [g for g in images if g.width >= 60 and g.height >= 60
+               and g.x1 <= page_width and 0 <= g.x0 - cap.x1 <= 36
+               and min(g.y1, cap.y1) - max(g.y0, cap.y0) > 0.5 * min(g.height, cap.height)]
+    return matches[0] if len(matches) == 1 else None
+
+
 def find_figures(pdf_path):
     """Yield (page number, label, caption, clip rectangle) for each figure whose caption and graphics are found."""
     try:
@@ -352,6 +362,9 @@ def find_figures(pdf_path):
                 regions = [fitz.Rect(x0, top, x1, cap.y0), fitz.Rect(x0, cap.y1, x1, bottom)]
                 side = left_caption_image(cap, images, W)
                 if side is not None: regions.insert(0, fitz.Rect(side.x0, side.y0, cap.x0, side.y1))
+                right = right_caption_image(cap, images, W)
+                if side is None and right is not None:
+                    regions.insert(0, fitz.Rect(cap.x1, right.y0, right.x1, right.y1))
                 for region in regions:  # uniquely adjacent on the left, otherwise above or below
                     inside = [g & region for g in graphics if (g & region).get_area() > 0.5 * g.get_area()]
                     if not inside: continue

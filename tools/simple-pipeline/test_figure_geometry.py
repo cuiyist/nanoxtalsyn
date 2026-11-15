@@ -160,6 +160,35 @@ class GeometryTests(unittest.TestCase):
         self.assertEqual(found(Page([caption], [(-100, 100, 100, 200)])), [])
         self.assertEqual(found(Page([caption], [(30, 160, 70, 200)])), [])
 
+    def test_unique_right_image_for_narrow_margin_caption(self):
+        cap = (50, 60, 160, 120)
+        image = (185, 62, 545, 440)
+        rows = found(Page([block(cap, 'Fig. 5 Synthetic microscopy caption.')], [image]))
+        self.assertEqual([row[1] for row in rows], ['Figure 5'])
+        self.assertEqual(tuple(rows[0][3]), (181.0, 58.0, 549.0, 444.0))
+
+    def test_right_match_rejects_gap_overlap_size_and_page_bounds(self):
+        cap = fitz.Rect(50, 60, 160, 120)
+        for image in ((197, 62, 545, 440), (185, 90, 545, 440),
+                      (185, 62, 235, 440), (185, 62, 605, 440)):
+            self.assertIsNone(simple.right_caption_image(cap, [fitz.Rect(image)], 600))
+        self.assertIsNone(simple.right_caption_image(fitz.Rect(50, 60, 260, 120),
+                                                    [fitz.Rect(285, 62, 545, 440)], 600))
+
+    def test_ambiguous_right_images_rejected(self):
+        cap = fitz.Rect(50, 60, 160, 140)
+        images = [fitz.Rect(185, 50, 545, 120), fitz.Rect(185, 80, 545, 200)]
+        self.assertIsNone(simple.right_caption_image(cap, images, 600))
+
+    def test_two_right_figures_remain_distinct(self):
+        caps = [(50, 60, 160, 120), (50, 300, 160, 350)]
+        images = [(185, 62, 545, 270), (185, 302, 545, 540)]
+        rows = found(Page([block(cap, f'Fig. {i} Synthetic XRD caption.')
+                           for i, cap in enumerate(caps, 1)], images))
+        self.assertEqual([row[1] for row in rows], ['Figure 1', 'Figure 2'])
+        self.assertEqual([tuple(row[3]) for row in rows],
+                         [(181.0, 58.0, 549.0, 274.0), (181.0, 298.0, 549.0, 544.0)])
+
     def test_inline_references_are_not_side_captions(self):
         for text in ('Figure 3 shows a synthetic plot.', 'Figure II Synthetic plot.'):
             self.assertEqual(found(Page([block((330, 140, 560, 200), text)], [(100, 100, 315, 260)])), [])

@@ -1,3 +1,23 @@
+## Local-corpus intake verified live — 14 November 2026
+
+Six primary papers /14 original-ordinal source-extracted records /27 captioned
+figure crops are counted once after normal publisher43627484424 completed at
+2026-11-14T19:49:50Z. Source`0ae262395752931e7184a26c348869f70419e06a`,
+Site`894aa9a0b10a2ac5b5c03a90a90cdaee6c885ee4`; Pages43631478403, anonymous
+verification and actual three-page desktop/phone visual inspection passed.
+No independent scientific audit or training credit is added.
+
+| DOI | Source ID | Record IDs | Batch | Status | Expert / training credit |
+|---|---|---|---|---|---|
+| 10.1021/acs.chemmater.6b01681 | ondry2016-acs-chemmater-6b01681 | ondry2016-acs-chemmater-6b01681-cds-nanocrystals-1; ondry2016-acs-chemmater-6b01681-cdse-nanocrystals-2; ondry2016-acs-chemmater-6b01681-pbs-cds-core-shell-nanocrystals-3 | local-intake-20261114 | Verified live; source_extracted | 0 |
+| 10.1021/acs.jchemed.3c00155 | ryswyk2023-acs-jchemed-3c00155 | ryswyk2023-acs-jchemed-3c00155-pbs-qds-synthesized-with-0-3-ml-of-oleic-1 | local-intake-20261114 | Verified live; source_extracted | 0 |
+| 10.1021/acs.jpclett.5c00019 | eom2025-acs-jpclett-5c00019 | eom2025-acs-jpclett-5c00019-ag-hgte-colloidal-quantum-dots-cqds-1 | local-intake-20261114 | Verified live; source_extracted | 0 |
+| 10.1021/acs.langmuir.1c01286 | kong2021-acs-langmuir-1c01286 | kong2021-acs-langmuir-1c01286-ps-capped-ag-cncs-1; kong2021-acs-langmuir-1c01286-ps-capped-cu2o-cncs-2; kong2021-acs-langmuir-1c01286-ps-capped-fe3o4-cncs-3; kong2021-acs-langmuir-1c01286-ps-capped-cdse-cncs-4; kong2021-acs-langmuir-1c01286-ps-capped-ag-fe3o4-hybrid-cncs-5; kong2021-acs-langmuir-1c01286-ps-capped-au-ag-hybrid-cncs-6 | local-intake-20261114 | Verified live; source_extracted | 0 |
+| 10.1021/acsanm.5c03254 | almeida2025-acsanm-5c03254 | almeida2025-acsanm-5c03254-n-c-qds-1 | local-intake-20261114 | Verified live; source_extracted | 0 |
+| 10.1021/jacs.4c17283 | zaza2025-jacs-4c17283 | zaza2025-jacs-4c17283-cu-rhombic-dodecahedra-1; zaza2025-jacs-4c17283-cu-cubes-2 | local-intake-20261114 | Verified live; source_extracted | 0 |
+
+Earlier entries follow unchanged.
+
 ## particles43 verified Live — 2026-10-29T19:14:06+00:00
 
 43 primary papers / 69 selected original-ordinal source_extracted/unreviewed records / 263 captioned crops verified Live at 2026-10-29T19:14:06+00:00 on Site 27774f81ee149a7ed30957f39fa222df440dc933 after genuine normal publisher, exact-head Pages and anonymous verification. No new scientific audit or training credit. All previous history and paused audit denominators remain unchanged.
