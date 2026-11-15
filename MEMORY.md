@@ -1,4 +1,272 @@
-## Local-corpus continuation — 15 November 2026, 01:01Z
+## Local-corpus continuation — 15 November 2026, 09:45Z
+
+Verified live intake remains49papers/79records/254figures,Source401e/Site0df61.
+Pending branch intake/tanjin-r03-20261115 has47fullyintegratedpapers/67records/
+261captionedfigures,551newregisteredassets and10quote-freeexports. DraftSource
+7011canonical/3012primaryDOIs,4026machineReaderrecords. The40-paper threshold is
+met;prepare one normal release03transaction next. No commit/PR/livecredit yet.
+
+Batch22finished09:36:01Z,session23862exit0/server19748stopped.27/28two-pass,
+one exhaustedredo jacs.2c08227(bothA/Bnativeinvalidoriginal+redo),CHECK0,
+53matchedcandidatepairs/150crops0missing/failures.8selected/16records/44figures,
+20omits/holds,5whole-objectdeletionsonly. GeSncm503983bpages2,5,6,1once:
+retainoriginal2afterfiveobjectsremoved;original1wrongpureGe1hconditionheld.
+PtFeja310612ppage2once,freeisolationoutsidecellunestablished,allvariantsheld.
+Allscientificreadingclosed;noextracommonreading. jacs.0c12185actualtop280
+headerverified11authors/2021;allotherselectedcitationsreuseactualobservations.
+
+22/ready01prepared09:37:34Z;8vs3005aliascheckzero. Caption60774exit0/server14908
+stopped8requests44figs0failures;all44actuallycompared,16wordingfixes0locators.
+Import09:41:02Zpreserved6995priorcanonical;sync15446exit0preservedallpriorReader.
+100assetschecked/93newregistered. Quote-freeexport51556bytes,16selectedoriginal
+ordinalsfrom21privatepairs,SHA5e8b787b363364951f7fb53a864dceb3b13a1eaad38d0a211aa36cd56793720a.
+
+r13chemical/nativeatlas/fullbindings/reconciliationcomplete:7486files/1405hubs,
+57161checks0errors/warnings;Readerparts78007146/77992229bytesbelow80MiB.
+Elevennewhonestflatchemicalnamecards,6621baselineentriespreserved.
+Usefullpending-bindings-r13.private.json. Cohorts13/ready01,14/ready01,43/ready02,
+15/ready01,16/ready01,17/ready01,18/ready02,20/ready01,21/ready01,22/ready01.
+Casotti18/ready02mustbeoneofthreeactualdesktop/phoneQAchoices. Neverusepartial
+18/ready01or43/ready01.308engineeringtests passed0skips. Cfree371.92GB/0removed;
+refusedcleanupnotretried. No trainingpromotion/independent-auditclaim.
+
+Batch23launched09:39:30Z29inputs,session84217/server14680/controller39656.
+main-manifest SHA f8b3272d371280e43154f4b441851c2a71d238b1bc263e32b8142f9ff81223a1.
+Freshprelaunchalias29vs3013zero,includesselected22. Firstthreeoutputs:
+Li5b05462rareCdSe/CdS:Alneedsitsonecheck(savedproductpreviewonly,nosciencepageyet);
+5b13470genericCsSnX3nativeidentityhold;5c02861nostepshold. Those two omits saved.
+676preparedinputsremainunlaunched,next24. Continue23whilethe47-paper release
+builds. Do not import anothercohortintothisalreadycomplete47-paperpool.
+Corpusunfinished;allpausedaudits,refusalsandholds preserved.
+
+## Historical local-corpus continuation — 15 November 2026, 08:50Z
+
+Verified live intake remains49papers/79records/254figures at Source401e/Site0df61.
+Pendingbranchintake/tanjin-r03-20261115 now39fullyintegratedpapers/51records/
+217captionedfigures,458newregisteredassets,9quote-freeexports. Source6995canonical/
+3004primaryDOIs. No release03commit/PR/publication.40paper-or12hourrule unchanged;
+currentreleasewindowstartedabout01:29UTC. Batch22candidatesarenotready/liveyet.
+
+Batch21finished08:43:42UTC,session25339exit0/server28212stopped:27/30two-pass,
+3exhaustedredos,CHECK0,39matchedpairs/163crops,0missingfigurefiles. Selected2papers/
+2records/8figures;28omits/holds,0scientificdeletions. Yu1c01067original2InPcore
+andMazzotti3c00585original2CdSeMSNC494selectedunchanged(common133/375). Yuoldactual
+2021headerreused;Mazzottiactual2023header/fiveauthorsverified,accentMulépreserved
+metadata-only. ExcludedYu1/3missingshellformation;Mazzotti1size/samplelabel434nm
+ambiguityheld,notedited. Onlyrarecheck4c04058p2ONCE,omittedmissingformation;no
+unfinishedscience. NanoFocus2c11689metadata/source-rolehold,notprovenprimary;
+officialACSguidancechecked,headeractualtitle/fourauthors/2022verified. Noextra
+commonbodyread. Failures4c06067A,5c04997bothA/Btruncatedlength12288,6c05927A;
+neverrerun/salvage. Otheromitsrecordedplan,do notreopen.
+
+21/ready01prepared08:44:29UTC,alias2vs3003zero. Caption session12883exit0/server14796
+stopped2requests8figures0failures;all8actuallycompared,3wordingfixes0locators.
+Import6993priorcanonicalbytespreserved;syncsession74801exit0;14newassetsregistered.
+Quote-freeexport8751bytesSHAefdf790779350efb75eda92f781b20acc2e515b0a70b9159337c139e167d6b73,
+onlytwooriginalordinalsselectedfrom5privatepairs. No independentaudit/trainingclaim.
+
+r12chemical->nativeatlas->fullbindings->exactreconciliationcompleteexit0:
+7483files/1404hubs,57106checks0errors/warnings. Readerparts77821092/77812152bytes.
+Cfree372.31GB,0removed. Usefullpending-bindings-r12.private.jsonnext. Cohortlist
+13/ready01,14/ready01,43/ready02,15/ready01,16/ready01,17/ready01,18/ready02,
+20/ready01,21/ready01.18figure-onlyrepairfinished;neverusepartial18/ready01.
+Casotti remainsrequirednewdesktop/phoneQAchoice before eventualrelease03.
+
+Batch22running28inputs,session23862/server19748/controller28544. Exact
+main-manifest-r02 SHA5f87c6cb5c820a6a3954d1ce238c4b7b6af3b8f3f6d6263e61027ed7b3712bb1
+preservesam404534vretractionexclusion. Freshalias28vs3005zero.3successfuloutputs
+at08:49:58UTC:2selected/2records,1omit. Zhan9b03318C,N,Ocommon6retainedHTfreeQD
+route,oldactual2019headerreused. Roy8b00844Sicommon143inverse-micelle/reduction+
+functionalization,actualtop280headerverifiedsixauthors/2018. No scienceedits/read.
+5c00616substrate-grownInAs/barrierlayerrouteOUT,do notreopen.705preparedinputs
+unlaunched,next23main-manifest.private.json. Corpusunfinished;pausedaudits/refusals
+preserved. Continuecurrentbatch;do notcountitscandidatesreadyorlaunchanothermodel.
+
+## Historical local-corpus continuation — 15 November 2026, 07:43Z
+
+Verified live intake remains49papers/79records/254figures at Source401e/Site0df61.
+Pending branch intake/tanjin-r03-20261115 now contains37fullyintegratedpapers/
+49records/209captionedfigures,444newregisteredassets and8quote-freeexports. Draft
+6993canonical/3002primaryDOIs. No release03commit/PR/publication;40paper-or12hour
+rule unchanged. Alloldercanonicalbytes/Readerobjects preserved,0filesremoved.
+
+Batch18figureclosure completed07:36:41UTC. Newready02reused4exactcaptionpackets
+andgenerated1newpacket;5recoveredCasottiplotswereactuallyviewed and5newcaptions
+compared.28totalcaptions,10wordingfixes(7prior+3new),0locatorfixes. Narrow native
+single-source sync changedonlytwoCasottiReaderfigurearrays andone source-figure
+row;all6989then-currentcanonicalbytes andotherscience unchanged. Originalready01
+syncfailure remains saved,notreplayed/erased. Exactunpublishedquote-freeexport
+replacedonlyfivefigureentries,52assetsregistered. Use18/ready02ONLYfromnowon.
+Casotti remainsa requirednewdesktop/phonevisualQAchoice beforepublication.
+
+Batch20finished07:34:21UTC,24/26two-pass,4redos(2successful2exhausted),CHECK0,
+27matchedpairs/146crops,0figurefailures. Final4papers/4records/20figures,
+22omits/holds,9whole-objectdeletions fromoneHuangrarecheck;no unfinishedreading.
+SelectedYinPbS6c00783,HuangCdTe/HgTe6c00900,DongMoS25b10459,TongCsPbBr38b20681.
+All20captionscompared,6wordingfixes. Import/sync/register43newassets/exportcomplete.
+Nativevalidfalse1c04801and6b02599areexhaustedfailures;neverretry/salvage.
+
+r11chemical->nativeatlas->fullbindings->exactreconciliationcompletedexit0:
+7482inventoryfiles/1404materialhubs,57101checks0errors/warnings. Readerparts
+77801906/77783763bytes<80MiB. Cfree372.70GB,0removed. Fullpending-bindings-r11
+is the next incremental baseline;notr10orchemical-only. Futurecohortlist:
+13/ready01,14/ready01,43/ready02,15/ready01,16/ready01,17/ready01,18/ready02,20/ready01.
+
+Batch21running30inputs session25339/server28212/controller37300 using exact
+main-manifest-type-r02 SHA9936350b204756ee335244ff2fdde8b594cace65a19a031e6370f4e19f7ea9af.
+Freshmetadataaliascheck30vs3003has0holds. Three successfuloutputs at07:42:38UTC,
+allomitted:4c00255/4c02976emptyroute;4c04058rarepage2onlyshowsmissinghydrothermal
+formation,do notreadfurther.0selected,0adopteddeletes. Earliermetadataobservations
+remainavailable;4c06414actualyear2025alreadyknown.733preparedinputsunlaunched,
+next22main-manifest-r02. Corpusunfinished;pausedaudits/refusalsstillpreserved.
+
+## Historical local-corpus continuation — 15 November 2026, 06:50Z
+
+Live intake remains49papers/79records/254figures, Source401e/Site0df61.28pending
+papers/39records are fully integrated throughr10;another5papers/6records fromBatch18
+are imported but NOT fully ready. Draft6989canonical/2998DOIs. No release03commit,
+PR or publication. Previousr10inventory/bindings applyonlytothe28-paper pool,not
+the additionalpartial18import. Do not refreshbindingsuntilitsfigureclosure.
+
+Batch18finished29/29two-pass,one successfulredo,41matchedpairs,CHECK0,165crops.
+Selected5papers/6records,24omits,10whole-objectdeletions;4rarecheckscomplete,no
+repeatedreading.23originalcaptionschecked/7wordingfixes. Sourceimportpreserved6983
+priorcanonicalbytes. Reader sync exited1 AFTER nativesync/captionapplication:
+privateverifier assumed everynewsourcehadfigures,butCasotti5b00068hadzeroaccepted
+crops. Originalfailure retained;priorReaderpreservation/exactnewIDs passed before
+failure,butno finishedsync receipt. Do not replayfullsyncorrelaxpublicationgates.
+
+Nativecaption/graphicdiscovery found5Casottiplots,allcategoryother. Existingnative
+all-figuresoption recovered exactregions innewprivatebatch18/ready02:5papers/6records/
+28figures. All5cropsactuallyviewed;no scientific/canonicalSourcechanges. CurrentReader
+andcanonicalhashespinned,notbaselinecopies. AfterBatch20serverexits,generate only
+the one new captionpacket and reusefour reviewedones. Then finish_postimport_figure_recovery.py
+must updateONLYthetwoCasottiReaderfigurearrays/newsourcefigurerow and verifyallother
+objects/canonicalbytes;five focusedpure-delta tests pass. export_postimport_figure_recovery.py
+permitsonlyfivefigure additions to thehash-boundunpublishedoldpublicexport. These
+finishersarewrittenbutNOTexecuted. Use18/ready02forfutureaggregation,notready01.
+No18assetregistration/fullr11bindingyet. Nativechecksunchanged;0filesremoved.
+
+Batch20active26inputs,session34706/server40724/controller10812;7two-passsuccesses
+at06:49:47UTC,2selectedpapers/2records and5omits. Exactscope-r02manifest/freshalias
+26vs2999has0holds. YinPbScommonheaderonly;HuangCdTe/HgTerarecheckedoncep2/4/5/3+
+headerp1,ninewholedeletions,finalexchangeformationretained. No unfinishedscience.
+763preparedinputsunlaunched,next21after20andcaptionrepair. Pausedaudits/refusals/
+40paper-or12hourrelease ruleunchanged. Corpusunfinished.
+
+## Historical local-corpus continuation — 15 November 2026, 05:56Z
+
+Verified live intake remains49papers/79records/254figures at Source401e/Site0df61.
+Pending branch intake/tanjin-r03-20261115 nowcontains28papers/39records/161captioned
+figures,349newregisteredassets and6quote-freeexports. Cohorts13/ready01,14/ready01,
+43/ready02,15/ready01,16/ready01,17/ready01;draft6983canonical/2993primaryDOIs. Allprior
+canonical/Readerobjects preserved. No release03commit/PR/publication. r10chemical→
+nativeatlas→fullbindingcompletedexit0;reconciliation verifies7471inventoryfiles and
+1400materialrecordlists.57,051qualitychecks,0errors/warnings. Readerparts77,657,715/
+77,641,090bytes<80MiB,assetrightsregistry98,873,908bytes. Cfree374.75GB,0filesremoved.
+
+Batch17finished05:48:34UTC:22/23two-pass,oneexhaustedredo(03162-y),CHECK0,37matched
+candidatepairs,99foundcrops,0figurefailures/missingfiles. Selected5papers/8records/
+22figures,18omits,8whole-objectscientificdeletions. Three rarecheckscomplete:2selected,
+1omitted;no rereads. Captions5requests,0generationfailures,all22actuallycompared,
+8wordingfixes,0locatorchanges/extrarequests. Allimport/sync/register51assets/export
+complete. Privatepreviewnow reports native-summary conversion error categories and
+continues past malformed candidates;no coercion/admission change. An alloy string
+quantity failure is preserved and independently outside scope for mechanical milling.
+
+Batch18launched05:51:06UTC,session90667,server37724/controller44644,29inputs. Two
+successfuloutputsobserved,twoomits,0selected,0scientificreadings;fourprioractual
+citation-headerobservationspreserved. Freshprelaunch29vs2994Source/preparedDOIs has
+0aliases,0PDFopens.789preparedinputsremainunlaunched;nextBatch20(after18/captions),
+usingmain-manifest-scope-r02.private.json,notitsoldermanifest. Batch19alreadyreleased.
+40paper/12hourrule,pausedaudits,holds/refusalhistoryunchanged. Corpusunfinished.
+
+## Historical local-corpus continuation — 15 November 2026, 05:17Z
+
+Verified live intake remains49papers/79records/254figures at Source401e/Site0df61.
+Branch intake/tanjin-r03-20261115 now contains23pending papers/31records/139captioned
+figures,298new registered assets and5quote-free exports. Cohorts13/ready01,14/ready01,
+43/ready02,15/ready01,16/ready01; draft6975canonical/2988primaryDOIs. No release03commit,
+PR or publication. All prior canonical bytes/Reader objects are preserved. r09chemical,
+nativeatlas and fullbinding completedexit0;exactreconciliation verifies7464inventoryfiles
+and1398materialrecordlists.57,026nativequalitychecks,0errors/warnings. Readerparts
+77,574,047and77,560,071bytes remain below80MiB;Cfree379.83GB,0filesremoved.
+
+Batch16finished05:08:20UTC:28/28two-pass,0redos/failedpasses,CHECK0,45matchedcandidate
+pairs,154foundcrops,0figurefailures/missingfiles. Selected7papers/10records/36figures,
+21omits,7whole-object scientificdeletions. Fourrarecheckscomplete:3selected,1omitted.
+All36captionsactuallycompared;11wordingfixes and6exact page-locator repairs. Original
+2failedpackets preserved,unchangednativegatespass,0additionalmodelrequests. Allimport,
+sync,91newassetregistrations andquote-freeexportcomplete. No independentauditclaim.
+
+Batch17launched05:11:28UTC with23inputs;session13734,server24344/controller42536.
+One successful output atcheckpoint;one other paper uses its permitted retry. First
+selected rare CrOOHoriginal1 readpages2/1once;oneatmospheredeletion,actualmetadata
+saved. Empty-stepeskolaiteoriginals2/3omitted;no pending scientificreading. Fresh
+prelaunch metadata check23vs2989Source/preparedDOIs found0aliases,0PDFopens.
+818preparedinputs remain unlaunched;next18after17/captions.40paper/12hourrelease rule,
+pausedaudits,existing safety/identityholds and refusal histories unchanged. Corpusunfinished.
+
+## Historical local-corpus continuation — 15 November 2026, 04:30Z
+
+Live intake credit remains49papers/79records/254figures, unchanged verified Source401e /
+Site0df61 release02. Active rarity baseline r02 excludes drafts. Source branch
+intake/tanjin-r03-20261115 now contains16pending papers/21records/103captioned figures,
+207new registered assets and four quote-free exports. Cohorts13/ready01,14/ready01,
+43/ready02,15/ready01; draft6965canonical/2981DOIs. All priorcanonical/Reader objects
+preserved. r08chemical, nativeatlas and fullbinding completedexit0; exact reconciliation
+checks7455inventoryfiles/1396materialrecordlists,zero mismatches. No release03commit/PR.
+
+Batch15finished30/30two-pass,0redos/failures,CHECK0,47matchedcandidatepairs,186crops.
+Final4papers/5records/37figures,26omits/holds,0scientificdeletions. All37captions actually
+compared,9wordingfixes and1exact page-locator correction: modelFigure8page6 restored to
+immutableinput7. Originalfailedpacketpreserved; unchangednativegates pass,5synthetic
+locator tests pass,0extra modelrequests. No audit/trainingcredit. Import/sync/register58
+assets/exportcompleted. Four completed rarechecks:1selected,3omitted;do not reread.
+
+Batch16started04:22:55UTC,28inputs,2workers;session33927,server30184/controller28540.
+Three successfultwo-pass outputs observed,3savedomissions,0selected and0source readings.
+Freshmetadata check28against2982Source/preparedDOIs has0aliases.841prepared inputs remain
+unlaunched;next17after16/captions.40paper/12hourrelease rule remains. Corpus unfinished.
+No cleanup performed;Cfree379.99GB afteratlas, bothReaderparts<80MiB,assetregistry98.56MB.
+Paused audits, existing safety/identity holds and refusal histories remain unchanged.
+
+## Historical local-corpus continuation — 15 November 2026, 03:52Z
+
+Release02 is verified live:43papers/65records/227captioned figures, Source
+401e3e283b699f3bfffddd0223e159e8371b3664, Site0df61cd66dcb104857185c096719a8deb22f6071.
+PR166, publisher43666621256 and Pages43670055214 all succeeded. Normal anonymous
+verification checked2167files/43paper routes/50material routes with zero mismatches;
+the published-text scan verified67653selected files. Separate65record/543asset
+byte comparison passed, and all24new-page screenshots were actually inspected.
+Total new intake credit is49papers/79records/254figures across two releases, not
+corpus completion. Private second-release closure and fresh verified rarity
+baseline are saved; unpublished drafts do not contribute to rarity counts.
+
+New branch intake/tanjin-r03-20261115 is based on401e. Batch13/ready01,
+batch14/ready01 and batch43/ready02 are imported, Reader-synced, caption-checked,
+registered and quote-free exported:12papers/16records/66figures/149newassets.
+All6944baseline canonical files and prior Reader objects remain preserved.
+Source6960records/2977primary DOIs is a draft count, not current live credit.
+Chemical-only r07, native atlas and full binding refresh all completed exit0 in
+order. Exact reconciliation verifies7450inventory files and1395material record
+lists, zero mismatches. Prior Reader/canonical objects remain preserved;0files
+removed. No release03transaction/commit/publication yet;40paper/12hour rule stays.
+
+Batch43finished36/39two-pass, CHECK0,198found crops,3exhausted failures. Final
+selection9papers/11records/54figures with14whole-object deletions and30omissions.
+Keep ready01immutable and unimported:caption review exposed6c00782's intermediate
+preparation/final-QD mismatch. Ready02excludes it and reuses9exact prior reviewed
+caption packets, zero new model calls; all54captions checked,23wording fixes.
+All seven rare checks and selected metadata observations are complete; no rereads.
+Batch15is active with30inputs using main-manifest.private.json; latest observed
+nine two-pass successes. Fresh prelaunch alias check includes pending cohorts,
+zero holds. Remaining869prepared unlaunched inputs follow16–18,20–42,44–50.
+No51:limited nomination profiles exhausted, but corpus reconciliation remains.
+Paused audits, PuO2safety hold, historical refusals and optional cleanup refusal
+remain unchanged. Do not relaunch completed cohorts or manufacture live credit.
+
+## Historical local-corpus continuation — 15 November 2026, 01:01Z
 
 Pending pool now43papers/65records/227captionedfigures, sevenexports; only the
 earlier six papers have verified new live credit. Batch12completed31/32,CHECK0,
