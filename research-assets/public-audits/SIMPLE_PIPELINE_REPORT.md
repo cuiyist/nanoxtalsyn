@@ -1,3 +1,154 @@
+# Local-corpus intake: six papers verified live — 14 November 2026
+
+The first intake release is now live: **6 new primary papers, 14 source-extracted
+records and 27 captioned figure crops**. These contributions are counted once.
+[Source PR165](https://github.com/cuiyist/nanoxtalsyn/pull/165) merged as
+`0ae262395752931e7184a26c348869f70419e06a`; the verified Site commit is
+`894aa9a0b10a2ac5b5c03a90a90cdaee6c885ee4`.
+
+[Publisher43627484424](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43627484424)
+completed successfully at 2026-11-14T19:49:50Z, after
+[Pages43631478403](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43631478403).
+Candidate and final tree hashes match; both public-boundary checks passed all
+83,142 files. Normal anonymous verification checked 597 files, including 561
+changed-file entries, all six new paper routes and 17 material routes, with no
+final mismatches or route failures. The subsequent full published-text scan
+anonymously verified all 66,999 selected text files. A transient HTTP503 and
+other retried transport attempts remain recorded; final success does not erase
+those observations.
+
+The integrating assistant separately verified every new canonical record and all
+97 registered assets against their exact local bytes. Three new pages (Almeida,
+Eom and Zaza) passed desktop/phone interaction checks; all 24 captured precursor,
+protocol, structure and enlarged-figure views were actually inspected, with no
+observed display defect. Missing molecular or specimen-structure assignments
+remain explicitly labelled, rather than replaced with invented models.
+
+The next release is in source preparation, not live: Batch06, Batch08, Batch09,
+Batch10, Batch11, Batch19 and Batch12 add 43 selected papers / 65 draft records / 227 captioned figure crops. Original
+ordinal identities, all 6,879 prior canonical record files, earlier Reader objects
+and training exclusions are preserved. The native registrar added 497 exact
+figure/diagram/name-card assets; seven quote-free exports contain only the 65 selected
+original pairs. Source records now total 6,944, but this is not the live count.
+
+All 227 saved captions were compared with their public wording. Two originally
+failed caption packets are retained; 54 wording corrections passed the unchanged
+native caption predicates without extra wording-review model requests. This is caption checking,
+not independent scientific auditing. The additive chemical-binding check passed
+56,896 checks and 2,243 asset hashes with no errors or warnings, preserving 6,592 prior chemical entries.
+Unresolved new identities retain name cards, not invented molecular structures.
+An initial private-helper serialization forecast failed before source writes;
+the corrected forecast uses the established compact two-file Reader serialization
+and its unchanged per-file limits. A later native inventory forecast exposed stale
+chemical-input hashes after additive sync. Separating chemical-pin refresh from
+material-route refresh resolved the ordering issue; both native stages then passed,
+with the original failure preserved and no gate disabled. The normal full release
+checks are still pending. The 40-paper release threshold is now met. Full binding
+r06 passed, and a final read-only reconciliation verified all 7,437 inventory files
+and all 1,385 material-to-record lists. The complete synthetic simple-pipeline
+engineering suite passed 308 tests with no skips; this is not an accuracy audit.
+
+Batch08 completed 31 of 36 two-pass extractions, with final CHECK exit 0 and five
+exhausted-redo failures; its selection is 11 papers / 15 records / 59 figures.
+Batch09 completed 21 of 23 two-pass extractions, with final CHECK exit 0, 103 found
+figures and two exhausted-redo failures. Its five-paper selection contributes ten
+records and 22 figures; the other eighteen inputs have saved omissions or holds.
+Batch10 completed 17 primary two-pass results and native CHECK exit 0, with 86
+figures found. Its two-paper selection contributes two records and eight figures.
+One of its 18 original inputs was a review: the metadata filter missed the plural
+rubric "Reviews". After both original passes exceeded the response cap, its reserved
+redo had begun and was interrupted. All 17 primary results were already complete.
+The native continuation finished figures/CHECK without replaying extraction and
+verified the earlier extraction artifacts unchanged. Original failure/interruption
+receipts remain preserved. The minimal plural-label repair was checked against
+all 165 then-queued inputs; ordinary Highlights sections are not review labels.
+Batch11 completed all 23 two-pass extractions, including one successful permitted
+redo after an original pass failure. CHECK exit 0 retained 31 candidate pairs;
+123 figure crops were found with no figure failures. Four papers / six selected
+records / 22 captioned crops are integrated; nineteen papers have saved omissions
+or holds. The two rare-material readings led to technical omissions, not repaired
+scientific values; the selected common-material papers received no extra scientific
+source reading. All original outputs and the failure history remain preserved.
+
+Batch19 completed 33 of 36 two-pass inputs at 23:52Z on November14, with final
+CHECK exit0, 62 retained candidate pairs, 205 figure crops and no figure failures.
+Three papers exhausted their permitted redo. Seven papers / twelve records /
+32 captioned figures are integrated locally, not live. Eleven whole-object rare
+corrections and ten caption-wording corrections are saved; all29 omissions/holds
+and original failures are preserved. The completed metadata and seven once-only
+rare readings must not be repeated.
+The long-running ZnO/silica redo succeeded but its retained preparation remains
+unusable; successful extraction alone does not establish publication readiness.
+Batch12 completed 31 of 32 two-pass inputs at 00:46Z on November15, with final
+CHECK exit0,39 retained candidate pairs,165 original crops and one exhausted redo.
+Four papers / nine original-ordinal records /18captioned figures are integrated.
+The rare CdSeTe selection succeeded on its permitted redo and received four whole-object
+deletions identified by its once-only source reading; no replacement scientific
+values are introduced. One rare WC candidate remains held after its once-only source
+reading because the in-scope formation phase is unresolved; no scientific values
+or route classification were invented. Its nanocalcite PDF originally yielded no
+structure crops because captions sit to the left of the images. A narrowly tested
+right-side raster layout repair recovered two native source-bound crops; both were
+actually inspected. The original cohort is preserved, and only a fresh cohort was
+imported. Three unchanged caption packets covering16figures were reused under exact
+input/request/response hashes; one new local request supplied the two new captions.
+No synthesis extraction was replayed. Thirty geometry/caption tests and six private
+response-reuse tests passed before use; all native scientific CHECK predicates remain.
+
+Batch13 is processing21inputs. Unlaunched batches14through18 contain31/30/28/23/29
+inputs, followed by batches20through30 with27/30/28/29/29/28/28/33/27/27/28inputs,
+then31through38 with18/11/28/23/29/30/22/17inputs:633unlaunched inputs in total.
+Metadata comparisons held three later preprints sharing normalized titles with
+earlier queued journal articles. Fresh hash-bound snapshots preserve the originals.
+The refined654-input check, before Batch13 launched, found
+no remaining exact DOI/title/paired-translation cross-queue aliases. The private
+metadata helper and launch-choice guard passed12synthetic tests; existing type,
+retraction and native scientific checks remain unchanged. This is not a global
+identity clearance. All prepared batches remain queued in that order. One batch17
+PDF has corrupted extracted text, and one batch18 PDF has missing content streams;
+both are technical holds, not scientific OUT findings. Original diagnostics are
+preserved. Three missing batch18 bibliography entries were resolved by actual
+title/author headers plus labelled saved year metadata. Batch19's 26 missing index
+rows now have source-bound header observations with complete metadata; original
+missing-row results are retained. All seven selected Batch19 title/author lists
+are observed; this does not claim verification of every nonselected indexed name.
+Batch20/21/22/23 have 61 additional actual title/author-header
+observations resolving missing index rows. One Batch22 header explicitly identifies
+the paper as retracted: it was excluded before extraction using a fresh manifest,
+with the original queue snapshot, source PDF and metadata preserved. A narrowly
+targeted explicit-notice detector passed eleven synthetic cases and found only
+that notice among the 317 current/queued inputs checked. This does not establish
+that all other papers are globally free of retractions. No model request or
+scientific CHECK predicate was added or changed. A further exact-header repair
+recognized the label Editorial. Two visually confirmed editorials were excluded
+before extraction with fresh source-bound snapshots; originals are preserved.
+Eleven synthetic label cases and all eleven existing retraction cases passed.
+The subsequent metadata check covered 430 current/queued inputs and is not a
+global bibliographic clearance. Batches25/26 have no blocking PDF or supplement
+issues and all 28/29 initial titles match; individual indexed authors remain
+unchecked until selection. Batches27/28 have 33/27inputs with one title-matching
+exception each resolved by actual header observation. Batch29 retains27inputs,
+all with title matches, after a corrupted-text hold and an explicit Critical Review
+exclusion. That article-type label appeared on page2 after an issue cover. Its
+exact-label repair passed12type tests and11retraction tests;516current/queued
+inputs had no additional metadata flags. Original results remain unchanged.
+These preparations
+do not establish extraction success or publication. Rarity counts remain
+bound to the verified live Source rather than unpublished draft additions.
+Preparation, successful extraction, source integration and publication remain
+distinct counts. The next release follows the 40-ready-paper / 12-hour rule.
+The corpus is **not complete**. No historical technical hold, refusal, scientific
+OUT decision or paused audit task is cleared by this release. No independent
+scientific audit, measured accuracy or training credit is asserted.
+
+Storage: C had approximately383.4GB free at the post-release preview inspection.
+Optional removal of hash-matched generated preview copies was rejected by
+automatic safety review for missing exact bulk-deletion authorization. Nothing
+was removed, no alternate cleanup was attempted, and unaffected paper processing
+continues within the existing storage margin. Preserve this refusal.
+
+Earlier source-preparation report follows unchanged.
+
 # New local-corpus intake — 14 November 2026
 
 The owner resumed intake and requested continuation through the remaining local

@@ -1,3 +1,153 @@
+## Local-corpus continuation — 15 November 2026, 01:01Z
+
+Pending pool now43papers/65records/227captionedfigures, sevenexports; only the
+earlier six papers have verified new live credit. Batch12completed31/32,CHECK0,
+39candidatepairs,165originalcrops; one exhaustedredo(pola.23986). Integrate/sync
+completed for **batch12/ready02**, fourpapers/ninerecords/18figures. Keep ready01
+immutable and unimported. A narrow native right-side raster layout fix recovered
+nanocalcite Figure4/5 from source-hash-bound pages6/7; both crops actually viewed.
+30geometry/caption and six exact-response-reuse tests passed. Sixteen unchanged
+captions reused three original packets; one modelrequest supplied two new captions.
+All18caption comparisons complete, four wording changes, zero scientific edits.
+47newassets registered; pool497assets. Full aggregate r06 passed56896checks/
+2243asset hashes, zeroerrors/warnings. Final reconciliation verified7437inventory
+files/1385material lists. Native engineering suite308tests passed withnoskips.
+Source6944canonical/2965primaryDOIs is NOTlive.40paper release threshold met;
+no release02/commit/push yet. Preserve existing records/Reader objects.
+
+Batch13 active21inputs session96794/server16320. Remaining633unlaunched inputs:
+14–18 then20–38. Mandatory alias-r02 for37/38, retraction-r02 for22, type-r02 for
+21/26/29; allothermain. Both38preprintaliases held before launch. The654-input
+queue receipt was alias-clear before13started. Do not repeat completed rare or
+metadata readings. Corpus unfinished; paused audits and cleanup refusal unchanged.
+
+## Local-corpus continuation — 15 November 2026, 00:35Z
+
+Six first-release papers remain verified live. Unpublished pool remains39papers /
+56records /209figures /450assets, sixexports and full binding r05; no release02 or
+newcommit/push. Batch12 active session16081/controller29524/server44516 has
+24successful outputs, one exhausted redo and seven unfinished of32. Its current
+three-paper selection includes a successful-redo CdSeTe route with four planned
+whole-object deletions after its once-only rare reading. Selected metadata is
+observed. Do not repeat source/header readings. Final CHECK/captions pending.
+
+Unlaunched637inputs follow13–18 then20–37; zero remaining metadata aliases.
+New36/37have30/22inputs. Batch37's preprint rs.3.rs-691426/v1 is held in favor of
+earlier Batch24 s41598-021-00303-9 by exact normalized title. Both originals and
+the initial alias receipt remain saved. Use main-manifest-alias-r02.private.json
+for37;22still usesretraction-r02 and21/26/29type-r02. All othersusemain.
+The private alias refinement/launch guard passed12synthetic cases; prior12type/
+11retraction tests and4AST parses passed. No scientific CHECK,prompt or model
+change. Original37bibliography23rows covers its22-row finalsubset; do not overwrite.
+Continue12 through integration/bindings, then normal release/anonymous gates.
+No newlive credit, audit promotion or cleanup. Corpus unfinished.
+
+Earlier checkpoint follows unchanged.
+
+## Local-corpus continuation — 15 November 2026, 00:20Z
+
+Verified first-release credit remains six papers; pending source pool remains
+39papers/56records/209figures/450registered assets, six quote-free exports and
+full binding r05. No second source transaction, commit or deployment. Batch12 is
+active in session16081, owned controller29524/server44516:16successful outputs
+and one exhausted redo out of32at00:19:36Z. Two common-material selections have
+actual title/author observations; the nanocalcite issue year is2023(online2022).
+One rare WC reading is complete and omitted for unresolved formation-phase scope;
+do not repeat the saved source/header observations. Final CHECK/captions pending.
+
+Unlaunched585inputs follow13–18 then20–35, no metadata cross-queue aliases.
+New31–35counts18/11/28/23/29, all final titles matched; indexed author lists remain
+unchecked until selection. Thirty-one excludes one explicit review, three damaged
+PDFs and18title-based scope candidates;32holds11damaged PDFs;34holds two corrupted
+text PDFs. Original diagnostics/snapshots preserved, no scientific OUT claim from
+technical failures. Use main-manifest.private.json except22(retraction-r02) and
+21/26/29(type-r02). Next finish12, integrate/check usable selections and proceed
+through the normal threshold/release verification. Pool clock/deadline unchanged.
+Optional bulk cleanup remains refused, zero removed. Corpus unfinished.
+
+Earlier checkpoint follows unchanged.
+
+## Local-corpus continuation — 15 November 2026, 00:04Z
+
+Six first-release papers remain verified live, counted once (Source0ae2623,
+Site894aa9a0). The unpublished integrated pool now contains39papers /56records /
+209captioned figures from06/08/09/10/11/19,450new registered assets and six
+quote-free exports. All6879baseline canonical records and6321baseline Reader
+objects are preserved. Full binding r05 passed56896checks,2243hashed assets and
+zero errors/warnings. Current source6935records/2961primary DOIs are not live.
+
+Batch19 finished33/36two-pass inputs, CHECK0,62retained candidate pairs,205figure
+crops and three exhausted-redo failures. Seven selected papers/12records/32figures
+are integrated; all29omissions/holds and original failures are saved. Its seven
+once-only rare readings and selected metadata headers are complete; do not repeat.
+Across the pool209captions were actually compared and50wordings corrected, with
+unchanged native predicates and no extra model requests or scientific replacements.
+
+Batch12 is active in session16081, owned controller29524/server44516; at00:04:47Z
+it had4successful two-pass results from32inputs. Final CHECK/captions are pending.
+Unlaunched476inputs follow13–18 then20–30. Use main-manifest.private.json except
+22(main-manifest-r02.private.json) and21/26/29(main-manifest-type-r02.private.json).
+The current metadata cross-queue receipt finds zero aliases; this is not global
+identity/retraction clearance. Original snapshots and technical/OUT/refusal holds
+remain unchanged. Batch30's lone title mismatch has an actual header observation.
+
+No second source transaction has applied:39ready remains below40. Pool start is
+18:43:48ZNov14,12-hour deadline06:43:48ZNov15. Finish12, integrate usable selections,
+then chemical-only refresh → native material inventory → full binding refresh.
+Normal source/Actions/browser/anonymous checks are still required before any new
+live credit. Optional bulk cleanup remains refused; zero removed. Corpus unfinished.
+
+Earlier checkpoint follows unchanged.
+
+## Local-corpus first release verified — 14 November 2026
+
+Source PR165 merged as `0ae262395752931e7184a26c348869f70419e06a` and
+Site `894aa9a0b10a2ac5b5c03a90a90cdaee6c885ee4` passed the normal publisher,
+Pages43631478403, anonymous verification and actual three-new-page desktop/phone
+visual review. Publisher43627484424 completed successfully at19:49:50Z.
+Count six new papers /14 source-extracted records /27 captioned crops once.
+The remaining local corpus is unfinished. Batch06+08+09+10+11 now have32selected papers /
+44draft source records /177captioned figures, not live. Existing6,879canonical
+records and priorReader entries remain unchanged;381new assets and five quote-free
+exports are prepared. The additive chemical-binding check passed. Native full
+release/build/browser/anonymous checks remain pending. Batch09completed21/23two-pass
+extractions with CHECK exit0; two failures exhausted their redo. Batch10completed17
+primary two-pass results; one mistakenly admitted review was interrupted and excluded.
+Its native figures/CHECK continuation passed without replaying extraction. Batch11completed
+23/23two-pass outputs, including one successful redo, with CHECK0 and123figures.
+Its four-paper/six-record cohort is integrated. Batch19is processing36inputs;
+batches12through18have194prepared main inputs and remain queued in that order,
+followed by batches20through29 with27/30/28/29/29/28/28/33/27/27inputs. The480-input unlaunched queue has
+no exact DOI/title/paired-Wiley aliases in its current metadata snapshots.
+Batch22 must use main-manifest-r02.private.json: an actually observed retraction
+notice caused one prelaunch exclusion while the original29-input snapshot was
+preserved. The narrow notice check passed11synthetic cases and found only that
+notice among317current/queued inputs; this is not a global retraction clearance.
+Missing citation rows in20/21/22/23 have actual source-bound header observations.
+Two actual-header-confirmed editorials were excluded before extraction from21/26,
+using fresh main-manifest-type-r02.private.json snapshots. Original manifests are
+preserved. The exact-label repair passed11synthetic cases and retained the existing
+11retraction tests; the430-input metadata recheck is not global type clearance.
+Batch25through29 have saved final-manifest bibliography candidates. Their two
+title-matching exceptions have actual header observations; no general indexed-author
+claim is made before selection. Batch29 also excludes one corrupted-text PDF and
+one explicit CRITICAL REVIEW on page2 after an issue cover. It requires the fresh
+main-manifest-type-r02.private.json snapshot. The exact-label repair passed12type
+cases and11retraction cases;516current/queued inputs had no additional flags.
+The current Batch19 checkpoint has26successful two-pass results, three exhausted
+redos and seven provisionally selected papers /12records, not live. Its long
+jpcc.6b00135 redo succeeded but remains a preparation-usability hold.
+Batch17holds one corrupted-text PDF; batch18holds one missing-content-stream PDF.
+Missing bibliography rows must be resolved against actual headers before integration.
+The current release pool
+started at18:43ZNov14; apply the40-ready-paper /12-hour rule without reusing the
+first release's timer. Rarity counts use the verified Source, excluding drafts.
+Do not confuse prepared candidates with live pages. Preserve original extraction
+payloads, saved OUT/technical/refusal holds, existing records and paused audit lanes.
+See the current single SIMPLE_PIPELINE_REPORT.md entry for exact release evidence.
+
+Earlier continuation checkpoint follows unchanged.
+
 ## New local-corpus continuation — 14 November 2026
 
 The owner requested processing the remaining local corpus folders without routine
