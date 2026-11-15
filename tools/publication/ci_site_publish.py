@@ -245,6 +245,14 @@ def read_live_reverification_scope(stage, work, built_paths):
 
 
 # --------------------------------------------------------------------- stage
+def check_git_blob_sizes(root, limit=100 * 1024 * 1024):
+    """Fail before staging/pushing any file GitHub cannot accept, including controls."""
+    oversized = [(rel, path.stat().st_size) for rel, path in rb.tree_files(root).items()
+                 if path.stat().st_size > limit]
+    if oversized:
+        fail('Site files exceed the Git blob limit: ' + ', '.join(f'{p} ({n} bytes)' for p, n in sorted(oversized)))
+
+
 def cmd_stage(a):
     src, work, site = a.source.resolve(), a.work.resolve(), a.site.resolve()
     build = read_json(work / 'build.json')
@@ -276,6 +284,7 @@ def cmd_stage(a):
                                           capture_output=True, check=True).stdout)
         carried.append(path)
     rb.stage_controls(src, preview, work / 'site-allowlist.json', a.sync_gate_tools)
+    check_git_blob_sizes(preview)
     rc = preview / '.release-control'
     started = time.monotonic()
     log('start: site boundary gate')
@@ -418,6 +427,7 @@ def cmd_push(a):
     preview = work / 'site-preview'
     if rb.tree_digest(preview) != stage['preview_tree_sha256']:
         fail('staged site tree changed after its boundary gate')
+    check_git_blob_sizes(preview)
     base = stage['site_base_commit']
     remote = git(site, 'ls-remote', 'origin', 'refs/heads/main').split()
     if not remote or remote[0] != base:

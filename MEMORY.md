@@ -1,4 +1,33 @@
-## Local-corpus continuation — 15 November 2026, 14:44Z
+## Publication packaging repair — 15 November 2026, 17:03Z
+
+The all-folders task is UNFINISHED. Verified intake live remains96papers,
+146records and515figures through release03, Site8fe07c0a51b483ba4a868d6687b3e338772e764c.
+Release04's40papers/57records/227figures merged in PR168 as
+9d95e66a220307354752a38a5a87df0fe9d1ec9c but are NOT live. Publisher43731523971
+passed build, boundary and staged-browser gates, then GitHub refused the
+105191683-byte records.jsonl blob. No successful Site push or new Pages receipt.
+The failed log and verification-only artifact receipts remain private and intact.
+
+The repair uses ordered whole-record JSONL parts below80MiB, with byte counts,
+record counts and SHA-256 checksums. The catalogue assembles the complete
+records.jsonl download; machine clients use data/records-manifest.json and
+concatenate every listed part in order. No truncated full-file alias is exposed.
+All7068canonical record files match merged Source bytes; the concatenated export
+matches the original compact JSONL checksum. No scientific or eligibility edits.
+365synthetic regression tests passed, plus desktop/phone synthetic browser
+download, corrupted-part rejection and successful retry checks. These are not
+production publication receipts. Normal Source PR/CI and all release gates remain.
+
+Batch29ready01 is7papers/9records/35reviewedfigures, private and unimported.
+Batch30finished27/28two-pass, one exhausted first redo, CHECK0 and162crops.
+Its ready01 is4papers/4records/21figures,24holds,3whole-object deletions; all21
+captions compared,13wording fixes,0locator changes,0extra model requests.
+Batch31is launched for18freshly deduplicated inputs;458prepared inputs remain
+unlaunched after31, plus the remaining corpus census. Do not count processing
+or prepared candidates as live. Preserve the verified rarity baseline, paused
+audit/Worker lanes, exhausted retries, safety holds and refused cleanup.
+
+## Historical local-corpus continuation — 15 November 2026, 14:44Z
 
 Verified intake live remains96papers/146records/515figures,Source0a366781c8c2170142a97f3fac13cd255f32fe78,
 Site8fe07c0a51b483ba4a868d6687b3e338772e764c. Release03 remains fully closed.

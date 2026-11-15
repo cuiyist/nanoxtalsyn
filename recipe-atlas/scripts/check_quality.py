@@ -15,6 +15,7 @@ from pathlib import Path
 import re
 import sys
 from chemical_reference_quality import check_chemical_reference_overlay
+from record_export import read_export
 
 CRYSTALS = {
     "norberg-undoped-zno-cod9004178-reference": (186, "dbc92c19b101d4fabb5594cc89f2a31629a0e8adab6539edd248c40c585649a1", {"Zn": 2, "O": 2}),
@@ -433,7 +434,7 @@ class Audit:
         return path
 
     def records(self, minimum):
-        rows = [json.loads(line) for line in (self.dist / "data/records.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+        rows = read_export(self.dist / 'data')
         self.byid = {r["record_id"]: r for r in rows}
         self.check(len(rows) == len(self.byid), "Duplicate canonical record IDs")
         self.check(len(rows) >= minimum, f"Expected at least {minimum} canonical records; found {len(rows)}")

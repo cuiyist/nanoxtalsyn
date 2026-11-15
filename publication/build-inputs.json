@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261115-40-papers",
-  "updated_at": "2026-11-15T14:45:58.475191+00:00",
+  "release_id": "tanjin-20261115-r04-jsonl-parts",
+  "updated_at": "2026-11-15T17:09:24.215501+00:00",
   "record_count": 7068,
   "input_files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": ".github/workflows/validate-project.yml",
-      "sha256": "0d5858a888706cc8c7b00587671e4c0c09f58f9c7b9cb7b757c86ab2072f08e3",
-      "bytes": 15631
+      "sha256": "5c6770b54882c9741388dc1514871d16ecb7882da36ee59445949540d6dc95e8",
+      "bytes": 15854
     },
     {
       "path": ".gitignore",
@@ -26,8 +26,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "963f02a2640a7020d523552977e578af6365432689b74367448de30cb972e02f",
-      "bytes": 1173292
+      "sha256": "150722f532952ef80d4ce50e3452aa10d8aa81597fe59963722c2e90f9f167cd",
+      "bytes": 1175229
     },
     {
       "path": "PUBLICATION.md",
@@ -37116,8 +37116,8 @@
     },
     {
       "path": "recipe-atlas/scripts/build_dataset.py",
-      "sha256": "47c0eed2c13d89daae09b3ccae622dfaec94626674e30753678ba0253416f50d",
-      "bytes": 30467
+      "sha256": "0c002c99fc18ba823c8490182b54ebcef5423ffdc9e4e8b994458ddfda9c35fd",
+      "bytes": 30410
     },
     {
       "path": "recipe-atlas/scripts/build_evidence_views.py",
@@ -37161,8 +37161,8 @@
     },
     {
       "path": "recipe-atlas/scripts/catalog_view.py",
-      "sha256": "98838b06a4b6c4ef84abbd4ac35e80f001a21857f793860c548fc238d3df8383",
-      "bytes": 8941
+      "sha256": "7a9d3724094fc8e38fb931a8cbcc9c1397b55917c8c88825ff4143cc5def412b",
+      "bytes": 10028
     },
     {
       "path": "recipe-atlas/scripts/charge_coverage.py",
@@ -37176,8 +37176,8 @@
     },
     {
       "path": "recipe-atlas/scripts/check_quality.py",
-      "sha256": "e93cd898f029f80e1ae0af370bbacd085a3aaae71ed0c0fc1872dc7e40b686ca",
-      "bytes": 67344
+      "sha256": "d75c2a92ea1b0a723946c4acbbead6c169e7b47b7644c3b20b9039a96208bb05",
+      "bytes": 67291
     },
     {
       "path": "recipe-atlas/scripts/check_site.py",
@@ -37323,6 +37323,11 @@
       "path": "recipe-atlas/scripts/reader_presentation_registry.py",
       "sha256": "953ee210c9400208dc3577422629cb8516f4f045aa4d0c79cda0fde0eeba07f9",
       "bytes": 4011
+    },
+    {
+      "path": "recipe-atlas/scripts/record_export.py",
+      "sha256": "5e6b29a66770d00051a31b705a53043713a551c112b1d474c66b1bcb83de47ae",
+      "bytes": 5640
     },
     {
       "path": "recipe-atlas/scripts/record_helpers.py",
@@ -281565,6 +281570,16 @@
       "bytes": 17912
     },
     {
+      "path": "recipe-atlas/static/record-export-boot.mjs",
+      "sha256": "962f7bc02a51535d39f57e99bffbbe5f775b00e1daa680b18659bd0070f585b7",
+      "bytes": 1089
+    },
+    {
+      "path": "recipe-atlas/static/record-export.mjs",
+      "sha256": "b7e7e0f6407939bca594e9ed0599f9190c7ef3079168deb0c283de8d01025000",
+      "bytes": 2862
+    },
+    {
       "path": "recipe-atlas/static/record-viewer.mjs",
       "sha256": "b8df113366acbc748dabae57567dff3c217cd189506ea43279abe8ad56c01b8a",
       "bytes": 5005
@@ -281888,6 +281903,11 @@
       "path": "recipe-atlas/tests/reader-source-figures.test.mjs",
       "sha256": "ec78c2103b9ea63cdff1e0ea2de7a897c2b67694a15b594f9bc00486ec7ef72e",
       "bytes": 12147
+    },
+    {
+      "path": "recipe-atlas/tests/record-export.test.mjs",
+      "sha256": "90a013603b0474d7c0799827793a57f6949492217f721709ed2d2c8faa4e3b72",
+      "bytes": 3283
     },
     {
       "path": "recipe-atlas/tests/reported-protocol-scenes.test.mjs",
@@ -282223,6 +282243,11 @@
       "path": "recipe-atlas/tests/test_record_context_links.py",
       "sha256": "fd97cf03f54a510baab01facfb954c01b659b2ea00a297161ff834cd67f92cc8",
       "bytes": 2545
+    },
+    {
+      "path": "recipe-atlas/tests/test_record_export.py",
+      "sha256": "a7d2a3a789b5a6a455adcd2bd9206bfccbfbde2ea8763ac532f25c92a23d8674",
+      "bytes": 5559
     },
     {
       "path": "recipe-atlas/tests/test_review_citation_identity.py",
@@ -292161,8 +292186,8 @@
     },
     {
       "path": "research-assets/public-audits/SIMPLE_PIPELINE_REPORT.md",
-      "sha256": "75eb1b7f3475b4aa8f6707301431f3520b4ed55e96f94e40c2cb0b978c7814f7",
-      "bytes": 811712
+      "sha256": "9b79541ab510101ad656889c4881aa610b63cb2825d51043702995fe8b0ef778",
+      "bytes": 813313
     },
     {
       "path": "research-assets/public-audits/WEBSITE_WORK_CHECKPOINT_2026-10-09.md",
@@ -293266,8 +293291,8 @@
     },
     {
       "path": "tools/ci/brand_name_scan.py",
-      "sha256": "8896938fa18d6a89551b0664fdebefff3e30fd91f0ba7f0a2882a6259247f941",
-      "bytes": 25172
+      "sha256": "1a0743f64c28c378cf51921151e8b495627b36f741d00d43269389b73344bffa",
+      "bytes": 25249
     },
     {
       "path": "tools/ci/chemical-reference-check.mjs",
@@ -293521,8 +293546,8 @@
     },
     {
       "path": "tools/publication/ci_site_publish.py",
-      "sha256": "0161b11553aef37a74986172cc53058c530b5b15671fd5d4cadfd2134b4997bd",
-      "bytes": 36056
+      "sha256": "4976c7a71ccc2e4c4b751f6ccdfcbb7cf7df1f9a3e5eca4048e42210abd209db",
+      "bytes": 36545
     },
     {
       "path": "tools/publication/correct_source_links.py",
@@ -293596,8 +293621,8 @@
     },
     {
       "path": "tools/publication/source_link_artifacts.py",
-      "sha256": "28b1a407ee940925cd60437c79048242c2b9536b1553a043ce02925cf6d850f1",
-      "bytes": 15407
+      "sha256": "251a20938f5e9f0bee8a5e882a9fddd830372d9162069b8b5ee1f6821c49d4d5",
+      "bytes": 15465
     },
     {
       "path": "tools/publication/test_baseline_control.py",
@@ -293606,8 +293631,8 @@
     },
     {
       "path": "tools/publication/test_ci_site_publish.py",
-      "sha256": "6f12132fb7c157c8acde8d47fe2192ba03ce359fe937f33998fcacf3bf3a947f",
-      "bytes": 16007
+      "sha256": "0f0ba7bfd5a5b5ba55fcdd93cd5d05aab209905feef8c1ec0922d9255f7fcf67",
+      "bytes": 17157
     },
     {
       "path": "tools/publication/test_display_projection.py",
@@ -293721,8 +293746,8 @@
     },
     {
       "path": "tools/publication/tests/test_brand_name_scan.py",
-      "sha256": "ecb1fe5631a49404ac90a45f092a16f5eadb8a419533ed2ee224e91d2b047f7c",
-      "bytes": 19090
+      "sha256": "fb1b5e688a9e3b57c74f641f21ae9b54bc605a7b022200cb2422fa0e8356e596",
+      "bytes": 19546
     },
     {
       "path": "tools/silver/MONITORING.md",
@@ -293856,8 +293881,8 @@
     },
     {
       "path": "tools/simple-pipeline/summarize_batch.py",
-      "sha256": "8ba62632a6c81585f584beeec7be0bbfda4e087b900bde449639e1b92d721fb4",
-      "bytes": 10515
+      "sha256": "9d2fff691bd6462983f8928e9d58504e488eb57d7a66426de4b4de086832510b",
+      "bytes": 10603
     },
     {
       "path": "tools/simple-pipeline/synthetic_cli.py",
@@ -294026,8 +294051,8 @@
     },
     {
       "path": "tools/simple-pipeline/test_summarize_batch.py",
-      "sha256": "5dbcdb9d9139ab9ca20301478022d90acb8e22036d2378b715c31652cd9b01b5",
-      "bytes": 9614
+      "sha256": "052a2ed1b1c5751414a55d2cd5c6d61a6750fed17ade4de29cbee7f82a989ab7",
+      "bytes": 10852
     },
     {
       "path": "tools/simple-pipeline/test_temperature_unit_dimension.py",

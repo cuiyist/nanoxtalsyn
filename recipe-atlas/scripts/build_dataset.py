@@ -7,6 +7,7 @@ from urllib.parse import urlsplit,parse_qsl
 from dataset_lib import ROOT,SCHEMA,validate_record,eligibility,build_groups,training_view,digest,chemical_signature,fmt
 from review_scope import source_review_scope, pending_variants, pending_variants_html
 from reader_background import load_library, render_record_background
+from record_export import write_export
 
 DISPLAY=json.loads((ROOT/'data/measurement-display.json').read_text(encoding='utf-8'))
 PROTOCOL_TYPES={'literature_protocol','protocol_variant','experiment'}
@@ -230,9 +231,9 @@ def main():
     queue=ROOT/'data/pilot-source-queue.json'
     if queue.exists():
         q=json.loads(queue.read_text(encoding='utf-8'));dump(public/'pilot-source-queue.json',q);report['queue_count']=len(q['candidates']);report['queue_families']=len({x['family'] for x in q['candidates']})
+    report['record_export'] = write_export(public, records)
     dump(public/'measurement-display.json',DISPLAY)
     dump(public/'record.schema.json',SCHEMA);dump(public/'dataset-manifest.json',manifest);dump(public/'validation-report.json',report)
-    (public/'records.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False,separators=(',',':'))+'\n' for r in records),encoding='utf-8',newline='\n')
     for task,rows in exports.items():
         path=public/'exports'/(task+'.jsonl');path.parent.mkdir(parents=True,exist_ok=True);path.write_text(''.join(json.dumps(row,ensure_ascii=False)+'\n' for row in rows),encoding='utf-8',newline='\n')
     (ROOT/'dist/dataset.html').write_text(catalog_html(report,manifest,collection['pairs']),encoding='utf-8',newline='\n')
