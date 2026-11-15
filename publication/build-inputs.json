@@ -1,8 +1,8 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261115-47-papers",
-  "updated_at": "2026-11-15T09:47:06.129707+00:00",
-  "record_count": 7011,
+  "release_id": "tanjin-next-20261115-40-papers",
+  "updated_at": "2026-11-15T14:45:58.475191+00:00",
+  "record_count": 7068,
   "input_files": [
     {
       "path": ".gitattributes",
@@ -26,8 +26,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "ecbd4b3e1c3324b2e95b5d3911dfe785a4534bf0abdc75c27f7e20342ee649be",
-      "bytes": 1165236
+      "sha256": "963f02a2640a7020d523552977e578af6365432689b74367448de30cb972e02f",
+      "bytes": 1173292
     },
     {
       "path": "PUBLICATION.md",
@@ -51,12 +51,12 @@
     },
     {
       "path": "publication/asset-rights-registry.json",
-      "sha256": "9a2dc3b32961f8bbab9c42762e8a0771f84443a20b0351f788104c3c530152ae",
-      "bytes": 99335754
+      "sha256": "9fd0b26c013ecfb14b2f8f99d5e58c357c08e10d289427c3f5f059ac3a75df6b",
+      "bytes": 100336488
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "2cca29663b28d9dee708f06eb28d470f7d6d72334c34232d88d685be6b6b1145",
+      "sha256": "88308802ac465e0f7b9bcf2485cd5ee8ea49329edb097946ffb0d276117ac1f1",
       "bytes": 289865
     },
     {
@@ -81,8 +81,8 @@
     },
     {
       "path": "recipe-atlas/data/inventory-evidence.json",
-      "sha256": "a8db5f05441ed1f1089e54876f0f158101479089a59de0fce354d34a36eb0f56",
-      "bytes": 5280280
+      "sha256": "41ff489b2bed181b32b473eed29719fdc36b7d95cf449e16c8a1a0041338ab8b",
+      "bytes": 5349164
     },
     {
       "path": "recipe-atlas/data/measurement-display.json",
@@ -1156,13 +1156,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "e1db2a183adb017ae3eeb32cec00e6489a7cd013ab2c7c6430b814ef9a875c95",
-      "bytes": 78007146
+      "sha256": "232593056da5083d95b6a23e84c5de73f0ad9fa693276603ecf975fd77b08edc",
+      "bytes": 78807854
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "207b478cfbcb75d1d84f6db8a53b4b4bd06cdfce1ade5e1764ac95e07ef56222",
-      "bytes": 77992229
+      "sha256": "fb8158ae213af1ea53d6bf44f4959d03f09ed07d17a03d160603c77bb30db72c",
+      "bytes": 78787551
     },
     {
       "path": "recipe-atlas/data/records/1-105026-gaas-tetrahedral-quantum-dots-tqds-1.json",
@@ -1278,6 +1278,11 @@
       "path": "recipe-atlas/data/records/a2021-j-cap-2021-07-001-cdse-zns-qds-1.json",
       "sha256": "0c532320f150beec8f5ab95553fb5a2fd35ca74a4efbd7ed10a000fe4f923fae",
       "bytes": 22164
+    },
+    {
+      "path": "recipe-atlas/data/records/abate2019-c9dt03163d-mn-cise-qds-cm8-1.json",
+      "sha256": "e7d2df840660efddc2e8539db27f6dd4894afbd4e6f1bf293bb4b42ee781f307",
+      "bytes": 18186
     },
     {
       "path": "recipe-atlas/data/records/abdelazim2017-acs-chemmater-7b02637-hgte-qds-2-1-fmt-hg2-ratio-1.json",
@@ -3200,6 +3205,11 @@
       "bytes": 7668
     },
     {
+      "path": "recipe-atlas/data/records/baumgardner2012-c2nr31054f-pbse-nanocubes-1.json",
+      "sha256": "465a31915b78af8e44eba0c54b4fc6e165817e076948155fbdde43d2ea7e3089",
+      "bytes": 20096
+    },
+    {
       "path": "recipe-atlas/data/records/beckham2010-la904031s-quantum-dot-coated-sio2-microparticles-q-1.json",
       "sha256": "6db77cc568fba4438b95bc92ec091bfa71c02d55d1ac7dde9033928ecebd12af",
       "bytes": 8114
@@ -3523,6 +3533,11 @@
       "path": "recipe-atlas/data/records/bhattacharyya2005-1-2132533-inas-gaas-001-quantum-dot-ensembles-1.json",
       "sha256": "a7071082cadab606b0817640dcb5df2934835c7221bcf0dbd4ba5db8e89a995b",
       "bytes": 8360
+    },
+    {
+      "path": "recipe-atlas/data/records/bhattacharyya2016-jacs-6b04981-cufes2-qds-1.json",
+      "sha256": "1402d35f37437be714f2d70c6006afa518e6401101f4a6d641c6b1c44a2054d9",
+      "bytes": 14950
     },
     {
       "path": "recipe-atlas/data/records/bhawawet2023-acsomega-3c05795-aunps-synthesized-with-cbdeb-50-1-molar-1.json",
@@ -4298,6 +4313,11 @@
       "path": "recipe-atlas/data/records/cao2012-la302690h-nahof4-nanoparticles-1.json",
       "sha256": "e81da8c0a2bcb8af0c2f02f4eeceee003eaf77252f83ecda810a596f97574741",
       "bytes": 20094
+    },
+    {
+      "path": "recipe-atlas/data/records/cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1.json",
+      "sha256": "d271beea0ab7623492d86c0b592dbc6effa5216665772eb7a0071a5781d211f9",
+      "bytes": 9875
     },
     {
       "path": "recipe-atlas/data/records/cao2018-acs-chemmater-8b03671-inp-znse-zns-qds-1.json",
@@ -5885,6 +5905,11 @@
       "bytes": 11385
     },
     {
+      "path": "recipe-atlas/data/records/chua2015-nn505639q-graphene-quantum-dots-1.json",
+      "sha256": "2f18687f9902b642f5e757057222ab3cf1e305b3cebeac6d5e89698309bb84a9",
+      "bytes": 20109
+    },
+    {
       "path": "recipe-atlas/data/records/chuang2014-am503889z-cuins2-zns-qds-cu-in-1-4-1.json",
       "sha256": "37c717a15a3aadb2ddbe4ef390312f10d4dd9aee46fcca0ea3b9e983771614cc",
       "bytes": 12875
@@ -6248,6 +6273,21 @@
       "path": "recipe-atlas/data/records/cui2026-acs-inorgchem-5c05727-aigzs-1-1.json",
       "sha256": "57d5d01267c2403cab65be396915e5a2cb12e20e77219cc71ab5865f0b04b87c",
       "bytes": 13143
+    },
+    {
+      "path": "recipe-atlas/data/records/culver2016-c6dt03382b-cawo4-1-eu-1.json",
+      "sha256": "566efa81c907fdba144d403ba11692f12c0f903412553ea26faf10d24b7a65c3",
+      "bytes": 7865
+    },
+    {
+      "path": "recipe-atlas/data/records/culver2016-c6dt03382b-cawo4-1-tb-2.json",
+      "sha256": "61c2d7cc42a921cbed392f8e09663845d56cd80bf732e1b439b8f6636945e121",
+      "bytes": 7865
+    },
+    {
+      "path": "recipe-atlas/data/records/culver2016-c6dt03382b-cawo4-1-tm-3.json",
+      "sha256": "7b92cd9646523a28c6a2b761547051864f6ce1ea89ceef7a9e407cf554700dba",
+      "bytes": 7865
     },
     {
       "path": "recipe-atlas/data/records/cunci2021-acsanm-0c02526-goqds-1.json",
@@ -7530,6 +7570,21 @@
       "bytes": 15482
     },
     {
+      "path": "recipe-atlas/data/records/du2012-ncomms2181-ultrathin-bi2s3-nanowires-3.json",
+      "sha256": "e6a0fcf63fc3470e0eef25401bec63541b7db917d22ecd688bf35b99657fa05e",
+      "bytes": 8386
+    },
+    {
+      "path": "recipe-atlas/data/records/du2012-ncomms2181-ultrathin-sb2s3-nanowires-4.json",
+      "sha256": "fdbfcbe352525f19c88efb710597ee81ce2e4ecb2d70df1acf20ddbff3ef35e6",
+      "bytes": 8390
+    },
+    {
+      "path": "recipe-atlas/data/records/du2012-ncomms2181-ultrathin-zns-nanowires-2.json",
+      "sha256": "cd84d573ba5bd0152af2730fe4e2d1d0a193023951a0ba9a2d39eb012302a434",
+      "bytes": 10677
+    },
+    {
       "path": "recipe-atlas/data/records/du2020-s41560-020-0617-6-zn-cuinse2-qds-with-ht-ligands-3.json",
       "sha256": "82ce4e6726163816517e0b7d7f6eedad5ea5a35a0727f4eb0a6130b295fca6e1",
       "bytes": 12515
@@ -8548,6 +8603,11 @@
       "path": "recipe-atlas/data/records/frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1.json",
       "sha256": "521f78c85cdcfd7172f3b0ce274569c09171c80176dc3a9e1808c98e223a704a",
       "bytes": 10455
+    },
+    {
+      "path": "recipe-atlas/data/records/franke2016-ncomms12749-inascdsecds-core-shell-shell-css-qds-2.json",
+      "sha256": "af5da18f85359afe40861ad21975d2aaaf91ffae34db4f59ef905a6cdff8e609",
+      "bytes": 12397
     },
     {
       "path": "recipe-atlas/data/records/frase1999-1-370517-as-milled-ni3fe-1.json",
@@ -10920,6 +10980,11 @@
       "bytes": 11559
     },
     {
+      "path": "recipe-atlas/data/records/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1.json",
+      "sha256": "80e8de49dacba37ae7137ca3eea4b7cb3d76320e603edf4e38ccf3f771ae5032",
+      "bytes": 12600
+    },
+    {
       "path": "recipe-atlas/data/records/he2019-acs-inorgchem-9b02154-cztsse-qds-1.json",
       "sha256": "6ef8eb7b97d8acdae9a56e1a0498af22bef266bdf54a87b907280fe9cae75822",
       "bytes": 21634
@@ -11810,6 +11875,11 @@
       "bytes": 15041
     },
     {
+      "path": "recipe-atlas/data/records/hu2026-s41467-026-71288-0-lt-ncs-1.json",
+      "sha256": "34cff55f3f44fdcf93e3deea0bb747d1e9deaa828d4715b3b406c48f5faf36c9",
+      "bytes": 7647
+    },
+    {
       "path": "recipe-atlas/data/records/huang1999-cm990371i-cds-dendrimer-nanocomposite-2.json",
       "sha256": "c0916a0e4e53e05f3b2dacabd89796d819e34b2949684cbea588090b373f9cac",
       "bytes": 7154
@@ -11868,6 +11938,11 @@
       "path": "recipe-atlas/data/records/huang2015-acsami-5b10373-ch3nh3pbbr3-quantum-dots-1.json",
       "sha256": "f7b0ace54ded4a3a4e01c48b93f58bdb292ca5ced7ea5e1d1a7cb057139e7bf3",
       "bytes": 13821
+    },
+    {
+      "path": "recipe-atlas/data/records/huang2017-c7ay01705g-cdte-qds-1.json",
+      "sha256": "efda2f4488d4c372317e7784545f7abbbb75c178bf2ba1a4fba7d0f437af6749",
+      "bytes": 13556
     },
     {
       "path": "recipe-atlas/data/records/huang2018-acs-jpcc-8b01053-cdte-qds-synthesized-via-pdpa-method-1.json",
@@ -14210,6 +14285,11 @@
       "bytes": 7491
     },
     {
+      "path": "recipe-atlas/data/records/kim2012-c2jm33962e-inp-core-3.json",
+      "sha256": "7f461bfb118f50f62d1591999bcb16dafd386ced6df76221b183ce36187d80b6",
+      "bytes": 7069
+    },
+    {
       "path": "recipe-atlas/data/records/kim2012-jz201605d-inpzns-alloy-qds-blue-emitting-1.json",
       "sha256": "aec5bd804fdd87f5a09ee3f8e0233bad179af6b6436fd23cee36e74764d57b26",
       "bytes": 12890
@@ -14418,6 +14498,31 @@
       "path": "recipe-atlas/data/records/kiravittaya2006-1-2168494-qdc11-1.json",
       "sha256": "a7f5c9c7c89d6250d8a15f01af34e14f05dfae54ef7e23c962c538e30c057b3e",
       "bytes": 8647
+    },
+    {
+      "path": "recipe-atlas/data/records/kirkeminde2013-c2ta00498d-fes2-nanocrystals-cubic-1.json",
+      "sha256": "3e22467dbab80bbd82d58293b2e9155fc5b65bd79136bb13cb26155a15dc7909",
+      "bytes": 6284
+    },
+    {
+      "path": "recipe-atlas/data/records/kirkeminde2013-c2ta00498d-fes2-nanocrystals-nanospheres-3.json",
+      "sha256": "dffbb52e5d46b3dea034023c899e32816d0173f3d4cdc28202d42f032279ff82",
+      "bytes": 7068
+    },
+    {
+      "path": "recipe-atlas/data/records/kirkeminde2013-c2ta00498d-fes2-nanocrystals-popcorn-shaped-2.json",
+      "sha256": "55c55d91ffb28eb630674615fbee8a9a0cc2d1a5aef224cec5dd653e1a2b9961",
+      "bytes": 6169
+    },
+    {
+      "path": "recipe-atlas/data/records/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thick-sheets-5.json",
+      "sha256": "3b32222e3539954a3b947075676dec861a8db9c800e70dfcbe5159337e2e2759",
+      "bytes": 6155
+    },
+    {
+      "path": "recipe-atlas/data/records/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thin-sheets-4.json",
+      "sha256": "009f52182650831576aae092a8b554608c3c0813aeb4cb48dbc80584ec93b06e",
+      "bytes": 6879
     },
     {
       "path": "recipe-atlas/data/records/kirstaedter1996-1-117419-inas-gaas-quantum-dot-injection-laser-1.json",
@@ -16350,6 +16455,21 @@
       "bytes": 13513
     },
     {
+      "path": "recipe-atlas/data/records/li2015-jacs-5b05462-cdse-cds-al-qds-1.json",
+      "sha256": "34a3bc14b69267088e7cb9d0463fae17f77bb9bcaae07af7bbd31216fdcbbbb7",
+      "bytes": 8288
+    },
+    {
+      "path": "recipe-atlas/data/records/li2016-c5ra27904f-calb-cu-1.json",
+      "sha256": "88ff0adaca0b64d882b0f6f9d957d15a54ab36914a50fd0af2c0b6466a46c3fc",
+      "bytes": 6730
+    },
+    {
+      "path": "recipe-atlas/data/records/li2016-c5ra27904f-calb-pvp-cu-2.json",
+      "sha256": "f9cf8d1dde5f2fe6879c73e2a18ac52d4afe8a1086de516aab585a1f6ab232ef",
+      "bytes": 7609
+    },
+    {
       "path": "recipe-atlas/data/records/li2017-acsami-6b15997-zns-mn2-zns-zns-cu2-zns-core-multishell-1.json",
       "sha256": "f5333a5c536602998f65d9b653be2735a3402a213d566d5d949bca8ef4c5ab5e",
       "bytes": 16280
@@ -16578,6 +16698,16 @@
       "path": "recipe-atlas/data/records/liang2014-cm502812c-indium-doped-zinc-oxide-izo-nanocrystals-1.json",
       "sha256": "4a3b627a2d12b8c6a1adb1e0cca85f7aa471ddf8bb3a424c906bd5b6c85551a3",
       "bytes": 11669
+    },
+    {
+      "path": "recipe-atlas/data/records/liang2015-c4ce02405b-agbis2-nanocrystals-1.json",
+      "sha256": "bac6549359d3cf114318c50e95fea59ef023270f181e8564e2b082117d25d884",
+      "bytes": 20682
+    },
+    {
+      "path": "recipe-atlas/data/records/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1.json",
+      "sha256": "2a6d78bbd83f442294a0b8f20849eeb4ddd9cd056baff3ba79efdc3296177e52",
+      "bytes": 21102
     },
     {
       "path": "recipe-atlas/data/records/liao2001-b101004m-monodispersed-nanocrystalline-ceo2-powde-1.json",
@@ -17360,6 +17490,11 @@
       "bytes": 10709
     },
     {
+      "path": "recipe-atlas/data/records/liu2013-c3ta00357d-czts-nanocrystals-3-nm-1.json",
+      "sha256": "7192792f26e607f2f1eeae5da2033dd08089f0d1d821f781afc1ce0c5aef07b9",
+      "bytes": 7782
+    },
+    {
       "path": "recipe-atlas/data/records/liu2013-ie4028395-3-mercaptopropionic-acid-capped-cdse-qds-1.json",
       "sha256": "f781bf1e5f4cde63f8ad2fcd8e8687c4113a1537956d0afbd15c779e20670ad3",
       "bytes": 25776
@@ -17930,6 +18065,26 @@
       "bytes": 11748
     },
     {
+      "path": "recipe-atlas/data/records/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3.json",
+      "sha256": "af6e8010d4fd331c4ab16a10d723763dc4c388f0d09c32b914f231accce9dcba",
+      "bytes": 16401
+    },
+    {
+      "path": "recipe-atlas/data/records/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4.json",
+      "sha256": "0cc449ea10f0470c834f260393020c6a76e8268bc7782c5f8f40cbe2b725b2d1",
+      "bytes": 18788
+    },
+    {
+      "path": "recipe-atlas/data/records/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1.json",
+      "sha256": "7a7fbfc6534113f1269a6c226ec28a424ea103403333eed1df03402fa4a84eb4",
+      "bytes": 17591
+    },
+    {
+      "path": "recipe-atlas/data/records/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2.json",
+      "sha256": "0593631208d1fda3ddec7b3e6fffb9fbb4ed5a322b5ac290ec2241de408cc3da",
+      "bytes": 18395
+    },
+    {
       "path": "recipe-atlas/data/records/loewenstein2008-pssa-200779439-znoeosiny-1.json",
       "sha256": "fa32d81ff13330a438e30114b8167966a24a7b4429681ff09c5d6c17009d11cb",
       "bytes": 7484
@@ -18265,6 +18420,11 @@
       "bytes": 12440
     },
     {
+      "path": "recipe-atlas/data/records/ma2011-c1cc11070e-cdse-sio2-nanobeads-1.json",
+      "sha256": "c0bbfc81a3c16ee254591bf26a76d2337489ad964d3288c213bc679b51ebb4bd",
+      "bytes": 10485
+    },
+    {
       "path": "recipe-atlas/data/records/ma2013-pssa-201329136-g-mno2-d01-1.json",
       "sha256": "2147ca9282ef4950cef2f61352165a2ee1dab80e70c9d2f84ca0d110e71e16b9",
       "bytes": 11550
@@ -18565,6 +18725,11 @@
       "bytes": 20473
     },
     {
+      "path": "recipe-atlas/data/records/mansur2015-c4gc02072c-zns-chi-abcd20-1.json",
+      "sha256": "58b5be5e94e1ebfe8bceb2098eaa6bcabcb1b591cc8ae6771f4671f38726cee0",
+      "bytes": 18670
+    },
+    {
       "path": "recipe-atlas/data/records/mao2014-ie502432y-cdte-cds-znssio2-qds-1.json",
       "sha256": "7f34e7420f50f1af6c25281636c117af77f91f0c3d7958803afbd1b456b8126a",
       "bytes": 18825
@@ -18633,6 +18798,11 @@
       "path": "recipe-atlas/data/records/mashford2009-b905256a-cdse-zns-coreshell-qds-1.json",
       "sha256": "97eb19d74c7c2b2d92a535f03229c3f38823cdedfbecd1e3277bb1935dd4d87e",
       "bytes": 12090
+    },
+    {
+      "path": "recipe-atlas/data/records/mashiach2021-s41467-020-20512-6-aep-caf2-ncs-1.json",
+      "sha256": "82ed414d990a95fb94687e0d75339c869b5836d6a675d7992c707015a82e9fdc",
+      "bytes": 7954
     },
     {
       "path": "recipe-atlas/data/records/maskaly2006-adma-200500875-cdse-solgel-nc-composite-infiltrated-int-1.json",
@@ -20765,6 +20935,11 @@
       "bytes": 18076
     },
     {
+      "path": "recipe-atlas/data/records/nightingale2011-c0lc00507j-cdse-quantum-dots-1.json",
+      "sha256": "b6047ee191bde9b6a09dad3a89cb8c894eea6ff567346dfc6fe538aa90c3b851",
+      "bytes": 8312
+    },
+    {
       "path": "recipe-atlas/data/records/nishino2009-calcite-bare-glass.json",
       "sha256": "a7c895deec9cfaf2450895943508b50500b40c848ffbf73641247d8252e9a54e",
       "bytes": 9269
@@ -20823,6 +20998,11 @@
       "path": "recipe-atlas/data/records/niu2008-cg701048d-sno2-r-fe2o3-snchs-1.json",
       "sha256": "8ae920c65e890d039de306f35961e62e44b76683916033887eb7f5cda6ebd909",
       "bytes": 16109
+    },
+    {
+      "path": "recipe-atlas/data/records/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1.json",
+      "sha256": "7ac35a4f2120787d7f124647c2ddac602c297e6e136f03581104d91c994f7497",
+      "bytes": 16188
     },
     {
       "path": "recipe-atlas/data/records/nizamoglu2009-1-3109151-cdse-zns-core-shell-nc-solid-film-pl-in-1.json",
@@ -21560,6 +21740,11 @@
       "bytes": 15822
     },
     {
+      "path": "recipe-atlas/data/records/page2016-c6an01760f-cdzns-zns-qds-1.json",
+      "sha256": "821c9324a540ffe4b8f3b432fb3d4df51cef571fc5d86988ca78ab910517f88d",
+      "bytes": 15664
+    },
+    {
       "path": "recipe-atlas/data/records/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sk-2.json",
       "sha256": "8043eb9c9acc5535c1a5a571136f32c868d67908e09337126979016eba97cde2",
       "bytes": 10234
@@ -21573,6 +21758,16 @@
       "path": "recipe-atlas/data/records/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sx-3.json",
       "sha256": "e7a2afb3dd095ade05bdb1bcdc70cd39b12a149dc66a2a60c303c06c9011c202",
       "bytes": 12352
+    },
+    {
+      "path": "recipe-atlas/data/records/pahari2011-c1jm10617a-cds-nanoparticles-2.json",
+      "sha256": "edb9df37db5cd83ccf5b414fbfe6ce2a11fb2820d6dc1c620b3e650615a9aac0",
+      "bytes": 6846
+    },
+    {
+      "path": "recipe-atlas/data/records/pahari2011-c1jm10617a-ceo2-nanoparticles-5.json",
+      "sha256": "bc74b002145f2f194ec2f7e2227a9d32cd4d2d44d623cff2334bcd03cd9a23ef",
+      "bytes": 8717
     },
     {
       "path": "recipe-atlas/data/records/paine1992-1-106808-nanocrystalline-ge-precipitates-in-sio2-1.json",
@@ -22303,6 +22498,11 @@
       "path": "recipe-atlas/data/records/park2020-bbn-heatup-cdse-cds-acsnano0c04091-topse-stock.json",
       "sha256": "323271362451ff758dc4e098d6bfc7e38c7bbbb95ec537a52f9711a541a002d7",
       "bytes": 15866
+    },
+    {
+      "path": "recipe-atlas/data/records/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1.json",
+      "sha256": "9bda328f1158b13908f02f4e84a460149b0773f6a9489400cde587302cf47869",
+      "bytes": 21332
     },
     {
       "path": "recipe-atlas/data/records/park2023-acs-inorgchem-3c00161-inp-zno-qds-1.json",
@@ -23115,6 +23315,11 @@
       "bytes": 19838
     },
     {
+      "path": "recipe-atlas/data/records/pei2026-s41598-026-48145-7-p-cqds-1.json",
+      "sha256": "7938c2ee24f7143879965dfbda5091e66d9299622b6cb30357a7476b7aa3c570",
+      "bytes": 10798
+    },
+    {
       "path": "recipe-atlas/data/records/pena2003-b304830f-sno2-h300-1.json",
       "sha256": "10ee1ea1d1a8902cc1667f5226ce63780d3a03d19f8ca9be13f74fd33dc5a29c",
       "bytes": 6315
@@ -23203,6 +23408,21 @@
       "path": "recipe-atlas/data/records/peng2003-1-1538181-y2o3-eu3-ncs-4-nm-1.json",
       "sha256": "6b250dd59c59f57b4ec9cc2b7a1817aaea141f2676eeda98aacf42b5c1588459",
       "bytes": 12855
+    },
+    {
+      "path": "recipe-atlas/data/records/peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2.json",
+      "sha256": "ab4df026302c279abeb28319716f360dc8a389478d0d74c08853054953628f5c",
+      "bytes": 15008
+    },
+    {
+      "path": "recipe-atlas/data/records/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1.json",
+      "sha256": "deb2aa707141ddd28c2ba136da6773a98fe1b1b37fe873afa74a30a84033fe05",
+      "bytes": 17493
+    },
+    {
+      "path": "recipe-atlas/data/records/peng2012-c2cp40848a-agins2-nanorods-3.json",
+      "sha256": "e8f80d431cfcd413bfcadb15c58d6b05ee1a1d30bc94340155078785b7f6312e",
+      "bytes": 13916
     },
     {
       "path": "recipe-atlas/data/records/peng2012-nl2038979-graphene-quantum-dots-gqds-synthesized-a-1.json",
@@ -27600,6 +27820,11 @@
       "bytes": 11637
     },
     {
+      "path": "recipe-atlas/data/records/siy2011-c0cc02304c-cdse-ncqds-synthesized-at-130-c-1.json",
+      "sha256": "d1c6c54ad4d700a0db452b7387567c49a45c670de4c6e570ac68b9f0cccb2c83",
+      "bytes": 8932
+    },
+    {
       "path": "recipe-atlas/data/records/skoda2018-j-orgel-2018-05-037-co0-1zn0-9o-co10z-1.json",
       "sha256": "84568bd2ff6be93cbf7b1d50f574c78eca32078a9254c9a50fb8eb0ff518b4d2",
       "bytes": 21193
@@ -27628,6 +27853,16 @@
       "path": "recipe-atlas/data/records/smilgies2012-jp3015436-fept-nanocrystal-monolayer-1.json",
       "sha256": "97140213233d4e94e874308c1276fec9b47a7ed36babf423d4eeab6b6799bc53",
       "bytes": 6466
+    },
+    {
+      "path": "recipe-atlas/data/records/smilgies2018-c8nr04606a-aupoly-ncs-2.json",
+      "sha256": "de02ce48b20b0f0bf69b6554aac2131d4642b1e9358001f94ef694f4370952c1",
+      "bytes": 10839
+    },
+    {
+      "path": "recipe-atlas/data/records/smilgies2018-c8nr04606a-ausingle-ncs-1.json",
+      "sha256": "443886964015fe78546996d5db56320cb329ce8cbebb0c0f49edb419274d96bb",
+      "bytes": 10871
     },
     {
       "path": "recipe-atlas/data/records/smith2011-nn102878u-pbs0-54se0-46-1.json",
@@ -28360,6 +28595,11 @@
       "bytes": 16203
     },
     {
+      "path": "recipe-atlas/data/records/stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1.json",
+      "sha256": "617ea95097e70d9cb1efc17736fcd2963214f41d28d39e1299e10ed4cf2c3f21",
+      "bytes": 15857
+    },
+    {
       "path": "recipe-atlas/data/records/stylianou2026-acs-nanolett-6c00158-pbs-cds-core-shell-cqd-series-1-1.json",
       "sha256": "db4f8f0d552901202de40379b2aa9b25e87c5f737c65bc134630c4a2515a50c4",
       "bytes": 8886
@@ -28578,6 +28818,11 @@
       "path": "recipe-atlas/data/records/suyver2001-1-1428118-znse-cu-ncs-1.json",
       "sha256": "1a34b284581b16be372e249c4ba8016bd530fbd4a60c742659b364c01219e175",
       "bytes": 18361
+    },
+    {
+      "path": "recipe-atlas/data/records/swain2020-c9cc09368k-sample-3-3.json",
+      "sha256": "01728ccb50da73d38a964c63ce00fe3c193ca9054e94b4c9cfd65b310345455d",
+      "bytes": 7399
     },
     {
       "path": "recipe-atlas/data/records/swisher2015-acsami-5b00893-in2o3-nanocrystals-1.json",
@@ -30730,6 +30975,11 @@
       "bytes": 11559
     },
     {
+      "path": "recipe-atlas/data/records/wang2017-c7nr04593j-bi2s3-c-dot-nanohybrids-1.json",
+      "sha256": "d3f96c00b1fbfbbbf569866fd25c1dfe3fd6176fdeedcc130efe8ee2196e70f1",
+      "bytes": 7791
+    },
+    {
       "path": "recipe-atlas/data/records/wang2017-j-electacta-2017-08-134-co-sxse1-x-2-nras-1.json",
       "sha256": "3abfc48ecc15fdee84109d1d161a7fabb9f2f3d6325dae88360083452c9a6795",
       "bytes": 18407
@@ -30758,6 +31008,16 @@
       "path": "recipe-atlas/data/records/wang2018-acsenergylett-7b01243-cspbbr3-a-cspbbrx-qds-1.json",
       "sha256": "a3c2ab79f0df54c74c43b57101c6d5af6b3ebb6fc1c2a00dfd910284a7936399",
       "bytes": 7972
+    },
+    {
+      "path": "recipe-atlas/data/records/wang2018-c7nr08369f-ag2s-ncs-4-510-nm-1.json",
+      "sha256": "b0afedd422b688a36b5664b5da3713f733a6858a4c925ba50b747ad2ca17e381",
+      "bytes": 8804
+    },
+    {
+      "path": "recipe-atlas/data/records/wang2018-c7nr08369f-agcus-ncs-1527-nm-2.json",
+      "sha256": "75e8be0a1cc6eff4f830b28c7d13de42c5554dbca561debd6b5f809e9dc40d72",
+      "bytes": 8040
     },
     {
       "path": "recipe-atlas/data/records/wang2019-acs-jpclett-8b03750-cspb-cl-br-3-perovskite-quantum-dots-tre-1.json",
@@ -32070,6 +32330,11 @@
       "bytes": 11705
     },
     {
+      "path": "recipe-atlas/data/records/xiong2012-c2jm35101c-cucro2-nanocrystals-1.json",
+      "sha256": "76739e9c0b5415b097af6f16ea3341e43b06b41e4fb707a6253603c0dc14d002",
+      "bytes": 13471
+    },
+    {
       "path": "recipe-atlas/data/records/xu2002-scsz-tb00207x-calcined-1000.json",
       "sha256": "ccaa060981e7326901dacf7a86361a344a9807b4ee4ec7487f9a689070fbf04a",
       "bytes": 12277
@@ -32493,6 +32758,11 @@
       "path": "recipe-atlas/data/records/xu2012-am300877v-ncsi-mpm2-2.json",
       "sha256": "13b842482dc27f8231b3f495c5c99ca20f239caac7406df94d6e5fc7ca3ea6bf",
       "bytes": 18893
+    },
+    {
+      "path": "recipe-atlas/data/records/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1.json",
+      "sha256": "35b5ff2a47ad606e6af44b0df756f07f6041e2668e40d5169af33c331d5bfd58",
+      "bytes": 16672
     },
     {
       "path": "recipe-atlas/data/records/xu2012-jp306628m-czts-microspheres-1.json",
@@ -33210,6 +33480,11 @@
       "bytes": 42321
     },
     {
+      "path": "recipe-atlas/data/records/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1.json",
+      "sha256": "1694d8f27b5211748a313ab9b09c65d031d1c701391326e7b668890295f5ee5a",
+      "bytes": 17860
+    },
+    {
       "path": "recipe-atlas/data/records/yang2017-acsami-7b00133-cdse-cds-core-shell-nanocrystals-20-min-4.json",
       "sha256": "e35d1207eb903c8992dc4903d0214e7f2665fbaeb36ae33d1a961c7328407bef",
       "bytes": 10621
@@ -33843,6 +34118,11 @@
       "path": "recipe-atlas/data/records/yingjie1994-bf00270948-nanocrystalline-nickel-powders-1.json",
       "sha256": "6c79a4f043bd81d8810d746bda8f0aa0bac4828930da8f09550d64586fc8f2a2",
       "bytes": 11942
+    },
+    {
+      "path": "recipe-atlas/data/records/yong2010-b916663g-cuins2-zns-qds-1.json",
+      "sha256": "bf7520a05c992f420ab88f5d91d8c2bed749fe637b7d9ec01f90dc4d582aa504",
+      "bytes": 27527
     },
     {
       "path": "recipe-atlas/data/records/yoo2024-acsmaterialslett-3c01089-ag2s-cqds-control-1.json",
@@ -35330,6 +35610,11 @@
       "bytes": 32208
     },
     {
+      "path": "recipe-atlas/data/records/zheng2014-c4tb00986j-cufe2o4-magnetic-nanocrystal-clusters-mn-1.json",
+      "sha256": "4b9bc414860477d58053b62c26e6dcd4e1d028cacbcb71d269e7d3c883959a1b",
+      "bytes": 14548
+    },
+    {
       "path": "recipe-atlas/data/records/zheng2018-acs-jpcc-8b09715-n-gqds-1.json",
       "sha256": "0a050c171df0f323b1e24b93a4baa437a27c514bdcbb34deb110fe9316fa55b1",
       "bytes": 8827
@@ -36221,8 +36506,8 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "18df50f34b8a67fafe15f413200b5897096c5ae0ef594df5315e5f352b1273c7",
-      "bytes": 24461406
+      "sha256": "24103abd5cdf1a26e0be00015fa42d032034a2e41247a084374f6155d0b54a3f",
+      "bytes": 24668351
     },
     {
       "path": "recipe-atlas/data/release-notes/source-link-corrections.json",
@@ -36755,6 +37040,36 @@
       "bytes": 51556
     },
     {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch23-pairs.json",
+      "sha256": "18c4e9cf6c36e29e292e117da667d8831913c8fe483288f6143446d0f6ccdfbb",
+      "bytes": 46673
+    },
+    {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch24-pairs.json",
+      "sha256": "07a3dbba594845c7bce93e9f6a8c64840a44e195b55ff458a790e119f734b2ff",
+      "bytes": 50022
+    },
+    {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch25-pairs.json",
+      "sha256": "6579f911436787dfa08931cc38ca10406aec8561623d92a458d696c56f3ff0de",
+      "bytes": 43883
+    },
+    {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch26-pairs.json",
+      "sha256": "e7594cffd80fdeb393c7f480bcb8f395562a56d28dac6365b14be9090fa572c1",
+      "bytes": 36766
+    },
+    {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch27-pairs.json",
+      "sha256": "1e0077541283776415e73fbc325edc003679e1c5a96dd9feb0b73c86896f52c4",
+      "bytes": 45721
+    },
+    {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch28-pairs.json",
+      "sha256": "a992e26ba4c4bc211301fdc6455d271804306b92b911d438f3f3d76a501ff1b5",
+      "bytes": 24624
+    },
+    {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-20261114-batch43-pairs.json",
       "sha256": "b9e9f64d3d4bfcebacefeee5f971e25e40a31db0f94d3e8b5750244d46ebf0af",
       "bytes": 59793
@@ -36901,12 +37216,12 @@
     },
     {
       "path": "recipe-atlas/scripts/chemical_resolved_identity_pins.json",
-      "sha256": "21373dab667c5aee48507e90a4f2f9bc7decc001e9ed8e81d2829c5bd6a83b44",
+      "sha256": "cf78796b55b2043495bc15264303c51c27f6a4ab7ecdb20f414511b6d88789dd",
       "bytes": 152140
     },
     {
       "path": "recipe-atlas/scripts/chemical_standard_abbreviation_pins.json",
-      "sha256": "329da66193e2af53facff32a1aef5e1c46f148efba4a0dbd50e64f22ad2c9c8a",
+      "sha256": "457932e6448fb131fdc3d7cccb950d68408b4858a993a5d104b586b04848e012",
       "bytes": 32285
     },
     {
@@ -37511,8 +37826,8 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "cedbda735a277278c4c1e5810faa0f32ceb386a1886d11cfaf63a88954c4b4bb",
-      "bytes": 10163080
+      "sha256": "87afc7cfdd7b541753beba046d9c42bf30e267c26d32b021e768785d422e3088",
+      "bytes": 10189262
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/friedfeld2019-products/friedfeld2019-acid-product-symbol.svg",
@@ -48726,13 +49041,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "149a0d1da4859cef450522695b111ff28fea4abfa6953d4de8f39accb4ff0038",
-      "bytes": 4583379
+      "sha256": "97a8996e70ceecf5164298a5a9a86183fa5c4b3bc3dce43362ce77c725aff738",
+      "bytes": 4593479
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/registry.json",
-      "sha256": "856499037b3ff6b399ebca235ee88a91473db49c79ec6407a138f838babfe951",
-      "bytes": 11795298
+      "sha256": "9d95f71b74120e5877e2f5c5780e352a12e63d9e0d3f7fc3d3559caefe643195",
+      "bytes": 11828466
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/sasongko2025-products/sasongko2025-aging-350-product-context.svg",
@@ -60225,6 +60540,11 @@
       "bytes": 626
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-2-dichloroethane-dce.svg",
+      "sha256": "e68cea7d34bac886b13b1d76e4315135f1001f193369e2f4828e12442c992530",
+      "bytes": 640
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-2-dihexadecanoyl-sn-glycero-3-phosphoethanolamine.svg",
       "sha256": "f08ae20a8aa5b4141e196ca83d521a10a9606788f4a0c5043a6848f282c91da6",
       "bytes": 694
@@ -60388,6 +60708,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-ddt.svg",
       "sha256": "9930cc0a14ec35047cdf0a45a9b4ddaedcf55bce3982dc24da3a2e495982cf4b",
       "bytes": 602
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-decyl-alcohol.svg",
+      "sha256": "18a3b8f8e5d0b03d2d2fd428fb97f32a638d1c47d7cc680e34cd1b431030ef46",
+      "bytes": 622
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-dodecanethiol-1-ddt.svg",
@@ -60603,6 +60928,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-2-aminoethanethiol.svg",
       "sha256": "2fcdaace0748bb2f6b29f85120a5de7a0ccf8cf08634f9cfcc5a94e754385c6c",
       "bytes": 628
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-2-aminoethyl-phosphate-aep.svg",
+      "sha256": "6ac9c40d827bd2dff7ee9d1426dc373ccdf55f353b2adc615b18f8bac5060100",
+      "bytes": 648
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-2-azidoimidazole.svg",
@@ -60985,6 +61315,11 @@
       "bytes": 600
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-abcd20.svg",
+      "sha256": "4785773d14007d269df2d8ba75ece2a9b91a17e409f2640df2255e5d8c709328",
+      "bytes": 604
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-abil-em90.svg",
       "sha256": "9b2d513391f97cfb7301f78db66a392f1102eee323c7ee2c73f4fe9b2ddd3a58",
       "bytes": 610
@@ -61087,6 +61422,11 @@
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-ag2s.svg",
       "sha256": "724df5243a242d88795a8ceae9aedf6c877d9d52deeb7b934e65d8ffa98ccca0",
+      "bytes": 600
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-agac.svg",
+      "sha256": "49c560209bca9cdbc8732b29c4cf33a609431773af214dc39687379f1cf1c81b",
       "bytes": 600
     },
     {
@@ -61955,6 +62295,11 @@
       "bytes": 618
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-bbn-sh.svg",
+      "sha256": "cf2464fd99e65bcf0e7ad8d1a715784651005e13bd8634ecb7ec817d9ce106a6",
+      "bytes": 604
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-bcl3.svg",
       "sha256": "426e5331072bf871efa7a3c3eb1d11f53dd15e6d18e2a107d4e117b7b6d10b75",
       "bytes": 600
@@ -62168,6 +62513,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-bismuth-bi-nanoparticles.svg",
       "sha256": "a9e8469447220862b00b70f79fa8198cc95b97c82c6714ea59920879273865a7",
       "bytes": 644
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-bismuth-iii-chloride.svg",
+      "sha256": "2f2cedf2cc98b03d271e29d05cb327ea7ca6398cc2ad779b79331f5502caaf83",
+      "bytes": 636
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-bismuth-nanoparticle-bi-np-stock-solution.svg",
@@ -62420,6 +62770,11 @@
       "bytes": 606
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-ca2-cations.svg",
+      "sha256": "d6ea236740e0009a9ee2651e793681fd365d0c726843897770602a8518b23f38",
+      "bytes": 616
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cac2.svg",
       "sha256": "b372610c198e166b5ad0c05ce8343ce938ae140047bf0812a317628073b51ec0",
       "bytes": 600
@@ -62555,6 +62910,11 @@
       "bytes": 630
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cadmium-precursor.svg",
+      "sha256": "86576e897596ea33e003fa36c6d223ed76ab809b4704612cff2af0a5a3a7e792",
+      "bytes": 626
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cadmium-propionate.svg",
       "sha256": "164b630757b634dc3705a0f86d3fc48b2be2cad1c6ceedf8136a862cdd2d5b14",
       "bytes": 628
@@ -62588,6 +62948,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cadmium.svg",
       "sha256": "2a4859af6663d1355a8c1d4f785da86914d204edf017b3d081d36c265aff14c6",
       "bytes": 606
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-caesalpinia-sappan-l.svg",
+      "sha256": "fe1df176dc1b3ad1fc3a556fb47c7d9f4562683de5121b7e0557360264467559",
+      "bytes": 634
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-calcium-chloride-cacl2.svg",
@@ -62628,6 +62993,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-calcium-silicide.svg",
       "sha256": "ecf683dcc3447cad9642e7be86201fa141e700331db651f478c47faa58ae8d6e",
       "bytes": 624
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-candida-antarctica-lipase-b-calb.svg",
+      "sha256": "7c3fc81d067dd161029b5c93e01dfddf6149bffaa78df5aa8f57b215df1f537b",
+      "bytes": 660
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-carbon-ions.svg",
@@ -63260,6 +63630,11 @@
       "bytes": 636
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cerium-acetylacetonate.svg",
+      "sha256": "705d96008e8311e9edfc9334673034fa6683ff9fff8a22df5f7590c40cef283c",
+      "bytes": 636
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cerium-chloride-heptahydrate.svg",
       "sha256": "d2c2c7ca6b02be274b7c1a07b3e2e8f3ce2de6e1bc4bb4afaa53129c4ec8f9ec",
       "bytes": 648
@@ -63800,6 +64175,11 @@
       "bytes": 646
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-copper-iii-nitrate.svg",
+      "sha256": "34dd2580d5179808045aca7aa816e83e658446e4e5ae2e74ddcf55781e1df0f5",
+      "bytes": 630
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-copper-iodide.svg",
       "sha256": "e2c1d3c7ad65885f2a493b033912c44030f6c12a08fe1c288728412c5a4ec4d2",
       "bytes": 618
@@ -63853,6 +64233,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cr-no3-39-h2o.svg",
       "sha256": "51cc32444b070a5c4dc542617282c616a79aaf0066e85380695703dd9ed798fb",
       "bytes": 622
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cr-no3-39h2o.svg",
+      "sha256": "9f4d56a0296a6004c2745f169a859ba4e2bf73e3c75ebfe800c57daffd38f6f2",
+      "bytes": 620
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cr-so4-36h2o.svg",
@@ -64028,6 +64413,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cu-no3-2.svg",
       "sha256": "92e695a619c32d70d2c5bcae301686f19407965942cd70abd1b3159921b726b3",
       "bytes": 608
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cu-no3-22-5h2o.svg",
+      "sha256": "cc1d4659b3431d7a9cc399c5227652f9e7dc52d1b2b576f38e8fc6b11f2747da",
+      "bytes": 624
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cu-no3-23h2o.svg",
@@ -64815,6 +65205,11 @@
       "bytes": 626
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-elementary-sulfur.svg",
+      "sha256": "77f911651d5044ff1a2d2a498447ff44059d56831c1551e8e9f36d1b57027a12",
+      "bytes": 626
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-elementary-tellurium.svg",
       "sha256": "affab9e28b098b63e563d421c6ff438dd33ed93ed8ad81ce64f7008999613935",
       "bytes": 632
@@ -65035,6 +65430,11 @@
       "bytes": 644
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-f-anions.svg",
+      "sha256": "68e44151cdd9daa4c784216acb6f10633f9ddf5a7268cdda314c4468e016d90b",
+      "bytes": 610
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-f4-tcnq.svg",
       "sha256": "73188aa865dc40d20cf1fac60ecf2831583d43b38080176c8e535e71e3184b1a",
       "bytes": 606
@@ -65068,6 +65468,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-fe-10-at-b-disk.svg",
       "sha256": "32a19018304cc3f36904aae87453cfd7e2e7629b2e3762f9d24602a3c3bcacf7",
       "bytes": 628
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-fe-acac-2.svg",
+      "sha256": "a6d27829eb8ebfd94f428292650ba0e504478466cc4b9a8145b38d2a74e5c274",
+      "bytes": 610
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-fe-co-5.svg",
@@ -65293,6 +65698,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-freon-113.svg",
       "sha256": "31c1cbf7dd08a2aa7da6cbe2f0747b897847e93eb563fcbd3dd88519839ef7ff",
       "bytes": 610
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-fullerene-c60.svg",
+      "sha256": "81210865477a5b8a7e8285a43ce1fc40d210ee171a709ae6de026e176f1b4f84",
+      "bytes": 618
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-fullerene-carbon-soot-fcs.svg",
@@ -66275,6 +66685,11 @@
       "bytes": 610
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-in-and-p-precursors.svg",
+      "sha256": "da41ddb444c61ca99480b3176c8742d67a24acc227841303f1841316a2583007",
+      "bytes": 630
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-in-c2h3o2-3.svg",
       "sha256": "ae05d6c8ab9fad77b7ca0a8a12ccb256706eccc3c173d189bc9cac9e8b0c3e6f",
       "bytes": 614
@@ -66323,6 +66738,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-in-no3-3.svg",
       "sha256": "6fd3abdf2897fb41388b73be1465d05476267664e325295fb19db15ff13d3569",
       "bytes": 608
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-in-no3-32h2o.svg",
+      "sha256": "fefa9cdde82f2e4aa1b949b7644679e1f22eb155034b5f54344f62f8c275d19c",
+      "bytes": 620
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-in-no3-34h2o.svg",
@@ -66512,6 +66932,11 @@
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-inalgaas.svg",
       "sha256": "397a8d31ead16f78c723a31ac88757c1a7be9e93920f5a7bb9fc6ca179f23f74",
+      "bytes": 608
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-inas-qds.svg",
+      "sha256": "116e9ae4b2c940be266f868fe6bd766522fc38fa540c48fa4324685a38a87663",
       "bytes": 608
     },
     {
@@ -67273,6 +67698,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-m1-peptide.svg",
       "sha256": "fd89a3377f9e62972571a90de927a1a11e61815d462bd41336a3b4dffdf6bc5b",
       "bytes": 612
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-maa.svg",
+      "sha256": "f43dd3c3f45351bd3b2bf14587de60944ada5c40a54a6608af1bbb6a96d61a94",
+      "bytes": 598
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-mabr.svg",
@@ -68235,6 +68665,16 @@
       "bytes": 616
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-na3c6h5o72h2o.svg",
+      "sha256": "fa1e57725483bc6156fff4b30f229bc7b5cd3441246427f396183f25c4ea521b",
+      "bytes": 622
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-na3cit2h2o.svg",
+      "sha256": "531ed074912f5876cc72517972b650a6a6698da72849b962a65d86546e9a23cf",
+      "bytes": 616
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-na3co-no3-6.svg",
       "sha256": "94072f03b6af407f6873d9f8280920f70534146661d815f6ba0cfdc087f7c6e9",
       "bytes": 614
@@ -68538,6 +68978,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-nhs.svg",
       "sha256": "9e44d9b0c58a81736a52fc786bce90ffc9bfc7b8b0718905a3ba259043d85572",
       "bytes": 598
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-ni-acac-2.svg",
+      "sha256": "96bedd5a06a9e9c0fe9cc4cd33090135b02af1f688a6c002f85bdca72e0fdc5a",
+      "bytes": 610
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-ni-ch3coo-24h2o.svg",
@@ -69135,6 +69580,11 @@
       "bytes": 606
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-paa.svg",
+      "sha256": "80d8f83d48f4ef92212a1b470ca51cfd976d311f8a2cf04032db09b7811c2df3",
+      "bytes": 598
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-paa2.svg",
       "sha256": "94c6aed4c9cf44a46d341197c5e5de0817fb6f066ad93a27ccd8787f0fa5925d",
       "bytes": 600
@@ -69548,6 +69998,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-phosphorus.svg",
       "sha256": "d9371c22340a019727ff4ab2535f6c8a9362a118ba58288a3ffd29b8eee31cf0",
       "bytes": 612
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-picoline.svg",
+      "sha256": "0662909403b79160fdbd3c420d9f5b19e8cbddd47b1ad5c74fd0cac3c1166b81",
+      "bytes": 608
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-pitch-based-carbon-fibers.svg",
@@ -70310,6 +70765,11 @@
       "bytes": 628
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sc.svg",
+      "sha256": "74f53c1d29c854454aab765fb05f8d0acf1aca137a4fef7b55cd11f534edc85c",
+      "bytes": 596
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sds.svg",
       "sha256": "22be64df50e2a4b4cbc6e7683466885d81b8fd7700a0d131267a82a735438dec",
       "bytes": 598
@@ -70408,6 +70868,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-selenium-powders.svg",
       "sha256": "f03cc73aa6bd3180b55162e1716e38c3fbf7f4523df2a0bfa3762c2fcaba0644",
       "bytes": 624
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-selenium-precursor.svg",
+      "sha256": "4e48e0a95865ce2d8a6f1ad0de6d5a7f2b087419975d7cd66166b405eec7612a",
+      "bytes": 628
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-selenium-se-in-top.svg",
@@ -70748,6 +71213,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-smcc.svg",
       "sha256": "d28c65ead1a6d3e8150d352af6280057fb5f91763c2e9554f10399481db39f84",
       "bytes": 600
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sn-bu-2-acac-2.svg",
+      "sha256": "3912fb6b0744b5dd1accf48e55d6fda6c3e43e8b3d537ba92328cb83ef3629e6",
+      "bytes": 620
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sn-doped-inp-001.svg",
@@ -71233,6 +71703,16 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sulfuric-acid-h2so4.svg",
       "sha256": "b176a76e901a473923c228f09e918043ae87a56b4c6bfc10e9d016064563ab52",
       "bytes": 634
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sulphur-oleylamine-s-oam.svg",
+      "sha256": "694eb5eae88a11b2e530437ea81792bf045daa37b3024460693fc40db50228b6",
+      "bytes": 644
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-sulphur-trioctylphosphine-s-top.svg",
+      "sha256": "7e3430d22ff885cebee8110bcd126b8083f29bcbdc2712c9d5a4e061c756d4fa",
+      "bytes": 658
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-surfactant.svg",
@@ -72128,6 +72608,11 @@
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-top-selenium.svg",
       "sha256": "d3fea9484485d83594e731bd273de846e77f9e0ed93396f7228b5a9c3c1d2edd",
       "bytes": 616
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-top-sulfur.svg",
+      "sha256": "c3eb724677df62bbe1d71f784c56cbb0e8026a0ac0e5d515cbfc866704c2ab87",
+      "bytes": 612
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-top-te.svg",
@@ -88405,6 +88890,31 @@
       "bytes": 118651
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/abate2019-c9dt03163d/figure-1.png",
+      "sha256": "0736c977d51077870e79254121e3d6193a0813faad8b7491c303e1d691080eb7",
+      "bytes": 1547147
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/abate2019-c9dt03163d/figure-2.png",
+      "sha256": "46c900519a7524c9a06747484efa07e02281620dd287ccf23bca846ed9f93a9c",
+      "bytes": 156359
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/abate2019-c9dt03163d/figure-3.png",
+      "sha256": "55d50053aa42ee82b65f271fbd140dfa2dceaf3aa7b01009f949758c43c2c913",
+      "bytes": 158990
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/abate2019-c9dt03163d/figure-5.png",
+      "sha256": "defcd16dfa822ad23d9bae8b205ca49ccb22fbf3dc31a25122b4ec4d8a6cb52a",
+      "bytes": 199390
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/abate2019-c9dt03163d/figure-6.png",
+      "sha256": "f76ad5bd527685575675a93ac236ae0eca55101816f6cd5cc0318c788306b02e",
+      "bytes": 183572
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/abdelazim2017-acs-chemmater-7b02637/figure-1.png",
       "sha256": "cd5c14b79fda1a8e801de5744d3587c28072d6a1f2f6ca4af67e12c167857008",
       "bytes": 250245
@@ -94295,6 +94805,26 @@
       "bytes": 122883
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/baumgardner2012-c2nr31054f/figure-1.png",
+      "sha256": "9326d553f9c986f80a19b1bea6a9ce4f8ec30e02d7ff39d238b6f2992dd5a81a",
+      "bytes": 617866
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/baumgardner2012-c2nr31054f/figure-2.png",
+      "sha256": "7695dd828b5b240af41182927c727471bbc01b8d4afe77282feae7dcb8f79b6d",
+      "bytes": 242057
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/baumgardner2012-c2nr31054f/figure-3.png",
+      "sha256": "78198f9554100a55083881a8bf9897873b1adcecdf6fab06f5262cce1e4b5818",
+      "bytes": 571971
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/baumgardner2012-c2nr31054f/figure-4.png",
+      "sha256": "2e41b8c46b1ada5deac9b3fec4951e461bf45556cba59fa93a8dbd9819ad0b3e",
+      "bytes": 392768
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/beckham2010-la904031s/figure-1.png",
       "sha256": "4ad08c0560bac8e106121bf904860324fc86fbcd506936b1a7f5e366706488cc",
       "bytes": 875557
@@ -94933,6 +95463,41 @@
       "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2005-1-2132533/figure-3.png",
       "sha256": "ed56b511ec24b3e21c3f1233915bdfce155780649f620fec531223d08b7a62f7",
       "bytes": 169708
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-1.png",
+      "sha256": "d81e367adb32fccb193d67b03045dc54236fa564801ee699ff87e8addb642833",
+      "bytes": 674884
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-2.png",
+      "sha256": "946c769bf999f33daf1434edc4ca83c4321498e4d24a58fedc359a80431387a7",
+      "bytes": 557389
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-3.png",
+      "sha256": "69c5bdd3f7fb80dbdb503aff4da76102ba1c66a33111c9953450f249cc7d19f0",
+      "bytes": 442695
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-4.png",
+      "sha256": "323935622e08d55285efaebafd8ba552ddebe91f4b44269efed718d1ec7fa4d6",
+      "bytes": 72609
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-5.png",
+      "sha256": "15d8190e0e86eb1838fb75def076c297fd58b7275bc54aa5840e8e1fddd0fe15",
+      "bytes": 66589
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-6.png",
+      "sha256": "cdd7d3cab188c55b4f946819fe8c9953dbe04a5cda8559053a7bb5fbfef12f13",
+      "bytes": 124990
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/bhattacharyya2016-jacs-6b04981/figure-7.png",
+      "sha256": "46d8559306cb6ccc6ae8911e98687e9ddab337c1790ac5d8d0ddb83edff15129",
+      "bytes": 42690
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/bhawawet2023-acsomega-3c05795/figure-1.png",
@@ -96933,6 +97498,36 @@
       "path": "recipe-atlas/static/assets/paper-reviews/cao2012-la302690h/figure-6.png",
       "sha256": "897b92a030e977bf0897a7ee7086e78d7d105a888633b3bfb8041e49b208a969",
       "bytes": 653993
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-2.png",
+      "sha256": "3c3e16b0139ceda6ad328e5256a130c3fb2f862caa8d3a009098aaf03f9d3345",
+      "bytes": 415050
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-3.png",
+      "sha256": "2777c17dd772ad2f0b89206f2c58ce837c7785e6ea638e303a6c57cfbe591f13",
+      "bytes": 513266
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-4.png",
+      "sha256": "8694f25469d542f47b79fcefdaa3e8549d4bad235212f11e05c22879d8af6631",
+      "bytes": 88881
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-5.png",
+      "sha256": "4b26f341dd283851553409c474f743fb3fa09d8262049f0cbe25754710c8184e",
+      "bytes": 216244
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-6.png",
+      "sha256": "b5cbe80cf4e55d68d73a54897de1babf29ba1f1ccdc177d38aef583dc03da6cc",
+      "bytes": 145064
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/cao2016-jacs-6b10102/figure-7.png",
+      "sha256": "84d81b07c1ffc7b49968e83dc76ddbbf19676cad0d214ce14689e1b32f0e8dc3",
+      "bytes": 260259
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/cao2018-acs-chemmater-8b03671/figure-2.png",
@@ -100695,6 +101290,31 @@
       "bytes": 130662
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/chua2015-nn505639q/figure-1.png",
+      "sha256": "262be6a9ee342a42f74c0fc685671397c2c3ac81e65a6aa8175c4e7c18d3291f",
+      "bytes": 563703
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/chua2015-nn505639q/figure-2.png",
+      "sha256": "8ac6dbf5fa14e1703ece6cf90dee740a84850c3bfb3158370bb81ded72621674",
+      "bytes": 465218
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/chua2015-nn505639q/figure-3.png",
+      "sha256": "a6cf322df6dd1f892494af6f56546884ce61d1ffc65f6d2ddff95e72bb3ffac4",
+      "bytes": 192998
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/chua2015-nn505639q/figure-4.png",
+      "sha256": "e82c10a85881f8aa881e1b3893899fdbf8a4c51e18a29c84e3e81415f480f494",
+      "bytes": 171996
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/chua2015-nn505639q/figure-5.png",
+      "sha256": "1d7ec0e4be7ef2fde414b6caf1c172aa00d33f5d70c5f0dd919fbc50ef454a15",
+      "bytes": 160096
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/chuang2014-am503889z/figure-1.png",
       "sha256": "9b83d069e2dc1df77c34f73954d6446aa862baa743c9a8cdbbba902ef8d9f4cb",
       "bytes": 219189
@@ -101513,6 +102133,31 @@
       "path": "recipe-atlas/static/assets/paper-reviews/cui2026-acs-inorgchem-5c05727/figure-4.png",
       "sha256": "1020f71886ba219cc2fdb62fe77c22d1e5e8ea4f3084f1c48514cd540cc24614",
       "bytes": 128920
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/culver2016-c6dt03382b/figure-1.png",
+      "sha256": "1518f75ce9ae6a4a757845fb5225c8f464ad16c6c1aa158ba705f6a5df117ebc",
+      "bytes": 279012
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/culver2016-c6dt03382b/figure-2.png",
+      "sha256": "82b4962bfeae26594d4f720c0cfad7a51b03de9f9f25b77a6ea25f8bd2046c40",
+      "bytes": 225157
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/culver2016-c6dt03382b/figure-3.png",
+      "sha256": "e2f20b552fa186307bb0811b6672127fe3e26573c46cf08ee4e8ad2f9bedac3b",
+      "bytes": 216439
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/culver2016-c6dt03382b/figure-4.png",
+      "sha256": "0c9f27164f6e2d22350616c9c0792576faa1dc16d990bdfa76ec2fe003ebdbb2",
+      "bytes": 127656
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/culver2016-c6dt03382b/figure-5.png",
+      "sha256": "25352f5149abefefcc6aeaff2acc7b617716aa22d32b329d83a1e572a5043a4e",
+      "bytes": 100505
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/cunci2021-acsanm-0c02526/figure-2.png",
@@ -103923,6 +104568,26 @@
       "path": "recipe-atlas/static/assets/paper-reviews/du2010-ja909490r/figure-3.png",
       "sha256": "83600c2c2c6731fa5b793dc4d0291f8660036800e9d3a13a4a433bce46f875c3",
       "bytes": 51792
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/du2012-ncomms2181/figure-1.png",
+      "sha256": "02c6a1e1ea864cfc812d11ac9f4170b45c7ab485020544c902b5e0ee6e3dc22b",
+      "bytes": 1072767
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/du2012-ncomms2181/figure-2.png",
+      "sha256": "6ce162f75ed1b6d666b414c89723848d0651a435175e51daa62ee58fd903d230",
+      "bytes": 158879
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/du2012-ncomms2181/figure-3.png",
+      "sha256": "1f14398811ba327a1e562966c8dc1e18e0663931373061e54093ea106b3dc5c8",
+      "bytes": 368749
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/du2012-ncomms2181/figure-5.png",
+      "sha256": "9883a1149309d1bf3bb37f409bf8d4182e6ac1af3246c2ea30000e6e74ab7f89",
+      "bytes": 1216531
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/du2020-s41560-020-0617-6/figure-1.png",
@@ -106348,6 +107013,31 @@
       "path": "recipe-atlas/static/assets/paper-reviews/frank2007-pssb-200776158/figure-2.png",
       "sha256": "4092c01292b4b1cb2adf494d1eb5b4e619b7c531107c467f288f9888b2fda63d",
       "bytes": 218507
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/franke2016-ncomms12749/figure-1.png",
+      "sha256": "88c75db3ba716728758a142b2ba2fcb56a45fe9e4c1f2893f6f859efd92eb9b1",
+      "bytes": 150650
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/franke2016-ncomms12749/figure-2.png",
+      "sha256": "bbaee4803db997d5fb13a8ff6310e6f20781497ee14f94548677346bf5815bf2",
+      "bytes": 119138
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/franke2016-ncomms12749/figure-3.png",
+      "sha256": "0372adad0121a65f64d46a333efb1ee2bde0bee84f8ef79424d791cfe2568003",
+      "bytes": 152054
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/franke2016-ncomms12749/figure-4.png",
+      "sha256": "618ee9a4262053db2281b4a770bcd2fc5ff3c015419f803f3988c6cf14428c12",
+      "bytes": 277323
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/franke2016-ncomms12749/figure-5.png",
+      "sha256": "75563461bcd4c84dabf8922baaf72cc32cc5fcf19813b9902be8476a0f5d5bbb",
+      "bytes": 221752
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/frase1999-1-370517/figure-1.png",
@@ -110410,6 +111100,41 @@
       "bytes": 157627
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-1.png",
+      "sha256": "1a5a1b841b7e7c4c69a6e838bbd230e3460f16f79eb9a199f0a6b61c37ae7c88",
+      "bytes": 57868
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-2.png",
+      "sha256": "3f73e49e6a0506b7167f0349d66f9f6e5fc213ed2f09d89af4897c5a1dfcf4f1",
+      "bytes": 310408
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-3.png",
+      "sha256": "34ff70be46a28bb4d5bf08c08b99d89903ad153de229d60b7fe632c346dcb7f8",
+      "bytes": 318857
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-4.png",
+      "sha256": "f8abfd57c5f71f0c702cef6f30132ee2de054e7f88bdf95381c265cb463d5e91",
+      "bytes": 143236
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-5.png",
+      "sha256": "aec88433efedf8805fa3fcce63bcc95c3ec7b5967080027dbe4c210583a4d6ea",
+      "bytes": 137850
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-6.png",
+      "sha256": "814b6b5647ff8c0764bb6abfa3aadf2e10fca2ef78ab994b21ecce156e6fbe84",
+      "bytes": 246719
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/he2015-c5ta05304h/figure-7.png",
+      "sha256": "11f8dd8595346e0abd8a8777626abca50c4e33b45f460c78cc39cd77c018116c",
+      "bytes": 142285
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/he2019-acs-inorgchem-9b02154/figure-2.png",
       "sha256": "c59d681750136c76e764691a04fc6882631db76c7b1034db88e601dfcb1c85a7",
       "bytes": 780580
@@ -112030,6 +112755,21 @@
       "bytes": 279889
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/hu2026-s41467-026-71288-0/figure-3.png",
+      "sha256": "aa5598337e56750bf4aa529a493b04df7dc1eecdeee27b360098468ba14e0fdb",
+      "bytes": 631060
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/hu2026-s41467-026-71288-0/figure-4.png",
+      "sha256": "466d85822ef1d1e9439462dcbf0396fa2ab27b2a9d30da49196060214b6b979f",
+      "bytes": 392006
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/hu2026-s41467-026-71288-0/figure-5.png",
+      "sha256": "0bc0128cc6822e7d02f1852001741ed6c50860441ab46095b08d1fa0e93dbfc3",
+      "bytes": 363155
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/huang1999-cm990371i/figure-1.png",
       "sha256": "120a2793439c9e70690a6d0473ea5b412de6b69c07d50f18ed77b302f4a62313",
       "bytes": 32750
@@ -112343,6 +113083,71 @@
       "path": "recipe-atlas/static/assets/paper-reviews/huang2015-acsami-5b10373/figure-4.png",
       "sha256": "333292bc724d770346ca17d2d1c552e33cb0cbfbbd2d28bc1642b5d6c3fa05f0",
       "bytes": 300344
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-10.png",
+      "sha256": "be7f2c019a625846932ab88910b93768f44606e42346c7b3242f541d75e9233d",
+      "bytes": 169864
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-11.png",
+      "sha256": "8b6503c28ecfcbf5d45708eba860d785f0804e5202b0923928daa4da0300c9a5",
+      "bytes": 87957
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-12.png",
+      "sha256": "4b1d4682f60147b8907c0d1ce4b80a27e09765904f753f4a8aeb8b197df3934e",
+      "bytes": 91749
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-13.png",
+      "sha256": "e32a6dbe319bd54515c4162992914662cc9756040bc1e53fa8997468b699e733",
+      "bytes": 123456
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-14.png",
+      "sha256": "cc5d810129b55dda5d70e1feb084c0de85eaf233142d54156b23049df67c6bfe",
+      "bytes": 59167
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-15.png",
+      "sha256": "52bc92373f8e7f6c13c590d2dde25637d2170d2ed8b47c939fe029f1c3e8428d",
+      "bytes": 114348
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-2.png",
+      "sha256": "820405bb978e09a2d4c7b49f4170521d57dd3090a9cf585dab07d2fd2d4d074d",
+      "bytes": 44856
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-4.png",
+      "sha256": "e411c32012466e3a753f26a544157f12b8f8991e39048831d8dae8515e1c9d78",
+      "bytes": 82393
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-5.png",
+      "sha256": "d88db4e0d366e86444c554d5bbfb9f2466b8f9d2d47aee2f188d18aeb333920c",
+      "bytes": 979136
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-6.png",
+      "sha256": "47279e0c194be673acb290687bebbaafbae4c3c0ab4bee7f610ddf6373020bd3",
+      "bytes": 213872
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-7.png",
+      "sha256": "d55dd95019a93b9438af15aa96a57a611839cbedeaabb1357b080eb6ab07e192",
+      "bytes": 140424
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-8.png",
+      "sha256": "aab4c321fa12d2a3a022b11d93e3cf0b2d7b2940e53dc3e6445c47255a1cafb4",
+      "bytes": 63658
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2017-c7ay01705g/figure-9.png",
+      "sha256": "f5eb8134a9a81b923010c7de55a905d2194819f20ae7c16f77a21db5c19bde8f",
+      "bytes": 614011
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/huang2018-acs-jpcc-8b01053/figure-1.png",
@@ -118425,6 +119230,26 @@
       "bytes": 509012
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/kim2012-c2jm33962e/figure-1.png",
+      "sha256": "0b4bfd87752d387b0b9fa4b3d03b2bd4cc2810215961579d7987de3c7164e6fb",
+      "bytes": 272702
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kim2012-c2jm33962e/figure-2.png",
+      "sha256": "59b4186fe3caadb2362f0cce24e84c83a8ff5fbad3370a9923a8ccb1bbcb165e",
+      "bytes": 371323
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kim2012-c2jm33962e/figure-3.png",
+      "sha256": "c6fe32fbb274091af68132e3e86c336db5ba62f36ae3255028afc127dfe0e6d6",
+      "bytes": 140421
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kim2012-c2jm33962e/figure-4.png",
+      "sha256": "1fce8538718ac250d26ce76f8e2c05b238141cdeabcc6f1e27ffd48f047df625",
+      "bytes": 144577
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/kim2012-jz201605d/figure-1.png",
       "sha256": "dc347dcd6a20c613e08d3e1bb26926a6ac2e4918cf4d095ba9487e785e12c82d",
       "bytes": 970729
@@ -118958,6 +119783,31 @@
       "path": "recipe-atlas/static/assets/paper-reviews/kiravittaya2006-1-2168494/figure-4.png",
       "sha256": "01d923ba53978f1fc787d9dc85b33ac756e676e7d09ad25ee747b56cc87cb64d",
       "bytes": 169983
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kirkeminde2013-c2ta00498d/figure-1.png",
+      "sha256": "e552e811ad79102036ebd719e1b03f6c14db093789bd156c9de37721c2deec63",
+      "bytes": 374132
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kirkeminde2013-c2ta00498d/figure-2.png",
+      "sha256": "324902a1b7179ac0b6954e5b45c272d27dfa77c78785b0ac851ff648b746c648",
+      "bytes": 533070
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kirkeminde2013-c2ta00498d/figure-3.png",
+      "sha256": "42ac2e42f80640958e1dd7031b2d5b7189e08f3d3e449361d8fec2037bc1674c",
+      "bytes": 153697
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kirkeminde2013-c2ta00498d/figure-4.png",
+      "sha256": "d85e6b26746f7eb3754895536794371b7c68a665d4843f13ef60a1538d0c484b",
+      "bytes": 281707
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kirkeminde2013-c2ta00498d/figure-5.png",
+      "sha256": "e474e6248b0d26f2d6dd3d98c04dcf1092d8c982441f32d8e0c177e13276af54",
+      "bytes": 286335
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/kirstaedter1996-1-117419/figure-1.png",
@@ -123505,6 +124355,51 @@
       "bytes": 28870
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2015-jacs-5b05462/figure-1.png",
+      "sha256": "c2876aa1280bbae0aab326174bada69ad3d21863beb4e2b4d967ee75f9347c82",
+      "bytes": 303241
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2015-jacs-5b05462/figure-2.png",
+      "sha256": "e9e9095758d13aef0ccdac03bdd3aa3d8444fadb5253edcb204a428bcb04bc4c",
+      "bytes": 78837
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2015-jacs-5b05462/figure-3.png",
+      "sha256": "9bb98cafd7665965241d483618a37a1b40cdac52dc8c2256c3f8894ad8231447",
+      "bytes": 74864
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2015-jacs-5b05462/figure-4.png",
+      "sha256": "38352c8a38dfa06af5e3bf0b8318203da566aa7a4b72017e5b11ac06bd3266f5",
+      "bytes": 80210
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2015-jacs-5b05462/figure-6.png",
+      "sha256": "1423b6ac15d0fd90d2ea65da3fe158468aceca4a4080d422659d3242de6ac51d",
+      "bytes": 40157
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2016-c5ra27904f/figure-1.png",
+      "sha256": "189713c9c6d81d1923b4668885820fae9514d13b1b9cfdff929a0ac6e58ef749",
+      "bytes": 255764
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2016-c5ra27904f/figure-2.png",
+      "sha256": "cb220d98e18e96e74a43f8030f849f8bc7d6c51c2fa927a4982d76af95432c37",
+      "bytes": 84962
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2016-c5ra27904f/figure-3.png",
+      "sha256": "4202126e302fa9365487223bfdfc6248f33c60e33e00e984c7853bbe198bfd1e",
+      "bytes": 111847
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/li2016-c5ra27904f/figure-4.png",
+      "sha256": "1d39e64c1d19793e5f130102b2a900f46ceb02a3cbadfdf3a3761f0df163feff",
+      "bytes": 223754
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/li2017-acsami-6b15997/figure-1.png",
       "sha256": "498ceafd80fd4ba6b12dfcc0790b7e4c46449c57c7fa3aa3e92719ef9f01bc82",
       "bytes": 541383
@@ -124033,6 +124928,41 @@
       "path": "recipe-atlas/static/assets/paper-reviews/liang2014-cm502812c/figure-9.png",
       "sha256": "29d2fef734b88537be5e940f28578fd292775c7897a0b0591b3e42b47ef23000",
       "bytes": 247600
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2015-c4ce02405b/figure-1.png",
+      "sha256": "c94691a72ef5652f2cd1e9cbc7c2630c8b2ca292e9684c2872a2781d8821fbf6",
+      "bytes": 724908
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2015-c4ce02405b/figure-2.png",
+      "sha256": "f0f78ff392d6db69f37564985f980dc6859bebf919a166bfcc68942c6843062c",
+      "bytes": 62209
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2015-c4ce02405b/figure-3.png",
+      "sha256": "18509955ae995373260111fc17820d9704c82ba3d5f787b05e5712837a007726",
+      "bytes": 185108
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2024-s41563-024-01901-4/figure-1.png",
+      "sha256": "b523d9250bd4eb47e62b17245e9a19987a4a3ec3c5ff47b2b5a38c0c68173561",
+      "bytes": 418624
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2024-s41563-024-01901-4/figure-2.png",
+      "sha256": "b79f525173f223e5ef12b7e9ffabe3507e68ace4d325033f78b0096e83b69c85",
+      "bytes": 113364
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2024-s41563-024-01901-4/figure-3.png",
+      "sha256": "ad69712c46b88f4cf5fc0833fed4f15d6f5f5aa00c279d2e6c36b7d051425e68",
+      "bytes": 1574267
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liang2024-s41563-024-01901-4/figure-5.png",
+      "sha256": "8f5b6451625211567fec10eaedde5e069ef008b37084372b958bf518b95b1c66",
+      "bytes": 128715
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/liao2001-b101004m/figure-2.png",
@@ -125960,6 +126890,26 @@
       "bytes": 61960
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/liu2013-c3ta00357d/figure-2.png",
+      "sha256": "1357a0852b3fb5b233823fc26dcdbd257e9cfed03c99e54136630c357171d62a",
+      "bytes": 211702
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liu2013-c3ta00357d/figure-3.png",
+      "sha256": "7d7a21059f925fb7f267844779dfe9696a99530bf1a933b6b46d65ab0061e9fc",
+      "bytes": 683689
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liu2013-c3ta00357d/figure-4.png",
+      "sha256": "0e2bdd201b448113323b58f33aa330c99c8c8141bcf8e57ca40cefc603136293",
+      "bytes": 227480
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/liu2013-c3ta00357d/figure-5.png",
+      "sha256": "2f2cda6ceb7f6543bc0262ad2b94de965664585a75e7a1eeee9117becd336c50",
+      "bytes": 289627
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/liu2013-ie4028395/figure-1.png",
       "sha256": "18db0220b32d5a3ec45123f53ea11e7b1ae1904ed4b7046840802dd190f09cc8",
       "bytes": 89778
@@ -126990,6 +127940,31 @@
       "bytes": 98942
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/loc2015-c5nr04181c/figure-1.png",
+      "sha256": "96e947d18942eeabd4d0ff7c976498991f894bb807d3e1dadcc05d0ff3fb9c73",
+      "bytes": 84426
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/loc2015-c5nr04181c/figure-2.png",
+      "sha256": "e2e7086e044c7c7a12da6dee3c06a793dbbea29aa25761e6df833948dd28f80c",
+      "bytes": 780052
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/loc2015-c5nr04181c/figure-3.png",
+      "sha256": "f7038fce0f41d799ff3b1166c211f186df47f2617421e80240e776393db686ef",
+      "bytes": 255805
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/loc2015-c5nr04181c/figure-4.png",
+      "sha256": "7c639c418eecd88e42d265cade25d00486af84fda629817a98b87c68b5099650",
+      "bytes": 505181
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/loc2015-c5nr04181c/figure-5.png",
+      "sha256": "b031bf3f45a9ba9259cf6d00fa48695275ff4372dcd3d426b2051864a783a332",
+      "bytes": 99171
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/loewenstein2008-pssa-200779439/figure-1.png",
       "sha256": "ec107e010c0e3855f1f896b5b6022959d1a8b27c29f02baa7e686119231c0f5d",
       "bytes": 528244
@@ -127878,6 +128853,31 @@
       "path": "recipe-atlas/static/assets/paper-reviews/ma2008-1-2956672/figure-3.png",
       "sha256": "df5b9e9d454c2f26ee93927f4b4db02d6b6e4c94cf9d7ebb124634fbebb31b52",
       "bytes": 101546
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ma2011-c1cc11070e/figure-1.png",
+      "sha256": "4b3b8e583d47c0957d8abda5fde3c76de287e7d99d98b5098425bd9c32384578",
+      "bytes": 167979
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ma2011-c1cc11070e/figure-2.png",
+      "sha256": "2c5c394a2927ebe16cdc12658b59876f943b42fe00774eacc3c5f84bf2bde822",
+      "bytes": 114925
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ma2011-c1cc11070e/figure-3.png",
+      "sha256": "135c9edf35ddc22a1caa85ee7587b072ba3a58d4bf418248697ad279c3d24c82",
+      "bytes": 111267
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ma2011-c1cc11070e/figure-4.png",
+      "sha256": "d2e251222a18d286490318f9f452e19482a7ee73e058c1983a08591eba94d433",
+      "bytes": 78225
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ma2011-c1cc11070e/figure-5.png",
+      "sha256": "112083d46923eee216c9de2e5e1b00580c4d1fc0fe7d9f3639e24230a5202825",
+      "bytes": 261347
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/ma2013-pssa-201329136/figure-1.png",
@@ -129105,6 +130105,31 @@
       "bytes": 283136
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/mansur2015-c4gc02072c/figure-1.png",
+      "sha256": "602c4f251bc998493f6d47a1b4b84d9bf7a6672ae69e683ee6ab7890d75b9918",
+      "bytes": 413065
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mansur2015-c4gc02072c/figure-2.png",
+      "sha256": "1b4d14704f806bc2c40239b624962745f74522ef5c0f6b1df5bd8652f1747a82",
+      "bytes": 400999
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mansur2015-c4gc02072c/figure-3.png",
+      "sha256": "a43f6dbb97873a888ecf9b928159785d3ff312b078d6fa0c41b4914b0c6dd28f",
+      "bytes": 1184095
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mansur2015-c4gc02072c/figure-4.png",
+      "sha256": "5f990438a42cbc081fcb7f0ffa253723968ca4650e7f6e658e32c2b0e00612c0",
+      "bytes": 676118
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mansur2015-c4gc02072c/figure-5.png",
+      "sha256": "1d0baee93bcf512cbc7cb677b28f2fb8d28f49ab32fb350775994d6e6e605f5d",
+      "bytes": 993846
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/mao2014-ie502432y/figure-2.png",
       "sha256": "a86776b9cb9e81ae39173fe1ebe8099b15058190eb92ae6de8d62be11248689d",
       "bytes": 146557
@@ -129448,6 +130473,26 @@
       "path": "recipe-atlas/static/assets/paper-reviews/mashford2009-b905256a/figure-5.png",
       "sha256": "0a476fa78079c3fdf590a96026233a3c1d3b0b5621bde40c8fe7833316c4f1ae",
       "bytes": 212651
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mashiach2021-s41467-020-20512-6/figure-1.png",
+      "sha256": "3802a1528907c13ac48ad41ed8c63788dab60053d0b37e1a590d4f83feabb918",
+      "bytes": 361689
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mashiach2021-s41467-020-20512-6/figure-2.png",
+      "sha256": "974428eaa22e671a6a0e54b41fa1da3cab0a70f016997ea2b25f75982af05e13",
+      "bytes": 63859
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mashiach2021-s41467-020-20512-6/figure-3.png",
+      "sha256": "1d0b2ffb629e40f0b7e5f9a0ea37e966ed39fcc44cac92e2e051f8208d7eba96",
+      "bytes": 226532
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/mashiach2021-s41467-020-20512-6/figure-5.png",
+      "sha256": "927ecfcafeb2f11352dac5785002fc63f99b3fdda28c580c0b600b0b2d17c545",
+      "bytes": 474755
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/maskaly2006-adma-200500875/figure-1.png",
@@ -133030,6 +134075,31 @@
       "bytes": 45172
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/nightingale2011-c0lc00507j/figure-1.png",
+      "sha256": "512a11f90d8d15ccd5d5c87717603bc3d4ffcc2090b1bd36c7efda69d56f50db",
+      "bytes": 415625
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/nightingale2011-c0lc00507j/figure-3.png",
+      "sha256": "98d9833b12840dcdae6c1b026e78444f571f15c5dd46e4daba14ee4652432d81",
+      "bytes": 422343
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/nightingale2011-c0lc00507j/figure-4.png",
+      "sha256": "54077382d7ec55d712f84bf88c0a13fc4d743d750884974e9df5e3d8dabfab11",
+      "bytes": 204884
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/nightingale2011-c0lc00507j/figure-5.png",
+      "sha256": "19a8fe464eee60505fbe04208d5ed0aa57e6cd99b48ab92889b14b46c3c2ed79",
+      "bytes": 459536
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/nightingale2011-c0lc00507j/figure-6.png",
+      "sha256": "aeb19321f5c9359a546a3f572ded88623b3ec74947f53a6916ba461de1569db9",
+      "bytes": 147727
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/nishino2009-calcite-cg800331a/figure-1.png",
       "sha256": "fd7bce8f18beff4e69ead9fb08f1a1d842b291e69862e15d6a50c0c05d7e4fe2",
       "bytes": 47756
@@ -133158,6 +134228,46 @@
       "path": "recipe-atlas/static/assets/paper-reviews/niu2008-cg701048d/figure-3.png",
       "sha256": "2aadf44f0918c4f849fef6b0bc36642a646ee0e9f8bbecae0ae3c993d4571312",
       "bytes": 642385
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-1.png",
+      "sha256": "302c499be3c67fc7e2e757be54460e107e5c4cc59abefccca5f9b02cdab6b779",
+      "bytes": 1056701
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-2.png",
+      "sha256": "5f3370c9748a762df6f098adc4ee948a21386669bed6a5e582655b91353fb8a3",
+      "bytes": 952154
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-3.png",
+      "sha256": "fc7ba6ccf0d634afb356d1e35d6767ebdbced90a3c5196be54232b2dac19b9b3",
+      "bytes": 296842
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-4.png",
+      "sha256": "218543620289a58f7d9e38476bcdef143d0684b23495d891dae848315416ca1f",
+      "bytes": 153072
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-5.png",
+      "sha256": "e07db3a95656af2d9281888869b60f4feb5261e7871640856d899636e38291ae",
+      "bytes": 124715
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-6.png",
+      "sha256": "6c1cb1eae12a9bb1c0716b6c34c608094ef8904120348d61f679d34a6f7a4145",
+      "bytes": 145301
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-7.png",
+      "sha256": "acaf02db898f4e7daf7c39e17a34f0ecbd40198852a19e620b0b3b9311e03b94",
+      "bytes": 81789
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/niyamakom2015-c4ta05696e/figure-8.png",
+      "sha256": "9118cf3cfd1532b15c6371f39a11279817c162b768f913220794ebf57b264564",
+      "bytes": 163744
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/nizamoglu2009-1-3109151/figure-1.png",
@@ -134680,6 +135790,26 @@
       "bytes": 165618
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/page2016-c6an01760f/figure-1.png",
+      "sha256": "544b8dd55d4b59f86385df4f276b7ea48dfb34f71f11bd58a51ee3cf0a59aa29",
+      "bytes": 678211
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/page2016-c6an01760f/figure-2.png",
+      "sha256": "bb51f5b578ab39dbaa55dcda80d7772530e241d7e3b087e39e5fdfa5f917417f",
+      "bytes": 208707
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/page2016-c6an01760f/figure-4.png",
+      "sha256": "e00b8b7f5a60cbdaded485caf4a02c0c1bb4182d2db971b7ee2978a40e03c999",
+      "bytes": 181456
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/page2016-c6an01760f/figure-5.png",
+      "sha256": "a00b07af6672d4e6e5125a793cd9c2a10a245d4166e1a574478aea9efbaed55f",
+      "bytes": 360937
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/pagnier1999-jssc-1998-8087/figure-11.png",
       "sha256": "a3a3153e5232c31120b2761dddc7455c08acfbd9b040d354fb52b38dbbcc8cfd",
       "bytes": 88695
@@ -134723,6 +135853,41 @@
       "path": "recipe-atlas/static/assets/paper-reviews/pagnier1999-jssc-1998-8087/figure-9.png",
       "sha256": "412f7393c961658d9dbc60838a5b8ed7e64f4eb10e7ff132e7690a443d6e6f5a",
       "bytes": 39188
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-1.png",
+      "sha256": "8b216909a05fbc6e6e55029dd15360c4998ff7e4e88d7da97eb2da30dd7c3dac",
+      "bytes": 1023550
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-2.png",
+      "sha256": "0df0aab00db20c13ad2cb0826d2e13cb419872737c852066bd9a32580ca09ed9",
+      "bytes": 99390
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-3.png",
+      "sha256": "3f650414e85f1cc2975b5a01b859f5102d26b0181dfb6fbe7100c5a25cf7d880",
+      "bytes": 676426
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-4.png",
+      "sha256": "54f0f97f1b9bc36130a1719ecbc0f3d82f33f8d31cfc561663fa3db693313d22",
+      "bytes": 475138
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-5.png",
+      "sha256": "1583aab10ff7cb7997111fab5f2a84e533781a083bc60f92e27089444fd73b26",
+      "bytes": 946192
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-6.png",
+      "sha256": "284194f556e14e3d441fd6373f86361dd6caea0c8a7ee5c016d7fdfa0df84482",
+      "bytes": 40539
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pahari2011-c1jm10617a/figure-7.png",
+      "sha256": "642b251a30878c3d42b1d7c250fcdd882cbd2f6001b1585078adaeb4f746f1f0",
+      "bytes": 81578
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/paine1992-1-106808/figure-1.png",
@@ -135900,6 +137065,16 @@
       "bytes": 84531
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/park2020-s41467-020-19573-4/figure-3.png",
+      "sha256": "afc85ec45983154e99ac48ab89ad11daf71346fcf5e5d159d1ea508196efad85",
+      "bytes": 403176
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/park2020-s41467-020-19573-4/figure-5.png",
+      "sha256": "2839d11268da4663b9e0397b36bdfefcedf7486b65447ad8ccb822951e549866",
+      "bytes": 224397
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/park2023-acs-inorgchem-3c00161/figure-1.png",
       "sha256": "5ca7e29213b97efb090185fd8f0854ecd260608886800ad59314673ddb861dcf",
       "bytes": 431057
@@ -136595,6 +137770,51 @@
       "bytes": 201760
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-1.png",
+      "sha256": "8a7a9394b6063b28e10e34384cc61e3e145192f240bab40d717f6c014bfff41f",
+      "bytes": 358592
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-2.png",
+      "sha256": "9b83e7989eab170b922cd69dee2265ee6a40362bf5c4194aae0fe0b30b71baaa",
+      "bytes": 210807
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-3.png",
+      "sha256": "8d86186d04b9fa28613d5bc223ea14fa4d5ad80cd0cff5ee53968ce947335979",
+      "bytes": 173531
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-4.png",
+      "sha256": "8bd785e417120fc5b44c84caefed7977c585bceca4e21443e2aa59c6acd85ddb",
+      "bytes": 624700
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-5.png",
+      "sha256": "40f1a7eff83af5fbb62c10b2f90bd16e05fead3730be9acc6bd495d89207b234",
+      "bytes": 116248
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-6.png",
+      "sha256": "d12bb2d095504b883897b0d3d983a262baaf6f6afa013a183443c779fa1aae47",
+      "bytes": 172922
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-7.png",
+      "sha256": "b5a02f0654a303b3f972be4d8adc22a45bc748e58a6e0d06475826f40e237cbe",
+      "bytes": 491310
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-8.png",
+      "sha256": "6d5ed26594c9fe19aaf52fc24e198db6ea5fa61ef6636f86f41552950e9daf51",
+      "bytes": 83305
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/pei2026-s41598-026-48145-7/figure-9.png",
+      "sha256": "56018ecff3ab2d24b501ed077fd2add7de684a231d18adc4ee0fbeab902b3c12",
+      "bytes": 223830
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/pena2003-b304830f/figure-1.png",
       "sha256": "13c9a906a811eb724092c426201e70a3c0fd947ae44c716e291b3855e1d41a67",
       "bytes": 103994
@@ -136688,6 +137908,41 @@
       "path": "recipe-atlas/static/assets/paper-reviews/peng2003-1-1538181/figure-7.png",
       "sha256": "450eb191433f18e15be6c0834d282fd64fc6a334ff252e3e0de0cb12144d9b9f",
       "bytes": 28418
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-1.png",
+      "sha256": "49f06bdd8719e5f540676b073593ebe9ebe415994fd232bf18dbe6fd9747d03c",
+      "bytes": 45384
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-2.png",
+      "sha256": "ddfff93be5771b54b3eca3d4fc9d74890888d0d32e82cd6bab3424f65a1e4e2b",
+      "bytes": 96554
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-3.png",
+      "sha256": "e36a988586b1fdef424a7ca73d87468f9181d6e9b80f4d0d752241c5d62716db",
+      "bytes": 540390
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-4.png",
+      "sha256": "666febf9e1e017afe607f0bc87ad20015e08061a3a43301dc790819dbb7a8516",
+      "bytes": 739979
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-6.png",
+      "sha256": "fffa92cccf68f73399eae31ca2bb3c72f0532339a3532c1f9213a284b28a631c",
+      "bytes": 56504
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-7.png",
+      "sha256": "3f9c4d3a1cbd3d7c97cb5b57212d439e100396e8a389c5110ba4dde6071929e7",
+      "bytes": 373160
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/peng2012-c2cp40848a/figure-8.png",
+      "sha256": "cd2b83179adf41e42302f384a39df94610c79170eee89cdc1c3513e2458e42df",
+      "bytes": 95082
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/peng2012-nl2038979/figure-1.png",
@@ -146570,6 +147825,21 @@
       "bytes": 62154
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/siy2011-c0cc02304c/figure-1.png",
+      "sha256": "ae15b740b5b29d4290b36d5ec29eb3d5f037bdd6eb22903bf238fbacbf82dc88",
+      "bytes": 93035
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/siy2011-c0cc02304c/figure-2.png",
+      "sha256": "a421c340d4b0331eb971b9bde9b2e18070f10b9687f825626ccf9f03bc764b41",
+      "bytes": 318741
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/siy2011-c0cc02304c/figure-3.png",
+      "sha256": "9988325fba7b9bf64aabc1700d2bb7a8c3d44437c4064db39d7c44d774cb38a2",
+      "bytes": 194135
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/skoda2018-j-orgel-2018-05-037/figure-10.png",
       "sha256": "ba3b2d40b627fab93991b0cea724c2aaa417213a0f251843356912f36dede223",
       "bytes": 625923
@@ -146718,6 +147988,36 @@
       "path": "recipe-atlas/static/assets/paper-reviews/smilgies2012-jp3015436/figure-7.png",
       "sha256": "20e0c54803aac158cff26f6599d211b07fb76f06d0aaef50abeac40bda9a0d3f",
       "bytes": 925324
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-2.png",
+      "sha256": "d48fcbf2e851699bb5b2e8e32f1d00e0535ef4b7f159fdb62960776d7649716b",
+      "bytes": 572603
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-3.png",
+      "sha256": "89153ff16ab646d345696240727d09dfa6271856d489daa82dbf0d16854cc5b9",
+      "bytes": 227847
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-4.png",
+      "sha256": "556696de6a82949c45a88bb947e27a13530dfa08809fc6775a380c0a1d0c6b12",
+      "bytes": 605909
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-5.png",
+      "sha256": "acf7d5d2f32c783c76455b90698fd06c4908b7f5f3b087b485c8d9ec15eee590",
+      "bytes": 402626
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-6.png",
+      "sha256": "27f7164eb8a8e38f72df283cadb29e2412f6385d5db03b5ffc3e379a5ae52acc",
+      "bytes": 816523
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/smilgies2018-c8nr04606a/figure-7.png",
+      "sha256": "3fb843b4e28bba57e2f8694448adb38c903ab0863e8d68b9ac36bb800f89edf9",
+      "bytes": 246508
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/smith2011-nn102878u/figure-1.png",
@@ -148115,6 +149415,26 @@
       "bytes": 65602
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/stroyuk2018-s41598-018-32004-1/figure-1.png",
+      "sha256": "a85c6c49d7740cbaf8bb0f0c307635d6b465ab747e986a9f0218de5ecbb77a0b",
+      "bytes": 573191
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/stroyuk2018-s41598-018-32004-1/figure-2.png",
+      "sha256": "3563a1fccae01081dd90efb7c611f08ded0c1d15483d21820ccfbdb9938effa3",
+      "bytes": 466702
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/stroyuk2018-s41598-018-32004-1/figure-3.png",
+      "sha256": "0aa6cfa1ea8bdf83c87d12333120ca33c71249ce93e7e31c3fa649102ca88d02",
+      "bytes": 218490
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/stroyuk2018-s41598-018-32004-1/figure-4.png",
+      "sha256": "5011e28b92e17e16515f88a2787ad99efa697a5efe0d28b743151509fb3d3e93",
+      "bytes": 429868
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/stylianou2026-acs-nanolett-6c00158/figure-1.png",
       "sha256": "f5e66824e757f9d897a4a72c97f4ce3c58c75c8bb3e6c47074c91c8d012a2490",
       "bytes": 412598
@@ -148843,6 +150163,26 @@
       "path": "recipe-atlas/static/assets/paper-reviews/suyver2001-1-1428118/figure-2.png",
       "sha256": "24554bc70e1c41dae33df78f1521da2c9399bdaf4eaa51f765d69dd4c1b0873d",
       "bytes": 95288
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/swain2020-c9cc09368k/figure-1.png",
+      "sha256": "2d4b53ca6072aa8a9697aa1a0bee322c8cd85edbf40a57728709dbd0f99c26a2",
+      "bytes": 318227
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/swain2020-c9cc09368k/figure-2.png",
+      "sha256": "59ea04ecb3292ee9aa9e3833b6cccdd2dd8d2f2e3e6ca40c08f6a432640f2b72",
+      "bytes": 294486
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/swain2020-c9cc09368k/figure-3.png",
+      "sha256": "16a372bdbe68ecfbd32ed8bc0331ef04c0cf81ffd723aec0afa1c520271a2aba",
+      "bytes": 434989
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/swain2020-c9cc09368k/figure-4.png",
+      "sha256": "8c15ef3061c0c373098f9dad68608ab3ee13972ffa608f9c6379f07adb856fc8",
+      "bytes": 262981
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/swisher2015-acsami-5b00893/figure-1.png",
@@ -155080,6 +156420,41 @@
       "bytes": 255931
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-2.png",
+      "sha256": "219ebc84134325b652b663f1b91bd4fd1aabfd347715a494539b57cd35d04c5a",
+      "bytes": 480893
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-3.png",
+      "sha256": "dd53a6c96727b42409081dd9b33c6a8a87e6be3636fcfd5d7c60409418b76c56",
+      "bytes": 64341
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-4.png",
+      "sha256": "95f328c61776be96568c56eb7eb6c468f4ed64994a43d3ac73f27a3262fc8631",
+      "bytes": 203788
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-5.png",
+      "sha256": "c37f0bc89eabf7a05f131a2bff2990638f6944d8e102a341881b57b5baba4695",
+      "bytes": 129491
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-6.png",
+      "sha256": "2673ec69bdb73115fae7b6e8090892eb620d4399e099a05e7231c4e814db33e3",
+      "bytes": 385323
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-7.png",
+      "sha256": "49fb0df37d17889390ec83bb0526f142cacb7d723dbbe5ed5cceddf472bc8cbb",
+      "bytes": 330464
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2017-c7nr04593j/figure-8.png",
+      "sha256": "b9334fafa7b9f5e8ec3b0d856f87974ce23efa1a4f843936d65623bee02eb4e4",
+      "bytes": 133819
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/wang2017-j-electacta-2017-08-134/figure-2.png",
       "sha256": "5e510b406eb48d7008592fc0a0fe4815002d0f2d2d62b168d40100a5f6e4a7eb",
       "bytes": 1925166
@@ -155253,6 +156628,46 @@
       "path": "recipe-atlas/static/assets/paper-reviews/wang2018-acsenergylett-7b01243/scheme-1.png",
       "sha256": "2556f9e126058fb4d4a8d964aa781a02e1518f6d654fd73f90ec2633eddd97af",
       "bytes": 205631
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-1.png",
+      "sha256": "ef05c3c3c91f0faa8f89cedd2661a2375d4aba28cd31e74b0fec547861d355ea",
+      "bytes": 1439374
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-2.png",
+      "sha256": "050a1c6a7a6408e83b7bc452d19ec7c8849fd930d5ad81f122795bfb0e506961",
+      "bytes": 183057
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-3.png",
+      "sha256": "93b82185eb024c8e4c2ac376a38dba5a353052737ed434139a2e355d76884a7b",
+      "bytes": 1362220
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-4.png",
+      "sha256": "19a77c56782e50d36993fbe28b8bbc9102668c36ece71ddf2bc29552bc852c9e",
+      "bytes": 1094119
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-5.png",
+      "sha256": "7003c9265be06ac480c596e4427bcfb4b2ff418b5696ac6fda31e424d717416d",
+      "bytes": 2004552
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-6.png",
+      "sha256": "6a17b1f4ec579c5dff93afb6ae4c1aa8b3ea80d52234ef168b002f516bc9f492",
+      "bytes": 995259
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-7.png",
+      "sha256": "bc8715c2e5118431b9b6f448ea4d3874383e935b7e91379b5d5bb10675067d63",
+      "bytes": 605823
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/wang2018-c7nr08369f/figure-8.png",
+      "sha256": "a3352105e31f9ccb76934899db522993d0dc69f144feda70124094e74fdd79d3",
+      "bytes": 188868
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/wang2019-acs-jpclett-8b03750/figure-1.png",
@@ -158495,6 +159910,41 @@
       "bytes": 479291
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-1.png",
+      "sha256": "4b4c958c10c63be7fd649449d1f26bef36588af4a13e9c3a6bcee536458c40bc",
+      "bytes": 152939
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-2.png",
+      "sha256": "27fda48ce5acffa4662c095b465bb3adc7fd9bbe7522b620ccf9243a39ccfad2",
+      "bytes": 64027
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-3.png",
+      "sha256": "a216bca3f1f517222681bdc5908f5345433642de0bc12459e5a968a443ee5ae8",
+      "bytes": 1012093
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-4.png",
+      "sha256": "5b3d1f88f6cfc73dc349de655289add3b9aede30223a067b7333f44a558be27b",
+      "bytes": 132576
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-5.png",
+      "sha256": "50d945ab35039fb453b76da5e2df612725d493c84707135af41c46373d10a873",
+      "bytes": 338119
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-6.png",
+      "sha256": "fb3e6d4f84007581f4093e13e584612d292b47d2d6d4d9e17858e20cc5380bd8",
+      "bytes": 92378
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xiong2012-c2jm35101c/figure-7.png",
+      "sha256": "7e7b507d2fd40be05fa85a86c450c66d48c6686f08cb91892e6e645e4847d2a3",
+      "bytes": 411904
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/xu2002-scsz-tb00207x/figure-1.png",
       "sha256": "7d3384625b00d62beabbda69ab92ef2d97b6f8de5659699a75981208c61d86c5",
       "bytes": 39881
@@ -158853,6 +160303,46 @@
       "path": "recipe-atlas/static/assets/paper-reviews/xu2012-am300877v/figure-9.png",
       "sha256": "c20b2a658c2827a4be21b081de982449b6dca84db9c3c6b8ef2f027f33b608ac",
       "bytes": 480515
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-1.png",
+      "sha256": "fb729360cea726fe45ac066185526a619dbeda41da2b28c1858f9ca480cb3f24",
+      "bytes": 296282
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-2.png",
+      "sha256": "349645ec5f7e07864b813f7df2ccc3d79c5941e5b2cf2896946460340da4ee7e",
+      "bytes": 503318
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-3.png",
+      "sha256": "5bd12777aa89529cb534453a5af40515584d4c2c83a11144de1fd8b513f89837",
+      "bytes": 406709
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-4.png",
+      "sha256": "91b775275db8ad108ed9a141c7ee5756987699190e195f1b85f5b99ea15560d4",
+      "bytes": 160075
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-5.png",
+      "sha256": "2d14b2eea948979b0660c85b869d705e6578fa21f3b3cd07bda6c5a2475745f4",
+      "bytes": 203661
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-6.png",
+      "sha256": "5d33baf8b6ecb19c3d0b461caf853c1c0ab4d98ccacf0e750418ae9477938014",
+      "bytes": 597152
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-7.png",
+      "sha256": "ace0c2b2bbfa090d68e870194d1aa450a028d644c1cba61de3f35ad25683371b",
+      "bytes": 87954
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/xu2012-c2nr31724a/figure-8.png",
+      "sha256": "630bb87cc0d1f78d2f1affb5e433bb50028f349200e5a01f5f1a213c8518ef13",
+      "bytes": 75413
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/xu2012-jp306628m/figure-1.png",
@@ -160150,6 +161640,36 @@
       "bytes": 127066
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-1.png",
+      "sha256": "b49b561247a4cfe315bfaf421a08aa64e6a4929afa1bf249facbbf1b3829a897",
+      "bytes": 206259
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-2.png",
+      "sha256": "1dcc85e05680ec66669ad4f90ab585d94809c5f3949db22b2643facc68fada97",
+      "bytes": 500826
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-3.png",
+      "sha256": "d847dc477ece13af77f3504a19a43fb353ea94b207f6b5eaa538bd8513bebca2",
+      "bytes": 560379
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-4.png",
+      "sha256": "f02e0f6155d1b7ac56a0c667e377472a75e2e9c08261568d35a1cb5e6e4e7160",
+      "bytes": 101758
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-5.png",
+      "sha256": "246c33880a5086fc12eb058ce859503085b56b71e1290e3e338bb4b5a09b7966",
+      "bytes": 476823
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2016-c6nr07155d/figure-6.png",
+      "sha256": "7525551f8040267ec01887bac558791bcb92fb41cff7e8bdc8e70829f9d97a95",
+      "bytes": 193807
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/yang2017-acsami-7b00133/figure-1.png",
       "sha256": "ed60b861edaeeb5d86100f88340c80378c90b02647b2fe7a03dcac74109262dc",
       "bytes": 141658
@@ -161408,6 +162928,66 @@
       "path": "recipe-atlas/static/assets/paper-reviews/yingjie1994-bf00270948/figure-3.png",
       "sha256": "4a38ec01dfdda6356e09dbe017f867fbe03040e17d1da560f0c5b7c7c8a9b8c7",
       "bytes": 518525
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-1.png",
+      "sha256": "b6b887fc40f27517a5edfde2df1940e30c99eeb627c1c6d35100bc6812bcf6d0",
+      "bytes": 647810
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-10.png",
+      "sha256": "6b07a10c9a02e5c5a59db034c47892791237faf58e8f1353b4fb546cf217c44e",
+      "bytes": 945566
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-11.png",
+      "sha256": "fdb42e1d8017f686cda3c15b34ba8c82f5287d0fa37bc54bb0ca6acddfb9dfc5",
+      "bytes": 389621
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-12.png",
+      "sha256": "3ee5ca8868f78962d2af0e4b8bfd81e471210ace9b9c7ef8c1e1123eeb2738da",
+      "bytes": 182529
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-2.png",
+      "sha256": "63dc7ad1e7fe79730454c973068060f9a591794f3c873919d960c9c8dc0b0e95",
+      "bytes": 655589
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-3.png",
+      "sha256": "fb1d4fc0cd42ccbb5f774825f55fb3568b6404912dd097a583ac3515b77b0fa2",
+      "bytes": 43507
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-4.png",
+      "sha256": "6459bcc9de9f68cd087a85fec450fd2fee3dc744e8bcd5cc84dc990e2b44cbbb",
+      "bytes": 70086
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-5.png",
+      "sha256": "2c94193dad53da2b8cd0e16f570d784f2a89191ccf10c750754075686d655e9d",
+      "bytes": 37736
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-6.png",
+      "sha256": "438b5520c7e84550cf1ede66dd39b8bf49a72de1ff8c4d6d1915db76595f924c",
+      "bytes": 79288
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-7.png",
+      "sha256": "82636f6e70e5713c2a5fb2208099566b5d31f2c697a53bb84fd5bd18d04dfcd1",
+      "bytes": 89842
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-8.png",
+      "sha256": "7a3fa491abea50643d6fd64a0fed7fbece66001e12cc0031fd5d1ca68936d2cb",
+      "bytes": 63183
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/yong2010-b916663g/figure-9.png",
+      "sha256": "96980af909bdb17d9422df3175267bc6353938e442332e7df7b29d478ed6f077",
+      "bytes": 46677
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/yoo2024-acsmaterialslett-3c01089/figure-2.png",
@@ -165645,6 +167225,46 @@
       "bytes": 127914
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-2.png",
+      "sha256": "cd8ce9fdb71dcbe433edb90b51079646a4f0dfd96d1d2e0e479d6ff7cce9c3f1",
+      "bytes": 380490
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-3.png",
+      "sha256": "55495e8d52dadc343728a14d9cf96872c0ae433381a46008393c9444f0e13d23",
+      "bytes": 44243
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-4.png",
+      "sha256": "5479952d243d37aad2b998a750cac06b9506b2b5e4dfa8c7a69841c67e2e16d8",
+      "bytes": 136667
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-5.png",
+      "sha256": "210b41a7ab442f55f5bea9bfe332ecffc4c2989b8d52f783ac670fc0830ca533",
+      "bytes": 44247
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-6.png",
+      "sha256": "a01ab7839f9bb19d58be120d3b443d3e4c8a15e3fd2a3cfcaf6ea70f43552639",
+      "bytes": 37081
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-7.png",
+      "sha256": "386a80aaaa3d72e76a7e7e058f8c85927ea7c26a1b72949a8aa819128385346f",
+      "bytes": 57767
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-8.png",
+      "sha256": "276f768d78214f7e218a482a9a30fa387de77ab19615e6d48c1bb5304eca9e0b",
+      "bytes": 53526
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zheng2014-c4tb00986j/figure-9.png",
+      "sha256": "cd90afe8ef17c27995c30130adf687c9661fcfd032bb511ce5bd072ba6aff668",
+      "bytes": 241210
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/zheng2018-acs-jpcc-8b09715/figure-2.png",
       "sha256": "38bcf0691154963dc4eb33d7d00fc2979e2e356bdfc9624234d59f0258265086",
       "bytes": 636392
@@ -167743,6 +169363,31 @@
       "path": "recipe-atlas/static/assets/protocol/a2021-j-cap-2021-07-001-cdse-zns-qds-1-s07-hold.svg",
       "sha256": "2272ad642aa6c979ad67812f41e3507ce0395ec1b4f99c3e082efc508222561e",
       "bytes": 1468
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/abate2019-c9dt03163d-mn-cise-qds-cm8-1-s01-dissolve.svg",
+      "sha256": "65ba4346b76feaacf37ec3265cef9df3e50e5dd3a4680d9854bdb53c6e8a8ea7",
+      "bytes": 1492
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/abate2019-c9dt03163d-mn-cise-qds-cm8-1-s02-heat.svg",
+      "sha256": "1f5e7c4bea076465cdfd22afd96eeedbd00f30710f501782b1ca43fa50ed605b",
+      "bytes": 1559
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/abate2019-c9dt03163d-mn-cise-qds-cm8-1-s03-add.svg",
+      "sha256": "74cdba05821d87e4afeed87e5f6d1ce4c0c8a739d5c065f6ca1b297419c8681e",
+      "bytes": 1295
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/abate2019-c9dt03163d-mn-cise-qds-cm8-1-s04-precipitate.svg",
+      "sha256": "21054e4a04aad3ea445a77fd602ce0dd0817dabde0a86f537a44fc8396ba6dff",
+      "bytes": 1336
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/abate2019-c9dt03163d-mn-cise-qds-cm8-1-s05-redisperse.svg",
+      "sha256": "d02a5270d22ee4ded01c1963b15e628e28df36e0a02e5803e704d422c281891b",
+      "bytes": 1353
     },
     {
       "path": "recipe-atlas/static/assets/protocol/abdelazim2017-acs-chemmater-7b02637-hgte-qds-2-1-fmt-hg2-ratio-1-s01-inject.svg",
@@ -173705,6 +175350,36 @@
       "bytes": 1826
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s01-dissolve.svg",
+      "sha256": "25426978dfa7031ebf72fc7a475e2cbf48892a4dea0ae0269d85493b53acef3d",
+      "bytes": 1238
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s02-heat.svg",
+      "sha256": "14d9b7322dbc08150bab54b68e862bd2ebf7770cd497b0cb823b401f2e646197",
+      "bytes": 1425
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s03-inject.svg",
+      "sha256": "226a0a171ce356c9158a68d5c5bf2f59c049dfbaab72eb59c246e16a0a924b47",
+      "bytes": 1400
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s04-heat.svg",
+      "sha256": "4f8569e41009962789f1351149d8aaf48b27238d7ce530bb0cb18f3339f3a432",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s05-quench.svg",
+      "sha256": "990809a1b729f7c7c596e7ffca2fffa852d369bb0f873686b6fa0a974b50d917",
+      "bytes": 1191
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/baumgardner2012-c2nr31054f-pbse-nanocubes-1-s06-clean.svg",
+      "sha256": "fc60dbfd8c802cb34234f9f47198e7391fa3eb1c2b143fa9c438a7e6a2b95e99",
+      "bytes": 1235
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/beckham2010-la904031s-quantum-dot-coated-sio2-microparticles-q-1-s01-synthesize.svg",
       "sha256": "09364708bd42190527156bb7ad4637dac19da3a8357976437b3504970be44899",
       "bytes": 1300
@@ -174353,6 +176028,21 @@
       "path": "recipe-atlas/static/assets/protocol/bhattacharyya2005-1-2132533-inas-gaas-001-quantum-dot-ensembles-1-s01-grow.svg",
       "sha256": "0f9ad7fedee010978d30eb8e59098cc2890e9a8c3a8538ba1ff86c0d13cc8b87",
       "bytes": 1541
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/bhattacharyya2016-jacs-6b04981-cufes2-qds-1-s01-heat.svg",
+      "sha256": "25f13e71e33b58633cc6d961e2452f60b74a70eeb248a9c3c963f099d330cde0",
+      "bytes": 1563
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/bhattacharyya2016-jacs-6b04981-cufes2-qds-1-s02-heat.svg",
+      "sha256": "74325fa58dfae983863e2d5bbcedf516388792ce252bbbf1f3aadcc5d5583c75",
+      "bytes": 1562
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/bhattacharyya2016-jacs-6b04981-cufes2-qds-1-s03-inject.svg",
+      "sha256": "0eabd5aed81867b4607dc6577a7eb3b48da10d4ffd37ea1ad77a4985436fa94d",
+      "bytes": 1331
     },
     {
       "path": "recipe-atlas/static/assets/protocol/bhawawet2023-acsomega-3c05795-aunps-synthesized-with-cbdeb-50-1-molar-1-s01-preheat.svg",
@@ -176378,6 +178068,21 @@
       "path": "recipe-atlas/static/assets/protocol/cao2012-la302690h-nahof4-nanoparticles-1-s07-centrifuge.svg",
       "sha256": "b03dc3a6a53af59029576d32cda5c1469515c812e553f8e28408f6da43ef729a",
       "bytes": 1463
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1-s01-dissolve.svg",
+      "sha256": "88102ea0aa3e9c60ea8bc5bf16fad940afbe6312fe8ccad236396ed3e06af2e5",
+      "bytes": 1310
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1-s02-add.svg",
+      "sha256": "55e9b7dfdce8bf865daa886589f60b8b5d7c57c8eefa36ce6dc62bbc7b74f66e",
+      "bytes": 1230
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1-s03-heat.svg",
+      "sha256": "93785d69c3e45394cf8bd5036aa52078ee738836e28b24bc8ab9a4b607e1441d",
+      "bytes": 1503
     },
     {
       "path": "recipe-atlas/static/assets/protocol/cao2018-acs-chemmater-8b03671-inp-znse-zns-qds-1-s01-mix.svg",
@@ -180010,6 +181715,31 @@
       "bytes": 1597
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/chua2015-nn505639q-graphene-quantum-dots-1-s01-heat.svg",
+      "sha256": "002b684fd74397e246e72deebdaa88e80f3c7ea16def7e60f7f304596ace11c6",
+      "bytes": 1605
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chua2015-nn505639q-graphene-quantum-dots-1-s02-pour.svg",
+      "sha256": "216f17cfabea78947b248a2414e9ec608f6f83d65653b964b156461276673a8e",
+      "bytes": 1662
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chua2015-nn505639q-graphene-quantum-dots-1-s03-add.svg",
+      "sha256": "7e35b97c1f64d4a691163ace60db50d6e3ddd5a1e7539f4049933566fca87152",
+      "bytes": 1424
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chua2015-nn505639q-graphene-quantum-dots-1-s04-neutralize.svg",
+      "sha256": "66a5c62e586b1b7e256f5e5f214b8a4353e46d984a8447b13cec286301182051",
+      "bytes": 1404
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chua2015-nn505639q-graphene-quantum-dots-1-s05-dialyze.svg",
+      "sha256": "8a7c0e88b48f79f5539b8d671902430308c135cde4de950e7f12ff82900ad2b5",
+      "bytes": 1392
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/chuang2014-am503889z-cuins2-zns-qds-cu-in-1-4-1-s01-heat.svg",
       "sha256": "27d395f4e5c7448a97d59c529a2f17fdafba60bbdcb802b4107e34747e91567f",
       "bytes": 1555
@@ -180708,6 +182438,36 @@
       "path": "recipe-atlas/static/assets/protocol/cui2026-acs-inorgchem-5c05727-aigzs-1-1-s02-precipitate.svg",
       "sha256": "b6ede7ea18d547c350a02960244958aa9a2c27a351861666c9db063f79f27f95",
       "bytes": 1337
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-eu-1-s01-diffuse.svg",
+      "sha256": "61623407e9cc900a56c45e4684fa4c9e7b248ab5e99d1912a51db14dd92a242a",
+      "bytes": 1276
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-eu-1-s02-calcine.svg",
+      "sha256": "ad98067098da9be4cd635c51bef80b6b9cf0893d8180057cc8d91c429e2d7c1a",
+      "bytes": 1518
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-tb-2-s01-diffuse.svg",
+      "sha256": "61623407e9cc900a56c45e4684fa4c9e7b248ab5e99d1912a51db14dd92a242a",
+      "bytes": 1276
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-tb-2-s02-calcine.svg",
+      "sha256": "ad98067098da9be4cd635c51bef80b6b9cf0893d8180057cc8d91c429e2d7c1a",
+      "bytes": 1518
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-tm-3-s01-diffuse.svg",
+      "sha256": "61623407e9cc900a56c45e4684fa4c9e7b248ab5e99d1912a51db14dd92a242a",
+      "bytes": 1276
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/culver2016-c6dt03382b-cawo4-1-tm-3-s02-calcine.svg",
+      "sha256": "ad98067098da9be4cd635c51bef80b6b9cf0893d8180057cc8d91c429e2d7c1a",
+      "bytes": 1518
     },
     {
       "path": "recipe-atlas/static/assets/protocol/cunci2021-acsanm-0c02526-goqds-1-s01-centrifuge.svg",
@@ -183425,6 +185185,21 @@
       "bytes": 1434
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/du2012-ncomms2181-ultrathin-bi2s3-nanowires-3-s01-heat.svg",
+      "sha256": "611d2debab0648eb573007c542422d6143cbc5ab2d11457b8c357cbfc0cb2cd7",
+      "bytes": 1433
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/du2012-ncomms2181-ultrathin-sb2s3-nanowires-4-s01-heat.svg",
+      "sha256": "8dccdb733d5cb5f6373cc2368a458acd8a26fc58d158262cdb3bcde617b6b0b3",
+      "bytes": 1433
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/du2012-ncomms2181-ultrathin-zns-nanowires-2-s01-heat.svg",
+      "sha256": "0781603504e4aeacbe5735523f2bc4d86ccf94a9133bce941a2b78beb1067604",
+      "bytes": 1433
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/du2020-s41560-020-0617-6-zn-cuinse2-qds-with-ht-ligands-3-s01-mix.svg",
       "sha256": "b013e32a1bd045116ae8788ef818d711754eb0cfa3f355b60f5c27a3e340310a",
       "bytes": 1371
@@ -185598,6 +187373,16 @@
       "path": "recipe-atlas/static/assets/protocol/frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1-s02-calcine.svg",
       "sha256": "d21f12509bab0c5456ee48631c2668b48d6c045088ad5cde4edfe539e7785f33",
       "bytes": 1311
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/franke2016-ncomms12749-inascdsecds-core-shell-shell-css-qds-2-s01-degas.svg",
+      "sha256": "e53baa10b085316a1bbbb57ee5b1a4b426da7567d3634232429533bb521bb893",
+      "bytes": 1421
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/franke2016-ncomms12749-inascdsecds-core-shell-shell-css-qds-2-s02-heat.svg",
+      "sha256": "24c257af37cfd054e3327d3b4462a82ea5a632502b9f4cf84c2e25c6bb6c2733",
+      "bytes": 1489
     },
     {
       "path": "recipe-atlas/static/assets/protocol/frase1999-1-370517-as-milled-ni3fe-1-s01-milling.svg",
@@ -191260,6 +193045,26 @@
       "bytes": 1532
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1-s01-heat.svg",
+      "sha256": "10b5351174a1e4ddffa2874632196a9f632ff3478a1369455a56aef9ccf6e293",
+      "bytes": 1497
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1-s02-heat.svg",
+      "sha256": "c8669e1fa62790cdd0f90078a2a81ab2df9d836f3479c7ee47b02aa86b4c0fb4",
+      "bytes": 1509
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1-s03-redisperse.svg",
+      "sha256": "3647b43528d880265b77aa0346349f4adadbfd9058b1c5202ee7f76dd1feecdf",
+      "bytes": 1213
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1-s04-centrifuge.svg",
+      "sha256": "ebebe11d9175511b1a100e849faa5cae875f3406ecf84fdc4cda897472044c7b",
+      "bytes": 1421
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/he2019-acs-inorgchem-9b02154-cztsse-qds-1-s01-heat.svg",
       "sha256": "4ecdca01df1c1ee482439fe26fb995e72176f88c6ae929bdf37eae8246a234bd",
       "bytes": 1612
@@ -193345,6 +195150,16 @@
       "bytes": 1504
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/hu2026-s41467-026-71288-0-lt-ncs-1-s01-add.svg",
+      "sha256": "355b3a951c928aea689a9024a17fd863d5416c9f2665ead0779d56fe09c78032",
+      "bytes": 1364
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hu2026-s41467-026-71288-0-lt-ncs-1-s02-redisperse.svg",
+      "sha256": "ff96c4de917d95c2670571b5cd24ca12e637e15e62f2b672c2d1183599dbe591",
+      "bytes": 1246
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/huang1999-cm990371i-cds-dendrimer-nanocomposite-2-s01-add.svg",
       "sha256": "299a9e64c2c56d3b746af43ccfcea0b790166a317c90584f414973350d4e76ac",
       "bytes": 1380
@@ -193503,6 +195318,31 @@
       "path": "recipe-atlas/static/assets/protocol/huang2015-acsami-5b10373-ch3nh3pbbr3-quantum-dots-1-s03-redisperse.svg",
       "sha256": "33717552b24cc9bea297b2753193b1d0dae8ec0c6f646ad0a6c97be0f848b317",
       "bytes": 1351
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2017-c7ay01705g-cdte-qds-1-s01-dissolve.svg",
+      "sha256": "826d26de351a6fdc4e03cbc500f73f5c6c5a3934eb5840130c6105193ba358fd",
+      "bytes": 1441
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2017-c7ay01705g-cdte-qds-1-s02-adjust-ph.svg",
+      "sha256": "54ddc1d879744da7e8f1f5ba766e8da93bcc52f52fb1c413eeb2bc19fa231b42",
+      "bytes": 1343
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2017-c7ay01705g-cdte-qds-1-s03-degas.svg",
+      "sha256": "1b3d6a95dad62ee63ab05ea850b76cb843ba48048c06f6884be3f3ad3f1ed246",
+      "bytes": 1444
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2017-c7ay01705g-cdte-qds-1-s04-heat.svg",
+      "sha256": "15a9554e5f654131f1d3ae15a7f82a91786a700049dc4d805278dd69837edaef",
+      "bytes": 1523
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2017-c7ay01705g-cdte-qds-1-s05-transport-h2te.svg",
+      "sha256": "9da819a8bb2cd8f763ed5d2b10c66f876d1e34a353d87ead2db91038363fb77f",
+      "bytes": 1402
     },
     {
       "path": "recipe-atlas/static/assets/protocol/huang2018-acs-jpcc-8b01053-cdte-qds-synthesized-via-pdpa-method-1-s01-heat.svg",
@@ -200175,6 +202015,11 @@
       "bytes": 1356
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/kim2012-c2jm33962e-inp-core-3-s01-grow.svg",
+      "sha256": "b67c4af93ef2460dba8814eb726f6002e051c1c91a83ed0c8e85ec0a75f5e436",
+      "bytes": 1342
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/kim2012-jz201605d-inpzns-alloy-qds-blue-emitting-1-s01-degas.svg",
       "sha256": "5de1b63cfdf6b5f0de093ac4b9bea69b09617662f50d2b034fb61bce695ce1db",
       "bytes": 1187
@@ -200808,6 +202653,31 @@
       "path": "recipe-atlas/static/assets/protocol/kiravittaya2006-1-2168494-qdc11-1-s02-grow.svg",
       "sha256": "301f98995e53a26625f597e58eceae75b4d31181fd4225215de638e784238cb1",
       "bytes": 1413
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kirkeminde2013-c2ta00498d-fes2-nanocrystals-cubic-1-s01-inject.svg",
+      "sha256": "eb2dac000d00ad0b011123db2ee164879bfe09e9ac91aa78de450fd822ed0f9c",
+      "bytes": 1457
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kirkeminde2013-c2ta00498d-fes2-nanocrystals-nanospheres-3-s01-inject.svg",
+      "sha256": "452ba9aafa690debd27ceb9bd9e4bdc0d40cb3f2303c1df681b92d47d76bd4cb",
+      "bytes": 1457
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kirkeminde2013-c2ta00498d-fes2-nanocrystals-popcorn-shaped-2-s01-inject.svg",
+      "sha256": "b7fdbe8c0d23cc3e6119529bcf6166abfd058d4a8ba60de4f237de2ae2f13ff0",
+      "bytes": 1457
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thick-sheets-5-s01-inject.svg",
+      "sha256": "452ba9aafa690debd27ceb9bd9e4bdc0d40cb3f2303c1df681b92d47d76bd4cb",
+      "bytes": 1457
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thin-sheets-4-s01-inject.svg",
+      "sha256": "452ba9aafa690debd27ceb9bd9e4bdc0d40cb3f2303c1df681b92d47d76bd4cb",
+      "bytes": 1457
     },
     {
       "path": "recipe-atlas/static/assets/protocol/kirstaedter1996-1-117419-inas-gaas-quantum-dot-injection-laser-1-s01-grow.svg",
@@ -206500,6 +208370,21 @@
       "bytes": 1431
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/li2015-jacs-5b05462-cdse-cds-al-qds-1-s01-inject.svg",
+      "sha256": "00be07cd85ebb9bf7357989931a014ccd815758cf631b8e5754ca2a78b122009",
+      "bytes": 1266
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/li2016-c5ra27904f-calb-cu-1-s01-reduce.svg",
+      "sha256": "a1456aab42698ae6ace764bde521d2a95ac60e2368420c5831dd83d257e1214c",
+      "bytes": 1449
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/li2016-c5ra27904f-calb-pvp-cu-2-s01-reduce.svg",
+      "sha256": "a1456aab42698ae6ace764bde521d2a95ac60e2368420c5831dd83d257e1214c",
+      "bytes": 1449
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/li2017-acsami-6b15997-zns-mn2-zns-zns-cu2-zns-core-multishell-1-s01-inject.svg",
       "sha256": "712393032e9cfd5a3b8a897ac1af861525b918ff8b6185b37036d670f4634d4b",
       "bytes": 1598
@@ -207073,6 +208958,56 @@
       "path": "recipe-atlas/static/assets/protocol/liang2014-cm502812c-indium-doped-zinc-oxide-izo-nanocrystals-1-s03-centrifuge.svg",
       "sha256": "f990c97246b8d43f0c90eff001eff1f64ff539d9ebf28fbcfe9285174a91bcd3",
       "bytes": 1246
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2015-c4ce02405b-agbis2-nanocrystals-1-s01-dissolve.svg",
+      "sha256": "39146ca707cd35e6dfeb23ff9bbf1c9179e6555a81aea410013ccd6423d888e8",
+      "bytes": 1365
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2015-c4ce02405b-agbis2-nanocrystals-1-s02-add.svg",
+      "sha256": "f495c31928a1bf2b9cd1de3d43bf1a45e3c3d14dbad452daed08d3ca981e1aaa",
+      "bytes": 1327
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2015-c4ce02405b-agbis2-nanocrystals-1-s03-heat.svg",
+      "sha256": "21c9a61aa1c28a0fea98286c00046905582e0e72c7fba10a82a140d27652d1a0",
+      "bytes": 1590
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2015-c4ce02405b-agbis2-nanocrystals-1-s04-wash.svg",
+      "sha256": "bafb277a5a93e55e724eb826646c38e8e2ddc9acf6fab52953309244e9e29503",
+      "bytes": 1310
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2015-c4ce02405b-agbis2-nanocrystals-1-s05-dry.svg",
+      "sha256": "2ede26d28befab6ceb42c50683f0c4ed225acfed52925e8a15aa29cb9370a313",
+      "bytes": 1579
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1-s01-dissolve.svg",
+      "sha256": "dc2e4d0aa1b9cafe54777a84342a2de0a78da1b4ec2ac736404b90c079ce5305",
+      "bytes": 1328
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1-s02-degas.svg",
+      "sha256": "d5bfa3d05e8c27afe429d333ded895936006c1c2616e8e875f3aef97bc32b40d",
+      "bytes": 1483
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1-s03-heat.svg",
+      "sha256": "d861da5da70de0e9c16ac5e09f0184f30ffb79379e2f819ff320760cc094386a",
+      "bytes": 1497
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1-s04-cool.svg",
+      "sha256": "e6d7592bce6afa745b93b80a150fbe7c4c4b174a4164b69b4abbee394cbd64c6",
+      "bytes": 1237
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1-s05-precipitate.svg",
+      "sha256": "7eb4adc5e0f1606cf7c81cce5b2ec3c50f0d0b2c342b1565ae437a2791fd37f1",
+      "bytes": 1238
     },
     {
       "path": "recipe-atlas/static/assets/protocol/liao2001-b101004m-monodispersed-nanocrystalline-ceo2-powde-1-s01-mix.svg",
@@ -208988,6 +210923,11 @@
       "path": "recipe-atlas/static/assets/protocol/liu2012-cs200686a-thh-pt-ncs-1-s02-recrystallize.svg",
       "sha256": "a8bfeda712a48d2331811875f31d51897917becf58880ec355827d88834b4892",
       "bytes": 1378
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/liu2013-c3ta00357d-czts-nanocrystals-3-nm-1-s01-heat.svg",
+      "sha256": "3f124a9f8d774a385ad6bf8f50634c6f656639ee65a3b4e15fa49427f7a59724",
+      "bytes": 1437
     },
     {
       "path": "recipe-atlas/static/assets/protocol/liu2013-ie4028395-3-mercaptopropionic-acid-capped-cdse-qds-1-s01-dissolve.svg",
@@ -211055,6 +212995,121 @@
       "bytes": 1240
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3-s01-dissolve.svg",
+      "sha256": "cf71532e2016e387772b3db508bc09eb14ccf4d17bf5aec3dbb831927513e3f8",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3-s02-heat.svg",
+      "sha256": "5a583e36ccbac4282d64ca9ff0f62dc01b6213867a69a52e6d88286e0e26b245",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3-s03-inject.svg",
+      "sha256": "c27f7e4458597c8a16ddeb96dacff451eb565221e363ec6d7ac0e3761a8c1c6f",
+      "bytes": 1364
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3-s04-hold.svg",
+      "sha256": "292e7a52e995fb77884405b96e58a9e9a3adb898b9f953a685aa1c59a31a8102",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3-s05-cool.svg",
+      "sha256": "0090b5b85b705aff0e5be2ff2dd7e9169fa3a7653bb176a41d45a893920188d4",
+      "bytes": 1368
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s01-dissolve.svg",
+      "sha256": "cf71532e2016e387772b3db508bc09eb14ccf4d17bf5aec3dbb831927513e3f8",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s02-heat.svg",
+      "sha256": "5a583e36ccbac4282d64ca9ff0f62dc01b6213867a69a52e6d88286e0e26b245",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s03-inject.svg",
+      "sha256": "c27f7e4458597c8a16ddeb96dacff451eb565221e363ec6d7ac0e3761a8c1c6f",
+      "bytes": 1364
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s04-inject.svg",
+      "sha256": "cc0591fb1a196ec8f0958d50b685210a74b038b4fa63583e49c8e7e613cc7d48",
+      "bytes": 1385
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s05-hold.svg",
+      "sha256": "292e7a52e995fb77884405b96e58a9e9a3adb898b9f953a685aa1c59a31a8102",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4-s06-cool.svg",
+      "sha256": "0090b5b85b705aff0e5be2ff2dd7e9169fa3a7653bb176a41d45a893920188d4",
+      "bytes": 1368
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s01-dissolve.svg",
+      "sha256": "cf71532e2016e387772b3db508bc09eb14ccf4d17bf5aec3dbb831927513e3f8",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s02-heat.svg",
+      "sha256": "374c2fb270afa54f550b31ca561636f77fc68f64669ddc71f7041a7409d20ebd",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s03-inject.svg",
+      "sha256": "f805ba584ef7028bb99ce5e5d2ce1f4566b6a7c4d66e1d681685c03df079e049",
+      "bytes": 1385
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s04-hold.svg",
+      "sha256": "a4b198ceb54065648866bd1bcc1ae9fdd044c3f8805918b9e354276b9524b855",
+      "bytes": 1462
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s05-cool.svg",
+      "sha256": "0090b5b85b705aff0e5be2ff2dd7e9169fa3a7653bb176a41d45a893920188d4",
+      "bytes": 1368
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1-s06-wash.svg",
+      "sha256": "173670f4d90559f62bea0b8508718ca3e13482929beaf89f312384cf8895a318",
+      "bytes": 1347
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s01-dissolve.svg",
+      "sha256": "cf71532e2016e387772b3db508bc09eb14ccf4d17bf5aec3dbb831927513e3f8",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s02-heat.svg",
+      "sha256": "c28af8885379883cf03549f37df83072c7364e06cdd59e74dacd9d6fb01f2c96",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s03-inject.svg",
+      "sha256": "f805ba584ef7028bb99ce5e5d2ce1f4566b6a7c4d66e1d681685c03df079e049",
+      "bytes": 1385
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s04-inject.svg",
+      "sha256": "b5037352e947675dd0411cf9358ecb6dfc9c54a4d7e9c4a9d19b58ec81674310",
+      "bytes": 1358
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s05-hold.svg",
+      "sha256": "292e7a52e995fb77884405b96e58a9e9a3adb898b9f953a685aa1c59a31a8102",
+      "bytes": 1466
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2-s06-cool.svg",
+      "sha256": "0090b5b85b705aff0e5be2ff2dd7e9169fa3a7653bb176a41d45a893920188d4",
+      "bytes": 1368
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/loewenstein2008-pssa-200779439-znoeosiny-1-s01-rinse.svg",
       "sha256": "bc550bdf6d27744eae6c60f9c7036bc6b1c5c239a8c333b24ef03c7c1eaa604f",
       "bytes": 1322
@@ -211723,6 +213778,16 @@
       "path": "recipe-atlas/static/assets/protocol/ma2008-1-2956672-inas-gaas-quantum-dot-infrared-photodete-1-s04-grow.svg",
       "sha256": "5f3be596ada85f77a85b94c16a1bc226fada3be11624e4996590d8d26f924701",
       "bytes": 1213
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ma2011-c1cc11070e-cdse-sio2-nanobeads-1-s01-mix.svg",
+      "sha256": "7f4bf844af1b3d63f403023214ea34897fcf314aa9c7302c9e4211ea9b197c9e",
+      "bytes": 1386
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ma2011-c1cc11070e-cdse-sio2-nanobeads-1-s02-stir.svg",
+      "sha256": "d07838ff3e0b81972e7358dee60b3b1ee1588e783884df81fd10ec2b5d674c7d",
+      "bytes": 1308
     },
     {
       "path": "recipe-atlas/static/assets/protocol/ma2013-pssa-201329136-g-mno2-d01-1-s01-heat.svg",
@@ -212570,6 +214635,31 @@
       "bytes": 1679
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/mansur2015-c4gc02072c-zns-chi-abcd20-1-s01-dissolve.svg",
+      "sha256": "b6a86e5c1d77df651d6197f3f86f0d77aa896c48b6f21c0ab222347032a1e940",
+      "bytes": 1283
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/mansur2015-c4gc02072c-zns-chi-abcd20-1-s02-adjust-ph.svg",
+      "sha256": "bd3c80d3a3d84ee018507e3ec98b73e8e3d6e97eacda1186141e44529617509c",
+      "bytes": 1242
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/mansur2015-c4gc02072c-zns-chi-abcd20-1-s03-add.svg",
+      "sha256": "ec807279b7a4ea0b5e340d3f580a4164c91b532bf65d4e91732069afe001a8a1",
+      "bytes": 1377
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/mansur2015-c4gc02072c-zns-chi-abcd20-1-s04-add.svg",
+      "sha256": "ee325e145b5666743323680a6bae1bb0937807c3f5d62dc90ec5845e69eed7dd",
+      "bytes": 1375
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/mansur2015-c4gc02072c-zns-chi-abcd20-1-s05-purify.svg",
+      "sha256": "4efeb683fb55f90d0c17054863b87f777e25159875f2f932176cdacdaca64c6e",
+      "bytes": 1482
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/mao2014-ie502432y-cdte-cds-znssio2-qds-1-s01-heat.svg",
       "sha256": "8295057ca8b81c4341501d520f9c1ff42dddd33450d228cc417b50dedd534498",
       "bytes": 1623
@@ -212808,6 +214898,11 @@
       "path": "recipe-atlas/static/assets/protocol/mashford2009-b905256a-cdse-zns-coreshell-qds-1-s03-add.svg",
       "sha256": "987a290781fa6232046d317ac01b97bcc33f278de54877f550f606da60dd7927",
       "bytes": 1333
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/mashiach2021-s41467-020-20512-6-aep-caf2-ncs-1-s01-add.svg",
+      "sha256": "0a5f4846d9f3d0b57bc6069926e91f352b1238d27b2486b77cc4e822e8d297d0",
+      "bytes": 1430
     },
     {
       "path": "recipe-atlas/static/assets/protocol/maskaly2006-adma-200500875-cdse-solgel-nc-composite-infiltrated-int-1-s01-sinter.svg",
@@ -217160,6 +219255,11 @@
       "bytes": 1238
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/nightingale2011-c0lc00507j-cdse-quantum-dots-1-s01-heat.svg",
+      "sha256": "bc17c17761e4381394e60dbd9d3c5f0096cd30e019633c0278c2cb6bdecd3f01",
+      "bytes": 1381
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/nishino2009-analysis-preparation.svg",
       "sha256": "246a0dcd946fa198b02c0638cafbd56a22ff6940f2da432c9c6de41d79997c68",
       "bytes": 1501
@@ -217228,6 +219328,36 @@
       "path": "recipe-atlas/static/assets/protocol/niu2008-cg701048d-sno2-r-fe2o3-snchs-1-s05-dry.svg",
       "sha256": "4df77f65713dce4875de8d711dca22aa2b9c9720c2288b35108492e4e2409996",
       "bytes": 1533
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s01-degas.svg",
+      "sha256": "750126327ebd6e0f124b5a994302ce3066df0469d352c62385660d4a8fcd1e65",
+      "bytes": 1343
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s02-add.svg",
+      "sha256": "95b66305060e441fc24c6ae60cd04bbaa5aad18ee6606c1b844c6a56b0cd5554",
+      "bytes": 1227
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s03-heat.svg",
+      "sha256": "8e55e62a09756c97b383da13a442e41b42815622d951fff3f137b82d814b96f4",
+      "bytes": 1332
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s04-add.svg",
+      "sha256": "afaa89164e0dea86ad5e5c3ba197867fbfa7053b7f87a34fc7af28ad999ba713",
+      "bytes": 1343
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s05-wash.svg",
+      "sha256": "0f696fb7834ae1a16baedfe370ce0feefabbd34a13ab13e09e35e64884172747",
+      "bytes": 1261
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1-s06-redisperse.svg",
+      "sha256": "02c86610615a6f6e49dd4120c74911a8e6d3939014e9217354234f39a1000246",
+      "bytes": 1243
     },
     {
       "path": "recipe-atlas/static/assets/protocol/nizamoglu2009-1-3109151-cdse-zns-core-shell-nc-solid-film-pl-in-1-s01-drop-cast.svg",
@@ -218805,6 +220935,31 @@
       "bytes": 1344
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/page2016-c6an01760f-cdzns-zns-qds-1-s01-heat.svg",
+      "sha256": "ec686b117e45a3b890f5d8dfdda5b4f6264735751d5fbe2cd2a60a8cd6120af1",
+      "bytes": 1462
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/page2016-c6an01760f-cdzns-zns-qds-1-s02-heat.svg",
+      "sha256": "f213aac4a6069376dac9a9f45364ce5358943dd43d7b2d4ff12b2b83e2f9f5bb",
+      "bytes": 1388
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/page2016-c6an01760f-cdzns-zns-qds-1-s03-heat.svg",
+      "sha256": "29057863ca19111f247c1fd7ac6f7772edfd8e5424867743cc31f9a4bf1ef83a",
+      "bytes": 1570
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/page2016-c6an01760f-cdzns-zns-qds-1-s04-precipitate.svg",
+      "sha256": "99f7cbf0d64976d5832277899518cf9a67989189dc32bbb876404f5074e54be2",
+      "bytes": 1359
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/page2016-c6an01760f-cdzns-zns-qds-1-s05-heat.svg",
+      "sha256": "8c7d6b3a40b6f056711d036f8c66e759f7c0241f1dc3edc267452fb2c6bb0b41",
+      "bytes": 1483
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sk-2-s01-hydrolyze.svg",
       "sha256": "fb467b00bfc82aec01f9542972902fe1d9d759af0856fed8e75068b9806bbbdf",
       "bytes": 1194
@@ -218858,6 +221013,21 @@
       "path": "recipe-atlas/static/assets/protocol/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sx-3-s04-calcine.svg",
       "sha256": "a4e39cda7f45e4a99ee0b63083500ae02a2e96f52cfc9c9e36471c0868b7d7f1",
       "bytes": 1320
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/pahari2011-c1jm10617a-cds-nanoparticles-2-s01-heat.svg",
+      "sha256": "bd33cf3ce94301eda1af9c44cda177ffd5581bf28ef54a6ec245346097685fec",
+      "bytes": 1370
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/pahari2011-c1jm10617a-ceo2-nanoparticles-5-s01-add.svg",
+      "sha256": "2746cc935a7bdf3c8a6737f46b7349c4a1fb95fed11c25387c2dcebacb2a3a10",
+      "bytes": 1477
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/pahari2011-c1jm10617a-ceo2-nanoparticles-5-s02-heat.svg",
+      "sha256": "bd33cf3ce94301eda1af9c44cda177ffd5581bf28ef54a6ec245346097685fec",
+      "bytes": 1370
     },
     {
       "path": "recipe-atlas/static/assets/protocol/paine1992-1-106808-nanocrystalline-ge-precipitates-in-sio2-1-s01-heat.svg",
@@ -221905,6 +224075,31 @@
       "bytes": 3310
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1-s01-degas.svg",
+      "sha256": "860cac9d43cf9e8136f67e337f4ef0d9ff548783c497264878cb6cf29b8525a2",
+      "bytes": 1654
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1-s02-heat.svg",
+      "sha256": "a535e56074f074f9b8cd453f287bd11fb9fa168bc62801e3aa00034cf25d04cb",
+      "bytes": 1680
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1-s03-inject.svg",
+      "sha256": "17127ae510c1721fd40631e851ce68cc542984b56383f38b01af9eac0761bbe8",
+      "bytes": 1530
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1-s04-heat.svg",
+      "sha256": "b596f2faaba0a65b97faa9c763286d899068c737a5b0d7846d9990c9ce20e695",
+      "bytes": 1670
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1-s05-cool.svg",
+      "sha256": "d9c06444a44e3d38799a5ecce5dd1b31f6f74ff861acdadbd9abd22fed84c709",
+      "bytes": 1489
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/park2023-acs-inorgchem-3c00161-inp-zno-qds-1-s01-add.svg",
       "sha256": "7e1955843cab47c88dde4020dc57e750624bb909d00ae78ce84524ec5b966214",
       "bytes": 1432
@@ -222525,6 +224720,16 @@
       "bytes": 1509
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/pei2026-s41598-026-48145-7-p-cqds-1-s01-heat.svg",
+      "sha256": "11790bda8536f1d9b01bc14d5d7984afd2bd53eff8afb1f0d32f80c036e78e1b",
+      "bytes": 1636
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/pei2026-s41598-026-48145-7-p-cqds-1-s02-freeze-dry.svg",
+      "sha256": "6a95e60f68ae6d51c243f44525851fc344a32009b9259dcd0dfb8e1cf8d1c18e",
+      "bytes": 1391
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/pena2003-b304830f-sno2-h300-1-s01-spray.svg",
       "sha256": "215863425245b3618eccfddbe0b0aeb8dd8eb9d32eafcba23ee99ab64dec681d",
       "bytes": 1301
@@ -222568,6 +224773,56 @@
       "path": "recipe-atlas/static/assets/protocol/peng2003-1-1538181-y2o3-eu3-ncs-4-nm-1-s05-collect.svg",
       "sha256": "74baa90f5253948b99a7840e15d942b1515f3f88d2152ce52ce494b918eb2973",
       "bytes": 1216
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2-s01-de-gas.svg",
+      "sha256": "a65aa65370cf27b2eb9cf45c660d9fa11725746028cf98785b8b5d5d7b98fe45",
+      "bytes": 1600
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2-s02-inject.svg",
+      "sha256": "b449b9379dae986e2f90025257569adda9551b2bc3677cfcda66c46e1d4c9fbf",
+      "bytes": 1433
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2-s03-quench.svg",
+      "sha256": "df2bfafce5dfc218cab272a96585bec276cf610f4b7281222efac39bc68022aa",
+      "bytes": 1412
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1-s01-de-gas.svg",
+      "sha256": "a65aa65370cf27b2eb9cf45c660d9fa11725746028cf98785b8b5d5d7b98fe45",
+      "bytes": 1600
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1-s02-inject.svg",
+      "sha256": "b449b9379dae986e2f90025257569adda9551b2bc3677cfcda66c46e1d4c9fbf",
+      "bytes": 1433
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1-s03-cool.svg",
+      "sha256": "4d9a069b640532a9eb4c498d51babd8b12d7c90924fa41d7788f255c584a9892",
+      "bytes": 1386
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1-s04-precipitate.svg",
+      "sha256": "b391dc411738596d770dac557d21b45b88f31f677eb1651978987280c4867202",
+      "bytes": 1390
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1-s05-centrifuge.svg",
+      "sha256": "742e47ccfb1db58cb3a82a2ee0e2d058ef9f4f74fdb912ca772993252a09d4fd",
+      "bytes": 1410
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanorods-3-s01-de-gas.svg",
+      "sha256": "0dcbd7db5d53c98f23fe8fe1b5f8d7e59e0b2fb8d380e0b5a73cac5051619722",
+      "bytes": 1600
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/peng2012-c2cp40848a-agins2-nanorods-3-s02-inject.svg",
+      "sha256": "2347070dc36ef1d235cf482144091aba4ff78a903f659d72f54d12c35153c27d",
+      "bytes": 1555
     },
     {
       "path": "recipe-atlas/static/assets/protocol/peng2012-nl2038979-graphene-quantum-dots-gqds-synthesized-a-1-s01-oxidize.svg",
@@ -233730,6 +235985,11 @@
       "bytes": 1336
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/siy2011-c0cc02304c-cdse-ncqds-synthesized-at-130-c-1-s01-inject.svg",
+      "sha256": "80ff120ec60b473594c2df2de3c1f6606b3f18c1631fef2e85ceff91045b3dca",
+      "bytes": 1463
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/skoda2018-j-orgel-2018-05-037-co0-1zn0-9o-co10z-1-s01-mix.svg",
       "sha256": "91c225e104b65c7d1d72ed5a42000efa36f74ecbd3230aed4dcfdb64e9d914d8",
       "bytes": 1311
@@ -233803,6 +236063,26 @@
       "path": "recipe-atlas/static/assets/protocol/smilgies2012-jp3015436-fept-nanocrystal-monolayer-1-s01-synthesize.svg",
       "sha256": "e45477f488b9214298b87f34540fc5c2ae609c620094f1ac0b26c8111f97ae19",
       "bytes": 1345
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/smilgies2018-c8nr04606a-aupoly-ncs-2-s01-mix.svg",
+      "sha256": "2a68d612b723a4768022c81fd28310f88ce4c63f1134984d70d2e776abe49af7",
+      "bytes": 1381
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/smilgies2018-c8nr04606a-aupoly-ncs-2-s02-wash.svg",
+      "sha256": "0777eb3d892bc5cc10967555f63c354795fded8cf3e7dda3682a7242ceaec5cf",
+      "bytes": 1246
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/smilgies2018-c8nr04606a-ausingle-ncs-1-s01-mix.svg",
+      "sha256": "2a68d612b723a4768022c81fd28310f88ce4c63f1134984d70d2e776abe49af7",
+      "bytes": 1381
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/smilgies2018-c8nr04606a-ausingle-ncs-1-s02-wash.svg",
+      "sha256": "0777eb3d892bc5cc10967555f63c354795fded8cf3e7dda3682a7242ceaec5cf",
+      "bytes": 1246
     },
     {
       "path": "recipe-atlas/static/assets/protocol/smith2011-nn102878u-pbs0-54se0-46-1-s01-degas.svg",
@@ -235365,6 +237645,21 @@
       "bytes": 1252
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1-s01-add.svg",
+      "sha256": "ec3ae16b06b3d0552f55bb20a4ee03174696a1d3f1d4616ffbc6b3d753231473",
+      "bytes": 1407
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1-s02-heat.svg",
+      "sha256": "deb5a6b9bc0ffab23c007cb30b77ca887b09f328ecafd4eccb66042a4cd7223f",
+      "bytes": 1531
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1-s03-precipitate.svg",
+      "sha256": "af2e3e66998f10f1d0d02b38a383a961a58c76e745f273ee80f11ef20b0c90d8",
+      "bytes": 1337
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/stylianou2026-acs-nanolett-6c00158-pbs-cds-core-shell-cqd-series-1-1-s01-heat.svg",
       "sha256": "cfcf32fe9d812b1ecfe1c64ed1ce65a068e61b9f99a621294222c254b4edf68d",
       "bytes": 1338
@@ -235993,6 +238288,11 @@
       "path": "recipe-atlas/static/assets/protocol/suyver2001-1-1428118-znse-cu-ncs-1-s07-precipitate.svg",
       "sha256": "ec281a5f3e1f69c9cbace9d9ba75e13b92beec8ea5f36d8f6c781adaa7009ea4",
       "bytes": 1256
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/swain2020-c9cc09368k-sample-3-3-s01-heat.svg",
+      "sha256": "7109b6a922e6419f522e90906886f4755cafc6dc1eb5abd90980c351898b4100",
+      "bytes": 1276
     },
     {
       "path": "recipe-atlas/static/assets/protocol/swisher2015-acsami-5b00893-in2o3-nanocrystals-1-s01-degas.svg",
@@ -241535,6 +243835,16 @@
       "bytes": 1382
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/wang2017-c7nr04593j-bi2s3-c-dot-nanohybrids-1-s01-dissolve.svg",
+      "sha256": "ce8d343585f78774911925c4d91d56fae5982fae8608f34fbf03c3a4803b5efe",
+      "bytes": 1445
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/wang2017-c7nr04593j-bi2s3-c-dot-nanohybrids-1-s02-heat.svg",
+      "sha256": "dbc92ce252cb571d999a3bec8e75cbbe50dc05b92d7946d88c41994201a06043",
+      "bytes": 1595
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/wang2017-j-electacta-2017-08-134-co-sxse1-x-2-nras-1-s01-clean.svg",
       "sha256": "1858b4ccab1e28153c4657cc187f8a509fa7e4cb76cbb1c901b80a3b2fdefe3d",
       "bytes": 1356
@@ -241623,6 +243933,16 @@
       "path": "recipe-atlas/static/assets/protocol/wang2018-acsenergylett-7b01243-cspbbr3-a-cspbbrx-qds-1-s02-centrifuge.svg",
       "sha256": "72ab21fa9fb51043ea099f7934865016de5b985619c13774d8e05096906e15ec",
       "bytes": 1329
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/wang2018-c7nr08369f-ag2s-ncs-4-510-nm-1-s01-inject.svg",
+      "sha256": "f0c8533ead66f2f15d9fc4b2fdc2441acc0fdcd724a128f572dd9f57ac1c0359",
+      "bytes": 1326
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/wang2018-c7nr08369f-agcus-ncs-1527-nm-2-s01-heat.svg",
+      "sha256": "2a98da6aec9ae5fe0fcf5a608ad98d2c6adf0d69113acbb958495521dc68ce1e",
+      "bytes": 1452
     },
     {
       "path": "recipe-atlas/static/assets/protocol/wang2019-acs-jpclett-8b03750-cspb-cl-br-3-perovskite-quantum-dots-tre-1-s01-add.svg",
@@ -244655,6 +246975,26 @@
       "bytes": 1575
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/xiong2012-c2jm35101c-cucro2-nanocrystals-1-s01-dissolve.svg",
+      "sha256": "411f7e43e5f3319d8ecd3a1f47a18b8f3067ad5631f29dc155b6b0a0c2919651",
+      "bytes": 1450
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xiong2012-c2jm35101c-cucro2-nanocrystals-1-s02-add.svg",
+      "sha256": "cba0b7bd4580a9b5243758644325da11eceaf5970fa6459da1e4f01ddcb11976",
+      "bytes": 1337
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xiong2012-c2jm35101c-cucro2-nanocrystals-1-s03-heat.svg",
+      "sha256": "6e08648900ab563f99024f0e3b14a75f1b3c3a35cc62595e52732a0c5f974dbc",
+      "bytes": 1630
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xiong2012-c2jm35101c-cucro2-nanocrystals-1-s04-wash.svg",
+      "sha256": "058e37b52fb5b45becd1d520502854085bbe6f36997315bbee457a8078d4c442",
+      "bytes": 1473
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/xu2002-scsz-tb00207x-age-24.svg",
       "sha256": "f828d750ad518af1f6e7a26458815d21fbc27ae4059c0893c69f1760c3892614",
       "bytes": 1622
@@ -245063,6 +247403,36 @@
       "path": "recipe-atlas/static/assets/protocol/xu2012-am300877v-ncsi-mpm2-2-s07-dialyze.svg",
       "sha256": "30226a08bc871aa08ef5e0d51845975fb60443449cec89dc1c6dcd54d37dd255",
       "bytes": 1461
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s01-dissolve.svg",
+      "sha256": "646971294646d8f009cfd7ebcbdea43e3949ffd89e89b4c91bfa8b4d60db72f9",
+      "bytes": 1238
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s02-add.svg",
+      "sha256": "8862349cec5d4833d6c1b19d919ed5a179a689222e1ad1b70a776fc8f223f1d7",
+      "bytes": 1320
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s03-heat.svg",
+      "sha256": "e4e2114f8dfd1277049f309314e4e01ce7131e8b29c4cd2c7dc05bfe571bf827",
+      "bytes": 1427
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s04-cool.svg",
+      "sha256": "6e0188303ecbdf5ecb75e57eff0d82dd53003cc7c6d94425396fa526837bbe14",
+      "bytes": 1204
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s05-wash.svg",
+      "sha256": "17ca7a2ce488693abeab65bf05699194c297ecfc36c56d23d97955b4d75a53b7",
+      "bytes": 1183
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1-s06-dry.svg",
+      "sha256": "e927c968a2f56992a0e5ec1fae40cb89f216dcd4b6684eec302f3f9ada96e812",
+      "bytes": 1179
     },
     {
       "path": "recipe-atlas/static/assets/protocol/xu2012-jp306628m-czts-microspheres-1-s01-heat.svg",
@@ -246880,6 +249250,41 @@
       "bytes": 1426
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s01-dissolve.svg",
+      "sha256": "4df622bb7e9bd9eaf34cf67893dfa3a3785663681d268ffa566d538e149782e3",
+      "bytes": 1360
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s02-add.svg",
+      "sha256": "f3f5f4f5e41e6b39c44f87476774b1b4b9b2ac0be51f92fe83613cfe4b60d474",
+      "bytes": 1364
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s03-heat.svg",
+      "sha256": "8b149db448927b1f150660cdf1989e385fa33b00b352ec7b862babeb81be9024",
+      "bytes": 1585
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s04-cool.svg",
+      "sha256": "054fb5349f6b0edfd9cf9e07ce83d9d57f72299d4f265b43b09eae43ddd0c5a8",
+      "bytes": 1335
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s05-separate.svg",
+      "sha256": "89dd08495453ae950ed0c2edd535f90d0738bd00854f9da933b58a5b55f3c8f6",
+      "bytes": 1399
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s06-wash.svg",
+      "sha256": "610525769ca4bd3c93ab3dee6baa09bc7ac42863bc022a7aa7746b876f90ea14",
+      "bytes": 1338
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1-s07-redisperse.svg",
+      "sha256": "b979854d90849efda52e267b74b26ece51da12b9f68ab75898c03ebc26f9ad0f",
+      "bytes": 1326
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/yang2017-acsami-7b00133-cdse-cds-core-shell-nanocrystals-20-min-4-s01-incubate.svg",
       "sha256": "6e6b0c2e5c4745b29826008d18a64eb5c356dcee8a16b0d4391fa0d526d4ce57",
       "bytes": 1336
@@ -248143,6 +250548,61 @@
       "path": "recipe-atlas/static/assets/protocol/yingjie1994-bf00270948-nanocrystalline-nickel-powders-1-s04-dry.svg",
       "sha256": "19a6cb8d93f16dc522d04d8f89b7fb5392acc5806891b5822d1a4bb2fb9a6477",
       "bytes": 1179
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s01-heat.svg",
+      "sha256": "66855dc2cfb4000c455f108c66f3fe85617b9a6aa358a0a1a259f9071f6ba552",
+      "bytes": 1467
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s02-quench.svg",
+      "sha256": "d279f86018d6028711a5d82524826466d86b3bbf6bd93d01d54f45451d101010",
+      "bytes": 1269
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s03-separate.svg",
+      "sha256": "fbf34a11267aacafcf4b4e2e1d5d0d42c7b0f4f24ff454b6fd0877015035493a",
+      "bytes": 1346
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s04-heat.svg",
+      "sha256": "229cd9bd9efd715d735b329695830202fbbbd4e5cb85de21d0c33dfa7c8f7634",
+      "bytes": 1494
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s05-quench.svg",
+      "sha256": "d279f86018d6028711a5d82524826466d86b3bbf6bd93d01d54f45451d101010",
+      "bytes": 1269
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s06-separate.svg",
+      "sha256": "86cb37f9d39e7ad338c2e8accac543a13e2eed75411a92cf1956643bcb6907dd",
+      "bytes": 1346
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s07-hydrate.svg",
+      "sha256": "1416cd0b872572d87920ecb6741eceba0304a452c81daafce68ee4a7005fc304",
+      "bytes": 1255
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s08-filter.svg",
+      "sha256": "8ef3163bd969ef21c47f75b536c8f326e8744bae8b4b4dd2b5d4095847fa0ee7",
+      "bytes": 1299
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s09-redisperse.svg",
+      "sha256": "2442bbe7cacd6a8eea299a5f5608804e1da228e5398394654e7a86aa709d149b",
+      "bytes": 1267
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s10-purify.svg",
+      "sha256": "02ff98d02f5e6d688a5c982b5e36677cc8887213b3cbf96754c2f9dcfada89a9",
+      "bytes": 1281
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yong2010-b916663g-cuins2-zns-qds-1-s11-redisperse.svg",
+      "sha256": "4a1106bb4e170938fac5013da177a6835aea60d166567e1c197529df1623b541",
+      "bytes": 1327
     },
     {
       "path": "recipe-atlas/static/assets/protocol/yoo2024-acsmaterialslett-3c01089-ag2s-cqds-control-1-s01-dissolve.svg",
@@ -251978,6 +254438,16 @@
       "path": "recipe-atlas/static/assets/protocol/zheng2010-fuce-200900147-cube-shaped-pt-nanocrystals-1-s02-treat.svg",
       "sha256": "e66bc50da746e502f38b748e613d7751656f17d99c6b4a5241592543bddaee6c",
       "bytes": 1516
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zheng2014-c4tb00986j-cufe2o4-magnetic-nanocrystal-clusters-mn-1-s01-dissolve.svg",
+      "sha256": "05b9a040f6f8b15bb99abcb7be3afc25de3d1002f8513f2fe712e84c03ddb77f",
+      "bytes": 1446
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zheng2014-c4tb00986j-cufe2o4-magnetic-nanocrystal-clusters-mn-1-s02-heat.svg",
+      "sha256": "1550a52eb11382a00a0af307c332c6300989e07c665b6c6fdb7260d38e2b9586",
+      "bytes": 1656
     },
     {
       "path": "recipe-atlas/static/assets/protocol/zheng2018-acs-jpcc-8b09715-n-gqds-1-s01-clean.svg",
@@ -255940,6 +258410,11 @@
       "bytes": 3798
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/abate2019-c9dt03163d-mn-cise-qds-cm8-1.json",
+      "sha256": "2aad98abd4e40a68c1e9010132390fadf7af9f57e06a2090b0bf15b108d38c1d",
+      "bytes": 2792
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/abdelazim2017-acs-chemmater-7b02637-hgte-qds-2-1-fmt-hg2-ratio-1.json",
       "sha256": "25932982342846ae1bb3294c93fdf193b9f607e8a34702ed52fa1b988fa836a6",
       "bytes": 2001
@@ -257560,6 +260035,11 @@
       "bytes": 1277
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/baumgardner2012-c2nr31054f-pbse-nanocubes-1.json",
+      "sha256": "35498b21008f0fadf2055a0a5043c624d1ddb3331bbaa07319f962267fd1cb55",
+      "bytes": 3278
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/beckham2010-la904031s-quantum-dot-coated-sio2-microparticles-q-1.json",
       "sha256": "eb6d3587a274b08595f0e13f1e74e907d3e54a1860bb418862080ecbee1662d8",
       "bytes": 1306
@@ -257733,6 +260213,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/bhattacharyya2005-1-2132533-inas-gaas-001-quantum-dot-ensembles-1.json",
       "sha256": "acec8d9bf442267cc77afd65253b62a64821330fb606332d8ff050df6cb2bfb9",
       "bytes": 788
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/bhattacharyya2016-jacs-6b04981-cufes2-qds-1.json",
+      "sha256": "f61debe9e6f8a6c4d075f6a8f58f14c92dbdbe981972bcbe9d433af30a0feedf",
+      "bytes": 1791
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/bhawawet2023-acsomega-3c05795-aunps-synthesized-with-cbdeb-50-1-molar-1.json",
@@ -258323,6 +260808,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/cao2012-la302690h-nahof4-nanoparticles-1.json",
       "sha256": "028d4e8bbb5abd730b0841529d4446b402849548e4b047b3cc4ffc2263793fea",
       "bytes": 3875
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/cao2016-jacs-6b10102-cdse-cdzns-core-shell-quantum-dots-with-1.json",
+      "sha256": "fba8401363789c3207e71ca2f9db3eacb30ebc892203b45e3133d974f158e195",
+      "bytes": 1832
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/cao2018-acs-chemmater-8b03671-inp-znse-zns-qds-1.json",
@@ -259265,6 +261755,11 @@
       "bytes": 1881
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/chua2015-nn505639q-graphene-quantum-dots-1.json",
+      "sha256": "68c29f0ad7aeaa3c52f57cbb9fb7b68b6762667ad930fdbc8966efaf77bf7119",
+      "bytes": 2914
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chuang2014-am503889z-cuins2-zns-qds-cu-in-1-4-1.json",
       "sha256": "6d34e802c562a01e6389676f8616e0b67d843ef35b2a5cece1584234d1bb9e48",
       "bytes": 734
@@ -259468,6 +261963,21 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/cui2026-acs-inorgchem-5c05727-aigzs-1-1.json",
       "sha256": "d390e6d1b12d6c4a68e7d0eaf65fbf6fffe309543c74ff4b65e42ce3ff09167b",
       "bytes": 1195
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/culver2016-c6dt03382b-cawo4-1-eu-1.json",
+      "sha256": "06b49d180ef1162de14764e764b559a55eb347323bec044f708714a847b3347e",
+      "bytes": 1230
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/culver2016-c6dt03382b-cawo4-1-tb-2.json",
+      "sha256": "1cd9b1af6b08c4da2f28aa38963907ec7da416c694287404f8cfdecf77a695b6",
+      "bytes": 1230
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/culver2016-c6dt03382b-cawo4-1-tm-3.json",
+      "sha256": "25058b2e9f40c20e37e2b3165d5849886a6b3b17e2671929ff6c51ed6759496b",
+      "bytes": 1230
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/cunci2021-acsanm-0c02526-goqds-1.json",
@@ -260305,6 +262815,21 @@
       "bytes": 2236
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/du2012-ncomms2181-ultrathin-bi2s3-nanowires-3.json",
+      "sha256": "15f73a9e623c0355fbe44abeb1d7d52b9c98550322ed3d98affa48a2eb1f0450",
+      "bytes": 709
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/du2012-ncomms2181-ultrathin-sb2s3-nanowires-4.json",
+      "sha256": "82a1c3f47d921df13360340a758720787e761897dde29798c6b874e7da2fdcf6",
+      "bytes": 709
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/du2012-ncomms2181-ultrathin-zns-nanowires-2.json",
+      "sha256": "c97208860eaa31f308af3b0014c18af0f7b3b006ad617553eba819ca93249f8d",
+      "bytes": 705
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/du2020-s41560-020-0617-6-zn-cuinse2-qds-with-ht-ligands-3.json",
       "sha256": "defd7610c2d57a950ea2268ef168d262ba58f01d85ecc39a165a673a39ab344b",
       "bytes": 2382
@@ -261068,6 +263593,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1.json",
       "sha256": "ffde9540820c09140eff4f20f4e39425797147724faf1ff90f0bcbda84863ea0",
       "bytes": 1266
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/franke2016-ncomms12749-inascdsecds-core-shell-shell-css-qds-2.json",
+      "sha256": "6d6c3899de68509d3e5f0ad6f61cbe29a167b309672eb565fd6ab443c89008b5",
+      "bytes": 1298
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/frase1999-1-370517-as-milled-ni3fe-1.json",
@@ -262660,6 +265190,11 @@
       "bytes": 1265
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/he2015-c5ta05304h-ag8ges6-nanocrystal-ink-1.json",
+      "sha256": "6b9ed085a28cc783d14c1348b9419a3362e29f83cb16c40003537f0fd7b4cfec",
+      "bytes": 2332
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/he2019-acs-inorgchem-9b02154-cztsse-qds-1.json",
       "sha256": "40ae13e4972c6a75ac477ab1522c1a39acafc0ccdb559a004418747301b82fc4",
       "bytes": 4010
@@ -263210,6 +265745,11 @@
       "bytes": 2309
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/hu2026-s41467-026-71288-0-lt-ncs-1.json",
+      "sha256": "485736ce95bb4d3945f4eea4fd91d534e47dba5b894fdc0416e556615eb9338e",
+      "bytes": 1185
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/huang1999-cm990371i-cds-dendrimer-nanocomposite-2.json",
       "sha256": "ae8d689467f63c354fe36c6a6430f02a01bd99c30d7f195819ffbee218018587",
       "bytes": 718
@@ -263268,6 +265808,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/huang2015-acsami-5b10373-ch3nh3pbbr3-quantum-dots-1.json",
       "sha256": "84a96cf9fd97e3c80004b49ccddc072005dd83d289c5428c32dcb76844001f83",
       "bytes": 1778
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/huang2017-c7ay01705g-cdte-qds-1.json",
+      "sha256": "93f8f899b4d7f4e55b0c93a0cef291518c8b51d65bdd82c9583bd14c6a6b1b04",
+      "bytes": 2836
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/huang2018-acs-jpcc-8b01053-cdte-qds-synthesized-via-pdpa-method-1.json",
@@ -264860,6 +267405,11 @@
       "bytes": 1216
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kim2012-c2jm33962e-inp-core-3.json",
+      "sha256": "3554654fb471b0c692498dcb5c947ff7540ada677318417a161dd38640c8d7ec",
+      "bytes": 686
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/kim2012-jz201605d-inpzns-alloy-qds-blue-emitting-1.json",
       "sha256": "6674dc6f455c86c481be4da727c8f3d9d7edc0eada710a7787e21b60cd6630fe",
       "bytes": 1188
@@ -264988,6 +267538,31 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/kiravittaya2006-1-2168494-qdc11-1.json",
       "sha256": "a71bcfe0111fc5d1146d40f4f7e016ee763273fad27d99fc36848fa5f2411019",
       "bytes": 1218
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kirkeminde2013-c2ta00498d-fes2-nanocrystals-cubic-1.json",
+      "sha256": "7db80daa39b319c98ae175fe42ee5331320d591b8aa623b5d2d543459dda3d0e",
+      "bytes": 753
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kirkeminde2013-c2ta00498d-fes2-nanocrystals-nanospheres-3.json",
+      "sha256": "5093e19128a7c16d8034a6fe73c55d51c59bb200fbf16bccdbf54929bf5c4e06",
+      "bytes": 765
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kirkeminde2013-c2ta00498d-fes2-nanocrystals-popcorn-shaped-2.json",
+      "sha256": "c714b6899d559b214e75de89d7d2424a4f434c812247143f25be45366eb095a5",
+      "bytes": 771
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thick-sheets-5.json",
+      "sha256": "6120d400bd93d453e4cd21b35d2bf3a11bb07e53efb9de6d9459f66087276876",
+      "bytes": 767
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kirkeminde2013-c2ta00498d-fes2-nanocrystals-thin-sheets-4.json",
+      "sha256": "2ac68e1f58c496bfa0b630890eebf369d33c8781666047db4aa181d57e78148d",
+      "bytes": 765
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/kirstaedter1996-1-117419-inas-gaas-quantum-dot-injection-laser-1.json",
@@ -266295,6 +268870,21 @@
       "bytes": 2342
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/li2015-jacs-5b05462-cdse-cds-al-qds-1.json",
+      "sha256": "12c1bdbba3c1c44284cc06f5f7650cfc16daae38b4afaaf9fa1a37dc0099af02",
+      "bytes": 680
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/li2016-c5ra27904f-calb-cu-1.json",
+      "sha256": "44dd44a2e7fbb50c0f18b7017b6d1943f0a4817a61b7157c1acd62539cf2c7ce",
+      "bytes": 699
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/li2016-c5ra27904f-calb-pvp-cu-2.json",
+      "sha256": "9c346ba361551716adaeba4bdc13be3a48bcb51aecba043fad820427ec4c2d3c",
+      "bytes": 707
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/li2017-acsami-6b15997-zns-mn2-zns-zns-cu2-zns-core-multishell-1.json",
       "sha256": "5bfda570e96efcd288a33839fdc6a310955e7444136565fc319aedc2fff3476e",
       "bytes": 1912
@@ -266443,6 +269033,16 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/liang2014-cm502812c-indium-doped-zinc-oxide-izo-nanocrystals-1.json",
       "sha256": "9882992415def94c7747c99e15a65fda14905d5d2c5e112058d0b130fba89da1",
       "bytes": 1810
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/liang2015-c4ce02405b-agbis2-nanocrystals-1.json",
+      "sha256": "e9d2cb07df3ae1f72af95d5c512ab0c86289c591b6571673f123f399a42fe567",
+      "bytes": 2804
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/liang2024-s41563-024-01901-4-a1-pt50ni35sn15-ncs-1.json",
+      "sha256": "1a15acbf2ab98a710220d88a6782fdc84088f90c089343c4a2de294689dac686",
+      "bytes": 2867
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/liao2001-b101004m-monodispersed-nanocrystalline-ceo2-powde-1.json",
@@ -266985,6 +269585,11 @@
       "bytes": 1200
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/liu2013-c3ta00357d-czts-nanocrystals-3-nm-1.json",
+      "sha256": "23ca9cbf823ee71614928c495ad0f61b08b14d37de7e975436e5e7b8b81b0677",
+      "bytes": 706
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/liu2013-ie4028395-3-mercaptopropionic-acid-capped-cdse-qds-1.json",
       "sha256": "3ed802c7f40c932043fe2a9c08119da3b6e4435c27d1cebc1d5ba3aa6dce87b8",
       "bytes": 5073
@@ -267163,6 +269768,26 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/lo2008-1-2995862-au-nanocrystals-embedded-in-al2o3-hfo2-s-1.json",
       "sha256": "ae4ac1217f3b63835a5388f1668bb3385e69dd6fdea22445531ee91fd085b63b",
       "bytes": 2304
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/loc2015-c5nr04181c-pbs-0d-nanocubes-ncbs-3.json",
+      "sha256": "70bc4383a595050fd1cd2d8810007722336991f2af67e20451664683c0eb2527",
+      "bytes": 2875
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/loc2015-c5nr04181c-pbs-0d-nanocuboctahedra-ncos-4.json",
+      "sha256": "71aedaf0868865b4c14f47a1dd4505318a00a0a6e8497d63adb2a58132e12d79",
+      "bytes": 3458
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/loc2015-c5nr04181c-pbs-1d-nanowires-nws-1.json",
+      "sha256": "e1ed08346ceb0b78d19cd48a12bcb197bdee7c686c63d71c8bef50eeee6635d8",
+      "bytes": 3391
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/loc2015-c5nr04181c-pbs-2d-nanosheets-nss-2.json",
+      "sha256": "18da0ac4620ddebdb17a342118e03b9fc83e7623bd952a8054c84f3c708fb0c0",
+      "bytes": 3407
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/loewenstein2008-pssa-200779439-znoeosiny-1.json",
@@ -267438,6 +270063,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/ma2008-1-2956672-inas-gaas-quantum-dot-infrared-photodete-1.json",
       "sha256": "d4af7f853013ce725ac8befbc1da28f416081229317bfe5b0eb2822d20cca952",
       "bytes": 2286
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/ma2011-c1cc11070e-cdse-sio2-nanobeads-1.json",
+      "sha256": "8f5b4f8ca712083d6cb6cde521325a308b78c0b19c99ca3cd393f96b9d053aad",
+      "bytes": 1198
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ma2013-pssa-201329136-g-mno2-d01-1.json",
@@ -267720,6 +270350,11 @@
       "bytes": 3587
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/mansur2015-c4gc02072c-zns-chi-abcd20-1.json",
+      "sha256": "83982feb4fc8fbc19d508b51438a1955073a98ad1ff70e1a7e774e1d10d73e84",
+      "bytes": 2776
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/mao2014-ie502432y-cdte-cds-znssio2-qds-1.json",
       "sha256": "2f2b5a3596d422ef6ccbcea10ae3a4ea395fe7bad7871b1549b624f52ab38849",
       "bytes": 1843
@@ -267788,6 +270423,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/mashford2009-b905256a-cdse-zns-coreshell-qds-1.json",
       "sha256": "72def8c0b2580025ea31a3acbde2c6f0f20a5b84e636f28934569670ee7d93b6",
       "bytes": 1730
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/mashiach2021-s41467-020-20512-6-aep-caf2-ncs-1.json",
+      "sha256": "1152fe8c0441338086862ea6bd6ca3bbb9e35baf7f0cc24cc6d8f508ee6f1e28",
+      "bytes": 723
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/maskaly2006-adma-200500875-cdse-solgel-nc-composite-infiltrated-int-1.json",
@@ -268870,6 +271510,11 @@
       "bytes": 3380
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/nightingale2011-c0lc00507j-cdse-quantum-dots-1.json",
+      "sha256": "2b8d13d962032857705b3cd74f71d97f2155cb1de8b6e1e9e8f37d9ca83dd7cd",
+      "bytes": 716
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/nistor2011-cg2009286-zno-nanocrystals-annealed-in-air-up-to-2-1.json",
       "sha256": "f550f518584c6974181a4ec711fe74c32830c2124151f9b4aa4fd70769f812a1",
       "bytes": 755
@@ -268888,6 +271533,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/niu2008-cg701048d-sno2-r-fe2o3-snchs-1.json",
       "sha256": "702c4f31ef8d19d079c263c098e096654ce1f94aaff6ba07f41eefe1fbb6a86d",
       "bytes": 2849
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/niyamakom2015-c4ta05696e-cuins2-nanoparticles-cis-1.json",
+      "sha256": "7650a284ea5252b4f266c95f3475b82a7e7bc16683b6b63d5d706ea42af2a6d9",
+      "bytes": 3295
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/nizamoglu2009-1-3109151-cdse-zns-core-shell-nc-solid-film-pl-in-1.json",
@@ -269420,6 +272070,11 @@
       "bytes": 3168
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/page2016-c6an01760f-cdzns-zns-qds-1.json",
+      "sha256": "66895258bc6c8ddc77034df8b50a8bd1508f3a4480f99703ec2afa69deac579c",
+      "bytes": 2849
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sk-2.json",
       "sha256": "32956b8d8e354495ad3e0eead36c8970d53d39cfd10c498a12df1fa014766f8d",
       "bytes": 1746
@@ -269433,6 +272088,16 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/pagnier1999-jssc-1998-8087-nanocrystalline-sno2-sample-sx-3.json",
       "sha256": "0358d73cae53405e9effe3bf055ac73e5f32df29740bc41b95dbae7751c10e54",
       "bytes": 2300
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/pahari2011-c1jm10617a-cds-nanoparticles-2.json",
+      "sha256": "37be3c50999941e7204d438f44e2ca91962ce29f0da79afc2f767c8da67262c6",
+      "bytes": 705
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/pahari2011-c1jm10617a-ceo2-nanoparticles-5.json",
+      "sha256": "d29b295177a739a7cd45a8d1a2bb2fb67d04afa10f31b76626bf539fd172ac3b",
+      "bytes": 1251
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/paine1992-1-106808-nanocrystalline-ge-precipitates-in-sio2-1.json",
@@ -269865,6 +272530,11 @@
       "bytes": 1254
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/park2020-s41467-020-19573-4-cdse-cds-core-shell-qds-1.json",
+      "sha256": "d1a5637a3326c9ec8f78371eb91a7d24307d857b216c291f8734b8482fe966d5",
+      "bytes": 3132
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/park2023-acs-inorgchem-3c00161-inp-zno-qds-1.json",
       "sha256": "aac3e49563ddf60649633609ea1b24e9d6579785b702df3fdc3904bb4f87ab59",
       "bytes": 703
@@ -270000,6 +272670,11 @@
       "bytes": 3323
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/pei2026-s41598-026-48145-7-p-cqds-1.json",
+      "sha256": "223e6fc5a79702144c28dcfbe3388b43079f2c4144c9e2dc538e22d8f09d6fea",
+      "bytes": 1273
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/pena2003-b304830f-sno2-h300-1.json",
       "sha256": "c60a32cbb8a767689f4077a1fee4e8de5c44df9537672648a6b9febeae630391",
       "bytes": 674
@@ -270018,6 +272693,21 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/peng2003-1-1538181-y2o3-eu3-ncs-4-nm-1.json",
       "sha256": "d3df9e22de8f9e429cb73f90309e848adf021e1e9f74ee808695bf17e0eb7c88",
       "bytes": 2650
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/peng2012-c2cp40848a-agins2-nanocrystals-4-nm-2.json",
+      "sha256": "e7de6ceeec124a6122454bdbe4b0bc8698b8acb0f9544e2067f93780fd781a0c",
+      "bytes": 1860
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/peng2012-c2cp40848a-agins2-nanocrystals-9-nm-1.json",
+      "sha256": "299728856810626c82309b9cf027e1e87caa9af35261c7269fc55cdc12737cc7",
+      "bytes": 2953
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/peng2012-c2cp40848a-agins2-nanorods-3.json",
+      "sha256": "4bc0d4dba07627b2a3f16cec6d67c13cffbb8552d0594161055edcf5f4250689",
+      "bytes": 1306
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/peng2012-nl2038979-graphene-quantum-dots-gqds-synthesized-a-1.json",
@@ -272860,6 +275550,11 @@
       "bytes": 1230
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/siy2011-c0cc02304c-cdse-ncqds-synthesized-at-130-c-1.json",
+      "sha256": "e8aa66028023448ecadb01291a8e1f3a714e4ea5c009e8594abbc56b481ba422",
+      "bytes": 756
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/skoda2018-j-orgel-2018-05-037-co0-1zn0-9o-co10z-1.json",
       "sha256": "131bdaba82f2e97ad6d0082ef710bdb3aa1bff0d73dbe3e7ffdeff71ae6cfb22",
       "bytes": 3911
@@ -272888,6 +275583,16 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/smilgies2012-jp3015436-fept-nanocrystal-monolayer-1.json",
       "sha256": "e0bdc8df4e7dfd5a60356828a2cded77c681579182deb6276403444bbcf29a22",
       "bytes": 741
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/smilgies2018-c8nr04606a-aupoly-ncs-2.json",
+      "sha256": "ad3ee2d97ac8981adbf28cc90cb0950228e60db9a41eb2d7264ee96324d4560d",
+      "bytes": 1187
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/smilgies2018-c8nr04606a-ausingle-ncs-1.json",
+      "sha256": "49487166638f285b623a045039ffc21abb6f35ffd84f6b5e82238546137906f2",
+      "bytes": 1193
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/smith2011-nn102878u-pbs0-54se0-46-1.json",
@@ -273275,6 +275980,11 @@
       "bytes": 2913
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/stroyuk2018-s41598-018-32004-1-cu2znsns4-nanocrystal-ink-fraction-no-1-1.json",
+      "sha256": "8015a2fcbee58855c8bef6d131d98640177245aa42b14ba8c532a0b75b47de0e",
+      "bytes": 1894
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/stylianou2026-acs-nanolett-6c00158-pbs-cds-core-shell-cqd-series-1-1.json",
       "sha256": "0169b433a14af16e7140e283d608bbe988be86c67916074eed1c2f464ad33099",
       "bytes": 744
@@ -273468,6 +276178,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/suyver2001-1-1428118-znse-cu-ncs-1.json",
       "sha256": "950b0c3023e4fbc0e3bc98450d1623008ec8dd9b607735c40a2fff0e68b64aa1",
       "bytes": 3638
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/swain2020-c9cc09368k-sample-3-3.json",
+      "sha256": "3085cc840b4c3c3b1fda2c67f732d3e50ae4a3ddde4cc40a44016119242a582c",
+      "bytes": 645
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/swisher2015-acsami-5b00893-in2o3-nanocrystals-1.json",
@@ -274965,6 +277680,11 @@
       "bytes": 1329
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/wang2017-c7nr04593j-bi2s3-c-dot-nanohybrids-1.json",
+      "sha256": "503aab056b727253e46bd4590706f74b73cfd2fddcc5c87e8529230bdbf76ce8",
+      "bytes": 1317
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/wang2017-j-electacta-2017-08-134-co-sxse1-x-2-nras-1.json",
       "sha256": "c5aa1fbfd1e75f4bc96cdd747029052aa85466577dce5c70af512091309d105b",
       "bytes": 3104
@@ -274993,6 +277713,16 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/wang2018-acsenergylett-7b01243-cspbbr3-a-cspbbrx-qds-1.json",
       "sha256": "df1b8b0c99db40e16292720facbab168bacded169e7c776a17893b8a1c52686a",
       "bytes": 1225
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/wang2018-c7nr08369f-ag2s-ncs-4-510-nm-1.json",
+      "sha256": "4923717163b48658493363f35a0c6dab6aa6cbe17efe8340dd3a20afa171509f",
+      "bytes": 684
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/wang2018-c7nr08369f-agcus-ncs-1527-nm-2.json",
+      "sha256": "94c36d51916906ca7a5c9c52c5e3b80c36912a71ac7e8106be9ea968f9c12b00",
+      "bytes": 704
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/wang2019-acs-jpclett-8b03750-cspb-cl-br-3-perovskite-quantum-dots-tre-1.json",
@@ -275945,6 +278675,11 @@
       "bytes": 1786
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/xiong2012-c2jm35101c-cucro2-nanocrystals-1.json",
+      "sha256": "eeba72495f8cc83b337a9d459ad0d91d2f47bfa757e8a6f34e2147251e1f41e7",
+      "bytes": 2383
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/xu2003-j-1151-2916-2003-tb03307-x-nanocrystalline-tetragonal-batio3-powder-1.json",
       "sha256": "14fd3db9ab37ef3d0f59ecd983767bdbedb8ea8800d6e8153cc93e79f1d9016f",
       "bytes": 3103
@@ -276128,6 +278863,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/xu2012-am300877v-ncsi-mpm2-2.json",
       "sha256": "b5242a66c537745575e75cfca1cc9ea19ca766f8340371eb994c2cbf2cf47a14",
       "bytes": 3843
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/xu2012-c2nr31724a-cu2sns3-hierarchical-microspheres-1.json",
+      "sha256": "659ebb2dce2eafd9eede9b738b2cec5e635867295c415a3cdc132b4ba7a31efc",
+      "bytes": 3236
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/xu2012-jp306628m-czts-microspheres-1.json",
@@ -276468,6 +279208,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/yang2015-qd-gold-wgm-jpcc5b07475-wgm-spectrum.json",
       "sha256": "3130c4f7763ab7daa231b226930e8d89ef185c78ae90f27d52769072b0931982",
       "bytes": 877
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/yang2016-c6nr07155d-fe3o4-cncs-138-nm-1.json",
+      "sha256": "4659768f86e72057b70d0be47f64898570a4195b8800a703611a04c739166460",
+      "bytes": 3855
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/yang2017-acsami-7b00133-cdse-cds-core-shell-nanocrystals-20-min-4.json",
@@ -276818,6 +279563,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/yingjie1994-bf00270948-nanocrystalline-nickel-powders-1.json",
       "sha256": "8c2f3800632859b4404a1a8b877f8c3d3f9a49521ae05f7e1d9af46adde5c301",
       "bytes": 2220
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/yong2010-b916663g-cuins2-zns-qds-1.json",
+      "sha256": "d3ee956bad31106f36c60d1625d899e30914117889ed0cebb6e338092c46055d",
+      "bytes": 5883
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/yoo2024-acsmaterialslett-3c01089-ag2s-cqds-control-1.json",
@@ -277938,6 +280688,11 @@
       "path": "recipe-atlas/static/data/protocol-art-bindings/zheng2010-fuce-200900147-cube-shaped-pt-nanocrystals-1.json",
       "sha256": "b6fa469afeb7daf88b6c36b3fecef240e2c22955f029fe8f779612c6fb81547c",
       "bytes": 1315
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/zheng2014-c4tb00986j-cufe2o4-magnetic-nanocrystal-clusters-mn-1.json",
+      "sha256": "1b12d3dd64e379043d0a60a87623cce50c8f22598516d82bcb1a854f90ea47eb",
+      "bytes": 1367
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zheng2018-acs-jpcc-8b09715-n-gqds-1.json",
@@ -279621,8 +282376,8 @@
     },
     {
       "path": "research-assets/curation-control.json",
-      "sha256": "cdd2532569f119d19b7d1ca116734a3952b708c3d51bd5c7872b9b20474ef651",
-      "bytes": 2566786
+      "sha256": "52d4df1a7007d4cc816e52f8ae60fa75235bf5d703477c8e487748a7acdef90b",
+      "bytes": 2575386
     },
     {
       "path": "research-assets/deep-review-20260917/import_reviews.py",
@@ -289381,8 +292136,8 @@
     },
     {
       "path": "research-assets/public-audits/MACHINE_EXTRACTED_PAPERS.md",
-      "sha256": "ceaf835f85d2eea6879daf5d88f71dd616a5afd53b68002f89207faa041e71d5",
-      "bytes": 745389
+      "sha256": "26c4571e945ec456f9392384d4b9b7d16a2eb941552e66ceebb016b54e6bff0b",
+      "bytes": 765239
     },
     {
       "path": "research-assets/public-audits/PAUSE_REPORT_2026-10-10.md",
@@ -289406,8 +292161,8 @@
     },
     {
       "path": "research-assets/public-audits/SIMPLE_PIPELINE_REPORT.md",
-      "sha256": "df66867bb2e1ed3b718060065fc4d2bd933b90d151d1e5b31e25dd3a0a7c83cc",
-      "bytes": 808443
+      "sha256": "75eb1b7f3475b4aa8f6707301431f3520b4ed55e96f94e40c2cb0b978c7814f7",
+      "bytes": 811712
     },
     {
       "path": "research-assets/public-audits/WEBSITE_WORK_CHECKPOINT_2026-10-09.md",

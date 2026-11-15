@@ -1,4 +1,127 @@
-## Local-corpus continuation — 15 November 2026, 09:45Z
+## Local-corpus continuation — 15 November 2026, 14:44Z
+
+Verified intake live remains96papers/146records/515figures,Source0a366781c8c2170142a97f3fac13cd255f32fe78,
+Site8fe07c0a51b483ba4a868d6687b3e338772e764c. Release03 remains fully closed.
+The all-folders task is UNFINISHED; do not replay completed publication or QA.
+
+Cohorts23–28/ready01 are fully integrated locally on intake/tanjin-r04-20261115:
+40papers/57records/227captionedfigures/431newassets/sixquote-freeexports.
+Draft7068canonical/3052primaryDOIs/4083machineReaderrecords,notlivecredit.
+r17chemical/nativeatlas/fullbindings/exactreconciliation passed:7535files,
+1418materiallists,57331nativechecks,0errors/warnings. Readerparts78807854/
+78787551bytes below80MiB. Prior canonical and Reader objects remain preserved.
+The40-paper release threshold is met; normal Source transaction/CI/publication
+and anonymous verification are next. No release04transaction/commit/PR yet at
+this checkpoint. Earliestready10:28:14Z unchanged; no status-only deployment.
+
+Batch28 finished27/27two-pass,one successfulredo,0exhaustedfailures,CHECK0,
+41matchedpairs,164crops0missing. Fourpapers/sixrecords retained,23omits,3whole
+deletions;three rare-paper checks closed. All23captions compared,15wordingfixes
+and0locators. Import/sync/registration/export completed without scientific
+replacements or training promotion. New-page desktop/phone QA will include
+Bhattacharyya CuFeS2, Culver CaWO4:Eu and Wang AgCuS.
+
+Batch29 runs27inputs since14:38:36Z;session88573/launcher25224/server43352.
+Freshalias27vs3053zero includes pendingprivatecohorts. Two completedoutputs
+already held for unresolved identity/absent target formation;no extra science.
+504preparedinputs remainunlaunched,next30,thenremainingcensus. Cfree370.14GB,
+0removed;refusedcleanup,oldholds and pausedaudits remain untouched.
+
+## Historical local-corpus continuation — 15 November 2026, 14:00Z
+
+Verified intake live remains96papers/146records/515figures;Source0a366781c8c2170142a97f3fac13cd255f32fe78,
+Site8fe07c0a51b483ba4a868d6687b3e338772e764c. Release03 is fully closed; do not
+repeat publication/browser work. The local corpus is not finished.
+
+Source branch intake/tanjin-r04-20261115 has cohorts23–27/ready01 fully integrated:
+36papers/51records/204captionedfigures/393newassets/fivequote-freeexports.
+Draft7062canonical/3048primaryDOIs/4077machineReaderrecords,notlivecredit.
+r16chemical/nativeatlas/fullbindings/exactreconciliation passed:7530files,
+1417materiallists,57316nativechecks,0errors/warnings. Readerparts78726440/
+78695060bytes remain below80MiB. Read-only release04preflight13:59:59Z preserved
+all7011verifiedcanonical blobs and6453priorReaderobjects;514changed/additivepaths.
+No release04transaction/staging/commit/PR;36<40,earliestready10:28:14Z unchanged.
+
+Batch27 finished33/33two-pass,0retries/failures,CHECK0,53matchedpairs,203crops
+0missing. Selected7papers/10records/46figures,26omits,23whole-objectdeletions.
+Seven rare-paper checks closed,fourselected/threeomitted; no scientific replacements.
+All46captions actually compared,22wording fixes0locators;7requests0failures.
+Native import/sync/registration/export completed with all prior objects preserved.
+
+Batch28 runs27inputs since13:52:09Z,session31976/controller45000/server29368.
+Freshalias27vs3049zero includes prepared27cohort. Seven successes observed;
+c7nr08369f[1,2]selected,threewholedeletes on rareAgCuS only; its reading and
+eight-authorheader are closed. No extra common science,missing-step additions
+or full-SOP gate. 531preparedinputsremainunlaunched,next29type-r02; thenremaining
+census. No newBatch51. Cfree370.33GB/0removed;refusedcleanup/pausedaudits untouched.
+
+## Historical local-corpus continuation — 15 November 2026, 13:13Z
+
+Verified intake live remains96papers/146records/515figures,Source0a366781c8c2170142a97f3fac13cd255f32fe78,
+Site8fe07c0a51b483ba4a868d6687b3e338772e764c. Release03 closure is complete;
+do not repeat completed publication or QA. The local corpus is not finished.
+
+Branch intake/tanjin-r04-20261115 now has cohorts23–26/ready01 fully integrated:
+29papers/41records/158captionedfigures/313newassets/fourquote-freeexports.
+Draft7052canonical/3041primaryDOIs/4067machineReaderrecords,notlivecredit.
+r15 chemical/native atlas/full bindings/exact reconciliation passed:7519files,
+1413material lists,57301nativechecks,0errors/warnings. Readerparts78584532/
+78549264bytes remain below80MiB. All verified canonical and Reader content is
+preserved; no scientific replacements, audit or training promotion.
+No release04transaction/commit/PR;29<40,earliestready10:28:14Z unchanged.
+
+Batch26completed26/28two-pass,CHECK0,34candidatepairs,170crops0missing.
+Two exhausted failures c4lc00429aA/c4ra08770dB remain terminal. Final5papers/
+8records/29figures,23omits,1wholeatmosphere deletion;two rare checks closed.
+All29captions compared,20wording fixes0locators. Native import/sync/registration/
+export completed,with78newassets and all prior objects preserved.
+Batch27active33inputs since12:58:13Z;session37852/controller35556/server42068.
+CurrentcommonCu c5ra27904f[1,2] retained; one rare layered-QD variant held for
+missing target-layer growth. No extra common science reading or full-SOP gate.
+558prepared inputs remain unlaunched,next28;thenremaining census dispositions.
+Refused cleanup,old holds and paused audits remain untouched;zero files removed.
+
+## Historical local-corpus continuation — 15 November 2026, 12:23Z
+
+Release03 is verified live: Source0a366781c8c2170142a97f3fac13cd255f32fe78
+(PR167), Site8fe07c0a51b483ba4a868d6687b3e338772e764c. Publisher43706943511
+succeeded12:10:53Z, Pages43709989086 succeeded11:55:18Z. Normal anonymous
+checks:2033files/1997changed/47paper/57material routes,0mismatches/failures;
+all68347published text files verified. Exact67newrecords+588referencedassets
+matched live bytes. Casotti/Esteves/Kumar desktop+phone passed,24screenshots
+plus2scrolledmodalviews actually inspected,0displaydefects. Original30sReader
+timeout remains preserved;unchanged retry passed,no gate relaxed.
+
+This release adds47papers/67records/261figures. Total intake live96papers/
+146records/515figures,not corpus completion. Verified7011canonical/3012primary
+DOIs. Third closure SHA778182a029686f2f7438080e57c58e1db22097ac7cff46e9221e521d04076ca9;
+new immutable rarity baseline uses that verified Source,1251formulas/5182routes.
+Old r02baseline retained with reviewed pointer-transition provenance. Do not
+count future candidates as live or repeat completed publication/browser work.
+
+Source branch intake/tanjin-r04-20261115 starts at verified0a366. Cohorts
+23/ready01,24/ready01,25/ready01 are fully integrated:24papers/33records/
+129captionedfigures,235newregisteredassets,3quote-freeexports. Draft7044canonical/
+3036primaryDOIs/4059machineReaderrecords. All prior canonical/Reader objects
+preserved. r14chemical/nativeatlas/fullbindings/exactreconciliation passed:
+7514inventoryfiles,1413materialhubs,57261nativechecks,0errors/warnings.
+Readerparts78467739/78434615bytes below80MiB;20newhonestflatchemicalcards,
+6674baselinechemicalentriespreserved. No release04commit/PR/livecredit;
+24papers<40threshold, earliestready10:28UTC. Continue normal queued extraction.
+
+Batch25 completed28/28success with one successfulAredo, CHECK0,42matchedpairs,
+169crops0missing. Selected7papers/13records/39figures;21omits,4whole-object
+deletions. Five rare-reader checks closed,2selected/3omitted. All39caption
+comparisons complete,16wordfix0locator;no scientific replacements or training.
+Batch26 runs28type-refinedinputs from12:14:01UTC,session45177/server44484/
+controller18624. Selectedsofar2commonpapers;actualbibliographyverified.
+c4lc00429aAfailed original+single redo,nativeinvalid;no salvage/relaunch.
+591preparedinputs remainunlaunched,next27;corpus still requires remaining
+censusdispositionafterthatqueue. Public machine list now has90exact added
+release02/03 DOI/recordrows,eachcheckedonce;olderhistoryunchanged.
+Cfree370.66GB/0removed. Refusedcleanupandpausedauditsremain untouched.
+
+## Historical local-corpus continuation — 15 November 2026, 09:45Z
 
 Verified live intake remains49papers/79records/254figures,Source401e/Site0df61.
 Pending branch intake/tanjin-r03-20261115 has47fullyintegratedpapers/67records/

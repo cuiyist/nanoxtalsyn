@@ -1,4 +1,56 @@
-# Local-corpus intake: 49 papers verified live — 15 November 2026
+# Local-corpus intake: 96 papers verified live — 15 November 2026
+
+Three verified releases have added **96 papers, 146 source-extracted records and
+515 captioned figures**. The local corpus is not finished. The latest verified
+Source contains 7,011 canonical records and 3,012 distinct primary-source DOIs;
+new draft records are excluded from those live counts.
+
+Release03 adds 47 papers, 67 records and 261 figures through
+[Source PR167](https://github.com/cuiyist/nanoxtalsyn/pull/167), merged as
+`0a366781c8c2170142a97f3fac13cd255f32fe78`. Its Site commit is
+`8fe07c0a51b483ba4a868d6687b3e338772e764c`.
+[Publisher43706943511](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43706943511)
+completed successfully at 2026-11-15T12:10:53Z, after
+[Pages43709989086](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43709989086).
+Normal anonymous verification checked 2,033 files, including 1,997 changed-file
+entries, 47 new paper routes and 57 material routes, with zero mismatches or
+failed routes. All 68,347 selected published-text files passed anonymous checks.
+Candidate, final and staged build-tree identities match; public-boundary and
+browser checks passed. The exact contributions from releases02 and03 are now
+listed in [MACHINE_EXTRACTED_PAPERS.md](MACHINE_EXTRACTED_PAPERS.md), without
+recounting older contributions.
+
+The integrating assistant additionally verified all 67 new canonical records
+and 588 referenced assets against their anonymous live bytes. Casotti, Esteves
+and Kumar pages passed desktop and phone interaction checks; all 24 saved views
+were actually inspected, plus two additional scrolled modal views confirming
+complete captions and locators. An initial Casotti Reader timeout was preserved;
+a read-only diagnostic and an unchanged full retry passed. Its cause remains
+unconfirmed. No timeout, selector or acceptance gate was relaxed.
+
+Batches23–28 have completed extraction and caption comparison, preparing another
+40 papers / 57 records / 227 figures for the next source release. Their Reader
+content, 431 new assets and six quote-free exports are integrated locally.
+Combined chemical/material links passed 57,331 native checks with no errors or
+warnings; exact reconciliation checked 7,535 inventory files and 1,418 material
+record lists. Prior canonical records and Reader objects remain preserved.
+The normal40-paper release threshold is now met; source transaction, CI and
+publication checks are next. No new live-paper credit is claimed.
+
+Batch28 finished27/27successful two-pass extractions, with one successful redo,
+zero exhausted failures, CHECK exit0 and41matchedcandidatepairs. Fourpapers/
+sixrecords were retained after intake decisions; all23captions were compared,
+with15wording corrections and no locator changes. Batch29 is running on27inputs
+after a fresh duplicate check;504prepared inputs remain unlaunched.
+Earlier failures and holds remain preserved. Candidates and extracted pairs are
+not counted as published papers.
+
+All new records remain machine-extracted and not independently audited, with
+zero training credit. The separate audited lane and historical refusals remain
+unchanged. Full releases continue through the existing source PR and GitHub
+Actions workflow; no status-only deployment is made.
+
+## Historical checkpoint — before release03 verification
 
 Two verified releases have added **49 papers, 79 source-extracted records and
 254 captioned figures**. This is progress on the local corpus, not completion.
