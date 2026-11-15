@@ -1,4 +1,46 @@
-## Publication packaging repair — 15 November 2026, 17:03Z
+## Release04 verified; next additive cohort in progress — 15 November 2026, 19:50Z
+
+The all-folders task remains UNFINISHED. Verified intake totals are now
+136papers/203records/742figures, counted once across releases01–04.
+Release04 adds40papers/57records/227figures. Source58b10fe7138b359bc7be152e238ca2048cfd6ceb,
+Site3a3554d54d36cb246b5fea631f8aa2612566e9df, publisher43746489949success19:44:34Z,
+Pages43750956700success19:24:58Z. Normal anonymous checks passed1862files,
+40paper and58materialroutes; the deployed text scan passed68902files with0failures.
+All57newcanonical records and465referencedassets were byte-verified anonymously.
+Three new pages were tested on desktop/phone andall24screenshots actually viewed;
+the tall Wang figure's scrolled caption/locator was separately observed.
+The full7068record/105191683byte download passed both devices with the original
+SHA2560d1860db1d8e6127decf2b71a2efb1d9b42215f879a96aadc108c9fbd33eac4d.
+Original failed oversized-blob publication andtransient503receipts remain preserved.
+No scientific values were changed by the export packaging repair.
+
+Fourth-release closureSHA0b7cf51e4e3c649b27f5c0957609a1c903a039e10990d6bce57e01ab87da4254
+is recorded privately. Rarityr04 now binds7068verifiedcanonical records,
+1263exactformulas and5239synthesisroutes; unpublished drafts are excluded.
+The public machine-extracted paper index carries the40verified rows in this
+next substantive paper PR, not a separate status-only deployment.
+
+Continuation at21:28Z: branchintake/tanjin-r05-20261115 starts at verifiedSource58b10fe71.
+Batch29/ready01,30/ready01,31/ready02,32/ready01,33/ready01,34/ready01,35/ready01 add
+53localpapers/86records/242captionedfigures. Imports, Reader syncs,601newasset
+registrations and seven quote-free exports completed; r20fullbindings and exact
+inventory reconciliation passed:7605files,1435materiallists,57581chemicalchecks,
+0errors/warnings. All7068priorcanonical bytes and6510priorReaderobjects preserved.
+Draft7154canonical/3105primaryDOIs/4169machineReaderrecords is NOT live credit.
+The40paperrelease threshold is met; normal SourcePR/CI/publication remains next.
+Do not use superseded31/ready01. Batch35closed28/29two-pass,CHECK0,139figurecrops;
+one beta-zeolite exhausted its single redo, one recovered faujasite is identity-held.
+Selected14papers/30records/69figures,15holds,31whole-objectdeletions; all69captions
+compared,17wording fixes,0locator changes,0extra requests. No scientific replacement.
+Batch36nowruns30inputs; another469prepared inputs remain unlaunched after54.
+These499processing/waiting candidates are not eligible or publication counts.
+The419preparedinputs at resume are a SUBSET of20927unattempted/metadata-unresolved
+census rows, not the entire corpus.3693previous-manifest rows still require
+saved-disposition reconciliation. Do not reopen exhausted, refused, unsafe orOUT
+work or resume paused audits. GPU settings, CHECK gates and publication gates stay
+unchanged. All new results remain source_extracted, not independently audited.
+
+## Historical publication packaging repair — 15 November 2026, 17:03Z
 
 The all-folders task is UNFINISHED. Verified intake live remains96papers,
 146records and515figures through release03, Site8fe07c0a51b483ba4a868d6687b3e338772e764c.
