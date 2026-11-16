@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261116-47-papers",
-  "updated_at": "2026-11-16T06:02:01.082875+00:00",
+  "release_id": "tanjin-r07-completed-recovery-retired-20261116",
+  "updated_at": "2026-11-16T08:00:59.355162+00:00",
   "record_count": 7303,
   "input_files": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "6456d7efbfb00eb2412732d78755e5cf0bf1716d40cb6654ee77d28334686aca",
-      "bytes": 1184964
+      "sha256": "92c88e7254e4babb60a80f65c365b8cfba19f9a8cc36b273568211c853298add",
+      "bytes": 1186243
     },
     {
       "path": "PUBLICATION.md",
@@ -53,11 +53,6 @@
       "path": "publication/asset-rights-registry.json",
       "sha256": "97944f986cbeec16191ce63f6d7368d23f9e7fd71856732d6e41645f8e959fd0",
       "bytes": 74955230
-    },
-    {
-      "path": "publication/live-reverification-scope.json",
-      "sha256": "0c70eb6dea4ad0e06e5ed11344fcbcef7513e1e98da3344fb4fe0a1e570240c3",
-      "bytes": 163490
     },
     {
       "path": "publication/public-release-policy.json",

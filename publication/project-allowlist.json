@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-next-20261116-47-papers",
+  "release_id": "tanjin-r07-completed-recovery-retired-20261116",
   "repo": "mattersyn",
-  "source_commit": "a8f2e36f867c4e4df86c58912a90a1eddca1cd85",
+  "source_commit": "f8286355063eafd905cc1b7ee9c75d33bcb91f05",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "a3084c09f5777ef84c542813703dcf1e70318b01ffed6afca35adba6eb8d7264",
-    "file_count": 61116,
+    "sha256": "858b45a3d1959f25ce1461d77262ee5415dfa82af290dad7e49c12f03437d525",
+    "file_count": 61115,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -66,13 +66,13 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "6456d7efbfb00eb2412732d78755e5cf0bf1716d40cb6654ee77d28334686aca",
-      "bytes": 1184964,
+      "sha256": "92c88e7254e4babb60a80f65c365b8cfba19f9a8cc36b273568211c853298add",
+      "bytes": 1186243,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
-      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "reviewer": "Codex-root-completed-recovery-retirement-review",
+      "reviewed_at": "2026-11-16T08:00:17+00:00",
       "content_class": "memory",
       "source_refs": []
     },
@@ -138,28 +138,16 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "f63dbb72033042e33c5351bc9c294f2a8217cc6a6f60df8ef2681cc57951312d",
-      "bytes": 13790581,
+      "sha256": "a761fcded8f135ab8604f0950c82f0827c0ba658f042b05c90a4bd52a525a440",
+      "bytes": 13790418,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T06:02:01.082875+00:00",
+      "reviewed_at": "2026-11-16T08:00:59.355162+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
-    },
-    {
-      "path": "publication/live-reverification-scope.json",
-      "sha256": "0c70eb6dea4ad0e06e5ed11344fcbcef7513e1e98da3344fb4fe0a1e570240c3",
-      "bytes": 163490,
-      "git_mode": "100644",
-      "decision": "allow",
-      "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T00:42:38+00:00",
-      "content_class": "audit_summary",
-      "source_refs": []
     },
     {
       "path": "publication/public-release-policy.json",
@@ -123721,7 +123709,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T06:02:01.082875+00:00",
+      "reviewed_at": "2026-11-16T08:00:59.355162+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"

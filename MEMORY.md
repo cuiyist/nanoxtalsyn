@@ -1,3 +1,23 @@
+## Release07 fulfilled recovery-scope retirement — 16 November 2026
+
+Publisher43821101833 failed during staging for Sourcef8286355 because the
+one-time recovery scope still required old Siteaaf44c26 as its base. The boundary
+scan passed all88954 files; no new Site commit or publication credit resulted.
+Release06 had already closed this recovery: Sourcea8f2e36f, Site68f59738,
+successful publisher43797943613 and Pages43802713007. Exact saved receipts bind
+all2127 prior required paths and652 registered recovered assets to successful
+anonymous verification, with fresh desktop/phone review. The recovered53papers
+are counted once, separately from the41 new release06 papers.
+
+Retire only the fulfilled live-reverification-scope instruction, retained in Git
+history and the private evidence trail. The strict scope validation, normal
+boundary/browser/full-text/anonymous gates, and all scientific bytes remain
+unchanged. The release07 candidate still contains47 papers/82 records/288 crops;
+it is not live until a fresh normal publisher and verification finish. Verified
+intake remains230 papers/356 records/1259 crops. Independent audit remains
+paused; machine records are source_extracted, accuracy unmeasured, training
+credit zero. The all-folders job remains unfinished.
+
 ## Release06 benchmark snapshot repair — 16 November 2026, 02:04Z
 
 The all-folders job remains unfinished. PR171 is still open. CI43787069217
