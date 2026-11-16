@@ -1,4 +1,4 @@
-import copy,importlib.util,json,sys,unittest,uuid
+import base64,copy,hashlib,importlib.util,json,subprocess,sys,unittest,uuid
 from pathlib import Path
 from unittest.mock import patch
 HERE=Path(__file__).resolve().parent
@@ -9,8 +9,7 @@ import reader_presentation_registry as source
 def value():
  return {'schema_version':'1.0','records':{f'r{i}':{'status':'source_extracted','training_eligible':False,'figures':[{'id':f'f{i}','public_caption':'short factual paraphrase '+str(i),'origin':'manual','status':'accepted','full_crop_sha256':'a'*64}],'padding':'x'*160}for i in range(8)},'materials':{'m':{'record_ids':['r0'],'component_only':True}},'figures_by_source':{},'counter':9}
 def merge(parts):
- base=json.loads(parts[m.BASE]);marker=base.pop(source.MARKER,None)
- return base if marker is None else source._merge(base,json.loads(parts[m.PART]))
+ return m.load_public_parts(parts[m.BASE],parts.__getitem__)
 class PublicParts(unittest.TestCase):
  def test_current_unsplit_preserves_exact_legacy_bytes(self):
   v=value();raw=(json.dumps(v,indent=2)+'\n').encode();self.assertEqual(m.public_parts(v,raw),{m.BASE:raw});self.assertEqual(merge(m.public_parts(v,raw)),v)
@@ -36,6 +35,74 @@ class PublicParts(unittest.TestCase):
   with self.assertRaises(ValueError):m.public_parts(value(),b'{}')
  def test_source_split_code_and_unsplit_contract_unchanged(self):
   self.assertEqual(m.MAX_PART_BYTES,80*1024*1024);self.assertEqual(merge(m.public_parts(value())),value())
+ def test_three_or_more_parts_preserve_unicode_order_and_unknown_metadata(self):
+  v=value();v['unknown']={'retained':True};v['records']['r0']['unicode']=('µm"'+chr(10)+chr(92))*15
+  before=copy.deepcopy(v)
+  with patch.object(m,'MAX_PART_BYTES',1500):
+   parts=m.public_parts(v);self.assertEqual(parts,m.public_parts(v));self.assertEqual(merge(parts),v)
+   self.assertTrue(all(len(raw)<1500 for raw in parts.values()))
+  marker=json.loads(parts[m.BASE])[source.MARKER]
+  self.assertEqual(marker['schema'],m.MULTIPART_SCHEMA);self.assertGreaterEqual(len(marker['parts']),3)
+  actual=merge(parts)
+  for table in source.TABLES:self.assertEqual(list(actual[table]),list(v[table]))
+  self.assertEqual(before,v)
+ def test_actual_source_partition_overflow_uses_bounded_public_parts(self):
+  with patch.object(source,'MAX_PART_BYTES',1500),patch.object(m,'MAX_PART_BYTES',1500):
+   parts=m.public_parts(value());self.assertEqual(merge(parts),value())
+  self.assertGreater(len(parts),2)
+ def test_bad_multipart_markers_fail_before_reading_any_part(self):
+  ref={'part':m.PART,'sha256':'a'*64}
+  invalid=[None,{}, {'schema':m.MULTIPART_SCHEMA,'parts':[]},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[ref,ref]},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[{'part':'../private.json','sha256':'a'*64}]},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[{'part':m.PART,'sha256':'bad'}]},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[dict(ref,extra=1)]},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[ref],'extra':1},
+   {'schema':m.MULTIPART_SCHEMA,'parts':[ref]*(m.MAX_PARTS+1)}]
+  for marker in invalid:
+   with self.subTest(marker=str(marker)[:80]):
+    def forbidden(name):self.fail('Invalid marker read a secondary part')
+    with self.assertRaises(ValueError):m.load_public_parts(m.encoded({**value(),source.MARKER:marker}),forbidden)
+ def test_missing_corrupt_and_duplicate_later_parts_fail_closed(self):
+  with patch.object(m,'MAX_PART_BYTES',1500):parts=m.public_parts(value())
+  base=json.loads(parts[m.BASE]);refs=base[source.MARKER]['parts'];name=refs[-1]['part']
+  missing={k:v for k,v in parts.items() if k!=name}
+  with self.assertRaises(KeyError):merge(missing)
+  with self.assertRaisesRegex(ValueError,'checksum'):merge({**parts,name:parts[name]+b' '})
+  changed=json.loads(parts[name]);changed['records']['r0']=value()['records']['r0'];raw=m.encoded(changed)
+  refs[-1]['sha256']=hashlib.sha256(raw).hexdigest()
+  with self.assertRaisesRegex(ValueError,'Duplicate'):merge({**parts,m.BASE:m.encoded(base),name:raw})
+ def test_shard_loader_reads_all_parts_with_exact_shard_objects(self):
+  import tempfile
+  from build_reader_shards import load_public_view,shards
+  with patch.object(m,'MAX_PART_BYTES',1500):parts=m.public_parts(value())
+  with tempfile.TemporaryDirectory(prefix='reader-multipart-') as tmp:
+   root=Path(tmp)
+   for name,raw in parts.items():(root/name).write_bytes(raw)
+   actual=load_public_view(root);self.assertEqual(actual,value())
+   for rid,entry in value()['records'].items():self.assertEqual(json.loads(shards(actual)['records/'+rid+'.json']),entry)
+ def test_python_multipart_bytes_load_in_browser_without_semantic_changes(self):
+  with patch.object(m,'MAX_PART_BYTES',1500):parts=m.public_parts(value())
+  loader=(HERE.parent/'static/reader-presentation-loader.mjs').as_uri()
+  script="""
+import fs from 'node:fs';import assert from 'node:assert/strict';import {webcrypto} from 'node:crypto';
+const {createReaderPresentationLoader}=await import(process.argv[1]);
+const payload=JSON.parse(fs.readFileSync(0,'utf8'));let calls=0;
+const load=createReaderPresentationLoader({crypto:webcrypto,fetcher:async url=>{
+ calls++;const raw=Buffer.from(payload.parts[new URL(url).pathname.split('/').at(-1)],'base64');
+ return {ok:true,arrayBuffer:async()=>Uint8Array.from(raw).buffer};
+}});
+assert.deepEqual(await load('https://example.test/data/reader-presentation.json'),payload.expected);
+assert.equal(calls,Object.keys(payload.parts).length);
+"""
+  payload={'parts':{k:base64.b64encode(raw).decode()for k,raw in parts.items()},'expected':value()}
+  result=subprocess.run(['node','--input-type=module','-e',script,loader],input=json.dumps(payload),text=True,capture_output=True)
+  self.assertEqual(result.returncode,0,result.stderr)
+ def test_oversized_metadata_or_received_file_fails_without_truncation(self):
+  v=value();v['opaque_metadata']='x'*2000
+  with patch.object(m,'MAX_PART_BYTES',1500),self.assertRaisesRegex(ValueError,'below80MiB'):m.public_parts(v)
+  raw=m.encoded(value())
+  with patch.object(m,'MAX_PART_BYTES',len(raw)),self.assertRaisesRegex(ValueError,'below80MiB'):m.load_public_parts(raw,lambda name:b'')
  def test_normal_builder_uses_small_fixture_and_preserves_display_semantics(self):
   spec=importlib.util.spec_from_file_location('private_candidate_reader_builder',HERE.parent/'scripts/build_reader_metadata.py');builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
   root=HERE.parents[2]/'fixtures'/('reader-'+uuid.uuid4().hex);(root/'data/records').mkdir(parents=True);(root/'dist/data/materials').mkdir(parents=True)

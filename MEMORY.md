@@ -1,3 +1,33 @@
+## Release06 public Reader packaging repair — 16 November 2026, 01:18Z
+
+The all-folders job is unfinished. PR171 remains open; CI43782871020 failed
+the complete build on both Windows and Linux because the expanded public Reader
+projection exceeded two bounded files. No paper data was rejected or dropped.
+The repair preserves legacy one/two-file bytes when they fit and uses a checked,
+sequential multipart manifest for overflow. Every file remains below80MiB;
+all parts require SHA-256 verification and duplicate-key rejection in Python
+and the browser. Reader entry/import cache versions advance together to0.48.1.
+No scientific values, statuses, canonical records, source sidecar bytes or rights
+facts change. Native in-memory projection parity passed for6663 Reader records
+and1464 materials; all7221 canonical blobs andtwo source sidecars remain exact.
+Production forecast:1076-byte index and83880242/83879564/1241367-byte data parts.
+Fourteen packaging, ten compaction, four shard, nineteen cache and77 browser
+regression tests passed. Full CI/build and normal publication gates still apply.
+
+Batch40 finished16 inputs:15 two-pass successes, one exhausted redo, CHECKexit0.
+Five papers/12 records/31 captioned figures are locally ready. Refai's previously
+held three records now have12 complete source-raster crops, caption and visual
+review closed, in a disjoint one-paper cohort. Combined next-ready pool:6/15/43.
+No independent audit or live credit is implied. Batch41 is running22 inputs,
+seven successes observed01:17Z;489 prepared inputs remain unlaunched. The dated
+20687 unattempted/metadata-unresolved census is broader, overlapping, and is not
+a confirmed eligible-paper count. Prepared queue16–24continuoushours and full
+corpus3–6weeks remain conditional planning ranges, not completion guarantees.
+
+Verified intake remains136/203/742 through Release04. Release05's53 deployed
+papers still require the preserved full-verification recovery; Release06's41
+papers are not deployed. Audited-lane pauses, refusals and failure receipts remain.
+
 ## Release06 additive integration; Release05 verification recovery — 16 November 2026, 00:42Z
 
 The all-folders task remains UNFINISHED. Verified intake remains

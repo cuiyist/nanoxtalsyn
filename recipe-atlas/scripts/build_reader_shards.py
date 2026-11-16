@@ -20,8 +20,7 @@ import re
 import shutil
 from pathlib import Path
 
-from public_reader_registry import BASE, PART
-from reader_presentation_registry import MARKER, _merge
+from public_reader_registry import BASE, load_public_parts
 from chemical_reference_overlay import enrich_registry
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,16 +37,7 @@ def encoded(value):
 
 
 def load_public_view(data):
-    base = json.loads((data / BASE).read_bytes())
-    if MARKER not in base:
-        return base
-    marker = base[MARKER]
-    raw = (data / marker['part']).read_bytes()
-    if marker.get('part') != PART or hashlib.sha256(raw).hexdigest() != marker.get('sha256'):
-        raise ValueError('Public Reader part differs from its marker')
-    logical = dict(base)
-    logical.pop(MARKER)
-    return _merge(logical, json.loads(raw))
+    return load_public_parts((data / BASE).read_bytes(), lambda name: (data / name).read_bytes())
 
 
 def shards(view):

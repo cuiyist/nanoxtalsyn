@@ -1,5 +1,28 @@
 # Local-corpus intake: 136 papers verified live — 15 November 2026
 
+## Reader packaging repair and continued extraction — 16 November, 01:18 UTC
+
+The 41-paper/67-record/275-figure release is in PR171, not live. Its Windows
+and Linux builds failed because the generated Reader data exceeded the existing
+two-file capacity. The fix adds bounded, checksum-verified data parts without
+raising the80MiB cap or removing records/figures. In-memory native projection
+checks preserve all6663 Reader entries,1464 materials and7221 canonical records.
+Local packaging, compaction, shard, cache and browser regression checks pass;
+a fresh full CI run and the usual publication verification remain required.
+
+The next ready pool contains six papers, fifteen records and43 figures. This
+includes five papers from the completed16-input batch (15 two-pass successes;
+one exhausted redo) and one recovered figure-layout hold. All43 captions are
+reviewed. A new22-input batch is active, with seven two-pass successes observed
+at01:17Z. Another489 inputs are prepared but not launched. The broader20687-row
+unattempted/unresolved census overlaps this queue and is not an eligible-paper
+count. The conditional16–24hour prepared-queue and3–6week all-corpus planning
+ranges remain estimates, with CI and verification recovery adding uncertainty.
+
+Verified intake remains136 papers/203 records/742 figures through Release04.
+Release05's53 papers are deployed but not fully verified. No new completed-release
+credit, independent scientific audit or training promotion is asserted here.
+
 ## Release06 prepared locally; Release05 verification recovery — 16 November, 00:42 UTC
 
 Verified intake remains **136 papers, 203 records and 742 figures** through

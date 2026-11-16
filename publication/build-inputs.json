@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261116-41-papers",
-  "updated_at": "2026-11-16T00:43:32.639587+00:00",
+  "release_id": "tanjin-r06-public-reader-multipart-20261116",
+  "updated_at": "2026-11-16T01:26:58.358536+00:00",
   "record_count": 7221,
   "input_files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": ".github/workflows/validate-project.yml",
-      "sha256": "7acf6c6a36c01f5f1c485070d459ee474985273c241d5adb7af2826ec255cb9f",
-      "bytes": 15845
+      "sha256": "6aba919c400b482f411351aa4db1a68bed4a71d94024cb48341e77c43f4ab154",
+      "bytes": 16005
     },
     {
       "path": ".gitignore",
@@ -26,8 +26,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "3a2f0bd064379d9cad48c5c2292c2586056481fabf3c816bd9ae86407dcf0155",
-      "bytes": 1180839
+      "sha256": "add3c1877dfc48abccce5e06b7071af38940f618d693035e567284fc5c998167",
+      "bytes": 1182902
     },
     {
       "path": "PUBLICATION.md",
@@ -37941,7 +37941,7 @@
     },
     {
       "path": "recipe-atlas/scripts/build_dataset.py",
-      "sha256": "0c002c99fc18ba823c8490182b54ebcef5423ffdc9e4e8b994458ddfda9c35fd",
+      "sha256": "c97c5cd558315701515751ce5eaeb6f6a7fc6eb6145812a6dddeb912a1cba872",
       "bytes": 30410
     },
     {
@@ -37971,13 +37971,13 @@
     },
     {
       "path": "recipe-atlas/scripts/build_reader_shards.py",
-      "sha256": "c434951dbb155981af335df81defe6e8dbf8bd4ca1bf06edb232b8dc20699dca",
-      "bytes": 7262
+      "sha256": "8ea71e81782c0fbad333cf06a71cfc655c9c5602f9fd8c582e703ce71ffd5e17",
+      "bytes": 6889
     },
     {
       "path": "recipe-atlas/scripts/build_reader_views.py",
-      "sha256": "1450b1510616077102f3e7e51c3c8d930fbc53e4a8b0724b3e8933cd9c5080ff",
-      "bytes": 7573
+      "sha256": "e3c9bfa4b97c9fc102344246d55e9f47721adf4107e4ad8eceabd06779ac6c7d",
+      "bytes": 7599
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
@@ -38121,8 +38121,8 @@
     },
     {
       "path": "recipe-atlas/scripts/public_reader_registry.py",
-      "sha256": "22a234f4dbb02b11a08324122798328ff367666b99b3b9f37b23cd805121759a",
-      "bytes": 1694
+      "sha256": "465e3e5ea9dec4eccd546276c6f4efcd72aa2e2ff080a397de64f7c128667b64",
+      "bytes": 5664
     },
     {
       "path": "recipe-atlas/scripts/reader_background.py",
@@ -288716,7 +288716,7 @@
     },
     {
       "path": "recipe-atlas/static/illustrated-record.mjs",
-      "sha256": "6712818e7dfbf820fc633b62894d6da1099d0bee6e847ec2d03ed5a0be015ec4",
+      "sha256": "2fddaca670f849fd2b18381e2e34b0f7dbbfa3f939c66602e737d087527a0591",
       "bytes": 1147
     },
     {
@@ -288781,13 +288781,13 @@
     },
     {
       "path": "recipe-atlas/static/material-guide.mjs",
-      "sha256": "c6837716b42b45a9a2499a57ce799772f4c6bd39f007d72cb006154b2f3631ba",
+      "sha256": "732240630ae3dd6e5a32729f475528d894b3d951140601ce94ae7c44438de967",
       "bytes": 13635
     },
     {
       "path": "recipe-atlas/static/material-hub.mjs",
-      "sha256": "743b1cd6548b586b6cbad3970486e5d35a89323f2e4a2c5e3b344569e9d7c8cb",
-      "bytes": 8929
+      "sha256": "3de4837db1af1c5516353eaece111299e379aaec818d9d9aa99d5d5b9456ab79",
+      "bytes": 8930
     },
     {
       "path": "recipe-atlas/static/matuhina2023-protocol.mjs",
@@ -288966,7 +288966,7 @@
     },
     {
       "path": "recipe-atlas/static/reader-app.mjs",
-      "sha256": "56d469824c6f89231c6c9917d5998f717f87287585f8e1d636c93b3c0f1ab2f6",
+      "sha256": "67ab4c9839d7c600f7e7e3dff4ca11d3b0f46bf05a9f9b82141b5b7ad75d5421",
       "bytes": 37901
     },
     {
@@ -288986,8 +288986,8 @@
     },
     {
       "path": "recipe-atlas/static/reader-presentation-loader.mjs",
-      "sha256": "5a7e78bcac117eaabe83135428d9bb2b48b19b1f3b9da3cd944c36072952e11f",
-      "bytes": 2397
+      "sha256": "93c9d4284411e44602d256c037507bfc523afbbed451d4b96c3f60504d48d33f",
+      "bytes": 3167
     },
     {
       "path": "recipe-atlas/static/reader-scoped-product-art.mjs",
@@ -289186,7 +289186,7 @@
     },
     {
       "path": "recipe-atlas/templates/material-reader.html",
-      "sha256": "80ead5a94df0122a8b01e9730f86902ccdffe387cc1307aa3b01a559069cb4fb",
+      "sha256": "e988cf586c6ec3e98cc85594e1a84ba57ca293f74d918eb18374b98e58a623a5",
       "bytes": 1365
     },
     {
@@ -289271,8 +289271,8 @@
     },
     {
       "path": "recipe-atlas/tests/public-reader-loader.test.mjs",
-      "sha256": "a2b9fa4fd448b1fd73aeb495cabf030ca8d7173c15c556ebd4e63113e017abad",
-      "bytes": 5381
+      "sha256": "6f77f10f3dea63b9ccc97888f8aa94590b7773d4f19c47ca00f35a1ca7d541c2",
+      "bytes": 7766
     },
     {
       "path": "recipe-atlas/tests/published-material-labels.test.mjs",
@@ -289426,8 +289426,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_chemical_reference_cache.py",
-      "sha256": "ac14cc2d4fa285272d39beb8c50f7a769a0010433530af45f597a084524d6da3",
-      "bytes": 4927
+      "sha256": "0fa325f8ef0f6a8195426f3c573ce063a7cd75697f99893f23d42807f8dbe27d",
+      "bytes": 5041
     },
     {
       "path": "recipe-atlas/tests/test_chemical_reference_formula_equivalence.py",
@@ -289586,13 +289586,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_public_reader_cache_rollout.py",
-      "sha256": "417ea2c6423793d58fb4b0ea7b132214ea9e77e82bda7ec7f806d263ef886826",
-      "bytes": 9211
+      "sha256": "10461d238360bdf79b91d5c91de950a5eda67d0fc36b8d02905c97ffc22af985",
+      "bytes": 9366
     },
     {
       "path": "recipe-atlas/tests/test_public_reader_parts.py",
-      "sha256": "3c6060bc7f3586d06b2489c84fb1cbb2f324b7e56e80017ef3c29900bc249998",
-      "bytes": 5635
+      "sha256": "70478d8a504bec156cbe478e492fc56ceb212dc584dc438cc1bc7bdca4b8dec1",
+      "bytes": 10201
     },
     {
       "path": "recipe-atlas/tests/test_qualitative_measurements.py",
@@ -289636,8 +289636,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_reader_cache_versions.py",
-      "sha256": "87069a3cc004354b54ae84c611a2515c320e687eab824f3e37245be84e504245",
-      "bytes": 10403
+      "sha256": "4e233278707c952aa86406e494459153ee5cd19edd46df98b8310a7e142af965",
+      "bytes": 10560
     },
     {
       "path": "recipe-atlas/tests/test_reader_collection.py",
@@ -289736,7 +289736,7 @@
     },
     {
       "path": "recipe-atlas/tests/test_visible_branding.py",
-      "sha256": "516edea30bfd991661424a56fe3a4eff7056959ccfa19a1a809ee673f9e128b2",
+      "sha256": "c14683af9befb841ba4f07fcb163edb0dbb822e08a5bd024acd57ef839582c76",
       "bytes": 5954
     },
     {
@@ -289841,8 +289841,8 @@
     },
     {
       "path": "research-assets/curation-control.json",
-      "sha256": "7b47d7ca4c1c45b8418656e9728515c38706600fd46718927c940adfb750ce09",
-      "bytes": 2579368
+      "sha256": "9a985d39587052fd7561714ff0af944a837608a480be9f94bff46fea7a4a5bc7",
+      "bytes": 2580759
     },
     {
       "path": "research-assets/deep-review-20260917/import_reviews.py",
@@ -299626,8 +299626,8 @@
     },
     {
       "path": "research-assets/public-audits/SIMPLE_PIPELINE_REPORT.md",
-      "sha256": "901c59082e6c833d71272a7cc45b2c375480dd8b51bea322750ecaf132de45c2",
-      "bytes": 818985
+      "sha256": "772c7a1b5ee8778c29fb0787266dbd63c8b7b65677298fd4508f166a652c78a5",
+      "bytes": 820485
     },
     {
       "path": "research-assets/public-audits/WEBSITE_WORK_CHECKPOINT_2026-10-09.md",
