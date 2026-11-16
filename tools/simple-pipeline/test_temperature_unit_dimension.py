@@ -61,6 +61,27 @@ class TemperatureUnitDimensionTest(unittest.TestCase):
                 self.assertIn('temperature: 100 ' + displayed, caption)
                 ET.fromstring(svg)
 
+    def test_ph_is_not_temperature_and_reported_narrative_is_unchanged(self):
+        for unit in ('pH', 'pH units', ' pH '):
+            with self.subTest(unit=unit):
+                pair = self.pair(unit)
+                pair['recipe']['steps'][0].update(action='hydrolyze', temperature=3,
+                    description='Hydrolyze the precursor at pH 3')
+                pair['recipe']['reaction_temperature']['value'] = 3
+                original = copy.deepcopy(pair)
+                record = self.record(pair); operation = record['operations'][0]
+                self.assertNotIn('temperature', operation['parameters'])
+                self.assertNotIn('pH', operation['parameters'])
+                self.assertEqual(operation['description'], 'Hydrolyze the precursor at pH 3')
+                self.assertEqual(operation['parameters']['duration']['value'], 5)
+                self.assertNotIn('Reaction temperature:', '\n'.join(record['products'][0]['notes']))
+                self.assertEqual(converter.unit_name('pH'), 'pH')
+                svg, caption = converter.step_svg(operation, None)
+                self.assertNotIn('temperature:', svg)
+                self.assertNotIn('temperature:', caption)
+                self.assertEqual(record['quality']['review_status'], 'source_extracted')
+                self.assertEqual(pair, original)
+
     def test_existing_missing_unit_temperature_behavior_is_preserved(self):
         pair = self.pair(); del pair['recipe']['steps'][0]['temperature_unit']
         record = self.record(pair)

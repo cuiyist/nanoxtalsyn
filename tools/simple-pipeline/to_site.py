@@ -71,9 +71,9 @@ def unit_name(unit):
 
 
 def temperature_unit_compatible(unit):
-    """Reject explicit power, energy, pressure or rotation units without relabelling them."""
+    """Reject explicit non-temperature units without relabelling their values."""
     written = unicodedata.normalize('NFKC', str(unit or '')).strip().casefold()
-    return re.search(r'(?<![a-z])(?:[pnumkmgµμ]?w(?:atts?)?|(?:pico|nano|micro|milli|kilo|mega|giga)watts?|power|[pnumkmgµμ]?ev|mtorr|rpm)(?![a-z])', written) is None
+    return re.search(r'(?<![a-z])(?:[pnumkmgµμ]?w(?:atts?)?|(?:pico|nano|micro|milli|kilo|mega|giga)watts?|power|[pnumkmgµμ]?ev|mtorr|rpm|ph)(?![a-z])', written) is None
 
 
 def temperature_unit_name(unit, value):

@@ -1,4 +1,62 @@
-# Local-corpus intake: 136 papers verified live — 15 November 2026
+# Local-corpus intake: 230 papers verified live — 16 November 2026
+
+## Release06 verified, Release05 recovery closed; next extraction active — 05:56 UTC
+
+The verified intake total is **230 source papers, 356 records and 1,259 captioned
+figure crops**. These are intake additions, not global website totals. All remain
+`source_extracted`: accuracy is unmeasured, independent auditing stays paused,
+and training credit is zero. The all-folders task is unfinished.
+
+[Publisher43797943613](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43797943613)
+completed successfully at05:31:47Z, with Source
+`a8f2e36f867c4e4df86c58912a90a1eddca1cd85`, Site
+`68f597383abad66682f0f307ec1a9c78df6414ed` and successful
+[Pages43802713007](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43802713007).
+Normal build, boundary, staged/live browser and anonymous gates passed. Targeted
+verification covered10,562files, including10,532changed paths,41paper routes and
+64material routes. The complete published-text scan verified70,508/70,508files
+with zero failures. Release06 adds41new papers/67records/275crops; all67records
+and605referenced assets were separately byte-checked against the deployment.
+
+A separate closure recovered the previous53papers/86records/242crops at that
+same verified Site. All2,127prior required paths,86records and652referenced
+assets passed fresh verification; original canonical and Reader objects were
+preserved. Original publisher43770079194 remains a recorded failure. The53
+recovered contributions and41new contributions are disjoint and counted once.
+The exact DOI list now includes both completed closures, not pending candidates.
+
+The next release pool contains47prepared papers/82records/288captioned figures.
+Batch46 completed38/38two-pass extractions, two successful permitted redos,
+zero exhausted failures, CHECK exit0 and223native crops with no figure failures.
+Its11selected papers/14records/63crops have completed caption checking;27inputs
+remain omitted or held. Nineteen whole-object rare-material deletions introduced
+no replacement scientific values. The63caption comparisons produced38wording
+changes, no locator changes and no further model requests. A missing metadata
+provenance flag stopped the first preparation before writes; the existing actual
+header observations were correctly flagged and unchanged preparation passed.
+
+Batch47 is active on37deduplicated inputs. Another904prepared inputs in batches
+48–75 remain unlaunched. They overlap the dated20,687-row unresolved census;
+neither number is a confirmed count of remaining eligible papers. End-to-end
+completion time remains uncertain while identity, scope and technical holds
+are resolved. Extraction and private preparation are not website publication.
+
+The47-paper source draft preserves all7,221previous canonical records. The
+pending change includes a narrowly tested pH-unit temperature filter that keeps
+source wording and does not create a replacement pH parameter, plus a separate
+quote-free export filename for the later disjoint batch38contribution. Existing
+exports remain untouched. Full GitHub CI, normal publication and fresh visual/
+anonymous verification are still required. No Source07 candidate is counted live.
+Storage at05:57UTC was370,754,912,256free bytes;0bytes were removed.
+
+Earlier dated checkpoints and failures follow unchanged.
+
+Source07 preflight at06:00UTC reconciled7,707native inventory files and1,479
+material hubs. All82new Reader records and288captioned crops are integrated;
+614new assets are registered and seven quote-free exports contain only selected
+original ordinals. The57,956chemical-reference checks passed with no errors or
+warnings. All7,221previous canonical records and6,663previous Reader entries
+remain preserved. This is source preparation, not a full build or live credit.
 
 ## Fixed benchmark expectations and continued extraction — 16 November, 02:04 UTC
 
