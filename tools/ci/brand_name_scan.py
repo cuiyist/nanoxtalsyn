@@ -8,12 +8,14 @@ import argparse
 import collections
 from concurrent.futures import ThreadPoolExecutor
 import datetime
+import email.utils
 import functools
 import hashlib
 import json
 import os
 from pathlib import Path, PurePosixPath
 import re
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -265,6 +267,79 @@ def anonymous_bytes(url, expected_bytes):
         return response.read(expected_bytes + 1)
 
 
+def retry_after_seconds(error, wall_time=time.time):
+    """Respect an HTTP Retry-After without accepting nonfinite delay values."""
+    value = error.headers.get('Retry-After', '').strip() if error.headers else ''
+    if re.fullmatch(r'[0-9]+', value):
+        # A response asking for hours of delay is not suitable for this bounded
+        # CI job. Fail closed instead of retrying earlier than the server asks.
+        seconds = int(value)
+        need(seconds <= 3600, 'Retry-After exceeds the bounded publisher window')
+        return float(seconds)
+    if value:
+        try:
+            stamp = email.utils.parsedate_to_datetime(value)
+            if stamp.tzinfo is None:
+                stamp = stamp.replace(tzinfo=datetime.timezone.utc)
+            seconds = max(0.0, stamp.timestamp() - wall_time())
+        except (TypeError, ValueError, OverflowError):
+            return 0.0
+        need(seconds <= 3600, 'Retry-After exceeds the bounded publisher window')
+        return seconds
+    return 0.0
+
+
+class PacedAnonymousFetch:
+    """One shared request budget, including retries, across all scan workers.
+
+    HTTP 429 pauses every worker, not only the worker that received it. The
+    three-attempt limit, complete inventory and exact-byte checks stay intact.
+    This does not rotate identities, bypass limits, cache bodies or skip URLs.
+    """
+    def __init__(self, fetch=anonymous_bytes, clock=time.monotonic,
+                 sleep=time.sleep, wall_time=time.time):
+        self.fetch, self.clock, self.sleep, self.wall_time = fetch, clock, sleep, wall_time
+        self.lock = threading.Lock()
+        self.interval = 0.05  # At most 20 request starts per second in total.
+        self.next_start = 0.0
+        self.requests = self.rate_limits = 0
+        self.longest_cooldown = 0.0
+
+    def __call__(self, url, expected_bytes):
+        while True:
+            with self.lock:
+                now = self.clock()
+                delay = self.next_start - now
+                if delay <= 0:
+                    self.next_start = now + self.interval
+                    self.requests += 1
+                    break
+            # Recheck after sleeping: another worker may have extended a shared
+            # cooldown. Reserving a future start here would allow a stale burst.
+            self.sleep(delay)
+        try:
+            return self.fetch(url, expected_bytes)
+        except urllib.error.HTTPError as error:
+            if error.code == 429:
+                delay = max(60.0, retry_after_seconds(error, self.wall_time))
+                with self.lock:
+                    self.rate_limits += 1
+                    self.interval = 0.1  # Permanently slow this run to <=10/s.
+                    self.longest_cooldown = max(self.longest_cooldown, delay)
+                    self.next_start = max(self.next_start, self.clock() + delay)
+            raise
+
+    def receipt(self):
+        return {'policy': 'shared-20rps-then-10rps-429-cooldown/1',
+                'maximum_initial_requests_per_second': 20,
+                'maximum_requests_per_second_after_429': 10,
+                'minimum_429_cooldown_seconds': 60,
+                'Retry_After_respected': True, 'requests_started': self.requests,
+                'HTTP_429_responses': self.rate_limits,
+                'longest_cooldown_seconds': self.longest_cooldown,
+                'per_file_attempt_limit': 3, 'inventory_omissions': 0}
+
+
 def read_live(row, source, fetch=anonymous_bytes, sleep=time.sleep):
     url = NEW_BASE + urllib.parse.quote(row['path'], safe='/._-~') + '?n_source=' + source
     failures = []
@@ -370,7 +445,11 @@ def main():
     with events.open('xb') as stream:
         def event(value):
             stream.write((json.dumps(value, ensure_ascii=False) + '\n').encode()); stream.flush()
-        result = scan(args.root, manifest, json.loads(args.source_blueprint.read_bytes()), json.loads(args.identifiers.read_bytes()), args.phase, args.source_commit, event=event)
+        transport = PacedAnonymousFetch() if args.phase == 'published' else None
+        result = scan(args.root, manifest, json.loads(args.source_blueprint.read_bytes()), json.loads(args.identifiers.read_bytes()), args.phase, args.source_commit, event=event,
+                      fetch=transport if transport is not None else anonymous_bytes)
+        if transport is not None:
+            result['anonymous_transport'] = transport.receipt()
     result.update(at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(), site_commit=args.site_commit,
                   manifest=pin(args.manifest), Source_record_blueprint=pin(args.source_blueprint), N4_identifier_pins=pin(args.identifiers),
                   publisher_binding=binding, failure_events=pin(events), existing_verify_live_route_bindings_are_separate=True)

@@ -38,7 +38,7 @@ jobs:
       - name: Test publication and preservation helpers
         run: |
           python -m unittest discover -s tools/publication -p 'test_*.py' -v
-          python -B -m unittest discover -s tools/publication/tests -p 'test_brand_name_scan.py' -v
+          python -B -m unittest discover -s tools/publication/tests -p 'test_brand*.py' -v
           node --test tools/ci/old-address-redirect.test.mjs
       - name: Test local package staging without private evidence
         run: python -m unittest discover -s tools/package-importer/tests -v

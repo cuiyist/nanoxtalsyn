@@ -1,3 +1,40 @@
+## Release06 additive integration; Release05 verification recovery — 16 November 2026, 00:42Z
+
+The all-folders task remains UNFINISHED. Verified intake remains
+136 papers / 203 records / 742 figures through Release04; no later live credit.
+Release05 added 53 papers / 86 records / 242 figures through PR170, Source
+95df7dcb18150ee633e081d05c3d50babfe81c25. Pages43773542138 deployed Site
+aaf44c2614dfa27d1386123be4ee1cfbd8be5af8 successfully, and targeted anonymous
+checks passed 2162 files. Publisher43770079194 nevertheless FAILED: the full
+69778-file text scan verified 67373, with 2405 final HTTP429 responses and no
+brand violations. Its final live-browser benchmark was skipped. This is a
+deployed but incompletely verified release, not a completed release or rarity base.
+
+Release06 integrates batch36/ready02,37/ready03,38/ready02,39/ready01:
+41 new papers, 67 source_extracted records and 275 captioned figures, with four
+quote-free exports and 569 new registered assets. All previous canonical bytes
+and Reader objects are preserved. Native binding checks passed57781 with zero
+errors/warnings; 7675 inventory files and1464 material lists reconcile exactly.
+The rights registry now uses lossless compact JSON (73915570bytes), retaining
+existing permission facts and all previous entries. No figure rights are invented.
+47 recovered original-raster crops were actually viewed and source-bounds checked.
+Komlev, Refai and Fu remain zero-figure technical holds, not scientific exclusions.
+
+The release also carries the exact2127-path Release05 reverification scope and
+a shared request-rate/cooldown repair. Full scan coverage, exact byte checks and
+the existing retry limit are unchanged. Simple-pipeline regression326tests and
+brand scanner26tests passed. Numeric CdSe wavelength-label navigation is repaired
+without filling missing measured compositions. No independent audit or training
+promotion is claimed. Normal Source preparation, PR/CI, browser, Pages and full
+anonymous verification remain required; this entry is not a publication receipt.
+
+Batch40 is active with16 inputs,7 successful two-pass results observed00:39:57Z;
+final CHECK remains pending.511 prepared inputs are unlaunched. The dated20687-row
+unattempted/metadata-unresolved census is not a confirmed eligible-paper count.
+Prepared-queue16–24continuoushours and whole-corpus3–6weeks are tentative planning
+ranges, not guarantees; verification recovery adds uncertainty. Paused audits,
+PARADIM workloads, refused cleanup and exhausted retry histories remain untouched.
+
 ## Release04 verified; next additive cohort in progress — 15 November 2026, 19:50Z
 
 The all-folders task remains UNFINISHED. Verified intake totals are now

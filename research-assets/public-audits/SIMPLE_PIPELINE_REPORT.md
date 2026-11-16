@@ -1,5 +1,46 @@
 # Local-corpus intake: 136 papers verified live — 15 November 2026
 
+## Release06 prepared locally; Release05 verification recovery — 16 November, 00:42 UTC
+
+Verified intake remains **136 papers, 203 records and 742 figures** through
+Release04. The all-folders task is unfinished. The next 41-paper cohort is
+integrated locally, with 67 synthesis records and 275 captioned figures; it has
+not yet passed publication. Four quote-free exports and 569 new asset
+registrations are complete. Native checks passed 57,781 chemical bindings with
+zero errors or warnings, plus exact reconciliation of 7,675 inventory files and
+1,464 material lists. Previous canonical records and Reader objects are preserved.
+
+The previous 53-paper release did deploy after
+[PR170](https://github.com/cuiyist/nanoxtalsyn/pull/170), at Site
+`aaf44c2614dfa27d1386123be4ee1cfbd8be5af8`, and targeted anonymous verification
+passed 2,162 files. However,
+[publisher43770079194](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43770079194)
+failed its full-site scan: 67,373 of 69,778 files verified, with 2,405 final HTTP429
+rate-limit responses. No brand violations were found; the final live-browser
+benchmark was skipped. These 53 papers are therefore deployed but not counted
+as a completed, anonymously verified release. The failed receipts are retained.
+
+The next release includes all 2,127 affected paths in explicit reverification
+and a shared request-rate/cooldown repair. It does not reduce scan coverage,
+byte verification or retry rules. The rights registry is now losslessly compact
+JSON below the ordinary Git blob limit, with prior permission facts preserved.
+Numeric CdSe wavelength-label navigation is repaired without inventing a missing
+measured composition. All 326 simple-pipeline tests and 26 brand-scanner tests
+passed. These are engineering checks, not independent scientific audits.
+
+All 47 recovered original-raster crops were viewed and their source bounds
+checked. Caption paraphrases, figure locators and saved failures remain bound to
+the admitted selection. Three zero-figure cases remain technical holds, not OUT.
+The active 16-input batch has seven successful two-pass results observed at
+00:39:57Z; final CHECK is pending. Another 511 candidates are prepared but not
+launched, within a broader dated census of 20,687 unattempted or metadata-unresolved
+rows. These are not all eligible papers. The prepared-queue estimate remains
+16–24 continuous hours; 3–6 weeks for the broader corpus is a tentative planning
+range, conditional on scope screening and publication reliability. No scientific
+replacement, training promotion or paused-audit restart is authorized by this work.
+
+## Historical checkpoint retained below
+
 ## Release04 verified; next release remains local — 21:28 UTC checkpoint
 
 Four closed releases have added **136 papers, 203 source-extracted records and
