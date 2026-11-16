@@ -1,3 +1,29 @@
+## Release07 truncated-transfer recovery pending — 16 November 2026
+
+Source82750afd deployed Sitef111d859 through publisher43835712734; Pages
+43842355666 succeeded. The publisher nevertheless FAILED after the anonymous
+new-route check passed2347files/47paper routes/66material routes: the complete
+71291-file text scan received only32768of194017bytes for the existing
+friedfeld-2019-additive-results record. The failed hash equals its exact prefix;
+two bounded fresh probes of pinned Site Git and the same Pages URL returned
+the complete approved bytes. This diagnosis is not release verification.
+
+The transport repair recognizes early EOF only when Content-Length advertises
+the expected full size, and native IncompleteRead responses. These use the
+existing three-attempt shared paced retry budget; complete wrong bytes still
+fail immediately.32offline brand/transport tests and8private recovery tests
+pass. No records, scientific values, rights facts, exclusions or gates changed.
+
+The next normal release must carry2312mandatory prior paths (2311previous
+changed paths plus the truncated existing record), redo the entire text scan,
+and complete live benchmark/new-page verification. The failed07run remains
+failed; its47papers/82records/288crops receive no verified credit yet. Private
+recovery evidence is bound separately from verified06. Verified intake remains
+230papers/356records/1259crops; full independent audit is still paused and
+machine extraction remains source_extracted, accuracy unmeasured, training0.
+Do not retire the new recovery scope until a successful normal closure proves
+all obligations fulfilled. Preserve the earlier fulfilled05scope history.
+
 ## Release07 fulfilled recovery-scope retirement — 16 November 2026
 
 Publisher43821101833 failed during staging for Sourcef8286355 because the
