@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261116-40-papers",
-  "updated_at": "2026-11-16T20:18:27.836967+00:00",
+  "release_id": "tanjin-20261116-release09-scope-repair",
+  "updated_at": "2026-11-16T23:22:54.881275+00:00",
   "record_count": 7434,
   "input_files": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "path": "publication/live-reverification-scope.json",
-      "sha256": "c39b062d20d65125df01f11b2968e8ecadd13a3151357c73ce746025cbbd3d3e",
+      "sha256": "302d4b5423c1509d155012816ee9df83f91dbce918e3b6324c261b2c5a5a8d5c",
       "bytes": 175682
     },
     {

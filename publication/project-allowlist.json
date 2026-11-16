@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-next-20261116-40-papers",
+  "release_id": "tanjin-20261116-release09-scope-repair",
   "repo": "mattersyn",
-  "source_commit": "21ce0ba1b05bac357ab0444ad42dc3fe00957035",
+  "source_commit": "bb506cf62c3b7346e484438d494c0111543e2c83",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "b8c9aeea15f72ca2d9ed2d6fe1c08f5d969c2ad2576c038971599d6948030ba8",
+    "sha256": "1c886a1f018f542a64c6241e419c82e56562e58e0d83af69493d4daeca912625",
     "file_count": 62327,
     "excludes": [
       "publication/project-allowlist.json"
@@ -138,26 +138,26 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "2f56e4091fb1e9da16360a0eca46f3d209c26661eacaad25bb1937385a33564b",
-      "bytes": 14063940,
+      "sha256": "6e481c17a619588c4496adee5bc57bf8b6310830ddc1b97ef78a55ec4f34c0ee",
+      "bytes": 14063948,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T20:18:27.836967+00:00",
+      "reviewed_at": "2026-11-16T23:22:54.881275+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/live-reverification-scope.json",
-      "sha256": "c39b062d20d65125df01f11b2968e8ecadd13a3151357c73ce746025cbbd3d3e",
+      "sha256": "302d4b5423c1509d155012816ee9df83f91dbce918e3b6324c261b2c5a5a8d5c",
       "bytes": 175682,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "reviewer": "Codex-exact-scope-base-engineering-review",
+      "reviewed_at": "2026-11-16T23:22:11+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -125293,7 +125293,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T20:18:27.836967+00:00",
+      "reviewed_at": "2026-11-16T23:22:54.881275+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
