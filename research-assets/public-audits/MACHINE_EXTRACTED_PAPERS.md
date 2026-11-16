@@ -1,3 +1,115 @@
+## Local-corpus release 06 verified live — 16 November 2026
+
+41 new source papers / 67 original-ordinal source-extracted records / 275 captioned figure crops.
+
+Source `a8f2e36f867c4e4df86c58912a90a1eddca1cd85`; Site `68f597383abad66682f0f307ec1a9c78df6414ed`. [Publisher 43797943613](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43797943613) completed successfully at 2026-11-16T05:31:47Z; [Pages 43802713007](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43802713007) succeeded. Full published-text verification covered 70,508/70,508 files with zero failures. Normal build, boundary, staged/live browser and targeted anonymous byte checks passed. All 67 records and 605 referenced assets were byte-verified. No independent scientific audit or training credit. This list does not count pending Release07 candidates.
+
+| DOI | Source ID | Record IDs | Batch | Status | Expert / training credit |
+|---|---|---|---|---|---|
+| 10.1134/s1070363223080236 | aslan2023-s1070363223080236 | aslan2023-s1070363223080236-carbon-quantum-dots-cqds-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s107042721606001x | almjasheva2016-s107042721606001x | almjasheva2016-s107042721606001x-cofe2o4-nanocrystalline-powders-microwav-1; almjasheva2016-s107042721606001x-cofe2o4-nanocrystalline-powders-external-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s1070427216080036 | zaboeva2016-s1070427216080036 | zaboeva2016-s1070427216080036-cefeo3-nanocrystalline-powder-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s1087659611020118 | panova2011-s1087659611020118 | panova2011-s1087659611020118-hfo2-nanocrystalline-powder-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s1087659614010131 | kovalenko2014-s1087659614010131 | kovalenko2014-s1087659614010131-nico2o4-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s1995078012060158 | zaikovskii2012-s1995078012060158 | zaikovskii2012-s1995078012060158-nanocrystalline-carbon-material-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1134/s1995078013040174 | sivkov2013-s1995078013040174 | sivkov2013-s1995078013040174-ultradispersed-product-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2012/519458 | choi2012-519458 | choi2012-519458-dtfil-capped-cdte-qds-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2014/349457 | singh2014-349457 | singh2014-349457-zro2-nps-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2014/760712 | deng2014-760712 | deng2014-760712-si-nanocrystal-grains-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2015/105685 | deng2015-105685 | deng2015-105685-si-nanocrystal-grains-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2015/376202 | lai2015-376202 | lai2015-376202-kznf3-er3-yb3-nanocrystal-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2017/3896107 | mansur2017-3896107 | mansur2017-3896107-agins2-qd1-1; mansur2017-3896107-agins2-zns-qd4-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/2022/2426749 | rahmatpanah2022-2426749 | rahmatpanah2022-2426749-n-doped-graphene-quantum-dot-ngqd-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1155/jnm/2006/49283 | kaus2006-49283 | kaus2006-49283-ysz-powder-with-8-mol-y2o3-and-g-n-ratio-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1186/s11671-017-1996-x | luan2017-s11671-017-1996-x | luan2017-s11671-017-1996-x-znga2o4-cr3-monospheres-0-2zgc-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.1557/jmr.2011.207 | vasiliev2011-jmr-2011-207 | vasiliev2011-jmr-2011-207-cdte-cdse-tetrapod-shaped-nanocrystal-he-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-1424634/v1 | long2022-v1 | long2022-v1-znse-nanocrystals-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-187066/v1 | chelladurai2021-v1 | chelladurai2021-v1-zf1-1; chelladurai2021-v1-zf2-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-271636/v1 | selima2021-v1 | selima2021-v1-cofep-2; selima2021-v1-cofeg-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-3278430/v1 | zeraatkar2023-v1 | zeraatkar2023-v1-modified-magnetite-quantum-dots-mmqds-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-40087/v1 | govindan2020-v1 | govindan2020-v1-ce-1-y1-999ce0-001o3-1; govindan2020-v1-ce-2-y1-995ce0-005o3-2; govindan2020-v1-ce-3-y1-99ce0-01o3-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.21203/rs.3.rs-7789439/v1 | hashhash2025-v1 | hashhash2025-v1-cdcr0-5fe1-5o4-ca-1; hashhash2025-v1-cdcr0-5fe1-5o4-ga-2; hashhash2025-v1-cdcr0-5fe1-5o4-gu-3; hashhash2025-v1-cdcr0-5fe1-5o4-gd-4 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.2478/s13536-013-0113-9 | abolghasemi2013-s13536-013-0113-9 | abolghasemi2013-s13536-013-0113-9-8ysz-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.26434/chemrxiv-2023-8t44t | manna2023-chemrxiv-2023-8t44t | manna2023-chemrxiv-2023-8t44t-tbia-cspbbr3-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.26434/chemrxiv-2023-jzwm3 | ripberger2023-chemrxiv-2023-jzwm3 | ripberger2023-chemrxiv-2023-jzwm3-cdse420-nm-1; ripberger2023-chemrxiv-2023-jzwm3-cdse380-nm-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.26434/chemrxiv-2024-n5r4n | zander2024-chemrxiv-2024-n5r4n | zander2024-chemrxiv-2024-n5r4n-nicofe-3s4-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.26434/chemrxiv.7866164.v1 | bruce2019-chemrxiv-7866164-v1 | bruce2019-chemrxiv-7866164-v1-graphene-quantum-dots-gqds-1; bruce2019-chemrxiv-7866164-v1-formate-functionalized-graphene-quantum-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3103/s1061386211020087 | jamadar2011-s1061386211020087 | jamadar2011-s1061386211020087-ni0-6zn0-0cu0-4fe2o4-1; jamadar2011-s1061386211020087-ni0-5zn0-1cu0-4fe2o4-2; jamadar2011-s1061386211020087-ni0-4zn0-2cu0-4fe2o4-3; jamadar2011-s1061386211020087-ni0-3zn0-3cu0-4fe2o4-4; jamadar2011-s1061386211020087-ni0-2zn0-4cu0-4fe2o4-5 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3103/s1061386220010070 | minin2020-s1061386220010070 | minin2020-s1061386220010070-sample-1-1; minin2020-s1061386220010070-sample-2-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3389/fnano.2022.1096267 | kim2023-fnano-2022-1096267 | kim2023-fnano-2022-1096267-cdse-qds-with-nme4-4-cd10se4-sph-16-clus-1; kim2023-fnano-2022-1096267-cdse-qds-with-nme4-4-zn10se4-sph-16-clus-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/app9214661 | kang2019-app9214661 | kang2019-app9214661-aggregation-free-cysteamine-capped-pbs-q-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/catal13010152 | alharthi2023-catal13010152 | alharthi2023-catal13010152-niwo4-1; alharthi2023-catal13010152-cowo4-2; alharthi2023-catal13010152-niwo4-cowo4-nc-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/catal15090820 | khan2025-catal15090820 | khan2025-catal15090820-zno-nanoparticles-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/cryst11121463 | alharthi2021-cryst11121463 | alharthi2021-cryst11121463-la2zr2o7-lz-sg-3; alharthi2021-cryst11121463-la2zr1-5ni0-5o7-lzn-sg-4 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/cryst14030233 | velinov2024-cryst14030233 | velinov2024-cryst14030233-cu0-5ni0-5-0-25fe2-75o4-1; velinov2024-cryst14030233-cu0-5ni0-5-0-5fe2-5o4-2; velinov2024-cryst14030233-cu0-5ni0-5-0-75fe2-25o4-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/cryst15060500 | prichisly2025-cryst15060500 | prichisly2025-cryst15060500-kyf4-eu3-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/ijms241914501 | silina2023-ijms241914501 | silina2023-ijms241914501-ceo-nps-1-1; silina2023-ijms241914501-ceo-nps-2-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/inorganics9120089 | stadnik2021-inorganics9120089 | stadnik2021-inorganics9120089-sral4o7-cr3-1; stadnik2021-inorganics9120089-sral4o7-mn4-2 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/ma12050838 | cook2019-ma12050838 | cook2019-ma12050838-cr-ga2o3-1; cook2019-ma12050838-mn-ga2o3-2; cook2019-ma12050838-fe-ga2o3-3 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+| 10.3390/ma14040853 | cadavid2021-ma14040853 | cadavid2021-ma14040853-sb-doped-pbs-ncs-1 | local-intake-20261116-r06 | Verified live; source_extracted | 0 |
+
+## Local-corpus release 05 recovery verified — 16 November 2026
+
+53 previously deployed source papers / 86 original-ordinal source-extracted records / 242 captioned figure crops recovered through complete verification. The original publisher43770079194 failure remains preserved; this is not a second deployment credit.
+
+Source `a8f2e36f867c4e4df86c58912a90a1eddca1cd85`; Site `68f597383abad66682f0f307ec1a9c78df6414ed`. [Publisher 43797943613](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43797943613) completed successfully at 2026-11-16T05:31:47Z; [Pages 43802713007](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43802713007) succeeded. Full published-text verification covered 70,508/70,508 files with zero failures. Normal build, boundary, staged/live browser and targeted anonymous byte checks passed. All 86 records, 652 referenced assets and 2,127 prior required paths were reverified; original canonical and Reader objects were preserved. No independent scientific audit or training credit. This list does not count pending Release07 candidates.
+
+| DOI | Source ID | Record IDs | Batch | Status | Expert / training credit |
+|---|---|---|---|---|---|
+| 10.1039/d0dt01291b | zhang2020-d0dt01291b | zhang2020-d0dt01291b-n-silicalite-1-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d0ra02907f | ramachandran2020-d0ra02907f | ramachandran2020-d0ra02907f-tio2-nps-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d1na00566a | wang2021-d1na00566a | wang2021-d1na00566a-zno-nanorods-c12-nh2-1; wang2021-d1na00566a-zno-isotropic-nanoparticles-c12-nh-ch3-2; wang2021-d1na00566a-zno-aggregates-c12-n-ch3-2-3 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d1nr05371j | fridman2021-d1nr05371j | fridman2021-d1nr05371j-cdxzn1xs-nps-x-0-91-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d1nr06282d | ho2022-d1nr06282d | ho2022-d1nr06282d-cubic-cu2xse-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d1tc04372b | dessapt2022-d1tc04372b | dessapt2022-d1tc04372b-baco3-vo4-2-oh-2-nanoparticles-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d2cc01028c | mayer2022-d2cc01028c | mayer2022-d2cc01028c-sb-ncs-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d3dt01171b | yang2023-d3dt01171b | yang2023-d3dt01171b-ceo2-ball-core-structure-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d3ra00334e | rahman2023-d3ra00334e | rahman2023-d3ra00334e-cafe2o4-cqds-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d4nr04942j | gaznaghi2025-d4nr04942j | gaznaghi2025-d4nr04942j-cspbi3-pqds-ligand-ratio-0-9-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d4sc01135j | petit2024-d4sc01135j | petit2024-d4sc01135j-cdse-zns-coreshell-qds-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d5nr02550h | zhu2025-d5nr02550h | zhu2025-d5nr02550h-ag-nc-sls-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d5nr03865k | cartlidge2026-d5nr03865k | cartlidge2026-d5nr03865k-inp-qds-prepared-using-incl3-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d5qi01479d | wang2026-d5qi01479d | wang2026-d5qi01479d-cnqds-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d5ra06421j | zhang2025-d5ra06421j | zhang2025-d5ra06421j-flower-like-cuco2s4-f-cuco2s4-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d5tc03823e | song2026-d5tc03823e | song2026-d5tc03823e-pbs-qds-ot-tms-0-3-ml-1; song2026-d5tc03823e-pbs-qds-ot-tms-0-04-3-ml-2; song2026-d5tc03823e-pbs-qds-ot-tms-0-06-3-ml-3; song2026-d5tc03823e-pbs-qds-ot-tms-0-08-3-ml-4; song2026-d5tc03823e-pbs-qds-ot-tms-0-1-3-ml-5 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1039/d6nj01489e | xu2026-d6nj01489e | xu2026-d6nj01489e-chlorinated-tio2-nanocrystals-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1.4929193 | chaudhari2015-1-4929193 | chaudhari2015-1-4929193-cofe2o4-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1.4947681 | habeeba2016-1-4947681 | habeeba2016-1-4947681-annealed-bafe12o19-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1.4980350 | asghar2017-1-4980350 | asghar2017-1-4980350-carbon-quantum-dots-cqds-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1.5113667 | su2019-1-5113667 | su2019-1-5113667-srgd2-wo4-2-moo4-2-yb3-ho3-nanocrystals-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1.5134307 | baksheev2019-1-5134307 | baksheev2019-1-5134307-ce-md-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/1674-0068/31/cjcp1805121 | zhou2018-cjcp1805121 | zhou2018-cjcp1805121-pt-nanocrystals-at-100c-2; zhou2018-cjcp1805121-pd-pt-nanocrystals-at-22c-3; zhou2018-cjcp1805121-pd-pt-nanocrystals-at-100c-4 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/5.0002011 | mohanty2020-5-0002011 | mohanty2020-5-0002011-cds-nanoparticles-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/5.0009023 | bhandare2020-5-0009023 | bhandare2020-5-0009023-co0-5mg0-5-xnixfe2o4-x-0-2-2; bhandare2020-5-0009023-co0-5mg0-5-xnixfe2o4-x-0-3-3; bhandare2020-5-0009023-co0-5mg0-5-xnixfe2o4-x-0-4-4; bhandare2020-5-0009023-co0-5mg0-5-xnixfe2o4-x-0-5-5 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/5.0017071 | patil2020-5-0017071 | patil2020-5-0017071-nife2o4-nanoparticles-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/5.0017755 | das2020-5-0017755 | das2020-5-0017755-czts-qds-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1063/5.0178096 | munshi2024-5-0178096 | munshi2024-5-0178096-bto-sample-boron-doped-sno2-1; munshi2024-5-0178096-ato-sample-silver-doped-sno2-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1071/ch20071 | munshi2020-ch20071 | munshi2020-ch20071-cdte-qddendronised-polymer-nanocomposite-1; munshi2020-ch20071-cdte-qddendronised-polymer-nanocomposite-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1098/rsos.171614 | bharathi2018-rsos-171614 | bharathi2018-rsos-171614-pbs-gsh-quantum-dot-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1111/ijac.12269 | zinatlooajabshir2014-ijac-12269 | zinatlooajabshir2014-ijac-12269-sample-no-4-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1111/j.1151-2916.2001.tb01084.x | bondioli2001-j-1151-2916-2001-tb01084-x | bondioli2001-j-1151-2916-2001-tb01084-x-zr1na1-zirconia-powder-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1111/jace.17339 | gonzaga2020-jace-17339 | gonzaga2020-jace-17339-ceo2-400-1; gonzaga2020-jace-17339-ceo2-pr-400-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1111/wej.12785 | das2022-wej-12785 | das2022-wej-12785-cdse-qds-capped-with-3-mercaptopropionic-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0012500810040038 | ivanov2010-s0012500810040038 | ivanov2010-s0012500810040038-zno-pema-nanocomposite-1; ivanov2010-s0012500810040038-ceo2-pema-nanocomposite-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0020168513030035 | egorysheva2013-s0020168513030035 | egorysheva2013-s0020168513030035-bifeo3-bfo-synthesized-at-580c-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0020168520120110 | lomanova2020-s0020168520120110 | lomanova2020-s0020168520120110-bifeo3-05t-1; lomanova2020-s0020168520120110-bifeo3-01s-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0020168523080150 | sorokin2023-s0020168523080150 | sorokin2023-s0020168523080150-scf3-nanocrystals-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0030400x17010180 | mbwahnche2017-s0030400x17010180 | mbwahnche2017-s0030400x17010180-cdse-nanoparticles-1; mbwahnche2017-s0030400x17010180-ag-nanoparticles-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023615050022 | boytsova2015-s0036023615050022 | boytsova2015-s0036023615050022-mno2-birnessite-nanoparticles-1; boytsova2015-s0036023615050022-mno2-pyrolusite-nanorods-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023615100113 | kuvshinova2015-s0036023615100113 | kuvshinova2015-s0036023615100113-bifesbo-pyrochlore-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023615110108 | korotkov2015-s0036023615110108 | korotkov2015-s0036023615110108-nanocrystalline-cryptomelane-mno2-1; korotkov2015-s0036023615110108-nanocrystalline-birnessite-mno2-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023617090042 | egorysheva2017-s0036023617090042 | egorysheva2017-s0036023617090042-bisbo4-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023620060236 | taran2020-s0036023620060236 | taran2020-s0036023620060236-nanocrystalline-hfo2-sol-in-dextrane-sol-1; taran2020-s0036023620060236-nanocrystalline-hfo2-sol-in-poly-vinylpy-2 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023624602927 | taran2024-s0036023624602927 | taran2024-s0036023624602927-hflac180-1; taran2024-s0036023624602927-hflac220-2; taran2024-s0036023624602927-hflac180-96-3 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s003602362560176x | sadovnikov2025-s003602362560176x | sadovnikov2025-s003602362560176x-sample-1-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023625603174 | mokrushin2025-s0036023625603174 | mokrushin2025-s0036023625603174-zno-z-125-2-1; mokrushin2025-s0036023625603174-zno-z-145-6-2; mokrushin2025-s0036023625603174-zno-z-165-6-3; mokrushin2025-s0036023625603174-zno-z-185-6-4 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036023625603393 | novoselova2025-s0036023625603393 | novoselova2025-s0036023625603393-hfo2-15-eu-180-1; novoselova2025-s0036023625603393-hfo2-15-gd-180-2; novoselova2025-s0036023625603393-hfo2-15-eu-220-3; novoselova2025-s0036023625603393-hfo2-15-gd-220-4; novoselova2025-s0036023625603393-hfo2-5-gd-220-5 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0036029520020044 | elshina2020-s0036029520020044 | elshina2020-s0036029520020044-al2o3-nanocrystalline-powder-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s0965544122070027 | kasyanov2022-s0965544122070027 | kasyanov2022-s0965544122070027-mfi-280-42-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s1063778823110480 | zarezin2023-s1063778823110480 | zarezin2023-s1063778823110480-inp-quantum-dots-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s1070363214070020 | tien2014-s1070363214070020 | tien2014-s1070363214070020-lafeo3-nanoparticles-3040-nm-1 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+| 10.1134/s1070363219100141 | lomanova2019-s1070363219100141 | lomanova2019-s1070363219100141-bi2ti4o11-1; lomanova2019-s1070363219100141-bi4ti3o12-2; lomanova2019-s1070363219100141-bi2ti2o7-3; lomanova2019-s1070363219100141-bi8tio14-4; lomanova2019-s1070363219100141-bi12tio20-5 | local-intake-20261116-r05-recovery | Verified live; source_extracted | 0 |
+
 ## Local-corpus release 04 verified live — 15 November 2026
 
 40 primary papers / 57 original-ordinal source-extracted records / 227 captioned figure crops. Source `58b10fe7138b359bc7be152e238ca2048cfd6ceb`; Site `3a3554d54d36cb246b5fea631f8aa2612566e9df`.

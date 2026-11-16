@@ -142130,6 +142130,2354 @@
       "record_ids": [
         "cadavid2021-ma14040853-sb-doped-pbs-ncs-1"
       ]
+    },
+    {
+      "source_group": "refai2022-ajnsa-2021-87247-1489",
+      "paper_id": "refai2022-ajnsa-2021-87247-1489",
+      "doi": "10.21608/ajnsa.2021.87247.1489",
+      "url": "https://doi.org/10.21608/ajnsa.2021.87247.1489",
+      "title": "Synthesis and characterization of ultrasmall MgFe2O4 nanoparticles down to the quantum dot scale",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/refai2022-ajnsa-2021-87247-1489-mf1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "refai2022-ajnsa-2021-87247-1489-mf1-1",
+        "refai2022-ajnsa-2021-87247-1489-mf2-2",
+        "refai2022-ajnsa-2021-87247-1489-mf3-3"
+      ]
+    },
+    {
+      "source_group": "pelczarska2022-ma15051850",
+      "paper_id": "pelczarska2022-ma15051850",
+      "doi": "10.3390/ma15051850",
+      "url": "https://doi.org/10.3390/ma15051850",
+      "title": "Structural and Luminescence Behavior of Nanocrystalline Orthophosphate KMeY(PO4)2: Eu3+ (Me = Ca, Sr) Synthesized by Hydrothermal Method",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pelczarska2022-ma15051850-kcay-po4-2-5-eu3-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pelczarska2022-ma15051850-kcay-po4-2-5-eu3-1",
+        "pelczarska2022-ma15051850-ksry-po4-2-5-eu3-2"
+      ]
+    },
+    {
+      "source_group": "jang2024-mi15111297",
+      "paper_id": "jang2024-mi15111297",
+      "doi": "10.3390/mi15111297",
+      "url": "https://doi.org/10.3390/mi15111297",
+      "title": "Inverted Red Quantum Dot Light-Emitting Diodes with ZnO Nanoparticles Synthesized Using Zinc Acetate Dihydrate and Potassium Hydroxide in Open and Closed Systems",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jang2024-mi15111297-zno-nanoparticles-synthesized-at-50c-in-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-50c-in-1",
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-50c-in-2",
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-60c-in-3",
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-60c-in-4",
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-70c-in-5",
+        "jang2024-mi15111297-zno-nanoparticles-synthesized-at-70c-in-6"
+      ]
+    },
+    {
+      "source_group": "santos2020-nano10071252",
+      "paper_id": "santos2020-nano10071252",
+      "doi": "10.3390/nano10071252",
+      "url": "https://doi.org/10.3390/nano10071252",
+      "title": "Hydrothermal Synthesis of Aqueous-Soluble Copper Indium Sulfide Nanocrystals and Their Use in Quantum Dot Sensitized Solar Cells",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/santos2020-nano10071252-cis-1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "santos2020-nano10071252-cis-1-1",
+        "santos2020-nano10071252-cis-2-2"
+      ]
+    },
+    {
+      "source_group": "medinger2021-nano11020360",
+      "paper_id": "medinger2021-nano11020360",
+      "doi": "10.3390/nano11020360",
+      "url": "https://doi.org/10.3390/nano11020360",
+      "title": "Solvothermal Synthesis Combined with Design of Experiments—Optimization Approach for Magnetite Nanocrystal Clusters",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 19,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            12,
+            15,
+            16,
+            18
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            12,
+            15,
+            16,
+            18
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/medinger2021-nano11020360-magnetite-nanocrystal-clusters-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "medinger2021-nano11020360-magnetite-nanocrystal-clusters-1"
+      ]
+    },
+    {
+      "source_group": "whiffen2021-nano11030715",
+      "paper_id": "whiffen2021-nano11030715",
+      "doi": "10.3390/nano11030715",
+      "url": "https://doi.org/10.3390/nano11030715",
+      "title": "On Tailoring Co-Precipitation Synthesis to Maximize Production Yield of Nanocrystalline Wurtzite ZnS",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/whiffen2021-nano11030715-wurtzite-zns-nanopowder-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "whiffen2021-nano11030715-wurtzite-zns-nanopowder-1"
+      ]
+    },
+    {
+      "source_group": "kim2023-nano13010125",
+      "paper_id": "kim2023-nano13010125",
+      "doi": "10.3390/nano13010125",
+      "url": "https://doi.org/10.3390/nano13010125",
+      "title": "Facile Gram-Scale Synthesis of Co3O4 Nanocrystal from Spent Lithium Ion Batteries and Its Electrocatalytic Application toward Oxygen Evolution Reaction",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2023-nano13010125-s-co3o4-nps-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2023-nano13010125-s-co3o4-nps-1"
+      ]
+    },
+    {
+      "source_group": "wang2023-nano13192723",
+      "paper_id": "wang2023-nano13192723",
+      "doi": "10.3390/nano13192723",
+      "url": "https://doi.org/10.3390/nano13192723",
+      "title": "A Novel Strategy for the Synthesis of High Stability of Luminescent Zero Dimensional–Two Dimensional CsPbBr3 Quantum Dot/1,4-bis(4-methylstyryl)benzene Nanoplate Heterostructures at an Atmospheric Condition",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 15,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wang2023-nano13192723-0d2d-cspbbr3-qd-p-msb-np-heterostructure-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wang2023-nano13192723-0d2d-cspbbr3-qd-p-msb-np-heterostructure-1"
+      ]
+    },
+    {
+      "source_group": "arriaza-echanes2024-nano14060552",
+      "paper_id": "arriaza-echanes2024-nano14060552",
+      "doi": "10.3390/nano14060552",
+      "url": "https://doi.org/10.3390/nano14060552",
+      "title": "Biosynthesis of Cu-In-S Nanoparticles by a Yeast Isolated from Union Glacier, Antarctica: A Platform for Enhanced Quantum Dot-Sensitized Solar Cells",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 18,
+          "pages_read": [
+            2,
+            3,
+            6,
+            7,
+            8,
+            10,
+            12,
+            13,
+            15,
+            16
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            6,
+            7,
+            8,
+            10,
+            12,
+            13,
+            15,
+            16
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/arriaza-echanes2024-nano14060552-cis-nanoparticles-biosynthesized-by-f-st-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "arriaza-echanes2024-nano14060552-cis-nanoparticles-biosynthesized-by-f-st-1"
+      ]
+    },
+    {
+      "source_group": "podelinska2025-nano15070498",
+      "paper_id": "podelinska2025-nano15070498",
+      "doi": "10.3390/nano15070498",
+      "url": "https://doi.org/10.3390/nano15070498",
+      "title": "Structural and Spectroscopic Characterization of TiO2 Nanocrystalline Materials Synthesized by Different Methods",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 21,
+          "pages_read": [
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            19,
+            20
+          ],
+          "actual_pages_text_read": [
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            19,
+            20
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/podelinska2025-nano15070498-tio2-ep-method-500-c-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "podelinska2025-nano15070498-tio2-ep-method-500-c-1"
+      ]
+    },
+    {
+      "source_group": "traverso2023-pharmaceutics15061651",
+      "paper_id": "traverso2023-pharmaceutics15061651",
+      "doi": "10.3390/pharmaceutics15061651",
+      "url": "https://doi.org/10.3390/pharmaceutics15061651",
+      "title": "Two-Step Preparation of Protein-Decorated Biohybrid Quantum Dot Nanoparticles for Cellular Uptake",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 19,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            14,
+            16,
+            18
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            14,
+            16,
+            18
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/traverso2023-pharmaceutics15061651-htf-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "traverso2023-pharmaceutics15061651-htf-qds-1",
+        "traverso2023-pharmaceutics15061651-hsa-qds-2"
+      ]
+    },
+    {
+      "source_group": "silina2024-pharmaceutics16111365",
+      "paper_id": "silina2024-pharmaceutics16111365",
+      "doi": "10.3390/pharmaceutics16111365",
+      "url": "https://doi.org/10.3390/pharmaceutics16111365",
+      "title": "Development of Technology for the Synthesis of Nanocrystalline Cerium Oxide Under Production Conditions with the Best Regenerative Activity and Biocompatibility for Further Creation of Wound-Healing Agents",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 33,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            25,
+            26,
+            29,
+            31
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            25,
+            26,
+            29,
+            31
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/silina2024-pharmaceutics16111365-ceo2-i-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "silina2024-pharmaceutics16111365-ceo2-i-1",
+        "silina2024-pharmaceutics16111365-ceo2-ii-2",
+        "silina2024-pharmaceutics16111365-ceo2-iii-3"
+      ]
+    },
+    {
+      "source_group": "trinh2020-pr8020253",
+      "paper_id": "trinh2020-pr8020253",
+      "doi": "10.3390/pr8020253",
+      "url": "https://doi.org/10.3390/pr8020253",
+      "title": "Synthesis and Research of Rare Earth Nanocrystal Luminescent Properties for Security Labels Using the Electrohydrodynamic Printing Technique",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 16,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/trinh2020-pr8020253-yvo4-eu3-nanoparticles-sonochemical-meth-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "trinh2020-pr8020253-yvo4-eu3-nanoparticles-sonochemical-meth-1",
+        "trinh2020-pr8020253-yvo4-eu3-nanoparticles-hydrothermal-meth-2"
+      ]
+    },
+    {
+      "source_group": "doukeh2026-suschem7010003",
+      "paper_id": "doukeh2026-suschem7010003",
+      "doi": "10.3390/suschem7010003",
+      "url": "https://doi.org/10.3390/suschem7010003",
+      "title": "Synthesis, Characterization, and Performance Evaluation of Nanocrystalline Metal Oxides for Shale Inhibition in Water-Based Drilling Fluids",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 25,
+          "pages_read": [
+            2,
+            3,
+            4,
+            6,
+            8,
+            9,
+            13,
+            21,
+            23,
+            24
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            6,
+            8,
+            9,
+            13,
+            21,
+            23,
+            24
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/doukeh2026-suschem7010003-zno-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "doukeh2026-suschem7010003-zno-1",
+        "doukeh2026-suschem7010003-fe2o3-2",
+        "doukeh2026-suschem7010003-mgo-3",
+        "doukeh2026-suschem7010003-cuo-4"
+      ]
+    },
+    {
+      "source_group": "giaccherini2019-bjnano-10-202",
+      "paper_id": "giaccherini2019-bjnano-10-202",
+      "doi": "10.3762/bjnano.10.202",
+      "url": "https://doi.org/10.3762/bjnano.10.202",
+      "title": "Green and scalable synthesis of nanocrystalline kuramite",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/giaccherini2019-bjnano-10-202-sample-s1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "giaccherini2019-bjnano-10-202-sample-s1-1"
+      ]
+    },
+    {
+      "source_group": "udhayaa2021-14-5-5",
+      "paper_id": "udhayaa2021-14-5-5",
+      "doi": "10.47011/14.5.5",
+      "url": "https://doi.org/10.47011/14.5.5",
+      "title": "Albumen-assisted Synthesis of Nanocrystalline Nickel Ferrite Photocatalyst",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/udhayaa2021-14-5-5-nife2o4-nanoparticles-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "udhayaa2021-14-5-5-nife2o4-nanoparticles-1"
+      ]
+    },
+    {
+      "source_group": "poddenezhnyi2024-1819-5245-2024-4-19-27",
+      "paper_id": "poddenezhnyi2024-1819-5245-2024-4-19-27",
+      "doi": "10.62595/1819-5245-2024-4-19-27",
+      "url": "https://doi.org/10.62595/1819-5245-2024-4-19-27",
+      "title": "FEATURES OF THERMOCHEMICAL SYNTHESIS OF NANOCRYSTALLINE POWDERS OF LANTHANUM-ALLOYED ERBIUM OXIDE",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/poddenezhnyi2024-1819-5245-2024-4-19-27-er2o3-la-powder-calcined-at-850-c-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "poddenezhnyi2024-1819-5245-2024-4-19-27-er2o3-la-powder-calcined-at-850-c-1"
+      ]
+    },
+    {
+      "source_group": "wu2023-acs-jpcc-2c08441",
+      "paper_id": "wu2023-acs-jpcc-2c08441",
+      "doi": "10.1021/acs.jpcc.2c08441",
+      "url": "https://doi.org/10.1021/acs.jpcc.2c08441",
+      "title": "Aluminum Quantum Dots with Surface Controlled Blue-UV Photoluminescence",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wu2023-acs-jpcc-2c08441-toab-alqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wu2023-acs-jpcc-2c08441-toab-alqds-1",
+        "wu2023-acs-jpcc-2c08441-ddbac-alqds-2",
+        "wu2023-acs-jpcc-2c08441-ddao-alqds-3",
+        "wu2023-acs-jpcc-2c08441-aot-alqds-4"
+      ]
+    },
+    {
+      "source_group": "kumbhakar2024-acs-jpcc-4c02798",
+      "paper_id": "kumbhakar2024-acs-jpcc-4c02798",
+      "doi": "10.1021/acs.jpcc.4c02798",
+      "url": "https://doi.org/10.1021/acs.jpcc.4c02798",
+      "title": "Strain-Induced Tribocatalytic Activity of 2D ZnO Quantum Dots",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kumbhakar2024-acs-jpcc-4c02798-2d-zno-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kumbhakar2024-acs-jpcc-4c02798-2d-zno-qds-1"
+      ]
+    },
+    {
+      "source_group": "roy2016-acs-jpcc-5b10051",
+      "paper_id": "roy2016-acs-jpcc-5b10051",
+      "doi": "10.1021/acs.jpcc.5b10051",
+      "url": "https://doi.org/10.1021/acs.jpcc.5b10051",
+      "title": "Spectral and Temporal Optical Behavior of Blue-, Green-, Orange-, and Red-Emitting CdSe-Based Core/Gradient Alloy Shell/Shell Quantum Dots: Ensemble and Single-Particle Investigation Results",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/roy2016-acs-jpcc-5b10051-blue-cgass-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "roy2016-acs-jpcc-5b10051-blue-cgass-qds-1",
+        "roy2016-acs-jpcc-5b10051-green-cgass-qds-2",
+        "roy2016-acs-jpcc-5b10051-orange-cgass-qds-3",
+        "roy2016-acs-jpcc-5b10051-red-cgass-qds-4"
+      ]
+    },
+    {
+      "source_group": "banerjee2025-acs-jpcc-5c04249",
+      "paper_id": "banerjee2025-acs-jpcc-5c04249",
+      "doi": "10.1021/acs.jpcc.5c04249",
+      "url": "https://doi.org/10.1021/acs.jpcc.5c04249",
+      "title": "Radical-Modulated Triplet Emission in Optically Homogeneous Blue Graphene Quantum Dots",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/banerjee2025-acs-jpcc-5c04249-b-goqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "banerjee2025-acs-jpcc-5c04249-b-goqds-1"
+      ]
+    },
+    {
+      "source_group": "li2016-acs-jpcc-6b01530",
+      "paper_id": "li2016-acs-jpcc-6b01530",
+      "doi": "10.1021/acs.jpcc.6b01530",
+      "url": "https://doi.org/10.1021/acs.jpcc.6b01530",
+      "title": "Iodinated SnO2 Quantum Dots: A Facile and Efficient Approach To Increase Solar Absorption for Visible-Light Photocatalysis",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/li2016-acs-jpcc-6b01530-s1-5h-70-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "li2016-acs-jpcc-6b01530-s1-5h-70-1"
+      ]
+    },
+    {
+      "source_group": "jethi2017-acs-jpcc-7b08439",
+      "paper_id": "jethi2017-acs-jpcc-7b08439",
+      "doi": "10.1021/acs.jpcc.7b08439",
+      "url": "https://doi.org/10.1021/acs.jpcc.7b08439",
+      "title": "Extending Semiconductor Nanocrystals from the Quantum Dot Regime to the Molecular Cluster Regime",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jethi2017-acs-jpcc-7b08439-cdse-nanocrystals-0-89-to-1-66-nm-radius-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jethi2017-acs-jpcc-7b08439-cdse-nanocrystals-0-89-to-1-66-nm-radius-1"
+      ]
+    },
+    {
+      "source_group": "meiling2018-acs-jpcc-8b00748",
+      "paper_id": "meiling2018-acs-jpcc-8b00748",
+      "doi": "10.1021/acs.jpcc.8b00748",
+      "url": "https://doi.org/10.1021/acs.jpcc.8b00748",
+      "title": "Photophysics and Chemistry of Nitrogen-Doped Carbon Nanodots with High Photoluminescence Quantum Yield",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            2,
+            3,
+            6,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            6,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/meiling2018-acs-jpcc-8b00748-hac-n-cnds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "meiling2018-acs-jpcc-8b00748-hac-n-cnds-1"
+      ]
+    },
+    {
+      "source_group": "jeong2018-acs-jpcc-8b01774",
+      "paper_id": "jeong2018-acs-jpcc-8b01774",
+      "doi": "10.1021/acs.jpcc.8b01774",
+      "url": "https://doi.org/10.1021/acs.jpcc.8b01774",
+      "title": "Enhancement Mechanism of the Photoluminescence Quantum Yield in Highly Efficient ZnS–AgIn5S8 Quantum Dots with Core/Shell Structures",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jeong2018-acs-jpcc-8b01774-zais-zis-zns-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jeong2018-acs-jpcc-8b01774-zais-zis-zns-qds-1",
+        "jeong2018-acs-jpcc-8b01774-zais-zns-qds-2"
+      ]
+    },
+    {
+      "source_group": "zhenfu2018-acs-jpcc-8b03721",
+      "paper_id": "zhenfu2018-acs-jpcc-8b03721",
+      "doi": "10.1021/acs.jpcc.8b03721",
+      "url": "https://doi.org/10.1021/acs.jpcc.8b03721",
+      "title": "Nanocomposites of Perovskite Quantum Dots Embedded in Magnesium Silicate Hollow Spheres for Multicolor Display",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhenfu2018-acs-jpcc-8b03721-mapbbr3-qds-mshss-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhenfu2018-acs-jpcc-8b03721-mapbbr3-qds-mshss-1"
+      ]
+    },
+    {
+      "source_group": "lu2022-acs-jpclett-2c02113",
+      "paper_id": "lu2022-acs-jpclett-2c02113",
+      "doi": "10.1021/acs.jpclett.2c02113",
+      "url": "https://doi.org/10.1021/acs.jpclett.2c02113",
+      "title": "Investigation on Dynamic Changes in the Morphology and Fluorescence Properties of Sulfur Quantum Dots",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lu2022-acs-jpclett-2c02113-sqds-2-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lu2022-acs-jpclett-2c02113-sqds-2-1",
+        "lu2022-acs-jpclett-2c02113-sqds-8-2",
+        "lu2022-acs-jpclett-2c02113-sqds-12-3",
+        "lu2022-acs-jpclett-2c02113-sqds-24-4"
+      ]
+    },
+    {
+      "source_group": "chen2016-acs-jpclett-6b02344",
+      "paper_id": "chen2016-acs-jpclett-6b02344",
+      "doi": "10.1021/acs.jpclett.6b02344",
+      "url": "https://doi.org/10.1021/acs.jpclett.6b02344",
+      "title": "Synthesis and Optical Properties of Lead-Free Cesium Tin Halide Perovskite Quantum Rods with High-Performance Solar Cell Application",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chen2016-acs-jpclett-6b02344-cssncl3-quantum-rods-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chen2016-acs-jpclett-6b02344-cssncl3-quantum-rods-1",
+        "chen2016-acs-jpclett-6b02344-cssnbr3-quantum-rods-2",
+        "chen2016-acs-jpclett-6b02344-cssni3-quantum-rods-3"
+      ]
+    },
+    {
+      "source_group": "leng2020-acs-jpclett-9b03873",
+      "paper_id": "leng2020-acs-jpclett-9b03873",
+      "doi": "10.1021/acs.jpclett.9b03873",
+      "url": "https://doi.org/10.1021/acs.jpclett.9b03873",
+      "title": "Thermodynamic Control in the Synthesis of Quantum-Confined Blue-Emitting CsPbBr3 Perovskite Nanostrips",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/leng2020-acs-jpclett-9b03873-cspbbr3-nanostrips-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "leng2020-acs-jpclett-9b03873-cspbbr3-nanostrips-1"
+      ]
+    },
+    {
+      "source_group": "ozbilgin2022-acs-langmuir-1c02326",
+      "paper_id": "ozbilgin2022-acs-langmuir-1c02326",
+      "doi": "10.1021/acs.langmuir.1c02326",
+      "url": "https://doi.org/10.1021/acs.langmuir.1c02326",
+      "title": "Water-Soluble Silicon Quantum Dots toward Fluorescence-Guided Photothermal Nanotherapy",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ozbilgin2022-acs-langmuir-1c02326-ua-siqds-1-8-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ozbilgin2022-acs-langmuir-1c02326-ua-siqds-1-8-nm-1",
+        "ozbilgin2022-acs-langmuir-1c02326-ua-siqds-4-7-nm-2"
+      ]
+    },
+    {
+      "source_group": "sun2023-acs-langmuir-3c00008",
+      "paper_id": "sun2023-acs-langmuir-3c00008",
+      "doi": "10.1021/acs.langmuir.3c00008",
+      "url": "https://doi.org/10.1021/acs.langmuir.3c00008",
+      "title": "Cane Molasses Derived N-Doped Graphene Quantum Dots: Dynamic Quenching Synergistically Photoinduced Electron Transfer for the Instant Detection of Nitrofuran Antibiotics",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/sun2023-acs-langmuir-3c00008-n-gqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "sun2023-acs-langmuir-3c00008-n-gqds-1"
+      ]
+    },
+    {
+      "source_group": "konwar2025-acs-langmuir-5c02171",
+      "paper_id": "konwar2025-acs-langmuir-5c02171",
+      "doi": "10.1021/acs.langmuir.5c02171",
+      "url": "https://doi.org/10.1021/acs.langmuir.5c02171",
+      "title": "Precursor-Dependent Heteroatom Diversity in Luminescent Carbon Quantum Dots: Their Impact on Physicochemical Properties and Free Radical Scavenging and Antibacterial Activities",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/konwar2025-acs-langmuir-5c02171-cqd-rcf-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "konwar2025-acs-langmuir-5c02171-cqd-rcf-1",
+        "konwar2025-acs-langmuir-5c02171-cqd-aau-2"
+      ]
+    },
+    {
+      "source_group": "cho2017-acs-langmuir-6b04333",
+      "paper_id": "cho2017-acs-langmuir-6b04333",
+      "doi": "10.1021/acs.langmuir.6b04333",
+      "url": "https://doi.org/10.1021/acs.langmuir.6b04333",
+      "title": "Highly efficient Blue-Emitting CdSe-derived Core/Shell Gradient Alloy Quantum Dots with Improved Photoluminescent Quantum Yield and Enhanced Photostability",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/cho2017-acs-langmuir-6b04333-cdse-cdsexs1x-znseys1y-zns-core-shell-gr-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "cho2017-acs-langmuir-6b04333-cdse-cdsexs1x-znseys1y-zns-core-shell-gr-1"
+      ]
+    },
+    {
+      "source_group": "gao2021-acs-nanolett-1c02284",
+      "paper_id": "gao2021-acs-nanolett-1c02284",
+      "doi": "10.1021/acs.nanolett.1c02284",
+      "url": "https://doi.org/10.1021/acs.nanolett.1c02284",
+      "title": "Bulk-like ZnSe Quantum Dots Enabling Efficient Ultranarrow Blue Light-Emitting Diodes",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gao2021-acs-nanolett-1c02284-bulk-like-znse-zns-core-shell-qds-b-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gao2021-acs-nanolett-1c02284-bulk-like-znse-zns-core-shell-qds-b-qds-1"
+      ]
+    },
+    {
+      "source_group": "han2017-acs-nanolett-7b03968",
+      "paper_id": "han2017-acs-nanolett-7b03968",
+      "doi": "10.1021/acs.nanolett.7b03968",
+      "url": "https://doi.org/10.1021/acs.nanolett.7b03968",
+      "title": "High-Yield Production of MoS2 and WS2 Quantum Sheets from Their Bulk Materials",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/han2017-acs-nanolett-7b03968-mos2-qss-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "han2017-acs-nanolett-7b03968-mos2-qss-1",
+        "han2017-acs-nanolett-7b03968-ws2-qss-2"
+      ]
+    },
+    {
+      "source_group": "liu2020-acsabm-9b01078",
+      "paper_id": "liu2020-acsabm-9b01078",
+      "doi": "10.1021/acsabm.9b01078",
+      "url": "https://doi.org/10.1021/acsabm.9b01078",
+      "title": "Polypeptide-Templated Au Nanoclusters with Red and Blue Fluorescence Emissions for Multimodal Imaging of Cell Nuclei",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            5,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2020-acsabm-9b01078-red-emission-au-nanoclusters-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2020-acsabm-9b01078-red-emission-au-nanoclusters-1",
+        "liu2020-acsabm-9b01078-blue-emission-au-nanoclusters-2"
+      ]
+    },
+    {
+      "source_group": "jo2020-acsanm-0c00008",
+      "paper_id": "jo2020-acsanm-0c00008",
+      "doi": "10.1021/acsanm.0c00008",
+      "url": "https://doi.org/10.1021/acsanm.0c00008",
+      "title": "InP-Based Quantum Dots Having an InP Core, Composition-Gradient ZnSeS Inner Shell, and ZnS Outer Shell with Sharp, Bright Emissivity, and Blue Absorptivity for Display Devices",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jo2020-acsanm-0c00008-inp-znse0-18s0-82-zns-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jo2020-acsanm-0c00008-inp-znse0-18s0-82-zns-qds-1"
+      ]
+    },
+    {
+      "source_group": "gong2021-acsanm-1c02004",
+      "paper_id": "gong2021-acsanm-1c02004",
+      "doi": "10.1021/acsanm.1c02004",
+      "url": "https://doi.org/10.1021/acsanm.1c02004",
+      "title": "Yellow Fluorescent Nitrogen and Bromine Co-doped Graphene Quantum Dots for Bioimaging",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gong2021-acsanm-1c02004-nbr-gqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gong2021-acsanm-1c02004-nbr-gqds-1"
+      ]
+    },
+    {
+      "source_group": "patel2022-acsanm-1c04174",
+      "paper_id": "patel2022-acsanm-1c04174",
+      "doi": "10.1021/acsanm.1c04174",
+      "url": "https://doi.org/10.1021/acsanm.1c04174",
+      "title": "S, N Co-Doped Carbon Dot-Functionalized WO3 Nanostructures for NO2 and H2S Detection",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/patel2022-acsanm-1c04174-c-s-n-wo3-wc10-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "patel2022-acsanm-1c04174-c-s-n-wo3-wc10-1"
+      ]
+    },
+    {
+      "source_group": "cui2023-acsanm-2c04944",
+      "paper_id": "cui2023-acsanm-2c04944",
+      "doi": "10.1021/acsanm.2c04944",
+      "url": "https://doi.org/10.1021/acsanm.2c04944",
+      "title": "Ag2-3xBixS Quantum Dots as Single-Component Theranostic Agents for Second Near-Infrared Fluorescence Imaging-Guided Photothermal Therapy",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/cui2023-acsanm-2c04944-ag23xbixs-qds-4-bi-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "cui2023-acsanm-2c04944-ag23xbixs-qds-4-bi-1"
+      ]
+    },
+    {
+      "source_group": "shen2024-acsanm-3c05672",
+      "paper_id": "shen2024-acsanm-3c05672",
+      "doi": "10.1021/acsanm.3c05672",
+      "url": "https://doi.org/10.1021/acsanm.3c05672",
+      "title": "Tunable Photoluminescent Nitrogen-Doped Graphene Quantum Dots at the Interface for High-Efficiency Perovskite Solar Cells",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            4,
+            5,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            4,
+            5,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/shen2024-acsanm-3c05672-tp-n-gqds-c-u-3-1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "shen2024-acsanm-3c05672-tp-n-gqds-c-u-3-1-1",
+        "shen2024-acsanm-3c05672-tp-n-gqds-c-u-2-1-2",
+        "shen2024-acsanm-3c05672-tp-n-gqds-c-u-1-1-3"
+      ]
+    },
+    {
+      "source_group": "aswal2024-acsanm-4c01204",
+      "paper_id": "aswal2024-acsanm-4c01204",
+      "doi": "10.1021/acsanm.4c01204",
+      "url": "https://doi.org/10.1021/acsanm.4c01204",
+      "title": "Borophene Quantum Dots with Strong Photoluminescence for Selective Metal Ion Sensing",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/aswal2024-acsanm-4c01204-10-h-bqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "aswal2024-acsanm-4c01204-10-h-bqds-1",
+        "aswal2024-acsanm-4c01204-8-h-bqds-2"
+      ]
+    },
+    {
+      "source_group": "patra2024-acsanm-4c02311",
+      "paper_id": "patra2024-acsanm-4c02311",
+      "doi": "10.1021/acsanm.4c02311",
+      "url": "https://doi.org/10.1021/acsanm.4c02311",
+      "title": "Amine-Free CsPbBr3 Perovskite Nanocrystals with a Near-Unity Photoluminescence Quantum Yield for a Superfast Photodetector",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/patra2024-acsanm-4c02311-cpb-dbp-2-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "patra2024-acsanm-4c02311-cpb-dbp-2-1"
+      ]
+    },
+    {
+      "source_group": "ma2025-acsanm-4c07114",
+      "paper_id": "ma2025-acsanm-4c07114",
+      "doi": "10.1021/acsanm.4c07114",
+      "url": "https://doi.org/10.1021/acsanm.4c07114",
+      "title": "Cu2+-Cross-Linked Tannic Acid Carbon Dot Nanoparticles for Mold Inhibition",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 13,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ma2025-acsanm-4c07114-ta-cds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ma2025-acsanm-4c07114-ta-cds-1"
+      ]
+    },
+    {
+      "source_group": "zhang2025-acsanm-5c02725",
+      "paper_id": "zhang2025-acsanm-5c02725",
+      "doi": "10.1021/acsanm.5c02725",
+      "url": "https://doi.org/10.1021/acsanm.5c02725",
+      "title": "Luminescent Zn2GeO4:Mn2+ Nanoparticles with High Quantum Yield for Salivary Protein Detection",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2025-acsanm-5c02725-zgo0-5m-nps-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2025-acsanm-5c02725-zgo0-5m-nps-1"
+      ]
+    },
+    {
+      "source_group": "zhang2025-acsanm-5c03260",
+      "paper_id": "zhang2025-acsanm-5c03260",
+      "doi": "10.1021/acsanm.5c03260",
+      "url": "https://doi.org/10.1021/acsanm.5c03260",
+      "title": "Sulfur Quantum Dots Emitting Blue-Violet Chemiluminescence, Photoluminescence, and Near-Infrared Electrochemiluminescence",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2025-acsanm-5c03260-sqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2025-acsanm-5c03260-sqds-1"
+      ]
+    },
+    {
+      "source_group": "ye2026-acsanm-5c04465",
+      "paper_id": "ye2026-acsanm-5c04465",
+      "doi": "10.1021/acsanm.5c04465",
+      "url": "https://doi.org/10.1021/acsanm.5c04465",
+      "title": "Uniform Tellurium Quantum Dots for Mode-Locked Fiber Lasers with Low Starting Threshold",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ye2026-acsanm-5c04465-tellurium-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ye2026-acsanm-5c04465-tellurium-quantum-dots-1"
+      ]
     }
   ],
   "material_notes": {
