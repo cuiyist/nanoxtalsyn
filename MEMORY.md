@@ -1,3 +1,101 @@
+## Release06 benchmark snapshot repair — 16 November 2026, 02:04Z
+
+The all-folders job remains unfinished. PR171 is still open. CI43787069217
+completed its Windows build successfully and its Linux build passed, but the
+Linux BEFORE protocol capture failed four views: stale CdS/InP default pins.
+The original failed run/log remain preserved; compare-artifacts was skipped.
+No merge, new Site deployment or publication credit is claimed.
+
+The repair binds fixed BEFORE expectations to comparison-base Source95df7dcb
+and deployed Siteaaf44c26 bytes, whose prior publisher remains failed. Only the
+two observed stale defaults change; all explicit regression examples, routes,
+20 protocol targets and six method-list targets remain. AFTER fixture metadata
+comes from the hash-verified native41-paper atlas inventory. All canonical
+record and operation pins are checked before browser capture. No HTTP/geometry/
+font/viewport/hash gate is removed or retried away.76 resolver/protocol/method
+tests pass. Fresh full CI and normal publication verification are still required.
+
+Verified intake remains136papers/203records/742figures through release04.
+Release05's deployed53papers await full anonymous429recovery; release06's41
+papers/67records/275figures remain pending. Next prepared pool has17papers/
+33records/116crops, but one paper is a zero-figure technical hold: Russian
+caption labels require a source-bound crop repair.16papers have captioned crops.
+Batch41 completed22/22; its9selected papers/16records/67crops have closed
+caption and citation checks,5 rare whole-fact deletions and one source-bound
+truncated-DOI metadata correction, with all original scientific payloads kept.
+Batch42 completed2/2; two rare facts were deleted, no facts invented.
+Batch44 is active with39 inputs and6 successes observed;448 prepared inputs
+remain unlaunched. These overlap the dated20687 unresolved-entry census,
+which is not a confirmed eligible-paper count. Audited lane remains paused;
+no independent-audit or training promotion. Continue extraction and release gates.
+
+## Release06 public Reader packaging repair — 16 November 2026, 01:18Z
+
+The all-folders job is unfinished. PR171 remains open; CI43782871020 failed
+the complete build on both Windows and Linux because the expanded public Reader
+projection exceeded two bounded files. No paper data was rejected or dropped.
+The repair preserves legacy one/two-file bytes when they fit and uses a checked,
+sequential multipart manifest for overflow. Every file remains below80MiB;
+all parts require SHA-256 verification and duplicate-key rejection in Python
+and the browser. Reader entry/import cache versions advance together to0.48.1.
+No scientific values, statuses, canonical records, source sidecar bytes or rights
+facts change. Native in-memory projection parity passed for6663 Reader records
+and1464 materials; all7221 canonical blobs andtwo source sidecars remain exact.
+Production forecast:1076-byte index and83880242/83879564/1241367-byte data parts.
+Fourteen packaging, ten compaction, four shard, nineteen cache and77 browser
+regression tests passed. Full CI/build and normal publication gates still apply.
+
+Batch40 finished16 inputs:15 two-pass successes, one exhausted redo, CHECKexit0.
+Five papers/12 records/31 captioned figures are locally ready. Refai's previously
+held three records now have12 complete source-raster crops, caption and visual
+review closed, in a disjoint one-paper cohort. Combined next-ready pool:6/15/43.
+No independent audit or live credit is implied. Batch41 is running22 inputs,
+seven successes observed01:17Z;489 prepared inputs remain unlaunched. The dated
+20687 unattempted/metadata-unresolved census is broader, overlapping, and is not
+a confirmed eligible-paper count. Prepared queue16–24continuoushours and full
+corpus3–6weeks remain conditional planning ranges, not completion guarantees.
+
+Verified intake remains136/203/742 through Release04. Release05's53 deployed
+papers still require the preserved full-verification recovery; Release06's41
+papers are not deployed. Audited-lane pauses, refusals and failure receipts remain.
+
+## Release06 additive integration; Release05 verification recovery — 16 November 2026, 00:42Z
+
+The all-folders task remains UNFINISHED. Verified intake remains
+136 papers / 203 records / 742 figures through Release04; no later live credit.
+Release05 added 53 papers / 86 records / 242 figures through PR170, Source
+95df7dcb18150ee633e081d05c3d50babfe81c25. Pages43773542138 deployed Site
+aaf44c2614dfa27d1386123be4ee1cfbd8be5af8 successfully, and targeted anonymous
+checks passed 2162 files. Publisher43770079194 nevertheless FAILED: the full
+69778-file text scan verified 67373, with 2405 final HTTP429 responses and no
+brand violations. Its final live-browser benchmark was skipped. This is a
+deployed but incompletely verified release, not a completed release or rarity base.
+
+Release06 integrates batch36/ready02,37/ready03,38/ready02,39/ready01:
+41 new papers, 67 source_extracted records and 275 captioned figures, with four
+quote-free exports and 569 new registered assets. All previous canonical bytes
+and Reader objects are preserved. Native binding checks passed57781 with zero
+errors/warnings; 7675 inventory files and1464 material lists reconcile exactly.
+The rights registry now uses lossless compact JSON (73915570bytes), retaining
+existing permission facts and all previous entries. No figure rights are invented.
+47 recovered original-raster crops were actually viewed and source-bounds checked.
+Komlev, Refai and Fu remain zero-figure technical holds, not scientific exclusions.
+
+The release also carries the exact2127-path Release05 reverification scope and
+a shared request-rate/cooldown repair. Full scan coverage, exact byte checks and
+the existing retry limit are unchanged. Simple-pipeline regression326tests and
+brand scanner26tests passed. Numeric CdSe wavelength-label navigation is repaired
+without filling missing measured compositions. No independent audit or training
+promotion is claimed. Normal Source preparation, PR/CI, browser, Pages and full
+anonymous verification remain required; this entry is not a publication receipt.
+
+Batch40 is active with16 inputs,7 successful two-pass results observed00:39:57Z;
+final CHECK remains pending.511 prepared inputs are unlaunched. The dated20687-row
+unattempted/metadata-unresolved census is not a confirmed eligible-paper count.
+Prepared-queue16–24continuoushours and whole-corpus3–6weeks are tentative planning
+ranges, not guarantees; verification recovery adds uncertainty. Paused audits,
+PARADIM workloads, refused cleanup and exhausted retry histories remain untouched.
+
 ## Release04 verified; next additive cohort in progress — 15 November 2026, 19:50Z
 
 The all-folders task remains UNFINISHED. Verified intake totals are now

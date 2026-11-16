@@ -16,6 +16,9 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'recipe-atlas/scripts'))
 from reader_presentation_registry import load_reviewed_reader
 
+COMPACT_RIGHTS_THRESHOLD = 80 * 2**20
+RIGHTS_BLOB_LIMIT = 100 * 2**20
+
 
 def digest(raw):
     return hashlib.sha256(raw).hexdigest()
@@ -26,9 +29,22 @@ def read(path):
 
 
 def serialized(path, data):
-    before = Path(path).read_bytes()
-    text = json.dumps(data, ensure_ascii=False, indent=2) + ('\n' if before.endswith(b'\n') else '')
-    return text.replace('\n', '\r\n').encode('utf-8') if b'\r\n' in before else text.encode('utf-8')
+    path = Path(path)
+    before = path.read_bytes()
+    suffix = '\n' if before.endswith(b'\n') else ''
+
+    def encode(text):
+        if b'\r\n' in before:
+            text = text.replace('\n', '\r\n')
+        return text.encode('utf-8')
+
+    raw = encode(json.dumps(data, ensure_ascii=False, indent=2) + suffix)
+    if path.name == 'asset-rights-registry.json':
+        if len(raw) > COMPACT_RIGHTS_THRESHOLD:
+            raw = encode(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + suffix)
+        if len(raw) >= RIGHTS_BLOB_LIMIT:
+            raise ValueError('asset rights registry exceeds the bounded Git blob size; retain all entries and stop before writing')
+    return raw
 
 
 def public_asset(atlas, path, expected):

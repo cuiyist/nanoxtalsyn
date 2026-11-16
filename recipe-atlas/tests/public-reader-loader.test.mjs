@@ -22,3 +22,19 @@ test('UTF8/JSON malformed input rejects',async()=>{for(const raw of [Uint8Array.
 test('no checksum API rejects split but current monolith still loads',async()=>{const s=await split();const entries=new Map([[BASE,encode(s.base)],[PART,s.raw]]);const load=createReaderPresentationLoader({crypto:null,fetcher:async url=>({ok:true,arrayBuffer:async()=>entries.get(url).buffer})});await assert.rejects(load(BASE),/verification unavailable/);});
 test('arbitrary base filename rejects without fetch',async()=>{const {load,calls}=fixture(new Map());await assert.rejects(load('https://example.test/data/private.json'),/fixed/);assert.equal(calls.length,0);});
 test('normal Python builder fixture loads with exact logical/display parity',async()=>{const read=name=>new Uint8Array(readFileSync(new URL('./fixtures/public-reader-split/'+name,import.meta.url)));const expected=JSON.parse(new TextDecoder().decode(read('expected-logical.json')));const {load}=fixture(new Map([[BASE,read('reader-presentation.json')],[PART,read('reader-presentation.part2.json')]]));assert.deepEqual(await load(BASE),expected);assert.equal(expected.records.r0.figures[0].display_kind,'source_link');assert.equal(expected.records.r0.figures[0].origin,'manual');assert.equal(expected.records.r0.training_eligible,false);});
+async function multipart(){
+ const v=logical(),parts=[{records:v.records,materials:{},figures_by_source:{}},{records:{},materials:v.materials,figures_by_source:{}},{records:{},materials:{},figures_by_source:v.figures_by_source}];
+ const refs=[],entries=new Map();
+ for(const [i,part]of parts.entries()){const name=`reader-presentation.part${i+2}.json`,raw=encode(part);refs.push({part:name,sha256:await sha(raw)});entries.set(new URL(name,BASE).href,raw);}
+ const base={...v,records:{},materials:{},figures_by_source:{},_reader_registry_split:{schema:'reader-presentation-parts/1',parts:refs}};
+ entries.set(BASE,encode(base));return {v,base,parts,refs,entries};
+}
+test('three verified data parts load complete data once, preserving status and figures',async()=>{const s=await multipart();const {load,calls}=fixture(s.entries);const [a,b]=await Promise.all([load(BASE),load(BASE)]);assert.strictEqual(a,b);assert.deepEqual(a,s.v);assert.equal(calls.length,4);});
+test('all multipart names and hashes validate before any secondary fetch',async()=>{
+ for(const change of [m=>m.parts=[],m=>m.parts.push(m.parts[0]),m=>m.parts[2].part='../private.json',m=>m.parts[2].sha256='bad',m=>m.parts[2].extra=1,m=>m.extra=1,m=>m.parts=Array(1025).fill(m.parts[0])]){
+  const s=await multipart();change(s.base._reader_registry_split);s.entries.set(BASE,encode(s.base));const {load,calls}=fixture(s.entries);await assert.rejects(load(BASE),/marker/);assert.equal(calls.length,1);
+ }
+});
+test('missing final part rejects the entire view and cached retries do not refetch',async()=>{const s=await multipart();s.entries.delete(new URL(s.refs[2].part,BASE).href);const {load,calls}=fixture(s.entries);await assert.rejects(load(BASE),/Unavailable/);await assert.rejects(load(BASE),/Unavailable/);assert.equal(calls.length,4);});
+test('corrupt final part rejects the entire view',async()=>{const s=await multipart();s.entries.set(new URL(s.refs[2].part,BASE).href,encode({}));const {load}=fixture(s.entries);await assert.rejects(load(BASE),/checksum/);});
+test('duplicate keys between secondary parts reject',async()=>{const s=await multipart();s.parts[2].records=s.v.records;const raw=encode(s.parts[2]);s.refs[2].sha256=await sha(raw);s.entries.set(new URL(s.refs[2].part,BASE).href,raw);s.entries.set(BASE,encode(s.base));const {load}=fixture(s.entries);await assert.rejects(load(BASE),/Duplicate/);});

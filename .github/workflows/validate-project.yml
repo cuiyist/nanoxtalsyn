@@ -38,7 +38,7 @@ jobs:
       - name: Test publication and preservation helpers
         run: |
           python -m unittest discover -s tools/publication -p 'test_*.py' -v
-          python -B -m unittest discover -s tools/publication/tests -p 'test_brand_name_scan.py' -v
+          python -B -m unittest discover -s tools/publication/tests -p 'test_brand*.py' -v
           node --test tools/ci/old-address-redirect.test.mjs
       - name: Test local package staging without private evidence
         run: python -m unittest discover -s tools/package-importer/tests -v
@@ -63,7 +63,7 @@ jobs:
       - name: Test shared thermal stage illustrations
         run: node --test recipe-atlas/tests/generic-thermal-scenes.test.mjs
       - name: Test reported protocol scenes and screenshot target contract
-        run: node --test recipe-atlas/tests/reported-protocol-scenes.test.mjs recipe-atlas/tests/reported-scene-extensions.test.mjs tools/ci/protocol-scenes-check.test.mjs recipe-atlas/tests/reported-scene-drawing.test.mjs
+        run: node --test recipe-atlas/tests/reported-protocol-scenes.test.mjs recipe-atlas/tests/reported-scene-extensions.test.mjs tools/ci/protocol-scenes-check.test.mjs tools/ci/resolve-benchmark-base.test.mjs recipe-atlas/tests/reported-scene-drawing.test.mjs
       - name: Test bounded record drawings and uniform reader copy
         run: node --test recipe-atlas/tests/protocol-record-fit.test.mjs recipe-atlas/tests/source-field-copy.test.mjs recipe-atlas/tests/reader-neutral-copy-all-records.test.mjs
       - name: Test source-scoped apparatus context
@@ -71,7 +71,9 @@ jobs:
       - name: Test reader specimen and figure isolation
         run: node --test recipe-atlas/tests/reader-revision.test.mjs
       - name: Test per-page Reader data and lazy protocol scripts
-        run: node --test recipe-atlas/tests/reader-page-data.test.mjs recipe-atlas/tests/reactor-lines.test.mjs
+        run: |
+          python -B -m unittest discover -s recipe-atlas/tests -p 'test_public_reader_parts.py' -v
+          node --test recipe-atlas/tests/reader-page-data.test.mjs recipe-atlas/tests/reactor-lines.test.mjs recipe-atlas/tests/public-reader-loader.test.mjs
       - name: Test reviewed source figure access
         run: node --test recipe-atlas/tests/reader-source-figures.test.mjs recipe-atlas/tests/reader-figure-category.test.mjs recipe-atlas/tests/reader-extracted-status.test.mjs
       - name: Test separate silver cards and field masking
@@ -133,7 +135,7 @@ jobs:
           base = os.environ['COMPARISON_BASE']
           if not base.strip('0'): base = 'HEAD^'
           paths = subprocess.check_output(['git', 'diff', '--name-only', base, 'HEAD'], text=True).splitlines()
-          methods = any(p in {'recipe-atlas/scripts/method_families.py','recipe-atlas/scripts/method_family_projection.py','recipe-atlas/scripts/build_atlas.py','recipe-atlas/static/method-families.mjs','recipe-atlas/static/reader-app.mjs','recipe-atlas/static/reader.css','recipe-atlas/templates/material-reader.html'} or p.startswith('tools/ci/method-families-') for p in paths)
+          methods = any(p in {'recipe-atlas/scripts/method_families.py','recipe-atlas/scripts/method_family_projection.py','recipe-atlas/scripts/build_atlas.py','recipe-atlas/static/method-families.mjs','recipe-atlas/static/reader-app.mjs','recipe-atlas/static/reader.css','recipe-atlas/templates/material-reader.html','tools/ci/resolve-benchmark-base.mjs','tools/ci/benchmark-base-reconciliations.json'} or p.startswith('tools/ci/method-families-') or (p.startswith('tools/ci/release') and p.endswith('-targets.json')) for p in paths)
           changed = methods or any(p in {'recipe-atlas/static/protocol-visuals.mjs', 'recipe-atlas/static/protocol-record-fit.mjs', 'recipe-atlas/static/reported-protocol-scenes.mjs', 'recipe-atlas/static/reported-scene-drawing.mjs', 'recipe-atlas/static/reported-scene-extensions.mjs'} or p.startswith('tools/ci/protocol-scenes-') for p in paths)
           print('PROTOCOL_SCENES_COMPARISON_BASE=' + base)
           print('METHOD_FAMILIES_CHANGED=' + str(int(methods)))
@@ -152,14 +154,11 @@ jobs:
           python -m http.server 8173 --bind 127.0.0.1 --directory "$RUNNER_TEMP/protocol-serve" >"$RUNNER_TEMP/protocol-server.log" 2>&1 &
           SERVER_PID=$!
           trap 'kill "$SERVER_PID"' EXIT
-          git show "${PROTOCOL_SCENES_COMPARISON_BASE}:tools/ci/protocol-scenes-targets.json" > "$RUNNER_TEMP/protocol-scenes-base-targets.json"
-          node --input-type=module -e 'import fs from "node:fs";import{execFileSync}from"node:child_process";import{beforeTargetsFromBaseSnapshot as convert,K_REGRESSION_TARGETS as rows}from"./tools/ci/protocol-scenes-check.mjs";const records=Object.fromEntries(rows.map(t=>[t.record_id,execFileSync("git",["show",process.argv[2]+":recipe-atlas/data/records/"+t.record_id+".json"])]));fs.writeFileSync(process.argv[3],JSON.stringify(convert(JSON.parse(fs.readFileSync(process.argv[1],"utf8")),records))+"\n",{flag:"wx"});' "$RUNNER_TEMP/protocol-scenes-base-targets.json" "$PROTOCOL_SCENES_COMPARISON_BASE" "$RUNNER_TEMP/protocol-scenes-before-targets.json"
+          node tools/ci/resolve-benchmark-base.mjs --base "$PROTOCOL_SCENES_COMPARISON_BASE" --protocol-out "$RUNNER_TEMP/protocol-scenes-before-targets.json" --methods-out "$RUNNER_TEMP/method-families-before-targets.json"
           node tools/ci/protocol-scenes-check.mjs --base https://cuiyist.github.io/nanoxtalsyn-site/ --out "$RUNNER_TEMP/protocol-scenes/before" --phase before --targets "$RUNNER_TEMP/protocol-scenes-before-targets.json"
           node tools/ci/protocol-scenes-check.mjs --base http://127.0.0.1:8173/nanoxtalsyn-site/ --out "$RUNNER_TEMP/protocol-scenes/after" --phase after --targets tools/ci/protocol-scenes-targets.json
           if [[ "$METHOD_FAMILIES_CHANGED" == "1" ]]; then
             mkdir -p "$RUNNER_TEMP/method-families"
-            git show "${PROTOCOL_SCENES_COMPARISON_BASE}:tools/ci/method-families-targets.json" > "$RUNNER_TEMP/method-families-base-targets.json"
-            node --input-type=module -e 'import fs from "node:fs";import {beforeTargetsFromProtocolSnapshot as convert} from "./tools/ci/method-families-check.mjs";fs.writeFileSync(process.argv[3],JSON.stringify(convert(JSON.parse(fs.readFileSync(process.argv[1],"utf8")),JSON.parse(fs.readFileSync(process.argv[2],"utf8"))))+"\n",{flag:"wx"});' "$RUNNER_TEMP/protocol-scenes-before-targets.json" "$RUNNER_TEMP/method-families-base-targets.json" "$RUNNER_TEMP/method-families-before-targets.json"
             node tools/ci/method-families-check.mjs --base https://cuiyist.github.io/nanoxtalsyn-site/ --out "$RUNNER_TEMP/method-families/before" --phase before --targets "$RUNNER_TEMP/method-families-before-targets.json"
             node tools/ci/method-families-check.mjs --base http://127.0.0.1:8173/nanoxtalsyn-site/ --out "$RUNNER_TEMP/method-families/after" --phase after --targets tools/ci/method-families-targets.json
           fi
