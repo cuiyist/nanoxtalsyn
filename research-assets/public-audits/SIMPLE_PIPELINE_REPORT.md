@@ -1,5 +1,27 @@
 # Local-corpus intake: 136 papers verified live — 15 November 2026
 
+## Fixed benchmark expectations and continued extraction — 16 November, 02:04 UTC
+
+The packaging repair now passes the complete build. CI43787069217 nevertheless
+failed its Linux BEFORE browser comparison: four desktop/phone views expected
+historical CdS/InP defaults that no longer match the deployed collection.
+The narrow correction uses exact comparison-base record hashes and immutable
+deployed metadata, not browser-result-derived expectations. All20 protocol
+targets, six material lists and their viewport/font/layout/byte checks remain.
+76 local resolver and browser-contract tests pass. A fresh CI run is required;
+41papers/67records/275figures in PR171 are still not counted live.
+
+The completed22-input batch yielded9 selected papers/16 records/67 captioned
+crops after screening, citations and the authorized rare deletion-only checks.
+The next two-input batch completed both extractions. One has six checked
+captions; the other needs recovery of figures with Russian caption labels.
+Across the pending private pool,16 papers have captioned crops and one has a
+technical crop hold. The next39-input batch is active, six successes observed.
+448 prepared inputs remain unlaunched. The overlapping20687-row dated census
+still contains unresolved identities/scope, not that many eligible papers.
+Verified intake remains136;53 previously deployed papers still await complete
+anonymous recovery verification. No scientific audit or training credit changes.
+
 ## Reader packaging repair and continued extraction — 16 November, 01:18 UTC
 
 The 41-paper/67-record/275-figure release is in PR171, not live. Its Windows

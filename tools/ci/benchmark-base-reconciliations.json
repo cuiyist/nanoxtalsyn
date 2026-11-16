@@ -1,0 +1,104 @@
+{
+  "schema": "fixed-benchmark-base-reconciliation/1",
+  "bases": {
+    "95df7dcb18150ee633e081d05c3d50babfe81c25": {
+      "prior_site_commit": "aaf44c2614dfa27d1386123be4ee1cfbd8be5af8",
+      "prior_publisher_run": 43770079194,
+      "prior_publisher_conclusion": "failure",
+      "publication_credit": 0,
+      "original_protocol_sha256": "0fa95ee3a784dd7ede45e1c43d5a5aac839c1cf1b3b3dbb7584a898a2e002507",
+      "original_methods_sha256": "9b6f8342275152782473a8036c7a1ccef6bfe4fc482925a0e6ac3ebd8d35af12",
+      "protocol_path": "tools/ci/release06-before-protocol-targets.json",
+      "protocol_sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "methods_path": "tools/ci/release06-before-method-targets.json",
+      "methods_sha256": "fb899b15bc1136c8dc4104acd71de08750d97ad442cf2d2bf5de8cbae2c166a6",
+      "changed_protocol_defaults": [
+        "default-cds",
+        "default-inp"
+      ],
+      "published_material_pins": [
+        {
+          "formula": "CdSe",
+          "path": "data/materials/cdse-d923c5.json",
+          "prior_site_sha256": "6c2bdcea11edc577f55ab1f288836bfe0ff6033742f9b78981efe9b1085657b2",
+          "prior_site_bytes": 1028621,
+          "candidate_inventory_sha256": "f8cb35b80baa1d5b469c313b7efcfe08307f132829550dcc5b0d9c77b4a49a3a",
+          "candidate_inventory_bytes": 1035808
+        },
+        {
+          "formula": "CdS",
+          "path": "data/materials/cds-fad408.json",
+          "prior_site_sha256": "055160b04734b1c91659664910474ef82a037467602a1bffaf3657149ec42aaf",
+          "prior_site_bytes": 595911,
+          "candidate_inventory_sha256": "055160b04734b1c91659664910474ef82a037467602a1bffaf3657149ec42aaf",
+          "candidate_inventory_bytes": 595911
+        },
+        {
+          "formula": "ZnS",
+          "path": "data/materials/zns-b01883.json",
+          "prior_site_sha256": "35630fc2832063453156aad74aa37a838b57ec227ffbeef5229a0db53f8bd7ad",
+          "prior_site_bytes": 566800,
+          "candidate_inventory_sha256": "cc5a5c0ae68e720b0fe50d1e9a1b381dd611da944a83bd8f5769c497d5974c5f",
+          "candidate_inventory_bytes": 568282
+        },
+        {
+          "formula": "InAs",
+          "path": "data/materials/inas-a2e691.json",
+          "prior_site_sha256": "cf6277128b9cb70f110b31d81e0063301f1964e14691b193e42644496a15aeda",
+          "prior_site_bytes": 438091,
+          "candidate_inventory_sha256": "cf6277128b9cb70f110b31d81e0063301f1964e14691b193e42644496a15aeda",
+          "candidate_inventory_bytes": 438091
+        },
+        {
+          "formula": "PbS",
+          "path": "data/materials/pbs-7e1774.json",
+          "prior_site_sha256": "ae1d4dd21bae0eab34bc7fda6eb8320cdc6cea6dbb99d1d108ebca98265bdc79",
+          "prior_site_bytes": 362581,
+          "candidate_inventory_sha256": "859dd306c306a182b73227026c48f3de21768e520a36d6a5bb38eaa5058c9b1d",
+          "candidate_inventory_bytes": 364233
+        },
+        {
+          "formula": "InP",
+          "path": "data/materials/inp-9eb58d.json",
+          "prior_site_sha256": "544b6a176f09d88a94cecdf90c2bbe855789b775d03e8673eed2684a0331f876",
+          "prior_site_bytes": 292231,
+          "candidate_inventory_sha256": "544b6a176f09d88a94cecdf90c2bbe855789b775d03e8673eed2684a0331f876",
+          "candidate_inventory_bytes": 292231
+        },
+        {
+          "formula": "Au",
+          "path": "data/materials/au-3325c2.json",
+          "prior_site_sha256": "7a3672c4f9ce8b60d6f37177fc1b98d6bb20608d3c03aa83189c7f3dfacbd626",
+          "prior_site_bytes": 181134,
+          "candidate_inventory_sha256": "7a3672c4f9ce8b60d6f37177fc1b98d6bb20608d3c03aa83189c7f3dfacbd626",
+          "candidate_inventory_bytes": 181134
+        },
+        {
+          "formula": "TiO2",
+          "path": "data/materials/tio2-ce6bfd.json",
+          "prior_site_sha256": "042fb5952fee0487898502397e8254462fd5ae314c132bd2e7eb41fe06f9c514",
+          "prior_site_bytes": 184680,
+          "candidate_inventory_sha256": "042fb5952fee0487898502397e8254462fd5ae314c132bd2e7eb41fe06f9c514",
+          "candidate_inventory_bytes": 184680
+        },
+        {
+          "formula": "GaAs",
+          "path": "data/materials/gaas-889234.json",
+          "prior_site_sha256": "b295ab43b4ea067232b5eaa62f975e3bd46a52c2db649f91160362e7b5bf6f9b",
+          "prior_site_bytes": 171104,
+          "candidate_inventory_sha256": "b295ab43b4ea067232b5eaa62f975e3bd46a52c2db649f91160362e7b5bf6f9b",
+          "candidate_inventory_bytes": 171104
+        },
+        {
+          "formula": "SnO2",
+          "path": "data/materials/sno2-0fe88f.json",
+          "prior_site_sha256": "87e2f41e3e6fa43d832377fd6c69fc1a3e72e0d22eb920872d29323d2fc3f62e",
+          "prior_site_bytes": 79871,
+          "candidate_inventory_sha256": "87e2f41e3e6fa43d832377fd6c69fc1a3e72e0d22eb920872d29323d2fc3f62e",
+          "candidate_inventory_bytes": 79871
+        }
+      ],
+      "basis": "Pinned deployed Site metadata and exact comparison-base canonical bytes; fixes stale expected defaults, not browser behavior or scientific data"
+    }
+  }
+}

@@ -17,13 +17,13 @@
       "id": "default-cds",
       "group": "benchmark-default",
       "formula": "CdS",
-      "record_id": "la703655v-oleate-capped-cds-qds-1",
+      "record_id": "shi2012-ac2033968-cds-carbon-paper-cds-synthesis",
       "route": "material.html?id=cds-fad408",
       "operation_index": 0,
-      "operation_id": "s01-heat",
-      "operation_label": "Heat sulfur in ODE under vacuum",
-      "record_json_bytes": 15303,
-      "record_json_sha256": "d014e6e8a46e56cdb8708bc0dec728df4950bafe037097945f56fce9dc992a68"
+      "operation_id": "dissolve",
+      "operation_label": "Dissolve cadmium chloride hydrate",
+      "record_json_bytes": 34962,
+      "record_json_sha256": "708dddcc5910fca9ed9f8902d0f8a124a3d7857ea4666222519847eaab7c9831"
     },
     {
       "id": "default-zns",
@@ -65,13 +65,13 @@
       "id": "default-inp",
       "group": "benchmark-default",
       "formula": "InP",
-      "record_id": "mnoyan2015-acs-langmuir-5b00847-inp-fs-qds-1",
+      "record_id": "muller2025-acs-inorgchem-5c02060-inp-qds-1",
       "route": "material.html?id=inp-9eb58d",
       "operation_index": 0,
-      "operation_id": "s01-mix",
-      "operation_label": "Mix InCl3, tris(dimethylamino)phosphine, oleyamine, and toluene",
-      "record_json_bytes": 19903,
-      "record_json_sha256": "f3fdf83bafda15866b876c18c318ed1ccb9e00d4a77e34fd9430e67a59a45fb9"
+      "operation_id": "s01-charge",
+      "operation_label": "InCl3 and K are charged into a three neck flask",
+      "record_json_bytes": 28087,
+      "record_json_sha256": "72a8a79177eefa7bcc78e1e6d5bec1e7c41443ee74481487b1c7c85f0b64040e"
     },
     {
       "id": "default-au",

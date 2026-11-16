@@ -1,3 +1,34 @@
+## Release06 benchmark snapshot repair — 16 November 2026, 02:04Z
+
+The all-folders job remains unfinished. PR171 is still open. CI43787069217
+completed its Windows build successfully and its Linux build passed, but the
+Linux BEFORE protocol capture failed four views: stale CdS/InP default pins.
+The original failed run/log remain preserved; compare-artifacts was skipped.
+No merge, new Site deployment or publication credit is claimed.
+
+The repair binds fixed BEFORE expectations to comparison-base Source95df7dcb
+and deployed Siteaaf44c26 bytes, whose prior publisher remains failed. Only the
+two observed stale defaults change; all explicit regression examples, routes,
+20 protocol targets and six method-list targets remain. AFTER fixture metadata
+comes from the hash-verified native41-paper atlas inventory. All canonical
+record and operation pins are checked before browser capture. No HTTP/geometry/
+font/viewport/hash gate is removed or retried away.76 resolver/protocol/method
+tests pass. Fresh full CI and normal publication verification are still required.
+
+Verified intake remains136papers/203records/742figures through release04.
+Release05's deployed53papers await full anonymous429recovery; release06's41
+papers/67records/275figures remain pending. Next prepared pool has17papers/
+33records/116crops, but one paper is a zero-figure technical hold: Russian
+caption labels require a source-bound crop repair.16papers have captioned crops.
+Batch41 completed22/22; its9selected papers/16records/67crops have closed
+caption and citation checks,5 rare whole-fact deletions and one source-bound
+truncated-DOI metadata correction, with all original scientific payloads kept.
+Batch42 completed2/2; two rare facts were deleted, no facts invented.
+Batch44 is active with39 inputs and6 successes observed;448 prepared inputs
+remain unlaunched. These overlap the dated20687 unresolved-entry census,
+which is not a confirmed eligible-paper count. Audited lane remains paused;
+no independent-audit or training promotion. Continue extraction and release gates.
+
 ## Release06 public Reader packaging repair — 16 November 2026, 01:18Z
 
 The all-folders job is unfinished. PR171 remains open; CI43782871020 failed

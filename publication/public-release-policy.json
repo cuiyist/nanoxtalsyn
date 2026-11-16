@@ -19,6 +19,36 @@
   "exact_blob_approval_classes": [],
   "path_rules": [
     {
+      "rule_id": "reader-fixed-benchmark-reconciliation-map-20261116",
+      "repo": "mattersyn",
+      "path_glob": "tools/ci/benchmark-base-reconciliations.json",
+      "content_class": "authored_code",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex Root: reviewed exact public CI fixture map, public commits, route identifiers and byte pins; no paper text, private paths, rights exception or scientific approval",
+      "requires_source_refs": false
+    },
+    {
+      "rule_id": "reader-release06-before-method-fixture-20261116",
+      "repo": "mattersyn",
+      "path_glob": "tools/ci/release06-before-method-targets.json",
+      "content_class": "authored_code",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex Root: reviewed fixed public comparison-base method fixture; existing route identifiers, grouping counts and checksums only; no paper text, private paths or scientific approval",
+      "requires_source_refs": false
+    },
+    {
+      "rule_id": "reader-release06-before-protocol-fixture-20261116",
+      "repo": "mattersyn",
+      "path_glob": "tools/ci/release06-before-protocol-targets.json",
+      "content_class": "authored_code",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex Root: reviewed fixed public comparison-base protocol fixture; existing public route, record, operation labels and exact byte pins only; no paper text, private paths or scientific approval",
+      "requires_source_refs": false
+    },
+    {
       "rule_id": "reader-n-project-rename-index-20261109",
       "repo": "mattersyn",
       "path_glob": "tools/old-address-redirect/index.html",

@@ -1,0 +1,91 @@
+{
+  "schema": "mattersyn-method-family-targets/2",
+  "preview_policy": "three-families-two-papers/1",
+  "phase": "after",
+  "targets": [
+    {
+      "id": "method-list-cdse",
+      "formula": "CdSe",
+      "material_id": "cdse-d923c5",
+      "route": "cdse.html",
+      "default_record_id": "krueger2005-cdse-ac0481912-ode-dots",
+      "record_json_bytes": 119175,
+      "record_json_sha256": "c5260d8b6a85bed975f990e3f6130c0b7394ebbf1bde60e1d5fcf42c55d4a897",
+      "family_metadata_sha256": "9c484eab64a790bb2e2f6a052e31cf89779dd20c967dddd392c7dc213ac306e9",
+      "family_count": 25,
+      "paper_card_count": 508,
+      "first_family_id": "method-family-1845d19817b0",
+      "first_family_papers": 28
+    },
+    {
+      "id": "method-list-cds",
+      "formula": "CdS",
+      "material_id": "cds-fad408",
+      "route": "material.html?id=cds-fad408",
+      "default_record_id": "shi2012-ac2033968-cds-carbon-paper-cds-synthesis",
+      "record_json_bytes": 34962,
+      "record_json_sha256": "708dddcc5910fca9ed9f8902d0f8a124a3d7857ea4666222519847eaab7c9831",
+      "family_metadata_sha256": "0b362091e0601600868a5082d5157d2ba0dfd229032f692db3851e8b372eef83",
+      "family_count": 23,
+      "paper_card_count": 264,
+      "first_family_id": "method-family-7d352dcf2da9",
+      "first_family_papers": 7
+    },
+    {
+      "id": "method-list-zns",
+      "formula": "ZnS",
+      "material_id": "zns-b01883",
+      "route": "material.html?id=zns-b01883",
+      "default_record_id": "li2010-ie901086d-mps-replaced-zns-qds-1",
+      "record_json_bytes": 21422,
+      "record_json_sha256": "edb6158b01812b7e09a76a08f5d5be2640bb393190bd4a0a246da2304c9145de",
+      "family_metadata_sha256": "30e679dc913ba409c82282987d0dcbfa5e63d6c5f78c2d787933bec9471af830",
+      "family_count": 11,
+      "paper_card_count": 283,
+      "first_family_id": "method-family-6b8eaef748d8",
+      "first_family_papers": 3
+    },
+    {
+      "id": "method-list-inas",
+      "formula": "InAs",
+      "material_id": "inas-a2e691",
+      "route": "material.html?id=inas-a2e691",
+      "default_record_id": "zhang2006-1-2201452-ten-period-inas-quantum-dot-multilayer-s-1",
+      "record_json_bytes": 18675,
+      "record_json_sha256": "aad3a92919fd4b5fcaada5993e2312c9dd814cdfb1fe4f632b7fb2d17fec6201",
+      "family_metadata_sha256": "5fe8cdd32c24f4f7d98f992e0eef8134a62c5a4e18311ae152f6145a38b1b41e",
+      "family_count": 14,
+      "paper_card_count": 225,
+      "first_family_id": "method-family-f8b2a54165e7",
+      "first_family_papers": 49
+    },
+    {
+      "id": "method-list-pbs",
+      "formula": "PbS",
+      "material_id": "pbs-7e1774",
+      "route": "material.html?id=pbs-7e1774",
+      "default_record_id": "yarema2017-underpressure-chemmater6b04789-pbs-large-6p25",
+      "record_json_bytes": 53603,
+      "record_json_sha256": "ebe57c176536638e91dcf1139f352bf4afc9867132fc19188b34a7258b74b6ce",
+      "family_metadata_sha256": "c00df67d44c525f0cbb2a70bc605954d92bdb5fd3bf36878a0f22821a1508112",
+      "family_count": 23,
+      "paper_card_count": 150,
+      "first_family_id": "method-family-fefdde1ebc00",
+      "first_family_papers": 14
+    },
+    {
+      "id": "method-list-au",
+      "formula": "Au",
+      "material_id": "au-3325c2",
+      "route": "material.html?id=au-3325c2",
+      "default_record_id": "henkel2009-au-aucu-jp810979r-au-nanorod",
+      "record_json_bytes": 29884,
+      "record_json_sha256": "37acc411d20b46c564934415be369f72bd605bac30abe8fa4455ecab9034ae43",
+      "family_metadata_sha256": "2d2580c66a8570f8f1c10245e513a168fb359d3950ab9380538124c674c7597e",
+      "family_count": 21,
+      "paper_card_count": 88,
+      "first_family_id": "method-family-9877682ccaee",
+      "first_family_papers": 5
+    }
+  ]
+}

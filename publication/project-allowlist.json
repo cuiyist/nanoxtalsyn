@@ -1,18 +1,18 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-r06-public-reader-multipart-20261116",
+  "release_id": "tanjin-r06-fixed-benchmark-snapshots-r02-20261116",
   "repo": "mattersyn",
-  "source_commit": "4f8debabd3f0dda5aa33f14983c2949c73c7e3bf",
+  "source_commit": "d29096b19fc9bde8a9743ac8de0af60c4ecd6fbe",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "8ce1f73e472e08c1270df6b9cc5e948806e762e85b282f0543056d0766f0b46a",
-    "file_count": 60326,
+    "sha256": "96ea81265a7241e1c05736afac386e7fb9a235af2c47226143118c74269e5190",
+    "file_count": 60331,
     "excludes": [
       "publication/project-allowlist.json"
     ]
   },
-  "policy_sha256": "0ee5bf23966a25e1176ace05e5cfab22d5a39bcc438214d10cc2d86a9f499562",
+  "policy_sha256": "46d21de0fc205ece406bd1ebfdef610075af2b1f0efeccd35bb3a1d28229a597",
   "asset_rights_registry_sha256": "884aecc00f1e253f2662755fa05c9a22b5ac5935591e3292fe28cd629b02e40c",
   "review_scope": "Exact staged payload identities. Scientific review remains separately bound to paper content.",
   "files": [
@@ -42,13 +42,13 @@
     },
     {
       "path": ".github/workflows/validate-project.yml",
-      "sha256": "6aba919c400b482f411351aa4db1a68bed4a71d94024cb48341e77c43f4ab154",
-      "bytes": 16005,
+      "sha256": "9058f47b72f2ab1eba0de4a30dc2cecfaae67019bb79b68ab78077083100ffd4",
+      "bytes": 14978,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-public-reader-packaging-and-cache-engineering-review",
-      "reviewed_at": "2026-11-16T01:26:24+00:00",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -66,13 +66,13 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "add3c1877dfc48abccce5e06b7071af38940f618d693035e567284fc5c998167",
-      "bytes": 1182902,
+      "sha256": "6456d7efbfb00eb2412732d78755e5cf0bf1716d40cb6654ee77d28334686aca",
+      "bytes": 1184964,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-public-reader-packaging-and-cache-engineering-review",
-      "reviewed_at": "2026-11-16T01:26:24+00:00",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
       "content_class": "memory",
       "source_refs": []
     },
@@ -138,13 +138,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "c6880b8cdf6118ae365c8bf5acf1c8b906544799e2c438646d483e01281cd4fb",
-      "bytes": 13615017,
+      "sha256": "40c6d6944ef976f34c2517956836a6c81ce02ae9ed40da7481113bd892d98d5e",
+      "bytes": 13615910,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T01:26:58.358536+00:00",
+      "reviewed_at": "2026-11-16T02:16:10.807740+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -163,13 +163,13 @@
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "0ee5bf23966a25e1176ace05e5cfab22d5a39bcc438214d10cc2d86a9f499562",
-      "bytes": 289865,
+      "sha256": "46d21de0fc205ece406bd1ebfdef610075af2b1f0efeccd35bb3a1d28229a597",
+      "bytes": 291421,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T00:42:38+00:00",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -122737,7 +122737,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-16T01:26:58.358536+00:00",
+      "reviewed_at": "2026-11-16T02:16:10.807740+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1117071,13 +1117071,13 @@
     },
     {
       "path": "research-assets/curation-control.json",
-      "sha256": "9a985d39587052fd7561714ff0af944a837608a480be9f94bff46fea7a4a5bc7",
-      "bytes": 2580759,
+      "sha256": "98f5d35a91f4ad2c9b202e9f5a8dedf9d0c06bc1ae21608f3b73d4b98e333669",
+      "bytes": 2582086,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-public-reader-packaging-and-cache-engineering-review",
-      "reviewed_at": "2026-11-16T01:26:24+00:00",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -1140562,13 +1140562,13 @@
     },
     {
       "path": "research-assets/public-audits/SIMPLE_PIPELINE_REPORT.md",
-      "sha256": "772c7a1b5ee8778c29fb0787266dbd63c8b7b65677298fd4508f166a652c78a5",
-      "bytes": 820485,
+      "sha256": "eda70d7a2c58c07d167b57dfd8315a9a3e96898e775a062fbc108a3dfe860ce5",
+      "bytes": 821951,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-public-reader-packaging-and-cache-engineering-review",
-      "reviewed_at": "2026-11-16T01:26:24+00:00",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
       "content_class": "authored_docs",
       "source_refs": []
     },
@@ -1143395,6 +1143395,18 @@
       "source_refs": []
     },
     {
+      "path": "tools/ci/benchmark-base-reconciliations.json",
+      "sha256": "5a70df69a8aed29696bbb09a1ece6173e5ab53bf93d5907fd4ddb641a26756fb",
+      "bytes": 5077,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
       "path": "tools/ci/brand-name-identifiers.json",
       "review_status": "approved",
       "reviewer": "Root: exact current asset attribution display and one proven schema identifier; record bytes preserved",
@@ -1143470,15 +1143482,15 @@
     },
     {
       "path": "tools/ci/method-families-targets.json",
-      "sha256": "9b6f8342275152782473a8036c7a1ccef6bfe4fc482925a0e6ac3ebd8d35af12",
-      "bytes": 3711,
+      "sha256": "90eaa05bd2d3523043dacf53861055112a89b7c1fbe7addb42f8cd1a269492ad",
+      "bytes": 3727,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized J reader grouping code and display metadata; no scientific record approval",
-      "reviewed_at": "2026-11-08T19:43:57.092803+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "tools/ci/old-address-redirect.test.mjs",
@@ -1143518,15 +1143530,63 @@
     },
     {
       "path": "tools/ci/protocol-scenes-targets.json",
-      "sha256": "0fa95ee3a784dd7ede45e1c43d5a5aac839c1cf1b3b3dbb7584a898a2e002507",
-      "bytes": 10608,
+      "sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "bytes": 10610,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized K reader drawing, wording and display code; no scientific record approval",
-      "reviewed_at": "2026-11-08T22:27:07.011648+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/release06-before-method-targets.json",
+      "sha256": "fb899b15bc1136c8dc4104acd71de08750d97ad442cf2d2bf5de8cbae2c166a6",
+      "bytes": 3727,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/release06-before-protocol-targets.json",
+      "sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "bytes": 10610,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/resolve-benchmark-base.mjs",
+      "sha256": "f968420a18fdd9aa341d2f715b46eec69b1db8e7f661d9e038170f672075ad29",
+      "bytes": 5672,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/resolve-benchmark-base.test.mjs",
+      "sha256": "57c8389571a5b717cff196672b39b5114b5a4f19e70690affb286d564f0d0eb9",
+      "bytes": 2830,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex-root-exact-public-CI-fixture-path-review",
+      "reviewed_at": "2026-11-16T02:15:46+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "tools/ci/site-pages-check.mjs",

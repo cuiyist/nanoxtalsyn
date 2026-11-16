@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-r06-public-reader-multipart-20261116",
-  "updated_at": "2026-11-16T01:26:58.358536+00:00",
+  "release_id": "tanjin-r06-fixed-benchmark-snapshots-r02-20261116",
+  "updated_at": "2026-11-16T02:16:10.807740+00:00",
   "record_count": 7221,
   "input_files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": ".github/workflows/validate-project.yml",
-      "sha256": "6aba919c400b482f411351aa4db1a68bed4a71d94024cb48341e77c43f4ab154",
-      "bytes": 16005
+      "sha256": "9058f47b72f2ab1eba0de4a30dc2cecfaae67019bb79b68ab78077083100ffd4",
+      "bytes": 14978
     },
     {
       "path": ".gitignore",
@@ -26,8 +26,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "add3c1877dfc48abccce5e06b7071af38940f618d693035e567284fc5c998167",
-      "bytes": 1182902
+      "sha256": "6456d7efbfb00eb2412732d78755e5cf0bf1716d40cb6654ee77d28334686aca",
+      "bytes": 1184964
     },
     {
       "path": "PUBLICATION.md",
@@ -61,8 +61,8 @@
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "0ee5bf23966a25e1176ace05e5cfab22d5a39bcc438214d10cc2d86a9f499562",
-      "bytes": 289865
+      "sha256": "46d21de0fc205ece406bd1ebfdef610075af2b1f0efeccd35bb3a1d28229a597",
+      "bytes": 291421
     },
     {
       "path": "publication/repository-readmes/nanoxtalsyn2.md",
@@ -289841,8 +289841,8 @@
     },
     {
       "path": "research-assets/curation-control.json",
-      "sha256": "9a985d39587052fd7561714ff0af944a837608a480be9f94bff46fea7a4a5bc7",
-      "bytes": 2580759
+      "sha256": "98f5d35a91f4ad2c9b202e9f5a8dedf9d0c06bc1ae21608f3b73d4b98e333669",
+      "bytes": 2582086
     },
     {
       "path": "research-assets/deep-review-20260917/import_reviews.py",
@@ -299626,8 +299626,8 @@
     },
     {
       "path": "research-assets/public-audits/SIMPLE_PIPELINE_REPORT.md",
-      "sha256": "772c7a1b5ee8778c29fb0787266dbd63c8b7b65677298fd4508f166a652c78a5",
-      "bytes": 820485
+      "sha256": "eda70d7a2c58c07d167b57dfd8315a9a3e96898e775a062fbc108a3dfe860ce5",
+      "bytes": 821951
     },
     {
       "path": "research-assets/public-audits/WEBSITE_WORK_CHECKPOINT_2026-10-09.md",
@@ -300725,6 +300725,11 @@
       "bytes": 7534
     },
     {
+      "path": "tools/ci/benchmark-base-reconciliations.json",
+      "sha256": "5a70df69a8aed29696bbb09a1ece6173e5ab53bf93d5907fd4ddb641a26756fb",
+      "bytes": 5077
+    },
+    {
       "path": "tools/ci/brand-name-identifiers.json",
       "sha256": "ba62176b8855ad0279f7a29633b2fc9255dba1bf6b9fbc9f44d105ad9fc3955e",
       "bytes": 68279
@@ -300756,8 +300761,8 @@
     },
     {
       "path": "tools/ci/method-families-targets.json",
-      "sha256": "9b6f8342275152782473a8036c7a1ccef6bfe4fc482925a0e6ac3ebd8d35af12",
-      "bytes": 3711
+      "sha256": "90eaa05bd2d3523043dacf53861055112a89b7c1fbe7addb42f8cd1a269492ad",
+      "bytes": 3727
     },
     {
       "path": "tools/ci/old-address-redirect.test.mjs",
@@ -300776,8 +300781,28 @@
     },
     {
       "path": "tools/ci/protocol-scenes-targets.json",
-      "sha256": "0fa95ee3a784dd7ede45e1c43d5a5aac839c1cf1b3b3dbb7584a898a2e002507",
-      "bytes": 10608
+      "sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "bytes": 10610
+    },
+    {
+      "path": "tools/ci/release06-before-method-targets.json",
+      "sha256": "fb899b15bc1136c8dc4104acd71de08750d97ad442cf2d2bf5de8cbae2c166a6",
+      "bytes": 3727
+    },
+    {
+      "path": "tools/ci/release06-before-protocol-targets.json",
+      "sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "bytes": 10610
+    },
+    {
+      "path": "tools/ci/resolve-benchmark-base.mjs",
+      "sha256": "f968420a18fdd9aa341d2f715b46eec69b1db8e7f661d9e038170f672075ad29",
+      "bytes": 5672
+    },
+    {
+      "path": "tools/ci/resolve-benchmark-base.test.mjs",
+      "sha256": "57c8389571a5b717cff196672b39b5114b5a4f19e70690affb286d564f0d0eb9",
+      "bytes": 2830
     },
     {
       "path": "tools/ci/site-pages-check.mjs",
