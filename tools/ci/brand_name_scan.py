@@ -11,6 +11,7 @@ import datetime
 import email.utils
 import functools
 import hashlib
+import http.client
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -256,7 +257,8 @@ def classify(relative,raw,records,identifiers,exact_tokens,load_record=None):
 def transient(error):
     if isinstance(error, urllib.error.HTTPError):
         return error.code == 429 or 500 <= error.code < 600
-    return isinstance(error.reason if isinstance(error, urllib.error.URLError) else error, (TimeoutError, ConnectionResetError))
+    return isinstance(error.reason if isinstance(error, urllib.error.URLError) else error,
+                      (TimeoutError, ConnectionResetError, http.client.IncompleteRead))
 
 
 def anonymous_bytes(url, expected_bytes):
@@ -264,7 +266,15 @@ def anonymous_bytes(url, expected_bytes):
     with urllib.request.urlopen(request, timeout=60) as response:
         final = urllib.parse.urlsplit(response.geturl()); base = urllib.parse.urlsplit(NEW_BASE)
         need(response.status == 200 and final.scheme == base.scheme and final.netloc == base.netloc and final.path == urllib.parse.urlsplit(url).path, 'Unexpected public response/redirect')
-        return response.read(expected_bytes + 1)
+        raw = response.read(expected_bytes + 1)
+        # HTTPResponse.read(amt) can return a short body without raising when
+        # EOF arrives before Content-Length. Treat only a proven transport
+        # truncation as transient; complete wrong bytes still fail closed.
+        length = response.headers.get('Content-Length', '')
+        if (len(raw) < expected_bytes and re.fullmatch(r'[0-9]+', length)
+                and int(length) == expected_bytes):
+            raise http.client.IncompleteRead(raw, expected_bytes - len(raw))
+        return raw
 
 
 def retry_after_seconds(error, wall_time=time.time):
