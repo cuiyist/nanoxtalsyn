@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-release10-test-dependencies-20261117-r01",
+  "release_id": "tanjin-release10-test-fixture-20261117-r02",
   "repo": "mattersyn",
-  "source_commit": "467112e42d488616cef78a18f4479289cf53bc6b",
+  "source_commit": "763c32a7d8d43c24a6ff694b6bf3d99a87e23133",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "8df9e081bfe72599d631eb2d8671293b82f38d9643f638f5a982eee9d94c321e",
+    "sha256": "611d4dc5122d32244b024a1cb11235af323a22dcae838494a14f630cd9879aaa",
     "file_count": 62854,
     "excludes": [
       "publication/project-allowlist.json"
@@ -138,13 +138,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "e667e752e0083a40b4babfca0eb123fc339a32660587e317698e7a314c8af349",
-      "bytes": 14183318,
+      "sha256": "887b34835d4012857e38d85c7dfea9bfe1f58efb012a36a29011e78b54a2335f",
+      "bytes": 14183313,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T10:43:07.342330+00:00",
+      "reviewed_at": "2026-11-17T10:54:19.252417+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -125905,7 +125905,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T10:43:07.342330+00:00",
+      "reviewed_at": "2026-11-17T10:54:19.252417+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1182555,13 +1182555,13 @@
     },
     {
       "path": "tools/publication/test_one_build.py",
-      "sha256": "940a7a472c050d7fc31d19bab66b9ac8eca5cdc71d0e1e22683c64419a942a79",
-      "bytes": 27959,
+      "sha256": "16374d81a2a826e408344450b728a72ce0d873cbaa1e001ef79680d27dc2d706",
+      "bytes": 28532,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-12T13:08:06+00:00",
+      "reviewer": "Codex-root-publication-fixture-dependency-review",
+      "reviewed_at": "2026-11-17T10:53:47+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

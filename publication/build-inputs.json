@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-release10-test-dependencies-20261117-r01",
-  "updated_at": "2026-11-17T10:43:07.342330+00:00",
+  "release_id": "tanjin-release10-test-fixture-20261117-r02",
+  "updated_at": "2026-11-17T10:54:19.252417+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -313746,8 +313746,8 @@
     },
     {
       "path": "tools/publication/test_one_build.py",
-      "sha256": "940a7a472c050d7fc31d19bab66b9ac8eca5cdc71d0e1e22683c64419a942a79",
-      "bytes": 27959
+      "sha256": "16374d81a2a826e408344450b728a72ce0d873cbaa1e001ef79680d27dc2d706",
+      "bytes": 28532
     },
     {
       "path": "tools/publication/test_one_build_inventory.py",
