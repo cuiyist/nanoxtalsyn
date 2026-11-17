@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "program": "owner-20261116-completeness",
+  "adopted_check_variant": 5,
+  "decision_sha256": "18f0e838ceff162b4dd354ffcc92a0af6b18647ac1ab34909dba68beaa799229",
+  "report": "research-assets/public-audits/RECIPE_COMPLETENESS_FT_20261117.md",
+  "held_out_papers": 50,
+  "accuracy": {"correct": 896, "total": 901},
+  "added_accuracy": {"correct": 149, "total": 151},
+  "completeness": {"present": 1765, "audited_occurrences": 5208},
+  "optical_fields": ["emission_peak", "plqy"],
+  "optical_gates": {
+    "absorption_peak": {"correct": 19, "total": 21, "convert": false},
+    "emission_peak": {"correct": 14, "total": 14, "convert": true},
+    "plqy": {"correct": 9, "total": 9, "convert": true}
+  },
+  "reading_variant": "R0",
+  "new_paper_intake": "paused_until_T4"
+}

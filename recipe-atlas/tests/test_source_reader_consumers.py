@@ -10,6 +10,7 @@ import importlib.util
 import json
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -18,6 +19,7 @@ from test_source_reader_multipart import legacy, new, public, sample, REPO
 
 
 def module(name,relative):
+    sys.path.insert(0,str((REPO/relative).parent))
     spec=importlib.util.spec_from_file_location(name,REPO/relative)
     result=importlib.util.module_from_spec(spec);spec.loader.exec_module(result)
     return result

@@ -14,6 +14,9 @@ sys.path.insert(0, str(ROOT / 'recipe-atlas/scripts'))
 
 
 def load(name, relative):
+    # A file-based loader must resolve the module's declared sibling imports
+    # in the same isolated repository layout used by the real candidate build.
+    sys.path.insert(0, str((ROOT / relative).parent))
     spec = importlib.util.spec_from_file_location(name, ROOT / relative)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
