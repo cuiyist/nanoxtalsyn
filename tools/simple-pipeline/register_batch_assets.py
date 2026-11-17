@@ -57,7 +57,15 @@ def public_asset(atlas, path, expected):
     return raw
 
 
-def register(repo, record_ids, recorded_at, direction_id, reviewer, guard, apply=False):
+def register(repo, record_ids, recorded_at, direction_id, reviewer, guard, apply=False, new_name_card_paths=None):
+    # Revision-only extension: unchanged, already-approved figures/apparatus do
+    # not need new provenance rows. An explicit nonempty set can register only
+    # newly generated, canonically bound name-card assets through the same gate.
+    if new_name_card_paths is not None:
+        if (not isinstance(new_name_card_paths,set) or not new_name_card_paths
+            or any(not isinstance(p,str) or not re.fullmatch(r'assets/chemical-registry/svg/name-card-[a-z0-9-]+\.svg',p)
+                   for p in new_name_card_paths)):
+            raise ValueError('Revision asset selection must name exact generated name-card paths')
     repo = Path(repo); atlas = repo / 'recipe-atlas'
     registry_path = repo / 'publication/asset-rights-registry.json'
     policy_path = repo / 'publication/public-release-policy.json'
@@ -100,7 +108,7 @@ def register(repo, record_ids, recorded_at, direction_id, reviewer, guard, apply
         provenance = {'paper_id': sid, 'doi': doi, 'record_ids': [rid], 'review_status': 'source_extracted',
                       'source_record_sha256': digest(record_path.read_bytes()), 'note': 'Source-extracted facts and page locators; no independent audit asserted.'}
         base_binding = {'doi': doi, 'url': 'https://doi.org/' + doi}
-        for fig in meta.get('figures') or []:
+        for fig in (meta.get('figures') or []) if new_name_card_paths is None else []:
             path, expected = fig.get('public_asset'), fig.get('public_asset_sha256')
             locator = fig.get('source_locator') or {}
             match = re.fullmatch(r'assets/paper-reviews/([a-z0-9][a-z0-9_-]*)/((?:figure|table|scheme|chart)-s?[1-9][0-9]*[a-z]?)\.(?:png|jpe?g|webp)', path or '')
@@ -125,7 +133,7 @@ def register(repo, record_ids, recorded_at, direction_id, reviewer, guard, apply
             add(path, expected, 'source_figure', binding, provenance, rights, 'source_extracted')
         art = meta.get('protocol_art') or {}
         operations = {o['id']: o for o in record.get('operations') or []}
-        for item in art.get('bindings') or []:
+        for item in (art.get('bindings') or []) if new_name_card_paths is None else []:
             opid = item.get('operation_id')
             if art.get('record_id') != rid or opid not in operations: raise ValueError(f'diagram operation differs: {rid}')
             path = item.get('asset_path')
@@ -141,9 +149,12 @@ def register(repo, record_ids, recorded_at, direction_id, reviewer, guard, apply
             if not entry or entry.get('depictionKind') != 'formula' or entry.get('model3dPath'):
                 raise ValueError(f'name card differs: {rid}')
             path = 'assets/chemical-registry/' + entry['svgPath']
+            if new_name_card_paths is not None and path not in new_name_card_paths:continue
             add(path, entry['assetHashes']['svgPath'], 'generated_artwork', base_binding, provenance,
                 {'status': 'not_source_derived', 'attribution': 'NanoXtalSyn authored chemical name card; no molecular connectivity asserted.'})
 
+    if new_name_card_paths is not None and {p for p,h in candidates}!=new_name_card_paths:
+        raise ValueError('Requested name card lacks a selected canonical chemical binding')
     index = guard._build_asset_indexes(registry)[1]
     added_assets = added_rules = 0
     for (path, asset_hash), (asset, raw) in sorted(candidates.items()):

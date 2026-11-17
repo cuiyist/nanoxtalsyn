@@ -1,4 +1,10 @@
-## Current checkpoint — 16 November 2026 America/Chicago
+## Current checkpoint — 17 November 2026: recipe completeness F/T
+
+The already-read release10 is verified live at Source `0a5c3aebfcd27e7d82a6a9bfd7c338ad821310c8` / Site `9e2dbbc77e4f70e24233ee24c75cca529dc10755` (PR177, publisher44079884776, Pages44087525621). It adds37papers/49source_extracted records/182crops; cumulative local intake403papers/618records/2145crops. No audit or training promotion.
+
+Owner November16 F/T: F1 diagnostic and fixed-set F4 decision are complete. Adopt V5; held-out accuracy896/901, added-value accuracy149/151, completeness1765/5208 versus V0's1489/5208. F5 enables checked emission and quantum yield; absorption remains held. See [the quote-free F/T report](research-assets/public-audits/RECIPE_COMPLETENESS_FT_20261117.md) for denominators, limitations and field results. F6 has2881 protected private revision candidates across2019papers; the first40papers/66revisions are prepared locally, not yet published. Existing reviewed records, figures, identities and training exclusions are preserved. T is not started; new-paper intake stays paused until F5/T4. Audit/Worker lanes and five older owner holds remain paused. Later verified release receipts, not this candidate count, establish publication.
+
+## Historical checkpoint — 16 November 2026 America/Chicago
 
 Release09 and separate07/08 recoveries are verified at Source4ebfb6837190ae7e238bf10070d2ca88682ded51 / Site18ec29cbe5bb462e7e02b3f01e442b4e7d07217c (publisher43988234903, Pages43994490253): intake366papers/569records/1963crops, source_extracted/training0. Final already-read pool59–63 is37papers/49records/182crops, locally integrated but not live; earliest normal12hrelease boundary2026-11-17T10:12:34.657678Z. New intake64+ is paused for ownerNovember16 FthenT; do not resume until F5/T4. No F/T measurements yet; audited/Worker lanes stay paused. Original failed transfer/crop receipts remain historical; four recovery-base fields advance without dropping2312required paths. Full details and exact DOI accounting stay in the single public simple-pipeline report and paper index, with private hash-bound closures.
 

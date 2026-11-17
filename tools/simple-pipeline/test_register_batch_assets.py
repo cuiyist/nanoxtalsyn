@@ -66,6 +66,23 @@ class RegistrationTest(unittest.TestCase):
     def run_registration(self, apply=True):
         return helper.register(self.repo, [self.rid], '2026-10-10T22:00:00Z', 'owner-simple-lane-20261010-evening', 'Synthetic delivery reviewer', guard, apply)
 
+    def test_revision_name_card_only_uses_same_asset_gate(self):
+        path='assets/chemical-registry/svg/name-card-synthetic.svg'
+        result=helper.register(self.repo,[self.rid],'2026-11-17T00:00:00Z','owner-completeness','Fixture',guard,True,{path})
+        self.assertEqual(result['assets_checked'],1);self.assertEqual(result['new_assets'],1)
+        self.assertEqual(set(result['source_refs_by_source_path']),{'recipe-atlas/static/'+path})
+        self.assertEqual(helper.read(self.registry_path)['assets'][0],self.old)
+
+    def test_revision_unbound_card_fails_without_writes(self):
+        before=self.registry_path.read_bytes()
+        with self.assertRaisesRegex(ValueError,'lacks'):
+            helper.register(self.repo,[self.rid],'now','owner','Fixture',guard,True,{'assets/chemical-registry/svg/name-card-unbound.svg'})
+        self.assertEqual(self.registry_path.read_bytes(),before)
+
+    def test_revision_cannot_select_arbitrary_asset(self):
+        with self.assertRaisesRegex(ValueError,'exact generated'):
+            helper.register(self.repo,[self.rid],'now','owner','Fixture',guard,True,{self.fig_path})
+
     def test_exact_entries_and_rules_keep_existing_entries_unchanged(self):
         result = self.run_registration()
         self.assertEqual(result['new_assets'], 3)

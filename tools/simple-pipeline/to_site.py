@@ -15,6 +15,7 @@ import argparse, html, json, re, sys, unicodedata
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'recipe-atlas/scripts'))
 from reader_presentation_registry import load_reviewed_reader, source_paths, write_reviewed_reader
+from completeness_policy import calibrated_policy, is_checked_document
 
 REVIEW_SCOPE = ('Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was '
                 'produced by two separate local-model extraction passes that agree. It has not been independently audited.')
@@ -536,9 +537,18 @@ def selected_pair_input(a, path):
     return doc, ordinals
 
 
+def checked_builder(doc, include_optical=False):
+    """Keep legacy conversion reproducible; select F5 only for bound policy docs."""
+    policy = calibrated_policy(doc)
+    if policy is None:
+        return Builder(doc, include_optical)
+    from completeness_conversion import builder_class
+    return builder_class(Builder)(doc, include_optical)
+
+
 def records_of(doc, include_optical=False, original_ordinals=None):
     """(builder, [records]) for the pairs that describe a synthesis."""
-    builder = Builder(doc, include_optical)
+    builder = checked_builder(doc, include_optical)
     usable = [(n, p) for n, p in original_ordinal_pairs(doc, original_ordinals) if (p.get('recipe') or {}).get('steps') or (p.get('recipe') or {}).get('chemicals')]
     records = []
     builder.omitted_composition_indices = []
@@ -704,7 +714,7 @@ def cmd_sync(a):
     inventory = json.loads((atlas / 'data/inventory-evidence.json').read_text(encoding='utf-8'))
     for f in sorted(pairs_dir.glob('*.pairs.json')):
         doc, original_ordinals = selected_pair_input(a, f)
-        if doc.get('check') != 'two passes agree, quotes found':
+        if not is_checked_document(doc):
             print(f'{doc.get("id") or f.stem}: not two-pass checked; left out'); continue
         builder, records = records_of(doc, a.include_optical, original_ordinals=original_ordinals)
         sid = builder.source_id
@@ -821,7 +831,7 @@ def inventory_entry(builder, doc, record_ids):
                            'actual_pages_visually_read': [], 'all_text_read': bool(pages) and len(pages) == doc.get('page_count'), 'all_visually_reviewed': False,
                            'scope': 'Pages selected automatically as describing the synthesis and the product.'}],
             'evidence_locator': f'data/records/{record_ids[0]}.json', 'paper_review_url': None, 'main_status': 'extracted_not_expert_reviewed',
-            'si_status': 'not_read', 'notes': [REVIEW_SCOPE], 'record_ids': record_ids}
+            'si_status': 'not_read', 'notes': [getattr(builder, 'review_scope', REVIEW_SCOPE)], 'record_ids': record_ids}
 
 
 def cmd_records(a):
@@ -835,7 +845,7 @@ def cmd_records(a):
     on_site = {p['doi'].lower() for p in inventory['per_paper'] if p.get('doi') and p.get('review_status') != 'source_extracted'}
     for f in sorted(Path(a.pairs).glob('*.pairs.json')):
         doc, original_ordinals = selected_pair_input(a, f)
-        if doc.get('check') != 'two passes agree, quotes found':
+        if not is_checked_document(doc):
             print(f'{doc.get("id") or f.stem}: not two-pass checked; left out'); continue
         builder, records = records_of(doc, a.include_optical, original_ordinals=original_ordinals); ids = []
         if (doc.get('doi') or '').lower() in on_site:

@@ -123,7 +123,7 @@ def summary(documents, checks, known_dois=(), known_sources=None, existing_route
             except (OSError, ValueError):
                 found = False
             row['figure_files_found' if found else 'missing_figure_files'] += 1
-        if doc.get('check') != CHECK:
+        if not to_site.is_checked_document(doc):
             row['status'] = 'not_two_pass_checked'; continue
         if not row['doi']:
             row['status'] = 'missing_or_invalid_doi'; continue
