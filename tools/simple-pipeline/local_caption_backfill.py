@@ -17,7 +17,7 @@ def read(p):
     if Path(p).name=='reader-presentation-reviewed.json' and Path(p).parent.name=='data':return load_reviewed_reader(p)
     return json.loads(Path(p).read_text(encoding='utf-8-sig'))
 def write(p,v):
-    if Path(p).name=='reader-presentation-reviewed.json' and Path(p).parent.name=='data' and Path(p).is_file() and len(source_paths(p))==2:
+    if Path(p).name=='reader-presentation-reviewed.json' and Path(p).parent.name=='data':
         write_reviewed_reader(p,v);return
     p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_name(p.name+'.caption-tmp')
     # Keep the large Reader compact after caption application; other payloads keep their style.

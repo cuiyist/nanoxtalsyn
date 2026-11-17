@@ -51,13 +51,14 @@ def public_figure_caption(figure):
 
 def dump_like(path, data):
     """Write JSON in the style the file already has (line endings, final newline), so only real changes show up."""
-    if Path(path).name=='reader-presentation-reviewed.json' and Path(path).parent.name=='data' and Path(path).is_file() and len(source_paths(path))==2:
-        write_reviewed_reader(path,data);return
     raw = Path(path).read_bytes() if Path(path).is_file() else b'\n'
     # Compact only the large Reader sidecar; canonical/generic JSON stays unchanged.
     options = {'separators': (',', ':')} if Path(path).name == 'reader-presentation-reviewed.json' else {'indent': 2}
     text = json.dumps(data, ensure_ascii=False, **options) + ('\n' if raw.endswith(b'\n') else '')
-    Path(path).write_bytes(text.replace('\n', '\r\n').encode('utf-8') if b'\r\n' in raw else text.encode('utf-8'))
+    encoded = text.replace('\n', '\r\n').encode('utf-8') if b'\r\n' in raw else text.encode('utf-8')
+    if Path(path).name=='reader-presentation-reviewed.json' and Path(path).parent.name=='data':
+        write_reviewed_reader(path,data,legacy_raw=encoded);return
+    Path(path).write_bytes(encoded)
 
 
 def slug(text, limit=60):

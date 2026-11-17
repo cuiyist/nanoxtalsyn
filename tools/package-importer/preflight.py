@@ -453,7 +453,7 @@ def run(candidate, base, new_ids, scoped_manifest=None):
     def checked(path):
         inputs[path.relative_to(candidate).as_posix()]=sha(path)
         return read(path)
-    for name in ('dataset_lib.py','schema_definition.py','build_atlas.py','build_reader_metadata.py','review_scope.py','reader_presentation_registry.py'):
+    for name in ('dataset_lib.py','schema_definition.py','build_atlas.py','build_reader_metadata.py','review_scope.py','reader_presentation_registry.py','reader_source_multipart.py'):
         p=root/'scripts'/name;inputs[p.relative_to(candidate).as_posix()]=sha(p)
     new_ids=set(new_ids)
     if not new_ids or not all(isinstance(rid,str) and re.fullmatch(r'[a-z0-9][a-z0-9-]*',rid) for rid in new_ids):
