@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "completeness-f6-20261117-01",
-  "updated_at": "2026-11-17T17:17:57.932003+00:00",
+  "release_id": "completeness-f6-20261117-01-dependency-fix",
+  "updated_at": "2026-11-17T17:57:10.687032+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -39421,8 +39421,8 @@
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
-      "sha256": "13e2b60b80d057b2573e5195bdc0228546bc9a02c9d1ceee963181e6668b9bf4",
-      "bytes": 8501
+      "sha256": "44fa7a24c782f3ead9593d5a95c03d979ceeae0c180f8aeac0367ee03bb83c72",
+      "bytes": 8573
     },
     {
       "path": "recipe-atlas/scripts/catalog_view.py",
@@ -302171,8 +302171,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_build_test_dependencies.py",
-      "sha256": "11cbd001650bc47e8a939e0a38b3e8f046136fdcf8be8219f1338e2121674166",
-      "bytes": 5906
+      "sha256": "7ca970900ba4c9b490dd9810fec1d72a698968956ced6865cbc612f479679b8e",
+      "bytes": 6117
     },
     {
       "path": "recipe-atlas/tests/test_candidate_comparison.py",
@@ -302431,8 +302431,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_reader_json_compaction.py",
-      "sha256": "f668d8e705964f21bd44831cf1bfc64717d691f237d45b363ef9ba0bd9c37f90",
-      "bytes": 11233
+      "sha256": "bdb090e3db77f4041bd204db20cdc977004ec69e278e4e3f72c80c7bb97abbcb",
+      "bytes": 11443
     },
     {
       "path": "recipe-atlas/tests/test_reader_render_contract.py",
@@ -302506,8 +302506,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_source_reader_consumers.py",
-      "sha256": "7a7b1c9a8321be9eae212b87c339153012bccbcebace82a0af32769b245291bd",
-      "bytes": 9229
+      "sha256": "aab5b6786f1b06143f2923ea43ff95e8fb8394344f986fc201649278d960710f",
+      "bytes": 9291
     },
     {
       "path": "recipe-atlas/tests/test_source_reader_multipart.py",
@@ -312411,8 +312411,8 @@
     },
     {
       "path": "research-assets/public-audits/RECIPE_COMPLETENESS_FT_20261117.md",
-      "sha256": "28777e913378708eb38ee3fb33b9ff369ff1b410034c5715bf3ee02c9369761e",
-      "bytes": 19085
+      "sha256": "be374a450d3ff13323ab7f45a7a860931a3a4bc574d30a7fd706c872373b03d1",
+      "bytes": 20209
     },
     {
       "path": "research-assets/public-audits/REPORTS_2026-10-09.md",

@@ -295,4 +295,22 @@ Frozen [Source commit](https://github.com/cuiyist/mattersyn/commit/0a5c3aebfcd27
 and verified [Site commit](https://github.com/cuiyist/mattersyn-site/commit/9e2dbbc77e4f70e24233ee24c75cca529dc10755)
 are the F1/F2 record baseline. Publisher run 44079884776 succeeded; anonymous
 verification, payload checks and the full 73,083-file boundary scan passed.
-That release is not an F6 replacement release. No F/T PR or site commit exists yet.
+That release is not an F6 replacement release. The first 40-paper / 66-revision
+F6 batch is in [PR 178](https://github.com/cuiyist/nanoxtalsyn/pull/178), pending
+normal release gates. No F/T Site publication is claimed yet.
+
+### Preserved engineering failures and corrections
+
+The first Source preparation stopped because the new authored policy JSON had
+no path classification. One exact Source-only configuration classification was
+added through the existing mechanism; the guard was unchanged and the complete
+boundary scan then passed. No private-content exception was introduced.
+
+The first PR178 Linux candidate build failed in its isolated test package:
+the new policy module/configuration were not among the snapshot-bound test
+dependencies, and file-based test loaders did not resolve sibling modules.
+The correction adds those two exact dependencies and the normal sibling import
+path in two test loaders. All missing/changed/duplicate dependency rejection
+checks remain. The 26 focused dependency, Reader-compaction and actual-consumer
+regressions pass; a fresh complete GitHub run is still required. No canonical
+record, frozen CHECK, converter logic, scoring result or publication gate changed.

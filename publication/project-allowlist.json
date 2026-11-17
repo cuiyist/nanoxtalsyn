@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "completeness-f6-20261117-01",
+  "release_id": "completeness-f6-20261117-01-dependency-fix",
   "repo": "mattersyn",
-  "source_commit": "0a5c3aebfcd27e7d82a6a9bfd7c338ad821310c8",
+  "source_commit": "0903f3143d15d3c882daff6a31f2722d039929a1",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "3c84b160b761567036c6a4c41173531e26cd56e1e1e2bbe4ebdff4035d1046e5",
+    "sha256": "ed2b0ec7711730ab90a73873fd8a5c03df85e3a80b1deeb93e06585a6e066bba",
     "file_count": 62899,
     "excludes": [
       "publication/project-allowlist.json"
@@ -138,22 +138,16 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "d30adef11b5c2947cdd3cf26da52498b92110ccdaf626ef9dacad5100c874daa",
-      "bytes": 14200619,
+      "sha256": "4d744a6b70851825cd645f9a3ebfb53784669b95a5bbe22d6243991ee6791aac",
+      "bytes": 14200634,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T17:17:57.932003+00:00",
+      "reviewed_at": "2026-11-17T17:57:10.687032+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval",
-      "metadata_review": {
-        "before_sha256": "17ff710fb84040e745617deef75833c25d1eeeae8c3b0eb27bf4c3203d775dcc",
-        "sha256": "39245699a6f4465c5a8a4039e90d3f0485dda022fac3c1e298382831db496edc",
-        "reviewer": "Codex-root-F6-preservation-and-engineering-review",
-        "reviewed_at": "2026-11-17T17:10:55.079715+00:00"
-      }
+      "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/live-reverification-scope.json",
@@ -125877,7 +125871,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T17:17:57.932003+00:00",
+      "reviewed_at": "2026-11-17T17:57:10.687032+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -137995,13 +137989,13 @@
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
-      "sha256": "13e2b60b80d057b2573e5195bdc0228546bc9a02c9d1ceee963181e6668b9bf4",
-      "bytes": 8501,
+      "sha256": "44fa7a24c782f3ead9593d5a95c03d979ceeae0c180f8aeac0367ee03bb83c72",
+      "bytes": 8573,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-isolated-candidate-test-dependency-review",
-      "reviewed_at": "2026-11-17T10:42:22+00:00",
+      "reviewer": "Codex-root-isolated-test-dependency-correction",
+      "reviewed_at": "2026-11-17T17:56:27+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1151414,13 +1151408,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_build_test_dependencies.py",
-      "sha256": "11cbd001650bc47e8a939e0a38b3e8f046136fdcf8be8219f1338e2121674166",
-      "bytes": 5906,
+      "sha256": "7ca970900ba4c9b490dd9810fec1d72a698968956ced6865cbc612f479679b8e",
+      "bytes": 6117,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-isolated-candidate-test-dependency-review",
-      "reviewed_at": "2026-11-17T10:42:22+00:00",
+      "reviewer": "Codex-root-isolated-test-dependency-correction",
+      "reviewed_at": "2026-11-17T17:56:27+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1152047,13 +1152041,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_reader_json_compaction.py",
-      "sha256": "f668d8e705964f21bd44831cf1bfc64717d691f237d45b363ef9ba0bd9c37f90",
-      "bytes": 11233,
+      "sha256": "bdb090e3db77f4041bd204db20cdc977004ec69e278e4e3f72c80c7bb97abbcb",
+      "bytes": 11443,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact reviewed Ge3 navigation and Reader bindings; two independent engineering reviews; Python fixture corrections and safe report/status; no scientific audit credit",
-      "reviewed_at": "2026-10-17T02:58:59+00:00",
+      "reviewer": "Codex-root-isolated-test-dependency-correction",
+      "reviewed_at": "2026-11-17T17:56:27+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1152227,13 +1152221,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_source_reader_consumers.py",
-      "sha256": "7a7b1c9a8321be9eae212b87c339153012bccbcebace82a0af32769b245291bd",
-      "bytes": 9229,
+      "sha256": "aab5b6786f1b06143f2923ea43ff95e8fb8394344f986fc201649278d960710f",
+      "bytes": 9291,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-17T10:17:48+00:00",
+      "reviewer": "Codex-root-isolated-test-dependency-correction",
+      "reviewed_at": "2026-11-17T17:56:27+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1176007,13 +1176001,13 @@
     },
     {
       "path": "research-assets/public-audits/RECIPE_COMPLETENESS_FT_20261117.md",
-      "sha256": "28777e913378708eb38ee3fb33b9ff369ff1b410034c5715bf3ee02c9369761e",
-      "bytes": 19085,
+      "sha256": "be374a450d3ff13323ab7f45a7a860931a3a4bc574d30a7fd706c872373b03d1",
+      "bytes": 20209,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-F6-preservation-and-engineering-review",
-      "reviewed_at": "2026-11-17T17:17:15+00:00",
+      "reviewer": "Codex-root-isolated-test-dependency-correction",
+      "reviewed_at": "2026-11-17T17:56:27+00:00",
       "content_class": "authored_docs",
       "source_refs": []
     },
