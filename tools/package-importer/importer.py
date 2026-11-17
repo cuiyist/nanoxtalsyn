@@ -28,7 +28,7 @@ from pathlib import Path, PurePosixPath
 # this CLI is run without Python's -B flag.
 sys.dont_write_bytecode = True
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'recipe-atlas/scripts'))
-from reader_presentation_registry import load_reviewed_reader, source_paths, serialized_parts
+from reader_presentation_registry import load_reviewed_reader, source_paths, serialized_source_parts
 
 
 HERE = Path(__file__).resolve().parent
@@ -716,7 +716,8 @@ def build_overlay(checkout: Path, package_dir: Path, evidence_root: Path, source
 
     # Proposed public paths are exact output paths only. The public policy itself
     # is not edited here; its allowlist must be merged and rerun by the release owner.
-    reader_payloads=serialized_parts(reader_merged,True) if len(reader_parts)==2 else {"reader-presentation-reviewed.json":json_bytes(reader_merged)}
+    reader_payloads=serialized_source_parts(reader_merged,split=len(reader_parts)>1,
+        minimum_parts=len(reader_parts),legacy_raw=json_bytes(reader_merged) if len(reader_parts)==1 else None)
     staged = {
         f"recipe-atlas/data/records/{p['record_id']}.json": record_raw,
         f"recipe-atlas/data/paper-reviews/{p['paper_id']}.json": review_raw,

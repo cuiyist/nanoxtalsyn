@@ -16,9 +16,10 @@ def execute(command,cwd):
     run={'command':command,'stdout':result.stdout,'stderr':result.stderr,'returncode':result.returncode,'elapsed_seconds':round(time.perf_counter()-started,6)}
     if result.returncode:raise BuildCommandError(run)
     return run
-TEST_MODULE_INPUTS=('tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py')
+TEST_MODULE_INPUTS=('tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py',
+                    'tools/package-importer/importer.py','tools/package-importer/preflight.py')
 def copy_test_dependencies(source_root,work,snapshot):
-    """Carry only the two exact snapshot-bound authored test dependencies."""
+    """Carry only the exact snapshot-bound authored test dependencies."""
     selected=[]
     for relative in TEST_MODULE_INPUTS:
         rows=[row for row in snapshot['input_files'] if row['path']==relative]

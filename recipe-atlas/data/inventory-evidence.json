@@ -148541,6 +148541,1699 @@
       "record_ids": [
         "zhao2016-acsnano-6b03175-8-nm-cdse-qd-1"
       ]
+    },
+    {
+      "source_group": "tanaka2025-acsomega-5c02599",
+      "paper_id": "tanaka2025-acsomega-5c02599",
+      "doi": "10.1021/acsomega.5c02599",
+      "url": "https://doi.org/10.1021/acsomega.5c02599",
+      "title": "Research on the Affinity between Ligands, Solvents, and Membranes and Its Effect on the Filtration Process of Colloidal Quantum Dot Dispersions",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tanaka2025-acsomega-5c02599-oa-qd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tanaka2025-acsomega-5c02599-oa-qd-1",
+        "tanaka2025-acsomega-5c02599-i-qd-2"
+      ]
+    },
+    {
+      "source_group": "yang2023-acsphotonics-2c01145",
+      "paper_id": "yang2023-acsphotonics-2c01145",
+      "doi": "10.1021/acsphotonics.2c01145",
+      "url": "https://doi.org/10.1021/acsphotonics.2c01145",
+      "title": "Bi2S3 Electron Transport Layer Incorporation for High-Performance Heterostructure HgTe Colloidal Quantum Dot Infrared Photodetectors",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yang2023-acsphotonics-2c01145-hgte-colloidal-quantum-dots-cqds-with-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yang2023-acsphotonics-2c01145-hgte-colloidal-quantum-dots-cqds-with-a-1"
+      ]
+    },
+    {
+      "source_group": "zhang2023-acsphotonics-2c01699",
+      "paper_id": "zhang2023-acsphotonics-2c01699",
+      "doi": "10.1021/acsphotonics.2c01699",
+      "url": "https://doi.org/10.1021/acsphotonics.2c01699",
+      "title": "Wafer-Scale Fabrication of CMOS-Compatible Trapping-Mode Infrared Imagers with Colloidal Quantum Dots",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            4,
+            8
+          ],
+          "actual_pages_text_read": [
+            4,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2023-acsphotonics-2c01699-n-type-hgte-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2023-acsphotonics-2c01699-n-type-hgte-cqds-1",
+        "zhang2023-acsphotonics-2c01699-intrinsic-hgte-cqds-2",
+        "zhang2023-acsphotonics-2c01699-p-type-hgte-cqds-3"
+      ]
+    },
+    {
+      "source_group": "scheunemann2015-acsphotonics-5b00277",
+      "paper_id": "scheunemann2015-acsphotonics-5b00277",
+      "doi": "10.1021/acsphotonics.5b00277",
+      "url": "https://doi.org/10.1021/acsphotonics.5b00277",
+      "title": "Investigation of the Spatially Dependent Charge Collection Probability in CuInS2/ZnO Colloidal Nanocrystal Solar Cells",
+      "year": 2015,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            2,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            2,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/scheunemann2015-acsphotonics-5b00277-cuins2-ncs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "scheunemann2015-acsphotonics-5b00277-cuins2-ncs-1",
+        "scheunemann2015-acsphotonics-5b00277-zno-ncs-2"
+      ]
+    },
+    {
+      "source_group": "moreels2008-ja803994m",
+      "paper_id": "moreels2008-ja803994m",
+      "doi": "10.1021/ja803994m",
+      "url": "https://doi.org/10.1021/ja803994m",
+      "title": "Surface Chemistry of Colloidal PbSe Nanocrystals",
+      "year": 2008,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/moreels2008-ja803994m-q-pbse-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "moreels2008-ja803994m-q-pbse-1"
+      ]
+    },
+    {
+      "source_group": "nolf2017-jacs-6b11328",
+      "paper_id": "nolf2017-jacs-6b11328",
+      "doi": "10.1021/jacs.6b11328",
+      "url": "https://doi.org/10.1021/jacs.6b11328",
+      "title": "Binding and Packing in Two-Component Colloidal Quantum Dot Ligand Shells: Linear versus Branched Carboxylates",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/nolf2017-jacs-6b11328-cdse-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "nolf2017-jacs-6b11328-cdse-qds-1"
+      ]
+    },
+    {
+      "source_group": "gariano2017-jacs-7b03706",
+      "paper_id": "gariano2017-jacs-7b03706",
+      "doi": "10.1021/jacs.7b03706",
+      "url": "https://doi.org/10.1021/jacs.7b03706",
+      "title": "Role of the Crystal Structure in Cation Exchange Reactions Involving Colloidal Cu2Se Nanocrystals",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gariano2017-jacs-7b03706-cu2se-pbse-core-shell-nhs-from-cubic-cu2-3.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gariano2017-jacs-7b03706-cu2se-pbse-core-shell-nhs-from-cubic-cu2-3",
+        "gariano2017-jacs-7b03706-cu2se-pbse-striped-nhs-from-hexagonal-cu-4"
+      ]
+    },
+    {
+      "source_group": "singh2018-jacs-8b07566",
+      "paper_id": "singh2018-jacs-8b07566",
+      "doi": "10.1021/jacs.8b07566",
+      "url": "https://doi.org/10.1021/jacs.8b07566",
+      "title": "Colloidal CdSe Nanoplatelets, A Model for Surface Chemistry/Optoelectronic Property Relations in Semiconductor Nanocrystals",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/singh2018-jacs-8b07566-5-ml-cdse-nanoplatelets-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "singh2018-jacs-8b07566-5-ml-cdse-nanoplatelets-1"
+      ]
+    },
+    {
+      "source_group": "jones2003-jp035598m",
+      "paper_id": "jones2003-jp035598m",
+      "doi": "10.1021/jp035598m",
+      "url": "https://doi.org/10.1021/jp035598m",
+      "title": "Photoenhancement of Luminescence in Colloidal CdSe Quantum Dot Solutions",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jones2003-jp035598m-cdse-zns-core-shell-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jones2003-jp035598m-cdse-zns-core-shell-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "zhao2010-nn100129j",
+      "paper_id": "zhao2010-nn100129j",
+      "doi": "10.1021/nn100129j",
+      "url": "https://doi.org/10.1021/nn100129j",
+      "title": "Colloidal PbS Quantum Dot Solar Cells with High Fill Factor",
+      "year": 2010,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            4,
+            5,
+            9
+          ],
+          "actual_pages_text_read": [
+            4,
+            5,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhao2010-nn100129j-pbs-qd-films-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhao2010-nn100129j-pbs-qd-films-1"
+      ]
+    },
+    {
+      "source_group": "abe2011-nn204008q",
+      "paper_id": "abe2011-nn204008q",
+      "doi": "10.1021/nn204008q",
+      "url": "https://doi.org/10.1021/nn204008q",
+      "title": "Tuning the Postfocused Size of Colloidal Nanocrystals by the Reaction Rate: From Theory to Application",
+      "year": 2011,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            5,
+            6,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            5,
+            6,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/abe2011-nn204008q-cdse-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "abe2011-nn204008q-cdse-qds-1",
+        "abe2011-nn204008q-cds-qds-2"
+      ]
+    },
+    {
+      "source_group": "jha2009-nn9001177",
+      "paper_id": "jha2009-nn9001177",
+      "doi": "10.1021/nn9001177",
+      "url": "https://doi.org/10.1021/nn9001177",
+      "title": "Trion Decay in Colloidal Quantum Dots",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jha2009-nn9001177-cdse-cds-core-shell-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jha2009-nn9001177-cdse-cds-core-shell-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "roo2016-nmat4554",
+      "paper_id": "roo2016-nmat4554",
+      "doi": "10.1038/nmat4554",
+      "url": "https://doi.org/10.1038/nmat4554",
+      "title": "Colloidal metal oxide nanocrystal catalysis by sustained chemically driven ligand displacement",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/roo2016-nmat4554-hfo2-ncs-capped-with-dissociatively-adso-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "roo2016-nmat4554-hfo2-ncs-capped-with-dissociatively-adso-1"
+      ]
+    },
+    {
+      "source_group": "liu2016-nmat4800",
+      "paper_id": "liu2016-nmat4800",
+      "doi": "10.1038/nmat4800",
+      "url": "https://doi.org/10.1038/nmat4800",
+      "title": "Hybrid organic–inorganic inks flatten the energy landscape in colloidal quantum dot solids",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2016-nmat4800-pbs-cqds-exchanged-by-lead-halide-with-t-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2016-nmat4800-pbs-cqds-exchanged-by-lead-halide-with-t-1"
+      ]
+    },
+    {
+      "source_group": "ip2012-nnano-2012-127",
+      "paper_id": "ip2012-nnano-2012-127",
+      "doi": "10.1038/nnano.2012.127",
+      "url": "https://doi.org/10.1038/nnano.2012.127",
+      "title": "Hybrid passivated colloidal quantum dot solids",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ip2012-nnano-2012-127-pbs-quantum-dots-with-cdcl2-hybrid-passi-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ip2012-nnano-2012-127-pbs-quantum-dots-with-cdcl2-hybrid-passi-1"
+      ]
+    },
+    {
+      "source_group": "mohapatra2017-s41467-017-02267-9",
+      "paper_id": "mohapatra2017-s41467-017-02267-9",
+      "doi": "10.1038/s41467-017-02267-9",
+      "url": "https://doi.org/10.1038/s41467-017-02267-9",
+      "title": "Calcination does not remove all carbon from colloidal nanocrystal assemblies",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mohapatra2017-s41467-017-02267-9-zro2-cnas-2-4-nm-zro2-nanoparticles-capp-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mohapatra2017-s41467-017-02267-9-zro2-cnas-2-4-nm-zro2-nanoparticles-capp-1"
+      ]
+    },
+    {
+      "source_group": "castelli2018-s41467-018-03550-z",
+      "paper_id": "castelli2018-s41467-018-03550-z",
+      "doi": "10.1038/s41467-018-03550-z",
+      "url": "https://doi.org/10.1038/s41467-018-03550-z",
+      "title": "Understanding and tailoring ligand interactions in the self-assembly of branched colloidal nanocrystals into planar superlattices",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/castelli2018-s41467-018-03550-z-cdse-cds-octapods-with-l-d-3-0-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "castelli2018-s41467-018-03550-z-cdse-cds-octapods-with-l-d-3-0-1"
+      ]
+    },
+    {
+      "source_group": "ossia2023-s41563-023-01606-0",
+      "paper_id": "ossia2023-s41563-023-01606-0",
+      "doi": "10.1038/s41563-023-01606-0",
+      "url": "https://doi.org/10.1038/s41563-023-01606-0",
+      "title": "Electric-field-induced colour switching in colloidal quantum dot molecules at room temperature",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            6,
+            7,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            6,
+            7,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ossia2023-s41563-023-01606-0-cdse-cds-coreshell-quantum-dot-molecules-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ossia2023-s41563-023-01606-0-cdse-cds-coreshell-quantum-dot-molecules-1"
+      ]
+    },
+    {
+      "source_group": "pradhan2018-s41565-018-0312-y",
+      "paper_id": "pradhan2018-s41565-018-0312-y",
+      "doi": "10.1038/s41565-018-0312-y",
+      "url": "https://doi.org/10.1038/s41565-018-0312-y",
+      "title": "High-efficiency colloidal quantum dot infrared light-emitting diodes via engineering at the supra-nanocrystalline level",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pradhan2018-s41565-018-0312-y-zno-ncs-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pradhan2018-s41565-018-0312-y-zno-ncs-4"
+      ]
+    },
+    {
+      "source_group": "tang2019-s41566-019-0362-1",
+      "paper_id": "tang2019-s41566-019-0362-1",
+      "doi": "10.1038/s41566-019-0362-1",
+      "url": "https://doi.org/10.1038/s41566-019-0362-1",
+      "title": "Dual-band infrared imaging using stacked colloidal quantum dot photodiodes",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tang2019-s41566-019-0362-1-hgte-colloidal-quantum-dots-cqds-for-sho-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tang2019-s41566-019-0362-1-hgte-colloidal-quantum-dots-cqds-for-sho-1",
+        "tang2019-s41566-019-0362-1-hgte-colloidal-quantum-dots-cqds-for-mid-2"
+      ]
+    },
+    {
+      "source_group": "vasilopoulou2019-s41566-019-0526-z",
+      "paper_id": "vasilopoulou2019-s41566-019-0526-z",
+      "doi": "10.1038/s41566-019-0526-z",
+      "url": "https://doi.org/10.1038/s41566-019-0526-z",
+      "title": "Efficient colloidal quantum dot light-emitting diodes operating in the second near-infrared biological window",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            5,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/vasilopoulou2019-s41566-019-0526-z-ag2s-sio2-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "vasilopoulou2019-s41566-019-0526-z-ag2s-sio2-cqds-1"
+      ]
+    },
+    {
+      "source_group": "kaplan2023-s41566-023-01225-w",
+      "paper_id": "kaplan2023-s41566-023-01225-w",
+      "doi": "10.1038/s41566-023-01225-w",
+      "url": "https://doi.org/10.1038/s41566-023-01225-w",
+      "title": "Hong–Ou–Mandel interference in colloidal CsPbBr3 perovskite nanocrystals",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kaplan2023-s41566-023-01225-w-cspbbr3-pncs-capped-with-zwitterionic-li-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kaplan2023-s41566-023-01225-w-cspbbr3-pncs-capped-with-zwitterionic-li-1"
+      ]
+    },
+    {
+      "source_group": "mu2024-s41566-024-01492-1",
+      "paper_id": "mu2024-s41566-024-01492-1",
+      "doi": "10.1038/s41566-024-01492-1",
+      "url": "https://doi.org/10.1038/s41566-024-01492-1",
+      "title": "Visible to mid-wave infrared PbS/HgTe colloidal quantum dot imagers",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            2,
+            6,
+            7,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            6,
+            7,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mu2024-s41566-024-01492-1-mwir-hgte-cqds-eg-0-38-ev-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mu2024-s41566-024-01492-1-mwir-hgte-cqds-eg-0-38-ev-1"
+      ]
+    },
+    {
+      "source_group": "kim2021-s41598-021-99358-x",
+      "paper_id": "kim2021-s41598-021-99358-x",
+      "doi": "10.1038/s41598-021-99358-x",
+      "url": "https://doi.org/10.1038/s41598-021-99358-x",
+      "title": "Facile and versatile ligand analysis method of colloidal quantum dot",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2021-s41598-021-99358-x-inp-zns-oa-qd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2021-s41598-021-99358-x-inp-zns-oa-qd-1"
+      ]
+    },
+    {
+      "source_group": "papagiorgis2016-srep18735",
+      "paper_id": "papagiorgis2016-srep18735",
+      "doi": "10.1038/srep18735",
+      "url": "https://doi.org/10.1038/srep18735",
+      "title": "The Influence of Doping on the Optoelectronic Properties of PbS Colloidal Quantum Dot Solids",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 16,
+          "pages_read": [
+            1,
+            2,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/papagiorgis2016-srep18735-bi-doped-pbs-cqd-series-b-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "papagiorgis2016-srep18735-bi-doped-pbs-cqd-series-b-2"
+      ]
+    },
+    {
+      "source_group": "mukherjee2016-srep29016",
+      "paper_id": "mukherjee2016-srep29016",
+      "doi": "10.1038/srep29016",
+      "url": "https://doi.org/10.1038/srep29016",
+      "title": "Novel Colloidal MoS2 Quantum Dot Heterojunctions on Silicon Platforms for Multifunctional Optoelectronic Devices",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mukherjee2016-srep29016-mos2-quantum-dots-qds-with-2-nm-size-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mukherjee2016-srep29016-mos2-quantum-dots-qds-with-2-nm-size-1",
+        "mukherjee2016-srep29016-mos2-quantum-dots-qds-with-5-nm-size-2",
+        "mukherjee2016-srep29016-mos2-quantum-dots-qds-with-7-nm-size-3"
+      ]
+    },
+    {
+      "source_group": "iacovo2016-srep37913",
+      "paper_id": "iacovo2016-srep37913",
+      "doi": "10.1038/srep37913",
+      "url": "https://doi.org/10.1038/srep37913",
+      "title": "PbS Colloidal Quantum Dot Photodetectors operating in the near infrared",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            8
+          ],
+          "actual_pages_text_read": [
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/iacovo2016-srep37913-pbs-quantum-dots-qds-capped-with-butylam-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "iacovo2016-srep37913-pbs-quantum-dots-qds-capped-with-butylam-1"
+      ]
+    },
+    {
+      "source_group": "heo2014-c3nr03641c",
+      "paper_id": "heo2014-c3nr03641c",
+      "doi": "10.1039/c3nr03641c",
+      "url": "https://doi.org/10.1039/c3nr03641c",
+      "title": "Influence of high-pressure treatment on charge carrier transport in PbS colloidal quantum dot solids",
+      "year": 2014,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/heo2014-c3nr03641c-pbs-colloidal-quantum-dot-cqd-solids-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "heo2014-c3nr03641c-pbs-colloidal-quantum-dot-cqd-solids-1"
+      ]
+    },
+    {
+      "source_group": "chang2015-c4nr07521h",
+      "paper_id": "chang2015-c4nr07521h",
+      "doi": "10.1039/c4nr07521h",
+      "url": "https://doi.org/10.1039/c4nr07521h",
+      "title": "High reduction of interfacial charge recombination in colloidal quantum dot solar cells by metal oxide surface passivation",
+      "year": 2015,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chang2015-c4nr07521h-pbs-colloidal-quantum-dots-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chang2015-c4nr07521h-pbs-colloidal-quantum-dots-cqds-1"
+      ]
+    },
+    {
+      "source_group": "tulsani2019-c8na00272j",
+      "paper_id": "tulsani2019-c8na00272j",
+      "doi": "10.1039/c8na00272j",
+      "url": "https://doi.org/10.1039/c8na00272j",
+      "title": "2D-MoS 2 nanosheets as effective hole transport materials for colloidal PbS quantum dot solar cells",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tulsani2019-c8na00272j-mos2-nanosheets-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tulsani2019-c8na00272j-mos2-nanosheets-1"
+      ]
+    },
+    {
+      "source_group": "abdullah2020-d0na00106f",
+      "paper_id": "abdullah2020-d0na00106f",
+      "doi": "10.1039/d0na00106f",
+      "url": "https://doi.org/10.1039/d0na00106f",
+      "title": "On the formation of superoxide radicals on colloidal ATiO 3 (A = Sr and Ba) nanocrystal surfaces",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/abdullah2020-d0na00106f-colloidal-batio3-ncs-method-a-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "abdullah2020-d0na00106f-colloidal-batio3-ncs-method-a-4",
+        "abdullah2020-d0na00106f-colloidal-batio3-ncs-method-b-5",
+        "abdullah2020-d0na00106f-lactate-free-colloidal-batio3-ncs-6"
+      ]
+    },
+    {
+      "source_group": "liu2021-d0nr09189h",
+      "paper_id": "liu2021-d0nr09189h",
+      "doi": "10.1039/d0nr09189h",
+      "url": "https://doi.org/10.1039/d0nr09189h",
+      "title": "Evidence of band filling in PbS colloidal quantum dot square superstructures",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2021-d0nr09189h-pbs-square-lattice-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2021-d0nr09189h-pbs-square-lattice-1"
+      ]
+    },
+    {
+      "source_group": "yuan2020-d0ra05205a",
+      "paper_id": "yuan2020-d0ra05205a",
+      "doi": "10.1039/d0ra05205a",
+      "url": "https://doi.org/10.1039/d0ra05205a",
+      "title": "Spectral tuning of colloidal Si nanocrystal luminescence by post-laser irradiation in liquid",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yuan2020-d0ra05205a-colloidal-si-nanocrystals-si-ncs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yuan2020-d0ra05205a-colloidal-si-nanocrystals-si-ncs-1",
+        "yuan2020-d0ra05205a-post-laser-irradiated-colloidal-si-nanoc-2"
+      ]
+    },
+    {
+      "source_group": "wen2021-d0ta10394b",
+      "paper_id": "wen2021-d0ta10394b",
+      "doi": "10.1039/d0ta10394b",
+      "url": "https://doi.org/10.1039/d0ta10394b",
+      "title": "A colloidal ZnTe quantum dot-based photocathode with a metal–insulator–semiconductor structure towards solar-driven CO 2 reduction to tunable syngas",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wen2021-d0ta10394b-znte-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wen2021-d0ta10394b-znte-qds-1"
+      ]
+    },
+    {
+      "source_group": "jung2024-d3nh00456b",
+      "paper_id": "jung2024-d3nh00456b",
+      "doi": "10.1039/d3nh00456b",
+      "url": "https://doi.org/10.1039/d3nh00456b",
+      "title": "An ultra-sensitive colloidal quantum dot infrared photodiode exceeding 100 000% external quantum efficiency via photomultiplication",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jung2024-d3nh00456b-pbs-cqds-b4-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jung2024-d3nh00456b-pbs-cqds-b4-nm-1"
+      ]
+    },
+    {
+      "source_group": "he2023-d3tc01698f",
+      "paper_id": "he2023-d3tc01698f",
+      "doi": "10.1039/d3tc01698f",
+      "url": "https://doi.org/10.1039/d3tc01698f",
+      "title": "Mid-infrared response of PbS colloidal quantum dot solids",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/he2023-d3tc01698f-kno2-treated-pbs-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "he2023-d3tc01698f-kno2-treated-pbs-cqds-1"
+      ]
+    },
+    {
+      "source_group": "wu2023-d3tc02894a",
+      "paper_id": "wu2023-d3tc02894a",
+      "doi": "10.1039/d3tc02894a",
+      "url": "https://doi.org/10.1039/d3tc02894a",
+      "title": "On the mechanism to suppress dark current via blending with an all-inorganic perovskite precursor in colloidal quantum dot photodetectors",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wu2023-d3tc02894a-pbs-i-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the NanoXtalSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wu2023-d3tc02894a-pbs-i-1"
+      ]
     }
   ],
   "material_notes": {

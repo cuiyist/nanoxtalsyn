@@ -1,4 +1,4 @@
-"""Two fixed reviewed Reader source files; values remain opaque and unchanged."""
+"""Bounded Reader Source storage and the unchanged legacy/public serializer."""
 import hashlib,json,os
 from pathlib import Path
 BASE='reader-presentation-reviewed.json'
@@ -48,13 +48,12 @@ def _inputs(path):
     return (path,part),base,raw
 
 def source_paths(path):
-    return _inputs(path)[0]
+    from reader_source_multipart import inspect_source
+    return inspect_source(path)[0]
 
 def load_reviewed_reader(path):
-    paths,base,raw=_inputs(path)
-    if len(paths)==1:return base
-    base.pop(MARKER)
-    return _merge(base,json.loads(raw.decode('utf-8-sig')))
+    from reader_source_multipart import load_source
+    return load_source(path)
 
 def serialized_parts(value,split=False):
     if MARKER in value:raise ValueError('Reserved split marker is not display data')
@@ -81,15 +80,10 @@ def serialized_parts(value,split=False):
         raise ValueError('Two Reader source parts exceed the bounded byte limit')
     return result
 
-def write_reviewed_reader(path,value,split=None):
-    path=_path(path)
-    if split is None:split=len(source_paths(path))==2 if path.exists() else False
-    payloads=serialized_parts(value,split)
-    if not split and path.with_name(PART).exists():
-        raise ValueError('Explicit collapse must preserve/review the second source')
-    path.parent.mkdir(parents=True,exist_ok=True)
-    # The primary pins the secondary. An interrupted pair write fails checksum.
-    names=[PART,BASE] if split else [BASE]
-    for name in names:
-        target=path.with_name(name);tmp=target.with_name(target.name+'.reader-tmp')
-        tmp.write_bytes(payloads[name]);os.replace(tmp,target)
+def serialized_source_parts(value,split=False,minimum_parts=1,legacy_raw=None):
+    from reader_source_multipart import source_parts
+    return source_parts(value,split,minimum_parts,legacy_raw)
+
+def write_reviewed_reader(path,value,split=None,legacy_raw=None):
+    from reader_source_multipart import write_source
+    return write_source(path,value,split,legacy_raw)

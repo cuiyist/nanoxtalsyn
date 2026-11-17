@@ -1,4 +1,8 @@
-## Release07 truncated-transfer recovery pending — 16 November 2026
+## Current checkpoint — 16 November 2026 America/Chicago
+
+Release09 and separate07/08 recoveries are verified at Source4ebfb6837190ae7e238bf10070d2ca88682ded51 / Site18ec29cbe5bb462e7e02b3f01e442b4e7d07217c (publisher43988234903, Pages43994490253): intake366papers/569records/1963crops, source_extracted/training0. Final already-read pool59–63 is37papers/49records/182crops, locally integrated but not live; earliest normal12hrelease boundary2026-11-17T10:12:34.657678Z. New intake64+ is paused for ownerNovember16 FthenT; do not resume until F5/T4. No F/T measurements yet; audited/Worker lanes stay paused. Original failed transfer/crop receipts remain historical; four recovery-base fields advance without dropping2312required paths. Full details and exact DOI accounting stay in the single public simple-pipeline report and paper index, with private hash-bound closures.
+
+## Historical: Release07 truncated-transfer recovery pending — 16 November 2026
 
 Source82750afd deployed Sitef111d859 through publisher43835712734; Pages
 43842355666 succeeded. The publisher nevertheless FAILED after the anonymous

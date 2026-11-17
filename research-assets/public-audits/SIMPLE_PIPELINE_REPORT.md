@@ -1,4 +1,60 @@
-# Local-corpus intake: 230 papers verified live — 16 November 2026
+# Local-corpus intake: 366 papers verified live — 17 November 2026 UTC
+
+## Release09 and separate07/08 recoveries closed; completeness tests next
+
+The verified intake total is **366 papers, 569 records and 1,963 captioned figure
+crops**, not a global website count. All remain `source_extracted`; independent
+auditing remains paused and training credit is zero. The all-folders job is unfinished.
+
+[Publisher43988234903](https://github.com/cuiyist/nanoxtalsyn/actions/runs/43988234903)
+completed successfully at 2026-11-17T02:37:02Z, with Source
+`4ebfb6837190ae7e238bf10070d2ca88682ded51`, Site
+`18ec29cbe5bb462e7e02b3f01e442b4e7d07217c` and successful
+[Pages43994490253](https://github.com/cuiyist/nanoxtalsyn-site/actions/runs/43994490253).
+[PR175](https://github.com/cuiyist/nanoxtalsyn/pull/175) carried the paper batch;
+[PR176](https://github.com/cuiyist/nanoxtalsyn/pull/176) corrected the stale prior-release scope binding.
+The normal release verified 3,750 anonymous files, 40 new paper routes and 61
+material routes. The complete published-text scan verified all 72,556 files.
+
+Release09 adds **40 papers / 63 records / 189 crops**. Separate fresh closures
+recovered release07's **47 / 82 / 288** and release08's **49 / 68 / 227** at the
+same Site. These three sets are disjoint. All 213 records and 1,690 referenced
+assets passed exact anonymous byte checks. Fresh desktop/phone visual reviews,
+including the corrected complete An Figure3 crop, passed. The earlier transfer
+failure and failed crop review remain preserved, not relabeled as successes.
+All 2,312 carried re-verification paths remain required in the next transaction;
+only the four previous-release binding fields advance to the verified closure.
+
+The final already-read intake pool contains **37 papers / 49 records / 182
+crops** from batches59–63. Their local canonical/Reader integration and caption
+checks are complete; they are **not yet published or counted live**. Every one
+of the 7,434 earlier canonical records is byte-identical. The source-only Reader
+capacity adjustment preserves all logical entries, checksums and the existing
+80 MiB per-file bound; it does not change extraction, CHECK or public display.
+The native five-cohort shadow and public-boundary projection passed. Full GitHub
+build, browser, release and anonymous verification remain required.
+
+Batch63 completed 38/38 successful two-pass inputs. Eight papers are selected;
+30 are omitted or held. Local metadata uncertainty, invalid local rare-check
+responses and unresolved scientific checks are technical/uncertainty holds,
+not evidence that the papers lack synthesis. Original attempts and exhausted
+redo outcomes are preserved. The final 34 captions were compared locally;
+three unresolved cases passed one bounded repair plus separate confirmation.
+No source captions or paper text were sent to an outside model.
+
+The retained earliest-ready time is 2026-11-16T22:12:34.657678Z. With fewer than
+40 papers, the next release becomes eligible at 2026-11-17T10:12:34.657678Z
+(04:12 America/Chicago), subject to all checks. No new paper is read to fill it.
+Intake batch64 onward is paused for the owner's November16 F-then-T tests.
+F/T has not started: no variant, scoring result, replacement count or accuracy
+claim is inferred from these packaging checks. Audited records, Worker A/B and
+the five older waiting-on-owner entries remain untouched.
+
+Storage at canonical import: C free 392,470,499,328 -> 392,468,168,704 bytes
+(nonisolated); **0 bytes removed**. Earlier dated counts, census and failures
+follow unchanged.
+
+# Historical checkpoint: 230 intake papers verified live — 16 November 2026
 
 ## Release06 verified, Release05 recovery closed; next extraction active — 05:56 UTC
 

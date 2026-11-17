@@ -1,4 +1,5 @@
 """Offline temporary-fixture tests; no production build or approval creation."""
+import ast
 import copy
 import json
 import os
@@ -175,8 +176,15 @@ class TransactionTests(unittest.TestCase):
             b'import unittest\nclass Fixture(unittest.TestCase):\n def test_one(self): self.assertEqual(1,1)\n')
         # The real build copier requires exact authored dependency pins even
         # when this minimal fixture has no serializer test to import them.
-        cls.test_dependencies = ('tools/simple-pipeline/to_site.py',
-                                 'tools/simple-pipeline/local_caption_backfill.py')
+        tree = ast.parse((cls.source / 'recipe-atlas/scripts/build_release.py').read_text(encoding='utf-8'))
+        declarations = [node for node in tree.body if isinstance(node, ast.Assign)
+                        and any(isinstance(target, ast.Name) and target.id == 'TEST_MODULE_INPUTS'
+                                for target in node.targets)]
+        if len(declarations) != 1:
+            raise AssertionError('Expected one literal test dependency declaration')
+        cls.test_dependencies = ast.literal_eval(declarations[0].value)
+        if not isinstance(cls.test_dependencies, tuple) or not cls.test_dependencies:
+            raise AssertionError('Expected nonempty authored test dependency tuple')
         for relative in cls.test_dependencies:
             put(cls.source / relative, b'# Synthetic authored test dependency.\n')
         registry = {'schema_version': 'mattersyn-public-asset-rights/1', 'assets': [], 'snapshots': []}
