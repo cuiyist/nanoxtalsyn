@@ -1,6 +1,9 @@
 """Exercise the real snapshot-bound test dependency copier on synthetic files."""
 import hashlib
+import os
 from pathlib import Path
+import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -30,11 +33,14 @@ class BuildTestDependencies(unittest.TestCase):
     def copy(self,rows=None):
         build_release.copy_test_dependencies(self.source,self.work,{'input_files':self.rows if rows is None else rows})
 
-    def test_two_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
+    def test_four_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
+        self.assertEqual(set(build_release.TEST_MODULE_INPUTS),{
+            'tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py',
+            'tools/package-importer/importer.py','tools/package-importer/preflight.py'})
         self.copy()
         for relative in build_release.TEST_MODULE_INPUTS:
             self.assertEqual((self.work.parent/relative).read_bytes(),(self.source/relative).read_bytes())
-        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),2)
+        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),4)
         self.assertFalse((self.work/'dist/tools').exists())
 
     def test_missing_required_row_rejects_before_any_dependency_copy(self):
@@ -70,6 +76,36 @@ class BuildTestDependencies(unittest.TestCase):
         record.parent.mkdir(parents=True);raw=b'{"review_status":"source_reviewed","exact":1.000}\r\n';record.write_bytes(raw)
         self.copy()
         self.assertEqual(record.read_bytes(),raw)
+
+    def test_every_dependency_requires_its_own_unique_unchanged_snapshot_row(self):
+        for relative in build_release.TEST_MODULE_INPUTS:
+            with self.subTest(dependency=relative):
+                rows=[row for row in self.rows if row['path']!=relative]
+                with self.assertRaisesRegex(ValueError,'Missing or duplicate'):self.copy(rows)
+                self.assertFalse((self.work.parent/'tools').exists())
+                rows=[dict(row) for row in self.rows]
+                next(row for row in rows if row['path']==relative)['sha256']='0'*64
+                with self.assertRaisesRegex(ValueError,'input hash mismatch'):self.copy(rows)
+                self.assertFalse((self.work.parent/'tools').exists())
+
+    def test_real_consumer_tests_run_in_the_minimal_isolated_candidate_layout(self):
+        # Code-only fixture: no site build, real records, figures or paper text.
+        rows=[{'path':relative,'sha256':hashlib.sha256((ROOT.parent/relative).read_bytes()).hexdigest()}
+              for relative in build_release.TEST_MODULE_INPUTS]
+        build_release.copy_test_dependencies(ROOT.parent,self.work,{'input_files':rows})
+        paths=('scripts/reader_presentation_registry.py','scripts/reader_source_multipart.py',
+               'scripts/public_reader_registry.py','static/reader-presentation-loader.mjs',
+               'tests/test_source_reader_multipart.py','tests/test_source_reader_consumers.py')
+        for relative in paths:
+            target=self.work/relative;target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(ROOT/relative,target)
+        result=subprocess.run([sys.executable,'-B','-m','unittest','discover','-s','tests',
+            '-p','test_source_reader_consumers.py','-v'],cwd=self.work,text=True,capture_output=True,
+            encoding='utf-8',env={**os.environ,'PYTHONPATH':'','PYTHONDONTWRITEBYTECODE':'1'})
+        self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
+        self.assertIn('Ran 7 tests',result.stderr)
+        self.assertNotIn('skipped',result.stderr)
+        self.assertFalse((self.work/'dist').exists())
 
 
 if __name__=='__main__':

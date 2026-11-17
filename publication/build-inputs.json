@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-next-20261117-37-papers",
-  "updated_at": "2026-11-17T10:18:32.006109+00:00",
+  "release_id": "tanjin-release10-test-dependencies-20261117-r01",
+  "updated_at": "2026-11-17T10:43:07.342330+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -39421,8 +39421,8 @@
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
-      "sha256": "a8edba2d4afa461d3683c3319314667b5482da26420ee194f9281a9668714370",
-      "bytes": 8411
+      "sha256": "13e2b60b80d057b2573e5195bdc0228546bc9a02c9d1ceee963181e6668b9bf4",
+      "bytes": 8501
     },
     {
       "path": "recipe-atlas/scripts/catalog_view.py",
@@ -301991,8 +301991,8 @@
     },
     {
       "path": "recipe-atlas/tests/test_build_test_dependencies.py",
-      "sha256": "1c6a5c18eb08b17d82d95393d16cbc170d0a7c5fa65455213677c9feba4b96a8",
-      "bytes": 3478
+      "sha256": "11cbd001650bc47e8a939e0a38b3e8f046136fdcf8be8219f1338e2121674166",
+      "bytes": 5906
     },
     {
       "path": "recipe-atlas/tests/test_candidate_comparison.py",

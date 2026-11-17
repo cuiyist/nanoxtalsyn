@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-next-20261117-37-papers",
+  "release_id": "tanjin-release10-test-dependencies-20261117-r01",
   "repo": "mattersyn",
-  "source_commit": "4ebfb6837190ae7e238bf10070d2ca88682ded51",
+  "source_commit": "467112e42d488616cef78a18f4479289cf53bc6b",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "a6a17167f11ac3c807e58207f35ed9936671e1fc219c72bbdf2667bd11869e01",
+    "sha256": "8df9e081bfe72599d631eb2d8671293b82f38d9643f638f5a982eee9d94c321e",
     "file_count": 62854,
     "excludes": [
       "publication/project-allowlist.json"
@@ -138,13 +138,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "cc4fb58a0cd2e243df94b4e971a2b9fcc7e2f06396b2b72fd17bdf301c3291a0",
-      "bytes": 14183301,
+      "sha256": "e667e752e0083a40b4babfca0eb123fc339a32660587e317698e7a314c8af349",
+      "bytes": 14183318,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T10:18:32.006109+00:00",
+      "reviewed_at": "2026-11-17T10:43:07.342330+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -125905,7 +125905,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-17T10:18:32.006109+00:00",
+      "reviewed_at": "2026-11-17T10:43:07.342330+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -138023,13 +138023,13 @@
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
-      "sha256": "a8edba2d4afa461d3683c3319314667b5482da26420ee194f9281a9668714370",
-      "bytes": 8411,
+      "sha256": "13e2b60b80d057b2573e5195bdc0228546bc9a02c9d1ceee963181e6668b9bf4",
+      "bytes": 8501,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-12T12:11:26+00:00",
+      "reviewer": "Codex-root-isolated-candidate-test-dependency-review",
+      "reviewed_at": "2026-11-17T10:42:22+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1154100,13 +1154100,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_build_test_dependencies.py",
-      "sha256": "1c6a5c18eb08b17d82d95393d16cbc170d0a7c5fa65455213677c9feba4b96a8",
-      "bytes": 3478,
+      "sha256": "11cbd001650bc47e8a939e0a38b3e8f046136fdcf8be8219f1338e2121674166",
+      "bytes": 5906,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-12T12:11:26+00:00",
+      "reviewer": "Codex-root-isolated-candidate-test-dependency-review",
+      "reviewed_at": "2026-11-17T10:42:22+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
