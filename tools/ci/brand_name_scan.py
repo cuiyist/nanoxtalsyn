@@ -370,11 +370,24 @@ def read_live(row, source, fetch=anonymous_bytes, sleep=time.sleep):
         return raw, ({'attempts': attempt, 'final_outcome': 'exact_bytes_SHA256_match', 'attempt_failures': failures} if failures else None)
 
 
-def scan(root, manifest, blueprint, identifiers, phase, source, fetch=anonymous_bytes, sleep=time.sleep, workers=8, event=lambda row: None):
+def scan(root, manifest, blueprint, identifiers, phase, source, fetch=anonymous_bytes, sleep=time.sleep, workers=8, event=lambda row: None, changed_paths=None):
     need(identifiers.get('schema') == 'NanoXtalSyn-N4-exact-identifier-pins/1' and identifiers.get('as_of') == AS_OF, 'Fixed owner-date identifier pins required')
     need(1 <= workers <= 8 and phase in {'candidate', 'published'}, 'Bounded phase/workers required')
     rows, excluded, total = inventory(root, manifest, phase)
     need(manifest.get('source_commit') == source, 'Manifest Source differs from explicit Source')
+    scope = 'full'
+    if changed_paths is not None:
+        need(phase == 'published', 'Candidate inventory must remain complete')
+        supplied = list(changed_paths)
+        requested = {canonical(path) for path in supplied}
+        need(len(supplied) == len(requested), 'Duplicate release scope paths')
+        known = {row['path'] for row in manifest['files']}
+        need(requested <= known, 'Release scope names paths outside the published manifest')
+        rows = [row for row in rows if row['path'] in requested]
+        selected_paths = {row['path'] for row in rows}
+        excluded = dict(collections.Counter(PurePosixPath(p).suffix.lower() or '[no suffix]'
+                                            for p in requested - selected_paths))
+        scope = 'changed_plus_recovery'
     records = record_pins(blueprint); paths = {row['path'] for row in manifest['files']}
     exact_tokens = technical_tokens(identifiers, paths)
     load_record = record_loader(root, records, {row['path']: row for row in manifest['files']})
@@ -411,7 +424,8 @@ def scan(root, manifest, blueprint, identifiers, phase, source, fetch=anonymous_
                     event({'kind': 'anything_else', 'path': row['path'], 'sha256': row['sha256'], 'counts': dict(counts), 'positions': [x for x in evidence if x['category'] == 'anything_else']})
             if index % 500 == 0:
                 print(json.dumps({'N6_selected_processed': index, 'selected_total': len(rows), 'failures': len(errors), 'anything_else': totals['anything_else']}), flush=True)
-    return {'schema': 'NanoXtalSyn-N6-full-published-text-scan/1', 'phase': phase, 'passed': not errors and totals['anything_else'] == 0,
+    return {'schema': ('NanoXtalSyn-N6-scoped-published-text-scan/1' if changed_paths is not None
+                       else 'NanoXtalSyn-N6-full-published-text-scan/1'), 'phase': phase, 'passed': not errors and totals['anything_else'] == 0,
             'source_commit': source, 'site_url': NEW_BASE if phase == 'published' else None, 'owner_as_of': AS_OF,
             'allowlisted_file_count': total, 'selected_text_file_count': len(rows), 'selected_files_by_kind': dict(selected_kinds),
             'scanned_files_by_kind': dict(scanned_kinds), 'anonymous_HTTP_verified_files': sum(http_kinds.values()), 'HTTP_verified_by_kind': dict(http_kinds),
@@ -421,7 +435,9 @@ def scan(root, manifest, blueprint, identifiers, phase, source, fetch=anonymous_
             'anything_else_files': anything_else_files,
             'failure_count': len(errors), 'failures': errors, 'transport_attempt_records': retries,
             'all_selected_HTTP_verified': phase == 'published' and sum(http_kinds.values()) == len(rows) and not errors,
-            'record_byte_pin_count': len(records), 'bodies_saved': 0, 'Source_or_remote_mutations': 0}
+            'record_byte_pin_count': len(records), 'bodies_saved': 0, 'Source_or_remote_mutations': 0,
+            'scope': scope,
+            'requested_paths': sorted(changed_paths) if changed_paths is not None else None}
 
 
 def published_binding(args, manifest):
@@ -436,11 +452,48 @@ def published_binding(args, manifest):
     return {key: pin(getattr(args, key)) for key in values}
 
 
+def release_paths(args, manifest):
+    """Derive S1 scope from the actual staged and ordinarily verified release."""
+    need(args.phase == 'published', 'S1 is published-only')
+    stage = json.loads(args.stage_receipt.read_bytes())
+    live = json.loads(args.live_receipt.read_bytes())
+    built = {row['path'] for row in manifest['files']}
+    # Site control files are not part of the published allowlist.
+    staged = stage['files_added'] + stage['files_changed']
+    staged_paths = {canonical(path) for path in staged}
+    need(len(staged_paths)==len(staged), 'Duplicate changed path in stage receipt')
+    controls = {'.git', '.github', '.release-control', 'tools', '.gitattributes'}
+    changed = {path for path in staged_paths if path.split('/', 1)[0] not in controls}
+    need(changed <= built, 'A changed non-control file is missing from the published allowlist')
+    recovery = set()
+    binding = stage.get('live_reverification_scope')
+    if binding:
+        need(args.recovery_receipt is not None, 'Recovery receipt required')
+        pinned = pin(args.recovery_receipt)
+        need(pinned['sha256']==binding['sha256'] and pinned['bytes']==binding['bytes'], 'Recovery scope binding mismatch')
+        value = json.loads(args.recovery_receipt.read_bytes())
+        paths = value['required_paths']
+        recovery = {canonical(path) for path in paths}
+        need(len(recovery) == len(paths) and recovery <= built, 'Invalid required recovery paths')
+        proof = live['reverification_scope']
+        need(proof['receipt_sha256']==binding['sha256'] and not proof['failed_required_paths']
+             and proof['checked_required_files']==proof['required_files']==len(recovery),
+             'Recovery paths not ordinarily verified')
+    else:
+        need(args.recovery_receipt is None, 'Unbound recovery scope receipt')
+    required = changed | recovery
+    checked = live['checked_changed_files']
+    need(required and len(checked) == len(required) and set(checked) == required, 'S1 scope differs from ordinary exact-byte scope')
+    return sorted(required)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__); parser.add_argument('--scan', action='store_true')
     for name in ('root', 'manifest', 'source-blueprint', 'identifiers', 'out', 'build-receipt', 'stage-receipt', 'push-receipt', 'live-receipt'):
         parser.add_argument('--' + name, type=Path)
     parser.add_argument('--phase', choices=['candidate', 'published']); parser.add_argument('--source-commit'); parser.add_argument('--site-commit')
+    parser.add_argument('--changed-plus-recovery', action='store_true')
+    parser.add_argument('--recovery-receipt', type=Path)
     args = parser.parse_args()
     if not args.scan:
         print('DEFAULT_INERT_NO_SCAN_NETWORK_OR_FILES'); return 0
@@ -451,13 +504,15 @@ def main():
     if args.phase == 'published':
         need(re.fullmatch('[a-f0-9]{40}', args.site_commit or '') and all(getattr(args, k) for k in ('build_receipt', 'stage_receipt', 'push_receipt', 'live_receipt')), 'Actual successful publisher binding required')
         binding = published_binding(args, manifest)
+    scope_paths = release_paths(args, manifest) if args.changed_plus_recovery else None
+    need(args.changed_plus_recovery or args.recovery_receipt is None, 'Scoped recovery input supplied without S1')
     args.out.parent.mkdir(parents=True, exist_ok=True); events = args.out.with_suffix(args.out.suffix + '.events.jsonl')
     with events.open('xb') as stream:
         def event(value):
             stream.write((json.dumps(value, ensure_ascii=False) + '\n').encode()); stream.flush()
         transport = PacedAnonymousFetch() if args.phase == 'published' else None
         result = scan(args.root, manifest, json.loads(args.source_blueprint.read_bytes()), json.loads(args.identifiers.read_bytes()), args.phase, args.source_commit, event=event,
-                      fetch=transport if transport is not None else anonymous_bytes)
+                      fetch=transport if transport is not None else anonymous_bytes, changed_paths=scope_paths)
         if transport is not None:
             result['anonymous_transport'] = transport.receipt()
     result.update(at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(), site_commit=args.site_commit,

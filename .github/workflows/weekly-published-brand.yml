@@ -1,0 +1,91 @@
+name: NanoXtalSyn weekly full published-brand inventory
+on:
+  schedule:
+    - cron: '27 12 * * 1'
+permissions:
+  contents: read
+  actions: read
+# Do not replace a queued publisher run. Fail closed if the Site moves.
+concurrency:
+  group: nanoxtalsyn-weekly-full-brand
+  cancel-in-progress: false
+jobs:
+  scan:
+    if: github.repository == 'cuiyist/nanoxtalsyn'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: driver
+          sparse-checkout: tools/ci
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Bind the exact published Site and successful publication receipt
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ls_limit=15
+          work="$RUNNER_TEMP/weekly"
+          mkdir "$work"
+          git clone --quiet --depth 1 --branch main https://github.com/cuiyist/nanoxtalsyn-site "$work/site"
+          site="$(git -C "$work/site" rev-parse HEAD)"
+          manifest="$work/site/.release-control/site-allowlist.json"
+          source="$(python -c 'import json,sys;print(json.load(open(sys.argv[1]))["source_commit"])' "$work/site/data/release-snapshot.json")"
+          [[ "$source" =~ ^[a-f0-9]{40}$ ]]
+          [[ "$site" =~ ^[a-f0-9]{40}$ ]]
+          git clone --quiet --no-checkout --filter=blob:none https://github.com/cuiyist/nanoxtalsyn "$work/source"
+          git -C "$work/source" sparse-checkout set --no-cone '/publication/build-inputs.json' '/tools/ci/brand-name-identifiers.json'
+          git -C "$work/source" checkout --quiet --detach "$source"
+          # Only normal completed-successful publication workflows; verify the
+          # actual returned push receipt, not the run title or historical PID.
+          runs=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/site-publish.yml/runs?status=success&head_sha=$source&per_page=$ls_limit" --jq '.workflow_runs[].id')
+          found=
+          for id in $runs; do
+            name="mattersyn-site-publish-$source"
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$id/artifacts" --jq "[.artifacts[] | select(.name == \"$name\" and .expired == false)] | length")
+            if [ "$count" != 1 ]; then continue; fi
+            gh run download --repo "$GITHUB_REPOSITORY" "$id" --name "$name" --dir "$work/r$id"
+            if python -c 'import json,sys; p=json.load(open(sys.argv[1])); assert p.get("pushed") is True and p.get("site_commit")==sys.argv[2] and p.get("source_commit")==sys.argv[3]' "$work/r$id/push.json" "$site" "$source"; then
+              found="$work/r$id"
+              break
+            fi
+          done
+          if [ -z "$found" ]; then
+            # Keep the original (unmodified) normal publisher receipts in
+            # successful weekly artifacts for sites unchanged over 14 days.
+            runs=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/weekly-published-brand.yml/runs?status=success&per_page=$ls_limit" --jq '.workflow_runs[].id')
+            for id in $runs; do
+              name="weekly-full-published-brand-inventory-$site"
+              count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$id/artifacts" --jq "[.artifacts[] | select(.name == \"$name\" and .expired == false)] | length")
+              if [ "$count" != 1 ]; then continue; fi
+              gh run download --repo "$GITHUB_REPOSITORY" "$id" --name "$name" --dir "$work/w$id"
+              found="$work/w$id/normal-publisher"
+              break
+            done
+          fi
+          test -n "$found"
+          python driver/tools/ci/brand_name_scan.py --scan --phase published \
+            --source-commit "$source" --site-commit "$site" \
+            --root "$work/site" --manifest "$manifest" \
+            --source-blueprint "$work/source/publication/build-inputs.json" \
+            --identifiers "$work/source/tools/ci/brand-name-identifiers.json" \
+            --build-receipt "$found/build.json" --stage-receipt "$found/stage.json" \
+            --push-receipt "$found/push.json" --live-receipt "$found/receipts/live-verification.json" \
+            --out "$work/weekly-full-brand-scan.json"
+          test "$(git ls-remote https://github.com/cuiyist/nanoxtalsyn-site refs/heads/main | cut -f1)" = "$site"
+          mkdir -p "$work/normal-publisher/receipts"
+          cp "$found"/{build,stage,push}.json "$work/normal-publisher/"
+          cp "$found/receipts/live-verification.json" "$work/normal-publisher/receipts/"
+          echo "WEEKLY_SITE=$site" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: weekly-full-published-brand-inventory-${{ env.WEEKLY_SITE }}
+          path: |
+            ${{ runner.temp }}/weekly/weekly-full-brand-scan.json*
+            ${{ runner.temp }}/weekly/normal-publisher/
+          retention-days: 30

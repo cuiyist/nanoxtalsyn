@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "completeness-f6-w-20261118-03",
-  "updated_at": "2026-11-18T18:41:34.521235+00:00",
+  "release_id": "owner-s-scoped-live-scan-20261118",
+  "updated_at": "2026-11-18T23:39:37.707553+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -11,13 +11,18 @@
     },
     {
       "path": ".github/workflows/site-publish.yml",
-      "sha256": "c9fecd1ab31dee6d4d430063c010799439a2d11472fa2ed6af6f97e5e2b01219",
-      "bytes": 10934
+      "sha256": "f00562d6cb654e046d779679267fdf7edf6897174db80e8a64d4efee13412052",
+      "bytes": 11739
     },
     {
       "path": ".github/workflows/validate-project.yml",
       "sha256": "9058f47b72f2ab1eba0de4a30dc2cecfaae67019bb79b68ab78077083100ffd4",
       "bytes": 14978
+    },
+    {
+      "path": ".github/workflows/weekly-published-brand.yml",
+      "sha256": "fbcb49c3aff2dca1941b93a6896f702489e01c98b9df7d44b45451f4affcfb6d",
+      "bytes": 4938
     },
     {
       "path": ".gitignore",
@@ -56,7 +61,7 @@
     },
     {
       "path": "publication/live-reverification-scope.json",
-      "sha256": "f263484c5140dceefc4bcb1fbb59bd2d3527e33c9e0c37f3496febd471d47f25",
+      "sha256": "ec3b9ecacd00ece1705b4412bfa93ccd0bf90cb862154ca44324e2a9657f686a",
       "bytes": 175682
     },
     {
@@ -314466,8 +314471,8 @@
     },
     {
       "path": "tools/ci/brand_name_scan.py",
-      "sha256": "cfe5d4ff70d2119e7521a867ca072a5cef8076d7b3d01044535141ac2cfded39",
-      "bytes": 29548
+      "sha256": "cf4b50dcb92eed7841ad5ff776228820f1f7835519e6682ea8c35b3e01cad06b",
+      "bytes": 33027
     },
     {
       "path": "tools/ci/chemical-reference-check.mjs",
@@ -314741,8 +314746,8 @@
     },
     {
       "path": "tools/publication/ci_site_publish.py",
-      "sha256": "4976c7a71ccc2e4c4b751f6ccdfcbb7cf7df1f9a3e5eca4048e42210abd209db",
-      "bytes": 36545
+      "sha256": "333db9e14ec847da7b53a869eadfde1d5ee69eb87124b79355115921d0735552",
+      "bytes": 39245
     },
     {
       "path": "tools/publication/correct_source_links.py",
@@ -314815,6 +314820,11 @@
       "bytes": 1432
     },
     {
+      "path": "tools/publication/site_size_report.py",
+      "sha256": "e5694edc772cffd7cbd9901a306d5936c25b5ac5002a8f06bcd196b51f2a8b4f",
+      "bytes": 3969
+    },
+    {
       "path": "tools/publication/source_link_artifacts.py",
       "sha256": "251a20938f5e9f0bee8a5e882a9fddd830372d9162069b8b5ee1f6821c49d4d5",
       "bytes": 15465
@@ -314856,8 +314866,8 @@
     },
     {
       "path": "tools/publication/test_n_brand_publish_hook.py",
-      "sha256": "2417f26afca14442acca064f6bcc418e4fc538b7ee275d2866dc28df571d68f8",
-      "bytes": 9131
+      "sha256": "90d81a6f7d808764d0eab614806b5cdd48ca5e5bb8c4b3424ccc73062695e3fe",
+      "bytes": 9161
     },
     {
       "path": "tools/publication/test_no_link_single_probe.py",
@@ -314941,8 +314951,8 @@
     },
     {
       "path": "tools/publication/tests/test_brand_name_scan.py",
-      "sha256": "fb1b5e688a9e3b57c74f641f21ae9b54bc605a7b022200cb2422fa0e8356e596",
-      "bytes": 19546
+      "sha256": "99561a21987a01a43e24e38a926714d0e15cdaf3efa6c3b1386dacfd077edc95",
+      "bytes": 22803
     },
     {
       "path": "tools/publication/tests/test_brand_scan_pacing.py",

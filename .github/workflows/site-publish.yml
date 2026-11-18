@@ -154,7 +154,15 @@ jobs:
 
       - name: Stage the site tree and run the site boundary gate
         if: env.SKIP != '1'
-        run: python driver/tools/publication/ci_site_publish.py stage --source "$WORK/source" --work "$WORK/w" --site "$WORK/site"
+        run: |
+          replay=()
+          if [ "$MODE" = dry-run ]; then
+            # The existing Site's reviewed scope names its original base.
+            # Obtain that first parent without changing the comparison target.
+            git -C "$WORK/site" fetch --quiet --depth 2 origin "$SITE_BASE"
+            replay+=(--replay-existing-site)
+          fi
+          python driver/tools/publication/ci_site_publish.py stage --source "$WORK/source" --work "$WORK/w" --site "$WORK/site" "${replay[@]}"
 
       - name: Compare with the live site (dry run)
         if: env.SKIP != '1' && env.MODE == 'dry-run'
@@ -190,7 +198,16 @@ jobs:
         if: env.SKIP != '1' && env.MODE == 'publish'
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python driver/tools/publication/ci_site_publish.py verify --source "$WORK/source" --work "$WORK/w" --site-repo "$SITE_REPO" --site-url "$SITE_URL"
+        run: python driver/tools/publication/ci_site_publish.py verify --source "$WORK/source" --work "$WORK/w" --site-repo "$SITE_REPO" --site-url "$SITE_URL" --changed-plus-recovery-brand-scan
+
+      - name: Report exact published file and repository sizes
+        if: env.SKIP != '1' && env.MODE == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python driver/tools/publication/site_size_report.py "$WORK/w" \
+            --source-kib "$(gh api "repos/$SOURCE_REPO" --jq .size)" \
+            --site-kib "$(gh api "repos/$SITE_REPO" --jq .size)"
 
       - name: Screenshot the ten benchmark pages on the live site
         if: env.SKIP != '1' && env.MODE == 'publish'
