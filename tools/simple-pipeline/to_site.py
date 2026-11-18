@@ -551,12 +551,21 @@ def records_of(doc, include_optical=False, original_ordinals=None):
     builder = checked_builder(doc, include_optical)
     usable = [(n, p) for n, p in original_ordinal_pairs(doc, original_ordinals) if (p.get('recipe') or {}).get('steps') or (p.get('recipe') or {}).get('chemicals')]
     records = []
+    calibrated = calibrated_policy(doc) is not None
     builder.omitted_composition_indices = []
     for n, pair in usable:
         record = builder.record(pair, n)
         if record is None:
             builder.omitted_composition_indices.append(n)
         else:
+            if calibrated:
+                from starting_particle_roles import revise
+                chemicals = (pair.get('recipe') or {}).get('chemicals') or []
+                quotes = {m['id']: [c['quote'] for c in chemicals if c['name'] == m['name'] and c.get('quote')]
+                          for m in record['materials']}
+                record, audit = revise(record, quotes)
+                if audit['holds']:
+                    raise ValueError('Starting-particle role cleanup requires source-linked amount or graph reconciliation')
             records.append(record)
     return builder, records
 
@@ -645,6 +654,7 @@ def chemical_match(index, name, rank, preferred_id=None):
 def bind_chemicals(atlas, records, doi_url, new_assets, only_material_ids=None):
     """Link each chemical to the site's molecule library. A name the library does not know gets a plain
     name card: no structure is drawn for it."""
+    from chemical_name_card_identity import name_card_id
     base = atlas / 'static/assets/chemical-registry'
     registry = json.loads((base / 'registry.json').read_text(encoding='utf-8')); bindings = json.loads((base / 'bindings.json').read_text(encoding='utf-8'))
     index = {}
@@ -662,7 +672,7 @@ def bind_chemicals(atlas, records, doi_url, new_assets, only_material_ids=None):
             hit = chemical_match(index, m['name'], rank, bindings['recordBindings'].get(rid, {}).get(m['id']))
             if hit:
                 bound[m['id']] = hit['id']; matched += 1; continue
-            eid = 'name-card-' + slug(m['name'], 60)
+            eid = name_card_id(m['name'], registry['entries'], slug)
             if eid not in known:
                 caption = 'Name as printed in the paper. The chemical is not in the molecule library, so no formula or structure is shown.'
                 esc = m['name'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')

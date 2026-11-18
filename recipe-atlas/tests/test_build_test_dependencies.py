@@ -33,15 +33,16 @@ class BuildTestDependencies(unittest.TestCase):
     def copy(self,rows=None):
         build_release.copy_test_dependencies(self.source,self.work,{'input_files':self.rows if rows is None else rows})
 
-    def test_six_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
+    def test_eight_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
         self.assertEqual(set(build_release.TEST_MODULE_INPUTS),{
             'tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py',
             'tools/simple-pipeline/completeness_policy.py','tools/simple-pipeline/completeness_policy.json',
+            'tools/simple-pipeline/chemical_name_card_identity.py','tools/simple-pipeline/starting_particle_roles.py',
             'tools/package-importer/importer.py','tools/package-importer/preflight.py'})
         self.copy()
         for relative in build_release.TEST_MODULE_INPUTS:
             self.assertEqual((self.work.parent/relative).read_bytes(),(self.source/relative).read_bytes())
-        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),5)
+        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),7)
         self.assertTrue((self.work.parent/'tools/simple-pipeline/completeness_policy.json').is_file())
         self.assertFalse((self.work/'dist/tools').exists())
 
