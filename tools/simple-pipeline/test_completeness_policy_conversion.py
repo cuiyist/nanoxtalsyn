@@ -60,5 +60,23 @@ class Tests(unittest.TestCase):
     def test_unchecked_metadata_cannot_change_optics(self):
         doc=document();doc['check_policy']['optical_fields']=['absorption_peak']
         self.assertFalse(policy.is_checked_document(doc))
+    def test_w_roles_run_after_complete_chemical_and_step_binding(self):
+        doc=document();pair=doc['pairs'][0];pair['product']='CdSe/ZnS research sample'
+        pair['structure']={'composition':{'value':'CdSe/ZnS','page':1},
+                           'architecture':{'value':'core/shell','page':1}}
+        def chemical(name,page,quote,amount=None):
+            return {'name':name,'role':'metal source','amount':amount,'unit':'mg',
+                    'quote':quote,'page':page}
+        pair['recipe']={'chemicals':[
+            chemical('CdSe',1,'Use CdSe particles.',2),chemical('CdSe core',2,'Mix the CdSe core.'),
+            chemical('ZnS shell',2,'The resulting sample had a ZnS shell.')],
+            'steps':[{'action':'mix','description':'Mix the CdSe core.','page':2,
+                      'quote':'Mix the CdSe core.','uses':['CdSe core']}]}
+        record=to_site.records_of(doc)[1][0]
+        self.assertEqual([(m['name'],m['role']) for m in record['materials']],[('CdSe','starting_particles')])
+        starting=record['materials'][0]
+        self.assertEqual(starting['quantities']['mass']['value'],2)
+        self.assertEqual({e['locator'] for e in starting['evidence']},{'Main PDF p.1','Main PDF p.2'})
+        self.assertEqual(record['operations'][0]['inputs'],[starting['id']])
 
 if __name__=='__main__':unittest.main()

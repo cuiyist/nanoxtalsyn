@@ -1,4 +1,16 @@
-## Current checkpoint — 17 November 2026: recipe completeness F/T
+## 18 November 2026 — F6 and T proceeds independently
+
+PR 178 is verified live: 40 existing papers and 66 next-revision
+`source_extracted` records. The next candidate package covers 300 distinct
+existing papers, 476 revisions, including the 66 PR 178 follow-up revisions.
+It implements the owner W rule that starting particles are not elemental
+precursors. Its local checks preserve record IDs, checked values, all figures,
+and audited/training status, with the specifically authorized W changes.
+The local T tests use the frozen held-out set, separately from release CI.
+Do not count this candidate package as live without the completed publisher,
+Pages, and anonymous verification receipts.
+
+## Previous checkpoint — 17 November 2026: recipe completeness F/T
 
 The already-read release10 is verified live at Source `0a5c3aebfcd27e7d82a6a9bfd7c338ad821310c8` / Site `9e2dbbc77e4f70e24233ee24c75cca529dc10755` (PR177, publisher44079884776, Pages44087525621). It adds37papers/49source_extracted records/182crops; cumulative local intake403papers/618records/2145crops. No audit or training promotion.
 

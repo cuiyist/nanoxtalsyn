@@ -21,8 +21,15 @@ are immutable; machine-extracted records remain `source_extracted`.
   the public implementation passed fixed-set equivalence; publication is pending.
 - **F5 optics:** emission peaks (14/14 correct) and quantum yields (9/9)
   qualify for conversion. Absorption peaks remain held back (19/21, 90.48%).
-- **F6 replacements:** **0** published in this experiment. Saved-pass rechecks and
-  protected private candidate construction are in progress, not live revisions.
+- **F6 replacements:** [PR 178](https://github.com/cuiyist/nanoxtalsyn/pull/178)
+  shipped 66 revised recipes in 40 existing papers, verified against Site commit
+  `ed43e988a8e27d3e0a52c4f82d0c4a7db3a1d5fe`. The next candidate covers 300
+  existing papers and 476 revisions. It includes next revisions for all 66
+  PR 178 records with the owner-directed W corrections. The candidate count
+  is not added to the live total without deployment and anonymous verification.
+  W actions in this candidate: 83 starting-particle role changes, six shell
+  omissions, four duplicate merges, and one determinate missing Greek letter
+  restored (PR 178 subset: 15, six, three and one; counts can overlap).
 - **T3 / T4:** not started; no reading variant adopted.
 - **T5:** not started; 0 candidate papers reread or improved in this experiment.
 - New-paper intake remains paused until F5 and T4 are decided. The audit lane,
@@ -296,8 +303,9 @@ and verified [Site commit](https://github.com/cuiyist/mattersyn-site/commit/9e2d
 are the F1/F2 record baseline. Publisher run 44079884776 succeeded; anonymous
 verification, payload checks and the full 73,083-file boundary scan passed.
 That release is not an F6 replacement release. The first 40-paper / 66-revision
-F6 batch is in [PR 178](https://github.com/cuiyist/nanoxtalsyn/pull/178), pending
-normal release gates. No F/T Site publication is claimed yet.
+F6 batch is live through [PR 178](https://github.com/cuiyist/nanoxtalsyn/pull/178).
+Publisher run 44156606277 and Pages run 44163181313 passed; anonymous verification
+matched all revised record bytes and the accompanying public assets.
 
 ### Preserved engineering failures and corrections
 
