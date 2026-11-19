@@ -39,10 +39,13 @@ import shutil
 import subprocess
 import sys
 import time
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'ci'))
 import release_batch as rb  # noqa: E402  (same directory; reuses the local release helpers)
+from brand_name_scan import PacedAnonymousFetch
 from repository_names import (SOURCE_REPO, SITE_REPO, SITE_URL, PAGES_WORKFLOW_NAME,
                               SITE_PUBLISH_WORKFLOW_NAME, LEGACY_SITE_PUBLISH_WORKFLOW_NAME)
 
@@ -599,8 +602,14 @@ def cmd_verify(a):
     log(f'Pages run finished: {runs}; anonymous live check')
     required_paths, recovery = read_live_reverification_scope(stage, work, rb.tree_files(work / DIST))
     paths = sorted(set(built_changed_paths(stage)) | set(required_paths))
+    # Same mandatory paths, three attempts and exact SHA-256 decisions. Pace
+    # requests across all native workers and honor a Pages 429's Retry-After.
+    transport = PacedAnonymousFetch(fetch=lambda request, timeout: urllib.request.urlopen(request, timeout=timeout),
+                                    initial_rps=4, throttled_rps=2)
     result = rb.verify_live(a.site_url, work / DIST, stage['source_commit'], stage['paper_routes'],
-                            stage['material_routes'], changed_paths=paths)
+                            stage['material_routes'], changed_paths=paths,
+                            opener=lambda request, timeout: transport(request, timeout))
+    result['anonymous_transport'] = transport.receipt()
     if recovery is not None:
         checked = set(result.get('checked_changed_files', []))
         result['reverification_scope'] = {**recovery, 'required_files': len(required_paths),

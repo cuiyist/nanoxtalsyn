@@ -25,6 +25,32 @@ class Clock:
 
 
 class PacingTests(unittest.TestCase):
+    def test_ordinary_probe_uses_four_then_two_starts_per_second(self):
+        clock, starts = Clock(), []
+        response = object()
+        def fetch(req, timeout):
+            self.assertEqual(timeout, 60)
+            starts.append((req, clock.now))
+            if req == 'b':
+                raise urllib.error.HTTPError(req, 429, 'limited', {'Retry-After': '90'}, None)
+            return response
+        paced = n.PacedAnonymousFetch(fetch, clock.time, clock.sleep, initial_rps=4, throttled_rps=2)
+        self.assertIs(paced('a',60),response)
+        with self.assertRaises(urllib.error.HTTPError): paced('b',60)
+        self.assertIs(paced('c',60),response)
+        self.assertIs(paced('d',60),response)
+        self.assertEqual(starts,[('a',0),('b',.25),('c',90.25),('d',90.75)])
+
+    def test_out_of_window_retry_after_blocks_other_workers(self):
+        clock, starts = Clock(), []
+        def fetch(url, expected):
+            starts.append(url)
+            raise urllib.error.HTTPError(url, 429, 'limited', {'Retry-After': '3601'}, None)
+        paced = n.PacedAnonymousFetch(fetch, clock.time, clock.sleep)
+        for url in ('a','b'):
+            with self.assertRaisesRegex(ValueError,'bounded publisher'): paced(url,1)
+        self.assertEqual(starts,['a'])
+
     def test_request_budget_is_shared_across_distinct_urls_and_retries(self):
         clock = Clock()
         starts = []

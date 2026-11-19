@@ -1,7 +1,7 @@
 """Synthetic regression cases for the owner W graph-preservation rule."""
 import unittest
 
-from starting_particle_roles import revise
+from starting_particle_roles import revise, role_for
 
 
 def record(materials, inputs):
@@ -17,6 +17,27 @@ def record(materials, inputs):
 
 
 class ExactGraphTests(unittest.TestCase):
+    def test_distinct_powder_and_named_seeds_retain_both_and_bind_specific_alias(self):
+        for quote, target in [('CdSe powders were used.', 'powder'),
+                              ('The CdSe t-NCs were used.', 'seed')]:
+            original=record([('alias','CdSe'),('powder','CdSe powder'),
+                             ('seed','CdSe nanocrystal seeds (t-NCs)')],['alias','powder'])
+            changed,ledger=revise(original,{'alias':[quote]})
+            self.assertEqual([m['id'] for m in changed['materials']],['powder','seed'])
+            self.assertTrue(all(m['role']=='starting_particles' for m in changed['materials']))
+            self.assertIn(('W3','alias',target), ledger['entries'])
+            self.assertEqual(changed['operations'][0]['inputs'],
+                             ['powder'] if target=='powder' else ['seed','powder'])
+
+    def test_bare_alias_without_a_unique_match_does_not_merge_input(self):
+        original=record([('alias','CdSe'),('powder','CdSe powder'),
+                         ('seed','CdSe nanocrystal seeds (t-NCs)')],['alias','powder','seed'])
+        changed,ledger=revise(original,{'alias':['CdSe powder and CdSe t-NCs']})
+        self.assertNotIn('W3',ledger['counts'])
+        self.assertEqual(changed['operations'],original['operations'])
+        self.assertEqual(len(changed['materials']),3)
+        self.assertEqual(role_for('V2O5 (c.p.)', {'formula':'V2O5'}),('unchanged',None))
+
     def test_no_w_action_retains_original_input_order_and_repetitions(self):
         original=record([('x','a synthetic solvent')],['x','x'])
         new,ledger=revise(original)

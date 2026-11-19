@@ -37,7 +37,9 @@ are immutable; machine-extracted records remain `source_extracted`.
   held out. W actions in this candidate: 71 role changes, 12 shell omissions
   and two duplicate merges. No new papers or training admissions. The next
   candidate counts are not published counts.
-- **T3 / T4:** not started; no reading variant adopted.
+- **T3 / T4:** keeps R0 with CHECK V5. R4 increased completeness to 35.52%
+  but its 5.01 valid papers/hour missed the 14.52/hour floor. R1–R3 did not
+  increase held-out completeness. The full tables are below.
 - **T5:** not started; 0 candidate papers reread or improved in this experiment.
 - New-paper intake remains paused until F5 and T4 are decided. The audit lane,
   Worker A/B queue and five older owner holds remain paused.
@@ -329,3 +331,42 @@ path in two test loaders. All missing/changed/duplicate dependency rejection
 checks remain. The 26 focused dependency, Reader-compaction and actual-consumer
 regressions pass; a fresh complete GitHub run is still required. No canonical
 record, frozen CHECK, converter logic, scoring result or publication gate changed.
+
+## T3–T4: held-out results and decision
+
+T4 adopts **R0**. The cutoff is 95% accuracy and 14.52 valid papers/hour. The set is the same 50 audited papers; no paper text left the machine.
+
+| Reading | Accuracy | Completeness | Valid / attempted | Valid papers/h | Attempted papers/h | Chemicals / recipe | Steps / recipe |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| R0 | 896/901 (99.45%) | 1,765/5,208 (33.89%) | 50/50 | 43.57 | 43.57 | 4.08 | 4.40 |
+| R1 | 824/829 (99.40%) | 1,436/5,208 (27.57%) | 41/50 | 38.03 | 46.37 | 5.00 | 4.97 |
+| R2 | 1,354/1,389 (97.48%) | 1,498/5,208 (28.76%) | 38/50 | 16.44 | 21.63 | 5.04 | 5.30 |
+| R3 | 1,490/1,532 (97.26%) | 1,559/5,208 (29.93%) | 38/50 | 11.75 | 15.46 | 5.44 | 5.39 |
+| R4 | 1,771/1,787 (99.10%) | 1,850/5,208 (35.52%) | 37/50 | 5.01 | 6.76 | 4.90 | 4.04 |
+
+Full-set completeness includes the missing values from failed readings. Valid-paper throughput counts successful two-pass reads, not merely attempts.
+
+### Accuracy by field
+
+| Field | R0 | R1 | R2 | R3 | R4 |
+|---|---:|---:|---:|---:|---:|
+| composition | 68/68 (100.00%) | 50/50 (100.00%) | 81/81 (100.00%) | 81/81 (100.00%) | 119/123 (96.75%) |
+| chemical name | 311/314 (99.04%) | 307/310 (99.03%) | 477/489 (97.55%) | 511/528 (96.78%) | 704/710 (99.15%) |
+| chemical amount | 153/153 (100.00%) | 152/152 (100.00%) | 262/266 (98.50%) | 327/338 (96.75%) | 387/388 (99.74%) |
+| temperature | 126/126 (100.00%) | 132/132 (100.00%) | 227/228 (99.56%) | 239/239 (100.00%) | 205/207 (99.03%) |
+| time | 153/153 (100.00%) | 119/119 (100.00%) | 200/208 (96.15%) | 222/227 (97.80%) | 253/253 (100.00%) |
+| size | 52/52 (100.00%) | 39/39 (100.00%) | 65/66 (98.48%) | 65/66 (98.48%) | 62/62 (100.00%) |
+| optical peak | 33/35 (94.29%) | 25/27 (92.59%) | 42/51 (82.35%) | 45/53 (84.91%) | 41/44 (93.18%) |
+| quantum yield | 9/9 (100.00%) | 10/10 (100.00%) | 14/16 (87.50%) | 17/18 (94.44%) | 13/14 (92.86%) |
+
+### Completeness by field
+
+| Field | R0 | R1 | R2 | R3 | R4 |
+|---|---:|---:|---:|---:|---:|
+| chemical name | 765/2,511 (30.47%) | 618/2,511 (24.61%) | 620/2,511 (24.69%) | 621/2,511 (24.73%) | 796/2,511 (31.70%) |
+| chemical amount | 355/1,268 (28.00%) | 287/1,268 (22.63%) | 306/1,268 (24.13%) | 352/1,268 (27.76%) | 362/1,268 (28.55%) |
+| temperature | 289/569 (50.79%) | 239/569 (42.00%) | 288/569 (50.62%) | 291/569 (51.14%) | 305/569 (53.60%) |
+| time | 310/608 (50.99%) | 255/608 (41.94%) | 249/608 (40.95%) | 260/608 (42.76%) | 339/608 (55.76%) |
+| size | 46/252 (18.25%) | 37/252 (14.68%) | 35/252 (13.89%) | 35/252 (13.89%) | 48/252 (19.05%) |
+
+T7: 1,599 live DOI papers had a filename-matched SI PDF beside the main PDF. Of 3,319 live primary DOIs, 3,318 had a DOI-named main PDF in the local corpora. This metadata count does not rule out supplements with ambiguous filenames.
