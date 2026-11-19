@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "completeness-f6-w-20261119-05",
+  "release_id": "f6-pr183-w-core-plurals-20261119",
   "repo": "mattersyn",
-  "source_commit": "5ec1300c12feb8ada6804c7cd70d0c1e311bceb7",
+  "source_commit": "c5db2dc6ea8122742662f0c3843529b4e2b7f5c2",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "95c1f9f753b4d6786042fd69793bd91dc14fc1c698fc003edb2d0f758af8d540",
+    "sha256": "e61c235d78bb3423c52203c830a500e15ecb58349d580f927689cd34a996d771",
     "file_count": 63370,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,32 +150,32 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "b684e5fb93e440605fd96820580c3977b396b7b7be86b162cb26dc59bcf0954d",
-      "bytes": 14462222,
+      "sha256": "6b263feacc7f9270cebde9f8640eda6e7d96e6e277ede792d7ff4127c8a2bdb8",
+      "bytes": 14462225,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-19T15:53:56.480470+00:00",
+      "reviewed_at": "2026-11-19T19:06:45.647857+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "cea00d734fc27a510339430cb8f48b67914009991d42bb090c239bdd0e9ab36f",
-        "sha256": "ecfa35efd831225f0c04c343a85101e4a2c130c915101532808e25e57de81243",
-        "reviewer": "Codex F6 preservation review",
-        "reviewed_at": "2026-11-19T15:53:22.225282+00:00"
+        "before_sha256": "ecfa35efd831225f0c04c343a85101e4a2c130c915101532808e25e57de81243",
+        "sha256": "b4ac792e4ab46e3af303ecb2a5adbe967171ff8c389598098d5162b430c64f17",
+        "reviewer": "Codex exact-scope W correction review",
+        "reviewed_at": "2026-11-19T19:06:09.304256+00:00"
       }
     },
     {
       "path": "publication/live-reverification-scope.json",
-      "sha256": "a597012150c4a838936db21c4f86121f2e41e09eff2c0b0ee87823a5ceca767f",
+      "sha256": "0f69c827c5e2628c5afd4caaf615ea7694bb8cd4d0ff9b262b10ca7e299402d0",
       "bytes": 490178,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -3020,37 +3020,37 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "629e2f931f439034bb7d234bbd8eaa6af9f4c9fe08c4f2e3865bc3b071c495f1",
+      "sha256": "63c7c80ec88c636c1a1edab6890ed59e52d8fce7880020889d13fe22516234bf",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "338f806e5a7fe6929d09ff15c518e75d6b2c44f3264f2260341d20b756545887",
+      "sha256": "702a99a0d478687e23e7254efe7242ca9a21d282864ccc03ceef37371ed39975",
       "bytes": 83872789,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "ddc3c45e6e284c1e81d6066e87ef947d09ca32c04c15d1326480346b9dcc3c1f",
+      "sha256": "6c847cee4254f1d0ca6e75ce91d272ab8a8c3e8e91d4a11a58be2465bad02414",
       "bytes": 83880865,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -7982,13 +7982,13 @@
     },
     {
       "path": "recipe-atlas/data/records/ashokan2021-acs-chemmater-0c04416-cdse-cds-2ml-qds-d-5-24-nm-2.json",
-      "sha256": "bb60d0af434322cb76c047be28bc575d0494d4eb94531d9cdc228c5e1183846c",
-      "bytes": 13319,
+      "sha256": "12e3753ba90563382ffe3db4398816299ad59c72c72f0bf27b2f83bdc029679e",
+      "bytes": 13330,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -8014,13 +8014,13 @@
     },
     {
       "path": "recipe-atlas/data/records/ashokan2021-acs-chemmater-0c04416-cdse-zns-2ml-qds-d-5-24-nm-3.json",
-      "sha256": "94d011d5039fb7d82dc2777865fecec7de68d3fe7d6b15e7ffa6c1b08d8034f2",
-      "bytes": 13331,
+      "sha256": "1d89b39f55cad14cded0fa2c6378d40ae201fa45d215f2d3e0502e3e47cc04d7",
+      "bytes": 13342,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -19982,13 +19982,13 @@
     },
     {
       "path": "recipe-atlas/data/records/coropceanu2014-nl501627e-cdse-cds-core-shell-quantum-dots-with-ap-1.json",
-      "sha256": "f5839777134358223ceaa416561f1d24d04921c02289bdf201aa26e3e03e7104",
-      "bytes": 12359,
+      "sha256": "66f40ec707efb5904cadb325c8b1f93d0805e59be885a978c51d8d3492e19fe8",
+      "bytes": 11900,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -32693,13 +32693,13 @@
     },
     {
       "path": "recipe-atlas/data/records/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-1.json",
-      "sha256": "322f354e9860dda5bc012d212afffe26c4f9f2b2bad4870a734788faf09e92df",
-      "bytes": 13200,
+      "sha256": "562fc6b32d5e82ff23bb9b2da01aeba2f8c9229759534065cf51d698c76994bf",
+      "bytes": 12717,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -32709,13 +32709,13 @@
     },
     {
       "path": "recipe-atlas/data/records/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-2.json",
-      "sha256": "06c0c79cc21a5db5443b64ed951f3d10c4ba02135e91149aa689493fbebd22c8",
-      "bytes": 13198,
+      "sha256": "bd78514fd22d460c22a1fac4f289c616af1600e0e44f7e88a023454c25b808c7",
+      "bytes": 12715,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -32725,13 +32725,13 @@
     },
     {
       "path": "recipe-atlas/data/records/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-3.json",
-      "sha256": "9c98c9003d0e8179c9519f51c88c59415eacf6929306e82d81d1461348cc0892",
-      "bytes": 13198,
+      "sha256": "f0a8aa1c23559602e33377ece4f4639b2fa46f90596cfa379aaf0880714300f6",
+      "bytes": 12715,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -56775,13 +56775,13 @@
     },
     {
       "path": "recipe-atlas/data/records/lim2011-cm201550w-inp-znses-qds-1.json",
-      "sha256": "31c2b2615f350ccf9c9a8c4704c588afb92efdfc082132cbc0655d59c69e4b92",
-      "bytes": 11871,
+      "sha256": "ce19320ec809e549029062592d8428907d661b2effe0a3b5d6a9b403d7c63f96",
+      "bytes": 11443,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -125346,13 +125346,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "7679d275a9e3b029460c9118b40689a6fb987b21e0d90e7781705aea20547e55",
+      "sha256": "1bfea15136317c65a85bd3374f95fa6b2a2ab8fa020da7c28905fd06aa6a60a4",
       "bytes": 26187746,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-19T15:53:56.480470+00:00",
+      "reviewed_at": "2026-11-19T19:06:45.647857+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -139175,13 +139175,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "39d910de38e0ebc3b2eedd93a3313d4a2681a3069a0916b87ee107ba1861e68e",
-      "bytes": 10650270,
+      "sha256": "627baebc517f9fcf0afd9e354f2747c560c69bc5be41686bb0613ba38ae14f71",
+      "bytes": 10649735,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -170456,13 +170456,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "d2fb9e57464fcaaeac0be219fffac5a48dc4dc278ae7c8e651748cf4b8e98cad",
-      "bytes": 4811825,
+      "sha256": "69ddb0703d28e39aa9b1a7ba55bea0d60825c0751bc1a0b2a480ff26852b360a",
+      "bytes": 4811240,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -928350,13 +928350,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ashokan2021-acs-chemmater-0c04416-cdse-cds-2ml-qds-d-5-24-nm-2.json",
-      "sha256": "72f37f66ec3775739177504551ec559e16923785511490275e7884ea93c2d5df",
+      "sha256": "71b5af004e23f5d20b787aac10940f666c21cc34fc7c571cc927b89c0a4d3e3e",
       "bytes": 1285,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -928382,13 +928382,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ashokan2021-acs-chemmater-0c04416-cdse-zns-2ml-qds-d-5-24-nm-3.json",
-      "sha256": "b50c5a3fc74835fc5f2330a81c1ce327b89addc03c72ebe15cfe97fdd416f675",
+      "sha256": "9d45f7ff5bd7a5e3445940ec307554a5c315edf6202cfaad1176272fd8a1a05f",
       "bytes": 1285,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -949211,13 +949211,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/coropceanu2014-nl501627e-cdse-cds-core-shell-quantum-dots-with-ap-1.json",
-      "sha256": "91b3427de5abcc90ca752c2f6d4bd5b3bcb217118b4bd62f1a222bbd329c03c5",
+      "sha256": "9195542b47f719e90ebe970a3c9528bbb6bcb9989d714b50bd37dbd7be798237",
       "bytes": 716,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -964968,13 +964968,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-1.json",
-      "sha256": "17f99cdbc97127d8a2e9d27443f46a45046814e82df81e8038d2c116d906233e",
+      "sha256": "b984ca33909d05a160fd44fee2859d3e28974b042fecbd9b87b250f0c876b4f6",
       "bytes": 1359,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -964984,13 +964984,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-2.json",
-      "sha256": "e9bc6cb6a894f3a7e82406e754aea1c41360e452dbdb54cbf77b53b139477dd7",
+      "sha256": "bb6f85dc4de9b48872374e7b9b0d41f9df659800115cab7bd262e8d12862ec03",
       "bytes": 1359,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -965000,13 +965000,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/grinbom2010-physrevb-81-245301-pbse-pbs-core-shell-cqd-with-core-radius-3.json",
-      "sha256": "c0b1a1b35db11661ade4d2759cf6cc06c2fa23ddee6a7c3c442017cf91e93bf9",
+      "sha256": "78379b6a13ee5a56cc95619ec06bcb6dc1d48342d79fe010e8db6de2bb4afd43",
       "bytes": 1359,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1007948,13 +1007948,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lim2011-cm201550w-inp-znses-qds-1.json",
-      "sha256": "4b9cfe957a500a02a9706db23a082ff961d293c402ac8cc50b678ed853317baf",
+      "sha256": "8b14f59eb4c87b70fedc8fa13c7f25d4da9df9423099d640b9ab1c87d781ab0e",
       "bytes": 676,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T15:52:59+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1142317,13 +1142317,13 @@
     },
     {
       "path": "tools/simple-pipeline/starting_particle_roles.py",
-      "sha256": "8cb6560527b15a6ef86f2b7640cf55086d4ce165d4d7dd51d0f527a8b3f97f58",
-      "bytes": 9295,
+      "sha256": "75823926fa211deb1045c58a1bf7127299bd31252c7bcb669de65e5770a9f938",
+      "bytes": 9301,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact-scope publication recovery review",
-      "reviewed_at": "2026-11-19T05:10:44+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1142785,13 +1142785,13 @@
     },
     {
       "path": "tools/simple-pipeline/test_starting_particle_roles.py",
-      "sha256": "cbde447187ebfacb63053477686df446da1ffb40aae5c05e75d7582e5e06110f",
-      "bytes": 3060,
+      "sha256": "da558fa4e446b53db26f8637adbddc204262f6066161106f57344295ee640f61",
+      "bytes": 4645,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact-scope publication recovery review",
-      "reviewed_at": "2026-11-19T05:10:44+00:00",
+      "reviewer": "Codex exact-scope W correction review",
+      "reviewed_at": "2026-11-19T19:06:08+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

@@ -11,10 +11,10 @@ import unicodedata
 
 STARTING = 'starting_particles'
 SUB = str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')
-PARTICLE = r'core|qds?|quantum[ -]+dots?|nano[ -]?(?:particles?|crystals?)|seeds?|bulk|powders?'
+PARTICLE = r'cores?|qds?|quantum[ -]+dots?|nano[ -]?(?:particles?|crystals?)|seeds?|bulk|powders?'
 PREFIX = re.compile(r'^(?:as[ -]+prepared|bulk|powder)\b[ -]*', re.I)
 SUFFIX = re.compile(r'\s+(?:'+PARTICLE+r')$', re.I)
-SHELL = re.compile(r'\s+shell(?:\s+layer)?$', re.I)
+SHELL = re.compile(r'\s+shells?(?:\s+layers?)?$', re.I)
 SAMPLE_LABEL = re.compile(r'\s+\(([A-Za-z0-9][A-Za-z0-9.-]{0,23})\)$')
 
 
