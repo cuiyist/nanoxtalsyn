@@ -17,6 +17,30 @@ def record(materials, inputs):
 
 
 class ExactGraphTests(unittest.TestCase):
+    def test_plural_core_keeps_its_name_evidence_and_exact_graph_links(self):
+        original = record([('cores', 'CdSe cores'), ('alias', 'CdSe'),
+                           ('reagent', 'CdS precursors')], ['alias', 'reagent', 'cores'])
+        original['materials'][0]['evidence'] = [{'id': 'core-locator'}]
+        original['materials'][1]['evidence'] = [{'id': 'alias-locator'}]
+        changed, ledger = revise(original)
+        self.assertEqual([(row['id'], row['role']) for row in changed['materials']],
+                         [('cores', 'starting_particles'), ('reagent', 'reagent')])
+        self.assertEqual(changed['materials'][0]['evidence'],
+                         [{'id': 'core-locator'}, {'id': 'alias-locator'}])
+        self.assertEqual(changed['operations'][0]['inputs'], ['cores', 'reagent'])
+        self.assertEqual(changed['operations'][0]['optional_inputs'], ['cores', 'reagent'])
+        self.assertEqual(changed['material_states'][0]['parent_ids'], ['cores', 'reagent'])
+        self.assertEqual(ledger['counts'], {'W1': 2, 'W3': 1})
+        self.assertFalse(ledger['holds'])
+
+    def test_plural_shell_description_is_not_a_chemical(self):
+        material = {'formula': 'CdSe/ZnS', 'architecture': 'core_shell',
+                    'components': ['CdSe', 'ZnS']}
+        self.assertEqual(role_for('ZnS shell layers', material), ('omit', 'ZnS'))
+        self.assertEqual(role_for('ZnS shells', material), ('omit', 'ZnS'))
+        self.assertEqual(role_for('ZnS shells', material, ['Added ZnS nanoparticles.']),
+                         ('start', 'ZnS'))
+
     def test_distinct_powder_and_named_seeds_retain_both_and_bind_specific_alias(self):
         for quote, target in [('CdSe powders were used.', 'powder'),
                               ('The CdSe t-NCs were used.', 'seed')]:
