@@ -126,8 +126,18 @@ def revise(source, quotes_by_id=None):
             groups[key] = row
         kept.append(row)
     record['materials'] = kept
+    merged_targets = set(map_id.values()) - {None}
     def remap(ids):
-        return list(dict.fromkeys(resolved for mid in ids if (resolved := map_id.get(mid,mid)) is not None))
+        # W only changes references to omitted or joined entries. A generic
+        # deduplication would silently change previously checked inputs.
+        out, seen = [], set()
+        for mid in ids:
+            resolved = map_id.get(mid, mid)
+            if resolved is None or (resolved in merged_targets and resolved in seen):
+                continue
+            out.append(resolved)
+            seen.add(resolved)
+        return out
     for operation in record['operations']:
         for field in ('inputs','optional_inputs'):
             if field in operation: operation[field] = remap(operation[field])

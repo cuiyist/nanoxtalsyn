@@ -25,11 +25,18 @@ are immutable; machine-extracted records remain `source_extracted`.
   shipped 66 revised recipes in 40 existing papers, verified against Site commit
   `ed43e988a8e27d3e0a52c4f82d0c4a7db3a1d5fe`. The next candidate covers 300
   existing papers and 476 revisions. It includes next revisions for all 66
-  PR 178 records with the owner-directed W corrections. The candidate count
-  is not added to the live total without deployment and anonymous verification.
-  W actions in this candidate: 83 starting-particle role changes, six shell
+  PR 178 records with the owner-directed W corrections. This batch shipped
+  and was verified in [PR 179](https://github.com/cuiyist/nanoxtalsyn/pull/179),
+  Site `9bcb9f0f329742a816b7e237330b9d88ea05f822`.
+  W actions in that batch: 83 starting-particle role changes, six shell
   omissions, four duplicate merges, and one determinate missing Greek letter
   restored (PR 178 subset: 15, six, three and one; counts can overlap).
+  The next candidate is 457 revisions across 300 other existing papers.
+  After the W transforms it adds a net 741 checked chemical entries, 514
+  steps and 61 amounts. Five proposals with no checked gain after W were
+  held out. W actions in this candidate: 71 role changes, 12 shell omissions
+  and two duplicate merges. No new papers or training admissions. The next
+  candidate counts are not published counts.
 - **T3 / T4:** not started; no reading variant adopted.
 - **T5:** not started; 0 candidate papers reread or improved in this experiment.
 - New-paper intake remains paused until F5 and T4 are decided. The audit lane,
