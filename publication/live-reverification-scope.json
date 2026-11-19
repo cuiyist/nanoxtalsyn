@@ -1,9 +1,9 @@
 {
   "schema": "MatterSyn-live-reverification-scope/1",
-  "prior_source_commit": "03e2f0ad69b60f07fb211c7c0b32b78569ad3069",
-  "prior_site_commit": "9bcb9f0f329742a816b7e237330b9d88ea05f822",
-  "prior_publisher_run": 44385080476,
-  "prior_receipt_sha256": "f90b11f473554618b3ddc950da03262135ddcbd31fd25fed0d0d1d33c890564f",
+  "prior_source_commit": "ee49afed0690f1c44b9ec48bc226b99dbe912fa3",
+  "prior_site_commit": "1c3686b215b945b13c8cf74585cfc14d808a172b",
+  "prior_publisher_run": 44431667619,
+  "prior_receipt_sha256": "6bf1a490384bd15fe131d1e3b5dd11edf2c809826c3b261f7f542a23bae293fc",
   "required_paths": [
     "README.md",
     "REFERENCES.md",
