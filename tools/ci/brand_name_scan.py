@@ -307,17 +307,22 @@ class PacedAnonymousFetch:
     This does not rotate identities, bypass limits, cache bodies or skip URLs.
     """
     def __init__(self, fetch=anonymous_bytes, clock=time.monotonic,
-                 sleep=time.sleep, wall_time=time.time):
+                 sleep=time.sleep, wall_time=time.time, *, initial_rps=20, throttled_rps=10):
+        need(type(initial_rps) is int and type(throttled_rps) is int
+             and 0 < throttled_rps <= initial_rps <= 20, 'Invalid anonymous request budget')
         self.fetch, self.clock, self.sleep, self.wall_time = fetch, clock, sleep, wall_time
         self.lock = threading.Lock()
-        self.interval = 0.05  # At most 20 request starts per second in total.
+        self.initial_rps, self.throttled_rps = initial_rps, throttled_rps
+        self.interval = 1 / initial_rps
         self.next_start = 0.0
         self.requests = self.rate_limits = 0
         self.longest_cooldown = 0.0
+        self.blocked = False
 
     def __call__(self, url, expected_bytes):
         while True:
             with self.lock:
+                need(not self.blocked, 'Retry-After exceeds the bounded publisher window')
                 now = self.clock()
                 delay = self.next_start - now
                 if delay <= 0:
@@ -331,18 +336,24 @@ class PacedAnonymousFetch:
             return self.fetch(url, expected_bytes)
         except urllib.error.HTTPError as error:
             if error.code == 429:
-                delay = max(60.0, retry_after_seconds(error, self.wall_time))
+                try:
+                    delay = max(60.0, retry_after_seconds(error, self.wall_time))
+                except ValueError:
+                    with self.lock:
+                        self.rate_limits += 1
+                        self.blocked = True
+                    raise
                 with self.lock:
                     self.rate_limits += 1
-                    self.interval = 0.1  # Permanently slow this run to <=10/s.
+                    self.interval = 1 / self.throttled_rps
                     self.longest_cooldown = max(self.longest_cooldown, delay)
                     self.next_start = max(self.next_start, self.clock() + delay)
             raise
 
     def receipt(self):
-        return {'policy': 'shared-20rps-then-10rps-429-cooldown/1',
-                'maximum_initial_requests_per_second': 20,
-                'maximum_requests_per_second_after_429': 10,
+        return {'policy': f'shared-{self.initial_rps}rps-then-{self.throttled_rps}rps-429-cooldown/1',
+                'maximum_initial_requests_per_second': self.initial_rps,
+                'maximum_requests_per_second_after_429': self.throttled_rps,
                 'minimum_429_cooldown_seconds': 60,
                 'Retry_After_respected': True, 'requests_started': self.requests,
                 'HTTP_429_responses': self.rate_limits,

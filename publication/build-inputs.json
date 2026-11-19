@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "completeness-f6-w-20261118-04",
-  "updated_at": "2026-11-19T02:09:09.360458+00:00",
+  "release_id": "f6-pr181-recovery-20261118",
+  "updated_at": "2026-11-19T05:11:17.438407+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "publication/live-reverification-scope.json",
-      "sha256": "0dd0ded83b6868c52fcf0ce753b246e33f9ecacd6ae1ae351b8c837910697068",
-      "bytes": 175682
+      "sha256": "cfaa6d5da4812d564dae76bcf890091cdf18c07efe2399f2db2ae45d3f01a8b8",
+      "bytes": 490178
     },
     {
       "path": "publication/public-release-policy.json",
@@ -1166,17 +1166,17 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "2eaf57a0972a101beba9dcb3c11b2596881bbf494427bd0f11abd78fa3593084",
+      "sha256": "9ea3fa53fe3a65e39e7b3b1440255876eebabfdd39f00fde935728a8aa7018f5",
       "bytes": 1110
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "50d9285f12d2dc3f9407a7df1facbe775e0e69d126933d5712eacf8742565e54",
+      "sha256": "d4e3e26a5db75dc93f1032b91fd7b20b1178568f179e506cb0d9186374f85c61",
       "bytes": 83871636
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "fc8c4f0e2a8b97752b401f48c9c87f0e4fa76f901f1bffcc690b36d005b2836a",
+      "sha256": "c496a303728b08b74d504a39f9743305c5428e8568694cbd2903629c8bb6613f",
       "bytes": 83884724
     },
     {
@@ -8796,13 +8796,13 @@
     },
     {
       "path": "recipe-atlas/data/records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1.json",
-      "sha256": "9e00d8213c6b9b9ecddebe09140bbc1830f550292f05e6517fe8d9115b2aed06",
-      "bytes": 10017
+      "sha256": "edaace890fb0cc1bb1ae1c3797fa915504cfa6976b2ebd884d8c19ec9f8d8b95",
+      "bytes": 10028
     },
     {
       "path": "recipe-atlas/data/records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2.json",
-      "sha256": "38ea6ab2b15edf21bad5f917de2f1cd936ccb225caab8b0fe14f507070a5b1ba",
-      "bytes": 11329
+      "sha256": "a2d00f30299565df20338b04ea46f8925f80ea61edc234ca81ba194912f91c08",
+      "bytes": 11374
     },
     {
       "path": "recipe-atlas/data/records/fasth2007-physrevlett-98-266801-inas-nanowire-quantum-dot-1.json",
@@ -38601,7 +38601,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "c5c73745428efdb559ae924d6f2114b588cb7853b5159f875d6eaf3b27010cfb",
+      "sha256": "0754bdb92fa9bc3fea949b960da339b5e9ab01f3f70791d4f47593268265c55d",
       "bytes": 26187917
     },
     {
@@ -40106,7 +40106,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "509f084ec60031b755f5176a05567fe82b908368bb1bcc200dc038604e39beb0",
+      "sha256": "6ececfd7befafef8eec7e94dc1197ff4d35974732e42d295cfe57e6d6ae8c2b0",
       "bytes": 10584216
     },
     {
@@ -51321,7 +51321,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "28221c2774a0df5c46aabd8ccef808464049d491b43187e79f23806700c48d5b",
+      "sha256": "fa7a064c3297c9e50891f71d7b8def0527dc1efdc3cbf30ca369b5bdb716cc7e",
       "bytes": 4776599
     },
     {
@@ -283741,12 +283741,12 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1.json",
-      "sha256": "04588ea84a259301adca165f0b7177ebdc99b2bac802364f0b67aceee07cd48f",
+      "sha256": "464aca8d0f7947b131193a567cefa28937633260d03f83e59af2e523b3496224",
       "bytes": 755
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2.json",
-      "sha256": "0d0703d0270cec725d601e19d7ad85b588c56dbe9c24eca986c699127781b7bd",
+      "sha256": "d47840f1ee00bf8d673c08dbdf9cbc83752ebfbdf6cdab97b4271dca8c678d1b",
       "bytes": 755
     },
     {
@@ -314151,8 +314151,8 @@
     },
     {
       "path": "research-assets/public-audits/RECIPE_COMPLETENESS_FT_20261117.md",
-      "sha256": "f69083ce0b80298031b2d11409e213aed0d690e91de342745e190346139c52f6",
-      "bytes": 21294
+      "sha256": "3286d5d5db40348e7c4277073d597665bdb1ae82eeb20e68b8fb87183bc56a43",
+      "bytes": 24254
     },
     {
       "path": "research-assets/public-audits/REPORTS_2026-10-09.md",
@@ -315271,8 +315271,8 @@
     },
     {
       "path": "tools/ci/brand_name_scan.py",
-      "sha256": "cf4b50dcb92eed7841ad5ff776228820f1f7835519e6682ea8c35b3e01cad06b",
-      "bytes": 33027
+      "sha256": "ae1a0c2dabbeca143b6d40475a0df60800d298329729f56bba6508ace85c332f",
+      "bytes": 33637
     },
     {
       "path": "tools/ci/chemical-reference-check.mjs",
@@ -315546,8 +315546,8 @@
     },
     {
       "path": "tools/publication/ci_site_publish.py",
-      "sha256": "333db9e14ec847da7b53a869eadfde1d5ee69eb87124b79355115921d0735552",
-      "bytes": 39245
+      "sha256": "2398caf474f07b8fd097f347a4c6746132863b537a088664ca9d1a723a647501",
+      "bytes": 39871
     },
     {
       "path": "tools/publication/correct_source_links.py",
@@ -315756,8 +315756,8 @@
     },
     {
       "path": "tools/publication/tests/test_brand_scan_pacing.py",
-      "sha256": "8db808d8e1a9e8ee3355ae98bd5ea21ce063985e66a35c06953e9d5f0f425113",
-      "bytes": 4097
+      "sha256": "8690b73c838d9cd0ae2a1daf5f694f4ab19f8b31d0d645263316162cf881cb90",
+      "bytes": 5377
     },
     {
       "path": "tools/publication/tests/test_brand_scan_truncation.py",
@@ -315931,8 +315931,8 @@
     },
     {
       "path": "tools/simple-pipeline/starting_particle_roles.py",
-      "sha256": "949883b094dfdda5e7301276641d11cb71436cb803dc114b310e77f843ef9a69",
-      "bytes": 6506
+      "sha256": "8cb6560527b15a6ef86f2b7640cf55086d4ce165d4d7dd51d0f527a8b3f97f58",
+      "bytes": 9295
     },
     {
       "path": "tools/simple-pipeline/summarize_batch.py",
@@ -316126,8 +316126,8 @@
     },
     {
       "path": "tools/simple-pipeline/test_starting_particle_roles.py",
-      "sha256": "0e094aa6eeb786de4d347f17f0ba90f825deb2a68fc9cd4a186ea45ff4fedb41",
-      "bytes": 1613
+      "sha256": "cbde447187ebfacb63053477686df446da1ffb40aae5c05e75d7582e5e06110f",
+      "bytes": 3060
     },
     {
       "path": "tools/simple-pipeline/test_step_description_glyph.py",
@@ -318840,8 +318840,8 @@
     "chen2006-1-2364131-mon-mo-bilayer-film-1": "32671797c60fd26ccc8d5e85633a9d7bf61aa89d90f30ae2f43e89fc17447a0d",
     "x2007-1-2803937-a-1": "89b6c621766d7268fb38e3024cfb65ffdd21bc9f5340c17f2cbcd212b0fd765a",
     "x2007-1-2803937-b-2": "cfc7bf77743a89b885f044800df2e867c62ef71a0d7e995068ee069fee5d567f",
-    "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1": "b6268c3d6723fc9d09c0eae89b7fdda84ef148673d9ef10699662d7c3a66a840",
-    "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2": "6a57349f0862708ccab7aedb3e06a916c6aae92480d36dc076144bb33c24f806",
+    "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1": "aae91778a7770eaada790b151e03c2bfd144eb3459913e198ce7be847cc53701",
+    "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2": "6d467b1ac17a08ff1fb4e7f37dae2a9fdf854e5280df2af375470e69e5957d92",
     "1-2890149-ingaas-qdms-1": "d265b3fc0c00b2c9db895694b75ca85e0e383f66b93390240066bf413fa39cff",
     "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1": "40e32f0b1c7627aa6059431cc2b972d82f35bab53f3b547ddc9b571ae95b1c2d",
     "schneider2009-1-3097016-scqd-micropillar-cavity-system-1": "3110517ae77d11ad32ffb6dede155c1b3cfbcda3f9225edeb05a4aa607723416",

@@ -15,6 +15,7 @@ PARTICLE = r'core|qds?|quantum[ -]+dots?|nano[ -]?(?:particles?|crystals?)|seeds
 PREFIX = re.compile(r'^(?:as[ -]+prepared|bulk|powder)\b[ -]*', re.I)
 SUFFIX = re.compile(r'\s+(?:'+PARTICLE+r')$', re.I)
 SHELL = re.compile(r'\s+shell(?:\s+layer)?$', re.I)
+SAMPLE_LABEL = re.compile(r'\s+\(([A-Za-z0-9][A-Za-z0-9.-]{0,23})\)$')
 
 
 def literal(value):
@@ -36,6 +37,45 @@ def strip_particle(name):
         if rest == tail:
             return rest, rest != name
         tail = rest
+
+
+def particle_name(name):
+    """A sample label may follow a particle descriptor, but not a bare formula."""
+    label = SAMPLE_LABEL.search(name)
+    if label and strip_particle(name[:label.start()])[1]:
+        return name[:label.start()], label.group(1)
+    return name, None
+
+
+def physical_form(name):
+    stem, label = particle_name(literal(name))
+    if re.search(r'\bseeds?$', stem, re.I):
+        return 'seed', label
+    if re.search(r'\bpowders?\b', stem, re.I):
+        return 'powder', label
+    if label:
+        return 'named', label
+    return None
+
+
+def alias_form(base, quotes, choices):
+    """Bind a bare alias to an explicit physical input only with unique support."""
+    matched = set()
+    for form in choices:
+        kind, label = form
+        if label:
+            # Printed labels can use a hyphen or a space. Keep short symbols
+            # bounded so one sample label cannot pick up a longer one.
+            token = r'[\s-]+'.join(re.escape(part) for part in label.split('-'))
+        elif kind == 'powder':
+            token = r'powders?'
+        else:
+            token = r'seeds?'
+        formula = re.escape(base)
+        gap = r'[^;.!?\n]{0,80}'
+        if any(re.search(rf'\b{formula}\b{gap}(?i:\b{token}\b)|(?i:\b{token}\b){gap}\b{formula}\b', literal(q)) for q in quotes):
+            matched.add(form)
+    return next(iter(matched)) if len(matched) == 1 else None
 
 
 def ready_made(formula, quotes):
@@ -65,7 +105,7 @@ def role_for(name, material, quotes=()):
     layer = SHELL.sub('',name)
     if layer != name and layer in shells:
         return ('start',layer) if ready_made(layer,quotes) else ('omit',layer)
-    base, described = strip_particle(name)
+    base, described = strip_particle(particle_name(name)[0])
     if base in shells:
         return ('start',base) if described or ready_made(base,quotes) else ('omit',base)
     if base in known and (described or base in (formula,core)):
@@ -88,6 +128,9 @@ def revise(source, quotes_by_id=None):
     quotes_by_id = quotes_by_id or {}
     record = deepcopy(source)
     kept, groups, map_id, ledger, holds = [], {}, {}, [], []
+    prepared = []
+    explicit = {}
+    explicit_targets = {}
     for row in record['materials']:
         rid = row['id']
         name, unresolved = cleanup(row['name'])
@@ -97,6 +140,22 @@ def revise(source, quotes_by_id=None):
         if unresolved:
             ledger.append(('W4_unresolved',rid,rid))
         result, key = role_for(row['name'],record['material'],quotes_by_id.get(rid,()))
+        form = physical_form(row['name']) if result == 'start' else None
+        if form is not None:
+            explicit.setdefault(key, set()).add(form)
+            explicit_targets.setdefault((key, form), row['id'])
+        prepared.append((row, result, key, form))
+    # Record order cannot make a bare alias erase an explicitly named input.
+    # Collect over the original rows; process bound aliases after their targets.
+    bindings = {}
+    for row, result, base, form in prepared:
+        if result == 'start' and form is None and literal(row['name']) == base:
+            bound = alias_form(base, quotes_by_id.get(row['id'], ()), explicit.get(base, ()))
+            if bound is not None:
+                bindings[row['id']] = explicit_targets[(base, bound)]
+    by_id = {row['id']: row for row, _, _, _ in prepared}
+    for row, result, key, form in prepared:
+        rid = row['id']
         if result == 'omit':
             if row['quantities']:
                 holds.append(('W2_quantity',rid))
@@ -107,8 +166,12 @@ def revise(source, quotes_by_id=None):
             if row['role'] != STARTING:
                 ledger.append(('W1',rid,rid))
                 row['role'] = STARTING
-            if key in groups:
-                old = groups[key]
+            # Different explicit physical forms are never synonyms merely
+            # because the formula is the same. An alias may point to its exact
+            # target before or after it in the original inventory.
+            group_key = (key, form)
+            if rid in bindings or group_key in groups:
+                old = by_id[bindings[rid]] if rid in bindings else groups[group_key]
                 if row['identity'] != old['identity'] or (
                     row['formula'] and old['formula'] and row['formula'] != old['formula']):
                     holds.append(('W3_identity_conflict',rid))
@@ -123,7 +186,7 @@ def revise(source, quotes_by_id=None):
                 map_id[rid] = old['id']
                 ledger.append(('W3',rid,old['id']))
                 continue
-            groups[key] = row
+            groups[group_key] = row
         kept.append(row)
     record['materials'] = kept
     merged_targets = set(map_id.values()) - {None}
