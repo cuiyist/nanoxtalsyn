@@ -9,6 +9,7 @@ import tempfile
 import unittest
 import unittest.mock
 import urllib.error
+import urllib.parse
 
 MODULE = Path(__file__).resolve().parents[2] / 'ci/brand_name_scan.py'
 spec = importlib.util.spec_from_file_location('brand_name_scan', MODULE)
@@ -50,6 +51,53 @@ class BrandScanTests(unittest.TestCase):
 
     def classify(self, text, path='index.html', records=None):
         return n.classify(path, text.encode(), records or {}, self.ids, n.technical_tokens(self.ids, set()))
+
+    def test_scoped_published_only_fetches_exact_text_in_scope_and_full_modes_still_scan(self):
+        raw = b'<p>NanoXtalSyn</p>'
+        collection = self.manifest([self.put('changed.html',raw),self.put('recovery.html',raw),
+                                    self.put('unrelated.html',b'<h1>MatterSyn</h1>'),
+                                    self.put('image.png',b'not a text file')])
+        seen = []
+        def fetch(url, expected):
+            name=urllib.parse.urlsplit(url).path.rsplit('/',1)[-1]
+            seen.append(name)
+            return (self.root/name).read_bytes()
+        scope=['changed.html','image.png','recovery.html']
+        scoped=n.scan(self.root,collection,self.blueprint,self.ids,'published',SOURCE,fetch=fetch,
+                      workers=1,changed_paths=scope)
+        self.assertTrue(scoped['passed'])
+        self.assertEqual(scoped['scope'],'changed_plus_recovery')
+        self.assertEqual(scoped['requested_paths'],scope)
+        self.assertEqual(seen,['changed.html','recovery.html'])
+        self.assertEqual(scoped['excluded_binary_or_nontext_files_by_suffix'],{'.png':1})
+        self.assertFalse(n.scan(self.root,collection,self.blueprint,self.ids,'published',SOURCE,fetch=fetch)['passed'])
+        self.assertFalse(n.scan(self.root,collection,self.blueprint,self.ids,'candidate',SOURCE)['passed'])
+        with self.assertRaisesRegex(ValueError,'Candidate inventory must remain complete'):
+            n.scan(self.root,collection,self.blueprint,self.ids,'candidate',SOURCE,changed_paths=scope)
+
+    def test_changed_and_recovery_scope_requires_native_byte_proof_and_exact_binding(self):
+        def write(name,doc):
+            path=self.root/name;path.write_bytes(n.encoded(doc));return path
+        recovered=write('carried.json',{'required_paths':['old.html']})
+        binding=n.pin(recovered)
+        s={'files_added':['new.html','.release-control/site-allowlist.json'],'files_changed':['new.png'],
+           'live_reverification_scope':binding}
+        stage=write('stage.json',s)
+        l={'checked_changed_files':['new.html','new.png','old.html'],
+           'reverification_scope':{'receipt_sha256':binding['sha256'],'failed_required_paths':[],
+                                    'required_files':1,'checked_required_files':1}}
+        live=write('live.json',l)
+        args=argparse.Namespace(phase='published',stage_receipt=stage,live_receipt=live,recovery_receipt=recovered)
+        manifest={'files':[{'path':p} for p in ('old.html','new.html','new.png','other.html')]}
+        self.assertEqual(n.release_paths(args,manifest),['new.html','new.png','old.html'])
+        write('live.json',{**l,'checked_changed_files':['new.html','new.png']})
+        with self.assertRaisesRegex(ValueError,'ordinary exact-byte scope'):n.release_paths(args,manifest)
+        write('live.json',l)
+        write('stage.json',{**s,'files_changed':['no-manifest.html']})
+        with self.assertRaisesRegex(ValueError,'missing from the published allowlist'):n.release_paths(args,manifest)
+        write('stage.json',s)
+        recovered.write_bytes(recovered.read_bytes()+b' ')
+        with self.assertRaisesRegex(ValueError,'Recovery scope binding mismatch'):n.release_paths(args,manifest)
 
     def test_exact_identifiers_policy_labels_and_visible_prose_are_separate(self):
         text = '__mattersynChemicalRegistry MATTERSYN_SOURCE_ROOT "mattersyn-silver/0.1/reader-catalog" --repo mattersyn-site <title>MatterSyn</title> MatterSyn-authored'

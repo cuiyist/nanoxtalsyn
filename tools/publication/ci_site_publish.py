@@ -313,7 +313,19 @@ def cmd_stage(a):
              'paper_routes': paper_routes, 'material_routes': material_routes, 'review_routes': review_routes,
              'files_added': added, 'files_changed': changed, 'files_removed': removed,
              'entries': {p: rows[p] for p in added + changed}}
-    recovery = carry_live_reverification_scope(src, work, rows, site_base)
+    scope_base = site_base
+    if getattr(a, 'replay_existing_site', False):
+        snapshot = json.loads(subprocess.check_output(['git','-C',str(site),'show','HEAD:data/release-snapshot.json']))
+        if snapshot.get('source_commit') != build['source_commit']:
+            fail('Historical dry run must rebuild the Source of the exact checked-out Site')
+        scope_file = src / LIVE_REVERIFICATION_INPUT
+        if scope_file.exists() and read_json(scope_file).get('prior_site_commit') != site_base:
+            parent = rb.git(site, 'rev-parse', 'HEAD^')
+            if read_json(scope_file).get('prior_site_commit') != parent:
+                fail('Historical dry run recovery scope does not bind the original first parent')
+            scope_base = parent
+        stage['replay_existing_site'] = True
+    recovery = carry_live_reverification_scope(src, work, rows, scope_base)
     if recovery is not None:
         stage['live_reverification_scope'] = recovery
     rb.write_json(work / 'stage.json', stage)
@@ -413,6 +425,8 @@ def cmd_compare(a):
 def cmd_push(a):
     work, site = a.work.resolve(), a.site.resolve()
     stage = read_json(work / 'stage.json')
+    if stage.get('replay_existing_site'):
+        fail('A historical dry-run replay cannot publish')
     result = {'schema': 'mattersyn-ci-site-push/1', 'source_commit': stage['source_commit'],
               'site_base_commit': stage['site_base_commit'], 'pushed': False}
     if not (stage['files_added'] or stage['files_changed'] or stage['files_removed']):
@@ -528,22 +542,43 @@ def scan_published_brand(a, work, stage, push):
         if len(raw) != rows[0].get('bytes') or hashlib.sha256(raw).hexdigest() != rows[0].get('sha256'):
             fail('brand scan input differs from Source blueprint: '+relative)
     report_path = work / 'receipts/n-brand-published-scan.json'
-    step('anonymous full published-brand inventory', [
+    scoped = getattr(a, 'changed_plus_recovery_brand_scan', False)
+    scope_args = []
+    if scoped:
+        scope_args = ['--changed-plus-recovery']
+        if stage.get('live_reverification_scope'):
+            scope_args.extend(['--recovery-receipt', work / LIVE_REVERIFICATION_RECEIPT])
+    scan_started = dt.datetime.now(dt.timezone.utc)
+    step('anonymous changed plus recovery brand inventory' if scoped else 'anonymous full published-brand inventory', [
         sys.executable, source / 'tools/ci/brand_name_scan.py', '--scan',
         '--root', work / 'site-preview', '--manifest', work / 'site-allowlist.json',
         '--source-blueprint', blueprint, '--identifiers', source / 'tools/ci/brand-name-identifiers.json',
         '--phase', 'published', '--source-commit', expected, '--site-commit', push['site_commit'],
         '--build-receipt', work / 'build.json', '--stage-receipt', work / 'stage.json',
         '--push-receipt', work / 'push.json', '--live-receipt', work / 'receipts/live-verification.json',
-        '--out', report_path], cwd=source)
+        '--out', report_path, *scope_args], cwd=source)
     report = read_json(report_path)
     count = report.get('selected_text_file_count')
-    if (report.get('schema') != 'NanoXtalSyn-N6-full-published-text-scan/1'
+    schema = 'NanoXtalSyn-N6-scoped-published-text-scan/1' if scoped else 'NanoXtalSyn-N6-full-published-text-scan/1'
+    if (report.get('schema') != schema
             or report.get('phase') != 'published' or report.get('passed') is not True
             or report.get('source_commit') != expected or report.get('site_commit') != push['site_commit']
             or report.get('all_selected_HTTP_verified') is not True
             or type(count) is not int or count <= 0 or report.get('anonymous_HTTP_verified_files') != count):
         fail('full published-brand inventory did not verify every selected anonymous file')
+    if scoped:
+        live = read_json(work / 'receipts/live-verification.json')
+        if (report.get('scope') != 'changed_plus_recovery'
+                or report.get('requested_paths') != sorted(live['checked_changed_files'])):
+            fail('S1 scan receipt does not match exact-byte verification scope')
+    elif report.get('scope', 'full') != 'full':
+        fail('Full scan was required but report was scoped')
+    rb.write_json(work / 'receipts/n-brand-published-timing.json', {
+        'source_commit': expected, 'site_commit': push['site_commit'],
+        'scope': 'changed_plus_recovery' if scoped else 'full',
+        'started_at': scan_started.isoformat(),
+        'elapsed_seconds': (dt.datetime.now(dt.timezone.utc) - scan_started).total_seconds(),
+        'anonymous_files': count})
     return report
 
 
@@ -554,6 +589,8 @@ def cmd_verify(a):
         log(f'nothing was pushed ({push.get("reason")}); no live check')
         return 0
     stage = read_json(work / 'stage.json')
+    if stage.get('replay_existing_site'):
+        fail('A historical dry-run replay cannot stand in for live verification')
     log(f'waiting for {PAGES_WORKFLOW} on {push["site_commit"][:12]}')
     ok, runs = wait_for_pages(a.site_repo, push['site_commit'], a.pages_minutes, os.environ.get('GITHUB_TOKEN'))
     if not ok:
@@ -628,6 +665,8 @@ def main(argv=None):
     s.add_argument('--work', type=Path, required=True)
     s.add_argument('--site', type=Path, required=True, help='blobless nanoxtalsyn-site clone on main')
     s.add_argument('--sync-gate-tools', action='store_true')
+    s.add_argument('--replay-existing-site', action='store_true',
+                   help='Read-only rebuild of the current Site for dry-run comparison; prohibits push')
     c = sub.add_parser('compare')
     c.add_argument('--work', type=Path, required=True)
     c.add_argument('--site', type=Path, required=True)
@@ -643,6 +682,8 @@ def main(argv=None):
     v.add_argument('--site-repo', default=SITE_REPO)
     v.add_argument('--site-url', default=SITE_URL)
     v.add_argument('--pages-minutes', type=float, default=45)
+    v.add_argument('--changed-plus-recovery-brand-scan', action='store_true',
+                   help='Owner S1: scope only the post-release branding scan; unchanged byte verification')
     m = sub.add_parser('summary')
     m.add_argument('--work', type=Path, required=True)
     a = p.parse_args(argv)

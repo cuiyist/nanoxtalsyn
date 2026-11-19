@@ -122,7 +122,7 @@ class WorkflowSyntaxTests(unittest.TestCase):
         if bash is None: self.skipTest('Bash unavailable for static -n check')
         env = {**os.environ, 'BASH_ENV': '', 'ENV': ''}
         blocks = []
-        for name in ('site-publish.yml', 'validate-project.yml'):
+        for name in ('site-publish.yml', 'validate-project.yml', 'weekly-published-brand.yml'):
             lines = (ROOT/'.github/workflows'/name).read_text(encoding='utf-8').splitlines()
             for index, line in enumerate(lines):
                 if line.strip() != 'run: |': continue
