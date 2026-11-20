@@ -598,14 +598,34 @@ def cmd_check(a):
             print(f'{stem}: LEFT OUT: two successful passes required (missing: {",".join(missing) or "none"}; failed: {",".join(failed) or "none"})')
             continue
         stats = collections.Counter()
-        pairs = check_paper(text_file.read_text(encoding='utf-8'), passes[0], passes[1], stats)
+        text = text_file.read_text(encoding='utf-8')
+        scope = {'check': 'two passes agree, quotes found'}
+        if getattr(a,'owner_calibrated',False):
+            from completeness_policy import load_policy, binding, CALIBRATED_CHECK
+            from completeness_check import check
+            policy=load_policy()
+            pairs=check(text,passes[0],passes[1],policy['adopted_check_variant'])
+            scope={'check':CALIBRATED_CHECK,'check_policy':binding(policy)}
+            def values(rows):
+                total=0
+                for p in rows:
+                    st,rc=p.get('structure') or {},p.get('recipe') or {}
+                    total+=sum(isinstance(st.get(k),dict) and st[k].get('value') not in (None,'') for k in STRUCTURE_FIELDS)
+                    total+=sum(isinstance(rc.get(k),dict) and rc[k].get('value') not in (None,'') for k in RECIPE_FIELDS)
+                    total+=sum(bool(c.get('name'))+int(c.get('amount') is not None) for c in rc.get('chemicals') or [])
+                    total+=sum(bool(s.get('action'))+sum(s.get(k) is not None for k in ('temperature','time')) for s in rc.get('steps') or [])
+                return total
+            stats['kept']=values(pairs)
+            stats['values']=sum(values(p['pairs']) for p in passes)
+        else:
+            pairs=check_paper(text, passes[0], passes[1], stats)
         meta = json.loads((work / f'{stem}.meta.json').read_text(encoding='utf-8')) if (work / f'{stem}.meta.json').exists() else {}
         figures = json.loads((work / f'{stem}.figures.json').read_text(encoding='utf-8')) if (work / f'{stem}.figures.json').exists() else meta.get('figures') or []
         cite = lambda k: meta.get(k) or passes[0].get(k) or ''
         pages_info = json.loads((work / f'{stem}.pages.json').read_text(encoding='utf-8')) if (work / f'{stem}.pages.json').exists() else {}
         doi = tidy_doi(meta.get('doi')) or pages_info.get('doi_in_pdf') or tidy_doi(passes[0].get('doi')) or tidy_doi(stem.replace('_', '/', 1))
         doc = {'id': stem, 'doi': doi, 'title': cite('title'), 'authors': cite('authors'), 'year': cite('year'), 'journal': cite('journal'),
-               'check': 'two passes agree, quotes found',
+               **scope,
                'values_kept': stats['kept'], 'values_extracted': stats['values'], 'figures': figures, 'pairs': pairs,
                **{k: v for k, v in pages_info.items() if k != 'doi_in_pdf'}}
         (out / f'{stem}.pairs.json').write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding='utf-8')
@@ -839,7 +859,9 @@ def main():
     f = sub.add_parser('figures'); f.add_argument('papers', nargs='+'); f.add_argument('--out', default='work')
     f.add_argument('--model', help='label captions with this local model instead of keywords'); f.add_argument('--base-url', default='http://127.0.0.1:8080/v1')
     f.add_argument('--dpi', type=int, default=200); f.add_argument('--all', action='store_true', help='also keep schemes and other figures'); f.set_defaults(fn=cmd_figures)
-    c = sub.add_parser('check'); c.add_argument('work'); c.add_argument('--out', default='pairs'); c.set_defaults(fn=cmd_check)
+    c = sub.add_parser('check'); c.add_argument('work'); c.add_argument('--out', default='pairs')
+    c.add_argument('--owner-calibrated', action='store_true', help='use the current bound owner CHECK policy for intake')
+    c.set_defaults(fn=cmd_check)
     s = sub.add_parser('score'); s.add_argument('pairs'); s.add_argument('--records', required=True); s.add_argument('--details', help='write the values that did not match to this local file'); s.set_defaults(fn=cmd_score)
     b = sub.add_parser('build'); b.add_argument('pairs'); b.add_argument('--out', default='site')
     b.add_argument('--label', default='Machine-extracted, automatically checked'); b.add_argument('--quotes', action='store_true'); b.set_defaults(fn=cmd_build)

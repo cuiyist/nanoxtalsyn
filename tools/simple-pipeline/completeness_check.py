@@ -1,7 +1,7 @@
 """Owner-calibrated cumulative CHECK variants; adopted policy is configured separately.
 
-V0 is the unchanged native function. V1-V5 preserve product pairing, fields,
-numeric two-pass agreement, and range/unit checks. No production mutation.
+V0 is the unchanged native function. V1-V5 preserve numeric agreement.
+V6 adds only decision-bound numeric fields to the V5 entities.
 """
 import collections
 import difflib
@@ -80,8 +80,14 @@ def chemical_amount(left,right,index,variant):
 
 
 def check(text,pass_a,pass_b,variant,registry=None):
-    assert variant in range(6)
+    assert variant in range(7)
     assert e.check_pass_shape_valid(pass_a) and e.check_pass_shape_valid(pass_b),'whole-pass shape admission unchanged'
+    if variant==6:
+        from completeness_numbers import check_v6
+        from completeness_policy import load_policy
+        policy=load_policy()
+        if policy['adopted_check_variant']!=6:raise ValueError('V6 is not adopted by the active CHECK policy')
+        return check_v6(text,pass_a,pass_b,registry,policy['single_pass_fields'])
     if variant==0:
         stats=collections.Counter();return e.check_paper(text,pass_a,pass_b,stats)
     registry=registry or ChemicalIdentity();idx=QuoteIndex(text);final=[]

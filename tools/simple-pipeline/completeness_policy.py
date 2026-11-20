@@ -15,9 +15,9 @@ POLICY_PATH=Path(__file__).with_name('completeness_policy.json')
 
 def load_policy():
     policy=json.loads(POLICY_PATH.read_text(encoding='utf-8'))
-    assert policy['schema_version']==1
+    assert policy['schema_version'] in (1,2)
     assert policy['program']=='owner-20261116-completeness'
-    assert type(policy['adopted_check_variant']) is int and policy['adopted_check_variant'] in range(6)
+    assert type(policy['adopted_check_variant']) is int and policy['adopted_check_variant'] in range(7)
     assert re.fullmatch(r'[0-9a-f]{64}',policy['decision_sha256'])
     assert set(policy['optical_fields'])<= {'absorption_peak','emission_peak','plqy'}
     admitted=set()
@@ -28,6 +28,15 @@ def load_policy():
         assert counts['convert'] is passing
         if passing:admitted.add(field)
     assert set(policy['optical_fields'])==admitted
+    if policy['adopted_check_variant']==6:
+        assert policy['schema_version']==2
+        selected=policy['single_pass_fields']
+        assert len(selected)==len(set(selected)) and set(selected)<={'amount','reaction_temperature',
+            'reaction_time','size','emission_peak','plqy'}
+        assert 'absorption_peak' not in admitted
+        assert policy['added_accuracy']['total']>0
+        assert policy['added_accuracy']['correct']/policy['added_accuracy']['total']>=.90
+        assert policy['accuracy']['correct']/policy['accuracy']['total']>=.95
     return policy
 
 

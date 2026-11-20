@@ -7,6 +7,7 @@ from collections import Counter
 from copy import deepcopy
 import re
 import unicodedata
+from continued_particle_roles import context as continued_context, override as continued_override
 
 
 STARTING = 'starting_particles'
@@ -127,6 +128,7 @@ def revise(source, quotes_by_id=None):
         raise ValueError('W may not alter reviewed records')
     quotes_by_id = quotes_by_id or {}
     record = deepcopy(source)
+    continued = continued_context(record)
     kept, groups, map_id, ledger, holds = [], {}, {}, [], []
     prepared = []
     explicit = {}
@@ -139,7 +141,19 @@ def revise(source, quotes_by_id=None):
             row['name'] = name
         if unresolved:
             ledger.append(('W4_unresolved',rid,rid))
-        result, key = role_for(row['name'],record['material'],quotes_by_id.get(rid,()))
+        quotes = quotes_by_id.get(rid,())
+        configured = continued_override(row,continued,quotes)
+        if configured:
+            rule, role = configured
+            if rule == 'W8':
+                prepared.append((row,'omit_W8',None,None))
+            else:
+                if row['role'] != role:
+                    row['role'] = role
+                    ledger.append((rule,rid,rid))
+                prepared.append((row,'unchanged',None,None))
+            continue
+        result, key = role_for(row['name'],record['material'],quotes)
         form = physical_form(row['name']) if result == 'start' else None
         if form is not None:
             explicit.setdefault(key, set()).add(form)
@@ -156,10 +170,11 @@ def revise(source, quotes_by_id=None):
     by_id = {row['id']: row for row, _, _, _ in prepared}
     for row, result, key, form in prepared:
         rid = row['id']
-        if result == 'omit':
+        if result in ('omit','omit_W8'):
+            rule = 'W8' if result == 'omit_W8' else 'W2'
             if row['quantities']:
-                holds.append(('W2_quantity',rid))
-            ledger.append(('W2',rid,None))
+                holds.append((rule+'_quantity',rid))
+            ledger.append((rule,rid,None))
             map_id[rid] = None
             continue
         if result == 'start':
