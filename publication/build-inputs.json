@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "completeness-f6-w-20261119-06",
-  "updated_at": "2026-11-19T21:55:30.491895+00:00",
+  "release_id": "s5-retire-fulfilled-pr181-recovery-20261119",
+  "updated_at": "2026-11-20T05:40:11.252613+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -31,8 +31,8 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "231c922788d54293aea7f3dca45c3e1f45d0c3bebf697098e0457f4dbf5e7ab4",
-      "bytes": 1190752
+      "sha256": "2ad5661528bc18c495853d7a2a7d6d014be18626c4680de6b56ce890d7490891",
+      "bytes": 1191932
     },
     {
       "path": "PUBLICATION.md",
@@ -58,11 +58,6 @@
       "path": "publication/asset-rights-registry.json",
       "sha256": "2ade8cc8936a5ad579fe71e9a3b1ed53806f41f61eeef26c4e9bbfce34aa2b0b",
       "bytes": 77754368
-    },
-    {
-      "path": "publication/live-reverification-scope.json",
-      "sha256": "fbc08e8b3e90edac72d681c73da915c19380cc13b38113659618cb89ae96b234",
-      "bytes": 490178
     },
     {
       "path": "publication/public-release-policy.json",
