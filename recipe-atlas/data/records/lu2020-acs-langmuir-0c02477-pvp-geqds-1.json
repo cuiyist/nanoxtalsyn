@@ -15,7 +15,7 @@
     ],
     "architecture": "single_material"
   },
-  "method": "Chemical reduction",
+  "method": "Synthesis as described in the source",
   "sources": [
     {
       "id": "lu2020-acs-langmuir-0c02477",

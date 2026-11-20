@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
   "release_id": "completeness-f6-v6-w78-20261120-07",
-  "updated_at": "2026-11-20T17:31:45.704713+00:00",
+  "updated_at": "2026-11-20T17:59:09.316987+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -1161,7 +1161,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "d4a7b704c53afb9f0d91e3e14d23032028650b73ec82a2e12044dbcc90199e71",
+      "sha256": "a170b22e8579dd968d7fa92368e9dd0f5e3be9e41e2763390688b7ed435e904f",
       "bytes": 1110
     },
     {
@@ -1171,7 +1171,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "58146d7e7829797683a6a7f2086f51cfd75cbcc092dcf8efe2bb2a6bece4d8c8",
+      "sha256": "11986c2a9258882f6e84457ab1ced051508f31ea574aa3ab0c7821e8b4e90578",
       "bytes": 83881853
     },
     {
@@ -19276,23 +19276,23 @@
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-ani-geqds-3.json",
-      "sha256": "ec7402e6f590e8f1eef189ee1b9bf67fba62cedaa99b9fa1952dc14930c20b75",
-      "bytes": 15942
+      "sha256": "3d8d081ebe38a5b138693bbfaf195f3eaedcbbc27dd6dcc1d8da443444ca9c48",
+      "bytes": 15960
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-bna-geqds-4.json",
-      "sha256": "55635168f286d433b14989eb52900f4cbe1b28a6d03c4a7357252e680e57f3e8",
-      "bytes": 16017
+      "sha256": "fa8115d309c7ba7d3f3d144988ccd01750c173bf29669695e00a07ad429aecb6",
+      "bytes": 16035
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-ppa-geqds-2.json",
-      "sha256": "fb2df651d74cf1734306a196a0e4494fb17884695acd8d399cc88728244a6bcc",
-      "bytes": 16869
+      "sha256": "a094322c3594ef218789b2a6a8706e2a6f0ca311ecdb32b8b64eda2f6439bb28",
+      "bytes": 16887
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-pvp-geqds-1.json",
-      "sha256": "c44d3f42c366c6f161042445b85b669268668892878a46ea105c2ffb50af5e6c",
-      "bytes": 16379
+      "sha256": "e5491d758c0c8a43d3ec2b55eb47818cc57382f9d52bcbafbf49bc6efe91379b",
+      "bytes": 16397
     },
     {
       "path": "recipe-atlas/data/records/lu2022-acs-jpclett-2c02113-sqds-12-3.json",
@@ -38596,8 +38596,8 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "3e180023844b22a93d81f8722b658516137aa91d14f162f8f7722ddeba82767a",
-      "bytes": 26187505
+      "sha256": "3fc10db61f91efadeb74d771cf7eafb2c24b72695a429e3c2e35e97c8c140d2f",
+      "bytes": 26187577
     },
     {
       "path": "recipe-atlas/data/release-notes/source-link-corrections.json",
@@ -292296,22 +292296,22 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-ani-geqds-3.json",
-      "sha256": "2e7a6fcead4f03f848a77422ceaef38a0424b8e68a700f3962c41eb83229df65",
+      "sha256": "029375516054313f6b7f4c8c7580b0211bbd5b27912c4ee9e28822bc61b520f4",
       "bytes": 710
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-bna-geqds-4.json",
-      "sha256": "3b30242d59c4d240077afda465faf3eb0a37d3ec3830a2cc9a87aa5873264c0e",
+      "sha256": "c18142fc041abfa3686e63facbf048decc9041a761c15b58debabebdb48feac8",
       "bytes": 710
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-ppa-geqds-2.json",
-      "sha256": "5cbc4953c67d186ffdfe702bf4425e0d6c9553a37adb31b056e531ebd253248a",
+      "sha256": "c5ba5caa423019c863493ea4a7bb09ec249b5d74f1ae3f905c68a3db1fd8775f",
       "bytes": 710
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-pvp-geqds-1.json",
-      "sha256": "1412a3841d17e54d2ce66b6f328fa92a820ff4e3bc611aa58bb7f10593636b09",
+      "sha256": "a7ad968acd12b47815fc6141009c1a9291022d065bdcd21a43d6fb1cc1abe7b4",
       "bytes": 710
     },
     {
@@ -321390,10 +321390,10 @@
     "li2021-acs-chemmater-1c03219-cuins2-qds-3": "40974483f673ff8436216e6256ab2737642981f40d337042c8bbd8a6f6569411",
     "xie2015-acs-chemmater-5b01626-inp-qds-with-low-water-content-1": "303c70d098c2581737d6db1c4460f7aba30c7bb977274c9a2f8f5beec41b2b66",
     "xie2015-acs-chemmater-5b01626-inp-qds-with-high-water-content-2": "6169603fac9270d3dadc0c12aaae74cfe04578585aa510f10ef6fa7c747e49b7",
-    "lu2020-acs-langmuir-0c02477-ani-geqds-3": "7e0b43beff65ad281b1cae3787878bd139530d23f4d9ade9ddf533d1d216b938",
-    "lu2020-acs-langmuir-0c02477-bna-geqds-4": "6f8d09af8a9307452902c3d16b95a09cdd345a3c71171d2408535fbf561cb78f",
-    "lu2020-acs-langmuir-0c02477-ppa-geqds-2": "9db47dd8339787b14a9f9c678a891c5933b007da09b1917961cbf20e24bcd4f8",
-    "lu2020-acs-langmuir-0c02477-pvp-geqds-1": "3eb16fca880424f3d44fa7099de3cc74a36234fb02a71548a3aa7105451cefd6",
+    "lu2020-acs-langmuir-0c02477-ani-geqds-3": "34eaa5d2e85fea9d4d03a8015a895582f3804c1ea669ea288f3e750d2a9a8942",
+    "lu2020-acs-langmuir-0c02477-bna-geqds-4": "57170cefc85306e2283cfe00008f9bb10e5088c5ff81edc7c2fe44679ba66fd4",
+    "lu2020-acs-langmuir-0c02477-ppa-geqds-2": "9adb6dd5f096c3cb906da7e8276b470d8419e4925b1135aeedda86d098cd4756",
+    "lu2020-acs-langmuir-0c02477-pvp-geqds-1": "b4a7a26c7babae6c709952623bf789fc7e468f1721c9b3bbe11f47fdb6aa11a1",
     "yin2026-acsaelm-6c00783-p-type-pbs-qd-conductive-ink-1": "5af370ec26752cbc3143de29b6d750a77d8f938ed6befd8f53c0974c9dba6bcd",
     "hunter2017-acsami-6b16170-ge-si-core-shell-qds-1": "b7b9c1f61148989dc68a77d85bedd67748cfb5022efc935f166904c49c901cfd",
     "valleix2021-acsanm-1c02577-inp-zns-qds-with-480-nm-emission-1": "e43b255aadefb1f4e1a399a0b66541dd2f35a9d62512486d327061258c68da66",

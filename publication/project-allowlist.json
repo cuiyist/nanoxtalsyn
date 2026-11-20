@@ -2,11 +2,11 @@
   "schema_version": "mattersyn-public-release-allowlist/1",
   "release_id": "completeness-f6-v6-w78-20261120-07",
   "repo": "mattersyn",
-  "source_commit": "118fec6135e5cd3cae4d839c50122ae59225fb59",
+  "source_commit": "19b0ffbfa24453679e1b1e605f36f0de9aebdcce",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "2fc1ad174c048b3e7c861b1963d421974a6547c39e8683bd1fe59b849646f394",
+    "sha256": "17851e52c6a32f59d17e82bab72f6ed8aa49c5b40fa762d25a33a2bc9bc10e7d",
     "file_count": 63556,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,21 +150,21 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "c1d703c5ed97a930a7b8bd73828e4e1ef0f6f1c380118ac6d33fc0fd6f844b47",
+      "sha256": "d2f2351079576ec7aa126082fed5d23871be802d705f2d0b827e3a812ced9f7a",
       "bytes": 14587733,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-20T17:31:45.704713+00:00",
+      "reviewed_at": "2026-11-20T17:59:09.316987+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "d0db74d151eda02a506496fbc18889d185e09a96e96770bf1f286d0b224cd690",
-        "sha256": "cc1292a4cffeb610e2ee397063d627ada5fd91459f09a46eb1af1e0bd1de181b",
-        "reviewer": "Codex F6 preservation review",
-        "reviewed_at": "2026-11-20T17:31:09.220528+00:00"
+        "before_sha256": "cc1292a4cffeb610e2ee397063d627ada5fd91459f09a46eb1af1e0bd1de181b",
+        "sha256": "a5c11d9bcb578b74a89dbf777088e33dd2643dc7de1dc80cd1435b3f1905df32",
+        "reviewer": "Codex preserved direct-Ge presentation review",
+        "reviewed_at": "2026-11-20T17:58:28.687788+00:00"
       }
     },
     {
@@ -3008,13 +3008,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "d4a7b704c53afb9f0d91e3e14d23032028650b73ec82a2e12044dbcc90199e71",
+      "sha256": "a170b22e8579dd968d7fa92368e9dd0f5e3be9e41e2763390688b7ed435e904f",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3032,13 +3032,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "58146d7e7829797683a6a7f2086f51cfd75cbcc092dcf8efe2bb2a6bece4d8c8",
+      "sha256": "11986c2a9258882f6e84457ab1ced051508f31ea574aa3ab0c7821e8b4e90578",
       "bytes": 83881853,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -62012,13 +62012,13 @@
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-ani-geqds-3.json",
-      "sha256": "ec7402e6f590e8f1eef189ee1b9bf67fba62cedaa99b9fa1952dc14930c20b75",
-      "bytes": 15942,
+      "sha256": "3d8d081ebe38a5b138693bbfaf195f3eaedcbbc27dd6dcc1d8da443444ca9c48",
+      "bytes": 15960,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -62028,13 +62028,13 @@
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-bna-geqds-4.json",
-      "sha256": "55635168f286d433b14989eb52900f4cbe1b28a6d03c4a7357252e680e57f3e8",
-      "bytes": 16017,
+      "sha256": "fa8115d309c7ba7d3f3d144988ccd01750c173bf29669695e00a07ad429aecb6",
+      "bytes": 16035,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -62044,13 +62044,13 @@
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-ppa-geqds-2.json",
-      "sha256": "fb2df651d74cf1734306a196a0e4494fb17884695acd8d399cc88728244a6bcc",
-      "bytes": 16869,
+      "sha256": "a094322c3594ef218789b2a6a8706e2a6f0ca311ecdb32b8b64eda2f6439bb28",
+      "bytes": 16887,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -62060,13 +62060,13 @@
     },
     {
       "path": "recipe-atlas/data/records/lu2020-acs-langmuir-0c02477-pvp-geqds-1.json",
-      "sha256": "c44d3f42c366c6f161042445b85b669268668892878a46ea105c2ffb50af5e6c",
-      "bytes": 16379,
+      "sha256": "e5491d758c0c8a43d3ec2b55eb47818cc57382f9d52bcbafbf49bc6efe91379b",
+      "bytes": 16397,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -125039,13 +125039,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "3e180023844b22a93d81f8722b658516137aa91d14f162f8f7722ddeba82767a",
-      "bytes": 26187505,
+      "sha256": "3fc10db61f91efadeb74d771cf7eafb2c24b72695a429e3c2e35e97c8c140d2f",
+      "bytes": 26187577,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-20T17:31:45.704713+00:00",
+      "reviewed_at": "2026-11-20T17:59:09.316987+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1004873,13 +1004873,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-ani-geqds-3.json",
-      "sha256": "2e7a6fcead4f03f848a77422ceaef38a0424b8e68a700f3962c41eb83229df65",
+      "sha256": "029375516054313f6b7f4c8c7580b0211bbd5b27912c4ee9e28822bc61b520f4",
       "bytes": 710,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1004889,13 +1004889,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-bna-geqds-4.json",
-      "sha256": "3b30242d59c4d240077afda465faf3eb0a37d3ec3830a2cc9a87aa5873264c0e",
+      "sha256": "c18142fc041abfa3686e63facbf048decc9041a761c15b58debabebdb48feac8",
       "bytes": 710,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1004905,13 +1004905,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-ppa-geqds-2.json",
-      "sha256": "5cbc4953c67d186ffdfe702bf4425e0d6c9553a37adb31b056e531ebd253248a",
+      "sha256": "c5ba5caa423019c863493ea4a7bb09ec249b5d74f1ae3f905c68a3db1fd8775f",
       "bytes": 710,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1004921,13 +1004921,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/lu2020-acs-langmuir-0c02477-pvp-geqds-1.json",
-      "sha256": "1412a3841d17e54d2ce66b6f328fa92a820ff4e3bc611aa58bb7f10593636b09",
+      "sha256": "a7ad968acd12b47815fc6141009c1a9291022d065bdcd21a43d6fb1cc1abe7b4",
       "bytes": 710,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex preserved direct-Ge presentation review",
+      "reviewed_at": "2026-11-20T17:58:28+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
