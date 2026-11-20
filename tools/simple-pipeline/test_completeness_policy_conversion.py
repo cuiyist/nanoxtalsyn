@@ -19,7 +19,7 @@ def document():
 
 class Tests(unittest.TestCase):
     def test_actual_adoption_policy(self):
-        p=policy.load_policy();self.assertEqual(p['adopted_check_variant'],5)
+        p=policy.load_policy();self.assertEqual(p['adopted_check_variant'],6)
         self.assertEqual(set(p['optical_fields']),{'emission_peak','plqy'})
     def test_calibrated_marker_requires_exact_decision(self):
         doc=document();self.assertTrue(policy.is_checked_document(doc))
@@ -55,11 +55,33 @@ class Tests(unittest.TestCase):
     def test_status_scope_and_input_preservation(self):
         doc=document();before=copy.deepcopy(doc);builder,records=to_site.records_of(doc);r=records[0]
         self.assertEqual(doc,before);self.assertEqual(r['quality']['review_status'],'source_extracted')
-        self.assertIn('CHECK V5',r['quality']['review_scope'])
+        self.assertIn('CHECK V6',r['quality']['review_scope'])
         self.assertEqual(to_site.inventory_entry(builder,doc,[r['record_id']])['notes'],[r['quality']['review_scope']])
     def test_unchecked_metadata_cannot_change_optics(self):
         doc=document();doc['check_policy']['optical_fields']=['absorption_peak']
         self.assertFalse(policy.is_checked_document(doc))
+    def test_number_locator_is_separate_from_name_and_step_locator(self):
+        doc=document();pair=doc['pairs'][0]
+        pair['recipe']['chemicals'][0]['amount_page']=2
+        pair['recipe']['steps'][0].update(temperature=25, temperature_unit='C',temperature_page=3)
+        r=to_site.records_of(doc)[1][0]
+        self.assertEqual(r['materials'][0]['evidence'][0]['locator'],'Main PDF p.1')
+        self.assertEqual(r['materials'][0]['quantities']['mass']['evidence'][0]['locator'],'Main PDF p.2')
+        self.assertEqual(r['operations'][0]['evidence'][0]['locator'],'Main PDF p.1')
+        self.assertEqual(r['operations'][0]['parameters']['temperature']['evidence'][0]['locator'],'Main PDF p.3')
+    def test_check_v6_admits_only_calibrated_one_sided_fields(self):
+        from completeness_check import check
+        left=document()
+        right=copy.deepcopy(left)
+        right['pairs'][0]['recipe']['chemicals'][0].pop('amount')
+        right['pairs'][0]['structure'].pop('emission_peak')
+        right['pairs'][0]['structure'].pop('plqy')
+        pairs=check('[page 1]\n'+QUOTE,left,right,6)
+        self.assertEqual(pairs[0]['recipe']['chemicals'][0]['amount'],2)
+        self.assertEqual(pairs[0]['structure']['emission_peak']['value'],600)
+        self.assertNotIn('plqy',pairs[0]['structure'])
+        right['pairs'][0]['structure']['emission_peak']={'value':650,'unit':'nm','quote':QUOTE}
+        self.assertNotIn('emission_peak',check('[page 1]\n'+QUOTE,left,right,6)[0]['structure'])
     def test_w_roles_run_after_complete_chemical_and_step_binding(self):
         doc=document();pair=doc['pairs'][0];pair['product']='CdSe/ZnS research sample'
         pair['structure']={'composition':{'value':'CdSe/ZnS','page':1},

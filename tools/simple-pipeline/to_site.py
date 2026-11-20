@@ -387,7 +387,7 @@ class Builder:
             if c.get('amount') is not None:
                 unit = unit_name(c.get('unit'))
                 kind = next((k for k, pattern in QUANTITY_KIND if re.search(pattern, unit.lower())), 'amount')
-                quantities[kind] = self.quantity(c['amount'], unit, c.get('page'))
+                quantities[kind] = self.quantity(c['amount'], unit, c.get('amount_page',c.get('page')))
             by_name[c['name'].lower()] = mid
             materials.append({'id': mid, 'name': c['name'], 'formula': None, 'role': role or 'reagent', 'stage': 'synthesis', 'identity': {'pubchem_cid': None, 'smiles': None},
                               'quantities': quantities, 'notes': [], 'evidence': self.evidence(c.get('page'))})
@@ -402,8 +402,8 @@ class Builder:
             states.append(state)
             workup = (s.get('action') or '').lower() in WORKUP or microscopy_grid_preparation(s, pair.get('product'))
             parameters = {}
-            if s.get('temperature') is not None and temperature_unit_compatible(s.get('temperature_unit')): parameters['temperature'] = self.quantity(s['temperature'], temperature_unit_name(s.get('temperature_unit'), s['temperature']) or '°C', s.get('page'))
-            if s.get('time') is not None: parameters['duration'] = self.quantity(s['time'], s.get('time_unit') or 'min', s.get('page'))
+            if s.get('temperature') is not None and temperature_unit_compatible(s.get('temperature_unit')): parameters['temperature'] = self.quantity(s['temperature'], temperature_unit_name(s.get('temperature_unit'), s['temperature']) or '°C', s.get('temperature_page',s.get('page')))
+            if s.get('time') is not None: parameters['duration'] = self.quantity(s['time'], s.get('time_unit') or 'min', s.get('time_page',s.get('page')))
             for m in materials:  # a chemical first used in a workup step belongs to the workup
                 if m['id'] in state['parent_ids'] and workup and not any(m['id'] in o['inputs'] for o in operations): m['stage'] = 'workup'
             operations.append({'id': oid, 'action': (s.get('action') or 'step').lower(), 'label': first_upper((s.get('description') or s.get('action') or 'Step').strip()),

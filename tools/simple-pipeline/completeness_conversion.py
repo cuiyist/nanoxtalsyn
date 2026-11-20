@@ -37,10 +37,14 @@ def builder_class(base):
             # For this lane, the tested F5 policy, not the legacy opt-in flag,
             # determines optical conversion.
             super().__init__(doc,include_optical=bool(self.allowed_optics))
+            numeric_scope=(
+                'Only approved numeric fields can be kept from one pass with contiguous source-quote support '
+                'and no conflicting value in the other pass; all other numeric fields require agreement. '
+                if self.variant==6 else 'Numerical fields still require agreement between the two passes. ')
             self.review_scope=(
                 'Processed by two separate local-model extraction passes and the owner-calibrated CHECK V'+str(self.variant)+'. '
                 'Chemical names and steps may be retained through source-quote support under that CHECK; '
-                'numerical fields still require agreement between the two passes. '
+                +numeric_scope+
                 'It has not been independently audited.')
 
         def record(self,pair,index):
