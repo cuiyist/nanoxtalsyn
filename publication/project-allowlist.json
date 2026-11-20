@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "completeness-f6-w-20261119-06",
+  "release_id": "s5-retire-fulfilled-pr181-recovery-20261119",
   "repo": "mattersyn",
-  "source_commit": "f6c094f25ca57249a916aaa47abcfc60090f81eb",
+  "source_commit": "26c8053ec147a3b1f7a5fe3ad376d1801bc98d6d",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "cad9548083f12623e8a36f6bbdddfa7e1dc62492a771c4c1e8d749ec70d186e6",
-    "file_count": 63465,
+    "sha256": "fe15d961a7fdcbb23372e13111249e156d3b28bf86b5dd4ab09b2e9cf12c9f68",
+    "file_count": 63464,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -78,13 +78,13 @@
     },
     {
       "path": "MEMORY.md",
-      "sha256": "231c922788d54293aea7f3dca45c3e1f45d0c3bebf697098e0457f4dbf5e7ab4",
-      "bytes": 1190752,
+      "sha256": "2ad5661528bc18c495853d7a2a7d6d014be18626c4680de6b56ce890d7490891",
+      "bytes": 1191932,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 W engineering and preservation review",
-      "reviewed_at": "2026-11-18T18:40:15+00:00",
+      "reviewer": "Codex exact S5 source-control retirement review",
+      "reviewed_at": "2026-11-20T05:39:36+00:00",
       "content_class": "memory",
       "source_refs": []
     },
@@ -150,34 +150,16 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "246a1854c48b73ef75bb47a4af45daff5f0e3ea6f4311727a6f98259200a8abb",
-      "bytes": 14533571,
+      "sha256": "61daf0ab15d3c6e4d33957cdf45962ef5e3756d06b9739f739f0127956cd2077",
+      "bytes": 14533406,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-19T21:55:30.491895+00:00",
+      "reviewed_at": "2026-11-20T05:40:11.252613+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval",
-      "metadata_review": {
-        "before_sha256": "b4ac792e4ab46e3af303ecb2a5adbe967171ff8c389598098d5162b430c64f17",
-        "sha256": "d0db74d151eda02a506496fbc18889d185e09a96e96770bf1f286d0b224cd690",
-        "reviewer": "Codex F6 preservation review",
-        "reviewed_at": "2026-11-19T21:55:10.580471+00:00"
-      }
-    },
-    {
-      "path": "publication/live-reverification-scope.json",
-      "sha256": "fbc08e8b3e90edac72d681c73da915c19380cc13b38113659618cb89ae96b234",
-      "bytes": 490178,
-      "git_mode": "100644",
-      "decision": "allow",
-      "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
-      "content_class": "audit_summary",
-      "source_refs": []
+      "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/public-release-policy.json",
@@ -125243,7 +125225,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-19T21:55:30.491895+00:00",
+      "reviewed_at": "2026-11-20T05:40:11.252613+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"

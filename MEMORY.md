@@ -1,3 +1,24 @@
+## 19 November 2026 — S5 fulfilled-scope retirement
+
+The preceding F6 release, PR 185, is live and verified at Source
+`26c8053ec147a3b1f7a5fe3ad376d1801bc98d6d` and Site
+`77e928409d4cc4ae3b32f99ba58c86d469ccfd19` (publisher 44634505761, Pages
+44641881789). The F6 pool has 1,200 verified papers; 819 remain (713 ready,
+106 held). T5 stopped after 200 papers and zero qualifying improvements
+among 330 recipes. Reviewed records and training status stay unchanged.
+
+Retire only the fulfilled PR 181 recovery-list input under S5. Each of
+publisher runs 44473335260, 44573604378, 44605827252 and 44634505761 passed
+all 6,219 carried paths. Original scope bytes and verification history
+remain available. Candidate, boundary, browser, ordinary anonymous, scoped
+branding and weekly full-site checks stay active. The measured
+pre-retirement publisher baseline is 6,961 seconds on PR 185.
+
+The two ordered lanes are active: saved-pass V6 and T8/T9 locally, and
+S5 then F6/W then O, P, Q and R through normal GitHub releases. New-paper
+reading waits for the Y and T decisions; their publication waits for those
+improvement releases. No audit, Worker A/B, or older owner holds resumed.
+
 ## 18 November 2026 — F6 and T proceeds independently
 
 PR 178 is verified live: 40 existing papers and 66 next-revision
