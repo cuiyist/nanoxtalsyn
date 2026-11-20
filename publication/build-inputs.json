@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
   "release_id": "completeness-f6-v6-w78-20261120-07",
-  "updated_at": "2026-11-20T17:59:09.316987+00:00",
+  "updated_at": "2026-11-20T18:29:51.663632+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -40101,7 +40101,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "e0070242bff4375dd84e760713a8e98f026a57dd27f8ad4e0091ce204a38a94d",
+      "sha256": "813bd388ba5b3d4c64f891a227994dbc44655b8eb6c555ba24aaf329215064f5",
       "bytes": 10733942
     },
     {
@@ -51316,7 +51316,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "a972c0e2f5455844a8a1adb2ba8150565703b18e70f573224e3553981e326e00",
+      "sha256": "b6cdde54c888660eaa5fabbf87d7143f8826cd0b472c7b40f1bb14c740a851da",
       "bytes": 4865213
     },
     {
