@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "completeness-y3-v6-20261120-10",
+  "release_id": "completeness-y3-step-attribution-recovery-20261121",
   "repo": "mattersyn",
-  "source_commit": "81f17cbe32afd43687b8f77ab34034c08bcb983d",
+  "source_commit": "2ed06abcd34bfe6539d23298dcdefa764c73d869",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "a11750c43bd1456365e75b79062b698b9c9e9f9abeb628ac86aadc7d24ecf2e2",
-    "file_count": 63714,
+    "sha256": "ec1617b29f1a09c7c81338047f8672dd8b3ff7fa4f9e5809a6d4ffb3fad4a126",
+    "file_count": 63715,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -150,21 +150,21 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "a1977658f1186c69613f9d9d924a994f9e4c74741b42c75ce31c7b1ab499b96d",
-      "bytes": 14702681,
+      "sha256": "4ffc5ea5c292ea21fcb626e86771435a9534af73e01c5ad6bbe9598082bc8fce",
+      "bytes": 14702894,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-21T14:08:34.969695+00:00",
+      "reviewed_at": "2026-11-21T17:07:29.920122+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "7995ee974879aa99ca488da4937ef97bab2d0725c7ab99e6b44929d5f22cb851",
-        "sha256": "b33bebba5e2a6ccee2bda17fe9b4c0cd19614c274f46707b9dd2bb05843d38ef",
+        "before_sha256": "b33bebba5e2a6ccee2bda17fe9b4c0cd19614c274f46707b9dd2bb05843d38ef",
+        "sha256": "2604e7cf352683787ef1c395e2abf9d5baed75bb7c591af100784eb8770d09cc",
         "reviewer": "Codex F6 preservation review",
-        "reviewed_at": "2026-11-21T14:08:12.316228+00:00"
+        "reviewed_at": "2026-11-21T17:07:00.257776+00:00"
       }
     },
     {
@@ -3008,37 +3008,37 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "44aa0ad3c89441eea1f49f0dbaf5a20842adef41009c0c95a14de01f5da7f2f4",
+      "sha256": "583912a92fe3619e9bf9dd31b894a65da6f7bbd6550247f9c1d8a2de9b56f112",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "ccc372d1e4b2cfb22a4f0da786c5765aeabcc8751538837d985dcb90ab6f9554",
+      "sha256": "e7b62957dc2239d2680c9a933c335a4c50b2ced2d0b6cf9fa9c67bcef7488598",
       "bytes": 83881978,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "0a7ac9f6e7a832de94ea8a1db721a41ad75676010d53780f254cbe7345debb33",
+      "sha256": "a04e90f09a729a2e66ec3235eae21162519559856cb1cc383bf6b9977ee41fff",
       "bytes": 83866389,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -45449,13 +45449,13 @@
     },
     {
       "path": "recipe-atlas/data/records/jun2002-ja016887w-cd0-88mn0-12s-nanorods-2.json",
-      "sha256": "7a823dd14cabc31219b974d49c89ae06f46654e29f09541178e45832d097e041",
-      "bytes": 17435,
+      "sha256": "86723c26efe30c03ee7730925c7485d05d06ff1b1dc2775a0324a3a78410ab57",
+      "bytes": 16966,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -121426,13 +121426,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhao2017-acs-analchem-7b01558-mos2-qds-1.json",
-      "sha256": "e09a9b42ba0515966db5f921f18087337238f8fced8ce227af179d652e59563a",
-      "bytes": 16463,
+      "sha256": "1b717aeaaefa5093a0f62507dbd63b1b42c9079a0964f5169af9f331f6d996ab",
+      "bytes": 15982,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -124741,13 +124741,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "42cd8065ac3111d6877949c790fe03241c0f174dc9e887005b39cc488cd7eb67",
+      "sha256": "fcce51d5318634a0f032f4f8b570f610476ed2cd547454200a14da4cbbe3144a",
       "bytes": 26187263,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-21T14:08:34.969695+00:00",
+      "reviewed_at": "2026-11-21T17:07:29.920122+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -138570,13 +138570,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "e2da408801ac1f6b0f3d34b919ecba35fc59001edf96fe1370661decfba56945",
+      "sha256": "aa7190a5718e5cf8a5e844dcd1ad14fcfe2eb3ac5a1d3adc70249005a80ede95",
       "bytes": 10825754,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -169851,13 +169851,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "5f9534387910b918f237cdb6f06526eb1f44e9535676262f8b3c66aab4cbe609",
+      "sha256": "2dba3e469702d6fd5655e265887eee60d258df6bb5eb3ea68e33a2c91740f895",
       "bytes": 4912274,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -973043,13 +973043,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/jun2002-ja016887w-cd0-88mn0-12s-nanorods-2.json",
-      "sha256": "aa8d4ae93e7bca50c4ebbf9d4113deb583160ba215471cc3021ecb89f5e569fc",
+      "sha256": "bc48b33e8df4a3f1d58966944c44e4226a6b80b62192ee47d5c8549dc179edbd",
       "bytes": 2182,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1067526,13 +1067526,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhao2017-acs-analchem-7b01558-mos2-qds-1.json",
-      "sha256": "4827002fbf3ef86ee563fe3297fc0bd67beee5f2ac66d3ea054781cd5a8f1d57",
+      "sha256": "16cf268feee59c65aaf88c7e6efd367ebfdb5dc405b0358e927e831754835b1a",
       "bytes": 1224,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1101997,13 +1101997,13 @@
     },
     {
       "path": "tools/simple-pipeline/completeness_numbers.py",
-      "sha256": "e36ffd6473dedd8656dab956e902a2f0915725eb5bc1f62a70a125215628dfeb",
-      "bytes": 7033,
+      "sha256": "e47cfaddda9a14ee8cdc41742f78e33c0688ba65ff121ab7fd3303933fb10c71",
+      "bytes": 7637,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1102280,6 +1102280,18 @@
       "review_status": "approved",
       "reviewer": "Codex-root-additive-engineering-review",
       "reviewed_at": "2026-11-16T00:42:38+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/simple-pipeline/test_completeness_number_carriers.py",
+      "sha256": "8e612790f9c3ebe6ea498de0dcdb9632400c50b390c9446b964fa2ea4a0f42e9",
+      "bytes": 1421,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-21T17:06:59+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

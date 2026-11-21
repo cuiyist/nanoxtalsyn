@@ -106,6 +106,14 @@ def add_number(dst,key,fact):
         if fact['page']:dst[key+'_page']=fact['page']
 
 
+def competing_actions_share_quote(item,sides,exact):
+    """An overlap is not a numeric carrier when it names several steps."""
+    q=item.get('quote')
+    if not q:return False
+    return any(not picks and len({e.squash(s.get('action','')) for s in side
+                                 if s.get('quote')==q})>1 for side,picks in zip(sides,exact))
+
+
 def check_v6(text,a,b,registry=None,single_fields=NUMERIC_FIELDS):
     registry=registry or ChemicalIdentity()
     allowed=set(single_fields);assert allowed<=set(NUMERIC_FIELDS)
@@ -145,5 +153,9 @@ def check_v6(text,a,b,registry=None,single_fields=NUMERIC_FIELDS):
             for k in ('temperature','time'):
                 f='reaction_'+k
                 if f not in allowed or item.get(k) is not None:continue
-                add_number(item,k,proposed(f,*[[e.step_fact(s,k) for s in arr] for arr in matches],support))
+                fact=proposed(f,*[[e.step_fact(s,k) for s in arr] for arr in matches],support)
+                if fact and competing_actions_share_quote(item,(ls,rs),exact):
+                    own=[e.step_fact(s,k) for arr in exact for s in arr]
+                    if not any(q and same(f,fact,q) for q in own):continue
+                add_number(item,k,fact)
     return base
