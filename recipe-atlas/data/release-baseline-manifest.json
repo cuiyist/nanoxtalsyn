@@ -316652,9 +316652,9 @@
       "record_type": "literature_protocol",
       "source_year": 2002,
       "source_doi": "10.1021/ja016887w",
-      "revision": 3,
+      "revision": 4,
       "record_sha256": "11b24df3b010ce28da35a44aa206be7f8cc46bac7e206eba68f99880330c092b",
-      "recipe_signature": "4bbe040d2223873e2083c36a786eedbf755f8a117e69b9bbfbedb111625eaf84",
+      "recipe_signature": "3ca4d38f84d27e94229788867c713306a0060399f7f5a7576686e5c8b64cad74",
       "group_id": "group-971fd5c3012c",
       "split": "train",
       "eligibility": {
@@ -515755,9 +515755,9 @@
       "record_type": "literature_protocol",
       "source_year": 2017,
       "source_doi": "10.1021/acs.analchem.7b01558",
-      "revision": 3,
+      "revision": 4,
       "record_sha256": "abe64e4ae491c9cdc23eae416e4b7a797ea24e450e53fdf23c6795c720df632c",
-      "recipe_signature": "4f7d585150661d242a651f0fdd46522bb0213f0e30dee0f084c8020842170d7c",
+      "recipe_signature": "783f2298e8c3b6ea1b36c3f1ec40b17193e870f70907fa7e055094893eaf73e1",
       "group_id": "group-1c8d81d6ab84",
       "split": "train",
       "eligibility": {
