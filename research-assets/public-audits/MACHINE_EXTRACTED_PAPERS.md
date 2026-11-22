@@ -4942,3 +4942,2734 @@ Saved scope decisions omit 14 post-read candidates for this job (Historical7: fi
 | 10.1007/bf02396095 | kramer1990-bf02396095 | kramer1990-bf02396095-nanocrystalline-a-fe-1, kramer1990-bf02396095-nanocrystalline-ni-2 | ready22-20261101-r1 | Live; source_extracted/unreviewed | 2026-11-02T13:13:05+00:00; Site 6a32840077a5187316ae30d7f5c2a214fa129d9d | 0 |
 | 10.1038/nmat2490 | yang12009-nmat2490 | yang12009-nmat2490-ag-nanoparticles-1, yang12009-nmat2490-au-nanoparticles-2 | ready22-20261101-r1 | Live; source_extracted/unreviewed | 2026-11-02T13:13:05+00:00; Site 6a32840077a5187316ae30d7f5c2a214fa129d9d | 0 |
 | 10.1021/ja208337r | chen2011-ja208337r | chen2011-ja208337r-4-0-nm-oleate-capped-zb-cdse-nanocrystal-1, chen2011-ja208337r-4-0-nm-oam-capped-w-cdse-nanocrystals-3 | ready22-20261101-r1 | Live; source_extracted/unreviewed | 2026-11-02T13:13:05+00:00; Site 6a32840077a5187316ae30d7f5c2a214fa129d9d | 0 |
+
+<!-- owner-x5-checked-dispositions-135-X02 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1002/(sici)1096-987x(19970130)18:2&lt;290::aid-jcc13&gt;3.0.co;2-m | Unclear | new X reading |
+| 10.1002/(sici)1096-9918(199603)24:3&lt;181::aid-sia92&gt;3.0.co;2-n | Unclear | new X reading |
+| 10.1002/(sici)1097-4555(199905)30:5&lt;385::aid-jrs392&gt;3.0.co;2-r | Out of scope | new X reading |
+| 10.1002/(sici)1097-4555(199910)30:10&lt;939::aid-jrs460&gt;3.0.co;2-c | Unclear | new X reading |
+| 10.1002/(sici)1097-4628(19990124)71:4&lt;665::aid-app18&gt;3.0.co;2-v | Unclear | new X reading |
+| 10.1002/(sici)1521-3773(19990419)38:8&lt;1147::aid-anie1147&gt;3.0.co;2-a | Unclear | new X reading |
+| 10.1002/(sici)1521-3862(199910)5:5&lt;207::aid-cvde207&gt;3.0.co;2-5 | Unclear | saved replay |
+| 10.1002/(sici)1521-3951(199909)215:1&lt;797::aid-pssb797&gt;3.0.co;2-d | Out of scope | new X reading |
+| 10.1002/(sici)1521-3951(199911)216:1&lt;431::aid-pssb431&gt;3.0.co;2-3 | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(199911)216:1&lt;457::aid-pssb457&gt;3.0.co;2-8 | Out of scope | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;633::aid-pssb633&gt;3.0.co;2-p | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;649::aid-pssb649&gt;3.0.co;2-y | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;655::aid-pssb655&gt;3.0.co;2-9 | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;659::aid-pssb659&gt;3.0.co;2-u | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;711::aid-pssb711&gt;3.0.co;2-0 | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;723::aid-pssb723&gt;3.0.co;2-p | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;751::aid-pssb751&gt;3.0.co;2-l | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;797::aid-pssb797&gt;3.0.co;2-i | Out of scope | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;819::aid-pssb819&gt;3.0.co;2-1 | Out of scope | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;823::aid-pssb823&gt;3.0.co;2-l | Unclear | new X reading |
+| 10.1002/(sici)1521-3951(200104)224:3&lt;845::aid-pssb845&gt;3.0.co;2-5 | Out of scope | new X reading |
+| 10.1002/(sici)1521-396x(199801)165:1&lt;69::aid-pssa69&gt;3.0.co;2-h | Out of scope | new X reading |
+| 10.1002/(sici)1521-396x(199803)166:1&lt;257::aid-pssa257&gt;3.0.co;2-j | Unclear | new X reading |
+| 10.1002/(sici)1521-396x(199804)166:2&lt;r11::aid-pssa999911&gt;3.0.co;2-h | Unclear | new X reading |
+| 10.1002/(sici)1521-396x(199808)168:2&lt;r9::aid-pssa99999&gt;3.0.co;2-3 | Unclear | new X reading |
+| 10.1002/(sici)1521-396x(199906)173:2&lt;305::aid-pssa305&gt;3.0.co;2-1 | Unclear | new X reading |
+| 10.1002/(sici)1521-396x(199909)175:1&lt;405::aid-pssa405&gt;3.0.co;2-u | Out of scope | new X reading |
+| 10.1002/(sici)1521-396x(199911)176:1&lt;635::aid-pssa635&gt;3.0.co;2-e | Out of scope | new X reading |
+| 10.1002/(sici)1521-396x(200001)177:1&lt;53::aid-pssa53&gt;3.0.co;2-h | Unclear | new X reading |
+| 10.1002/(sici)1521-4079(199810)33:7/8&lt;1039::aid-crat1039&gt;3.0.co;2-x | Unclear | new X reading |
+| 10.1002/(sici)1521-4079(199901)34:1&lt;89::aid-crat89&gt;3.0.co;2-u | Out of scope | new X reading |
+| 10.1002/(sici)1521-4095(199902)11:2&lt;165::aid-adma165&gt;3.0.co;2-3 | Out of scope | saved replay |
+| 10.1002/(sici)1521-4095(199905)11:7&lt;552::aid-adma552&gt;3.0.co;2-q | Unclear | saved replay |
+| 10.1002/(sici)1521-4095(199906)11:8&lt;643::aid-adma643&gt;3.0.co;2-i | Out of scope | saved replay |
+| 10.1002/(sici)1521-4095(200003)12:5&lt;333::aid-adma333&gt;3.0.co;2-x | Unclear | saved replay |
+| 10.1002/1521-3773(20020703)41:13&lt;2368::aid-anie2368&gt;3.0.co;2-g | Unclear | new X reading |
+| 10.1002/1521-3951(199708)202:2&lt;795::aid-pssb795&gt;3.0.co;2-t | Unclear | new X reading |
+| 10.1002/1521-3951(199708)202:2&lt;827::aid-pssb827&gt;3.0.co;2-8 | Unclear | saved replay |
+| 10.1002/1521-3951(199708)202:2&lt;835::aid-pssb835&gt;3.0.co;2-c | Out of scope | new X reading |
+| 10.1002/1521-3951(199711)204:1&lt;318::aid-pssb318&gt;3.0.co;2-v | Unclear | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;101::aid-pssb101&gt;3.0.co;2-v | Out of scope | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;143::aid-pssb143&gt;3.0.co;2-7 | Unclear | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;147::aid-pssb147&gt;3.0.co;2-s | Unclear | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;165::aid-pssb165&gt;3.0.co;2-s | Out of scope | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;201::aid-pssb201&gt;3.0.co;2-r | Out of scope | new X reading |
+| 10.1002/1521-3951(200103)224:1&lt;93::aid-pssb93&gt;3.0.co;2-6 | Unclear | new X reading |
+| 10.1002/1521-3951(200103)224:2&lt;431::aid-pssb431&gt;3.0.co;2-6 | Unclear | new X reading |
+| 10.1002/1521-3951(200103)224:2&lt;443::aid-pssb443&gt;3.0.co;2-v | Out of scope | new X reading |
+| 10.1002/1521-3951(200103)224:2&lt;537::aid-pssb537&gt;3.0.co;2-f | Out of scope | new X reading |
+| 10.1002/1521-3951(200103)224:2&lt;599::aid-pssb599&gt;3.0.co;2-k | Thin | new X reading |
+| 10.1002/1521-3951(200107)226:1&lt;219::aid-pssb219&gt;3.0.co;2-m | Unclear | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;407::aid-pssb407&gt;3.0.co;2-s | Thin | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;427::aid-pssb427&gt;3.0.co;2-k | Unclear | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;445::aid-pssb445&gt;3.0.co;2-k | Out of scope | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;497::aid-pssb497&gt;3.0.co;2-t | Out of scope | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;523::aid-pssb523&gt;3.0.co;2-w | Out of scope | new X reading |
+| 10.1002/1521-3951(200201)229:1&lt;529::aid-pssb529&gt;3.0.co;2-8 | Unclear | new X reading |
+| 10.1002/1521-3951(200201)229:2&lt;1029::aid-pssb1029&gt;3.0.co;2-e | Out of scope | new X reading |
+| 10.1002/1521-3951(200207)232:1&lt;62::aid-pssb62&gt;3.0.co;2-c | Out of scope | new X reading |
+| 10.1002/1521-3951(200207)232:1&lt;r1::aid-pssb99991&gt;3.0.co;2-z | Out of scope | new X reading |
+| 10.1002/1521-396x(199703)160:1&lt;205::aid-pssa205&gt;3.0.co;2-h | Unclear | new X reading |
+| 10.1002/1521-396x(199708)162:2&lt;r3::aid-pssa99993&gt;3.0.co;2-b | Out of scope | new X reading |
+| 10.1002/1521-396x(199710)163:2&lt;433::aid-pssa433&gt;3.0.co;2-1 | Unclear | new X reading |
+| 10.1002/1521-396x(200003)178:1&lt;263::aid-pssa263&gt;3.0.co;2-u | Unclear | new X reading |
+| 10.1002/1521-396x(200003)178:1&lt;291::aid-pssa291&gt;3.0.co;2-q | Unclear | new X reading |
+| 10.1002/1521-396x(200003)178:1&lt;341::aid-pssa341&gt;3.0.co;2-5 | Unclear | new X reading |
+| 10.1002/1521-396x(200109)187:1&lt;45::aid-pssa45&gt;3.0.co;2-w | Unclear | new X reading |
+| 10.1002/1521-396x(200112)188:3&lt;1059::aid-pssa1059&gt;3.0.co;2-5 | Unclear | new X reading |
+| 10.1002/1521-396x(200202)189:2&lt;495::aid-pssa495&gt;3.0.co;2-x | Unclear | new X reading |
+| 10.1002/1521-396x(200202)189:2&lt;533::aid-pssa533&gt;3.0.co;2-o | Out of scope | new X reading |
+| 10.1002/1521-396x(200202)189:3&lt;871::aid-pssa871&gt;3.0.co;2-3 | Unclear | new X reading |
+| 10.1002/1521-396x(200202)189:3&lt;889::aid-pssa889&gt;3.0.co;2-4 | Unclear | new X reading |
+| 10.1002/1521-396x(200203)190:1&lt;199::aid-pssa199&gt;3.0.co;2-z | Unclear | new X reading |
+| 10.1002/1521-396x(200204)190:2&lt;459::aid-pssa459&gt;3.0.co;2-0 | Out of scope | new X reading |
+| 10.1002/1521-396x(200204)190:2&lt;589::aid-pssa589&gt;3.0.co;2-l | Out of scope | new X reading |
+| 10.1002/1521-396x(200204)190:2&lt;593::aid-pssa593&gt;3.0.co;2-4 | Out of scope | new X reading |
+| 10.1002/1521-4079(200007)35:6/7&lt;759::aid-crat759&gt;3.0.co;2-w | Unclear | new X reading |
+| 10.1002/1521-4095(200006)12:12&lt;878::aid-adma878&gt;3.0.co;2-x | Unclear | new X reading |
+| 10.1002/1521-4095(200102)13:4&lt;280::aid-adma280&gt;3.0.co;2-t | Unclear | new X reading |
+| 10.1002/1521-4095(200104)13:7&lt;511::aid-adma511&gt;3.0.co;2-w | Unclear | new X reading |
+| 10.1002/1521-4095(200106)13:11&lt;826::aid-adma826&gt;3.0.co;2-l | Unclear | new X reading |
+| 10.1002/1521-4095(200107)13:14&lt;1081::aid-adma1081&gt;3.0.co;2-d | Out of scope | new X reading |
+| 10.1002/1521-4095(200110)13:20&lt;1557::aid-adma1557&gt;3.0.co;2-w | Unclear | new X reading |
+| 10.1002/1521-4109(200104)13:5&lt;359::aid-elan359&gt;3.0.co;2-j | Unclear | new X reading |
+| 10.1002/1527-2648(200103)3:3&lt;158::aid-adem158&gt;3.0.co;2-s | Unclear | new X reading |
+| 10.1002/1527-2648(200109)3:9&lt;695::aid-adem695&gt;3.0.co;2-t | Out of scope | new X reading |
+| 10.1002/9780470447734.ch9 | Unclear | new X reading |
+| 10.1002/9781118406083.ch11 | Unclear | new X reading |
+| 10.1002/9781118744994.ch37 | Unclear | new X reading |
+| 10.1002/9781118771327.ch13 | Unclear | new X reading |
+| 10.1002/9781118775882.ch11 | Unclear | new X reading |
+| 10.1002/9781119183860.ch15 | Unclear | new X reading |
+| 10.1002/9781119694939.app2 | Unclear | new X reading |
+| 10.1002/9781394253975.ch2 | Unclear | new X reading |
+| 10.1002/9783527344796.ch13 | Unclear | new X reading |
+| 10.1002/9783527344796.ch15 | Unclear | new X reading |
+| 10.1002/9783527634484.ch1 | Unclear | new X reading |
+| 10.1002/9783527634484.ch3 | Unclear | new X reading |
+| 10.1002/9783527634484.ch4 | Unclear | new X reading |
+| 10.1002/9783527634484.ch8 | Unclear | new X reading |
+| 10.1002/9783527647101.ch14 | Unclear | new X reading |
+| 10.1002/9783527674947.ch1 | Unclear | new X reading |
+| 10.1002/9783527682157.ch14 | Unclear | new X reading |
+| 10.1002/9783527687169.ch12 | Unclear | new X reading |
+| 10.1002/9783527699940.ch10 | Unclear | new X reading |
+| 10.1002/9783527808465.emc2016.4913 | Out of scope | new X reading |
+| 10.1002/9783527808465.emc2016.5706 | Out of scope | new X reading |
+| 10.1002/9783527808465.emc2016.6245 | Unclear | new X reading |
+| 10.1002/9783527845149.ch14 | Unclear | new X reading |
+| 10.1002/9783527845149.ch2 | Unclear | new X reading |
+| 10.1002/9783527845149.ch7 | Unclear | new X reading |
+| 10.1002/adbi.201800137 | Unclear | new X reading |
+| 10.1002/adem.201180062 | Unclear | new X reading |
+| 10.1002/adem.201200233 | Out of scope | saved replay |
+| 10.1002/adem.201200252 | Unclear | new X reading |
+| 10.1002/adem.201600684 | Unclear | new X reading |
+| 10.1002/adem.201700470 | Unclear | new X reading |
+| 10.1002/adem.201701033 | Out of scope | new X reading |
+| 10.1002/adem.201800443 | Unclear | new X reading |
+| 10.1002/adem.201800496 | Out of scope | new X reading |
+| 10.1002/adem.202000112 | Unclear | new X reading |
+| 10.1002/adem.202000299 | Out of scope | new X reading |
+| 10.1002/adem.202100666 | Unclear | new X reading |
+| 10.1002/adem.202200601 | Unclear | new X reading |
+| 10.1002/adem.202300597 | Unclear | new X reading |
+| 10.1002/adem.202300700 | Unclear | new X reading |
+| 10.1002/adem.202301019 | Unclear | new X reading |
+| 10.1002/adem.202301862 | Unclear | new X reading |
+| 10.1002/adem.202400214 | Unclear | new X reading |
+| 10.1002/adem.202400536 | Unclear | new X reading |
+| 10.1002/adem.202502257 | Unclear | new X reading |
+| 10.1002/adfm.200600188 | Unclear | new X reading |
+| 10.1002/adfm.201002444 | Unclear | saved replay |
+| 10.1002/adfm.201102320 | Unclear | new X reading |
+| 10.1002/adfm.201300527 | Unclear | new X reading |
+| 10.1002/adfm.201400667 | Unclear | new X reading |
+| 10.1002/adfm.201601570 | Unclear | saved replay |
+| 10.1002/adfm.201704774 | Unclear | saved replay |
+| 10.1002/adfm.201903047 | Unclear | new X reading |
+| 10.1002/adfm.201909904 | Unclear | new X reading |
+| 10.1002/adfm.202315058 | Out of scope | new X reading |
+| 10.1002/adfm.202412367 | Unclear | new X reading |
+| 10.1002/adfm.202418944 | Unclear | new X reading |
+| 10.1002/adfm.202426082 | Unclear | new X reading |
+| 10.1002/adfm.202501241 | Unclear | new X reading |
+| 10.1002/adfm.202502774 | Out of scope | new X reading |
+| 10.1002/adfm.202504563 | Unclear | new X reading |
+| 10.1002/adfm.202504742 | Unclear | new X reading |
+| 10.1002/adfm.202508450 | Unclear | new X reading |
+| 10.1002/adfm.202510076 | Unclear | new X reading |
+| 10.1002/adfm.202513969 | Unclear | new X reading |
+| 10.1002/adfm.202514808 | Unclear | new X reading |
+| 10.1002/adfm.202518484 | Thin | new X reading |
+| 10.1002/adfm.202519910 | Unclear | new X reading |
+| 10.1002/adfm.202522532 | Unclear | new X reading |
+| 10.1002/adfm.202523266 | Unclear | new X reading |
+| 10.1002/adfm.202524197 | Unclear | new X reading |
+| 10.1002/adfm.74924 | Unclear | new X reading |
+| 10.1002/adfm.74942 | Thin | new X reading |
+| 10.1002/adfm.75664 | Unclear | new X reading |
+| 10.1002/adfm.75741 | Unclear | new X reading |
+| 10.1002/adma.200500722 | Unclear | new X reading |
+| 10.1002/adma.200600181 | Out of scope | new X reading |
+| 10.1002/adma.200700837 | Out of scope | new X reading |
+| 10.1002/adma.200701955 | Unclear | new X reading |
+| 10.1002/adma.200904245 | Unclear | new X reading |
+| 10.1002/adma.201000513 | Unclear | new X reading |
+| 10.1002/adma.201101334 | Unclear | saved replay |
+| 10.1002/adma.201102306 | Unclear | new X reading |
+| 10.1002/adma.201200220 | Unclear | new X reading |
+| 10.1002/adma.201200539 | Out of scope | new X reading |
+| 10.1002/adma.201200981 | Unclear | saved replay |
+| 10.1002/adma.201202783 | Unclear | new X reading |
+| 10.1002/adma.201205041 | Unclear | saved replay |
+| 10.1002/adma.201304166 | Unclear | saved replay |
+| 10.1002/adma.201703214 | Unclear | new X reading |
+| 10.1002/adma.202207445 | Unclear | new X reading |
+| 10.1002/adma.202404495 | Unclear | new X reading |
+| 10.1002/adma.202404630 | Unclear | new X reading |
+| 10.1002/adma.202406625 | Unclear | new X reading |
+| 10.1002/adma.202410441 | Unclear | saved replay |
+| 10.1002/adma.202411237 | Unclear | new X reading |
+| 10.1002/adma.202413183 | Unclear | new X reading |
+| 10.1002/adma.202416861 | Unclear | new X reading |
+| 10.1002/adma.202417346 | Unclear | new X reading |
+| 10.1002/adma.202418890 | Unclear | new X reading |
+| 10.1002/adma.202500562 | Unclear | saved replay |
+| 10.1002/adma.202501131 | Unclear | new X reading |
+| 10.1002/adma.202502333 | Unclear | new X reading |
+| 10.1002/adma.202503189 | Unclear | new X reading |
+| 10.1002/adma.202503477 | Unclear | new X reading |
+| 10.1002/adma.202504259 | Unclear | new X reading |
+| 10.1002/adma.202505214 | Unclear | new X reading |
+| 10.1002/adma.202508173 | Unclear | new X reading |
+| 10.1002/adma.202508425 | Unclear | new X reading |
+| 10.1002/adma.202508842 | Thin | new X reading |
+| 10.1002/adma.202509457 | Unclear | new X reading |
+| 10.1002/adma.202512201 | Unclear | new X reading |
+| 10.1002/adma.202514750 | Unclear | new X reading |
+| 10.1002/adma.202515555 | Unclear | new X reading |
+| 10.1002/adma.202517210 | Thin | new X reading |
+| 10.1002/adma.202517410 | Unclear | new X reading |
+| 10.1002/adma.202518118 | Unclear | new X reading |
+| 10.1002/adma.202518255 | Out of scope | new X reading |
+| 10.1002/adma.202520096 | Unclear | new X reading |
+| 10.1002/adma.202520389 | Out of scope | new X reading |
+| 10.1002/adma.202521047 | Unclear | new X reading |
+| 10.1002/adma.73234 | Out of scope | new X reading |
+| 10.1002/adma.73397 | Out of scope | new X reading |
+| 10.1002/adma.74386 | Out of scope | saved replay |
+| 10.1002/adma.74668 | Unclear | new X reading |
+| 10.1002/admi.202102435 | Unclear | new X reading |
+| 10.1002/admi.202202155 | Unclear | new X reading |
+| 10.1002/admi.202301073 | Unclear | new X reading |
+| 10.1002/admi.202400500 | Out of scope | new X reading |
+| 10.1002/admi.202400606 | Unclear | new X reading |
+| 10.1002/admi.202400679 | Unclear | new X reading |
+| 10.1002/admi.202400884 | Unclear | new X reading |
+| 10.1002/admi.202401004 | Unclear | new X reading |
+| 10.1002/admi.202401011 | Out of scope | new X reading |
+| 10.1002/admt.201800280 | Unclear | new X reading |
+| 10.1002/admt.202000281 | Out of scope | new X reading |
+| 10.1002/admt.202500158 | Unclear | new X reading |
+| 10.1002/admt.71124 | Unclear | saved replay |
+| 10.1002/adom.201200037 | Unclear | new X reading |
+| 10.1002/adom.201300105 | Unclear | new X reading |
+| 10.1002/adom.201500198 | Unclear | new X reading |
+| 10.1002/adom.201500670 | Unclear | new X reading |
+| 10.1002/adom.201600516 | Unclear | new X reading |
+| 10.1002/adom.201800979 | Unclear | new X reading |
+| 10.1002/adom.202002144 | Unclear | new X reading |
+| 10.1002/adom.202400946 | Unclear | new X reading |
+| 10.1002/adom.202401317 | Unclear | new X reading |
+| 10.1002/adom.202402147 | Unclear | new X reading |
+| 10.1002/adom.202402271 | Unclear | new X reading |
+| 10.1002/adom.202402766 | Unclear | new X reading |
+| 10.1002/adom.202500024 | Unclear | new X reading |
+| 10.1002/adom.202500034 | Unclear | new X reading |
+| 10.1002/adom.202500166 | Unclear | new X reading |
+| 10.1002/adom.202500699 | Unclear | new X reading |
+| 10.1002/adom.202500939 | Unclear | new X reading |
+| 10.1002/adom.202501175 | Thin | new X reading |
+| 10.1002/adom.202501523 | Unclear | new X reading |
+| 10.1002/adom.202501635 | Unclear | new X reading |
+| 10.1002/adom.202502347 | Unclear | new X reading |
+| 10.1002/adom.202502664 | Unclear | saved replay |
+| 10.1002/adom.202502884 | Unclear | new X reading |
+| 10.1002/adom.202503102 | Unclear | new X reading |
+| 10.1002/adom.202503189 | Unclear | new X reading |
+| 10.1002/adom.202503191 | Unclear | new X reading |
+| 10.1002/adom.202503357 | Unclear | saved replay |
+| 10.1002/adom.202503634 | Unclear | new X reading |
+| 10.1002/adom.202503649 | Unclear | new X reading |
+| 10.1002/adom.202503703 | Unclear | new X reading |
+| 10.1002/adom.71344 | Unclear | new X reading |
+| 10.1002/adom.71417 | Unclear | new X reading |
+| 10.1002/adom.71554 | Unclear | new X reading |
+| 10.1002/adpr.202000124 | Unclear | new X reading |
+| 10.1002/adpr.202300317 | Unclear | new X reading |
+| 10.1002/adts.201800120 | Unclear | saved replay |
+| 10.1002/adts.201800127 | Unclear | new X reading |
+| 10.1002/adts.201800143 | Unclear | new X reading |
+| 10.1002/adts.202400956 | Unclear | new X reading |
+| 10.1002/adts.202501150 | Unclear | new X reading |
+| 10.1002/adts.70492 | Unclear | new X reading |
+| 10.1002/advs.202206560 | Unclear | new X reading |
+| 10.1002/advs.202404485 | Unclear | new X reading |
+| 10.1002/advs.202502775 | Unclear | saved replay |
+| 10.1002/advs.202505737 | Unclear | new X reading |
+| 10.1002/advs.202512478 | Unclear | new X reading |
+| 10.1002/advs.202520934 | Unclear | new X reading |
+| 10.1002/advs.202524275 | Unclear | new X reading |
+| 10.1002/advs.76379 | Unclear | new X reading |
+| 10.1002/aelm.201600360 | Unclear | new X reading |
+| 10.1002/aelm.201700666 | Unclear | new X reading |
+| 10.1002/aelm.202300261 | Unclear | new X reading |
+| 10.1002/aelm.202400142 | Unclear | new X reading |
+| 10.1002/aelm.202400195 | Unclear | new X reading |
+| 10.1002/aelm.202400231 | Unclear | new X reading |
+| 10.1002/aelm.70475 | Out of scope | new X reading |
+| 10.1002/aenm.201000029 | Unclear | new X reading |
+| 10.1002/aenm.202001774 | Unclear | new X reading |
+| 10.1002/aenm.202500909 | Unclear | new X reading |
+| 10.1002/aic.15063 | Unclear | new X reading |
+| 10.1002/aic.15306 | Unclear | new X reading |
+| 10.1002/aic.16206 | Unclear | new X reading |
+| 10.1002/alz.067578 | Unclear | new X reading |
+| 10.1002/andp.201400048 | Unclear | new X reading |
+| 10.1002/andp.201600344 | Unclear | new X reading |
+| 10.1002/andp.201800498 | Unclear | new X reading |
+| 10.1002/andp.201900254 | Unclear | new X reading |
+| 10.1002/andp.201900409 | Unclear | new X reading |
+| 10.1002/andp.202100086 | Unclear | new X reading |
+| 10.1002/andp.202100139 | Unclear | new X reading |
+| 10.1002/andp.202200537 | Unclear | new X reading |
+| 10.1002/andp.202300345 | Unclear | new X reading |
+| 10.1002/andp.202500236 | Unclear | new X reading |
+| 10.1002/andp.202500266 | Unclear | new X reading |
+| 10.1002/ange.201916760 | Unclear | new X reading |
+| 10.1002/anie.200903989 | Unclear | new X reading |
+| 10.1002/anie.201006504 | Unclear | new X reading |
+| 10.1002/anie.201101274 | Unclear | saved replay |
+| 10.1002/anie.201305389 | Unclear | new X reading |
+| 10.1002/anie.201901267 | Unclear | new X reading |
+| 10.1002/anie.202420421 | Unclear | new X reading |
+| 10.1002/anie.202506002 | Unclear | new X reading |
+| 10.1002/anie.202509765 | Unclear | new X reading |
+| 10.1002/anie.4373547 | Unclear | new X reading |
+| 10.1002/aoc.70007 | Unclear | new X reading |
+| 10.1002/aoc.7816 | Unclear | new X reading |
+| 10.1002/apj.2547 | Out of scope | new X reading |
+| 10.1002/app.33749 | Unclear | new X reading |
+| 10.1002/app.38066 | Unclear | new X reading |
+| 10.1002/app.41489 | Unclear | new X reading |
+| 10.1002/app.47850 | Unclear | new X reading |
+| 10.1002/app.48292 | Unclear | new X reading |
+| 10.1002/app.48680 | Unclear | new X reading |
+| 10.1002/app.52824 | Unclear | new X reading |
+| 10.1002/app.53721 | Unclear | saved replay |
+| 10.1002/app.55209 | Unclear | new X reading |
+| 10.1002/app.70085 | Unclear | saved replay |
+| 10.1002/apxr.202400036 | Unclear | new X reading |
+| 10.1002/apxr.202500178 | Unclear | new X reading |
+| 10.1002/apxr.70140 | Out of scope | new X reading |
+| 10.1002/bab.2280 | Unclear | new X reading |
+| 10.1002/bio.2959 | Unclear | new X reading |
+| 10.1002/bio.3021 | Unclear | new X reading |
+| 10.1002/bio.3306 | Unclear | new X reading |
+| 10.1002/bio.3412 | Unclear | new X reading |
+| 10.1002/bio.3444 | Unclear | new X reading |
+| 10.1002/bio.3618 | Unclear | new X reading |
+| 10.1002/bio.3783 | Thin | new X reading |
+| 10.1002/bio.4200 | Out of scope | new X reading |
+| 10.1002/bio.4296 | Unclear | new X reading |
+| 10.1002/bio.4491 | Unclear | new X reading |
+| 10.1002/biot.201200155 | Unclear | new X reading |
+| 10.1002/biot.201900456 | Unclear | new X reading |
+| 10.1002/bit.22488 | Unclear | new X reading |
+| 10.1002/bit.25915 | Unclear | new X reading |
+| 10.1002/bit.70193 | Unclear | new X reading |
+| 10.1002/bkcs.10186 | Unclear | new X reading |
+| 10.1002/bkcs.10194 | Out of scope | new X reading |
+| 10.1002/bkcs.10467 | Unclear | new X reading |
+| 10.1002/bkcs.12279 | Unclear | new X reading |
+| 10.1002/bkcs.12676 | Unclear | new X reading |
+| 10.1002/cam4.898 | Unclear | new X reading |
+| 10.1002/ces2.70024 | Unclear | saved replay |
+| 10.1002/cey2.70006 | Unclear | new X reading |
+| 10.1002/cjoc.201900517 | Unclear | new X reading |
+| 10.1002/cjoc.202000734 | Unclear | new X reading |
+| 10.1002/cjoc.202300595 | Unclear | new X reading |
+| 10.1002/cjoc.70311 | Unclear | new X reading |
+| 10.1002/clen.201000256 | Out of scope | saved replay |
+| 10.1002/clen.201400437 | Unclear | saved replay |
+| 10.1002/col.22432 | Unclear | new X reading |
+| 10.1002/crat.201100155 | Out of scope | new X reading |
+| 10.1002/crat.201100473 | Unclear | new X reading |
+| 10.1002/crat.201300395 | Out of scope | new X reading |
+| 10.1002/crat.201300403 | Out of scope | new X reading |
+| 10.1002/crat.202200261 | Out of scope | new X reading |
+| 10.1002/crat.202400051 | Out of scope | new X reading |
+| 10.1002/crat.202400196 | Unclear | new X reading |
+| 10.1002/crat.70125 | Unclear | new X reading |
+| 10.1002/cta.4280 | Unclear | new X reading |
+| 10.1002/ctpp.202200125 | Unclear | new X reading |
+| 10.1002/cyto.a.20677 | Unclear | new X reading |
+| 10.1002/cyto.a.20932 | Unclear | new X reading |
+| 10.1002/dvdy.21235 | Unclear | new X reading |
+| 10.1002/eem2.12066 | Unclear | new X reading |
+| 10.1002/eem2.12408 | Unclear | saved replay |
+| 10.1002/eem2.12790 | Unclear | new X reading |
+| 10.1002/eem2.70051 | Out of scope | new X reading |
+| 10.1002/eem2.70216 | Unclear | new X reading |
+| 10.1002/elan.12010 | Unclear | new X reading |
+| 10.1002/elan.201300508 | Unclear | new X reading |
+| 10.1002/elan.201400294 | Unclear | new X reading |
+| 10.1002/elan.201500490 | Unclear | new X reading |
+| 10.1002/elan.201800133 | Unclear | new X reading |
+| 10.1002/elps.201000683 | Unclear | new X reading |
+| 10.1002/elps.201200043 | Unclear | new X reading |
+| 10.1002/elps.201300088 | Unclear | new X reading |
+| 10.1002/elps.201300647 | Unclear | new X reading |
+| 10.1002/ep.13650 | Unclear | new X reading |
+| 10.1002/er.5385 | Unclear | new X reading |
+| 10.1002/er.6001 | Unclear | new X reading |
+| 10.1002/er.6213 | Unclear | new X reading |
+| 10.1002/er.6654 | Unclear | new X reading |
+| 10.1002/er.6821 | Unclear | new X reading |
+| 10.1002/er.7114 | Unclear | new X reading |
+| 10.1002/er.7214 | Unclear | new X reading |
+| 10.1002/er.7738 | Unclear | new X reading |
+| 10.1002/er.7776 | Unclear | new X reading |
+| 10.1002/ese3.165 | Unclear | new X reading |
+| 10.1002/est2.331 | Unclear | saved replay |
+| 10.1002/etc.1967 | Unclear | new X reading |
+| 10.1002/idm2.12241 | Unclear | new X reading |
+| 10.1002/ifm2.26 | Unclear | new X reading |
+| 10.1002/inf2.12497 | Unclear | saved replay |
+| 10.1002/j.2168-0159.2013.tb06180.x | Unclear | new X reading |
+| 10.1002/j.2168-0159.2014.tb00344.x | Unclear | new X reading |
+| 10.1002/jat.1745 | Unclear | new X reading |
+| 10.1002/jat.3944 | Unclear | new X reading |
+| 10.1002/jbio.201800367 | Unclear | new X reading |
+| 10.1002/jbio.70268 | Unclear | new X reading |
+| 10.1002/jbm.a.32821 | Unclear | new X reading |
+| 10.1002/jbm.a.34994 | Unclear | new X reading |
+| 10.1002/jbm.b.33376 | Unclear | new X reading |
+| 10.1002/jbm.b.34425 | Unclear | new X reading |
+| 10.1002/jcb.24111 | Unclear | new X reading |
+| 10.1002/jcc.23152 | Unclear | new X reading |
+| 10.1002/jccs.201800141 | Unclear | new X reading |
+| 10.1002/jccs.202400109 | Unclear | new X reading |
+| 10.1002/jcla.23752 | Thin | new X reading |
+| 10.1002/jcla.70177 | Unclear | new X reading |
+| 10.1002/jctb.2612 | Unclear | new X reading |
+| 10.1002/jctb.6453 | Out of scope | saved replay |
+| 10.1002/jctb.7299 | Unclear | new X reading |
+| 10.1002/jex2.70072 | Unclear | new X reading |
+| 10.1002/jnm.70076 | Out of scope | new X reading |
+| 10.1002/jpln.201400213 | Unclear | new X reading |
+| 10.1002/jrs.2623 | Out of scope | new X reading |
+| 10.1002/jrs.2835 | Unclear | new X reading |
+| 10.1002/jrs.4366 | Unclear | new X reading |
+| 10.1002/jrs.4382 | Out of scope | new X reading |
+| 10.1002/jrs.4832 | Unclear | new X reading |
+| 10.1002/jrs.5002 | Unclear | new X reading |
+| 10.1002/jsid.1253 | Out of scope | new X reading |
+| 10.1002/jsid.1296 | Unclear | new X reading |
+| 10.1002/jsid.2006 | Unclear | new X reading |
+| 10.1002/jsid.2027 | Unclear | new X reading |
+| 10.1002/jsid.2108 | Unclear | new X reading |
+| 10.1002/jsid.308 | Unclear | new X reading |
+| 10.1002/jsid.393 | Unclear | new X reading |
+| 10.1002/jsid.436 | Unclear | new X reading |
+| 10.1002/jsid.467 | Unclear | new X reading |
+| 10.1002/jsid.542 | Unclear | new X reading |
+| 10.1002/jsid.543 | Unclear | new X reading |
+| 10.1002/jsid.640 | Unclear | new X reading |
+| 10.1002/jsid.642 | Unclear | new X reading |
+| 10.1002/jsid.650 | Unclear | new X reading |
+| 10.1002/jsid.681 | Unclear | new X reading |
+| 10.1002/jsid.70055 | Unclear | new X reading |
+| 10.1002/jsid.70059 | Unclear | new X reading |
+| 10.1002/jsid.896 | Thin | new X reading |
+| 10.1002/jsid.948 | Unclear | new X reading |
+| 10.1002/lpor.201900348 | Unclear | new X reading |
+| 10.1002/lpor.202100059 | Unclear | new X reading |
+| 10.1002/lpor.202100585 | Unclear | new X reading |
+| 10.1002/lpor.202200979 | Out of scope | new X reading |
+| 10.1002/lpor.202400305 | Unclear | new X reading |
+| 10.1002/lpor.202400473 | Unclear | new X reading |
+| 10.1002/lpor.202400650 | Unclear | new X reading |
+| 10.1002/lpor.202402164 | Unclear | new X reading |
+| 10.1002/lpor.202500148 | Unclear | new X reading |
+| 10.1002/lpor.202500389 | Out of scope | new X reading |
+| 10.1002/lpor.202500574 | Out of scope | new X reading |
+| 10.1002/lpor.202500790 | Unclear | new X reading |
+| 10.1002/lpor.202501677 | Unclear | new X reading |
+| 10.1002/lpor.202502689 | Unclear | new X reading |
+| 10.1002/mabi.202500581 | Unclear | new X reading |
+| 10.1002/maco.201508272 | Unclear | new X reading |
+| 10.1002/marc.202200928 | Unclear | new X reading |
+| 10.1002/masy.201400183 | Out of scope | new X reading |
+| 10.1002/masy.201400185 | Unclear | new X reading |
+| 10.1002/masy.201900161 | Unclear | new X reading |
+| 10.1002/masy.202100060 | Out of scope | saved replay |
+| 10.1002/masy.202100162 | Unclear | new X reading |
+| 10.1002/masy.202100306 | Unclear | new X reading |
+| 10.1002/masy.202200209 | Unclear | new X reading |
+| 10.1002/masy.202200224 | Unclear | saved replay |
+| 10.1002/mawe.201100749 | Unclear | saved replay |
+| 10.1002/mgea.19 | Unclear | new X reading |
+| 10.1002/mop.28951 | Unclear | new X reading |
+| 10.1002/mop.32254 | Unclear | new X reading |
+| 10.1002/mp.16121 | Unclear | new X reading |
+| 10.1002/msid.1165 | Unclear | saved replay |
+| 10.1002/msid.1258 | Unclear | new X reading |
+| 10.1002/msid.1336 | Unclear | new X reading |
+| 10.1002/nano.202100340 | Unclear | new X reading |
+| 10.1002/nano.70112 | Unclear | new X reading |
+| 10.1002/pamm.201110180 | Unclear | new X reading |
+| 10.1002/pamm.201110190 | Unclear | new X reading |
+| 10.1002/pat.1657 | Unclear | new X reading |
+| 10.1002/pat.4948 | Unclear | new X reading |
+| 10.1002/pat.70235 | Unclear | saved replay |
+| 10.1002/pat.70403 | Unclear | new X reading |
+| 10.1002/pc.23712 | Unclear | new X reading |
+| 10.1002/pc.27985 | Thin | new X reading |
+| 10.1002/pip.1230 | Out of scope | new X reading |
+| 10.1002/pip.1250 | Unclear | new X reading |
+| 10.1002/pip.2161 | Unclear | new X reading |
+| 10.1002/pip.2200 | Unclear | new X reading |
+| 10.1002/pip.2378 | Out of scope | new X reading |
+| 10.1002/pip.2408 | Unclear | new X reading |
+| 10.1002/pip.2487 | Unclear | new X reading |
+| 10.1002/pip.2515 | Unclear | new X reading |
+| 10.1002/pip.2726 | Out of scope | new X reading |
+| 10.1002/pip.2920 | Unclear | saved replay |
+| 10.1002/pip.3110 | Unclear | new X reading |
+| 10.1002/pip.3256 | Unclear | new X reading |
+| 10.1002/pmic.201500375 | Unclear | new X reading |
+| 10.1002/pol.20250771 | Unclear | new X reading |
+| 10.1002/pola.25058 | Unclear | saved replay |
+| 10.1002/pola.26616 | Unclear | saved replay |
+| 10.1002/polb.22380 | Unclear | new X reading |
+| 10.1002/ppap.200600044 | Out of scope | new X reading |
+| 10.1002/ppap.201900212 | Unclear | new X reading |
+| 10.1002/ppap.202000002 | Unclear | new X reading |
+| 10.1002/ppap.202200129 | Out of scope | saved replay |
+| 10.1002/ppsc.201400205 | Unclear | new X reading |
+| 10.1002/ppsc.201500192 | Unclear | new X reading |
+| 10.1002/ppsc.201700304 | Unclear | new X reading |
+| 10.1002/ppsc.202200200 | Unclear | new X reading |
+| 10.1002/ppsc.202400114 | Unclear | new X reading |
+| 10.1002/ppsc.202500066 | Unclear | new X reading |
+| 10.1002/prep.200500002 | Unclear | new X reading |
+| 10.1002/prep.201000114 | Unclear | new X reading |
+| 10.1002/pssa.200303971 | Unclear | new X reading |
+| 10.1002/pssa.200306402 | Unclear | new X reading |
+| 10.1002/pssa.200561932 | Out of scope | new X reading |
+| 10.1002/pssa.200562029 | Unclear | new X reading |
+| 10.1002/pssa.200566113 | Unclear | new X reading |
+| 10.1002/pssa.200669522 | Unclear | new X reading |
+| 10.1002/pssa.200673956 | Unclear | new X reading |
+| 10.1002/pssa.200675678 | Out of scope | new X reading |
+| 10.1002/pssa.200780190 | Unclear | new X reading |
+| 10.1002/pssa.200824460 | Unclear | new X reading |
+| 10.1002/pssa.200879703 | Out of scope | new X reading |
+| 10.1002/pssa.201000943 | Out of scope | new X reading |
+| 10.1002/pssa.201026674 | Unclear | new X reading |
+| 10.1002/pssa.201100122 | Unclear | new X reading |
+| 10.1002/pssa.201200057 | Out of scope | new X reading |
+| 10.1002/pssa.201200806 | Unclear | new X reading |
+| 10.1002/pssa.201200961 | Out of scope | new X reading |
+| 10.1002/pssa.201228180 | Unclear | new X reading |
+| 10.1002/pssa.201300038 | Out of scope | new X reading |
+| 10.1002/pssa.201300130 | Out of scope | new X reading |
+| 10.1002/pssa.201329060 | Out of scope | saved replay |
+| 10.1002/pssa.201431177 | Unclear | new X reading |
+| 10.1002/pssa.201431261 | Unclear | new X reading |
+| 10.1002/pssa.201532500 | Out of scope | new X reading |
+| 10.1002/pssa.201532555 | Unclear | new X reading |
+| 10.1002/pssa.201532927 | Unclear | new X reading |
+| 10.1002/pssa.201532945 | Unclear | new X reading |
+| 10.1002/pssa.201600171 | Unclear | new X reading |
+| 10.1002/pssa.201600728 | Unclear | new X reading |
+| 10.1002/pssa.201670648 | Unclear | new X reading |
+| 10.1002/pssa.201700453 | Out of scope | new X reading |
+| 10.1002/pssa.201700455 | Out of scope | new X reading |
+| 10.1002/pssa.201700458 | Unclear | new X reading |
+| 10.1002/pssa.201700630 | Unclear | new X reading |
+| 10.1002/pssa.201800018 | Unclear | new X reading |
+| 10.1002/pssa.201800356 | Unclear | new X reading |
+| 10.1002/pssa.201800570 | Out of scope | new X reading |
+| 10.1002/pssa.201900233 | Out of scope | new X reading |
+| 10.1002/pssa.201900307 | Unclear | new X reading |
+| 10.1002/pssa.201900521 | Unclear | new X reading |
+| 10.1002/pssa.201900586 | Unclear | new X reading |
+| 10.1002/pssa.201900851 | Out of scope | new X reading |
+| 10.1002/pssa.202000015 | Out of scope | new X reading |
+| 10.1002/pssa.202100419 | Out of scope | new X reading |
+| 10.1002/pssa.202100453 | Out of scope | new X reading |
+| 10.1002/pssa.202300157 | Unclear | new X reading |
+| 10.1002/pssa.202300275 | Unclear | new X reading |
+| 10.1002/pssa.202300520 | Thin | new X reading |
+| 10.1002/pssa.202300662 | Out of scope | new X reading |
+| 10.1002/pssa.202300758 | Unclear | new X reading |
+| 10.1002/pssa.202400372 | Out of scope | new X reading |
+| 10.1002/pssa.202400516 | Out of scope | new X reading |
+| 10.1002/pssa.202400687 | Unclear | new X reading |
+| 10.1002/pssa.202400849 | Unclear | new X reading |
+| 10.1002/pssa.202500606 | Out of scope | new X reading |
+| 10.1002/pssa.202501005 | Unclear | new X reading |
+| 10.1002/pssa.202501035 | Out of scope | new X reading |
+| 10.1002/pssb.200301768 | Unclear | new X reading |
+| 10.1002/pssb.200303054 | Unclear | new X reading |
+| 10.1002/pssb.200303071 | Unclear | new X reading |
+| 10.1002/pssb.200309003 | Unclear | new X reading |
+| 10.1002/pssb.200402035 | Thin | new X reading |
+| 10.1002/pssb.200405235 | Unclear | new X reading |
+| 10.1002/pssb.200564714 | Out of scope | new X reading |
+| 10.1002/pssb.200642544 | Unclear | new X reading |
+| 10.1002/pssb.200669139 | Unclear | new X reading |
+| 10.1002/pssb.200671505 | Unclear | new X reading |
+| 10.1002/pssb.200671527 | Out of scope | new X reading |
+| 10.1002/pssb.200672511 | Out of scope | new X reading |
+| 10.1002/pssb.200777609 | Unclear | new X reading |
+| 10.1002/pssb.200880331 | Unclear | new X reading |
+| 10.1002/pssb.200880598 | Unclear | new X reading |
+| 10.1002/pssb.200880610 | Unclear | new X reading |
+| 10.1002/pssb.200880619 | Unclear | new X reading |
+| 10.1002/pssb.200880639 | Unclear | new X reading |
+| 10.1002/pssb.200983268 | Unclear | new X reading |
+| 10.1002/pssb.200983275 | Out of scope | new X reading |
+| 10.1002/pssb.201000816 | Unclear | new X reading |
+| 10.1002/pssb.201046112 | Unclear | new X reading |
+| 10.1002/pssb.201046404 | Unclear | new X reading |
+| 10.1002/pssb.201100119 | Out of scope | new X reading |
+| 10.1002/pssb.201100189 | Unclear | new X reading |
+| 10.1002/pssb.201100417 | Unclear | new X reading |
+| 10.1002/pssb.201100783 | Unclear | new X reading |
+| 10.1002/pssb.201147445 | Unclear | new X reading |
+| 10.1002/pssb.201200004 | Unclear | new X reading |
+| 10.1002/pssb.201200461 | Out of scope | new X reading |
+| 10.1002/pssb.201200725 | Unclear | new X reading |
+| 10.1002/pssb.201248153 | Unclear | new X reading |
+| 10.1002/pssb.201248449 | Unclear | new X reading |
+| 10.1002/pssb.201248573 | Out of scope | new X reading |
+| 10.1002/pssb.201350066 | Unclear | new X reading |
+| 10.1002/pssb.201350097 | Unclear | new X reading |
+| 10.1002/pssb.201350266 | Unclear | new X reading |
+| 10.1002/pssb.201400026 | Unclear | new X reading |
+| 10.1002/pssb.201451078 | Unclear | new X reading |
+| 10.1002/pssb.201451103 | Unclear | new X reading |
+| 10.1002/pssb.201451177 | Out of scope | new X reading |
+| 10.1002/pssb.201552591 | Unclear | new X reading |
+| 10.1002/pssb.201600070 | Out of scope | new X reading |
+| 10.1002/pssb.201600206 | Unclear | new X reading |
+| 10.1002/pssb.201600293 | Unclear | new X reading |
+| 10.1002/pssb.201600490 | Out of scope | new X reading |
+| 10.1002/pssb.201600546 | Unclear | new X reading |
+| 10.1002/pssb.201800231 | Unclear | new X reading |
+| 10.1002/pssb.201800361 | Unclear | new X reading |
+| 10.1002/pssb.201800492 | Unclear | new X reading |
+| 10.1002/pssb.201800526 | Unclear | new X reading |
+| 10.1002/pssb.201800530 | Unclear | new X reading |
+| 10.1002/pssb.201800532 | Out of scope | new X reading |
+| 10.1002/pssb.201800629 | Unclear | new X reading |
+| 10.1002/pssb.201900067 | Out of scope | new X reading |
+| 10.1002/pssb.202000312 | Unclear | new X reading |
+| 10.1002/pssb.202100090 | Unclear | new X reading |
+| 10.1002/pssb.202100570 | Unclear | new X reading |
+| 10.1002/pssb.202200216 | Unclear | new X reading |
+| 10.1002/pssb.202200608 | Unclear | new X reading |
+| 10.1002/pssb.202300266 | Unclear | new X reading |
+| 10.1002/pssb.202300281 | Unclear | new X reading |
+| 10.1002/pssb.202300310 | Unclear | new X reading |
+| 10.1002/pssb.202300395 | Unclear | new X reading |
+| 10.1002/pssb.202300589 | Unclear | new X reading |
+| 10.1002/pssb.202400503 | Unclear | new X reading |
+| 10.1002/pssb.202500010 | Unclear | new X reading |
+| 10.1002/pssb.202500011 | Unclear | new X reading |
+| 10.1002/pssb.202500204 | Unclear | new X reading |
+| 10.1002/pssb.202500226 | Unclear | new X reading |
+| 10.1002/pssb.2221590115 | Unclear | new X reading |
+| 10.1002/pssb.70221 | Unclear | new X reading |
+| 10.1002/pssb.70254 | Unclear | new X reading |
+| 10.1002/pssc.200303080 | Unclear | new X reading |
+| 10.1002/pssc.200303092 | Unclear | new X reading |
+| 10.1002/pssc.200303096 | Out of scope | new X reading |
+| 10.1002/pssc.200460180 | Unclear | new X reading |
+| 10.1002/pssc.200460465 | Unclear | new X reading |
+| 10.1002/pssc.200460655 | Unclear | new X reading |
+| 10.1002/pssc.200460710 | Unclear | new X reading |
+| 10.1002/pssc.200562027 | Out of scope | new X reading |
+| 10.1002/pssc.200562032 | Unclear | new X reading |
+| 10.1002/pssc.200564141 | Out of scope | new X reading |
+| 10.1002/pssc.200564142 | Unclear | new X reading |
+| 10.1002/pssc.200564157 | Out of scope | new X reading |
+| 10.1002/pssc.200564602 | Out of scope | new X reading |
+| 10.1002/pssc.200564632 | Unclear | new X reading |
+| 10.1002/pssc.200671522 | Unclear | new X reading |
+| 10.1002/pssc.200671541 | Unclear | new X reading |
+| 10.1002/pssc.200671548 | Unclear | new X reading |
+| 10.1002/pssc.200671555 | Unclear | new X reading |
+| 10.1002/pssc.200671572 | Unclear | new X reading |
+| 10.1002/pssc.200671593 | Unclear | new X reading |
+| 10.1002/pssc.200671596 | Unclear | new X reading |
+| 10.1002/pssc.200671611 | Unclear | new X reading |
+| 10.1002/pssc.200671621 | Out of scope | new X reading |
+| 10.1002/pssc.200672839 | Unclear | new X reading |
+| 10.1002/pssc.200672874 | Unclear | new X reading |
+| 10.1002/pssc.200777605 | Unclear | new X reading |
+| 10.1002/pssc.200779229 | Unclear | new X reading |
+| 10.1002/pssc.200779283 | Unclear | new X reading |
+| 10.1002/pssc.200879812 | Unclear | new X reading |
+| 10.1002/pssc.200880641 | Unclear | new X reading |
+| 10.1002/pssc.200880661 | Unclear | new X reading |
+| 10.1002/pssc.200880951 | Out of scope | new X reading |
+| 10.1002/pssc.200881521 | Out of scope | new X reading |
+| 10.1002/pssc.200982522 | Out of scope | new X reading |
+| 10.1002/pssc.200982714 | Unclear | new X reading |
+| 10.1002/pssc.201000403 | Out of scope | new X reading |
+| 10.1002/pssc.201000519 | Out of scope | new X reading |
+| 10.1002/pssc.201000547 | Unclear | new X reading |
+| 10.1002/pssc.201000585 | Unclear | new X reading |
+| 10.1002/pssc.201000590 | Unclear | new X reading |
+| 10.1002/pssc.201000644 | Out of scope | new X reading |
+| 10.1002/pssc.201000677 | Unclear | new X reading |
+| 10.1002/pssc.201000820 | Unclear | new X reading |
+| 10.1002/pssc.201000824 | Unclear | new X reading |
+| 10.1002/pssc.201000828 | Out of scope | new X reading |
+| 10.1002/pssc.201000854 | Unclear | new X reading |
+| 10.1002/pssc.201083999 | Unclear | new X reading |
+| 10.1002/pssc.201084081 | Unclear | new X reading |
+| 10.1002/pssc.201084091 | Out of scope | new X reading |
+| 10.1002/pssc.201084124 | Unclear | new X reading |
+| 10.1002/pssc.201084134 | Out of scope | new X reading |
+| 10.1002/pssc.201084146 | Unclear | new X reading |
+| 10.1002/pssc.201100043 | Out of scope | new X reading |
+| 10.1002/pssc.201100101 | Unclear | new X reading |
+| 10.1002/pssc.201100107 | Unclear | new X reading |
+| 10.1002/pssc.201100185 | Unclear | new X reading |
+| 10.1002/pssc.201100252 | Out of scope | new X reading |
+| 10.1002/pssc.201100266 | Out of scope | new X reading |
+| 10.1002/pssc.201100333 | Out of scope | new X reading |
+| 10.1002/pssc.201100340 | Unclear | new X reading |
+| 10.1002/pssc.201100386 | Unclear | new X reading |
+| 10.1002/pssc.201100568 | Unclear | new X reading |
+| 10.1002/pssc.201100603 | Out of scope | new X reading |
+| 10.1002/pssc.201100620 | Unclear | new X reading |
+| 10.1002/pssc.201147260 | Unclear | new X reading |
+| 10.1002/pssc.201200001 | Out of scope | new X reading |
+| 10.1002/pssc.201200020 | Unclear | new X reading |
+| 10.1002/pssc.201200189 | Unclear | new X reading |
+| 10.1002/pssc.201200551 | Unclear | new X reading |
+| 10.1002/pssc.201200577 | Unclear | new X reading |
+| 10.1002/pssc.201200623 | Out of scope | new X reading |
+| 10.1002/pssc.201200675 | Unclear | new X reading |
+| 10.1002/pssc.201200689 | Unclear | new X reading |
+| 10.1002/pssc.201300229 | Out of scope | new X reading |
+| 10.1002/pssc.201300248 | Out of scope | new X reading |
+| 10.1002/pssc.201300271 | Out of scope | new X reading |
+| 10.1002/pssc.201300447 | Unclear | new X reading |
+| 10.1002/pssc.201300627 | Out of scope | new X reading |
+| 10.1002/pssc.201300708 | Unclear | new X reading |
+| 10.1002/pssc.201300737 | Out of scope | new X reading |
+| 10.1002/pssc.201510152 | Unclear | new X reading |
+| 10.1002/pssc.201510199 | Out of scope | new X reading |
+| 10.1002/pssc.201510248 | Out of scope | new X reading |
+| 10.1002/pssc.201510253 | Unclear | new X reading |
+| 10.1002/pssc.201510285 | Unclear | new X reading |
+| 10.1002/pssc.201510302 | Unclear | new X reading |
+| 10.1002/pssc.201600206 | Unclear | new X reading |
+| 10.1002/pssc.201700187 | Unclear | new X reading |
+| 10.1002/pssr.200701198 | Out of scope | new X reading |
+| 10.1002/pssr.201206450 | Unclear | new X reading |
+| 10.1002/pssr.201206518 | Out of scope | new X reading |
+| 10.1002/pssr.201307152 | Unclear | new X reading |
+| 10.1002/pssr.201308188 | Unclear | new X reading |
+| 10.1002/pssr.201409064 | Unclear | new X reading |
+| 10.1002/pssr.201409235 | Unclear | new X reading |
+| 10.1002/pssr.201409392 | Out of scope | new X reading |
+| 10.1002/pssr.201600226 | Unclear | new X reading |
+| 10.1002/pssr.201800245 | Unclear | new X reading |
+| 10.1002/pssr.202000083 | Unclear | new X reading |
+| 10.1002/pssr.202000115 | Unclear | new X reading |
+| 10.1002/pssr.202100003 | Unclear | new X reading |
+| 10.1002/pssr.202500467 | Unclear | new X reading |
+| 10.1002/pts.70038 | Unclear | new X reading |
+| 10.1002/qua.22461 | Unclear | new X reading |
+| 10.1002/qua.22818 | Unclear | new X reading |
+| 10.1002/qua.23179 | Unclear | new X reading |
+| 10.1002/qua.23196 | Unclear | new X reading |
+| 10.1002/qua.24202 | Unclear | new X reading |
+| 10.1002/qua.24291 | Unclear | new X reading |
+| 10.1002/qua.24692 | Unclear | new X reading |
+| 10.1002/qua.25882 | Unclear | new X reading |
+| 10.1002/qua.26186 | Unclear | new X reading |
+| 10.1002/qua.26518 | Unclear | new X reading |
+| 10.1002/qua.26786 | Unclear | new X reading |
+| 10.1002/qua.26955 | Unclear | new X reading |
+| 10.1002/qua.27071 | Unclear | new X reading |
+| 10.1002/qute.201700006 | Unclear | new X reading |
+| 10.1002/qute.201900048 | Unclear | new X reading |
+| 10.1002/qute.201900071 | Unclear | new X reading |
+| 10.1002/qute.202100104 | Unclear | new X reading |
+| 10.1002/qute.202300227 | Unclear | new X reading |
+| 10.1002/qute.202400011 | Unclear | new X reading |
+| 10.1002/qute.202400311 | Unclear | new X reading |
+| 10.1002/qute.202500069 | Out of scope | new X reading |
+| 10.1002/qute.202500182 | Unclear | new X reading |
+| 10.1002/qute.202500534 | Unclear | new X reading |
+| 10.1002/qute.70318 | Unclear | new X reading |
+| 10.1002/rar2.70067 | Unclear | new X reading |
+| 10.1002/rar2.70210 | Unclear | new X reading |
+| 10.1002/sdtp.10013 | Unclear | new X reading |
+| 10.1002/sdtp.10461 | Unclear | new X reading |
+| 10.1002/sdtp.10463 | Unclear | new X reading |
+| 10.1002/sdtp.10675 | Unclear | new X reading |
+| 10.1002/sdtp.10699 | Unclear | new X reading |
+| 10.1002/sdtp.10948 | Unclear | new X reading |
+| 10.1002/sdtp.10950 | Unclear | new X reading |
+| 10.1002/sdtp.10978 | Out of scope | new X reading |
+| 10.1002/sdtp.11557 | Unclear | new X reading |
+| 10.1002/sdtp.11583 | Unclear | new X reading |
+| 10.1002/sdtp.11599 | Unclear | new X reading |
+| 10.1002/sdtp.11987 | Unclear | new X reading |
+| 10.1002/sdtp.11991 | Unclear | new X reading |
+| 10.1002/sdtp.11993 | Unclear | new X reading |
+| 10.1002/sdtp.11994 | Unclear | new X reading |
+| 10.1002/sdtp.12203 | Unclear | new X reading |
+| 10.1002/sdtp.12207 | Unclear | new X reading |
+| 10.1002/sdtp.12292 | Unclear | new X reading |
+| 10.1002/sdtp.12293 | Unclear | new X reading |
+| 10.1002/sdtp.12296 | Unclear | new X reading |
+| 10.1002/sdtp.12297 | Unclear | new X reading |
+| 10.1002/sdtp.12299 | Unclear | new X reading |
+| 10.1002/sdtp.12301 | Unclear | new X reading |
+| 10.1002/sdtp.12452 | Unclear | new X reading |
+| 10.1002/sdtp.12484 | Unclear | new X reading |
+| 10.1002/sdtp.12704 | Unclear | new X reading |
+| 10.1002/sdtp.12813 | Unclear | new X reading |
+| 10.1002/sdtp.12849 | Unclear | new X reading |
+| 10.1002/sdtp.13136 | Unclear | new X reading |
+| 10.1002/sdtp.13137 | Unclear | new X reading |
+| 10.1002/sdtp.13271 | Unclear | new X reading |
+| 10.1002/sdtp.13273 | Unclear | new X reading |
+| 10.1002/sdtp.13284 | Unclear | new X reading |
+| 10.1002/sdtp.13977 | Unclear | new X reading |
+| 10.1002/sdtp.13978 | Unclear | new X reading |
+| 10.1002/sdtp.14008 | Unclear | new X reading |
+| 10.1002/sdtp.14059 | Unclear | new X reading |
+| 10.1002/sdtp.14846 | Unclear | new X reading |
+| 10.1002/sdtp.14854 | Unclear | saved replay |
+| 10.1002/sdtp.14942 | Unclear | new X reading |
+| 10.1002/sdtp.15144 | Unclear | new X reading |
+| 10.1002/sdtp.15420 | Unclear | new X reading |
+| 10.1002/sdtp.16283 | Unclear | new X reading |
+| 10.1002/sdtp.16706 | Unclear | saved replay |
+| 10.1002/sdtp.16730 | Unclear | saved replay |
+| 10.1002/sdtp.16732 | Unclear | new X reading |
+| 10.1002/sdtp.16760 | Unclear | saved replay |
+| 10.1002/sdtp.16793 | Unclear | new X reading |
+| 10.1002/sdtp.16797 | Unclear | new X reading |
+| 10.1002/sdtp.17156 | Unclear | new X reading |
+| 10.1002/sdtp.17501 | Unclear | new X reading |
+| 10.1002/sdtp.18280 | Unclear | saved replay |
+| 10.1002/sdtp.19124 | Unclear | new X reading |
+| 10.1002/sia.3790 | Unclear | new X reading |
+| 10.1002/sia.3799 | Unclear | new X reading |
+| 10.1002/sia.5018 | Unclear | new X reading |
+| 10.1002/sia.5365 | Out of scope | new X reading |
+| 10.1002/sia.5525 | Out of scope | new X reading |
+| 10.1002/sia.5628 | Unclear | new X reading |
+| 10.1002/smll.200400074 | Unclear | new X reading |
+| 10.1002/smll.200500329 | Unclear | new X reading |
+| 10.1002/smll.201000713 | Unclear | new X reading |
+| 10.1002/smll.201201740 | Unclear | new X reading |
+| 10.1002/smll.201400939 | Unclear | new X reading |
+| 10.1002/smll.202400380 | Unclear | saved replay |
+| 10.1002/smll.202401307 | Out of scope | saved replay |
+| 10.1002/smll.202401423 | Unclear | new X reading |
+| 10.1002/smll.202402613 | Unclear | new X reading |
+| 10.1002/smll.202403325 | Unclear | new X reading |
+| 10.1002/smll.202404384 | Unclear | new X reading |
+| 10.1002/smll.202404984 | Unclear | new X reading |
+| 10.1002/smll.202405704 | Out of scope | new X reading |
+| 10.1002/smll.202406197 | Out of scope | new X reading |
+| 10.1002/smll.202406569 | Unclear | new X reading |
+| 10.1002/smll.202408993 | Thin | saved replay |
+| 10.1002/smll.202409901 | Unclear | new X reading |
+| 10.1002/smll.202500418 | Unclear | new X reading |
+| 10.1002/smll.202500848 | Unclear | new X reading |
+| 10.1002/smll.202501159 | Unclear | new X reading |
+| 10.1002/smll.202501547 | Unclear | new X reading |
+| 10.1002/smll.202503311 | Unclear | saved replay |
+| 10.1002/smll.202504008 | Unclear | new X reading |
+| 10.1002/smll.202504531 | Unclear | new X reading |
+| 10.1002/smll.202504662 | Unclear | new X reading |
+| 10.1002/smll.202504757 | Unclear | new X reading |
+| 10.1002/smll.202510535 | Unclear | new X reading |
+| 10.1002/smll.202511556 | Unclear | saved replay |
+| 10.1002/smll.202512375 | Unclear | new X reading |
+| 10.1002/smll.202512701 | Thin | new X reading |
+| 10.1002/smll.202600011 | Unclear | new X reading |
+| 10.1002/smll.74063 | Unclear | new X reading |
+| 10.1002/smll.74279 | Unclear | new X reading |
+| 10.1002/smll.74347 | Unclear | new X reading |
+| 10.1002/smll.74432 | Unclear | new X reading |
+| 10.1002/smll.74791 | Unclear | new X reading |
+| 10.1002/smll.74950 | Unclear | new X reading |
+| 10.1002/smm2.1022 | Out of scope | new X reading |
+| 10.1002/smsc.202400300 | Unclear | new X reading |
+| 10.1002/smtd.202402074 | Unclear | new X reading |
+| 10.1002/smtd.202501636 | Unclear | new X reading |
+| 10.1002/smtd.202502163 | Unclear | new X reading |
+| 10.1002/solr.201700176 | Unclear | new X reading |
+| 10.1002/solr.201900117 | Unclear | new X reading |
+| 10.1002/solr.201900167 | Unclear | new X reading |
+| 10.1002/solr.201900365 | Unclear | new X reading |
+| 10.1002/solr.202000218 | Unclear | new X reading |
+| 10.1002/solr.202000417 | Unclear | new X reading |
+| 10.1002/solr.202000474 | Unclear | new X reading |
+| 10.1002/solr.202201119 | Unclear | saved replay |
+| 10.1002/solr.202300013 | Unclear | new X reading |
+| 10.1002/solr.202300293 | Unclear | new X reading |
+| 10.1002/srin.201700263 | Unclear | new X reading |
+| 10.1002/sus2.144 | Unclear | new X reading |
+| 10.1002/sys.21655 | Unclear | new X reading |
+| 10.1002/tcr.202000090 | Unclear | new X reading |
+| 10.1002/vjch.201800035 | Unclear | new X reading |
+| 10.1002/vjch.70165 | Unclear | new X reading |
+| 10.1002/wer.10997 | Unclear | saved replay |
+| 10.1002/wnan.1191 | Unclear | new X reading |
+| 10.1002/wnan.1345 | Unclear | new X reading |
+| 10.1002/wnan.1507 | Unclear | new X reading |
+| 10.1002/zaac.201009047 | Unclear | new X reading |
+| 10.1002/zaac.202000033 | Unclear | new X reading |
+| 10.1007/s00044-018-2173-1 | Unclear | new X reading |
+| 10.1007/s00109-007-0274-2 | Unclear | new X reading |
+| 10.1007/s00170-016-8866-z | Out of scope | new X reading |
+| 10.1007/s00170-018-2920-y | Unclear | new X reading |
+| 10.1007/s00170-022-09082-7 | Unclear | new X reading |
+| 10.1007/s00170-022-10003-x | Out of scope | new X reading |
+| 10.1007/s00216-003-1760-1 | Unclear | new X reading |
+| 10.1007/s00216-007-1609-0 | Unclear | new X reading |
+| 10.1007/s00216-008-2189-3 | Unclear | new X reading |
+| 10.1007/s00216-009-3433-1 | Unclear | new X reading |
+| 10.1007/s00216-010-4624-5 | Unclear | new X reading |
+| 10.1007/s00216-011-4700-5 | Unclear | saved replay |
+| 10.1007/s00216-011-4827-4 | Unclear | new X reading |
+| 10.1007/s00216-013-6876-3 | Unclear | new X reading |
+| 10.1007/s00216-013-7165-x | Unclear | new X reading |
+| 10.1007/s00216-015-8892-y | Unclear | new X reading |
+| 10.1007/s00216-016-9485-0 | Unclear | new X reading |
+| 10.1007/s00216-017-0481-9 | Unclear | new X reading |
+| 10.1007/s00216-017-0756-1 | Unclear | new X reading |
+| 10.1007/s00216-018-1404-0 | Unclear | new X reading |
+| 10.1007/s00216-019-01652-1 | Unclear | new X reading |
+| 10.1007/s00216-019-02046-z | Unclear | new X reading |
+| 10.1007/s00216-019-02058-9 | Unclear | new X reading |
+| 10.1007/s00216-020-02422-0 | Unclear | new X reading |
+| 10.1007/s00216-020-02840-0 | Unclear | new X reading |
+| 10.1007/s00216-020-02897-x | Unclear | new X reading |
+| 10.1007/s00216-020-03061-1 | Unclear | new X reading |
+| 10.1007/s00216-021-03395-4 | Unclear | new X reading |
+| 10.1007/s00216-021-03812-8 | Out of scope | new X reading |
+| 10.1007/s00216-021-03850-2 | Unclear | new X reading |
+| 10.1007/s00216-024-05310-z | Out of scope | new X reading |
+| 10.1007/s00216-025-06086-6 | Unclear | new X reading |
+| 10.1007/s00216-026-06700-1 | Unclear | new X reading |
+| 10.1007/s00249-015-1088-8 | Unclear | new X reading |
+| 10.1007/s00253-012-4233-7 | Unclear | new X reading |
+| 10.1007/s00253-023-12509-0 | Unclear | new X reading |
+| 10.1007/s00253-024-13125-2 | Unclear | new X reading |
+| 10.1007/s00284-013-0379-5 | Unclear | new X reading |
+| 10.1007/s00284-023-03286-0 | Unclear | saved replay |
+| 10.1007/s00284-023-03577-6 | Unclear | new X reading |
+| 10.1007/s00289-017-2020-4 | Unclear | saved replay |
+| 10.1007/s00289-018-2611-8 | Unclear | new X reading |
+| 10.1007/s00289-018-2628-z | Unclear | new X reading |
+| 10.1007/s00289-021-03572-6 | Unclear | new X reading |
+| 10.1007/s00289-022-04591-7 | Out of scope | saved replay |
+| 10.1007/s00289-025-05805-4 | Unclear | new X reading |
+| 10.1007/s00339-010-6162-6 | Unclear | new X reading |
+| 10.1007/s00339-011-6263-x | Out of scope | saved replay |
+| 10.1007/s00339-012-6852-3 | Out of scope | new X reading |
+| 10.1007/s00339-012-6948-9 | Out of scope | new X reading |
+| 10.1007/s00339-012-6974-7 | Unclear | new X reading |
+| 10.1007/s00339-012-6983-6 | Unclear | new X reading |
+| 10.1007/s00339-012-6993-4 | Out of scope | new X reading |
+| 10.1007/s00339-012-7289-4 | Unclear | new X reading |
+| 10.1007/s00339-012-7531-0 | Unclear | saved replay |
+| 10.1007/s00339-013-7582-x | Unclear | new X reading |
+| 10.1007/s00339-013-7762-8 | Unclear | new X reading |
+| 10.1007/s00339-013-7826-9 | Unclear | new X reading |
+| 10.1007/s00339-013-8181-6 | Unclear | new X reading |
+| 10.1007/s00339-014-8235-4 | Unclear | new X reading |
+| 10.1007/s00339-014-8296-4 | Unclear | new X reading |
+| 10.1007/s00339-014-8465-5 | Out of scope | new X reading |
+| 10.1007/s00339-014-8481-5 | Out of scope | new X reading |
+| 10.1007/s00339-014-8708-5 | Unclear | new X reading |
+| 10.1007/s00339-014-8823-3 | Out of scope | new X reading |
+| 10.1007/s00339-014-8854-9 | Out of scope | new X reading |
+| 10.1007/s00339-014-8921-2 | Unclear | new X reading |
+| 10.1007/s00339-015-9293-y | Unclear | new X reading |
+| 10.1007/s00339-015-9304-z | Unclear | new X reading |
+| 10.1007/s00339-015-9336-4 | Unclear | new X reading |
+| 10.1007/s00339-015-9343-5 | Out of scope | new X reading |
+| 10.1007/s00339-015-9572-7 | Unclear | new X reading |
+| 10.1007/s00339-016-0140-6 | Unclear | new X reading |
+| 10.1007/s00339-017-1223-8 | Unclear | new X reading |
+| 10.1007/s00339-017-1237-2 | Out of scope | new X reading |
+| 10.1007/s00339-017-1302-x | Out of scope | new X reading |
+| 10.1007/s00339-017-1325-3 | Unclear | saved replay |
+| 10.1007/s00339-017-1442-z | Unclear | new X reading |
+| 10.1007/s00339-017-1493-1 | Out of scope | new X reading |
+| 10.1007/s00339-018-1622-5 | Unclear | new X reading |
+| 10.1007/s00339-018-1661-y | Unclear | new X reading |
+| 10.1007/s00339-018-1717-z | Out of scope | saved replay |
+| 10.1007/s00339-018-1856-2 | Unclear | new X reading |
+| 10.1007/s00339-018-1953-2 | Unclear | new X reading |
+| 10.1007/s00339-018-1963-0 | Unclear | new X reading |
+| 10.1007/s00339-018-2078-3 | Unclear | saved replay |
+| 10.1007/s00339-018-2105-4 | Out of scope | new X reading |
+| 10.1007/s00339-018-2150-z | Out of scope | new X reading |
+| 10.1007/s00339-018-2258-1 | Unclear | new X reading |
+| 10.1007/s00339-018-2306-x | Unclear | new X reading |
+| 10.1007/s00339-018-2350-6 | Out of scope | new X reading |
+| 10.1007/s00339-019-2797-0 | Unclear | new X reading |
+| 10.1007/s00339-019-2875-3 | Unclear | new X reading |
+| 10.1007/s00339-019-3000-3 | Unclear | new X reading |
+| 10.1007/s00339-019-3050-6 | Unclear | new X reading |
+| 10.1007/s00339-019-3051-5 | Unclear | new X reading |
+| 10.1007/s00339-020-03596-1 | Unclear | new X reading |
+| 10.1007/s00339-020-03714-z | Unclear | new X reading |
+| 10.1007/s00339-020-03737-6 | Unclear | saved replay |
+| 10.1007/s00339-020-03738-5 | Out of scope | new X reading |
+| 10.1007/s00339-020-04035-x | Unclear | new X reading |
+| 10.1007/s00339-021-04291-5 | Unclear | new X reading |
+| 10.1007/s00339-021-04311-4 | Unclear | new X reading |
+| 10.1007/s00339-021-04410-2 | Unclear | new X reading |
+| 10.1007/s00339-021-04483-z | Unclear | new X reading |
+| 10.1007/s00339-021-04485-x | Unclear | new X reading |
+| 10.1007/s00339-021-04549-y | Out of scope | new X reading |
+| 10.1007/s00339-021-04643-1 | Unclear | new X reading |
+| 10.1007/s00339-021-04686-4 | Out of scope | new X reading |
+| 10.1007/s00339-021-05055-x | Unclear | new X reading |
+| 10.1007/s00339-021-05186-1 | Out of scope | new X reading |
+| 10.1007/s00339-021-05225-x | Unclear | new X reading |
+| 10.1007/s00339-022-05295-5 | Unclear | new X reading |
+| 10.1007/s00339-022-05352-z | Unclear | new X reading |
+| 10.1007/s00339-022-05356-9 | Unclear | new X reading |
+| 10.1007/s00339-022-05601-1 | Unclear | new X reading |
+| 10.1007/s00339-022-05653-3 | Out of scope | new X reading |
+| 10.1007/s00339-022-05656-0 | Unclear | new X reading |
+| 10.1007/s00339-022-05659-x | Unclear | new X reading |
+| 10.1007/s00339-022-06055-1 | Unclear | new X reading |
+| 10.1007/s00339-022-06110-x | Unclear | saved replay |
+| 10.1007/s00339-022-06145-0 | Unclear | new X reading |
+| 10.1007/s00339-022-06330-1 | Unclear | new X reading |
+| 10.1007/s00339-023-06472-w | Unclear | new X reading |
+| 10.1007/s00339-023-06833-5 | Unclear | new X reading |
+| 10.1007/s00339-023-06886-6 | Out of scope | new X reading |
+| 10.1007/s00339-023-07027-9 | Unclear | new X reading |
+| 10.1007/s00339-023-07064-4 | Unclear | new X reading |
+| 10.1007/s00339-023-07073-3 | Unclear | saved replay |
+| 10.1007/s00339-024-07423-9 | Unclear | new X reading |
+| 10.1007/s00339-024-07491-x | Unclear | new X reading |
+| 10.1007/s00339-024-07506-7 | Unclear | new X reading |
+| 10.1007/s00339-024-07927-4 | Unclear | new X reading |
+| 10.1007/s00339-025-08246-y | Unclear | new X reading |
+| 10.1007/s00339-025-08411-3 | Unclear | new X reading |
+| 10.1007/s00339-025-08418-w | Unclear | new X reading |
+| 10.1007/s00339-025-08462-6 | Unclear | new X reading |
+| 10.1007/s00339-025-08637-1 | Unclear | new X reading |
+| 10.1007/s00339-026-09489-z | Unclear | new X reading |
+| 10.1007/s00339-026-09787-6 | Unclear | new X reading |
+| 10.1007/s003390100668 | Unclear | new X reading |
+| 10.1007/s003390201298 | Unclear | new X reading |
+| 10.1007/s00340-007-2636-4 | Out of scope | new X reading |
+| 10.1007/s00340-008-3113-4 | Unclear | new X reading |
+| 10.1007/s00340-008-3267-0 | Unclear | new X reading |
+| 10.1007/s00340-008-3319-5 | Unclear | new X reading |
+| 10.1007/s00340-009-3378-2 | Unclear | new X reading |
+| 10.1007/s00340-010-4290-5 | Out of scope | new X reading |
+| 10.1007/s00340-013-5375-8 | Unclear | new X reading |
+| 10.1007/s00340-013-5516-0 | Unclear | new X reading |
+| 10.1007/s00340-015-6052-x | Unclear | new X reading |
+| 10.1007/s00340-015-6119-8 | Unclear | new X reading |
+| 10.1007/s00340-015-6283-x | Unclear | new X reading |
+| 10.1007/s00340-017-6723-x | Unclear | new X reading |
+| 10.1007/s00340-018-7012-z | Unclear | new X reading |
+| 10.1007/s00340-020-7416-4 | Unclear | new X reading |
+| 10.1007/s00340-022-07829-4 | Unclear | new X reading |
+| 10.1007/s00340-022-07963-z | Unclear | new X reading |
+| 10.1007/s00340-023-08130-8 | Unclear | new X reading |
+| 10.1007/s00340-023-08158-w | Unclear | saved replay |
+| 10.1007/s00340-024-08291-0 | Unclear | new X reading |
+| 10.1007/s00396-014-3327-4 | Unclear | new X reading |
+| 10.1007/s00396-018-4422-8 | Unclear | new X reading |
+| 10.1007/s00396-021-04888-5 | Unclear | new X reading |
+| 10.1007/s00412-007-0136-2 | Unclear | new X reading |
+| 10.1007/s00418-011-0892-1 | Unclear | new X reading |
+| 10.1007/s00542-016-3116-8 | Unclear | new X reading |
+| 10.1007/s00542-026-06121-1 | Unclear | new X reading |
+| 10.1007/s00601-011-0234-9 | Unclear | new X reading |
+| 10.1007/s00601-014-0819-1 | Unclear | new X reading |
+| 10.1007/s00601-015-0992-x | Unclear | new X reading |
+| 10.1007/s00601-016-1138-5 | Unclear | new X reading |
+| 10.1007/s00601-017-1287-1 | Unclear | new X reading |
+| 10.1007/s00604-014-1217-6 | Thin | new X reading |
+| 10.1007/s00604-014-1264-z | Unclear | new X reading |
+| 10.1007/s00604-015-1463-2 | Unclear | new X reading |
+| 10.1007/s00604-015-1543-3 | Unclear | new X reading |
+| 10.1007/s00604-015-1685-3 | Unclear | new X reading |
+| 10.1007/s00604-015-1695-1 | Unclear | new X reading |
+| 10.1007/s00604-016-1822-7 | Unclear | new X reading |
+| 10.1007/s00604-016-1909-1 | Unclear | saved replay |
+| 10.1007/s00604-017-2165-8 | Unclear | saved replay |
+| 10.1007/s00604-017-2300-6 | Unclear | new X reading |
+| 10.1007/s00604-017-2412-z | Unclear | new X reading |
+| 10.1007/s00604-017-2506-7 | Unclear | new X reading |
+| 10.1007/s00604-017-2557-9 | Unclear | new X reading |
+| 10.1007/s00604-017-2598-0 | Unclear | new X reading |
+| 10.1007/s00604-017-2614-4 | Unclear | new X reading |
+| 10.1007/s00604-017-2653-x | Unclear | new X reading |
+| 10.1007/s00604-018-2668-y | Unclear | new X reading |
+| 10.1007/s00604-018-2800-z | Unclear | new X reading |
+| 10.1007/s00604-018-2883-6 | Unclear | new X reading |
+| 10.1007/s00604-018-2952-x | Thin | new X reading |
+| 10.1007/s00604-018-3218-3 | Unclear | new X reading |
+| 10.1007/s00604-019-3228-9 | Unclear | new X reading |
+| 10.1007/s00604-019-3336-6 | Unclear | new X reading |
+| 10.1007/s00604-019-3515-5 | Thin | new X reading |
+| 10.1007/s00604-019-3856-0 | Unclear | new X reading |
+| 10.1007/s00604-019-3864-0 | Unclear | new X reading |
+| 10.1007/s00604-019-3879-6 | Unclear | new X reading |
+| 10.1007/s00604-019-3914-7 | Unclear | new X reading |
+| 10.1007/s00604-019-3956-x | Unclear | new X reading |
+| 10.1007/s00604-019-3964-x | Unclear | new X reading |
+| 10.1007/s00604-020-04359-8 | Unclear | new X reading |
+| 10.1007/s00604-020-04467-5 | Unclear | new X reading |
+| 10.1007/s00604-020-04484-4 | Unclear | new X reading |
+| 10.1007/s00604-020-04502-5 | Unclear | new X reading |
+| 10.1007/s00604-020-04546-7 | Unclear | new X reading |
+| 10.1007/s00604-020-04616-w | Unclear | new X reading |
+| 10.1007/s00604-020-04684-y | Unclear | new X reading |
+| 10.1007/s00604-021-04779-0 | Unclear | new X reading |
+| 10.1007/s00604-021-04886-y | Unclear | new X reading |
+| 10.1007/s00604-021-04936-5 | Unclear | new X reading |
+| 10.1007/s00604-021-05064-w | Unclear | new X reading |
+| 10.1007/s00604-022-05289-3 | Unclear | new X reading |
+| 10.1007/s00604-023-05718-x | Unclear | new X reading |
+| 10.1007/s00604-023-05797-w | Unclear | new X reading |
+| 10.1007/s00604-023-05815-x | Unclear | new X reading |
+| 10.1007/s00604-023-05841-9 | Unclear | new X reading |
+| 10.1007/s00604-023-05913-w | Unclear | new X reading |
+| 10.1007/s00604-024-06348-7 | Unclear | new X reading |
+| 10.1007/s00604-024-06364-7 | Unclear | new X reading |
+| 10.1007/s00604-024-06611-x | Unclear | new X reading |
+| 10.1007/s00604-024-06764-9 | Unclear | new X reading |
+| 10.1007/s00604-025-07004-4 | Unclear | new X reading |
+| 10.1007/s00604-025-07050-y | Thin | new X reading |
+| 10.1007/s00604-025-07092-2 | Unclear | new X reading |
+| 10.1007/s00604-025-07182-1 | Unclear | new X reading |
+| 10.1007/s00604-025-07416-2 | Unclear | new X reading |
+| 10.1007/s00705-015-2508-x | Unclear | new X reading |
+| 10.1007/s00706-016-1901-9 | Unclear | new X reading |
+| 10.1007/s00706-017-2038-1 | Unclear | new X reading |
+| 10.1007/s00707-023-03721-0 | Unclear | new X reading |
+| 10.1007/s00894-017-3295-y | Unclear | new X reading |
+| 10.1007/s00894-019-4041-4 | Unclear | new X reading |
+| 10.1007/s00894-019-4177-2 | Unclear | new X reading |
+| 10.1007/s00894-021-04711-6 | Unclear | new X reading |
+| 10.1007/s00894-022-05320-7 | Unclear | new X reading |
+| 10.1007/s00894-026-06657-z | Unclear | new X reading |
+| 10.1007/s10008-011-1522-5 | Out of scope | new X reading |
+| 10.1007/s10008-011-1628-9 | Unclear | new X reading |
+| 10.1007/s10008-012-1669-8 | Unclear | new X reading |
+| 10.1007/s10008-014-2385-3 | Unclear | new X reading |
+| 10.1007/s10008-014-2488-x | Out of scope | new X reading |
+| 10.1007/s10008-016-3367-4 | Unclear | new X reading |
+| 10.1007/s10008-016-3438-6 | Out of scope | new X reading |
+| 10.1007/s10008-017-3766-1 | Unclear | new X reading |
+| 10.1007/s10008-018-3982-3 | Unclear | new X reading |
+| 10.1007/s10008-018-4133-6 | Unclear | new X reading |
+| 10.1007/s10008-019-04280-y | Out of scope | new X reading |
+| 10.1007/s10008-019-04365-8 | Unclear | new X reading |
+| 10.1007/s10008-019-04420-4 | Unclear | new X reading |
+| 10.1007/s10008-019-04484-2 | Out of scope | new X reading |
+| 10.1007/s10008-020-04806-9 | Unclear | new X reading |
+| 10.1007/s10008-021-04969-z | Unclear | new X reading |
+| 10.1007/s10008-022-05135-9 | Out of scope | new X reading |
+| 10.1007/s10008-025-06407-w | Unclear | new X reading |
+| 10.1007/s10043-022-00761-0 | Unclear | new X reading |
+| 10.1007/s10043-022-00785-6 | Unclear | new X reading |
+| 10.1007/s10068-020-00812-9 | Unclear | new X reading |
+| 10.1007/s10333-018-0651-1 | Unclear | new X reading |
+| 10.1007/s10338-026-00777-y | Unclear | new X reading |
+| 10.1007/s10404-017-1906-7 | Unclear | new X reading |
+| 10.1007/s10409-022-22470-x | Unclear | new X reading |
+| 10.1007/s10470-015-0673-1 | Unclear | new X reading |
+| 10.1007/s10529-010-0379-5 | Unclear | new X reading |
+| 10.1007/s10534-019-00213-4 | Unclear | new X reading |
+| 10.1007/s10553-026-02080-5 | Unclear | saved replay |
+| 10.1007/s10562-012-0838-9 | Out of scope | saved replay |
+| 10.1007/s10562-023-04533-6 | Unclear | new X reading |
+| 10.1007/s10570-011-9619-7 | Unclear | saved replay |
+| 10.1007/s10570-016-0988-9 | Unclear | saved replay |
+| 10.1007/s10570-018-1807-2 | Unclear | new X reading |
+| 10.1007/s10570-019-02476-z | Unclear | new X reading |
+| 10.1007/s10570-019-02846-7 | Unclear | saved replay |
+| 10.1007/s10570-019-02926-8 | Unclear | saved replay |
+| 10.1007/s10570-020-02973-6 | Out of scope | new X reading |
+| 10.1007/s10570-020-03198-3 | Unclear | saved replay |
+| 10.1007/s10646-012-1028-7 | Unclear | new X reading |
+| 10.1007/s10665-012-9574-9 | Unclear | new X reading |
+| 10.1007/s10717-025-00742-0 | Unclear | saved replay |
+| 10.1007/s10735-012-9424-0 | Unclear | new X reading |
+| 10.1007/s10735-020-09954-w | Unclear | new X reading |
+| 10.1007/s10765-012-1181-5 | Unclear | new X reading |
+| 10.1007/s10765-013-1394-2 | Unclear | saved replay |
+| 10.1007/s10765-015-1872-9 | Unclear | saved replay |
+| 10.1007/s10765-016-2065-x | Unclear | saved replay |
+| 10.1007/s10765-016-2143-0 | Unclear | saved replay |
+| 10.1007/s10773-010-0663-0 | Unclear | new X reading |
+| 10.1007/s10773-011-0835-6 | Unclear | new X reading |
+| 10.1007/s10773-011-0955-z | Unclear | new X reading |
+| 10.1007/s10773-012-1296-2 | Unclear | new X reading |
+| 10.1007/s10773-013-1748-3 | Unclear | new X reading |
+| 10.1007/s10773-014-2465-2 | Unclear | new X reading |
+| 10.1007/s10773-014-2488-8 | Unclear | new X reading |
+| 10.1007/s10773-015-2550-1 | Unclear | new X reading |
+| 10.1007/s10773-015-2908-4 | Unclear | new X reading |
+| 10.1007/s10773-016-2926-x | Unclear | new X reading |
+| 10.1007/s10773-016-2939-5 | Unclear | new X reading |
+| 10.1007/s10773-016-3032-9 | Unclear | new X reading |
+| 10.1007/s10773-016-3227-0 | Unclear | new X reading |
+| 10.1007/s10773-017-3313-y | Unclear | new X reading |
+| 10.1007/s10773-017-3536-y | Unclear | new X reading |
+| 10.1007/s10773-017-3589-y | Unclear | new X reading |
+| 10.1007/s10773-019-04241-1 | Unclear | new X reading |
+| 10.1007/s10773-019-04366-3 | Unclear | new X reading |
+| 10.1007/s10773-020-04449-6 | Unclear | new X reading |
+| 10.1007/s10773-020-04635-6 | Unclear | new X reading |
+| 10.1007/s10773-022-04978-2 | Unclear | new X reading |
+| 10.1007/s10773-022-05070-5 | Unclear | new X reading |
+| 10.1007/s10773-022-05239-y | Unclear | new X reading |
+| 10.1007/s10773-025-05915-9 | Unclear | new X reading |
+| 10.1007/s10773-025-06026-1 | Unclear | new X reading |
+| 10.1007/s10773-025-06156-6 | Unclear | new X reading |
+| 10.1007/s10800-010-0205-8 | Out of scope | new X reading |
+| 10.1007/s10800-014-0700-4 | Out of scope | new X reading |
+| 10.1007/s10800-016-0972-y | Out of scope | new X reading |
+| 10.1007/s10800-017-1138-2 | Unclear | new X reading |
+| 10.1007/s10800-021-01562-0 | Unclear | new X reading |
+| 10.1007/s10800-021-01564-y | Out of scope | new X reading |
+| 10.1007/s10800-025-02361-7 | Out of scope | new X reading |
+| 10.1007/s10812-023-01553-3 | Unclear | new X reading |
+| 10.1007/s10812-025-02002-z | Unclear | new X reading |
+| 10.1007/s10825-013-0471-x | Unclear | new X reading |
+| 10.1007/s10825-014-0631-7 | Unclear | new X reading |
+| 10.1007/s10825-015-0729-6 | Unclear | new X reading |
+| 10.1007/s10825-016-0856-8 | Unclear | new X reading |
+| 10.1007/s10825-016-0888-0 | Unclear | new X reading |
+| 10.1007/s10825-018-1206-9 | Unclear | new X reading |
+| 10.1007/s10825-020-01577-4 | Unclear | new X reading |
+| 10.1007/s10825-021-01675-x | Unclear | new X reading |
+| 10.1007/s10825-021-01771-y | Unclear | new X reading |
+| 10.1007/s10825-022-01956-z | Unclear | new X reading |
+| 10.1007/s10825-023-02015-x | Unclear | new X reading |
+| 10.1007/s10825-024-02174-5 | Unclear | new X reading |
+| 10.1007/s10825-026-02533-4 | Unclear | new X reading |
+| 10.1007/s10832-014-9892-6 | Unclear | saved replay |
+| 10.1007/s10832-020-00220-9 | Out of scope | new X reading |
+| 10.1007/s10832-021-00232-z | Out of scope | new X reading |
+| 10.1007/s10832-023-00305-1 | Out of scope | saved replay |
+| 10.1007/s10832-025-00454-5 | Out of scope | new X reading |
+| 10.1007/s10853-008-2870-0 | Unclear | new X reading |
+| 10.1007/s10853-010-4333-7 | Unclear | new X reading |
+| 10.1007/s10853-010-4744-5 | Unclear | new X reading |
+| 10.1007/s10853-010-5218-5 | Unclear | saved replay |
+| 10.1007/s10853-011-5731-1 | Out of scope | new X reading |
+| 10.1007/s10853-011-5751-x | Unclear | new X reading |
+| 10.1007/s10853-011-5950-5 | Out of scope | saved replay |
+| 10.1007/s10853-011-5972-z | Unclear | new X reading |
+| 10.1007/s10853-012-6579-8 | Unclear | new X reading |
+| 10.1007/s10853-012-6932-y | Unclear | saved replay |
+| 10.1007/s10853-012-6959-0 | Out of scope | new X reading |
+| 10.1007/s10853-013-7875-7 | Out of scope | new X reading |
+| 10.1007/s10853-014-8413-y | Unclear | saved replay |
+| 10.1007/s10853-014-8637-x | Unclear | new X reading |
+| 10.1007/s10853-015-8867-6 | Unclear | saved replay |
+| 10.1007/s10853-016-0094-2 | Unclear | saved replay |
+| 10.1007/s10853-016-0700-3 | Unclear | new X reading |
+| 10.1007/s10853-016-9967-7 | Unclear | new X reading |
+| 10.1007/s10853-017-0778-2 | Unclear | saved replay |
+| 10.1007/s10853-017-1557-9 | Unclear | new X reading |
+| 10.1007/s10853-017-1764-4 | Unclear | new X reading |
+| 10.1007/s10853-017-1933-5 | Unclear | new X reading |
+| 10.1007/s10853-018-03203-y | Unclear | new X reading |
+| 10.1007/s10853-018-2001-5 | Unclear | new X reading |
+| 10.1007/s10853-019-03382-2 | Unclear | new X reading |
+| 10.1007/s10853-019-04194-0 | Unclear | new X reading |
+| 10.1007/s10853-020-04534-5 | Unclear | new X reading |
+| 10.1007/s10853-020-05369-w | Unclear | new X reading |
+| 10.1007/s10853-020-05544-z | Unclear | new X reading |
+| 10.1007/s10853-021-05861-x | Unclear | new X reading |
+| 10.1007/s10853-021-05898-y | Unclear | new X reading |
+| 10.1007/s10853-021-06833-x | Out of scope | new X reading |
+| 10.1007/s10853-022-07509-w | Out of scope | new X reading |
+| 10.1007/s10853-022-07877-3 | Unclear | new X reading |
+| 10.1007/s10853-023-08340-7 | Unclear | new X reading |
+| 10.1007/s10853-023-08609-x | Out of scope | new X reading |
+| 10.1007/s10853-023-08978-3 | Unclear | new X reading |
+| 10.1007/s10853-024-09354-5 | Unclear | new X reading |
+| 10.1007/s10853-024-09433-7 | Unclear | new X reading |
+| 10.1007/s10853-024-09622-4 | Unclear | saved replay |
+| 10.1007/s10853-024-09694-2 | Unclear | new X reading |
+| 10.1007/s10853-026-12668-1 | Unclear | new X reading |
+| 10.1007/s10853-026-13066-3 | Unclear | new X reading |
+| 10.1007/s10854-007-9168-x | Unclear | new X reading |
+| 10.1007/s10854-007-9202-z | Unclear | new X reading |
+| 10.1007/s10854-011-0331-z | Out of scope | new X reading |
+| 10.1007/s10854-011-0332-y | Unclear | new X reading |
+| 10.1007/s10854-011-0403-0 | Out of scope | new X reading |
+| 10.1007/s10854-011-0474-y | Unclear | new X reading |
+| 10.1007/s10854-011-0498-3 | Unclear | new X reading |
+| 10.1007/s10854-012-0670-4 | Out of scope | new X reading |
+| 10.1007/s10854-013-1148-8 | Unclear | new X reading |
+| 10.1007/s10854-013-1205-3 | Unclear | new X reading |
+| 10.1007/s10854-013-1278-z | Out of scope | new X reading |
+| 10.1007/s10854-013-1411-z | Out of scope | new X reading |
+| 10.1007/s10854-013-1641-0 | Unclear | new X reading |
+| 10.1007/s10854-013-1642-z | Unclear | new X reading |
+| 10.1007/s10854-014-1935-x | Unclear | new X reading |
+| 10.1007/s10854-014-1970-7 | Unclear | new X reading |
+| 10.1007/s10854-014-1976-1 | Out of scope | new X reading |
+| 10.1007/s10854-014-1980-5 | Unclear | new X reading |
+| 10.1007/s10854-014-2176-8 | Out of scope | saved replay |
+| 10.1007/s10854-014-2179-5 | Unclear | new X reading |
+| 10.1007/s10854-014-2268-5 | Unclear | new X reading |
+| 10.1007/s10854-014-2607-6 | Unclear | saved replay |
+| 10.1007/s10854-014-2660-1 | Out of scope | new X reading |
+| 10.1007/s10854-015-3095-z | Unclear | new X reading |
+| 10.1007/s10854-015-3141-x | Unclear | saved replay |
+| 10.1007/s10854-015-3368-6 | Out of scope | new X reading |
+| 10.1007/s10854-015-3402-8 | Unclear | new X reading |
+| 10.1007/s10854-015-3717-5 | Out of scope | saved replay |
+| 10.1007/s10854-015-4162-1 | Unclear | new X reading |
+| 10.1007/s10854-015-4182-x | Unclear | new X reading |
+| 10.1007/s10854-015-4223-5 | Unclear | new X reading |
+| 10.1007/s10854-015-4243-1 | Unclear | saved replay |
+| 10.1007/s10854-016-4313-z | Unclear | new X reading |
+| 10.1007/s10854-016-4347-2 | Unclear | saved replay |
+| 10.1007/s10854-016-5080-6 | Unclear | new X reading |
+| 10.1007/s10854-016-5155-4 | Unclear | saved replay |
+| 10.1007/s10854-016-5182-1 | Unclear | saved replay |
+| 10.1007/s10854-016-5203-0 | Out of scope | new X reading |
+| 10.1007/s10854-016-5305-8 | Out of scope | saved replay |
+| 10.1007/s10854-016-5318-3 | Unclear | saved replay |
+| 10.1007/s10854-016-5324-5 | Out of scope | new X reading |
+| 10.1007/s10854-016-5663-2 | Unclear | new X reading |
+| 10.1007/s10854-016-6043-7 | Unclear | new X reading |
+| 10.1007/s10854-016-6289-0 | Unclear | saved replay |
+| 10.1007/s10854-017-6563-9 | Unclear | saved replay |
+| 10.1007/s10854-017-6825-6 | Unclear | new X reading |
+| 10.1007/s10854-017-6829-2 | Unclear | new X reading |
+| 10.1007/s10854-017-7018-z | Out of scope | saved replay |
+| 10.1007/s10854-017-7071-7 | Unclear | new X reading |
+| 10.1007/s10854-017-7263-1 | Unclear | new X reading |
+| 10.1007/s10854-017-7300-0 | Unclear | saved replay |
+| 10.1007/s10854-017-8407-z | Unclear | new X reading |
+| 10.1007/s10854-017-8485-y | Unclear | saved replay |
+| 10.1007/s10854-018-0484-0 | Unclear | new X reading |
+| 10.1007/s10854-018-8538-x | Out of scope | new X reading |
+| 10.1007/s10854-018-8613-3 | Unclear | saved replay |
+| 10.1007/s10854-018-8721-0 | Unclear | new X reading |
+| 10.1007/s10854-018-8897-3 | Unclear | new X reading |
+| 10.1007/s10854-018-9077-1 | Unclear | new X reading |
+| 10.1007/s10854-018-9616-9 | Unclear | new X reading |
+| 10.1007/s10854-018-9650-7 | Unclear | new X reading |
+| 10.1007/s10854-018-9845-y | Unclear | saved replay |
+| 10.1007/s10854-019-01734-x | Out of scope | new X reading |
+| 10.1007/s10854-019-02572-7 | Unclear | new X reading |
+| 10.1007/s10854-019-02608-y | Unclear | new X reading |
+| 10.1007/s10854-020-02916-8 | Out of scope | new X reading |
+| 10.1007/s10854-020-03233-w | Out of scope | new X reading |
+| 10.1007/s10854-020-03323-9 | Unclear | new X reading |
+| 10.1007/s10854-020-03834-5 | Out of scope | saved replay |
+| 10.1007/s10854-020-04211-y | Unclear | new X reading |
+| 10.1007/s10854-020-04234-5 | Out of scope | new X reading |
+| 10.1007/s10854-020-04361-z | Unclear | new X reading |
+| 10.1007/s10854-020-04362-y | Out of scope | new X reading |
+| 10.1007/s10854-020-04562-6 | Unclear | new X reading |
+| 10.1007/s10854-020-04563-5 | Out of scope | new X reading |
+| 10.1007/s10854-020-04693-w | Unclear | new X reading |
+| 10.1007/s10854-020-04808-3 | Out of scope | new X reading |
+| 10.1007/s10854-020-04837-y | Unclear | new X reading |
+| 10.1007/s10854-020-05020-z | Unclear | new X reading |
+| 10.1007/s10854-020-05034-7 | Out of scope | new X reading |
+| 10.1007/s10854-020-05159-9 | Unclear | new X reading |
+| 10.1007/s10854-021-05407-6 | Unclear | new X reading |
+| 10.1007/s10854-021-05762-4 | Out of scope | new X reading |
+| 10.1007/s10854-021-06004-3 | Out of scope | saved replay |
+| 10.1007/s10854-021-06044-9 | Out of scope | saved replay |
+| 10.1007/s10854-021-06061-8 | Out of scope | new X reading |
+| 10.1007/s10854-021-06303-9 | Out of scope | new X reading |
+| 10.1007/s10854-021-06571-5 | Unclear | new X reading |
+| 10.1007/s10854-021-06606-x | Unclear | new X reading |
+| 10.1007/s10854-021-06795-5 | Unclear | new X reading |
+| 10.1007/s10854-021-07089-6 | Out of scope | new X reading |
+| 10.1007/s10854-021-07342-y | Unclear | new X reading |
+| 10.1007/s10854-022-07739-3 | Unclear | new X reading |
+| 10.1007/s10854-022-08049-4 | Out of scope | new X reading |
+| 10.1007/s10854-022-08132-w | Unclear | new X reading |
+| 10.1007/s10854-022-08514-0 | Unclear | saved replay |
+| 10.1007/s10854-022-09010-1 | Unclear | new X reading |
+| 10.1007/s10854-022-09213-6 | Unclear | new X reading |
+| 10.1007/s10854-022-09273-8 | Unclear | new X reading |
+| 10.1007/s10854-022-09314-2 | Unclear | new X reading |
+| 10.1007/s10854-022-09330-2 | Unclear | new X reading |
+| 10.1007/s10854-022-09397-x | Out of scope | saved replay |
+| 10.1007/s10854-022-09764-8 | Unclear | new X reading |
+| 10.1007/s10854-022-09793-3 | Unclear | new X reading |
+| 10.1007/s10854-023-09990-8 | Unclear | new X reading |
+| 10.1007/s10854-023-10346-5 | Out of scope | new X reading |
+| 10.1007/s10854-023-10375-0 | Unclear | saved replay |
+| 10.1007/s10854-023-10499-3 | Out of scope | saved replay |
+| 10.1007/s10854-023-10505-8 | Out of scope | new X reading |
+| 10.1007/s10854-023-10816-w | Unclear | new X reading |
+| 10.1007/s10854-023-10845-5 | Unclear | new X reading |
+| 10.1007/s10854-023-11063-9 | Out of scope | saved replay |
+| 10.1007/s10854-023-11208-w | Unclear | new X reading |
+| 10.1007/s10854-023-11306-9 | Unclear | new X reading |
+| 10.1007/s10854-023-11456-w | Unclear | new X reading |
+| 10.1007/s10854-023-11598-x | Unclear | new X reading |
+| 10.1007/s10854-023-11607-z | Unclear | new X reading |
+| 10.1007/s10854-023-11790-z | Out of scope | new X reading |
+| 10.1007/s10854-024-12012-w | Unclear | new X reading |
+| 10.1007/s10854-024-12047-z | Out of scope | new X reading |
+| 10.1007/s10854-024-12594-5 | Unclear | new X reading |
+| 10.1007/s10854-024-12600-w | Unclear | new X reading |
+| 10.1007/s10854-024-13998-z | Unclear | new X reading |
+| 10.1007/s10854-024-14080-4 | Unclear | new X reading |
+| 10.1007/s10854-024-14085-z | Out of scope | new X reading |
+| 10.1007/s10854-025-14246-8 | Unclear | new X reading |
+| 10.1007/s10854-025-14529-0 | Unclear | new X reading |
+| 10.1007/s10854-025-14681-7 | Unclear | new X reading |
+| 10.1007/s10854-025-14779-y | Unclear | new X reading |
+| 10.1007/s10854-025-14899-5 | Unclear | new X reading |
+| 10.1007/s10854-025-14914-9 | Unclear | saved replay |
+| 10.1007/s10854-025-14924-7 | Unclear | new X reading |
+| 10.1007/s10854-025-15238-4 | Unclear | new X reading |
+| 10.1007/s10854-025-15469-5 | Unclear | new X reading |
+| 10.1007/s10854-025-15554-9 | Unclear | new X reading |
+| 10.1007/s10854-025-15735-6 | Out of scope | new X reading |
+| 10.1007/s10854-025-15766-z | Unclear | new X reading |
+| 10.1007/s10854-025-16258-w | Unclear | new X reading |
+| 10.1007/s10854-025-16276-8 | Unclear | new X reading |
+| 10.1007/s10854-026-16568-7 | Out of scope | saved replay |
+| 10.1007/s10854-026-16587-4 | Unclear | new X reading |
+| 10.1007/s10854-026-16623-3 | Unclear | saved replay |
+| 10.1007/s10854-026-17849-x | Unclear | saved replay |
+| 10.1007/s10854-026-17885-7 | Unclear | saved replay |
+| 10.1007/s10856-013-4938-x | Unclear | new X reading |
+| 10.1007/s10858-005-0527-8 | Unclear | new X reading |
+| 10.1007/s10876-019-01611-x | Unclear | saved replay |
+| 10.1007/s10876-021-01998-6 | Unclear | new X reading |
+| 10.1007/s10876-023-02516-6 | Out of scope | saved replay |
+| 10.1007/s10895-007-0158-4 | Unclear | new X reading |
+| 10.1007/s10895-007-0163-7 | Unclear | new X reading |
+| 10.1007/s10895-008-0429-8 | Unclear | new X reading |
+| 10.1007/s10895-010-0740-z | Unclear | saved replay |
+| 10.1007/s10895-011-1004-2 | Unclear | new X reading |
+| 10.1007/s10895-013-1212-z | Unclear | new X reading |
+| 10.1007/s10895-015-1630-1 | Unclear | new X reading |
+| 10.1007/s10895-015-1716-9 | Unclear | new X reading |
+| 10.1007/s10895-016-1996-8 | Unclear | new X reading |
+| 10.1007/s10895-017-2158-3 | Unclear | new X reading |
+| 10.1007/s10895-018-2247-y | Unclear | new X reading |
+| 10.1007/s10895-020-02507-0 | Out of scope | saved replay |
+| 10.1007/s10895-020-02660-6 | Unclear | new X reading |
+| 10.1007/s10895-021-02863-5 | Unclear | new X reading |
+| 10.1007/s10895-023-03316-x | Unclear | new X reading |
+| 10.1007/s10895-023-03420-y | Unclear | new X reading |
+| 10.1007/s10895-024-03760-3 | Unclear | saved replay |
+| 10.1007/s10895-024-04049-1 | Unclear | new X reading |
+| 10.1007/s10895-025-04163-8 | Unclear | new X reading |
+| 10.1007/s10895-025-04238-6 | Out of scope | new X reading |
+| 10.1007/s10895-025-04266-2 | Unclear | new X reading |
+| 10.1007/s10895-025-04526-1 | Unclear | new X reading |
+| 10.1007/s10895-025-04616-0 | Unclear | new X reading |
+| 10.1007/s10895-026-04764-x | Unclear | new X reading |
+| 10.1007/s10904-011-9498-2 | Unclear | saved replay |
+| 10.1007/s10904-012-9772-y | Unclear | new X reading |
+| 10.1007/s10904-015-0321-3 | Unclear | saved replay |
+| 10.1007/s10904-020-01631-5 | Unclear | new X reading |
+| 10.1007/s10904-021-02022-0 | Unclear | saved replay |
+| 10.1007/s10904-023-02798-3 | Unclear | new X reading |
+| 10.1007/s10904-023-02801-x | Unclear | saved replay |
+| 10.1007/s10904-024-03547-w | Out of scope | new X reading |
+| 10.1007/s10909-010-0164-9 | Unclear | new X reading |
+| 10.1007/s10909-010-0180-9 | Unclear | new X reading |
+| 10.1007/s10909-010-0186-3 | Unclear | new X reading |
+| 10.1007/s10909-010-0281-5 | Unclear | new X reading |
+| 10.1007/s10909-011-0377-6 | Unclear | new X reading |
+| 10.1007/s10909-011-0383-8 | Unclear | new X reading |
+| 10.1007/s10909-011-0389-2 | Unclear | new X reading |
+| 10.1007/s10909-011-0438-x | Unclear | new X reading |
+| 10.1007/s10909-012-0613-8 | Unclear | new X reading |
+| 10.1007/s10909-012-0658-8 | Unclear | new X reading |
+| 10.1007/s10909-012-0672-x | Unclear | new X reading |
+| 10.1007/s10909-012-0706-4 | Unclear | new X reading |
+| 10.1007/s10909-012-0848-4 | Unclear | new X reading |
+| 10.1007/s10909-013-0863-0 | Unclear | new X reading |
+| 10.1007/s10909-013-0876-8 | Unclear | new X reading |
+| 10.1007/s10909-013-0904-8 | Unclear | new X reading |
+| 10.1007/s10909-013-0976-5 | Unclear | new X reading |
+| 10.1007/s10909-013-1007-2 | Unclear | new X reading |
+| 10.1007/s10909-013-1035-y | Unclear | new X reading |
+| 10.1007/s10909-013-1036-x | Unclear | new X reading |
+| 10.1007/s10909-014-1163-z | Unclear | new X reading |
+| 10.1007/s10909-014-1169-6 | Unclear | new X reading |
+| 10.1007/s10909-014-1181-x | Unclear | new X reading |
+| 10.1007/s10909-014-1186-5 | Unclear | new X reading |
+| 10.1007/s10909-014-1195-4 | Unclear | new X reading |
+| 10.1007/s10909-014-1205-6 | Unclear | new X reading |
+| 10.1007/s10909-014-1222-5 | Unclear | new X reading |
+| 10.1007/s10909-015-1281-2 | Unclear | new X reading |
+| 10.1007/s10909-015-1315-9 | Unclear | new X reading |
+| 10.1007/s10909-015-1323-9 | Unclear | new X reading |
+| 10.1007/s10909-016-1663-0 | Unclear | new X reading |
+| 10.1007/s10909-016-1688-4 | Unclear | new X reading |
+| 10.1007/s10909-017-1812-0 | Unclear | new X reading |
+| 10.1007/s10909-017-1831-x | Unclear | new X reading |
+| 10.1007/s10909-018-2092-z | Unclear | new X reading |
+| 10.1007/s10909-019-02218-2 | Unclear | new X reading |
+| 10.1007/s10909-020-02477-4 | Unclear | new X reading |
+| 10.1007/s10909-020-02550-y | Unclear | new X reading |
+| 10.1007/s10909-021-02576-w | Unclear | new X reading |
+| 10.1007/s10909-021-02593-9 | Unclear | new X reading |
+| 10.1007/s10909-021-02612-9 | Unclear | new X reading |
+| 10.1007/s10909-021-02621-8 | Unclear | new X reading |
+| 10.1007/s10909-022-02699-8 | Unclear | new X reading |
+| 10.1007/s10909-022-02762-4 | Unclear | new X reading |
+| 10.1007/s10909-023-02941-x | Unclear | new X reading |
+| 10.1007/s10909-023-02982-2 | Unclear | new X reading |
+| 10.1007/s10909-023-03003-y | Unclear | new X reading |
+| 10.1007/s10909-023-03010-z | Unclear | new X reading |
+| 10.1007/s10909-024-03047-8 | Unclear | new X reading |
+| 10.1007/s10909-024-03222-x | Unclear | new X reading |
+| 10.1007/s10909-024-03245-4 | Unclear | new X reading |
+| 10.1007/s10909-025-03299-y | Out of scope | new X reading |
+| 10.1007/s10909-025-03315-1 | Unclear | new X reading |
+| 10.1007/s10910-013-0183-2 | Unclear | new X reading |
+| 10.1007/s10934-016-0291-z | Unclear | saved replay |
+| 10.1007/s10934-025-01813-x | Unclear | saved replay |
+| 10.1007/s10946-021-09989-8 | Unclear | new X reading |
+| 10.1007/s10946-024-10222-5 | Out of scope | new X reading |
+| 10.1007/s10946-025-10258-1 | Out of scope | new X reading |
+| 10.1007/s10948-010-0791-z | Unclear | new X reading |
+| 10.1007/s10948-011-1237-y | Out of scope | new X reading |
+| 10.1007/s10948-011-1244-z | Unclear | new X reading |
+| 10.1007/s10948-011-1247-9 | Unclear | new X reading |
+| 10.1007/s10948-012-1430-7 | Unclear | new X reading |
+| 10.1007/s10948-012-1783-y | Unclear | saved replay |
+| 10.1007/s10948-013-2285-2 | Unclear | new X reading |
+| 10.1007/s10948-013-2470-3 | Unclear | new X reading |
+| 10.1007/s10948-014-2615-z | Unclear | saved replay |
+| 10.1007/s10948-014-2654-5 | Unclear | new X reading |
+| 10.1007/s10948-015-3059-9 | Unclear | new X reading |
+| 10.1007/s10948-015-3066-x | Unclear | new X reading |
+| 10.1007/s10948-015-3069-7 | Out of scope | new X reading |
+| 10.1007/s10948-015-3162-y | Unclear | saved replay |
+| 10.1007/s10948-016-3757-y | Unclear | new X reading |
+| 10.1007/s10948-016-3874-7 | Unclear | new X reading |
+| 10.1007/s10948-017-4278-z | Unclear | saved replay |
+| 10.1007/s10948-019-05236-z | Unclear | new X reading |
+| 10.1007/s10948-020-05653-5 | Out of scope | new X reading |
+| 10.1007/s10948-020-05714-9 | Unclear | new X reading |
+| 10.1007/s10948-020-05755-0 | Unclear | new X reading |
+| 10.1007/s10948-021-05828-8 | Unclear | new X reading |
+| 10.1007/s10948-021-06002-w | Unclear | new X reading |
+| 10.1007/s10948-021-06005-7 | Unclear | new X reading |
+| 10.1007/s10948-021-06013-7 | Out of scope | new X reading |
+| 10.1007/s10948-021-06141-0 | Unclear | new X reading |
+| 10.1007/s10948-022-06223-7 | Unclear | saved replay |
+| 10.1007/s10948-022-06281-x | Out of scope | new X reading |
+| 10.1007/s10948-022-06488-y | Unclear | new X reading |
+| 10.1007/s10948-023-06526-3 | Unclear | new X reading |
+| 10.1007/s10948-023-06616-2 | Unclear | new X reading |
+| 10.1007/s10948-024-06753-2 | Unclear | saved replay |
+| 10.1007/s10948-024-06781-y | Unclear | new X reading |
+| 10.1007/s10948-024-06789-4 | Unclear | new X reading |
+| 10.1007/s10948-024-06837-z | Unclear | new X reading |
+| 10.1007/s10948-025-06921-y | Unclear | new X reading |
+| 10.1007/s10948-026-07145-4 | Unclear | new X reading |
+| 10.1007/s10965-015-0712-8 | Unclear | saved replay |
+| 10.1007/s10965-021-02523-z | Unclear | new X reading |
+| 10.1007/s10965-021-02713-9 | Unclear | saved replay |
+| 10.1007/s10965-021-02716-6 | Unclear | new X reading |
+| 10.1007/s10967-017-5630-2 | Unclear | new X reading |
+| 10.1007/s10967-022-08437-4 | Unclear | new X reading |
+| 10.1007/s10967-023-09077-y | Unclear | new X reading |
+| 10.1007/s10971-011-2474-z | Out of scope | saved replay |
+| 10.1007/s10971-011-2522-8 | Out of scope | saved replay |
+| 10.1007/s10971-012-2907-3 | Unclear | saved replay |
+| 10.1007/s10971-013-3031-8 | Out of scope | saved replay |
+| 10.1007/s10971-014-3463-9 | Unclear | new X reading |
+| 10.1007/s10971-015-3618-3 | Out of scope | new X reading |
+| 10.1007/s10971-015-3799-9 | Out of scope | saved replay |
+| 10.1007/s10971-016-4178-x | Unclear | new X reading |
+| 10.1007/s10971-019-04926-3 | Unclear | saved replay |
+| 10.1007/s10971-020-05298-9 | Unclear | new X reading |
+| 10.1007/s10971-020-05419-4 | Unclear | saved replay |
+| 10.1007/s10971-021-05663-2 | Unclear | saved replay |
+| 10.1007/s10971-023-06090-1 | Unclear | new X reading |
+| 10.1007/s10971-023-06160-4 | Out of scope | saved replay |
+| 10.1007/s10971-025-07080-1 | Out of scope | new X reading |
+| 10.1007/s10973-011-1903-0 | Unclear | saved replay |
+| 10.1007/s10973-011-1966-y | Out of scope | new X reading |
+| 10.1007/s10973-011-2027-2 | Out of scope | new X reading |
+| 10.1007/s10973-011-2104-6 | Out of scope | new X reading |
+| 10.1007/s10973-015-5188-6 | Unclear | new X reading |
+| 10.1007/s10973-022-11733-6 | Unclear | new X reading |
+| 10.1007/s10973-022-11866-8 | Unclear | new X reading |
+| 10.1007/s11003-015-9774-3 | Unclear | new X reading |
+| 10.1007/s11003-024-00760-3 | Unclear | new X reading |
+| 10.1007/s11015-025-01885-9 | Unclear | new X reading |
+| 10.1007/s11051-006-9116-3 | Out of scope | new X reading |
+| 10.1007/s11051-010-9851-3 | Unclear | saved replay |
+| 10.1007/s11051-011-0490-0 | Unclear | saved replay |
+| 10.1007/s11051-012-0868-7 | Unclear | saved replay |
+| 10.1007/s11051-012-1328-0 | Unclear | saved replay |
+| 10.1007/s11051-012-1340-4 | Unclear | saved replay |
+| 10.1007/s11051-014-2393-3 | Unclear | saved replay |
+| 10.1007/s11051-020-05080-6 | Unclear | saved replay |
+| 10.1007/s11051-022-05418-2 | Unclear | saved replay |
+| 10.1007/s11051-025-06487-9 | Unclear | saved replay |
+| 10.1007/s11082-017-1003-x | Unclear | saved replay |
+| 10.1007/s11082-018-1375-6 | Unclear | saved replay |
+| 10.1007/s11082-020-02442-1 | Unclear | saved replay |
+| 10.1007/s11082-021-03075-8 | Unclear | saved replay |
+| 10.1007/s11082-024-07310-w | Unclear | saved replay |
+| 10.1007/s11106-019-00055-2 | Unclear | new X reading |
+| 10.1007/s11144-020-01733-8 | Out of scope | saved replay |
+| 10.1007/s11164-017-2910-y | Out of scope | saved replay |
+| 10.1007/s11164-020-04393-4 | Unclear | saved replay |
+| 10.1007/s11164-026-05949-6 | Unclear | saved replay |
+| 10.1007/s11270-026-09206-9 | Out of scope | saved replay |
+| 10.1007/s11356-023-25432-8 | Out of scope | saved replay |
+| 10.1007/s11356-024-34583-1 | Out of scope | saved replay |
+| 10.1007/s11426-021-1007-6 | Unclear | saved replay |
+| 10.1007/s11432-019-2753-3 | Unclear | saved replay |
+| 10.1007/s11433-010-4091-1 | Unclear | saved replay |
+| 10.1007/s11483-023-09821-7 | Unclear | saved replay |
+| 10.1007/s11581-020-03552-2 | Out of scope | saved replay |
+| 10.1007/s11581-024-05599-x | Out of scope | saved replay |
+| 10.1007/s11661-011-0708-x | Unclear | new X reading |
+| 10.1007/s11661-013-1786-8 | Unclear | new X reading |
+| 10.1007/s11661-017-4350-0 | Unclear | new X reading |
+| 10.1007/s11661-021-06506-z | Unclear | saved replay |
+| 10.1007/s11664-011-1892-6 | Unclear | saved replay |
+| 10.1007/s11664-013-2547-6 | Unclear | new X reading |
+| 10.1007/s11664-015-3871-9 | Out of scope | saved replay |
+| 10.1007/s11664-016-4844-3 | Out of scope | saved replay |
+| 10.1007/s11664-019-07081-1 | Unclear | saved replay |
+| 10.1007/s11664-020-08121-x | Out of scope | saved replay |
+| 10.1007/s11664-023-10354-5 | Unclear | saved replay |
+| 10.1007/s11705-024-2471-8 | Unclear | saved replay |
+| 10.1007/s11814-024-00225-y | Unclear | saved replay |
+| 10.1007/s11837-026-08270-0 | Out of scope | new X reading |
+| 10.1007/s12034-022-02878-z | Unclear | saved replay |
+| 10.1007/s12200-023-00082-3 | Unclear | saved replay |
+| 10.1007/s12274-014-0580-2 | Unclear | saved replay |
+| 10.1007/s12274-020-3161-6 | Unclear | saved replay |
+| 10.1007/s12540-011-0624-z | Out of scope | saved replay |
+| 10.1007/s12540-012-5015-6 | Unclear | saved replay |
+| 10.1007/s12540-023-01573-w | Out of scope | saved replay |
+| 10.1007/s12596-023-01449-7 | Unclear | new X reading |
+| 10.1007/s12596-023-01462-w | Unclear | saved replay |
+| 10.1007/s12598-012-0462-2 | Out of scope | saved replay |
+| 10.1007/s12633-010-9038-7 | Unclear | saved replay |
+| 10.1007/s12666-015-0578-9 | Unclear | saved replay |
+| 10.1007/s12666-020-02114-4 | Out of scope | saved replay |
+| 10.1007/s12666-022-02576-8 | Unclear | saved replay |
+| 10.1007/s12668-024-01593-9 | Unclear | saved replay |
+| 10.1007/s12678-026-01014-3 | Unclear | saved replay |
+| 10.1007/s13204-012-0100-1 | Unclear | saved replay |
+| 10.1007/s13204-014-0327-0 | Unclear | saved replay |
+| 10.1007/s13204-014-0367-5 | Unclear | saved replay |
+| 10.1007/s13204-022-02676-3 | Unclear | saved replay |
+| 10.1007/s13204-023-02789-3 | Unclear | saved replay |
+| 10.1007/s13369-023-08057-4 | Unclear | new X reading |
+| 10.1007/s13399-022-03017-8 | Unclear | saved replay |
+| 10.1007/s40042-023-00945-0 | Unclear | new X reading |
+| 10.1007/s40042-025-01533-0 | Out of scope | new X reading |
+| 10.1007/s40145-014-0101-5 | Out of scope | saved replay |
+| 10.1007/s40843-025-3997-9 | Unclear | saved replay |
+| 10.1007/s42247-022-00416-5 | Unclear | new X reading |
+| 10.1007/s42341-021-00368-3 | Unclear | saved replay |
+| 10.1007/s42452-019-0836-2 | Out of scope | saved replay |
+| 10.1007/s42452-019-1386-3 | Unclear | saved replay |
+| 10.1007/s42452-020-2336-9 | Unclear | saved replay |
+| 10.1007/s42452-021-04474-y | Out of scope | saved replay |
+| 10.1007/s42452-022-04948-7 | Thin | saved replay |
+| 10.1007/s42452-023-05328-5 | Unclear | saved replay |
+| 10.1007/s42864-022-00170-5 | Unclear | new X reading |
+| 10.1007/s43207-023-00324-2 | Unclear | saved replay |
+| 10.1007/s44397-026-00041-5 | Unclear | saved replay |
+| 10.1016/j.bios.2015.11.016 | Unclear | saved replay |
+| 10.1017/s1431927611002157 | Unclear | new X reading |
+| 10.1017/s1431927611009457 | Unclear | saved replay |
+| 10.1017/s1431927612007350 | Unclear | saved replay |
+| 10.1017/s1431927613010842 | Unclear | new X reading |
+| 10.1017/s1431927618001897 | Unclear | saved replay |
+| 10.1017/s1431927618008991 | Unclear | new X reading |
+| 10.1021/ac202610e | Unclear | saved replay |
+| 10.1021/ac5005162 | Unclear | saved replay |
+| 10.1021/ac801562f | Unclear | saved replay |
+| 10.1021/ac902335e | Unclear | saved replay |
+| 10.1021/accountsmr.1c00077 | Unclear | new X reading |
+| 10.1021/accountsmr.2c00081 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00204 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00678 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00691 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00765 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00796 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00859 | Unclear | new X reading |
+| 10.1021/acs.accounts.2c00074 | Unclear | new X reading |
+| 10.1021/acs.accounts.3c00174 | Unclear | new X reading |
+| 10.1021/acs.accounts.5b00181 | Unclear | new X reading |
+| 10.1021/acs.accounts.5b00554 | Unclear | new X reading |
+| 10.1021/acs.analchem.5b04471 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c00290 | Unclear | saved replay |
+| 10.1021/acs.analchem.5c06564 | Unclear | saved replay |
+| 10.1021/acs.analchem.9b02938 | Unclear | saved replay |
+| 10.1021/acs.biochem.5b00781 | Out of scope | saved replay |
+| 10.1021/acs.biomac.6c00016 | Unclear | saved replay |
+| 10.1021/acs.cgd.4c01439 | Unclear | saved replay |
+| 10.1021/acs.cgd.5b00566 | Unclear | saved replay |
+| 10.1021/acs.cgd.6b00216 | Unclear | saved replay |
+| 10.1021/acs.chemmater.0c02320 | Unclear | saved replay |
+| 10.1021/acs.chemmater.3c01076 | Out of scope | new X reading |
+| 10.1021/acs.chemmater.3c03245 | Unclear | saved replay |
+| 10.1021/acs.chemmater.4c00276 | Unclear | saved replay |
+| 10.1021/acs.chemmater.4c02490 | Unclear | saved replay |
+| 10.1021/acs.chemmater.4c02809 | Unclear | saved replay |
+| 10.1021/acs.chemmater.6b03472 | Unclear | saved replay |
+| 10.1021/acs.chemmater.6b04648 | Unclear | saved replay |
+| 10.1021/acs.chemmater.6c01112 | Unclear | saved replay |
+| 10.1021/acs.chemmater.7b01700 | Unclear | saved replay |
+| 10.1021/acs.chemmater.7b02769 | Unclear | saved replay |
+| 10.1021/acs.chemmater.7b04827 | Unclear | saved replay |
+| 10.1021/acs.chemmater.7b05187 | Unclear | saved replay |
+| 10.1021/acs.chemmater.8b01137 | Unclear | saved replay |
+| 10.1021/acs.chemmater.8b02095 | Unclear | saved replay |
+| 10.1021/acs.chemmater.8b04233 | Unclear | saved replay |
+| 10.1021/acs.chemmater.9b00550 | Unclear | saved replay |
+| 10.1021/acs.chemmater.9b01925 | Unclear | new X reading |
+| 10.1021/acs.chemmater.9b03363 | Unclear | saved replay |
+| 10.1021/acs.energyfuels.1c00369 | Out of scope | saved replay |
+| 10.1021/acs.iecr.7b00912 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.1c03023 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.2c00041 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.2c00716 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.4c00168 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.4c00231 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.4c05129 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.5c02305 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.6c00782 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.8b00355 | Unclear | saved replay |
+| 10.1021/acs.inorgchem.8b01795 | Unclear | saved replay |
+| 10.1021/acs.jafc.8b01951 | Unclear | saved replay |
+| 10.1021/acs.jchemed.4c01184 | Unclear | saved replay |
+| 10.1021/acs.jchemed.5c00530 | Unclear | saved replay |
+| 10.1021/acs.jchemed.5c01222 | Unclear | saved replay |
+| 10.1021/acs.jchemed.6c00096 | Unclear | new X reading |
+| 10.1021/acs.jcim.4c01529 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c01750 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c02973 | Unclear | saved replay |
+| 10.1021/acs.jpcc.0c05030 | Unclear | saved replay |
+| 10.1021/acs.jpcc.0c09061 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.1c05009 | Unclear | saved replay |
+| 10.1021/acs.jpcc.1c07019 | Out of scope | saved replay |
+| 10.1021/acs.jpcc.1c08998 | Unclear | saved replay |
+| 10.1021/acs.jpcc.2c01034 | Thin | saved replay |
+| 10.1021/acs.jpcc.2c05391 | Unclear | saved replay |
+| 10.1021/acs.jpcc.2c08483 | Unclear | saved replay |
+| 10.1021/acs.jpcc.3c04461 | Unclear | saved replay |
+| 10.1021/acs.jpcc.3c06496 | Unclear | saved replay |
+| 10.1021/acs.jpcc.3c07693 | Thin | saved replay |
+| 10.1021/acs.jpcc.5b00341 | Unclear | saved replay |
+| 10.1021/acs.jpcc.5b00496 | Unclear | saved replay |
+| 10.1021/acs.jpcc.5b05225 | Unclear | saved replay |
+| 10.1021/acs.jpcc.5b09152 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b12661 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c05056 | Unclear | saved replay |
+| 10.1021/acs.jpcc.6b07593 | Out of scope | saved replay |
+| 10.1021/acs.jpcc.6b12343 | Out of scope | saved replay |
+| 10.1021/acs.jpcc.6b12538 | Unclear | saved replay |
+| 10.1021/acs.jpcc.6c00478 | Unclear | saved replay |
+| 10.1021/acs.jpcc.6c00626 | Unclear | saved replay |
+| 10.1021/acs.jpcc.7b05494 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.7b11933 | Unclear | saved replay |
+| 10.1021/acs.jpcc.8b08322 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b08984 | Unclear | saved replay |
+| 10.1021/acs.jpcc.9b05521 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c00110 | Unclear | saved replay |
+| 10.1021/acs.jpclett.1c02125 | Unclear | saved replay |
+| 10.1021/acs.jpclett.1c02187 | Unclear | saved replay |
+| 10.1021/acs.jpclett.1c02542 | Unclear | saved replay |
+| 10.1021/acs.jpclett.2c02034 | Unclear | saved replay |
+| 10.1021/acs.jpclett.2c03437 | Unclear | saved replay |
+| 10.1021/acs.jpclett.2c03734 | Unclear | new X reading |
+| 10.1021/acs.jpclett.3c02180 | Unclear | saved replay |
+| 10.1021/acs.jpclett.3c03320 | Unclear | saved replay |
+| 10.1021/acs.jpclett.5b00989 | Unclear | saved replay |
+| 10.1021/acs.jpclett.5b01067 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.5c00584 | Unclear | saved replay |
+| 10.1021/acs.jpclett.5c01837 | Unclear | saved replay |
+| 10.1021/acs.jpclett.5c02582 | Unclear | saved replay |
+| 10.1021/acs.jpclett.7b02101 | Unclear | saved replay |
+| 10.1021/acs.jpclett.7b02350 | Unclear | saved replay |
+| 10.1021/acs.jpclett.8b02832 | Unclear | saved replay |
+| 10.1021/acs.jpclett.9b00869 | Unclear | saved replay |
+| 10.1021/acs.jpclett.9b01634 | Unclear | saved replay |
+| 10.1021/acs.jpclett.9b02423 | Unclear | saved replay |
+| 10.1021/acs.jpclett.9b02695 | Unclear | saved replay |
+| 10.1021/acs.jpclett.9b03409 | Unclear | saved replay |
+| 10.1021/acs.langmuir.0c00527 | Unclear | saved replay |
+| 10.1021/acs.langmuir.2c00425 | Unclear | saved replay |
+| 10.1021/acs.langmuir.2c02966 | Unclear | saved replay |
+| 10.1021/acs.langmuir.5b02225 | Unclear | saved replay |
+| 10.1021/acs.langmuir.6b02375 | Unclear | saved replay |
+| 10.1021/acs.langmuir.6b02422 | Unclear | saved replay |
+| 10.1021/acs.langmuir.8b01453 | Unclear | saved replay |
+| 10.1021/acs.langmuir.8b01745 | Unclear | saved replay |
+| 10.1021/acs.nanolett.0c01614 | Unclear | saved replay |
+| 10.1021/acs.nanolett.0c02153 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c04169 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c02540 | Unclear | saved replay |
+| 10.1021/acs.nanolett.1c04761 | Unclear | saved replay |
+| 10.1021/acs.nanolett.1c04822 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c00544 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c00611 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c01596 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c04498 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c04532 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c04627 | Unclear | saved replay |
+| 10.1021/acs.nanolett.2c04851 | Unclear | saved replay |
+| 10.1021/acs.nanolett.3c00491 | Unclear | saved replay |
+| 10.1021/acs.nanolett.3c02630 | Unclear | saved replay |
+| 10.1021/acs.nanolett.3c02899 | Unclear | saved replay |
+| 10.1021/acs.nanolett.3c03508 | Unclear | saved replay |
+| 10.1021/acs.nanolett.3c03903 | Unclear | saved replay |
+| 10.1021/acs.nanolett.4c01083 | Unclear | saved replay |
+| 10.1021/acs.nanolett.4c01099 | Unclear | saved replay |
+| 10.1021/acs.nanolett.4c02235 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5b00392 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5b02647 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5b03271 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5b03677 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5b04616 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b04981 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5c02403 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5c03224 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5c03234 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5c04477 | Unclear | saved replay |
+| 10.1021/acs.nanolett.5c05208 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b01168 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b01957 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b02479 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b04261 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b04781 | Thin | saved replay |
+| 10.1021/acs.nanolett.6b05087 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6b05241 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6c00828 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c00907 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6c01557 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6c01775 | Unclear | saved replay |
+| 10.1021/acs.nanolett.6c02198 | Unclear | saved replay |
+| 10.1021/acs.nanolett.7b00254 | Unclear | saved replay |
+| 10.1021/acs.nanolett.7b01496 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b01824 | Unclear | saved replay |
+| 10.1021/acs.nanolett.8b03020 | Unclear | saved replay |
+| 10.1021/acs.nanolett.9b03157 | Unclear | saved replay |
+| 10.1021/acs.nanolett.9b04130 | Unclear | saved replay |
+| 10.1021/acs.nanolett.9b04597 | Unclear | saved replay |
+| 10.1021/acs.nanolett.9b05136 | Unclear | saved replay |
+| 10.1021/acsabm.2c00150 | Unclear | saved replay |
+| 10.1021/acsabm.2c00361 | Unclear | saved replay |
+| 10.1021/acsaelm.0c00411 | Thin | saved replay |
+| 10.1021/acsaelm.1c00287 | Unclear | saved replay |
+| 10.1021/acsaelm.5c00777 | Unclear | saved replay |
+| 10.1021/acsaelm.5c00952 | Unclear | saved replay |
+| 10.1021/acsaem.0c00030 | Unclear | new X reading |
+| 10.1021/acsaem.0c00831 | Unclear | saved replay |
+| 10.1021/acsaem.0c02992 | Unclear | saved replay |
+| 10.1021/acsaem.2c02401 | Out of scope | saved replay |
+| 10.1021/acsaem.8b00301 | Unclear | saved replay |
+| 10.1021/acsaem.8b01668 | Out of scope | saved replay |
+| 10.1021/acsami.0c02500 | Unclear | saved replay |
+| 10.1021/acsami.0c04961 | Unclear | new X reading |
+| 10.1021/acsami.0c06306 | Unclear | saved replay |
+| 10.1021/acsami.0c10077 | Unclear | saved replay |
+| 10.1021/acsami.1c01879 | Unclear | saved replay |
+| 10.1021/acsami.1c02480 | Unclear | saved replay |
+| 10.1021/acsami.1c05653 | Unclear | saved replay |
+| 10.1021/acsami.1c06352 | Unclear | saved replay |
+| 10.1021/acsami.1c10192 | Unclear | saved replay |
+| 10.1021/acsami.1c10533 | Unclear | saved replay |
+| 10.1021/acsami.1c14711 | Unclear | saved replay |
+| 10.1021/acsami.1c15772 | Thin | saved replay |
+| 10.1021/acsami.1c19644 | Unclear | saved replay |
+| 10.1021/acsami.2c01209 | Unclear | saved replay |
+| 10.1021/acsami.2c07176 | Out of scope | new X reading |
+| 10.1021/acsami.2c11492 | Out of scope | saved replay |
+| 10.1021/acsami.2c12002 | Unclear | new X reading |
+| 10.1021/acsami.2c15449 | Unclear | new X reading |
+| 10.1021/acsami.3c00487 | Unclear | saved replay |
+| 10.1021/acsami.3c05440 | Unclear | saved replay |
+| 10.1021/acsami.3c07547 | Unclear | saved replay |
+| 10.1021/acsami.3c08419 | Unclear | saved replay |
+| 10.1021/acsami.3c10157 | Unclear | new X reading |
+| 10.1021/acsami.3c14611 | Unclear | saved replay |
+| 10.1021/acsami.3c17877 | Unclear | new X reading |
+| 10.1021/acsami.3c18418 | Unclear | saved replay |
+| 10.1021/acsami.4c05117 | Unclear | saved replay |
+| 10.1021/acsami.4c12421 | Unclear | saved replay |
+| 10.1021/acsami.4c13739 | Unclear | saved replay |
+| 10.1021/acsami.4c22853 | Unclear | saved replay |
+| 10.1021/acsami.5b03004 | Thin | saved replay |
+| 10.1021/acsami.5b06536 | Unclear | saved replay |
+| 10.1021/acsami.5b06890 | Unclear | saved replay |
+| 10.1021/acsami.5b07121 | Unclear | saved replay |
+| 10.1021/acsami.5b09578 | Unclear | saved replay |
+| 10.1021/acsami.5b10602 | Unclear | saved replay |
+| 10.1021/acsami.5c12876 | Unclear | saved replay |
+| 10.1021/acsami.5c14331 | Unclear | saved replay |
+| 10.1021/acsami.5c23618 | Unclear | saved replay |
+| 10.1021/acsami.6b04822 | Unclear | saved replay |
+| 10.1021/acsami.6c03242 | Unclear | saved replay |
+| 10.1021/acsami.7b00282 | Unclear | saved replay |
+| 10.1021/acsami.7b05569 | Unclear | saved replay |
+| 10.1021/acsami.7b06066 | Unclear | saved replay |
+| 10.1021/acsami.7b09401 | Unclear | saved replay |
+| 10.1021/acsami.7b15250 | Unclear | saved replay |
+| 10.1021/acsami.7b16882 | Unclear | saved replay |
+| 10.1021/acsami.8b12577 | Unclear | saved replay |
+| 10.1021/acsami.8b12979 | Unclear | saved replay |
+| 10.1021/acsami.8b20400 | Unclear | saved replay |
+| 10.1021/acsami.8b21131 | Out of scope | saved replay |
+| 10.1021/acsami.9b07089 | Unclear | saved replay |
+| 10.1021/acsami.9b22827 | Unclear | saved replay |
+| 10.1021/acsanm.0c00841 | Out of scope | saved replay |
+| 10.1021/acsanm.0c01204 | Out of scope | saved replay |
+| 10.1021/acsanm.0c02818 | Unclear | saved replay |
+| 10.1021/acsanm.0c03000 | Unclear | saved replay |
+| 10.1021/acsanm.0c03011 | Unclear | saved replay |
+| 10.1021/acsanm.1c00162 | Unclear | saved replay |
+| 10.1021/acsanm.1c00840 | Unclear | saved replay |
+| 10.1021/acsanm.1c04391 | Unclear | saved replay |
+| 10.1021/acsanm.2c02759 | Unclear | saved replay |
+| 10.1021/acsanm.2c05413 | Unclear | new X reading |
+| 10.1021/acsanm.3c00533 | Unclear | new X reading |
+| 10.1021/acsanm.3c01526 | Out of scope | saved replay |
+| 10.1021/acsanm.3c03745 | Unclear | saved replay |
+| 10.1021/acsanm.3c04778 | Unclear | saved replay |
+| 10.1021/acsanm.4c00255 | Unclear | saved replay |
+| 10.1021/acsanm.4c00668 | Unclear | saved replay |
+| 10.1021/acsanm.4c02976 | Unclear | saved replay |
+| 10.1021/acsanm.4c03202 | Unclear | saved replay |
+| 10.1021/acsanm.4c04510 | Unclear | saved replay |
+| 10.1021/acsanm.4c05351 | Unclear | saved replay |
+| 10.1021/acsanm.4c06414 | Unclear | saved replay |
+| 10.1021/acsanm.5c05233 | Unclear | saved replay |
+| 10.1021/acsanm.6c02092 | Unclear | new X reading |
+| 10.1021/acsanm.8b00114 | Unclear | saved replay |
+| 10.1021/acsanm.9b00811 | Unclear | saved replay |
+| 10.1021/acsanm.9b02598 | Unclear | saved replay |
+| 10.1021/acsaom.3c00312 | Unclear | saved replay |
+| 10.1021/acsaom.3c00411 | Unclear | saved replay |
+| 10.1021/acsaom.4c00301 | Thin | saved replay |
+| 10.1021/acsaom.5c00034 | Unclear | saved replay |
+| 10.1021/acscatal.4c04906 | Out of scope | saved replay |
+| 10.1021/acscatal.7b00388 | Unclear | saved replay |
+| 10.1021/acsenergylett.0c01136 | Unclear | saved replay |
+| 10.1021/acsenergylett.0c01586 | Unclear | saved replay |
+| 10.1021/acsenergylett.0c02165 | Unclear | saved replay |
+| 10.1021/acsenergylett.0c02500 | Unclear | saved replay |
+| 10.1021/acsenergylett.2c00786 | Unclear | saved replay |
+| 10.1021/acsenergylett.3c00495 | Unclear | saved replay |
+| 10.1021/acsenergylett.5c00962 | Unclear | saved replay |
+| 10.1021/acsenergylett.5c01958 | Unclear | saved replay |
+| 10.1021/acsenergylett.6b00070 | Unclear | saved replay |
+| 10.1021/acsenergylett.6b00314 | Unclear | saved replay |
+| 10.1021/acsenergylett.6b00403 | Unclear | saved replay |
+| 10.1021/acsenergylett.6b00429 | Unclear | saved replay |
+| 10.1021/acsenergylett.6b00634 | Unclear | new X reading |
+| 10.1021/acsenergylett.7b00505 | Unclear | saved replay |
+| 10.1021/acsenergylett.7b00540 | Unclear | saved replay |
+| 10.1021/acsenergylett.7b00648 | Unclear | saved replay |
+| 10.1021/acsenergylett.8b00207 | Unclear | saved replay |
+| 10.1021/acsenergylett.8b00675 | Unclear | saved replay |
+| 10.1021/acsenergylett.9b00053 | Unclear | saved replay |
+| 10.1021/acsenergylett.9b00140 | Unclear | saved replay |
+| 10.1021/acsestengg.2c00118 | Unclear | saved replay |
+| 10.1021/acsinfecdis.7b00150 | Unclear | saved replay |
+| 10.1021/acsmaterialsau.5c00032 | Unclear | saved replay |
+| 10.1021/acsmaterialslett.3c01401 | Unclear | saved replay |
+| 10.1021/acsnano.0c02033 | Unclear | saved replay |
+| 10.1021/acsnano.0c03418 | Unclear | saved replay |
+| 10.1021/acsnano.0c09080 | Unclear | saved replay |
+| 10.1021/acsnano.1c08002 | Unclear | saved replay |
+| 10.1021/acsnano.1c10329 | Unclear | saved replay |
+| 10.1021/acsnano.2c04033 | Unclear | saved replay |
+| 10.1021/acsnano.2c11689 | Unclear | saved replay |
+| 10.1021/acsnano.3c08526 | Unclear | saved replay |
+| 10.1021/acsnano.4c02387 | Out of scope | saved replay |
+| 10.1021/acsnano.4c09001 | Unclear | saved replay |
+| 10.1021/acsnano.4c12728 | Unclear | saved replay |
+| 10.1021/acsnano.5b00671 | Unclear | saved replay |
+| 10.1021/acsnano.5b01296 | Unclear | saved replay |
+| 10.1021/acsnano.5b04547 | Out of scope | saved replay |
+| 10.1021/acsnano.5b08193 | Unclear | saved replay |
+| 10.1021/acsnano.5c00052 | Unclear | saved replay |
+| 10.1021/acsnano.5c09134 | Unclear | new X reading |
+| 10.1021/acsnano.5c11108 | Unclear | saved replay |
+| 10.1021/acsnano.5c13021 | Unclear | saved replay |
+| 10.1021/acsnano.5c14784 | Unclear | saved replay |
+| 10.1021/acsnano.6c03728 | Unclear | saved replay |
+| 10.1021/acsnano.6c05022 | Out of scope | saved replay |
+| 10.1021/acsnano.7b01014 | Unclear | saved replay |
+| 10.1021/acsnano.7b01023 | Unclear | saved replay |
+| 10.1021/acsnano.8b01248 | Thin | saved replay |
+| 10.1021/acsnano.8b03871 | Out of scope | saved replay |
+| 10.1021/acsnano.8b06671 | Unclear | saved replay |
+| 10.1021/acsnano.9b01957 | Unclear | saved replay |
+| 10.1021/acsnano.9b02818 | Unclear | saved replay |
+| 10.1021/acsnano.9b06125 | Unclear | saved replay |
+| 10.1021/acsnano.9b08687 | Unclear | saved replay |
+| 10.1021/acsnanoscienceau.5c00121 | Thin | saved replay |
+| 10.1021/acsomega.0c00195 | Unclear | saved replay |
+| 10.1021/acsomega.0c05156 | Unclear | saved replay |
+| 10.1021/acsomega.0c06227 | Out of scope | saved replay |
+| 10.1021/acsomega.1c03557 | Unclear | saved replay |
+| 10.1021/acsomega.1c03735 | Unclear | saved replay |
+| 10.1021/acsomega.2c00982 | Unclear | saved replay |
+| 10.1021/acsomega.2c01455 | Unclear | saved replay |
+| 10.1021/acsomega.2c04480 | Unclear | saved replay |
+| 10.1021/acsomega.2c07683 | Out of scope | saved replay |
+| 10.1021/acsomega.3c02705 | Unclear | saved replay |
+| 10.1021/acsomega.3c02735 | Thin | saved replay |
+| 10.1021/acsomega.4c02254 | Unclear | saved replay |
+| 10.1021/acsomega.5c01047 | Unclear | saved replay |
+| 10.1021/acsomega.6b00063 | Out of scope | new X reading |
+| 10.1021/acsomega.6b00520 | Unclear | saved replay |
+| 10.1021/acsomega.8b01763 | Unclear | saved replay |
+| 10.1021/acsomega.9b01449 | Unclear | saved replay |
+| 10.1021/acsphotonics.0c00363 | Unclear | saved replay |
+| 10.1021/acsphotonics.2c00587 | Unclear | saved replay |
+| 10.1021/acsphotonics.4c00066 | Out of scope | saved replay |
+| 10.1021/acsphotonics.4c00730 | Unclear | saved replay |
+| 10.1021/acsphotonics.4c00911 | Unclear | saved replay |
+| 10.1021/acsphotonics.4c01410 | Unclear | saved replay |
+| 10.1021/acsphotonics.4c01516 | Unclear | saved replay |
+| 10.1021/acsphotonics.5c00616 | Unclear | saved replay |
+| 10.1021/acsphotonics.5c02304 | Unclear | saved replay |
+| 10.1021/acsphotonics.5c02360 | Unclear | saved replay |
+| 10.1021/acsphotonics.6b00054 | Thin | saved replay |
+| 10.1021/acsphotonics.6b00712 | Unclear | saved replay |
+| 10.1021/acsphotonics.6c00016 | Unclear | saved replay |
+| 10.1021/acsphotonics.6c00366 | Unclear | saved replay |
+| 10.1021/acsphotonics.7b00644 | Out of scope | saved replay |
+| 10.1021/acsphotonics.8b00738 | Unclear | saved replay |
+| 10.1021/acsphotonics.9b00379 | Unclear | saved replay |
+| 10.1021/acssuschemeng.0c05789 | Unclear | saved replay |
+| 10.1021/acssuschemeng.2c04485 | Unclear | saved replay |
+| 10.1021/acssuschemeng.3c02460 | Unclear | saved replay |
+| 10.1021/acssuschemeng.6b00015 | Unclear | saved replay |
+| 10.1021/acssuschemeng.6c01706 | Unclear | saved replay |
+| 10.1021/acssuschemeng.7b03008 | Unclear | saved replay |
+| 10.1021/acssuschemeng.9b01196 | Unclear | saved replay |
+| 10.1021/acssuschemeng.9b06676 | Unclear | saved replay |
+| 10.1021/am201013n | Unclear | saved replay |
+| 10.1021/am303149r | Unclear | saved replay |
+| 10.1021/am400326t | Unclear | new X reading |
+| 10.1021/am500403n | Unclear | saved replay |
+| 10.1021/am5035363 | Unclear | saved replay |
+| 10.1021/am504546f | Unclear | saved replay |
+| 10.1021/am5071078 | Unclear | saved replay |
+| 10.1021/ar020204f | Unclear | new X reading |
+| 10.1021/ar9702839 | Unclear | new X reading |
+| 10.1021/bc060355t | Unclear | saved replay |
+| 10.1021/cg2003113 | Unclear | saved replay |
+| 10.1021/cg4000473 | Unclear | saved replay |
+| 10.1021/cg700708g | Unclear | saved replay |
+| 10.1021/cm0107878 | Unclear | saved replay |
+| 10.1021/cm0481022 | Unclear | saved replay |
+| 10.1021/cm0496568 | Unclear | new X reading |
+| 10.1021/cm051467h | Thin | saved replay |
+| 10.1021/cm102743y | Unclear | saved replay |
+| 10.1021/cm202543m | Unclear | saved replay |
+| 10.1021/cm401289j | Unclear | saved replay |
+| 10.1021/cm703348y | Unclear | saved replay |
+| 10.1021/ed300568e | Unclear | saved replay |
+| 10.1021/ed300693d | Unclear | saved replay |
+| 10.1021/ic800721r | Unclear | saved replay |
+| 10.1021/ie300109u | Unclear | saved replay |
+| 10.1021/ja000073i | Unclear | saved replay |
+| 10.1021/ja0299598 | Unclear | saved replay |
+| 10.1021/ja035000o | Unclear | saved replay |
+| 10.1021/ja0428863 | Thin | saved replay |
+| 10.1021/ja0434331 | Unclear | saved replay |
+| 10.1021/ja0505043 | Unclear | saved replay |
+| 10.1021/ja0671161 | Unclear | saved replay |
+| 10.1021/ja068894w | Unclear | saved replay |
+| 10.1021/ja107080b | Unclear | saved replay |
+| 10.1021/ja204953k | Unclear | saved replay |
+| 10.1021/ja206776g | Unclear | saved replay |
+| 10.1021/ja310612p | Unclear | saved replay |
+| 10.1021/ja311550t | Unclear | saved replay |
+| 10.1021/ja5006288 | Unclear | saved replay |
+| 10.1021/ja710870e | Unclear | saved replay |
+| 10.1021/ja711467g | Unclear | saved replay |
+| 10.1021/ja806400e | Unclear | saved replay |
+| 10.1021/ja908250r | Unclear | saved replay |
+| 10.1021/jacs.0c06653 | Unclear | saved replay |
+| 10.1021/jacs.0c12278 | Unclear | saved replay |
+| 10.1021/jacs.1c09363 | Unclear | saved replay |
+| 10.1021/jacs.2c01498 | Out of scope | saved replay |
+| 10.1021/jacs.2c07423 | Unclear | saved replay |
+| 10.1021/jacs.2c13677 | Unclear | saved replay |
+| 10.1021/jacs.4c01725 | Unclear | saved replay |
+| 10.1021/jacs.4c06110 | Unclear | saved replay |
+| 10.1021/jacs.5b03234 | Unclear | new X reading |
+| 10.1021/jacs.5b13470 | Unclear | saved replay |
+| 10.1021/jacs.5c02861 | Unclear | saved replay |
+| 10.1021/jacs.5c11089 | Unclear | saved replay |
+| 10.1021/jacs.5c15371 | Unclear | saved replay |
+| 10.1021/jacs.6b06468 | Unclear | saved replay |
+| 10.1021/jacs.6b13079 | Unclear | saved replay |
+| 10.1021/jacs.6c12708 | Unclear | saved replay |
+| 10.1021/jacs.7b02817 | Unclear | saved replay |
+| 10.1021/jacs.7b03668 | Unclear | saved replay |
+| 10.1021/jacs.7b04018 | Unclear | saved replay |
+| 10.1021/jacs.7b10649 | Unclear | saved replay |
+| 10.1021/jacs.8b02612 | Unclear | saved replay |
+| 10.1021/jacs.8b04824 | Thin | saved replay |
+| 10.1021/jacs.8b13794 | Unclear | new X reading |
+| 10.1021/jacs.9b01563 | Unclear | saved replay |
+| 10.1021/jacs.9b02549 | Unclear | saved replay |
+| 10.1021/jacs.9b12845 | Unclear | new X reading |
+| 10.1021/jp051738b | Unclear | saved replay |
+| 10.1021/jp068455j | Unclear | saved replay |
+| 10.1021/jp207140g | Unclear | new X reading |
+| 10.1021/jp2094033 | Unclear | saved replay |
+| 10.1021/jp3016744 | Unclear | saved replay |
+| 10.1021/jp308011x | Unclear | saved replay |
+| 10.1021/jp310047t | Unclear | saved replay |
+| 10.1021/jp407228k | Unclear | saved replay |
+| 10.1021/jp409620w | Unclear | saved replay |
+| 10.1021/jp502961v | Unclear | saved replay |
+| 10.1021/jp802676z | Unclear | saved replay |
+| 10.1021/jp900420j | Unclear | saved replay |
+| 10.1021/jp9109546 | Unclear | new X reading |
+| 10.1021/jp991307r | Unclear | saved replay |
+| 10.1021/jz100581c | Out of scope | saved replay |
+| 10.1021/jz500726h | Unclear | saved replay |
+| 10.1021/jz5012669 | Unclear | saved replay |
+| 10.1021/la062329p | Unclear | saved replay |
+| 10.1021/la300310m | Thin | saved replay |
+| 10.1021/la403914k | Thin | saved replay |
+| 10.1021/la703583u | Unclear | saved replay |
+| 10.1021/la9804536 | Unclear | new X reading |
+| 10.1021/nl015612b | Unclear | saved replay |
+| 10.1021/nl202337a | Unclear | saved replay |
+| 10.1021/nl202892p | Unclear | saved replay |
+| 10.1021/nl2041589 | Unclear | saved replay |
+| 10.1021/nl302453x | Unclear | saved replay |
+| 10.1021/nl3041417 | Unclear | saved replay |
+| 10.1021/nl504086v | Unclear | saved replay |
+| 10.1021/nn2040395 | Unclear | saved replay |
+| 10.1021/nn304675g | Unclear | saved replay |
+| 10.1021/nn305346a | Unclear | saved replay |
+| 10.1021/nn3059168 | Unclear | saved replay |
+| 10.1021/nn401396y | Unclear | saved replay |
+| 10.1021/nn404013d | Out of scope | saved replay |
+| 10.1021/nn5053537 | Unclear | saved replay |
+| 10.1038/lsa.2016.126 | Thin | saved replay |
+| 10.1038/nature14576 | Unclear | saved replay |
+| 10.1038/ncomms10254 | Unclear | saved replay |
+| 10.1038/ncomms11954 | Unclear | saved replay |
+| 10.1038/ncomms13059 | Unclear | saved replay |
+| 10.1038/ncomms4021 | Unclear | new X reading |
+| 10.1038/ncomms9056 | Unclear | saved replay |
+| 10.1038/ncomms9694 | Unclear | saved replay |
+| 10.1038/nmat1550 | Unclear | new X reading |
+| 10.1038/nmat3145 | Unclear | new X reading |
+| 10.1038/nnano.2008.313 | Unclear | new X reading |
+| 10.1038/nnano.2012.260 | Unclear | saved replay |
+| 10.1038/nnano.2012.61 | Unclear | saved replay |
+| 10.1038/nnano.2013.146 | Unclear | saved replay |
+| 10.1038/nnano.2015.178 | Unclear | saved replay |
+| 10.1038/nnano.2016.150 | Unclear | saved replay |
+| 10.1038/nphoton.2011.123 | Unclear | saved replay |
+| 10.1038/nphoton.2011.142 | Unclear | saved replay |
+| 10.1038/s41377-021-00508-7 | Unclear | saved replay |
+| 10.1038/s41377-022-01020-2 | Out of scope | saved replay |
+| 10.1038/s41377-024-01714-9 | Unclear | new X reading |
+| 10.1038/s41467-017-00929-2 | Unclear | saved replay |
+| 10.1038/s41467-018-06399-4 | Unclear | saved replay |
+| 10.1038/s41467-019-13158-6 | Unclear | saved replay |
+| 10.1038/s41467-021-21153-z | Unclear | saved replay |
+| 10.1038/s41467-023-38470-0 | Unclear | saved replay |
+| 10.1038/s41467-023-39509-y | Unclear | saved replay |
+| 10.1038/s41467-023-43343-7 | Unclear | saved replay |
+| 10.1038/s41467-025-60826-x | Unclear | saved replay |
+| 10.1038/s41467-026-69199-1 | Unclear | saved replay |
+| 10.1038/s41467-026-71335-w | Unclear | saved replay |
+| 10.1038/s41560-019-0492-1 | Unclear | saved replay |
+| 10.1038/s41565-018-0108-0 | Unclear | saved replay |
+| 10.1038/s41565-022-01113-4 | Unclear | saved replay |
+| 10.1038/s41565-022-01182-5 | Unclear | saved replay |
+| 10.1038/s41565-024-01831-x | Unclear | saved replay |
+| 10.1038/s41566-018-0105-8 | Unclear | saved replay |
+| 10.1038/s41566-023-01156-6 | Unclear | saved replay |
+| 10.1038/s41566-023-01345-3 | Thin | saved replay |
+| 10.1038/s41598-017-16445-8 | Unclear | saved replay |
+| 10.1038/s41598-018-26678-w | Unclear | saved replay |
+| 10.1038/s41598-020-74809-z | Unclear | saved replay |
+| 10.1038/s41598-020-78266-6 | Unclear | saved replay |
+| 10.1038/s41598-020-79861-3 | Unclear | new X reading |
+| 10.1038/s41598-021-00303-9 | Thin | saved replay |
+| 10.1038/s41598-021-97485-z | Unclear | saved replay |
+| 10.1038/s41598-022-21186-4 | Out of scope | saved replay |
+| 10.1038/s41598-023-43933-x | Unclear | saved replay |
+| 10.1038/s41598-024-75686-6 | Out of scope | saved replay |
+| 10.1038/s41598-025-92529-0 | Unclear | saved replay |
+| 10.1038/s41928-022-00779-x | Unclear | saved replay |
+| 10.1038/s42005-021-00724-y | Unclear | saved replay |
+| 10.1038/s43586-025-00418-7 | Unclear | new X reading |
+| 10.1038/s44160-026-01022-7 | Unclear | saved replay |
+| 10.1038/srep03134 | Unclear | saved replay |
+| 10.1038/srep03228 | Unclear | saved replay |
+| 10.1038/srep05734 | Unclear | new X reading |
+| 10.1038/srep09760 | Unclear | saved replay |
+| 10.1038/srep09932 | Unclear | saved replay |
+| 10.1038/srep10017 | Unclear | saved replay |
+| 10.1038/srep16682 | Unclear | saved replay |
+| 10.1038/srep21498 | Unclear | saved replay |
+| 10.1038/srep37106 | Unclear | saved replay |
+| 10.1039/b001958p | Unclear | saved replay |
+| 10.1039/b310915a | Unclear | saved replay |
+| 10.1039/b927149j | Unclear | saved replay |
+| 10.1039/c0ce00571a | Unclear | saved replay |
+| 10.1039/c0nr00462f | Thin | saved replay |
+| 10.1039/c1cc11754h | Unclear | saved replay |
+| 10.1039/c1dt10536a | Unclear | saved replay |
+| 10.1039/c1ee01774h | Unclear | new X reading |
+| 10.1039/c1jm10113g | Unclear | new X reading |
+| 10.1039/c1jm12629f | Unclear | saved replay |
+| 10.1039/c2cc17081g | Unclear | saved replay |
+| 10.1039/c2cc35062a | Unclear | saved replay |
+| 10.1039/c2ce25504a | Unclear | new X reading |
+| 10.1039/c2dt12473d | Out of scope | saved replay |
+| 10.1039/c2jm15857d | Unclear | saved replay |
+| 10.1039/c2jm31838e | Unclear | saved replay |
+| 10.1039/c2jm34877b | Unclear | saved replay |
+| 10.1039/c2nr11722c | Unclear | saved replay |
+| 10.1039/c2nr11893a | Unclear | saved replay |
+| 10.1039/c2nr30915g | Unclear | saved replay |
+| 10.1039/c2nr32492j | Unclear | saved replay |
+| 10.1039/c2nr32938g | Unclear | saved replay |
+| 10.1039/c2ra00785a | Unclear | saved replay |
+| 10.1039/c2sc20206a | Unclear | saved replay |
+| 10.1039/c3cp52083h | Unclear | new X reading |
+| 10.1039/c3cy00143a | Unclear | new X reading |
+| 10.1039/c3dt53405g | Unclear | saved replay |
+| 10.1039/c3nr00931a | Thin | saved replay |
+| 10.1039/c3nr02422a | Unclear | saved replay |
+| 10.1039/c3nr02897f | Unclear | saved replay |
+| 10.1039/c3nr02992a | Unclear | saved replay |
+| 10.1039/c3nr03811d | Unclear | saved replay |
+| 10.1039/c3nr04114j | Unclear | saved replay |
+| 10.1039/c3nr06084e | Out of scope | saved replay |
+| 10.1039/c3nr06168j | Unclear | saved replay |
+| 10.1039/c3nr34068f | Unclear | saved replay |
+| 10.1039/c3ra42516a | Out of scope | saved replay |
+| 10.1039/c3ra47044j | Out of scope | saved replay |
+| 10.1039/c3sc52135d | Unclear | saved replay |
+| 10.1039/c3ta13177g | Unclear | new X reading |
+| 10.1039/c3ta13641h | Unclear | saved replay |
+| 10.1039/c4an02322f | Unclear | saved replay |
+| 10.1039/c4ce00462k | Unclear | saved replay |
+| 10.1039/c4cp00294f | Thin | saved replay |
+| 10.1039/c4cp00969j | Unclear | saved replay |
+| 10.1039/c4dt02150a | Out of scope | saved replay |
+| 10.1039/c4ee00335g | Unclear | saved replay |
+| 10.1039/c4ee00502c | Unclear | saved replay |
+| 10.1039/c4nj01466a | Unclear | saved replay |
+| 10.1039/c4nr01721h | Unclear | saved replay |
+| 10.1039/c4nr06003b | Unclear | new X reading |
+| 10.1039/c4nr06458e | Unclear | saved replay |
+| 10.1039/c4ra01361a | Unclear | new X reading |
+| 10.1039/c4ra01582g | Unclear | saved replay |
+| 10.1039/c4ra02707h | Unclear | saved replay |
+| 10.1039/c4ra07788a | Thin | saved replay |
+| 10.1039/c4ra09159k | Unclear | new X reading |
+| 10.1039/c4ra10179k | Unclear | saved replay |
+| 10.1039/c4ra13140a | Unclear | saved replay |
+| 10.1039/c4ra14134b | Unclear | saved replay |
+| 10.1039/c4ta05073h | Unclear | new X reading |
+| 10.1039/c4tb00709c | Unclear | saved replay |
+| 10.1039/c4tb01672f | Unclear | saved replay |
+| 10.1039/c4tc02201g | Unclear | saved replay |
+| 10.1039/c5cc07348k | Unclear | saved replay |
+| 10.1039/c5ce00292c | Unclear | saved replay |
+| 10.1039/c5ce02060c | Out of scope | saved replay |
+| 10.1039/c5cp03312h | Unclear | saved replay |
+| 10.1039/c5dt00837a | Unclear | new X reading |
+| 10.1039/c5nj00400d | Unclear | saved replay |
+| 10.1039/c5nr00028a | Unclear | saved replay |
+| 10.1039/c5nr00334b | Unclear | saved replay |
+| 10.1039/c5nr02617b | Unclear | saved replay |
+| 10.1039/c5nr03791c | Unclear | new X reading |
+| 10.1039/c5nr08544f | Unclear | saved replay |
+| 10.1039/c5ra03491d | Out of scope | saved replay |
+| 10.1039/c5ra10982e | Out of scope | saved replay |
+| 10.1039/c5ra18862h | Unclear | saved replay |
+| 10.1039/c5ra18905e | Unclear | new X reading |
+| 10.1039/c5ra22715a | Unclear | saved replay |
+| 10.1039/c5sc03019f | Out of scope | saved replay |
+| 10.1039/c5ta00854a | Unclear | saved replay |
+| 10.1039/c5ta01948f | Out of scope | saved replay |
+| 10.1039/c5ta02488a | Unclear | new X reading |
+| 10.1039/c5ta03225c | Out of scope | saved replay |
+| 10.1039/c5ta07546g | Unclear | saved replay |
+| 10.1039/c5tc04101e | Unclear | saved replay |
+| 10.1039/c6ay03322a | Unclear | saved replay |
+| 10.1039/c6cc03264h | Unclear | saved replay |
+| 10.1039/c6cc07952k | Unclear | saved replay |
+| 10.1039/c6cc08114b | Unclear | saved replay |
+| 10.1039/c6cc10183f | Unclear | saved replay |
+| 10.1039/c6ce00329j | Unclear | saved replay |
+| 10.1039/c6ce01182a | Unclear | saved replay |
+| 10.1039/c6ce02206e | Unclear | saved replay |
+| 10.1039/c6ce02319c | Out of scope | saved replay |
+| 10.1039/c6cp04847a | Unclear | saved replay |
+| 10.1039/c6ee02824a | Unclear | saved replay |
+| 10.1039/c6nr02725c | Unclear | saved replay |
+| 10.1039/c6nr03268k | Unclear | new X reading |
+| 10.1039/c6nr05563j | Unclear | saved replay |
+| 10.1039/c6ra04209k | Unclear | saved replay |
+| 10.1039/c6ra09344b | Thin | saved replay |
+| 10.1039/c6ra10355c | Unclear | saved replay |
+| 10.1039/c6ra23366j | Unclear | saved replay |
+| 10.1039/c6ra26458a | Unclear | new X reading |
+| 10.1039/c6re00073h | Unclear | saved replay |
+| 10.1039/c6ta06835a | Unclear | saved replay |
+| 10.1039/c6ta07399a | Unclear | saved replay |
+| 10.1039/c6ta07775g | Unclear | saved replay |
+| 10.1039/c6tb02612e | Unclear | saved replay |
+| 10.1039/c6tc04248a | Unclear | saved replay |
+| 10.1039/c7cc07741f | Unclear | new X reading |
+| 10.1039/c7ee03184j | Unclear | saved replay |
+| 10.1039/c7nj04510g | Out of scope | new X reading |
+| 10.1039/c7nj04909a | Unclear | saved replay |
+| 10.1039/c7nr01055a | Unclear | saved replay |
+| 10.1039/c7ra02064c | Unclear | new X reading |
+| 10.1039/c7ra07193k | Unclear | saved replay |
+| 10.1039/c7ra10259c | Unclear | saved replay |
+| 10.1039/c7ra12811h | Unclear | saved replay |
+| 10.1039/c7sc02858j | Out of scope | saved replay |
+| 10.1039/c7se00153c | Unclear | new X reading |
+| 10.1039/c7ta06026b | Thin | saved replay |
+| 10.1039/c7tb00811b | Unclear | saved replay |
+| 10.1039/c7tb01139c | Unclear | saved replay |
+| 10.1039/c7tc01611e | Unclear | saved replay |
+| 10.1039/c7tc02740k | Unclear | saved replay |
+| 10.1039/c8cc03423k | Unclear | saved replay |
+| 10.1039/c8cc09368g | Thin | saved replay |
+| 10.1039/c8ee01348a | Unclear | saved replay |
+| 10.1039/c8nh00227d | Unclear | saved replay |
+| 10.1039/c8nj00758f | Unclear | saved replay |
+| 10.1039/c8nr06166a | Unclear | saved replay |
+| 10.1039/c8nr06635c | Unclear | saved replay |
+| 10.1039/c8nr06883f | Thin | saved replay |
+| 10.1039/c8nr07854h | Unclear | saved replay |
+| 10.1039/c8sc01314d | Unclear | saved replay |
+| 10.1039/c9cc04157e | Unclear | saved replay |
+| 10.1039/c9ce01027k | Out of scope | new X reading |
+| 10.1039/c9gc00097f | Unclear | new X reading |
+| 10.1039/c9na00527g | Unclear | saved replay |
+| 10.1039/c9nj01232j | Unclear | saved replay |
+| 10.1039/c9nj05097c | Out of scope | saved replay |
+| 10.1039/c9nj05919a | Unclear | saved replay |
+| 10.1039/c9nr01192g | Unclear | new X reading |
+| 10.1039/c9nr01682a | Unclear | saved replay |
+| 10.1039/c9nr01785b | Unclear | saved replay |
+| 10.1039/c9nr02708d | Unclear | saved replay |
+| 10.1039/c9nr06346c | Unclear | saved replay |
+| 10.1039/c9ra01799b | Unclear | saved replay |
+| 10.1039/c9ra02758k | Unclear | saved replay |
+| 10.1039/c9ra06279c | Unclear | saved replay |
+| 10.1039/c9ra07047h | Unclear | saved replay |
+| 10.1039/c9ra08252b | Out of scope | new X reading |
+| 10.1039/c9se00341j | Unclear | saved replay |
+| 10.1039/c9ta11462a | Unclear | saved replay |
+| 10.1039/c9tb02823d | Unclear | saved replay |
+| 10.1039/d0cc01191f | Unclear | saved replay |
+| 10.1039/d0lc00213e | Unclear | saved replay |
+| 10.1039/d0nh00008f | Unclear | saved replay |
+| 10.1039/d0nr02626c | Unclear | saved replay |
+| 10.1039/d0ra00653j | Unclear | saved replay |
+| 10.1039/d0ta06704k | Unclear | saved replay |
+| 10.1039/d0ta09474a | Unclear | saved replay |
+| 10.1039/d1cp05809f | Unclear | new X reading |
+| 10.1039/d1nr04753a | Thin | saved replay |
+| 10.1039/d1nr05436h | Unclear | saved replay |
+| 10.1039/d1nr05497j | Unclear | saved replay |
+| 10.1039/d1nr07136j | Unclear | new X reading |
+| 10.1039/d1ta09544g | Unclear | saved replay |
+| 10.1039/d2cc03872b | Unclear | saved replay |
+| 10.1039/d2ce01181f | Unclear | new X reading |
+| 10.1039/d2cp03864a | Unclear | saved replay |
+| 10.1039/d2dt02555h | Unclear | saved replay |
+| 10.1039/d2nj04379c | Unclear | saved replay |
+| 10.1039/d2nj05580e | Unclear | saved replay |
+| 10.1039/d2nr03718a | Unclear | saved replay |
+| 10.1039/d2ra00209d | Out of scope | saved replay |
+| 10.1039/d2se00403h | Unclear | saved replay |
+| 10.1039/d3ce00317e | Out of scope | saved replay |
+| 10.1039/d3nj01117h | Out of scope | saved replay |
+| 10.1039/d3nj03319h | Unclear | saved replay |
+| 10.1039/d3nr04065h | Out of scope | saved replay |
+| 10.1039/d3nr04285e | Unclear | saved replay |
+| 10.1039/d3nr04619b | Unclear | saved replay |
+| 10.1039/d3ra06711d | Unclear | saved replay |
+| 10.1039/d3sc03384h | Unclear | new X reading |
+| 10.1039/d3sc04724e | Unclear | saved replay |
+| 10.1039/d3sm00686g | Unclear | saved replay |
+| 10.1039/d4cy00148f | Unclear | saved replay |
+| 10.1039/d4cy00838c | Unclear | saved replay |
+| 10.1039/d4lc00193a | Unclear | saved replay |
+| 10.1039/d4na00288a | Unclear | new X reading |
+| 10.1039/d4na00440j | Unclear | saved replay |
+| 10.1039/d4nr05185h | Unclear | new X reading |
+| 10.1039/d4nr05213g | Unclear | new X reading |
+| 10.1039/d4ra00665h | Unclear | saved replay |
+| 10.1039/d4ra08792e | Unclear | new X reading |
+| 10.1039/d4re00491d | Unclear | saved replay |
+| 10.1039/d4sc01560f | Unclear | saved replay |
+| 10.1039/d4tc00349g | Unclear | saved replay |
+| 10.1039/d5cc05112f | Out of scope | saved replay |
+| 10.1039/d5cp00853k | Unclear | saved replay |
+| 10.1039/d5na00602c | Unclear | saved replay |
+| 10.1039/d5qi02004b | Unclear | new X reading |
+| 10.1039/d5ra07157g | Unclear | new X reading |
+| 10.1039/d5ta08187d | Unclear | saved replay |
+| 10.1039/d6fd00042h | Thin | saved replay |
+| 10.1063/1.112934 | Unclear | new X reading |
+| 10.1063/1.1564879 | Unclear | new X reading |
+| 10.1063/1.2200748 | Unclear | new X reading |
+| 10.1063/1.2645592 | Unclear | new X reading |
+| 10.1063/1.2748765 | Unclear | new X reading |
+| 10.1063/1.2773971 | Out of scope | new X reading |
+| 10.1063/1.2786068 | Unclear | new X reading |
+| 10.1063/1.2800805 | Unclear | new X reading |
+| 10.1063/1.2812572 | Unclear | new X reading |
+| 10.1063/1.2823582 | Unclear | new X reading |
+| 10.1063/1.2824397 | Unclear | new X reading |
+| 10.1063/1.2959737 | Out of scope | new X reading |
+| 10.1063/1.3337095 | Unclear | new X reading |
+| 10.1063/1.3337689 | Out of scope | saved replay |
+| 10.1063/1.3369389 | Out of scope | saved replay |
+| 10.1063/1.3404183 | Unclear | new X reading |
+| 10.1063/1.3463037 | Unclear | new X reading |
+| 10.1063/1.3499754 | Unclear | new X reading |
+| 10.1063/1.3552678 | Unclear | new X reading |
+| 10.1063/1.3567514 | Out of scope | new X reading |
+| 10.1063/1.3619857 | Unclear | new X reading |
+| 10.1063/1.3624665 | Unclear | new X reading |
+| 10.1063/1.3636438 | Unclear | new X reading |
+| 10.1063/1.3658387 | Unclear | saved replay |
+| 10.1063/1.3659305 | Unclear | new X reading |
+| 10.1063/1.3669408 | Unclear | new X reading |
+| 10.1063/1.3675634 | Unclear | new X reading |
+| 10.1063/1.3678039 | Unclear | new X reading |
+| 10.1063/1.368425 | Unclear | new X reading |
+| 10.1063/1.3686184 | Out of scope | new X reading |
+| 10.1063/1.46442 | Unclear | saved replay |
+| 10.1063/1.4720377 | Unclear | new X reading |
+| 10.1063/1.4738993 | Unclear | new X reading |
+| 10.1063/1.4757866 | Unclear | new X reading |
+| 10.1063/1.4776651 | Unclear | new X reading |
+| 10.1063/1.4793753 | Unclear | new X reading |
+| 10.1063/1.479988 | Unclear | new X reading |
+| 10.1063/1.4804547 | Unclear | saved replay |
+| 10.1063/1.4826147 | Unclear | new X reading |
+| 10.1063/1.4830429 | Unclear | new X reading |
+| 10.1063/1.4831982 | Unclear | new X reading |
+| 10.1063/1.4858135 | Unclear | new X reading |
+| 10.1063/1.4865089 | Unclear | new X reading |
+| 10.1063/1.4866757 | Unclear | new X reading |
+| 10.1063/1.4869216 | Unclear | new X reading |
+| 10.1063/1.4871372 | Unclear | new X reading |
+| 10.1063/1.4878257 | Unclear | new X reading |
+| 10.1063/1.4883761 | Unclear | new X reading |
+| 10.1063/1.4893897 | Unclear | new X reading |
+| 10.1063/1.4896677 | Unclear | new X reading |
+| 10.1063/1.4898320 | Unclear | new X reading |
+| 10.1063/1.4898635 | Unclear | new X reading |
+| 10.1063/1.4917388 | Unclear | new X reading |
+| 10.1063/1.4917778 | Unclear | saved replay |
+| 10.1063/1.4917797 | Out of scope | saved replay |
+| 10.1063/1.4930144 | Unclear | new X reading |
+| 10.1063/1.4938135 | Unclear | new X reading |
+| 10.1063/1.4942608 | Unclear | new X reading |
+| 10.1063/1.4943077 | Thin | new X reading |
+| 10.1063/1.4947700 | Out of scope | saved replay |
+| 10.1063/1.4966217 | Unclear | new X reading |
+| 10.1063/1.4966796 | Unclear | new X reading |
+| 10.1063/1.4968394 | Unclear | new X reading |
+| 10.1063/1.4982256 | Unclear | new X reading |
+| 10.1063/1.5005805 | Thin | new X reading |
+| 10.1063/1.5012798 | Unclear | new X reading |
+| 10.1063/1.5018552 | Unclear | new X reading |
+| 10.1063/1.5100891 | Unclear | saved replay |
+| 10.1063/1.5115501 | Unclear | new X reading |
+| 10.1063/1.5118943 | Unclear | new X reading |
+| 10.1063/1.5121360 | Unclear | new X reading |
+| 10.1063/1.5122592 | Unclear | saved replay |
+| 10.1063/1.5140255 | Unclear | new X reading |
+| 10.1063/5.0017023 | Unclear | saved replay |
+| 10.1063/5.0019787 | Unclear | saved replay |
+| 10.1063/5.0025965 | Unclear | new X reading |
+| 10.1063/5.0029832 | Unclear | new X reading |
+| 10.1063/5.0029898 | Unclear | saved replay |
+| 10.1063/5.0034202 | Unclear | new X reading |
+| 10.1063/5.0112443 | Unclear | new X reading |
+| 10.1063/5.0114224 | Unclear | saved replay |
+| 10.1063/5.0124168 | Unclear | saved replay |
+| 10.1063/5.0157969 | Unclear | new X reading |
+| 10.1063/5.0178041 | Out of scope | saved replay |
+| 10.1063/5.0178180 | Out of scope | saved replay |
+| 10.1063/5.0188574 | Unclear | new X reading |
+| 10.1063/5.0223369 | Unclear | new X reading |
+| 10.1063/5.0224532 | Unclear | saved replay |
+| 10.1063/5.0228028 | Thin | new X reading |
+| 10.1063/5.0233938 | Unclear | saved replay |
+| 10.1063/5.0248364 | Unclear | saved replay |
+| 10.1063/5.0254566 | Unclear | saved replay |
+| 10.1063/5.0264724 | Unclear | new X reading |
+| 10.1063/5.0282852 | Unclear | saved replay |
+| 10.1063/5.0294877 | Unclear | saved replay |
+| 10.1063/5.0298894 | Unclear | new X reading |
+| 10.1063/5.0309776 | Unclear | new X reading |
+| 10.1063/5.0332150 | Unclear | new X reading |
+| 10.1071/ch12387 | Unclear | saved replay |
+| 10.1093/bulcsj/uoad002 | Unclear | saved replay |
+| 10.1093/chemle/upaf127 | Unclear | new X reading |
+| 10.1093/jpp/rgab043 | Unclear | saved replay |
+| 10.1093/mam/ozae044.284 | Unclear | new X reading |
+| 10.1093/mam/ozaf048.156 | Unclear | saved replay |
+| 10.1093/mam/ozaf048.721 | Unclear | saved replay |
+| 10.1093/nsr/nwag421 | Unclear | new X reading |
+| 10.1098/rsos.201883 | Out of scope | saved replay |
+| 10.1101/425850 | Unclear | new X reading |
+| 10.1103/3fd4-x4d1 | Unclear | new X reading |
+| 10.1103/physreva.102.052618 | Unclear | new X reading |
+| 10.1103/physreva.89.012327 | Unclear | new X reading |
+| 10.1103/physreva.96.033855 | Unclear | new X reading |
+| 10.1103/physrevb.63.165315 | Unclear | new X reading |
+| 10.1103/physrevb.64.245342 | Unclear | new X reading |
+| 10.1103/physrevb.73.125322 | Out of scope | new X reading |
+| 10.1103/physrevb.82.165435 | Unclear | new X reading |
+| 10.1103/physrevb.84.045310 | Unclear | new X reading |
+| 10.1103/physrevb.85.155310 | Unclear | new X reading |
+| 10.1103/physrevb.85.241306 | Unclear | new X reading |
+| 10.1103/physrevb.87.085303 | Unclear | new X reading |
+| 10.1103/physrevb.89.045139 | Unclear | new X reading |
+| 10.1103/physrevb.91.134303 | Unclear | new X reading |
+| 10.1103/physrevb.91.161302 | Unclear | new X reading |
+| 10.1103/physrevb.92.201305 | Unclear | new X reading |
+| 10.1103/physrevb.94.045306 | Unclear | new X reading |
+| 10.1103/physrevb.95.195305 | Unclear | new X reading |
+| 10.1103/physrevlett.127.086802 | Unclear | new X reading |
+| 10.1103/physrevmaterials.4.086001 | Unclear | new X reading |
+| 10.1111/j.1551-2916.2009.03396.x | Out of scope | saved replay |
+| 10.1111/j.1551-2916.2010.04265.x | Unclear | saved replay |
+| 10.1111/j.1551-2916.2010.04341.x | Unclear | new X reading |
+| 10.1111/jace.14646 | Unclear | saved replay |
+| 10.1111/jace.15783 | Unclear | saved replay |
+| 10.1111/jace.15815 | Unclear | saved replay |
+| 10.1111/jace.17130 | Out of scope | saved replay |
+| 10.1111/jace.20684 | Unclear | saved replay |
+| 10.1111/php.13136 | Unclear | saved replay |
+| 10.1116/1.2889386 | Unclear | new X reading |
+| 10.1134/s0012500812110055 | Unclear | saved replay |
+| 10.1134/s0018143915010117 | Unclear | new X reading |
+| 10.1134/s0018143920010105 | Unclear | new X reading |
+| 10.1134/s0018143922050125 | Unclear | new X reading |
+| 10.1134/s0018143924700152 | Unclear | saved replay |
+| 10.1134/s0018143924700188 | Unclear | new X reading |
+| 10.1134/s001814392470019x | Unclear | new X reading |
+| 10.1134/s0018143924700206 | Unclear | new X reading |
+| 10.1134/s0020168511090111 | Unclear | saved replay |
+| 10.1134/s0020168515070134 | Unclear | saved replay |
+| 10.1134/s0020168521020096 | Unclear | saved replay |
+| 10.1134/s002016852110006x | Out of scope | saved replay |
+| 10.1134/s0030400x17010313 | Unclear | saved replay |
+| 10.1134/s0030400x2012098x | Unclear | new X reading |
+| 10.1134/s0031918x14060088 | Unclear | new X reading |
+| 10.1134/s0036023612110137 | Unclear | saved replay |
+| 10.1134/s0036023613100215 | Unclear | saved replay |
+| 10.1134/s0036023616090059 | Unclear | saved replay |
+| 10.1134/s0036023618080065 | Unclear | saved replay |
+| 10.1134/s0036023620090211 | Unclear | saved replay |
+| 10.1134/s0036023623600806 | Unclear | saved replay |
+| 10.1134/s0036023625604143 | Unclear | saved replay |
+| 10.1134/s1027451011020157 | Out of scope | saved replay |
+| 10.1134/s1028335823070066 | Unclear | new X reading |
+| 10.1134/s1063774521060067 | Out of scope | new X reading |
+| 10.1134/s106377881512011x | Unclear | saved replay |
+| 10.1134/s1063783416020049 | Unclear | new X reading |
+| 10.1134/s106378342109002x | Unclear | saved replay |
+| 10.1134/s1063784220120269 | Out of scope | saved replay |
+| 10.1134/s1063785018040090 | Out of scope | saved replay |
+| 10.1134/s1070363219030198 | Out of scope | saved replay |
+| 10.1134/s1070427214090134 | Out of scope | saved replay |
+| 10.1134/s1070427214110056 | Out of scope | saved replay |
+| 10.1134/s1070427217070047 | Unclear | saved replay |
+| 10.1134/s1995078010090077 | Unclear | saved replay |
+| 10.1134/s1995078011040094 | Unclear | saved replay |
+| 10.1134/s1995078014060184 | Unclear | saved replay |
+| 10.1134/s2075113312010066 | Unclear | saved replay |
+| 10.1134/s2075113325701357 | Unclear | saved replay |
+| 10.1155/2010/191058 | Out of scope | saved replay |
+| 10.1155/2012/942801 | Unclear | saved replay |
+| 10.1155/2013/841260 | Out of scope | saved replay |
+| 10.1155/2014/840102 | Out of scope | saved replay |
+| 10.1155/2016/2490235 | Unclear | saved replay |
+| 10.1155/2016/6490383 | Out of scope | saved replay |
+| 10.1155/2018/3019586 | Unclear | saved replay |
+| 10.1155/2018/3617687 | Out of scope | saved replay |
+| 10.1155/2019/5106909 | Unclear | new X reading |
+| 10.1155/2020/3124102 | Unclear | saved replay |
+| 10.1155/2021/6689590 | Unclear | saved replay |
+| 10.1155/2024/5525410 | Unclear | new X reading |
+| 10.1155/2024/6288621 | Unclear | saved replay |
+| 10.1166/jnn.2014.9239 | Unclear | saved replay |
+| 10.1177/03093247261447047 | Unclear | new X reading |
+| 10.1186/s11671-017-2212-8 | Unclear | saved replay |
+| 10.1346/ccmn.2012.0600606 | Unclear | saved replay |
+| 10.15407/spqeo23.02.160 | Unclear | new X reading |
+| 10.1557/adv.2016.465 | Unclear | saved replay |
+| 10.1557/jmr.2015.269 | Unclear | new X reading |
+| 10.1557/jmr.2015.57 | Unclear | saved replay |
+| 10.1557/jmr.2017.296 | Out of scope | new X reading |
+| 10.1557/jmr.2019.409 | Unclear | new X reading |
+| 10.1557/mrc.2018.129 | Unclear | saved replay |
+| 10.1557/mrs.2020.229 | Unclear | saved replay |
+| 10.17586/2226-1494-2024-24-1-1-10 | Unclear | saved replay |
+| 10.1889/1.3621144 | Unclear | new X reading |
+| 10.21062/mft.2025.072 | Unclear | new X reading |
+| 10.21203/rs.3.rs-2355571/v1 | Unclear | new X reading |
+| 10.21203/rs.3.rs-2849758/v1 | Unclear | new X reading |
+| 10.21203/rs.3.rs-3372905/v1 | Unclear | new X reading |
+| 10.21203/rs.3.rs-4109110/v1 | Out of scope | new X reading |
+| 10.21203/rs.3.rs-5454422/v1 | Unclear | new X reading |
+| 10.21203/rs.3.rs-550308/v1 | Unclear | saved replay |
+| 10.21203/rs.3.rs-6411699/v1 | Unclear | saved replay |
+| 10.21203/rs.3.rs-677155/v1 | Out of scope | new X reading |
+| 10.21203/rs.3.rs-701744/v1 | Unclear | new X reading |
+| 10.21272/jnep.13(6).06007 | Unclear | new X reading |
+| 10.22541/au.162314906.64494717/v1 | Unclear | saved replay |
+| 10.2478/s13536-012-0065-5 | Unclear | saved replay |
+| 10.26434/chemrxiv-2022-0hx82 | Unclear | new X reading |
+| 10.26434/chemrxiv-2022-1m9q5 | Unclear | saved replay |
+| 10.26434/chemrxiv-2022-st099 | Unclear | new X reading |
+| 10.26434/chemrxiv-2023-ddzn9 | Unclear | new X reading |
+| 10.26434/chemrxiv-2023-sc931-v2 | Thin | new X reading |
+| 10.26434/chemrxiv-2024-90065 | Unclear | saved replay |
+| 10.26434/chemrxiv-2025-776bz | Unclear | new X reading |
+| 10.26434/chemrxiv-2025-kst2w | Unclear | saved replay |
+| 10.26434/chemrxiv-2025-t4cdv | Unclear | new X reading |
+| 10.26434/chemrxiv.12800030.v1 | Unclear | new X reading |
+| 10.26434/chemrxiv.13093559.v1 | Thin | saved replay |
+| 10.26434/chemrxiv.14252681.v1 | Unclear | new X reading |
+| 10.26434/chemrxiv.15007579/v1 | Unclear | saved replay |
+| 10.26434/chemrxiv.8832320.v1 | Unclear | saved replay |
+| 10.26434/chemrxiv.9777632.v1 | Unclear | new X reading |
+| 10.3103/s1061386211040108 | Out of scope | saved replay |
+| 10.3103/s1061386213030060 | Out of scope | saved replay |
+| 10.3103/s1061386215010069 | Unclear | new X reading |
+| 10.3389/fchem.2018.00337 | Unclear | new X reading |
+| 10.3389/fmicb.2019.01587 | Unclear | saved replay |
+| 10.3389/fnano.2022.1069178 | Unclear | new X reading |
+| 10.3390/app11115020 | Out of scope | new X reading |
+| 10.3390/catal12060619 | Unclear | saved replay |
+| 10.3390/catal15111051 | Unclear | new X reading |
+| 10.3390/coatings10121218 | Unclear | new X reading |
+| 10.3390/coatings12040467 | Unclear | new X reading |
+| 10.3390/coatings12040499 | Unclear | new X reading |
+| 10.3390/coatings12070888 | Unclear | new X reading |
+| 10.3390/coatings7120212 | Unclear | saved replay |
+| 10.3390/cryst12070963 | Unclear | saved replay |
+| 10.3390/electronics12122695 | Unclear | new X reading |
+| 10.3390/inorganics11020048 | Out of scope | saved replay |
+| 10.3390/inorganics11050205 | Out of scope | saved replay |
+| 10.3390/iocn2023-14522 | Unclear | saved replay |
+| 10.3390/ma10111242 | Unclear | saved replay |
+| 10.3390/ma12233825 | Unclear | saved replay |
+| 10.3390/ma13030602 | Unclear | saved replay |
+| 10.3390/ma15062213 | Unclear | new X reading |
+| 10.3390/ma15072558 | Out of scope | saved replay |
+| 10.3390/ma17122976 | Out of scope | new X reading |
+| 10.3390/ma17153864 | Out of scope | saved replay |
+| 10.3390/ma17225539 | Out of scope | new X reading |
+| 10.3390/ma7085507 | Unclear | saved replay |
+| 10.3390/met11111679 | Unclear | saved replay |
+| 10.3390/mi14030589 | Unclear | new X reading |
+| 10.3390/molecules26206221 | Out of scope | new X reading |
+| 10.3390/molecules27217660 | Unclear | new X reading |
+| 10.3390/molecules28010453 | Unclear | saved replay |
+| 10.3390/nano10030495 | Out of scope | saved replay |
+| 10.3390/nano10040726 | Unclear | new X reading |
+| 10.3390/nano10081501 | Unclear | saved replay |
+| 10.3390/nano11092448 | Unclear | saved replay |
+| 10.3390/nano12010149 | Unclear | saved replay |
+| 10.3390/nano12193387 | Unclear | new X reading |
+| 10.3390/nano13131913 | Unclear | saved replay |
+| 10.3390/nano13142096 | Unclear | new X reading |
+| 10.3390/nano13142111 | Out of scope | new X reading |
+| 10.3390/nano13172419 | Unclear | saved replay |
+| 10.3390/nano13233072 | Thin | saved replay |
+| 10.3390/nano14110938 | Unclear | new X reading |
+| 10.3390/nano15050335 | Unclear | new X reading |
+| 10.3390/nano16100627 | Unclear | saved replay |
+| 10.3390/nano7020029 | Unclear | new X reading |
+| 10.3390/nano8100786 | Unclear | new X reading |
+| 10.3390/nano9030387 | Unclear | saved replay |
+| 10.3390/nano9121738 | Unclear | new X reading |
+| 10.3390/photonics10070802 | Unclear | saved replay |
+| 10.3390/photonics13010089 | Unclear | new X reading |
+| 10.3390/polym15183766 | Unclear | new X reading |
+| 10.3390/pr9101718 | Unclear | saved replay |
+| 10.3390/proceedings2019026022 | Unclear | new X reading |
+| 10.3390/proceedings2020056023 | Unclear | new X reading |
+| 10.3390/proceedings2020056039 | Unclear | new X reading |
+| 10.3390/proceedings2024105006 | Unclear | saved replay |
+| 10.3402/nano.v3i0.16144 | Unclear | new X reading |
+| 10.37188/cjl.20250003 | Unclear | saved replay |
+| 10.37188/cjl.20250085 | Unclear | saved replay |
+| 10.3740/mrsk.2018.28.1.24 | Unclear | saved replay |
+| 10.3788/col202119.030001 | Unclear | saved replay |
+| 10.3938/jkps.68.22 | Thin | saved replay |
+| 10.66224/cnj.3.4.768 | Unclear | new X reading |
