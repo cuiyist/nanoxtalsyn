@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x02-inventory-repair",
-  "updated_at": "2026-11-22T11:17:45.959413+00:00",
+  "release_id": "owner-website-p-20261119",
+  "updated_at": "2026-11-22T13:57:25.116375+00:00",
   "record_count": 7586,
   "input_files": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "c1030b38702db099e50ae77bee1c2c7236fa96c188f24870acfce2706cf91673",
-      "bytes": 292817
+      "sha256": "ade62fd7afd95b8f7e134c89e8ead29009a9e8788491e015104fb06c751e3882",
+      "bytes": 293707
     },
     {
       "path": "publication/repository-readmes/nanoxtalsyn2.md",
@@ -40066,13 +40066,23 @@
     },
     {
       "path": "recipe-atlas/scripts/method_families.py",
-      "sha256": "3f713b09980274d72de79f659f13ba779e87bc1852bc2b030eedece3d407bceb",
-      "bytes": 37944
+      "sha256": "287e874bc0c6faa9d970970cd840eacde6a04149bcef2255f348f3064e57975a",
+      "bytes": 38187
     },
     {
       "path": "recipe-atlas/scripts/method_family_projection.py",
       "sha256": "b5e9ba953bb224296fe841fe40e02e29cc1763c41b2a9066e35628fd35f491fe",
       "bytes": 996
+    },
+    {
+      "path": "recipe-atlas/scripts/method_recipe_patterns.py",
+      "sha256": "f70b83922a5c3211731911107f7c8eadf760f7f16d277ba38ebfdbb7380ae7c5",
+      "bytes": 6556
+    },
+    {
+      "path": "recipe-atlas/scripts/method_route_fallback.py",
+      "sha256": "b5654b96baa383143ed894353a230c308b6f28ea8563de540f06e3f4147fd2c9",
+      "bytes": 3580
     },
     {
       "path": "recipe-atlas/scripts/method_search_projection.py",
@@ -312230,6 +312240,11 @@
       "bytes": 8524
     },
     {
+      "path": "recipe-atlas/tests/test_method_family_p_fallback.py",
+      "sha256": "c00fd178dbb139ee4c54878d95a3ab7e709a065c4dfa447946a550642d70b7f6",
+      "bytes": 5084
+    },
+    {
       "path": "recipe-atlas/tests/test_method_family_projection.py",
       "sha256": "1f3f69e9b5b47ffdcbbd6a703162da7149c409bd474e71005fb46f44ed339db4",
       "bytes": 2245
@@ -323436,8 +323451,8 @@
     },
     {
       "path": "tools/ci/benchmark-base-reconciliations.json",
-      "sha256": "34b6025eb7a20231944ee292dd144b410edf3e2831a990a58da43dbb69ba2c7f",
-      "bytes": 8719
+      "sha256": "e428537a3c8dc62a363131d4a4ea35e787e246be5e1761c273b7fcf5063ea21f",
+      "bytes": 12047
     },
     {
       "path": "tools/ci/brand-name-identifiers.json",
@@ -323471,8 +323486,8 @@
     },
     {
       "path": "tools/ci/method-families-targets.json",
-      "sha256": "e88d853974d7e501c9951a2c1d0905589b37e0af0e1d717edd973973e540cdd6",
-      "bytes": 3727
+      "sha256": "2e5814f3d1b4ef9abc92ffb549c0558221664888a2c6a179d7043595d1e629ec",
+      "bytes": 3713
     },
     {
       "path": "tools/ci/old-address-redirect.test.mjs",
@@ -323491,8 +323506,8 @@
     },
     {
       "path": "tools/ci/protocol-scenes-targets.json",
-      "sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
-      "bytes": 10602
+      "sha256": "f240cdfb121ddf030d9b5df91c05c940aec98a9730c7d06ca6c71407551a9b69",
+      "bytes": 10598
     },
     {
       "path": "tools/ci/release06-before-method-targets.json",
@@ -323511,6 +323526,16 @@
     },
     {
       "path": "tools/ci/release12-before-protocol-targets.json",
+      "sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
+      "bytes": 10602
+    },
+    {
+      "path": "tools/ci/release13-before-method-targets.json",
+      "sha256": "6c783bd98bcf2baea4d652f2c5bf578c9feea2ee8480330b3799eb92eb6f8d1d",
+      "bytes": 3727
+    },
+    {
+      "path": "tools/ci/release13-before-protocol-targets.json",
       "sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
       "bytes": 10602
     },

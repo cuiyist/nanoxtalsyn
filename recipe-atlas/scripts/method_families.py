@@ -3,10 +3,12 @@
 Only a record's own route, reported source names/formulae, roles and exact
 input/stock/state links are used. No paper, model, registry or amount-based guess.
 """
-import hashlib,re
+import hashlib,re,sys
 from collections import Counter,defaultdict
 from route_labels import completeness,route_label
 from formula_equivalence import formula_equivalent
+from method_route_fallback import operation_fallback,source_fallback
+from method_recipe_patterns import family_order
 
 ELEMENT_NAMES={'Cd':'cadmium','Zn':'zinc','In':'indium','Pb':'lead','Au':'gold','Se':'selenium','S':'sulfur','As':'arsenic','P':'phosphorus','O':'oxygen','Si':'silicon','Te':'tellurium'}
 METALS=set('Li Be Na Mg Al K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Fr Ra Ac Th Pa U'.split())
@@ -72,7 +74,7 @@ alias('Thiourea',{'C','H','N','S'},'CH4N2S','thiocarbamide')
 alias('Thioacetamide',{'C','H','N','S'},'C2H5NS')
 # Reject roles and explicit names that describe media, ligands, supplied samples
 # or apparatus; a formula in such a field does not establish a precursor.
-EXCLUDED_SOURCE_ROLE=re.compile(r'\b(?:solvent|antisolvent|ligand|surfactant|capping|medium|media|vessel|substrate|seed|catalyst|reducing agent|reductant|washing|wash|workup|product|photoabsorber|dispersion|suspension|matrix|host component|film forming)\b',re.I)
+EXCLUDED_SOURCE_ROLE=re.compile(r'\b(?:solvent|antisolvent|ligand|surfactant|capping|medium|media|vessel|substrate|seed|starting particles|grown layer|catalyst|reducing agent|reductant|washing|wash|workup|product|photoabsorber|dispersion|suspension|matrix|host component|film forming)\b',re.I)
 EXCLUDED_SOURCE_NAME=re.compile(r'\b(?:nanocrystals?|quantum dots?|qds?|cores?|shells?|nanowires?|nanorods?|nanoparticles?|preformed|dispersion|suspension|substrate|capping layer|seed|film)\b',re.I)
 
 def excluded_source(material):
@@ -188,7 +190,7 @@ def year(record):
  value=(primary_source(record) or {}).get('year');return value if type(value) is int and 1500<=value<=2200 else 9999
 def record_key(record):
  return (record.get('quality',{}).get('review_status')=='source_extracted',-completeness(record),year(record))
-def route(record,override=None):
+def _prior_route(record,override=None):
  raw_method=str(record.get('method')or'').strip().replace('_',' ')
  value=str(override or route_label(record) or raw_method).strip().replace('_',' ')
  # Explicit rejection/negation/conflict is never a missing-label fallback.
@@ -213,6 +215,9 @@ def route(record,override=None):
   if found:systems.add(found)
  if len(systems)>1:return ''
  return result or(next(iter(systems))if systems else'')
+
+def route(record,override=None):
+ return operation_fallback(sys.modules[__name__],_prior_route,record,override)
 
 def target_sources(formula):
  if re.search(r'[/,:]|\bx\b',formula):return None
@@ -268,7 +273,7 @@ def processing(record):
  own=' '.join([str(record.get('method') or '')]+[str(o.get('action') or '').replace('_',' ')+' '+str(o.get('label') or '') for o in record.get('operations',[])])
  shell_overgrowth=record.get('material',{}).get('architecture')=='core_shell' and any(given_core(m)or str(m.get('role')or'').casefold()=='seed'for m in supplied) and re.search(r'\b(?:overgrowth|seeded growth|shell growth)\b',own,re.I)
  return bool(given and (PROCESS.search(own) or shell_overgrowth))
-def pick_source(record,element,metal,identity_context=None):
+def _prior_pick_source(record,element,metal,identity_context=None):
  used,used_stocks=used_materials(record);candidates=[]
  for m in record.get('materials',[]):
   if excluded_source(m):continue
@@ -311,6 +316,9 @@ def pick_source(record,element,metal,identity_context=None):
  identities={family_source(identity)['key']:family_source(identity)for _,identity in candidates}
  if len(identities)!=1:return None,'missing_source' if not identities else 'multiple_sources'
  value=family_source(next(iter(identities.values())));return {'key':value['key'],'label':value['label']},None
+def pick_source(record,element,metal,identity_context=None):
+ return source_fallback(sys.modules[__name__],_prior_pick_source,record,element,metal,identity_context)
+
 def sparse_core_shell_context(record):
  """A sparse named component feed cannot establish the other components' origin."""
  material=record.get('material',{})
@@ -409,10 +417,9 @@ def build_method_families(records,formula,method_labels=None,identity_context=No
    cards.append({'paper_key':pk,'source_id':source['id'],'doi':source.get('doi'),'year':None if earliest==9999 else earliest,'citation':author_label(source.get('authors'),earliest),'default_record_id':representative['record_id'],'record_ids':[r['record_id'] for r in variants]})
   cards.sort(key=lambda p:record_key(byid[p['default_record_id']]))
   descriptor=g['descriptor'];families.append({'id':'method-family-'+hashlib.sha256(key.encode()).hexdigest()[:12],'kind':descriptor['kind'],'label':descriptor['label'],**{k:descriptor[k] for k in ('route','metal_source','nonmetal_source') if k in descriptor},'paper_count':len(cards),'record_count':len(ordered),'record_ids':[r['record_id'] for r in ordered],'default_record_id':ordered[0]['record_id'],'earliest_year':min((year(r) for r in ordered),default=9999),'papers':cards})
- # Reader interpretation: identified synthesis families compete by adoption;
- # Other is the unclassified fallback, then explicitly-last Processing.
- # If no identified synthesis family exists, Other supplies the default.
- families.sort(key=lambda g:({'synthesis':0,'other':1,'component':2,'processing':3}[g['kind']],-g['paper_count'],g['earliest_year'],g['label'].casefold(),g['id']))
+ # Own-material solution families precede vapour and solid growth; retain
+ # the original context-family separation and in-block paper-count ordering.
+ families.sort(key=family_order)
  return {'schema':'mattersyn-method-families/1','material_formula':formula,'paper_count_unique':len({paper_key(r) for r in records}),'record_count':len(records),'default_record_id':families[0]['default_record_id'] if families else None,'families':families,'diagnostics_record_counts':dict(diagnostics)}
 
 

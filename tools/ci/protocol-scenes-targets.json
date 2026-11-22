@@ -5,25 +5,25 @@
       "id": "default-cdse",
       "group": "benchmark-default",
       "formula": "CdSe",
-      "record_id": "krueger2005-cdse-ac0481912-ode-dots",
+      "record_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop",
       "route": "cdse.html",
       "operation_index": 0,
-      "operation_id": "se-stock",
-      "operation_label": "Prepare selenium injection solution",
-      "record_json_bytes": 119175,
-      "record_json_sha256": "c5260d8b6a85bed975f990e3f6130c0b7394ebbf1bde60e1d5fcf42c55d4a897"
+      "operation_id": "charge",
+      "operation_label": "Charge the cadmium–ligand mixture",
+      "record_json_bytes": 52757,
+      "record_json_sha256": "0b9511bb37ac1f09198a71cd9c9579de749b2de98e82243cd6102b272fe8c830"
     },
     {
       "id": "default-cds",
       "group": "benchmark-default",
       "formula": "CdS",
-      "record_id": "shi2012-ac2033968-cds-carbon-paper-cds-synthesis",
+      "record_id": "wang2023-acs-inorgchem-3c02600-cds-368-1",
       "route": "material.html?id=cds-fad408",
       "operation_index": 0,
-      "operation_id": "dissolve",
-      "operation_label": "Dissolve cadmium chloride hydrate",
-      "record_json_bytes": 34962,
-      "record_json_sha256": "708dddcc5910fca9ed9f8902d0f8a124a3d7857ea4666222519847eaab7c9831"
+      "operation_id": "s01-dissolve",
+      "operation_label": "Dissolve Cd(Ac)2·2H2O in a mixture of chloroform and methanol",
+      "record_json_bytes": 24439,
+      "record_json_sha256": "fbeab21fbe4e8dde80e090a653814689f24e15a4834f52f51d897b7136a80f83"
     },
     {
       "id": "default-zns",
@@ -41,13 +41,13 @@
       "id": "default-inas",
       "group": "benchmark-default",
       "formula": "InAs",
-      "record_id": "mehta2010-1-3488812-site-selectively-grown-inas-quantum-dots-1",
+      "record_id": "salikhova2025-chemrxiv-2025-hgkl3-inas-clusters-1",
       "route": "material.html?id=inas-a2e691",
       "operation_index": 0,
-      "operation_id": "s01-grow",
-      "operation_label": "Grow GaAs buffer layer",
-      "record_json_bytes": 25499,
-      "record_json_sha256": "394af57e74f4ac08912b20e6bf45ad2c30448bfbe65883174055bf71bd360bdb"
+      "operation_id": "s01-degas",
+      "operation_label": "Degassing the mixture",
+      "record_json_bytes": 15170,
+      "record_json_sha256": "72b23549e768bee5ab8ff82c279d84a1c6ab4da986058811d9663de5d5ae4ad5"
     },
     {
       "id": "default-pbs",
@@ -65,13 +65,13 @@
       "id": "default-inp",
       "group": "benchmark-default",
       "formula": "InP",
-      "record_id": "muller2025-acs-inorgchem-5c02060-inp-qds-1",
+      "record_id": "larson2023-inp-edta-chemmater3c01309-cl-edta025",
       "route": "material.html?id=inp-9eb58d",
       "operation_index": 0,
-      "operation_id": "s01-charge",
-      "operation_label": "InCl3 and K are charged into a three neck flask",
-      "record_json_bytes": 37630,
-      "record_json_sha256": "146b6dcb872128c8089eb967c2aec99d202ce53031f3b8d2675e95c17887d4e1"
+      "operation_id": "mix-precursor",
+      "operation_label": "Prepare precursor mixture",
+      "record_json_bytes": 85941,
+      "record_json_sha256": "b245adcdffbd08f539536ceeec50682cda8811dc1c2613a1c6cf32006a30a17e"
     },
     {
       "id": "default-au",
@@ -101,25 +101,25 @@
       "id": "default-gaas",
       "group": "benchmark-default",
       "formula": "GaAs",
-      "record_id": "wu2010-nl100217k-gaas-quantum-dot-pairs-qdps-in-al0-3ga0-1",
+      "record_id": "zhou2025-jacs-4c13568-gaas-ncs-1",
       "route": "material.html?id=gaas-889234",
       "operation_index": 0,
-      "operation_id": "s01-grow",
-      "operation_label": "Grow GaAs contact layer",
-      "record_json_bytes": 18601,
-      "record_json_sha256": "bb98c8a3442bace03353b0fef5131472e7fe081c8adac46303c0b42525fc34d6"
+      "operation_id": "s01-melt",
+      "operation_label": "Melt a eutectic mixture of GaI3 and KI",
+      "record_json_bytes": 10148,
+      "record_json_sha256": "b78086463b4bc265552caf4d963ebe038136aaa86fa3693af2291521a0916d9b"
     },
     {
       "id": "default-sno2",
       "group": "benchmark-default",
       "formula": "SnO2",
-      "record_id": "xu2008-ja8040527-sno2-quantum-dots-qds-1",
+      "record_id": "kudryavtseva1997-sno2-a702862h-a-as-prepared",
       "route": "material.html?id=sno2-0fe88f",
       "operation_index": 0,
-      "operation_id": "s01-heat",
-      "operation_label": "Heat the solution in the autoclave",
-      "record_json_bytes": 17961,
-      "record_json_sha256": "26984ec4c91b9444879eaef2eeb23d521c8c9e5d95426acfce2a7633ffbca3ce"
+      "operation_id": "dissolve",
+      "operation_label": "Dissolve precursor in an ice bath",
+      "record_json_bytes": 22274,
+      "record_json_sha256": "d1ca355de21a76eea7d9b41d8d4ff1473a509413367f8845cf0f387c081748b1"
     },
     {
       "id": "gaas-droplet",
