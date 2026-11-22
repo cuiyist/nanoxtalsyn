@@ -1,19 +1,19 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "completeness-y3-v6-20261120-11",
+  "release_id": "completeness-f6-recovered-original-tail-20261121",
   "repo": "mattersyn",
-  "source_commit": "00bc7df3c8bff4f3c387edde723e041f500830aa",
+  "source_commit": "9e5cf34eea8711f98dea32eaca2dbe4d4dcd9cf2",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "2650f0316965746c6225e6281b5e32d21222a84ed2b5cf0bf2cf2159ff7d4738",
-    "file_count": 63715,
+    "sha256": "5be734febf9d71b18ad3d459c4d6b4b2a7e9588b346b6b0963bbbba4be5e050b",
+    "file_count": 63719,
     "excludes": [
       "publication/project-allowlist.json"
     ]
   },
-  "policy_sha256": "ef1a1e595684165405b43a358a24a2ccb8ce93eb96cc4b98abfb90af12a6a686",
-  "asset_rights_registry_sha256": "255f0ab732f1c3947738c2662ed83aabd0add5a5a06654eb403ea03507cebe55",
+  "policy_sha256": "f1c77799ab2986f08d438fb824b9a117d71e5e91b269734ac0c7e39a91a2926e",
+  "asset_rights_registry_sha256": "a42bd7ac8c063c5dd1a8539578247a7f9e83bb3c1b5bdf8c9bc5050c4e6996de",
   "review_scope": "Exact staged payload identities. Scientific review remains separately bound to paper content.",
   "files": [
     {
@@ -138,44 +138,44 @@
     },
     {
       "path": "publication/asset-rights-registry.json",
-      "sha256": "255f0ab732f1c3947738c2662ed83aabd0add5a5a06654eb403ea03507cebe55",
-      "bytes": 78007059,
+      "sha256": "a42bd7ac8c063c5dd1a8539578247a7f9e83bb3c1b5bdf8c9bc5050c4e6996de",
+      "bytes": 78009907,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "0d08433e9e0dd963f0d22c3741dad143be176c59c3ac99c8b8082ad4ec949c00",
-      "bytes": 14702875,
+      "sha256": "ad6b96e2ea09782d05c7337732713d95b7b0bb54609073c0c4fc435fe76e749b",
+      "bytes": 14705782,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-21T20:08:28.612419+00:00",
+      "reviewed_at": "2026-11-22T02:27:13.275437+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "2604e7cf352683787ef1c395e2abf9d5baed75bb7c591af100784eb8770d09cc",
-        "sha256": "aced6b24d41780e2bc4ff39ac09891dcc14d6acd294e6769c7ba15c93ff93504",
+        "before_sha256": "aced6b24d41780e2bc4ff39ac09891dcc14d6acd294e6769c7ba15c93ff93504",
+        "sha256": "2a16e23e6cbd43b83c96f27bc42f1d105619236e9130a36b0ae117cb6952aad5",
         "reviewer": "Codex F6 preservation review",
-        "reviewed_at": "2026-11-21T20:07:52.147325+00:00"
+        "reviewed_at": "2026-11-22T02:26:38.963724+00:00"
       }
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "ef1a1e595684165405b43a358a24a2ccb8ce93eb96cc4b98abfb90af12a6a686",
+      "sha256": "f1c77799ab2986f08d438fb824b9a117d71e5e91b269734ac0c7e39a91a2926e",
       "bytes": 291927,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -3008,49 +3008,49 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "cd40ff14a45e85f7d2c3122bc0de0060218ab83f4594228ed564c8a5de37e0d0",
+      "sha256": "6c9559765dfdd579713ef562bf9adac11b05abdad3e57bb2fa146e8164debe2a",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "0ec687e014af054e141c2e31991e0c4ff62546b0be15cde6c4416f38d691b43a",
-      "bytes": 83871862,
+      "sha256": "12b0c78e99e0e4c1e00f57195e311a4a87e89ee9e14f2c957df16532cfe05050",
+      "bytes": 83874556,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "e2b8419fbe3c7e3e43563d6161d539d403998db51405ea7a1813c88250a98d4e",
-      "bytes": 83880197,
+      "sha256": "3d93c453ef64b231550fab9f0eaa2e91a532efe429922f96df6f20a3e90d37e5",
+      "bytes": 83871877,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "e83606c7c5697ca4e318e9b912e2b2bb9ce3e29b6d4b05c332b047980a6b191a",
-      "bytes": 2714904,
+      "sha256": "273e8c9346800fe63fdb9250ba19139a0de528a6f5374b44a221e21c55a9b2d3",
+      "bytes": 2730810,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3283,13 +3283,13 @@
     },
     {
       "path": "recipe-atlas/data/records/1-3489436-au-nps-1.json",
-      "sha256": "49b60c1ef3563b277bb1e58fd3f90c6ea989331e14256937a522477fa54417ce",
-      "bytes": 13195,
+      "sha256": "cc301758ba11dd4453e33506d4ddccc28d071a7b3fafd3ff32026266218ba1c4",
+      "bytes": 12781,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -4830,13 +4830,13 @@
     },
     {
       "path": "recipe-atlas/data/records/al2006-pssa-200622106-sample-b-2.json",
-      "sha256": "7c0458e84076aad4f6a34bdca39778caaef36541f0fe4ed1442b3f91f0435912",
-      "bytes": 11387,
+      "sha256": "1ea50cd1c01fd5f3e981c8304c472e878a7eb24cf988e7aa4bc579678f62bc85",
+      "bytes": 11056,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -6796,13 +6796,13 @@
     },
     {
       "path": "recipe-atlas/data/records/alam2025-acsami-4c21351-cspbbr3-gpa-pqds-1.json",
-      "sha256": "1b71c39fdd5c2ac8b771428025dee5fd096764631089bfa78ca84cd4ed344210",
-      "bytes": 25580,
+      "sha256": "4d2cfcdd99304d03fd73198ff8631656dc2b2384311845f1e77847584f313a10",
+      "bytes": 24962,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -8431,13 +8431,13 @@
     },
     {
       "path": "recipe-atlas/data/records/baek2021-acs-chemmater-1c01496-pb1xbixsy-nr-2.json",
-      "sha256": "2bc68c7f0fa93d58fde2933d5e38c4d51a040e5bfeeebdeee855fc389b948a14",
-      "bytes": 22440,
+      "sha256": "5d4b9b51907c46bbeb7893393cdec5c228641a90b8666deacc63a78066620899",
+      "bytes": 21723,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -9158,13 +9158,13 @@
     },
     {
       "path": "recipe-atlas/data/records/banerjee2025-acs-jpcc-5c04249-b-goqds-1.json",
-      "sha256": "a3f8b22c1ecb3c0448ca7a6095865d7e6dfd333f921953e58cd948ba1ae8588e",
-      "bytes": 27854,
+      "sha256": "90ffe5429f60a6148e244d11822d274f78549abe125fcfc70fbb13b3d11d6061",
+      "bytes": 27271,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -11617,13 +11617,13 @@
     },
     {
       "path": "recipe-atlas/data/records/boehme2023-acsnano-2c07677-5-nm-cspbbr3-qds-1.json",
-      "sha256": "cd20d4611a3a10c29315d161d510935737f5477bb226ab7832e091f7cc168576",
-      "bytes": 19154,
+      "sha256": "fbb786c6ef26bf5a0046f65a02faf6cf53db7ccacd5c8857ae89a782245f76cd",
+      "bytes": 18704,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -16911,17 +16911,16 @@
     },
     {
       "path": "recipe-atlas/data/records/chen2009-s10971-009-1897-2-al2o313-wt-tio2-nanocrystalline-powder-1.json",
-      "sha256": "64b5e0c5bf34d68775c625e621e1de2c056849ee1c2ccb0bfaa1f00b654407a4",
-      "bytes": 12296,
+      "sha256": "30b5a627cd01f1e7f2ee6ff12d341c4fe6207b25c5fdc8c83500d1282bbe1df8",
+      "bytes": 15300,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact B40/B41 payload review; public status path redaction; no independent scientific approval",
-      "reviewed_at": "2026-10-16T13:24:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s10971-009-1897-2",
           "url": "https://doi.org/10.1007/s10971-009-1897-2"
         }
       ]
@@ -20850,15 +20849,19 @@
     },
     {
       "path": "recipe-atlas/data/records/d2016-1-4946213-mpa-capped-cds-quantum-dots-1.json",
-      "sha256": "0db326f20f603891aa8148058fc8bd915c27db11a8c5d67cd71b53f114550cb2",
-      "bytes": 15729,
+      "sha256": "587f1167a3c3f797ef9148c187d00651f4829c8a62c9784d11ce7e65f8831896",
+      "bytes": 19248,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-15T01:07:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1063/1.4946213"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/d2na00734g-inp-zns-core-shell-qds-1.json",
@@ -27112,13 +27115,13 @@
     },
     {
       "path": "recipe-atlas/data/records/evers2010-nl102705p-au-nanocrystals-3.json",
-      "sha256": "af974b378fa2218866f93e75ffd0400002acae11bc40dfcbcc3263a1941b8a57",
-      "bytes": 20197,
+      "sha256": "b355f7100977b5f669c8b46db807af73fb25191ed8b4de8c464604c5ef33b77c",
+      "bytes": 19586,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -28075,17 +28078,16 @@
     },
     {
       "path": "recipe-atlas/data/records/fischer2003-1-1606498-fe-sheathed-mgb2-tapes-1.json",
-      "sha256": "7ed3835e310a47edfd4a163e699f43bd686f5e8303a706823c3b23432dd26c08",
-      "bytes": 10637,
+      "sha256": "3c1a67b68d48e2bce1898c125b39f91883b26e7d9c7fba808ed17c1235bd97b1",
+      "bytes": 13930,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root simple-pipeline engineering and source_extracted integration review; no independent scientific audit",
-      "reviewed_at": "2026-10-19T01:53:51+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1063/1.1606498",
           "url": "https://doi.org/10.1063/1.1606498"
         }
       ]
@@ -29121,13 +29123,13 @@
     },
     {
       "path": "recipe-atlas/data/records/fu2006-1-2353849-nc-w2n-a-si3n4-coating-1.json",
-      "sha256": "33f8002af4dece8e06c9ed757bc5257473babf26c1e144ed4d0d8607fe018754",
-      "bytes": 9502,
+      "sha256": "ab02e96299530c6d98df0df3166d983e211903dc89a1f7cc345882aff22ff385",
+      "bytes": 9050,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -33530,17 +33532,16 @@
     },
     {
       "path": "recipe-atlas/data/records/guo2012-jp210949v-cdse-5-2cds-1.json",
-      "sha256": "b737fc096367980d6bfc63e49817912c5031790edff79cf2e062804514192ab8",
-      "bytes": 26465,
+      "sha256": "203505c4621eae1a87e9ca24f928ee7a1c2e45eddb5592e395f93f0f76946862",
+      "bytes": 39050,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-11T09:01:17+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/jp210949v",
           "url": "https://doi.org/10.1021/jp210949v"
         }
       ]
@@ -42520,17 +42521,16 @@
     },
     {
       "path": "recipe-atlas/data/records/jarosz2004-physrevb-70-195327-cdse-quantum-dots-qds-with-a-diameter-of-1.json",
-      "sha256": "09bf27a86e225ab5523765b5acb49a3855953782953997d186cc9193c3d5c537",
-      "bytes": 17344,
+      "sha256": "475735632859c4e35999fafc01ccb7fb1cd41b52eb5c1bb211f6cfd262beb796",
+      "bytes": 23001,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-12T00:48:04+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1103/physrevb.70.195327",
           "url": "https://doi.org/10.1103/physrevb.70.195327"
         }
       ]
@@ -44769,13 +44769,13 @@
     },
     {
       "path": "recipe-atlas/data/records/jin2016-jacs-6b06972-wse2-sqds-4-1-nm-1.json",
-      "sha256": "f3d2123aa1b66380fc6b44cdd19bc8c7676eded981abc803942fb2471a8944e5",
-      "bytes": 22077,
+      "sha256": "6005569fa6282e5522fb2579e89324e3ade41a902d4239970b7f00d083b23914",
+      "bytes": 21428,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -46679,17 +46679,16 @@
     },
     {
       "path": "recipe-atlas/data/records/katari1994-j100066a034-cdse-nanocrystals-1.json",
-      "sha256": "8dbfe0a0fdc4d4dc74805b59ea664c9ff986d6302d35c943dfc9c049e4ef986f",
-      "bytes": 16163,
+      "sha256": "0b4e0a84c44ae8ce144f24a55663b2b1b6e76266c2a33782b95bf00216931cba",
+      "bytes": 19826,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "/root",
-      "reviewed_at": "2026-10-31T22:39:52+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/j100066a034",
           "url": "https://doi.org/10.1021/j100066a034"
         }
       ]
@@ -46859,13 +46858,13 @@
     },
     {
       "path": "recipe-atlas/data/records/ke2019-acsbiomaterials-8b01253-mos2-qds-1.json",
-      "sha256": "dad2bd14b817dd7163481dc54bb883b2d9cb501cd5899ef2dcaeb395a8ed44d2",
-      "bytes": 8065,
+      "sha256": "8dc97e5a1875b0ecdf2bbe7c374e1787b136b4b1c2e931726fd605a66af04f42",
+      "bytes": 13411,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact Q26 Source paths, normal provenance, preservation and reviewed five progress documents",
-      "reviewed_at": "2026-10-23T05:13:35+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -55121,13 +55120,13 @@
     },
     {
       "path": "recipe-atlas/data/records/li2014-am5012782-cdse-cds-cdxzn1xs-zns-qd-nanobeads-1.json",
-      "sha256": "f107885c82c321d14e1f3a178efe7caa777348688465ab465b444687a6f65955",
-      "bytes": 23196,
+      "sha256": "84f534864ff05f240da3b9429668614ec109b3eda20b468b754753cea910a227",
+      "bytes": 22305,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -65518,13 +65517,13 @@
     },
     {
       "path": "recipe-atlas/data/records/mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1.json",
-      "sha256": "969a6e293f9b9a3c5f2ce5cda4a3927bf5a24cd5ea3a99878b915ab731f8fca9",
-      "bytes": 15368,
+      "sha256": "a490b5188ac6c2b295a99856b8b063cb096cd7960cd0349fba0e20d33b7a443a",
+      "bytes": 14412,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -72240,27 +72239,35 @@
     },
     {
       "path": "recipe-atlas/data/records/oh2020-er-5695-agbis2-ncs-control100c-1.json",
-      "sha256": "4607cdf581b0d5df00bf63dd0b10da77bd57cfbf9ba78d19ecbe88da8355d93d",
-      "bytes": 13130,
+      "sha256": "9ee486ad650c1edb2ebaa52e25368dbaab30946fd577745e11d081005d77b358",
+      "bytes": 16506,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1002/er.5695"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/oh2020-er-5695-agbis2-ncs-modified100c-2.json",
-      "sha256": "22c6cd6653ab76bad8dd5232a33e671105d59cc7d04a846f68d8e2d159b7a743",
-      "bytes": 11022,
+      "sha256": "0c0a0ccf89933a21c11b410997a5d8943a18fd15ed2dcfa1b582abe3ca355b28",
+      "bytes": 14625,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1002/er.5695"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/ohkubo2006-s00216-006-0814-6-biotinylated-yag-ce3-nanoparticles-1.json",
@@ -84794,13 +84801,13 @@
     },
     {
       "path": "recipe-atlas/data/records/reinhart2015-acs-chemmater-5b02786-3-mpa-capped-pbs-qds-1.json",
-      "sha256": "2f1f756cdae020ea0864ff2ad14a75350639120aad9f2ee1f27c6b75ad976510",
-      "bytes": 24138,
+      "sha256": "5ce6d90fd90656a532537de498e14a2eb1547b0f088c2f132f102480f824139a",
+      "bytes": 23652,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -87810,27 +87817,35 @@
     },
     {
       "path": "recipe-atlas/data/records/santos2020-nano10071252-cis-1-1.json",
-      "sha256": "20d7cc7004fa59fb73d78162f08bafe31a4e397be9b4dc31b6786a343675e7fc",
-      "bytes": 17281,
+      "sha256": "c0864c60b0deaa84662ef4dfced53ae81c3c32136a1efd401b8896403ddd1d9b",
+      "bytes": 22046,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T06:01:15+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.3390/nano10071252"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/santos2020-nano10071252-cis-2-2.json",
-      "sha256": "146815e3064f0868accf5708ae9c004463d69fc9b4a998a2f2d62d5bcf7da7b3",
-      "bytes": 17281,
+      "sha256": "4a715c61134e479ea9fa39dca6c1e246e526c672fd50e8273535a4a3fa0dd452",
+      "bytes": 22046,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T06:01:15+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.3390/nano10071252"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/santos2023-j-ijbiomac-2023-126453-qds-ecti-conjugate-1.json",
@@ -92242,17 +92257,16 @@
     },
     {
       "path": "recipe-atlas/data/records/sheikh2008-s10853-007-2302-6-nife2o4-sample-a-1.json",
-      "sha256": "280802ebb65a2afda2aabd227345c3fcde2b04d6e5245f2486da6f0a086fbfc3",
-      "bytes": 15371,
+      "sha256": "80ac5a8dbb221f08b10950d65e010c91746aa02590a7e7e76c7e72ee35157f6e",
+      "bytes": 17458,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root",
-      "reviewed_at": "2026-10-17T17:11:18+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s10853-007-2302-6",
           "url": "https://doi.org/10.1007/s10853-007-2302-6"
         }
       ]
@@ -96450,15 +96464,19 @@
     },
     {
       "path": "recipe-atlas/data/records/sperry2021-acs-chemmater-0c03088-cu2znsns4-czts-nanocrystals-1.json",
-      "sha256": "1a51a63bdb793539a43e859c98efc508997fc543aca4276fdad6c7c59b00690a",
-      "bytes": 22626,
+      "sha256": "19992fa2ed90abf4e5ffad51c62c4204b6941a24c4dc5af558bccacc621c8d22",
+      "bytes": 30963,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-15T01:07:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.chemmater.0c03088"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/spirin2003-a-1024271226236-agi-nanocrystals-stabilized-with-ddt-1.json",
@@ -96979,17 +96997,16 @@
     },
     {
       "path": "recipe-atlas/data/records/steinhagen2012-jz301023c-pyrite-nanocrystals-1.json",
-      "sha256": "b714edb49727838d1e3c342c461a02434f9b5da722b06a8062d52b35fddba59f",
-      "bytes": 21605,
+      "sha256": "caf57033a2ff501b897b128dda3f2745e539bbf11aaf7e6a1f0dbd87446d2291",
+      "bytes": 26233,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: ordinary source-extracted byte review, accepted Reader code and three elements-only corrections",
-      "reviewed_at": "2026-10-17T01:44:22+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/jz301023c",
           "url": "https://doi.org/10.1021/jz301023c"
         }
       ]
@@ -100060,13 +100077,13 @@
     },
     {
       "path": "recipe-atlas/data/records/tenney2022-acs-chemmater-2c01144-3-ml-cdte-npls-after-seeded-growth-1.json",
-      "sha256": "4519343d4ba5ae360cb8b504e681887383356e7330b8fbcca8fea6811fe87719",
-      "bytes": 19679,
+      "sha256": "bac70ad1703467a5ee5f51d73b8ad43efeaaa6eaf7a5195befb2a40f73a03c06",
+      "bytes": 18675,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -101766,13 +101783,13 @@
     },
     {
       "path": "recipe-atlas/data/records/traverso2023-pharmaceutics15061651-hsa-qds-2.json",
-      "sha256": "ff9956e42c80c9c01d6a6b02c5f951dbe1f0f98fe5f98daaadbe98c8475daf89",
-      "bytes": 17374,
+      "sha256": "b6a90cc8816a2f659e84272cd418c116ee3a8c6c078cd96e2ac19180be826575",
+      "bytes": 16866,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -106230,17 +106247,16 @@
     },
     {
       "path": "recipe-atlas/data/records/wanghe2006-s11434-006-2022-3-tio2-nanocrystalline-film-5-layers-1.json",
-      "sha256": "4d7ea683cae35cd7f7ff37bb9599643ad10bfe058750e4a53e9cbba8d3524165",
-      "bytes": 13967,
+      "sha256": "ab28577e14cace2b68c757825b8588d2ac8a89da060abe270769980a5d6e3bab",
+      "bytes": 19021,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: source_extracted simple-lane exact public files, citation identities, captions and unchanged science bindings",
-      "reviewed_at": "2026-10-16T15:56:30+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s11434-006-2022-3",
           "url": "https://doi.org/10.1007/s11434-006-2022-3"
         }
       ]
@@ -106807,15 +106823,19 @@
     },
     {
       "path": "recipe-atlas/data/records/wen2021-d0ta10394b-znte-qds-1.json",
-      "sha256": "398b30d8a12ec6c5558b76820ba9a96fd0ccbc393c87392d5637bead9f8b9586",
-      "bytes": 10279,
+      "sha256": "eb89d10a660677a45a67018d712486944d7f1aa5c29810ce56c0ff5205036b6f",
+      "bytes": 13966,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-17T10:17:48+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1039/d0ta10394b"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/data/records/whiffen2021-nano11030715-wurtzite-zns-nanopowder-1.json",
@@ -118081,17 +118101,16 @@
     },
     {
       "path": "recipe-atlas/data/records/zane2014-jp504755a-cdse-cds-zns-quantum-dots-qds-with-40-qu-1.json",
-      "sha256": "433d304a974b36e4147f24774d82301251ccb432c22778860352e8e75a8eb3c2",
-      "bytes": 16473,
+      "sha256": "ff523fe5ec50873a67a0fece259c902c04691a0f638a3cf88ee0afe5d542b94e",
+      "bytes": 20496,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-11T09:01:17+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/jp504755a",
           "url": "https://doi.org/10.1021/jp504755a"
         }
       ]
@@ -118262,13 +118281,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zeng2008-jp711395f-cdte-cds-core-shell-quantum-dots-qds-wit-1.json",
-      "sha256": "7775b196f7b15c81b9559290795091194ab2a0c7f08bb07eac8d745b6f4d01b8",
-      "bytes": 17987,
+      "sha256": "81498ef5d5898d1c3ba3fe0f5fa56d82583636fffaf31c48e8e2f1e34d676d7f",
+      "bytes": 16970,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -119499,13 +119518,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2010-jp1025152-pbs-qds-1.json",
-      "sha256": "fec0c67fb8479de220d0d060a710a79d2f3af60167778b14243619764f27e78b",
-      "bytes": 21760,
+      "sha256": "af2f96b00c75c8d2233ec9289ec8b18519471e842cfe2d6331eedda596e74d8c",
+      "bytes": 20599,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -120858,13 +120877,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "c8360101a8fb428c9cf727f7b6ca137c2f569702590feb7691a4f5f2f099311a",
-      "bytes": 19598,
+      "sha256": "78118c4f2fe78405ca2560d2cc9bd5242ea5da72e1d1982bc3eaf74447c1882a",
+      "bytes": 18987,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -124303,13 +124322,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhu2024-acs-jpcc-4c01511-cspbbr3-nanocubes-ncs-1.json",
-      "sha256": "c332b865ebc062c5b7e1e51519f55bb9278dcad8fe9e0a39b9c9619183bc882c",
-      "bytes": 28831,
+      "sha256": "edfd52aee9c5fa182352170fa03b9588dd7121bd8589d628e94e0e77950491bc",
+      "bytes": 28194,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -124741,13 +124760,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "dba292a0dbbe7ca1101c2d6aa39a22a2467926bf8e5516aa103b99c1530236a4",
-      "bytes": 26187263,
+      "sha256": "c0c6778483bb29c277f7cf398d0604279ddda65c808468645e4c6075d92241da",
+      "bytes": 26187264,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-21T20:08:28.612419+00:00",
+      "reviewed_at": "2026-11-22T02:27:13.275437+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -137017,25 +137036,25 @@
     },
     {
       "path": "recipe-atlas/scripts/chemical_resolved_identity_pins.json",
-      "sha256": "f1da784f2e982797249d27ba10773fbe35cd59d7123dd18ef7c07b75683e4b2b",
+      "sha256": "005113e130fe173226b871c9fa7a4880b2fecdb27886fd9ff701caac57ffc83e",
       "bytes": 152140,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/scripts/chemical_standard_abbreviation_pins.json",
-      "sha256": "c4ffa9794c2dd03c1353070a229d1bc148f6b8e58178e702f145b248929e1e28",
+      "sha256": "358d4e7ae8acdca71d4dc0beecc666dba1e60b5a14d19ce435145b60ecfef4aa",
       "bytes": 32285,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -138570,13 +138589,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "f577cecaaaee3a3d0d81e0332d5551028a97c3e06e2c81cdf887aa7ca9b7eaf5",
-      "bytes": 10825754,
+      "sha256": "83a297092bdfe7009c376c7535f782c8411ae96e2a6966f002b4f41076a7cac1",
+      "bytes": 10825052,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -169851,25 +169870,25 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "1f724fd1138e009a9c9ccf624622bdedc338cdb75a3362fb167473f8c742c370",
-      "bytes": 4912274,
+      "sha256": "d18449ca0855149fc696ae835422c1992df949d1e27d0dcbe7116fb75f41eb73",
+      "bytes": 4913160,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/registry.json",
-      "sha256": "a643c9e35e162a2c80f54d5c15e2e95591db89ff8bd19a4c0e52f1961e2b4b03",
-      "bytes": 12882384,
+      "sha256": "c8d68851a79cb6c8c87fb9d1c5c7b360d5bfff1db568f70865a0cb2e6f0b5911",
+      "bytes": 12885288,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -209223,6 +209242,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-amine.svg",
+      "sha256": "b2854a56df099637f2a068445adc4903b28a0d8c609c7cb1a35df36d2285c16c",
+      "bytes": 602,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/jp210949v"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-amino-as.svg",
       "sha256": "f3e19e2880fcd3c035686c50978123a2fd4ae8bd389534c8599ba14f1940e0e1",
       "bytes": 608,
@@ -218683,6 +218718,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.cgd.2c01404"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cis-9-octadecenoic-acid.svg",
+      "sha256": "46f7d8d9696a03b992c87afa85b639f0a554b2d0b877c36885785e445cb6bc49",
+      "bytes": 638,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1103/physrevb.70.195327"
         }
       ]
     },
@@ -243833,6 +243884,22 @@
         {
           "doi": "10.1021/ja002956f",
           "url": "https://doi.org/10.1021/ja002956f"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-octyl-2nh.svg",
+      "sha256": "bcdf71f36712ddbf4b042660ea3e0d75e1935ab7f0944a9c328021d99c3ac4e2",
+      "bytes": 612,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/jp210949v"
         }
       ]
     },
@@ -916161,13 +916228,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/1-3489436-au-nps-1.json",
-      "sha256": "534b2507cc4ae5b1ecc89c90fb47d087aad6068a479577f3652f57042951993c",
+      "sha256": "e81c9405f17847a92b9b7a54e0dbcce24be2d1a16698c24cba1b81fcae404e45",
       "bytes": 1168,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -919492,13 +919559,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/al2006-pssa-200622106-sample-b-2.json",
-      "sha256": "439a8065cfe3e3e14dc38fbd78635c97c51714a2f8e3879e003f20d4538a2393",
+      "sha256": "0daa729d15be87adf664fb037ce4d0ea41cf21a89240756bed8f910694c924c3",
       "bytes": 1691,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -925818,13 +925885,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/alam2025-acsami-4c21351-cspbbr3-gpa-pqds-1.json",
-      "sha256": "e827875b2e8e42168afd35f0aa06da53afa908f5231b01560b70fe6ad26e0c34",
+      "sha256": "0870f3394650471be73d24b78b67f8eb126e1d3e8bfd40348fdff8586fb62403",
       "bytes": 1772,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -929193,13 +929260,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/baek2021-acs-chemmater-1c01496-pb1xbixsy-nr-2.json",
-      "sha256": "475b71039535deb8bbaf34a748dacff3465f493c6cb171bc4d657300612de6eb",
+      "sha256": "2c674c75be4ac7823ebc6ca902a98511533de0ceea2b010aafc6fb6653b03b8d",
       "bytes": 1273,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -929982,13 +930049,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/banerjee2025-acs-jpcc-5c04249-b-goqds-1.json",
-      "sha256": "4e9ae058f082ac57f52886b1f1e7c19a1a4995cae1d994bcac037f13e4c79a2e",
+      "sha256": "8d07d13bb33d917ebe01d906972667980511ffde95b35971898a44ad8fbaff1b",
       "bytes": 3413,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -932925,13 +932992,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/boehme2023-acsnano-2c07677-5-nm-cspbbr3-qds-1.json",
-      "sha256": "5cad82d1f6a94fdff99d762cf231693aa7e475d147fded6132c438738d8545f4",
+      "sha256": "260b303acfa64e0efca8456d55e30558f26d691188126e5001cfb0adc375eca2",
       "bytes": 1223,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -939603,17 +939670,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chen2009-s10971-009-1897-2-al2o313-wt-tio2-nanocrystalline-powder-1.json",
-      "sha256": "130ebf3deb73f4ab53eb1b039ff8c53bacadded5ffe25e83bca1fe1c8bfc8eea",
+      "sha256": "e44f7762313616dc752479355cac024fad5017dd744254cf64fe1411dcfadf5d",
       "bytes": 1305,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact B40/B41 payload review; public status path redaction; no independent scientific approval",
-      "reviewed_at": "2026-10-16T13:24:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s10971-009-1897-2",
           "url": "https://doi.org/10.1007/s10971-009-1897-2"
         }
       ]
@@ -944895,15 +944961,19 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/d2016-1-4946213-mpa-capped-cds-quantum-dots-1.json",
-      "sha256": "e39afa4568f6fa26a998d75f6ed2066af0760c295ad5ff537a202920b9d89081",
+      "sha256": "b27c5b1c4d79da5e7fa98bbd5651977aecd482ef0f754157f8a3808586409ae1",
       "bytes": 2876,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-15T01:07:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1063/1.4946213"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/d2na00734g-inp-zns-core-shell-qds-1.json",
@@ -952242,13 +952312,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/evers2010-nl102705p-au-nanocrystals-3.json",
-      "sha256": "9ca614b882e5c030a7fc03c32fc296ceba8213e8543cbbb44e1695449dd3f440",
+      "sha256": "865a7e46b68f11ebe5ce763ad7a49fae929f7301fcd178a96481964388f4bb4e",
       "bytes": 2748,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -953587,17 +953657,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fischer2003-1-1606498-fe-sheathed-mgb2-tapes-1.json",
-      "sha256": "f2df0013751bd35a3aa23383710e5f4baa12f45ca26ffb822b999d9f1c253ef4",
+      "sha256": "006a3c30d8c3508f9e8b07667f561ef822b144f81013d6aa484a77637244db99",
       "bytes": 1808,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root simple-pipeline engineering and source_extracted integration review; no independent scientific audit",
-      "reviewed_at": "2026-10-19T01:53:51+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1063/1.1606498",
           "url": "https://doi.org/10.1063/1.1606498"
         }
       ]
@@ -954193,13 +954262,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fu2006-1-2353849-nc-w2n-a-si3n4-coating-1.json",
-      "sha256": "24eaede9e83cd6b0ac159a1a89c81b872acdf1ddb51f6df0ff0a91a1ad715849",
+      "sha256": "73a7b51a255eb02aef48d9f396e455275e64232727a5257f8ac97c4fd6409475",
       "bytes": 765,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -958968,158 +959037,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2012-jp210949v-cdse-5-2cds-1.json",
-      "sha256": "670d949718b4a89a7ad9382c3186d523ab6dfd63ac859dfd9fddbbc13a33f72b",
+      "sha256": "4462fa7c1c136f835f4fb57529c1395a82afb382b933bd4ac5b206f27b9f9d1b",
       "bytes": 5252,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-11T09:01:17+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/ja807874e",
-          "url": "https://doi.org/10.1021/ja807874e"
-        },
-        {
-          "doi": "10.1021/ja9005767",
-          "url": "https://doi.org/10.1021/ja9005767"
-        },
-        {
-          "doi": "10.1021/ja906503w",
-          "url": "https://doi.org/10.1021/ja906503w"
-        },
-        {
-          "doi": "10.1021/jacs.5b04765",
-          "url": "https://doi.org/10.1021/jacs.5b04765"
-        },
-        {
-          "doi": "10.1021/jacs.5c23366",
-          "url": "https://doi.org/10.1021/jacs.5c23366"
-        },
-        {
-          "doi": "10.1021/jacs.6c03275",
-          "url": "https://doi.org/10.1021/jacs.6c03275"
-        },
-        {
-          "doi": "10.1021/jacs.9b06932",
-          "url": "https://doi.org/10.1021/jacs.9b06932"
-        },
-        {
-          "doi": "10.1021/jp0039520",
-          "url": "https://doi.org/10.1021/jp0039520"
-        },
-        {
-          "doi": "10.1021/jp0278364",
-          "url": "https://doi.org/10.1021/jp0278364"
-        },
-        {
-          "doi": "10.1021/jp036497r",
-          "url": "https://doi.org/10.1021/jp036497r"
-        },
-        {
-          "doi": "10.1021/jp050424l",
-          "url": "https://doi.org/10.1021/jp050424l"
-        },
-        {
-          "doi": "10.1021/jp053103i",
-          "url": "https://doi.org/10.1021/jp053103i"
-        },
-        {
-          "doi": "10.1021/jp0535285",
-          "url": "https://doi.org/10.1021/jp0535285"
-        },
-        {
-          "doi": "10.1021/jp054774j",
-          "url": "https://doi.org/10.1021/jp054774j"
-        },
-        {
-          "doi": "10.1021/jp0566313",
-          "url": "https://doi.org/10.1021/jp0566313"
-        },
-        {
-          "doi": "10.1021/jp0708906",
-          "url": "https://doi.org/10.1021/jp0708906"
-        },
-        {
-          "doi": "10.1021/jp071979e",
-          "url": "https://doi.org/10.1021/jp071979e"
-        },
-        {
-          "doi": "10.1021/jp072516b",
-          "url": "https://doi.org/10.1021/jp072516b"
-        },
-        {
-          "doi": "10.1021/jp1044282",
-          "url": "https://doi.org/10.1021/jp1044282"
-        },
-        {
-          "doi": "10.1021/jp107043z",
-          "url": "https://doi.org/10.1021/jp107043z"
-        },
-        {
-          "doi": "10.1021/jp108165g",
-          "url": "https://doi.org/10.1021/jp108165g"
-        },
-        {
-          "doi": "10.1021/jp208879f",
-          "url": "https://doi.org/10.1021/jp208879f"
-        },
-        {
-          "doi": "10.1021/jp210720v",
-          "url": "https://doi.org/10.1021/jp210720v"
-        },
-        {
-          "doi": "10.1021/jp210949v",
           "url": "https://doi.org/10.1021/jp210949v"
-        },
-        {
-          "doi": "10.1021/jp308500r",
-          "url": "https://doi.org/10.1021/jp308500r"
-        },
-        {
-          "doi": "10.1021/jp308706b",
-          "url": "https://doi.org/10.1021/jp308706b"
-        },
-        {
-          "doi": "10.1021/jp406369a",
-          "url": "https://doi.org/10.1021/jp406369a"
-        },
-        {
-          "doi": "10.1021/jp502356d",
-          "url": "https://doi.org/10.1021/jp502356d"
-        },
-        {
-          "doi": "10.1021/jp504755a",
-          "url": "https://doi.org/10.1021/jp504755a"
-        },
-        {
-          "doi": "10.1021/jp5051904",
-          "url": "https://doi.org/10.1021/jp5051904"
-        },
-        {
-          "doi": "10.1021/jp711778u",
-          "url": "https://doi.org/10.1021/jp711778u"
-        },
-        {
-          "doi": "10.1021/jp802254n",
-          "url": "https://doi.org/10.1021/jp802254n"
-        },
-        {
-          "doi": "10.1021/jp808091d",
-          "url": "https://doi.org/10.1021/jp808091d"
-        },
-        {
-          "doi": "10.1021/jp900252e",
-          "url": "https://doi.org/10.1021/jp900252e"
-        },
-        {
-          "doi": "10.1021/jp900564r",
-          "url": "https://doi.org/10.1021/jp900564r"
-        },
-        {
-          "doi": "10.1021/jp903199y",
-          "url": "https://doi.org/10.1021/jp903199y"
         }
       ]
     },
@@ -970079,154 +970007,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/jarosz2004-physrevb-70-195327-cdse-quantum-dots-qds-with-a-diameter-of-1.json",
-      "sha256": "61f5b85db926039103b071edd80b9743076dbe549a003ef731e411d2ad6fa67e",
+      "sha256": "62bd70059beecf26c33b5017fb30ca99930c4d768fdeb7a5ea7efd7546a0f0c9",
       "bytes": 3634,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-12T00:48:04+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/acsanm.2c00717",
-          "url": "https://doi.org/10.1021/acsanm.2c00717"
-        },
-        {
-          "doi": "10.1021/am500429c",
-          "url": "https://doi.org/10.1021/am500429c"
-        },
-        {
-          "doi": "10.1021/ie501035s",
-          "url": "https://doi.org/10.1021/ie501035s"
-        },
-        {
-          "doi": "10.1021/ja017002j",
-          "url": "https://doi.org/10.1021/ja017002j"
-        },
-        {
-          "doi": "10.1021/ja204538f",
-          "url": "https://doi.org/10.1021/ja204538f"
-        },
-        {
-          "doi": "10.1021/jacs.0c10916",
-          "url": "https://doi.org/10.1021/jacs.0c10916"
-        },
-        {
-          "doi": "10.1021/jp020453l",
-          "url": "https://doi.org/10.1021/jp020453l"
-        },
-        {
-          "doi": "10.1021/jp044531b",
-          "url": "https://doi.org/10.1021/jp044531b"
-        },
-        {
-          "doi": "10.1021/jp066018z",
-          "url": "https://doi.org/10.1021/jp066018z"
-        },
-        {
-          "doi": "10.1021/jp101695s",
-          "url": "https://doi.org/10.1021/jp101695s"
-        },
-        {
-          "doi": "10.1021/jp205844r",
-          "url": "https://doi.org/10.1021/jp205844r"
-        },
-        {
-          "doi": "10.1021/jp209832h",
-          "url": "https://doi.org/10.1021/jp209832h"
-        },
-        {
-          "doi": "10.1021/jp210062x",
-          "url": "https://doi.org/10.1021/jp210062x"
-        },
-        {
-          "doi": "10.1021/jp306255g",
-          "url": "https://doi.org/10.1021/jp306255g"
-        },
-        {
-          "doi": "10.1021/jp410599q",
-          "url": "https://doi.org/10.1021/jp410599q"
-        },
-        {
-          "doi": "10.1021/jp4110773",
-          "url": "https://doi.org/10.1021/jp4110773"
-        },
-        {
-          "doi": "10.1021/jp508315m",
-          "url": "https://doi.org/10.1021/jp508315m"
-        },
-        {
-          "doi": "10.1021/jp803845n",
-          "url": "https://doi.org/10.1021/jp803845n"
-        },
-        {
-          "doi": "10.1021/jp807591d",
-          "url": "https://doi.org/10.1021/jp807591d"
-        },
-        {
-          "doi": "10.1021/la052197k",
-          "url": "https://doi.org/10.1021/la052197k"
-        },
-        {
-          "doi": "10.1021/nl203620f",
-          "url": "https://doi.org/10.1021/nl203620f"
-        },
-        {
-          "doi": "10.1021/nl3027444",
-          "url": "https://doi.org/10.1021/nl3027444"
-        },
-        {
-          "doi": "10.1038/nature03832",
-          "url": "https://doi.org/10.1038/nature03832"
-        },
-        {
-          "doi": "10.1038/nmat3118",
-          "url": "https://doi.org/10.1038/nmat3118"
-        },
-        {
-          "doi": "10.1038/nmat902",
-          "url": "https://doi.org/10.1038/nmat902"
-        },
-        {
-          "doi": "10.1038/s41598-017-00669-9",
-          "url": "https://doi.org/10.1038/s41598-017-00669-9"
-        },
-        {
-          "doi": "10.1039/b817000b",
-          "url": "https://doi.org/10.1039/b817000b"
-        },
-        {
-          "doi": "10.1039/c3ta10255f",
-          "url": "https://doi.org/10.1039/c3ta10255f"
-        },
-        {
-          "doi": "10.1063/1.1374235",
-          "url": "https://doi.org/10.1063/1.1374235"
-        },
-        {
-          "doi": "10.1063/1.1781361",
-          "url": "https://doi.org/10.1063/1.1781361"
-        },
-        {
-          "doi": "10.1063/1.2011768",
-          "url": "https://doi.org/10.1063/1.2011768"
-        },
-        {
-          "doi": "10.1063/1.2966341",
-          "url": "https://doi.org/10.1063/1.2966341"
-        },
-        {
-          "doi": "10.1063/1.370578",
-          "url": "https://doi.org/10.1063/1.370578"
-        },
-        {
-          "doi": "10.1103/physrevb.70.195327",
           "url": "https://doi.org/10.1103/physrevb.70.195327"
-        },
-        {
-          "doi": "10.1557/jmr.2004.0420",
-          "url": "https://doi.org/10.1557/jmr.2004.0420"
         }
       ]
     },
@@ -971571,13 +971362,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/jin2016-jacs-6b06972-wse2-sqds-4-1-nm-1.json",
-      "sha256": "25bea0c3118b03bb1cc27ecbea79557e312ade2a754472258d3c945785e75fdf",
+      "sha256": "7851d29476bfabad1cab5258d8ef7cbc165f2c878c39fd495939523d5f841adb",
       "bytes": 1252,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T20:07:44+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -974755,17 +974546,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/katari1994-j100066a034-cdse-nanocrystals-1.json",
-      "sha256": "c953982ed6ff946d7080eb674419b0c46f4839c7d841bb48b054b5342cf5c52b",
+      "sha256": "94d53df454a03bddb51978a0febf678a492b99883178f89cb52ce596be07cbae",
       "bytes": 2692,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "/root",
-      "reviewed_at": "2026-10-31T22:39:52+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/j100066a034",
           "url": "https://doi.org/10.1021/j100066a034"
         }
       ]
@@ -974935,13 +974725,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ke2019-acsbiomaterials-8b01253-mos2-qds-1.json",
-      "sha256": "506f2d0c818a0268f65ca3a0b380900d7c649a2409c28d6c9f4f5e0e30f2bd25",
+      "sha256": "65993f259e8182d55eb6f18914771cf4a0faa06a2cae18150536793b305ea059",
       "bytes": 720,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact Q26 Source paths, normal provenance, preservation and reviewed five progress documents",
-      "reviewed_at": "2026-10-23T05:13:35+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -987671,13 +987461,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/li2014-am5012782-cdse-cds-cdxzn1xs-zns-qd-nanobeads-1.json",
-      "sha256": "b39c17e96b1c951d88b5081573de6839dd04f018575e905fffcdb991ad74ffe1",
+      "sha256": "6f7913f8e88780195b90ba56dccccc5bf8ecb4b2a7fb1d2808ac244c81b8d364",
       "bytes": 1268,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1000486,13 +1000276,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1.json",
-      "sha256": "54ff71105693320a15792f49de0d9288455f72bc2a282af79455e972dbdd53c5",
+      "sha256": "bbd69efa92df5e04ebd67fdc9b13a6eaeb1a6006bacefa42a6324ea785a0e5c7",
       "bytes": 791,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1008365,27 +1008155,35 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/oh2020-er-5695-agbis2-ncs-control100c-1.json",
-      "sha256": "8766f6b9514e76eb146e843aaf33d6b4c018f484b58a94c51f5110ba7b66630b",
+      "sha256": "c17884ead97f43b9005fd0d9d2d8af1580f544d86e1b589fefd700c9a94e43ac",
       "bytes": 1256,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1002/er.5695"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/oh2020-er-5695-agbis2-ncs-modified100c-2.json",
-      "sha256": "e401a75f2b88ee295dff3c10658bf9ed71b77c6c18b0ebbfe5dd020e40d536f5",
+      "sha256": "e110cf66d874c21d164686f9b2204046c1f1e09a448cb7c19b9db3f73ea3140d",
       "bytes": 1235,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1002/er.5695"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ohkubo2006-s00216-006-0814-6-biotinylated-yag-ce3-nanoparticles-1.json",
@@ -1020661,13 +1020459,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/reinhart2015-acs-chemmater-5b02786-3-mpa-capped-pbs-qds-1.json",
-      "sha256": "2b6453c3b0a3306475f85f6e453214e13d9c99f24702db400de04667c0946915",
+      "sha256": "99c225ea9c24e9ff6a4ded339ae76a9ad0c0253b0618928ceafa6f7c3c9c9a3c",
       "bytes": 2355,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1027230,27 +1027028,35 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/santos2020-nano10071252-cis-1-1.json",
-      "sha256": "31f6a45eb27934d0d0f86153783194a8ff041e95842c59b61c4cf0d4c6cab0b8",
+      "sha256": "515ab9155ae238c5b9dbf5268831fbf44007ae2b141604c5e80bece56ecc6ada",
       "bytes": 3452,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T06:01:15+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.3390/nano10071252"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/santos2020-nano10071252-cis-2-2.json",
-      "sha256": "9e0766ff4513d45fbe6453d30e5f55dd298971a8dd06e8f3716cca909f7382ca",
+      "sha256": "257b6ccf319f90526830c318b4b69165424f52acf98d7b3b20bc5c64352ecd12",
       "bytes": 3452,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-16T06:01:15+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.3390/nano10071252"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/santos2023-j-ijbiomac-2023-126453-qds-ecti-conjugate-1.json",
@@ -1031096,17 +1030902,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/sheikh2008-s10853-007-2302-6-nife2o4-sample-a-1.json",
-      "sha256": "6123bc2a812ebb6fbaea51d78538feab1cb5253b3515b5e5f0cedb6d8a6f8c45",
+      "sha256": "1a54cc7f54e2ddeacf9dde504adb66b8c81fd214cb4da64c97f96daac9a3b407",
       "bytes": 2825,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root",
-      "reviewed_at": "2026-10-17T17:11:18+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s10853-007-2302-6",
           "url": "https://doi.org/10.1007/s10853-007-2302-6"
         }
       ]
@@ -1036189,15 +1035994,19 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/sperry2021-acs-chemmater-0c03088-cu2znsns4-czts-nanocrystals-1.json",
-      "sha256": "82d083e40819675d513e7a80862e94652bb35f14c012dadf5e54436e520f8156",
+      "sha256": "f81ee61ff80f1e75cf1604be9046ee191c5dfd05abb5fd23a702858544e9c18f",
       "bytes": 4150,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-15T01:07:14+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.chemmater.0c03088"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/spirin2003-a-1024271226236-agi-nanocrystals-stabilized-with-ddt-1.json",
@@ -1037288,17 +1037097,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/steinhagen2012-jz301023c-pyrite-nanocrystals-1.json",
-      "sha256": "7ba02c3c3cd0e3d26ff6cfdd90fe9978228cbb13afaa647fdca6eab2d0d991cc",
+      "sha256": "8a8b7520dabffe5b3f63d9af5c8d9236d3deb3a245804d91c1951e8acd8951a6",
       "bytes": 3314,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: ordinary source-extracted byte review, accepted Reader code and three elements-only corrections",
-      "reviewed_at": "2026-10-17T01:44:22+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/jz301023c",
           "url": "https://doi.org/10.1021/jz301023c"
         }
       ]
@@ -1041039,13 +1040847,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/tenney2022-acs-chemmater-2c01144-3-ml-cdte-npls-after-seeded-growth-1.json",
-      "sha256": "60334b1e2be49a595d00745d5cb433f5eb5f28bd250f465691e19fd3d14fb881",
+      "sha256": "9252cf82e4161b6ba01f22b4bb02baa5814f636b144c53f5e63a880433d98f12",
       "bytes": 1302,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-19T21:54:49+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1044522,13 +1044330,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/traverso2023-pharmaceutics15061651-hsa-qds-2.json",
-      "sha256": "c1770bc496c8b24826129f889f5fddb6a91e42b40ddb65b1363adadcc2dd0a80",
+      "sha256": "ce1161598919ba699c3a90c8edc68b21af4319b6d2658a37da35ca1e3765f033",
       "bytes": 1252,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1049332,17 +1049140,16 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/wanghe2006-s11434-006-2022-3-tio2-nanocrystalline-film-5-layers-1.json",
-      "sha256": "10ed1b7b8bc9865a47b1f4307758ecfb07172b7384ac21221b537f8f29837414",
+      "sha256": "31781fee20f69eb4d3cf0cc74c13365496f22ec6ba53294c0063dabb94dcb139",
       "bytes": 1916,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: source_extracted simple-lane exact public files, citation identities, captions and unchanged science bindings",
-      "reviewed_at": "2026-10-16T15:56:30+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1007/s11434-006-2022-3",
           "url": "https://doi.org/10.1007/s11434-006-2022-3"
         }
       ]
@@ -1050249,15 +1050056,19 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/wen2021-d0ta10394b-znte-qds-1.json",
-      "sha256": "7ec4c8f593301f9e96491f1634b8d162693029f91aea454814c1cd1344a27ddb",
+      "sha256": "3b2038ea7aea2ca9bdac812117522c9e20f0c54577a57789b583c88c82dd2754",
       "bytes": 671,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex-root-additive-engineering-review",
-      "reviewed_at": "2026-11-17T10:17:48+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
-      "source_refs": []
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1039/d0ta10394b"
+        }
+      ]
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/whiffen2021-nano11030715-wurtzite-zns-nanopowder-1.json",
@@ -1063467,158 +1063278,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zane2014-jp504755a-cdse-cds-zns-quantum-dots-qds-with-40-qu-1.json",
-      "sha256": "eae266a2cc26e81736a3cb51fe037c9f747e88004bdca9e7bf86604b55797ef2",
+      "sha256": "35475b1e950c74144ff3341cc5ab8cb1d0d30effc42915a0606ca8d6604f46c0",
       "bytes": 1842,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
-      "reviewed_at": "2026-10-11T09:01:17+00:00",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "doi": "10.1021/ja807874e",
-          "url": "https://doi.org/10.1021/ja807874e"
-        },
-        {
-          "doi": "10.1021/ja9005767",
-          "url": "https://doi.org/10.1021/ja9005767"
-        },
-        {
-          "doi": "10.1021/ja906503w",
-          "url": "https://doi.org/10.1021/ja906503w"
-        },
-        {
-          "doi": "10.1021/jacs.5b04765",
-          "url": "https://doi.org/10.1021/jacs.5b04765"
-        },
-        {
-          "doi": "10.1021/jacs.5c23366",
-          "url": "https://doi.org/10.1021/jacs.5c23366"
-        },
-        {
-          "doi": "10.1021/jacs.6c03275",
-          "url": "https://doi.org/10.1021/jacs.6c03275"
-        },
-        {
-          "doi": "10.1021/jacs.9b06932",
-          "url": "https://doi.org/10.1021/jacs.9b06932"
-        },
-        {
-          "doi": "10.1021/jp0039520",
-          "url": "https://doi.org/10.1021/jp0039520"
-        },
-        {
-          "doi": "10.1021/jp0278364",
-          "url": "https://doi.org/10.1021/jp0278364"
-        },
-        {
-          "doi": "10.1021/jp036497r",
-          "url": "https://doi.org/10.1021/jp036497r"
-        },
-        {
-          "doi": "10.1021/jp050424l",
-          "url": "https://doi.org/10.1021/jp050424l"
-        },
-        {
-          "doi": "10.1021/jp053103i",
-          "url": "https://doi.org/10.1021/jp053103i"
-        },
-        {
-          "doi": "10.1021/jp0535285",
-          "url": "https://doi.org/10.1021/jp0535285"
-        },
-        {
-          "doi": "10.1021/jp054774j",
-          "url": "https://doi.org/10.1021/jp054774j"
-        },
-        {
-          "doi": "10.1021/jp0566313",
-          "url": "https://doi.org/10.1021/jp0566313"
-        },
-        {
-          "doi": "10.1021/jp0708906",
-          "url": "https://doi.org/10.1021/jp0708906"
-        },
-        {
-          "doi": "10.1021/jp071979e",
-          "url": "https://doi.org/10.1021/jp071979e"
-        },
-        {
-          "doi": "10.1021/jp072516b",
-          "url": "https://doi.org/10.1021/jp072516b"
-        },
-        {
-          "doi": "10.1021/jp1044282",
-          "url": "https://doi.org/10.1021/jp1044282"
-        },
-        {
-          "doi": "10.1021/jp107043z",
-          "url": "https://doi.org/10.1021/jp107043z"
-        },
-        {
-          "doi": "10.1021/jp108165g",
-          "url": "https://doi.org/10.1021/jp108165g"
-        },
-        {
-          "doi": "10.1021/jp208879f",
-          "url": "https://doi.org/10.1021/jp208879f"
-        },
-        {
-          "doi": "10.1021/jp210720v",
-          "url": "https://doi.org/10.1021/jp210720v"
-        },
-        {
-          "doi": "10.1021/jp210949v",
-          "url": "https://doi.org/10.1021/jp210949v"
-        },
-        {
-          "doi": "10.1021/jp308500r",
-          "url": "https://doi.org/10.1021/jp308500r"
-        },
-        {
-          "doi": "10.1021/jp308706b",
-          "url": "https://doi.org/10.1021/jp308706b"
-        },
-        {
-          "doi": "10.1021/jp406369a",
-          "url": "https://doi.org/10.1021/jp406369a"
-        },
-        {
-          "doi": "10.1021/jp502356d",
-          "url": "https://doi.org/10.1021/jp502356d"
-        },
-        {
-          "doi": "10.1021/jp504755a",
           "url": "https://doi.org/10.1021/jp504755a"
-        },
-        {
-          "doi": "10.1021/jp5051904",
-          "url": "https://doi.org/10.1021/jp5051904"
-        },
-        {
-          "doi": "10.1021/jp711778u",
-          "url": "https://doi.org/10.1021/jp711778u"
-        },
-        {
-          "doi": "10.1021/jp802254n",
-          "url": "https://doi.org/10.1021/jp802254n"
-        },
-        {
-          "doi": "10.1021/jp808091d",
-          "url": "https://doi.org/10.1021/jp808091d"
-        },
-        {
-          "doi": "10.1021/jp900252e",
-          "url": "https://doi.org/10.1021/jp900252e"
-        },
-        {
-          "doi": "10.1021/jp900564r",
-          "url": "https://doi.org/10.1021/jp900564r"
-        },
-        {
-          "doi": "10.1021/jp903199y",
-          "url": "https://doi.org/10.1021/jp903199y"
         }
       ]
     },
@@ -1064188,13 +1063858,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zeng2008-jp711395f-cdte-cds-core-shell-quantum-dots-qds-wit-1.json",
-      "sha256": "8a62cbe269b437551636e39dbf85055eb25117efe221d081035a3e4b9c0c0014",
+      "sha256": "ecdbee0e418f640d0e60fe55966cf70bb750098845bcfd21a76daf213fc01ebc",
       "bytes": 1918,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1065861,13 +1065531,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2010-jp1025152-pbs-qds-1.json",
-      "sha256": "dcdd2112815730d3b743d8493c7058f4eb4ef9a91693b5fe0ff121e35e7a6f75",
+      "sha256": "39cc5e70f618c77789803691fba8be83a32d283820f2287edcea9fcc9091d6af",
       "bytes": 2273,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1066758,13 +1066428,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "c36c5b14691eef2b1f1465d09706b296da6ae91b1ff1a96648334eabc9ebe24d",
+      "sha256": "0ee9d52598d523ac94f8dfa9c8e1ef8497475e1127bd2d8f16d3884a02b7910f",
       "bytes": 2814,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1070712,13 +1070382,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhu2024-acs-jpcc-4c01511-cspbbr3-nanocubes-ncs-1.json",
-      "sha256": "9faec839f656673b2959ab256948bac4e72b62217ca65b802b976e87a2aded85",
+      "sha256": "b575940362c2d2e5b068b658abf5c9b0f78b89a9d50d411a20b38adbf5a6e020",
       "bytes": 4527,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T11:26:07+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1101973,13 +1101643,13 @@
     },
     {
       "path": "tools/simple-pipeline/completeness_conversion.py",
-      "sha256": "1553f09187f167893ecb9e6851365b4b53d33a81c7d133c028c1a8e41df10fcb",
-      "bytes": 5602,
+      "sha256": "1776d26e9fe311af9b87767d15c4a6df91da59a880faae1592f80fd4841c7e98",
+      "bytes": 5885,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1102793,13 +1102463,25 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "44ef9001c4ba4bc8355481272b4d8ba4b73eb4eb2e8cb6d316a1bf9dc5af0542",
-      "bytes": 62331,
+      "sha256": "ff1d4b021648a7e38b1e01d5cefac733bb3849877eb16223bf016ae9dc4d3a97",
+      "bytes": 62439,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/simple-pipeline/w10_materials.py",
+      "sha256": "868e36b78ad84d4f53dc1cdd875ddd3ffd0dee32e3822c40ba6f5d62f9fea4ca",
+      "bytes": 3085,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex F6 preservation review",
+      "reviewed_at": "2026-11-22T02:26:37+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

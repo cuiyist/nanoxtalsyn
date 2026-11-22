@@ -566,6 +566,8 @@ def records_of(doc, include_optical=False, original_ordinals=None):
                 record, audit = revise(record, quotes)
                 if audit['holds']:
                     raise ValueError('Starting-particle role cleanup requires source-linked amount or graph reconciliation')
+                from w10_materials import join_materials
+                record, _ = join_materials(record)
             records.append(record)
     return builder, records
 
