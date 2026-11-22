@@ -3,7 +3,7 @@ import {reportedDrawingFacts as facts,createReportedDrawing,reportedDrawingViewp
 const spec=(x={})=>({kind:'solution',vesselKind:'plain',added:[],substrates:[],environment:'',heating:false,stirring:false,gasLine:false,beamSystem:false,...x});
 class E{constructor(tag){this.tagName=tag;this.children=[];this.style={};this.dataset={};this.attributes={};this.textContent='';this.innerHTML='';}append(...n){this.children.push(...n);}setAttribute(k,v){this.attributes[k]=String(v);}}
 const all=n=>[n,...n.children.flatMap(all)];
-const mount=(s,c=[])=>{globalThis.document={createElement:t=>new E(t),createElementNS:(_,t)=>new E(t)};return createReportedDrawing(s,c);};
+const mount=(s,c=[],options={})=>{globalThis.document={createElement:t=>new E(t),createElementNS:(_,t)=>new E(t)};return createReportedDrawing(s,c,options);};
 test('duration/time priority prevents temperature_duration duplication',()=>{const f=facts(spec(),[{key:'temperature_duration',value:'30 min'},{key:'temperature',value:'180 °C'}]);assert.equal(f.durations.length,1);assert.equal(f.temperatures.length,1);assert.equal(f.temperatures[0].value,'180 °C');});
 test('bound and qualitative condition strings remain verbatim',()=>{const values=['≤ 200 °C · reported upper bound','Room temperature (numeric value not reported)'];assert.deepEqual(facts(spec(),values.map((value,i)=>({key:'temperature_'+i,value}))).temperatures.map(c=>c.value),values);});
 test('As4 flux moves to sources and never becomes atmosphere',()=>{const f=facts(spec({kind:'chamber',environment:'As4 flux'}));assert.equal(f.sources.length,1);assert.equal(f.sources[0].label,'As4 flux');assert.equal(f.atmosphere,'');});
@@ -17,6 +17,37 @@ test('shared input labels are at most three and use provided own common labels',
 test('every one of fourteen types has fixed apparatus geometry and no boxed annotations',()=>{for(const kind of ['solution','inject','degas','cool','workup-tube','dry-tube','reflux','centrifuge','filter','furnace','closed-reactor','mill-jar','mortar-pestle','chamber']){const d=mount(spec({kind}));assert.equal(d.dataset.layout,'leader-lines-v2');const svg=all(d).find(n=>n.tagName==='svg');assert.match(svg.innerHTML,/data-part="apparatus-body"/);assert.equal(svg.style.maxWidth,'none');assert.ok(!all(d).some(n=>n.style.background==='#ffffffd9'));}});
 test('each identified source has one beam ending on the substrate',()=>{const d=mount(spec({kind:'chamber',beamSystem:true,added:['Ga'],environment:'As4 flux'}),[{key:'Ga_flux',value:'1 ML/s'}]),svg=all(d).find(n=>n.tagName==='svg');assert.equal((svg.innerHTML.match(/data-part="source-beam"/g)||[]).length,2);assert.equal((svg.innerHTML.match(/L(?:128\.0|172\.0) 176/g)||[]).length,2);assert.match(svg.innerHTML,/data-part="round-chamber"/);});
 test('sourceFeed flag alone cannot invent two beams',()=>{const d=mount(spec({kind:'chamber',beamSystem:true,sourceFeed:true})),svg=all(d).find(n=>n.tagName==='svg');assert.doesNotMatch(svg.innerHTML,/data-part="source-beam"/);});
+test('a chamber with only a reported substrate still connects its label to the substrate edge',()=>{
+ for(const substrates of [['GaAs'],[]]){
+  const drawing=mount(spec({kind:'chamber',substrates}),[],{scale:1});
+  const svg=all(drawing).find(n=>n.tagName==='svg'),label=all(drawing).find(n=>n.className==='reported-scene-substrate');
+  drawing.querySelector=s=>s==='.reported-scene-substrate'?label:null;
+  drawing.querySelectorAll=()=>[];
+  drawing.getBoundingClientRect=()=>({left:0,top:0,width:400,height:345});
+  svg.getScreenCTM=()=>({a:1,b:0,c:0,d:1,e:50,f:10});
+  if(label)label.getBoundingClientRect=()=>({left:138,right:262,top:304});
+  drawing.updateAnnotationLayout();
+  const leaders=all(drawing).filter(n=>n.attributes['data-label-for']==='substrate');
+  assert.equal(leaders.length,substrates.length);
+  if(leaders.length){assert.equal(leaders[0].attributes.d,'M235 188.5H257V298H200V302');assert.equal(leaders[0].attributes['stroke-width'],'1.2');}
+ }
+});
+test('a reported atmosphere without feed details connects to the chamber interior',()=>{
+ for(const environment of ['Nitrogen','']){
+  const drawing=mount(spec({kind:'chamber',environment}),[],{scale:1});
+  const svg=all(drawing).find(n=>n.tagName==='svg'),label=all(drawing).find(n=>n.className==='reported-scene-atmosphere');
+  drawing.querySelector=s=>s==='.reported-scene-atmosphere'?label:null;
+  drawing.querySelectorAll=()=>[];
+  drawing.getBoundingClientRect=()=>({left:0,top:0,width:400,height:345});
+  svg.getScreenCTM=()=>({a:1,b:0,c:0,d:1,e:50,f:10});
+  if(label)label.getBoundingClientRect=()=>({left:285,right:385,bottom:64});
+  drawing.updateAnnotationLayout();
+  const leaders=all(drawing).filter(n=>n.attributes['data-part']==='leader-line');
+  assert.equal(leaders.length,Number(Boolean(environment)));
+  if(leaders.length){assert.equal(leaders[0].attributes.d,'M335 66V114H265V126');assert.equal(leaders[0].attributes['stroke-width'],'1.2');}
+  assert.doesNotMatch(svg.innerHTML,/source-beam|source-feed/);
+ }
+});
 test('CVD feed does not become a particle beam',()=>{const d=mount(spec({kind:'chamber',beamSystem:false,added:['Reported precursor']})),svg=all(d).find(n=>n.tagName==='svg');assert.doesNotMatch(svg.innerHTML,/data-part="source-beam"/);assert.match(svg.innerHTML,/data-part="source-feed"/);});
 test('typed short temperature creates passive chamber label but no lit heater after heat removal',()=>{const d=mount(spec({kind:'chamber',heating:false}),[{key:'substrate_temperature',value:'580 °C',shortValue:'580 °C'}]);assert.ok(all(d).some(n=>n.className==='reported-scene-heating-plate'&&n.dataset.passive==='true'));assert.ok(!all(d).some(n=>n.className==='reported-scene-heating-indicator'));const svg=all(d).find(n=>n.tagName==='svg');assert.match(svg.innerHTML,/data-part="substrate-heater"/);});
 test('warm liquid uses the exact CdSe default body and meniscus colors',()=>{const svg=all(mount(spec())).find(n=>n.tagName==='svg');assert.match(svg.innerHTML,/fill="#d6b66f" fill-opacity=".58"/);assert.match(svg.innerHTML,/fill="#e3c77f" fill-opacity=".6"/);});

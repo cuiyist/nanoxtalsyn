@@ -34,20 +34,20 @@
       "operation_index": 0,
       "operation_id": "s01-dissolve",
       "operation_label": "Zinc nitrate and sodium sulfide solutions are prepared in DI water.",
-      "record_json_bytes": 21422,
-      "record_json_sha256": "edb6158b01812b7e09a76a08f5d5be2640bb393190bd4a0a246da2304c9145de"
+      "record_json_bytes": 27745,
+      "record_json_sha256": "71b3b7b0793c7580195c04b8c3b0933a87380ccde3920805bda68b6424a489de"
     },
     {
       "id": "default-inas",
       "group": "benchmark-default",
       "formula": "InAs",
-      "record_id": "zhang2006-1-2201452-ten-period-inas-quantum-dot-multilayer-s-1",
+      "record_id": "mehta2010-1-3488812-site-selectively-grown-inas-quantum-dots-1",
       "route": "material.html?id=inas-a2e691",
       "operation_index": 0,
-      "operation_id": "s01-desorb",
-      "operation_label": "InP surface oxide desorption",
-      "record_json_bytes": 18675,
-      "record_json_sha256": "aad3a92919fd4b5fcaada5993e2312c9dd814cdfb1fe4f632b7fb2d17fec6201"
+      "operation_id": "s01-grow",
+      "operation_label": "Grow GaAs buffer layer",
+      "record_json_bytes": 25499,
+      "record_json_sha256": "394af57e74f4ac08912b20e6bf45ad2c30448bfbe65883174055bf71bd360bdb"
     },
     {
       "id": "default-pbs",
@@ -70,8 +70,8 @@
       "operation_index": 0,
       "operation_id": "s01-charge",
       "operation_label": "InCl3 and K are charged into a three neck flask",
-      "record_json_bytes": 28087,
-      "record_json_sha256": "72a8a79177eefa7bcc78e1e6d5bec1e7c41443ee74481487b1c7c85f0b64040e"
+      "record_json_bytes": 37630,
+      "record_json_sha256": "146b6dcb872128c8089eb967c2aec99d202ce53031f3b8d2675e95c17887d4e1"
     },
     {
       "id": "default-au",
@@ -118,8 +118,8 @@
       "operation_index": 0,
       "operation_id": "s01-heat",
       "operation_label": "Heat the solution in the autoclave",
-      "record_json_bytes": 16282,
-      "record_json_sha256": "5088c0674d205099de0e24c3a6f97c5b9f1f484c8f92cc1e1cc935ec9101d67f"
+      "record_json_bytes": 17961,
+      "record_json_sha256": "26984ec4c91b9444879eaef2eeb23d521c8c9e5d95426acfce2a7633ffbca3ce"
     },
     {
       "id": "gaas-droplet",
@@ -130,8 +130,8 @@
       "operation_index": 3,
       "operation_id": "s04-supply",
       "operation_label": "Supply Ga atoms to form liquid droplets",
-      "record_json_bytes": 13366,
-      "record_json_sha256": "f5a2e81bf0eb4e9c2b94fba20a756b47fe71d57cde381b9d8ac3737ec121f2b4",
+      "record_json_bytes": 13977,
+      "record_json_sha256": "51b9eefa497216da21ef73e6f52ad65650904c4e20ede45aebbfdf870ccc4c31",
       "minimum_label_px_after": 12
     },
     {
@@ -140,11 +140,11 @@
       "formula": "InP",
       "record_id": "eren2023-acsanm-3c00126-ru-inp-zns-core-shell-qds-1",
       "route": "material.html?id=inp-9eb58d&method=eren2023-acsanm-3c00126-ru-inp-zns-core-shell-qds-1",
-      "operation_index": 1,
+      "operation_index": 2,
       "operation_id": "s02-inject",
       "operation_label": "Injection of P(TMS)3",
-      "record_json_bytes": 32279,
-      "record_json_sha256": "84c0f4c2ff9de8fca1e210fe9743b9b5a34430e1a8e534a7c3b8f438bdae8c53",
+      "record_json_bytes": 38484,
+      "record_json_sha256": "151f1f1074f29fb4b10fdd2ecadebaa4344c1b42bd4018c68329e45543781e35",
       "minimum_label_px_after": 12
     },
     {
@@ -169,8 +169,8 @@
       "operation_index": 0,
       "operation_id": "s01-stir",
       "operation_label": "Stirring Cu(NO3)2 and Al(NO3)3 in methanol",
-      "record_json_bytes": 17098,
-      "record_json_sha256": "f35851220e5bfd7d1334ad0ad9d66bc8ec53f4dd2ef5831cb9f9bfbc1d0fef32",
+      "record_json_bytes": 20711,
+      "record_json_sha256": "2fd06bed5e8b0ec6c2faa6483cc1c0cf72c13b510d853f6542637361e889c835",
       "minimum_label_px_after": 12
     },
     {
@@ -208,8 +208,8 @@
       "operation_index": 0,
       "operation_id": "s01-prepare",
       "operation_label": "Prepare 1-Dodecanethiol (DT)-stabilized gold NCs",
-      "record_json_bytes": 10788,
-      "record_json_sha256": "81804d9dd18a9bd42e8df17a8398e964cedd9d338a81cf0fff2ac50add7d2cfd",
+      "record_json_bytes": 12498,
+      "record_json_sha256": "5d68ea4ab8e49d1822411ac9f9fb9400d9cb007209a63083a30e9d08fe218ee0",
       "minimum_label_px_after": 12
     },
     {
@@ -221,8 +221,8 @@
       "operation_index": 0,
       "operation_id": "s01-add",
       "operation_label": "Add bis(trimethylsilyl) sulfide to the flask",
-      "record_json_bytes": 18235,
-      "record_json_sha256": "70ea85602122e6d34de311a9c740bfe4741d92341a2f15878fa55d2374a70920",
+      "record_json_bytes": 20735,
+      "record_json_sha256": "9c8336d8fa64c801d6f90eb1b32d2e5d6a33eab60622f4623b4f822f7cf59845",
       "minimum_label_px_after": 12
     },
     {

@@ -4,6 +4,7 @@ from pathlib import Path
 from review_scope import source_review_scope, reviewed_page_count, pending_variants
 from route_labels import route_label, completeness, reader_sort_key
 from method_families import build_method_families
+from method_search_projection import method_search
 from method_family_projection import compact_method_families
 from reader_presentation_registry import load_reviewed_reader
 from material_names import common_name
@@ -196,6 +197,7 @@ def main():
         m['records']=[{'record_id':r['record_id'],'title':r['title'],'formula':r['material']['formula'],'method':r['method'],'record_type':r['record_type'],'is_synthesis_route':synthesis_route(r),'collection':r['collection'],'review_status':r['quality']['review_status'],**({'method_label':route_label(r)} if route_label(r) else {}),'doi':r['sources'][0]['doi'],'year':r['sources'][0]['year'],'page_url':'records/'+r['record_id']+'.html','architecture':r['material'].get('architecture','single_material'),'contribution_role':'direct_material' if r['record_id'] in m['direct_record_ids'] else component_contribution_role(r['material'].get('architecture','single_material'))} for r in related]
         m['method_families']=compact_method_families(build_method_families(related,f,method_labels))
         for row in m['records']:
+            row.update(method_search(byid[row['record_id']]))
             if papers[row['doi'].lower()].get('pending_variants'):row['pending_variants']=papers[row['doi'].lower()]['pending_variants']
         m['experimental_series']=[{'record_id':r['record_id'],'title':r['title'],'doi':r['sources'][0]['doi'],'year':r['sources'][0]['year'],'page_url':'records/'+r['record_id']+'.html','scope':'Published recipe parameters and optical outcomes; row-specific particle structure and complete preparation are not supplied.'} for r in records if r['collection']=='published_benchmark' and r['material']['formula']==f]
         # Supporting evidence is explicitly curated per material, never inferred

@@ -99,6 +99,94 @@
         }
       ],
       "basis": "Pinned deployed Site metadata and exact comparison-base canonical bytes; fixes stale expected defaults, not browser behavior or scientific data"
+    },
+    "9bf8126f2431047cd91de8d7f1d970ced9560294": {
+      "prior_site_commit": "893581a2bbf205c53e6d50b1a3ee646134ced1f1",
+      "prior_publisher_run": 44980771644,
+      "prior_publisher_conclusion": "success",
+      "publication_credit": 0,
+      "original_protocol_sha256": "b9ca644059f7a4eaa1aa5ce5acbf13a3814474296ccbc665d65f1e5a6b54e539",
+      "original_methods_sha256": "90eaa05bd2d3523043dacf53861055112a89b7c1fbe7addb42f8cd1a269492ad",
+      "protocol_path": "tools/ci/release12-before-protocol-targets.json",
+      "protocol_sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
+      "methods_path": "tools/ci/release12-before-method-targets.json",
+      "methods_sha256": "e88d853974d7e501c9951a2c1d0905589b37e0af0e1d717edd973973e540cdd6",
+      "changed_protocol_defaults": [
+        "default-zns",
+        "default-inas",
+        "default-inp",
+        "default-sno2"
+      ],
+      "changed_protocol_explicit": [
+        "gaas-droplet",
+        "hot-injection",
+        "sol-gel",
+        "extra-au-fan2006-step1",
+        "extra-pbs-reinhart2017-step1"
+      ],
+      "published_material_pins": [
+        {
+          "formula": "CdSe",
+          "path": "data/materials/cdse-d923c5.json",
+          "prior_site_sha256": "9380ce18f025d06e9fe2f9e314aaaca06cd9c7fcf561f2df7283d08d110b906d",
+          "prior_site_bytes": 1088758
+        },
+        {
+          "formula": "CdS",
+          "path": "data/materials/cds-fad408.json",
+          "prior_site_sha256": "c08ea63b62e53021ab8c071aa33f6ff8a45247afacb0fe0c12b74558861ef746",
+          "prior_site_bytes": 615466
+        },
+        {
+          "formula": "ZnS",
+          "path": "data/materials/zns-b01883.json",
+          "prior_site_sha256": "ce5761cc97781dad5955334ce9e06291d35191884cde72b95488afa2c1435683",
+          "prior_site_bytes": 594359
+        },
+        {
+          "formula": "InAs",
+          "path": "data/materials/inas-a2e691.json",
+          "prior_site_sha256": "ad7f2a5ff0753a1ea83058e0d87b1ac92167444034e3ea164e7db1a3ad9b5b98",
+          "prior_site_bytes": 440287
+        },
+        {
+          "formula": "PbS",
+          "path": "data/materials/pbs-7e1774.json",
+          "prior_site_sha256": "00de8c7c9dbe7568f80c369f131c38bc10e99813c7d2b4d7c8d30193e74a3363",
+          "prior_site_bytes": 421638
+        },
+        {
+          "formula": "InP",
+          "path": "data/materials/inp-9eb58d.json",
+          "prior_site_sha256": "b918a6977aea96bfd569d4a0d136fa7cc56063ea057e0ec96ffca6c62aa2a663",
+          "prior_site_bytes": 305944
+        },
+        {
+          "formula": "Au",
+          "path": "data/materials/au-3325c2.json",
+          "prior_site_sha256": "73882b41b2acc21f871eeea53c21e6727f6b76703e71054d5fd3f537ed8d6fde",
+          "prior_site_bytes": 191163
+        },
+        {
+          "formula": "TiO2",
+          "path": "data/materials/tio2-ce6bfd.json",
+          "prior_site_sha256": "0fb0af95de8a07e1520716cd9fdee42dffbede0bc5e6784577f1f4975cc9513c",
+          "prior_site_bytes": 189943
+        },
+        {
+          "formula": "GaAs",
+          "path": "data/materials/gaas-889234.json",
+          "prior_site_sha256": "c49f2d2bd5f5373f54041c4efb29bd3f0b2b8ed2f3269b13104106768f7d1fd7",
+          "prior_site_bytes": 171104
+        },
+        {
+          "formula": "SnO2",
+          "path": "data/materials/sno2-0fe88f.json",
+          "prior_site_sha256": "c85275273622392986cdd2f02790ef199eb9e29ad58b5037f9110a34d4ba7f59",
+          "prior_site_bytes": 83449
+        }
+      ],
+      "basis": "Exact verified F6 Site and Source; explicit route, record, operation ID and label are preserved."
     }
   }
 }

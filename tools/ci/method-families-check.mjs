@@ -104,21 +104,33 @@ export function checkFamilyMetadata(groups, rows, target) {
 export function methodListMetrics(root) {
   const box = node => {const r = node.getBoundingClientRect(); return {left: r.left, right: r.right, top: r.top, bottom: r.bottom, width: r.width, height: r.height};};
   const visible = node => {for(let ancestor=node;ancestor;ancestor=ancestor.parentElement){const style=getComputedStyle(ancestor);if(style.display==='none'||style.visibility==='hidden')return false;}const r=box(node);return r.width>0&&r.height>0;};
+  const compact=root.classList?.contains('reader-method-compact')===true;
+  const dialog=compact?root.querySelector('.reader-method-dialog'):null;
+  const opened=dialog?.open===true;
+  const preview=compact?root.querySelector('.reader-method-preview'):null;
+  const content=compact?(opened?dialog.querySelector('.reader-method-panel'):preview):root;
+  const list=opened?dialog.querySelector('.reader-method-panel-list'):null;
   const labels = [];
-  for (const node of root.querySelectorAll('h3,p,button,label,select')) {
+  for (const node of [...content.querySelectorAll(compact?'h3,p,button,label,select,input[type="search"]':'h3,p,button,label,select'),
+    ...(compact&&!opened?[...root.querySelectorAll('.reader-family-toggle')]:[])]) {
     if (!visible(node)) continue;
     const style = getComputedStyle(node), r = box(node);
     const text = [...node.childNodes].filter(n => n.nodeType === Node.TEXT_NODE && n.textContent.trim());
-    if (node.tagName === 'SELECT') labels.push({tag: 'select', font_px: parseFloat(style.fontSize) * (node.offsetHeight ? r.height / node.offsetHeight : 1), bounds: r, parent_bounds: box(node.parentElement)});
+    if (node.tagName === 'SELECT'||node.tagName==='INPUT') labels.push({tag: 'select', font_px: parseFloat(style.fontSize) * (node.offsetHeight ? r.height / node.offsetHeight : 1), bounds: r, parent_bounds: box(node.parentElement)});
     for (const n of text) {
       const range = document.createRange(); range.selectNodeContents(n);
       for (const part of range.getClientRects()) labels.push({tag: node.tagName.toLowerCase(), font_px: parseFloat(style.fontSize) * (node.offsetHeight ? r.height / node.offsetHeight : 1), bounds: {left: part.left, right: part.right, top: part.top, bottom: part.bottom, width: part.width, height: part.height}, parent_bounds: r});
     }
   }
-  return {bounds: box(root), initial_card_limit:Object.hasOwn(root.dataset,'initialCardLimit')?Number(root.dataset.initialCardLimit):null,initial_family_limit:Object.hasOwn(root.dataset,'initialFamilyLimit')?Number(root.dataset.initialFamilyLimit):null,initial_papers_per_family:Object.hasOwn(root.dataset,'initialPapersPerFamily')?Number(root.dataset.initialPapersPerFamily):null, visible_card_count:[...root.querySelectorAll('.reader-paper-card')].filter(visible).length,toggle_count:root.querySelectorAll('.reader-family-toggle').length,toggle_expanded:root.querySelector('.reader-family-toggle')?.getAttribute('aria-expanded')||null,page_overflow: document.documentElement.scrollWidth > innerWidth + 2, labels,
-    families: [...root.querySelectorAll('.reader-method-family')].map(f => ({id: f.dataset.familyId, label:f.querySelector('h3')?.textContent || '',adoption:f.querySelector('.reader-family-adoption')?.textContent || '',visible:visible(f),paper_cards: [...f.querySelectorAll('.reader-paper-card')].map(c => ({record_ids: JSON.parse(c.dataset.recordIds || 'null'), hidden: !visible(c)}))})),
-    selected: root.querySelector('.reader-paper-choice[aria-pressed="true"]')?.dataset.recordId || null,
-    text: root.textContent};
+  return {compact, dialog_open:opened, panel_bounds:list?box(dialog):null,
+    viewport_height:compact?innerHeight:null, viewport_width:compact?innerWidth:null,
+    panel_scrollable:list?['auto','scroll'].includes(getComputedStyle(list).overflowY):null,
+    has_filter:opened?dialog.querySelectorAll('input[type="search"]').length===1:null,
+    preview_cards:preview?preview.querySelectorAll('.reader-paper-card').length:null,
+    bounds: box(opened?content:root), initial_card_limit:Object.hasOwn(root.dataset,'initialCardLimit')?Number(root.dataset.initialCardLimit):null,initial_family_limit:Object.hasOwn(root.dataset,'initialFamilyLimit')?Number(root.dataset.initialFamilyLimit):null,initial_papers_per_family:Object.hasOwn(root.dataset,'initialPapersPerFamily')?Number(root.dataset.initialPapersPerFamily):null, visible_card_count:[...content.querySelectorAll('.reader-paper-card')].filter(visible).length,toggle_count:[...root.querySelectorAll('.reader-family-toggle')].filter(n=>!n.hidden).length,toggle_expanded:root.querySelector('.reader-family-toggle')?.getAttribute('aria-expanded')||null,page_overflow: document.documentElement.scrollWidth > innerWidth + 2, labels,
+    families: [...content.querySelectorAll('.reader-method-family')].map(f => ({id: f.dataset.familyId, label:f.querySelector('h3')?.textContent || '',adoption:f.querySelector('.reader-family-adoption')?.textContent || '',visible:visible(f),paper_cards: [...f.querySelectorAll('.reader-paper-card')].map(c => ({record_ids: JSON.parse(c.dataset.recordIds || 'null'), hidden: !visible(c)}))})),
+    selected: content.querySelector('.reader-paper-choice[aria-pressed="true"]')?.dataset.recordId || null,
+    text: compact?content.textContent:root.textContent};
 }
 export function checkMethodListMetrics(metrics, target, groups, {expanded=false, phase='after', previewPolicy=J_PREVIEW_POLICY}={}) {
   assert(['before','after'].includes(phase));
@@ -135,12 +147,29 @@ export function checkMethodListMetrics(metrics, target, groups, {expanded=false,
   assert.equal(metrics.visible_card_count,expanded?target.paper_card_count:initial,'Actual visible cards violate the exact phase preview');
   assert.equal(metrics.toggle_count,target.paper_card_count>initial?1:0,'Expected one Show all control exactly when cards are hidden');
   if(metrics.toggle_count)assert.equal(metrics.toggle_expanded,String(expanded));
-  assert.deepEqual(metrics.families.map(f => f.id), groups.families.map(f => f.id));
-  assert.deepEqual(metrics.families.map(f => f.paper_cards.map(p => p.record_ids)), groups.families.map(f => f.papers.map(p => p.record_ids)));
-  for (const [i,family] of metrics.families.entries()) {
-    const expected=groups.families[i];assert.equal(family.label,expected.label);assert.equal(family.adoption,`${expected.paper_count} ${expected.paper_count===1?'paper':'papers'}`);
-    assert.deepEqual(family.paper_cards.map(card=>!card.hidden),mask[i].map(shown=>expanded||shown),'Cards must be the first two of each first three families, or the exact legacy BEFORE policy');
-    assert.equal(family.visible,family.paper_cards.some(card=>!card.hidden),'A family heading must be hidden when all its cards are hidden');
+  if(metrics.compact){
+    assert.equal(previewPolicy,J_PREVIEW_POLICY,'Compact view must implement the exact J preview');
+    assert.equal(metrics.dialog_open,expanded,'Only explicit Show all opens the dialog');
+    assert.equal(metrics.preview_cards,initial,'Opening the dialog must not expand the in-page list');
+    if(expanded){
+      const box=metrics.panel_bounds;
+      assert(metrics.has_filter&&metrics.panel_scrollable,'Dialog must have a filter and its own scroll');
+      assert(box.height>0&&box.width>0);
+      if(metrics.viewport_width<=700){assert(box.height>=metrics.viewport_height-1&&box.width>=metrics.viewport_width-1);}
+      else assert(box.height<=metrics.viewport_height*.70+2,'Desktop panel exceeds 70% of viewport');
+    }
+    const expected=groups.families.map((f,i)=>({id:f.id,label:f.label,adoption:`${f.paper_count} ${f.paper_count===1?'paper':'papers'}`,
+      visible:true,paper_cards:f.papers.filter((p,j)=>expanded||mask[i][j]).map(p=>({record_ids:p.record_ids,hidden:false}))}))
+      .filter(f=>f.paper_cards.length);
+    assert.deepEqual(metrics.families,expected,'Compact families must preserve the exact visible order, names, counts and variants');
+  }else{
+    assert.deepEqual(metrics.families.map(f => f.id), groups.families.map(f => f.id));
+    assert.deepEqual(metrics.families.map(f => f.paper_cards.map(p => p.record_ids)), groups.families.map(f => f.papers.map(p => p.record_ids)));
+    for (const [i,family] of metrics.families.entries()) {
+      const expected=groups.families[i];assert.equal(family.label,expected.label);assert.equal(family.adoption,`${expected.paper_count} ${expected.paper_count===1?'paper':'papers'}`);
+      assert.deepEqual(family.paper_cards.map(card=>!card.hidden),mask[i].map(shown=>expanded||shown),'Cards must be the first two of each first three families, or the exact legacy BEFORE policy');
+      assert.equal(family.visible,family.paper_cards.some(card=>!card.hidden),'A family heading must be hidden when all its cards are hidden');
+    }
   }
   assert(metrics.labels.length > 0);
   for (const label of metrics.labels) {
@@ -182,7 +211,9 @@ async function visit(browser, args, target, viewport) {
     if (args.phase === 'after') {
       if (target.paper_card_count>initialCount) {
         const toggle=root.locator('.reader-family-toggle');assert.equal(await toggle.getAttribute('aria-expanded'),'false');await toggle.click();
-        assert.equal(await toggle.getAttribute('aria-expanded'),'true');assert.equal(await root.locator('.reader-paper-card:visible').count(),target.paper_card_count);
+        assert.equal(await toggle.getAttribute('aria-expanded'),'true');
+        const allCards=row.metrics.compact?root.locator('.reader-method-dialog[open] .reader-paper-card:visible'):root.locator('.reader-paper-card:visible');
+        assert.equal(await allCards.count(),target.paper_card_count);
         assert.equal(await page.locator('main[data-reader-ready]').getAttribute('data-reader-ready'),target.default_record_id);
         row.expanded_metrics=await root.evaluate(methodListMetrics);checkMethodListMetrics(row.expanded_metrics,target,groups,{expanded:true,phase:args.phase,previewPolicy:args.previewPolicy});
         row.show_all_probe={papers:target.paper_card_count,default_unchanged:true,passed:true};
