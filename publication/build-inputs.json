@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "completeness-f6-recovered-original-tail-20261121",
-  "updated_at": "2026-11-22T02:27:13.275437+00:00",
+  "release_id": "owner-website-o-20261119",
+  "updated_at": "2026-11-22T04:31:27.290274+00:00",
   "record_count": 7483,
   "input_files": [
     {
@@ -39371,8 +39371,8 @@
     },
     {
       "path": "recipe-atlas/scripts/build_atlas.py",
-      "sha256": "a5410ffcc2f78f63b2e6016ca1bd1dd28cf450600be16962ee7cef553e128d8b",
-      "bytes": 20899
+      "sha256": "2f83d920bd88ee242221f98e32aedf6e39986e5da16479f0832c4e35d54f0cc7",
+      "bytes": 21012
     },
     {
       "path": "recipe-atlas/scripts/build_cod_reference_model.py",
@@ -39381,7 +39381,7 @@
     },
     {
       "path": "recipe-atlas/scripts/build_dataset.py",
-      "sha256": "c97c5cd558315701515751ce5eaeb6f6a7fc6eb6145812a6dddeb912a1cba872",
+      "sha256": "4a0c0afb71fb8ce7f7c75efb2cdfa5d427e1bb49aa55619145edcab91d717fd0",
       "bytes": 30410
     },
     {
@@ -39416,7 +39416,7 @@
     },
     {
       "path": "recipe-atlas/scripts/build_reader_views.py",
-      "sha256": "e3c9bfa4b97c9fc102344246d55e9f47721adf4107e4ad8eceabd06779ac6c7d",
+      "sha256": "d43b06f2500e56a6934f24ba13104e31dfed17632938b34b596a3f2db8ea3fce",
       "bytes": 7599
     },
     {
@@ -39553,6 +39553,11 @@
       "path": "recipe-atlas/scripts/method_family_projection.py",
       "sha256": "b5e9ba953bb224296fe841fe40e02e29cc1763c41b2a9066e35628fd35f491fe",
       "bytes": 996
+    },
+    {
+      "path": "recipe-atlas/scripts/method_search_projection.py",
+      "sha256": "7bf05c050cc4c56fbe30a46485d2a167758d85cca2a2c5215e2b26f2bf75d497",
+      "bytes": 1212
     },
     {
       "path": "recipe-atlas/scripts/preliminary_contract.py",
@@ -279825,6 +279830,21 @@
       "bytes": 7919
     },
     {
+      "path": "recipe-atlas/static/compact-method-chooser.mjs",
+      "sha256": "4d75d8b3240f01828e1948f088e625053893368ccf8d49ca6ffee90347575aca",
+      "bytes": 1791
+    },
+    {
+      "path": "recipe-atlas/static/compact-method-dom.mjs",
+      "sha256": "ece564dd4e196ba0fc1ca90ec4407a20d0b0e2f160737bdd5adbd1ea1a3e3c2d",
+      "bytes": 6545
+    },
+    {
+      "path": "recipe-atlas/static/compact-method-state.mjs",
+      "sha256": "1fe3d3a531c0194f638ce852f166a7d69f965e23f785e3ae16f0e74d487b15d1",
+      "bytes": 2670
+    },
+    {
       "path": "recipe-atlas/static/costanzo2016-protocol.mjs",
       "sha256": "643dd22f0810e8a1f5dabc913f869dbec3f376c7fe09dc1ac5925092383e36f4",
       "bytes": 22757
@@ -305541,7 +305561,7 @@
     },
     {
       "path": "recipe-atlas/static/illustrated-record.mjs",
-      "sha256": "2fddaca670f849fd2b18381e2e34b0f7dbbfa3f939c66602e737d087527a0591",
+      "sha256": "a1de3ec0ff5057f6cb2123857e92c42ab4dcf3f11d11207c3f1b22712ef7690d",
       "bytes": 1147
     },
     {
@@ -305606,13 +305626,13 @@
     },
     {
       "path": "recipe-atlas/static/material-guide.mjs",
-      "sha256": "732240630ae3dd6e5a32729f475528d894b3d951140601ce94ae7c44438de967",
+      "sha256": "a79caacad2cca227cdb90ba84929916a5ac6160180f42563333ec984fa1ecd35",
       "bytes": 13635
     },
     {
       "path": "recipe-atlas/static/material-hub.mjs",
-      "sha256": "3de4837db1af1c5516353eaece111299e379aaec818d9d9aa99d5d5b9456ab79",
-      "bytes": 8930
+      "sha256": "2a769e2a665f4ff2601b97abb357fa3291825500eecc0fbb837bd88985dad883",
+      "bytes": 8889
     },
     {
       "path": "recipe-atlas/static/matuhina2023-protocol.mjs",
@@ -305791,8 +305811,8 @@
     },
     {
       "path": "recipe-atlas/static/reader-app.mjs",
-      "sha256": "67ab4c9839d7c600f7e7e3dff4ca11d3b0f46bf05a9f9b82141b5b7ad75d5421",
-      "bytes": 37901
+      "sha256": "797ff2f75960b25ff2bbd97cdd50c01eeca5b9ced8a89f13e317d9c473c47074",
+      "bytes": 37429
     },
     {
       "path": "recipe-atlas/static/reader-figure-morphology.mjs",
@@ -305831,8 +305851,8 @@
     },
     {
       "path": "recipe-atlas/static/reader.css",
-      "sha256": "2fa4ac3b231f84fc0d9a6923622510d20acc15086b963655f4a68b3cd2fc7b9e",
-      "bytes": 17912
+      "sha256": "fc480706f078b50711fb59c1cbc975b609d10e59fa30f719e77f01c114a5a870",
+      "bytes": 21082
     },
     {
       "path": "recipe-atlas/static/record-export-boot.mjs",
@@ -306011,13 +306031,23 @@
     },
     {
       "path": "recipe-atlas/templates/material-reader.html",
-      "sha256": "e988cf586c6ec3e98cc85594e1a84ba57ca293f74d918eb18374b98e58a623a5",
+      "sha256": "44899be005cfb21cc46a2b5d55e1bb427d7268321bb6f50179db5d856d84f5b0",
       "bytes": 1365
     },
     {
       "path": "recipe-atlas/tests/chemical-reference-route.test.mjs",
       "sha256": "b19c1c51f3ca859ec258f40ebb83cd4bc4297185a91a7458fcf175098d8b4332",
       "bytes": 13725
+    },
+    {
+      "path": "recipe-atlas/tests/compact-method-integration.test.mjs",
+      "sha256": "af55bbcef47f835f4f9465f87429c8e0b270cb834dd3eda50ff53f2cd2824d99",
+      "bytes": 1586
+    },
+    {
+      "path": "recipe-atlas/tests/compact-method-state.test.mjs",
+      "sha256": "896b806d958cb9d1efa04d144f78ac8933bc5c162a3006d6087b2fbf05eb374e",
+      "bytes": 2063
     },
     {
       "path": "recipe-atlas/tests/crystal-defaults.test.mjs",
@@ -306056,8 +306086,8 @@
     },
     {
       "path": "recipe-atlas/tests/method-families.test.mjs",
-      "sha256": "c4d17a9762ac20f0a3aa396a05516ef2ee7a4a1ba14798f8a5237a14bcf26fb3",
-      "bytes": 11711
+      "sha256": "b03ae6c6565f231bf20c52f3be22dd2b2110bfb8f392921578ad5ed893c412eb",
+      "bytes": 11802
     },
     {
       "path": "recipe-atlas/tests/paper-review-caption-display.test.mjs",
@@ -306251,7 +306281,7 @@
     },
     {
       "path": "recipe-atlas/tests/test_chemical_reference_cache.py",
-      "sha256": "0fa325f8ef0f6a8195426f3c573ce063a7cd75697f99893f23d42807f8dbe27d",
+      "sha256": "a12123bfa887e38f4ac5346ca9413e4ef414abc71b2f1fb223a6f8229646c523",
       "bytes": 5041
     },
     {
@@ -306411,7 +306441,7 @@
     },
     {
       "path": "recipe-atlas/tests/test_public_reader_cache_rollout.py",
-      "sha256": "10461d238360bdf79b91d5c91de950a5eda67d0fc36b8d02905c97ffc22af985",
+      "sha256": "1c793dffd45d5e3567df02697ee8e9e4609c4a362e832a762bd394fa3a1c43d3",
       "bytes": 9366
     },
     {
@@ -306461,7 +306491,7 @@
     },
     {
       "path": "recipe-atlas/tests/test_reader_cache_versions.py",
-      "sha256": "4e233278707c952aa86406e494459153ee5cd19edd46df98b8310a7e142af965",
+      "sha256": "c28d6ae24b3ea3a467dc3df0dc3e6d2c0a77c6fd039cc02b9c42be9285bf8c61",
       "bytes": 10560
     },
     {
@@ -306571,7 +306601,7 @@
     },
     {
       "path": "recipe-atlas/tests/test_visible_branding.py",
-      "sha256": "c14683af9befb841ba4f07fcb163edb0dbb822e08a5bd024acd57ef839582c76",
+      "sha256": "b2ba95579e72d982f7963ce6e0a20f8641fc5a84beea7790fa39c91917ea9836",
       "bytes": 5954
     },
     {
@@ -317596,13 +317626,13 @@
     },
     {
       "path": "tools/ci/method-families-check.mjs",
-      "sha256": "c491f7947620ae5fb055dfecc6722abd169fc8a9f64755976453823f7b08c5b8",
-      "bytes": 20508
+      "sha256": "233e78be416d586e51653557575c50613e2b43c74788a9ef7b58eac786c183b9",
+      "bytes": 22953
     },
     {
       "path": "tools/ci/method-families-check.test.mjs",
-      "sha256": "4dab268873587162730332d4770802ab8804d40efb6b5dfd47fff7923389a4ea",
-      "bytes": 16220
+      "sha256": "278766164de2b1e67b7401df0b429704810ce35c02161ca34043f0a27aa67d8e",
+      "bytes": 17877
     },
     {
       "path": "tools/ci/method-families-targets.json",

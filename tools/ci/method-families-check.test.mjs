@@ -116,3 +116,28 @@ test('K protocol schema2 BEFORE uses exact20 shape and retains strict J preview 
  const before=beforeTargetsFromProtocolSnapshot(protocol,prior);assert.equal(before.preview_policy,J_PREVIEW_POLICY);assert.equal(before.phase,'before');validateTargets(before,'before');
  for(const [schema,count]of [['mattersyn-protocol-scenes-targets/1',20],['mattersyn-protocol-scenes-targets/2',18],['unknown',20]]){const bad=structuredClone(protocol);bad.schema=schema;bad.targets=bad.targets.slice(0,count);assert.throws(()=>beforeTargetsFromProtocolSnapshot(bad,prior));}
 });
+
+
+test('compact dialog preserves the old checks without measuring page cards as dialog cards',()=>{
+  const g=groups();
+  g.families[0].papers.push({citation:'Second author',record_ids:['r3']},{citation:'Third author',record_ids:['r4']});
+  g.families[0].paper_count=3;
+  const t={...targets().targets[0],paper_card_count:3};
+  const collapsed=metrics();
+  Object.assign(collapsed,{compact:true,dialog_open:false,preview_cards:2,visible_card_count:2,toggle_count:1,toggle_expanded:'false'});
+  collapsed.families[0].adoption='3 papers';
+  collapsed.families[0].paper_cards.push({record_ids:['r3'],hidden:false});
+  checkMethodListMetrics(collapsed,t,g);
+  const opened=structuredClone(collapsed);
+  Object.assign(opened,{dialog_open:true,has_filter:true,panel_scrollable:true,visible_card_count:3,toggle_expanded:'true',
+    panel_bounds:rect(20,20,680,510),viewport_height:800,viewport_width:1280});
+  opened.families[0].paper_cards.push({record_ids:['r4'],hidden:false});
+  checkMethodListMetrics(opened,t,g,{expanded:true});
+  for(const mutate of [x=>x.dialog_open=false,x=>x.has_filter=false,x=>x.panel_scrollable=false,
+      x=>x.panel_bounds.height=600,x=>x.preview_cards=3,x=>x.families[0].paper_cards[0].record_ids.pop(),x=>x.text+=' machine-extracted recipes']){
+    const bad=structuredClone(opened);mutate(bad);assert.throws(()=>checkMethodListMetrics(bad,t,g,{expanded:true}));
+  }
+  const phone={...opened,viewport_width:375,viewport_height:812,panel_bounds:rect(0,0,375,812)};
+  checkMethodListMetrics(phone,t,g,{expanded:true});
+  assert.throws(()=>checkMethodListMetrics({...phone,panel_bounds:rect(0,0,375,700)},t,g,{expanded:true}));
+});

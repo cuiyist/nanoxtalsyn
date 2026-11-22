@@ -107,3 +107,6 @@ test('fewer than three own families include following component and processing f
 test('preview options reject invalid counts without fetching or modifying records',()=>{
  for(const options of [{initialFamilyLimit:0},{initialFamilyLimit:1.5},{initialPapersPerFamily:0},{initialPapersPerFamily:NaN}])assert.throws(()=>mountMethodFamilyList(new Element('aside'),{groups:data(),records,document:doc,onSelect:()=>{},...options}));
 });
+
+import './compact-method-state.test.mjs';
+import './compact-method-integration.test.mjs';

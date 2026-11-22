@@ -79,7 +79,7 @@ class VisibleBrandingTests(unittest.TestCase):
         value=f['shell']('Material','<p>Unchanged body</p>','material-hub.mjs')
         h=self.assertNIcon(value);self.assertEqual(h.title,'Material · '+BRAND)
         self.assertIn('<p>Unchanged body</p>',value)
-        self.assertIn('material-hub.mjs?v=0.48.1',value)
+        self.assertIn('material-hub.mjs?v=0.49.0',value)
 
     def test_review_scope_display_changes_no_record_value(self):
         path=ROOT/'scripts/build_dataset.py';tree=ast.parse(path.read_text(encoding='utf-8'))
