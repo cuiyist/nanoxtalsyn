@@ -1,18 +1,18 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x02-inventory-repair",
+  "release_id": "owner-website-p-20261119",
   "repo": "mattersyn",
-  "source_commit": "b7ff3b6540b841061af628041e5707708f1557af",
+  "source_commit": "59bc2df8b329f0639488aa7426ab5d02dd37db64",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "21520c3a557e02a0698daa27d8879871ca72d4162a38562ad16e58df1c0da866",
-    "file_count": 64894,
+    "sha256": "8e74ac88d0f476919fe6579cc1bff48b91065848ae8be6fc2dcc18a58ca16148",
+    "file_count": 64899,
     "excludes": [
       "publication/project-allowlist.json"
     ]
   },
-  "policy_sha256": "c1030b38702db099e50ae77bee1c2c7236fa96c188f24870acfce2706cf91673",
+  "policy_sha256": "ade62fd7afd95b8f7e134c89e8ead29009a9e8788491e015104fb06c751e3882",
   "asset_rights_registry_sha256": "408dfdf87bfcac1112bbef549360ec02d1dda64cbd18293db56d86800133d94a",
   "review_scope": "Exact staged payload identities. Scientific review remains separately bound to paper content.",
   "files": [
@@ -150,26 +150,26 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "e088b61c386891e797988f26b92a41a19586361a1cffd8f3c15f0d8c5cf5b815",
-      "bytes": 14974238,
+      "sha256": "f302519c6ae44b288fd470457ad3c69bcce93eba0c348bdf978cc7c2c867b287",
+      "bytes": 14975146,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T11:17:45.959413+00:00",
+      "reviewed_at": "2026-11-22T13:57:25.116375+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "c1030b38702db099e50ae77bee1c2c7236fa96c188f24870acfce2706cf91673",
-      "bytes": 292817,
+      "sha256": "ade62fd7afd95b8f7e134c89e8ead29009a9e8788491e015104fb06c751e3882",
+      "bytes": 293707,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-22T09:10:47+00:00",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -126408,7 +126408,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T11:17:45.959413+00:00",
+      "reviewed_at": "2026-11-22T13:57:25.116375+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -138848,15 +138848,15 @@
     },
     {
       "path": "recipe-atlas/scripts/method_families.py",
-      "sha256": "3f713b09980274d72de79f659f13ba779e87bc1852bc2b030eedece3d407bceb",
-      "bytes": 37944,
+      "sha256": "287e874bc0c6faa9d970970cd840eacde6a04149bcef2255f348f3064e57975a",
+      "bytes": 38187,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized J reader grouping code and display metadata; no scientific record approval",
-      "reviewed_at": "2026-11-08T19:43:57.092803+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/scripts/method_family_projection.py",
@@ -138869,6 +138869,30 @@
       "reviewed_at": "2026-11-07T23:35:04.239666+00:00",
       "source_refs": [],
       "content_class": "authored_code"
+    },
+    {
+      "path": "recipe-atlas/scripts/method_recipe_patterns.py",
+      "sha256": "f70b83922a5c3211731911107f7c8eadf760f7f16d277ba38ebfdbb7380ae7c5",
+      "bytes": 6556,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "recipe-atlas/scripts/method_route_fallback.py",
+      "sha256": "b5654b96baa383143ed894353a230c308b6f28ea8563de540f06e3f4147fd2c9",
+      "bytes": 3580,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/scripts/method_search_projection.py",
@@ -1091782,6 +1091806,18 @@
       "content_class": "authored_code"
     },
     {
+      "path": "recipe-atlas/tests/test_method_family_p_fallback.py",
+      "sha256": "c00fd178dbb139ee4c54878d95a3ab7e709a065c4dfa447946a550642d70b7f6",
+      "bytes": 5084,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
       "path": "recipe-atlas/tests/test_method_family_projection.py",
       "sha256": "1f3f69e9b5b47ffdcbbd6a703162da7149c409bd474e71005fb46f44ed339db4",
       "bytes": 2245,
@@ -1118877,13 +1118913,13 @@
     },
     {
       "path": "tools/ci/benchmark-base-reconciliations.json",
-      "sha256": "34b6025eb7a20231944ee292dd144b410edf3e2831a990a58da43dbb69ba2c7f",
-      "bytes": 8719,
+      "sha256": "e428537a3c8dc62a363131d4a4ea35e787e246be5e1761c273b7fcf5063ea21f",
+      "bytes": 12047,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex O exact public benchmark fixture repair",
-      "reviewed_at": "2026-11-22T04:59:57+00:00",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1118963,13 +1118999,13 @@
     },
     {
       "path": "tools/ci/method-families-targets.json",
-      "sha256": "e88d853974d7e501c9951a2c1d0905589b37e0af0e1d717edd973973e540cdd6",
-      "bytes": 3727,
+      "sha256": "2e5814f3d1b4ef9abc92ffb549c0558221664888a2c6a179d7043595d1e629ec",
+      "bytes": 3713,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex O exact public benchmark fixture repair",
-      "reviewed_at": "2026-11-22T04:59:57+00:00",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1119011,13 +1119047,13 @@
     },
     {
       "path": "tools/ci/protocol-scenes-targets.json",
-      "sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
-      "bytes": 10602,
+      "sha256": "f240cdfb121ddf030d9b5df91c05c940aec98a9730c7d06ca6c71407551a9b69",
+      "bytes": 10598,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex O exact public benchmark fixture repair",
-      "reviewed_at": "2026-11-22T04:59:57+00:00",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1119066,6 +1119102,30 @@
       "review_status": "approved",
       "reviewer": "Codex O exact public benchmark fixture repair",
       "reviewed_at": "2026-11-22T04:59:57+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/release13-before-method-targets.json",
+      "sha256": "6c783bd98bcf2baea4d652f2c5bf578c9feea2ee8480330b3799eb92eb6f8d1d",
+      "bytes": 3727,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/ci/release13-before-protocol-targets.json",
+      "sha256": "181bb384b819deece22b0efc197906f1d4e5bae5021ed1849e7f48a35b07ad54",
+      "bytes": 10602,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner website part P exact code and display review",
+      "reviewed_at": "2026-11-22T13:57:02+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
