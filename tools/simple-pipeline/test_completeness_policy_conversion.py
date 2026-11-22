@@ -57,6 +57,30 @@ class Tests(unittest.TestCase):
         self.assertEqual(doc,before);self.assertEqual(r['quality']['review_status'],'source_extracted')
         self.assertIn('CHECK V6',r['quality']['review_scope'])
         self.assertEqual(to_site.inventory_entry(builder,doc,[r['record_id']])['notes'],[r['quality']['review_scope']])
+    def test_inventory_separates_physical_main_pages_from_global_si_pages(self):
+        doc=document()
+        doc.update(page_count=3,pages_read=[1,2,3,5,7,8],document_spans=[
+            {'role':'main','pages':3,'offset':0},{'role':'si','pages':4,'offset':3},
+            {'role':'si','pages':1,'offset':7}])
+        before=copy.deepcopy(doc);builder,records=to_site.records_of(doc)
+        row=to_site.inventory_entry(builder,doc,[r['record_id'] for r in records])
+        self.assertEqual(doc,before)
+        self.assertEqual(row['review_status'],'source_extracted')
+        self.assertEqual(len(row['documents']),1)
+        self.assertEqual(row['documents'][0]['pages_read'],[1,2,3])
+        self.assertTrue(row['documents'][0]['all_text_read'])
+        self.assertEqual(row['si_status'],'extracted_not_expert_reviewed')
+        first,second=row['supporting_information_extraction']
+        self.assertEqual((first['virtual_page_offset'],first['pages_read'],first['all_text_read']),(3,[2,4],False))
+        self.assertEqual((second['virtual_page_offset'],second['pages_read'],second['all_text_read']),(7,[1],True))
+        self.assertFalse(first['all_visually_reviewed'] or second['all_visually_reviewed'])
+    def test_inventory_rejects_unbound_or_overlapping_document_pages(self):
+        base={'page_count':3,'pages_read':[1,2,3,4],
+              'document_spans':[{'role':'main','pages':3,'offset':0},{'role':'si','pages':1,'offset':3}]}
+        for pages in ([2,5],[4],[1,1,4],[True,4]):
+            with self.assertRaises(ValueError):to_site.inventory_document_scope(dict(base,pages_read=pages))
+        shifted=copy.deepcopy(base);shifted['document_spans'][1]['offset']=2
+        with self.assertRaises(ValueError):to_site.inventory_document_scope(shifted)
     def test_unchecked_metadata_cannot_change_optics(self):
         doc=document();doc['check_policy']['optical_fields']=['absorption_peak']
         self.assertFalse(policy.is_checked_document(doc))

@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release02",
-  "updated_at": "2026-11-22T09:11:25.490199+00:00",
+  "release_id": "tanjin-x02-inventory-repair",
+  "updated_at": "2026-11-22T11:17:45.959413+00:00",
   "record_count": 7586,
   "input_files": [
     {
@@ -86,8 +86,8 @@
     },
     {
       "path": "recipe-atlas/data/inventory-evidence.json",
-      "sha256": "3bc8b7985378ff429eebaab82edda4881f761f556afc78191d2493bb1eca80b2",
-      "bytes": 5977321
+      "sha256": "fd403131d53dc5192cd3c307a22bc6907c99b86175ed41c9db32ef2fd7842fa0",
+      "bytes": 5978717
     },
     {
       "path": "recipe-atlas/data/measurement-display.json",
@@ -324191,8 +324191,8 @@
     },
     {
       "path": "tools/simple-pipeline/test_completeness_policy_conversion.py",
-      "sha256": "3bd42b4f7fc3437aadf552ef709fbf065f61eec08159a74cd9cea0a8f9b2f3f8",
-      "bytes": 6961
+      "sha256": "da9e5db811e4e1341d650da735e37701fd680e3d1863e0454d9a2645bd7e3c5f",
+      "bytes": 8731
     },
     {
       "path": "tools/simple-pipeline/test_components.py",
@@ -324396,8 +324396,8 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "ff1d4b021648a7e38b1e01d5cefac733bb3849877eb16223bf016ae9dc4d3a97",
-      "bytes": 62439
+      "sha256": "0555cbf77c8a548e0fa6a062e3f01cb70e9bc21e22e056ea4f57fd16f5be1f3e",
+      "bytes": 64499
     },
     {
       "path": "tools/simple-pipeline/w10_materials.py",

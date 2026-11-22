@@ -150466,11 +150466,44 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/prins2017-acs-nanolett-6b03212-red-emitting-core-shell-quantum-dots-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 13,
           "pages_read": [
             1,
             2,
@@ -150484,47 +150517,12 @@
             10,
             11,
             12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
+            13
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/prins2017-acs-nanolett-6b03212-red-emitting-core-shell-quantum-dots-4.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -151122,7 +151120,7 @@
       "year": 2020,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -151136,17 +151134,7 @@
             6,
             7,
             8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            9
           ],
           "actual_pages_text_read": [
             1,
@@ -151157,20 +151145,10 @@
             6,
             7,
             8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            9
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -151178,7 +151156,28 @@
       "evidence_locator": "data/records/bera2020-acs-jpcc-0c03947-cu3bis3-nanoplatelets-platelet-a-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -151197,7 +151196,7 @@
       "year": 2020,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -151210,12 +151209,7 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
+            8
           ],
           "actual_pages_text_read": [
             1,
@@ -151225,15 +151219,10 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
+            8
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -151241,7 +151230,23 @@
       "evidence_locator": "data/records/kendall2020-nano10050863-fto5-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -151798,7 +151803,7 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -151811,12 +151816,7 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
+            8
           ],
           "actual_pages_text_read": [
             1,
@@ -151826,15 +151826,10 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
+            8
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -151842,7 +151837,23 @@
       "evidence_locator": "data/records/williams2017-acs-chemmater-6b05058-czts-nanocrystal-coatings-5-nm-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -152019,7 +152030,7 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -152032,16 +152043,7 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
+            8
           ],
           "actual_pages_text_read": [
             1,
@@ -152051,19 +152053,10 @@
             5,
             6,
             7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
+            8
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -152071,7 +152064,27 @@
       "evidence_locator": "data/records/liu2017-acs-chemmater-6b05428-kuramite-cu3snxs4-npls-x-1-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -152196,11 +152209,52 @@
       "year": 2025,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2025-adma-202420633-udac-qds-pdms-ccls-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 11,
+          "page_count": 22,
           "pages_read": [
             1,
             2,
@@ -152223,64 +152277,12 @@
             19,
             20,
             21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33
+            22
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/kim2025-adma-202420633-udac-qds-pdms-ccls-1.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -152299,11 +152301,48 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/li2017-acsnano-6b08674-cdse-cdte-cc-npls-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 19,
           "pages_read": [
             1,
             2,
@@ -152323,57 +152362,12 @@
             16,
             17,
             18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
+            19
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/li2017-acsnano-6b08674-cdse-cdte-cc-npls-1.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -152831,7 +152825,7 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -152847,11 +152841,7 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15
+            11
           ],
           "actual_pages_text_read": [
             1,
@@ -152864,14 +152854,10 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15
+            11
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -152879,7 +152865,22 @@
       "evidence_locator": "data/records/raksawong2017-s00216-017-0466-8-hybrid-mip-coated-cdte-qd-nanocomposite-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 11,
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153008,11 +153009,48 @@
       "year": 2021,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jo2021-acsaem-1c02511-pbs-quantum-dots-with-band-gap-of-1-18-e-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 14,
           "pages_read": [
             1,
             2,
@@ -153027,52 +153065,12 @@
             11,
             12,
             13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23
+            14
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/jo2021-acsaem-1c02511-pbs-quantum-dots-with-band-gap-of-1-18-e-1.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153132,7 +153130,7 @@
       "year": 2017,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -153148,15 +153146,7 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            11
           ],
           "actual_pages_text_read": [
             1,
@@ -153169,18 +153159,10 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            11
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -153188,7 +153170,26 @@
       "evidence_locator": "data/records/oberg2017-app7101020-ag2s-colloidal-quantum-dots-cqds-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 11,
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153259,7 +153260,7 @@
       "year": 2024,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -153275,15 +153276,7 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            11
           ],
           "actual_pages_text_read": [
             1,
@@ -153296,18 +153289,10 @@
             8,
             9,
             10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19
+            11
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -153315,7 +153300,26 @@
       "evidence_locator": "data/records/baravaglio2024-d4nr02401j-cspbbr3-nanocrystals-s-fraction-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 11,
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153377,11 +153381,60 @@
       "year": 2025,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 15,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/rico2025-chemrxiv-2025-db58r-cds-oa-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 15,
+          "page_count": 34,
           "pages_read": [
             1,
             2,
@@ -153416,84 +153469,12 @@
             31,
             32,
             33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49
+            34
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/rico2025-chemrxiv-2025-db58r-cds-oa-2.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153673,7 +153654,7 @@
       "year": 2020,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -153704,34 +153685,7 @@
             23,
             24,
             25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53
+            26
           ],
           "actual_pages_text_read": [
             1,
@@ -153759,37 +153713,10 @@
             23,
             24,
             25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53
+            26
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -153797,7 +153724,45 @@
       "evidence_locator": "data/records/dominguez2020-chemrxiv-12943508-v1-sn-in2o3-ito-nanocrystals-2.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 26,
+          "page_count": 27,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -153814,11 +153779,42 @@
       "year": 2018,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
           "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/roo2018-acs-chemmater-8b03768-hfo2-ncs-functionalized-with-octadecylph-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 6,
+          "page_count": 28,
           "pages_read": [
             1,
             2,
@@ -153847,60 +153843,12 @@
             25,
             26,
             27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34
+            28
           ],
-          "actual_pages_text_read": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34
-          ],
-          "actual_pages_visually_read": [],
-          "all_text_read": false,
-          "all_visually_reviewed": false,
-          "scope": "Pages selected automatically as describing the synthesis and the product."
+          "all_text_read": true,
+          "all_visually_reviewed": false
         }
       ],
-      "evidence_locator": "data/records/roo2018-acs-chemmater-8b03768-hfo2-ncs-functionalized-with-octadecylph-4.json",
-      "paper_review_url": null,
-      "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
@@ -154192,7 +154140,7 @@
       "year": 2016,
       "has_local_corpus_group": false,
       "review_status": "source_extracted",
-      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
       "documents": [
         {
           "role": "main",
@@ -154204,15 +154152,7 @@
             4,
             5,
             6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
+            7
           ],
           "actual_pages_text_read": [
             1,
@@ -154221,18 +154161,10 @@
             4,
             5,
             6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
+            7
           ],
           "actual_pages_visually_read": [],
-          "all_text_read": false,
+          "all_text_read": true,
           "all_visually_reviewed": false,
           "scope": "Pages selected automatically as describing the synthesis and the product."
         }
@@ -154240,7 +154172,26 @@
       "evidence_locator": "data/records/li2016-adma-201600064-cspbi3-nanocrystals-1.json",
       "paper_review_url": null,
       "main_status": "extracted_not_expert_reviewed",
-      "si_status": "not_read",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
       "notes": [
         "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
       ],
