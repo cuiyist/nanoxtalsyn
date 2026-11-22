@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x-release02",
+  "release_id": "tanjin-x02-inventory-repair",
   "repo": "mattersyn",
-  "source_commit": "cdc573c7e5a138b8fa25de2ed011539ed3cae5d8",
+  "source_commit": "b7ff3b6540b841061af628041e5707708f1557af",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "64b7c8fa89f87776f6f2c255c85f228af8f22d37d8fbeb6c6366bf7d7612e203",
+    "sha256": "21520c3a557e02a0698daa27d8879871ca72d4162a38562ad16e58df1c0da866",
     "file_count": 64894,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,13 +150,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "16eee9de047bd594958e012d1bd61db886e9501f83ee63d057bdd4548375b9b2",
-      "bytes": 14974229,
+      "sha256": "e088b61c386891e797988f26b92a41a19586361a1cffd8f3c15f0d8c5cf5b815",
+      "bytes": 14974238,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T09:11:25.490199+00:00",
+      "reviewed_at": "2026-11-22T11:17:45.959413+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -223,13 +223,13 @@
     },
     {
       "path": "recipe-atlas/data/inventory-evidence.json",
-      "sha256": "3bc8b7985378ff429eebaab82edda4881f761f556afc78191d2493bb1eca80b2",
-      "bytes": 5977321,
+      "sha256": "fd403131d53dc5192cd3c307a22bc6907c99b86175ed41c9db32ef2fd7842fa0",
+      "bytes": 5978717,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-22T09:10:47+00:00",
+      "reviewer": "Codex exact inventory projection, original ordinals and unchanged publisher route check",
+      "reviewed_at": "2026-11-22T11:17:12+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -126408,7 +126408,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T09:11:25.490199+00:00",
+      "reviewed_at": "2026-11-22T11:17:45.959413+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1120725,13 +1120725,13 @@
     },
     {
       "path": "tools/simple-pipeline/test_completeness_policy_conversion.py",
-      "sha256": "3bd42b4f7fc3437aadf552ef709fbf065f61eec08159a74cd9cea0a8f9b2f3f8",
-      "bytes": 6961,
+      "sha256": "da9e5db811e4e1341d650da735e37701fd680e3d1863e0454d9a2645bd7e3c5f",
+      "bytes": 8731,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex exact inventory projection, original ordinals and unchanged publisher route check",
+      "reviewed_at": "2026-11-22T11:17:12+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1121221,13 +1121221,13 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "ff1d4b021648a7e38b1e01d5cefac733bb3849877eb16223bf016ae9dc4d3a97",
-      "bytes": 62439,
+      "sha256": "0555cbf77c8a548e0fa6a062e3f01cb70e9bc21e22e056ea4f57fd16f5be1f3e",
+      "bytes": 64499,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "reviewer": "Codex exact inventory projection, original ordinals and unchanged publisher route check",
+      "reviewed_at": "2026-11-22T11:17:12+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

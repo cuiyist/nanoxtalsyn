@@ -832,18 +832,56 @@ def cmd_sync(a):
     print(f'reader entries: {sum(1 for v in side["records"].values() if v.get("presentation_status") == "pending" and "extracted" in v.get("scopeLabel", ""))} extracted records; {len(new_assets)} asset files written')
 
 
+def inventory_document_scope(doc):
+    """Project checked virtual pages onto their exact physical documents."""
+    pages = doc.get('pages_read') or []
+    count = doc.get('page_count') or (max(pages) if pages else 0)
+    spans = doc.get('document_spans')
+    if not spans:
+        return pages, count, []  # Original main-only carrier.
+    if (not isinstance(spans, list) or type(count) is not int or count < 1 or
+            not isinstance(pages, list) or not pages or
+            any(type(p) is not int or p < 1 for p in pages) or pages != sorted(set(pages))):
+        raise ValueError('Invalid checked document page scope')
+    offset, main, supplemental = 0, [], []
+    for index, span in enumerate(spans):
+        role = 'main' if index == 0 else 'si'
+        if (not isinstance(span, dict) or span.get('role') != role or
+                type(span.get('offset')) is not int or span['offset'] != offset or
+                type(span.get('pages')) is not int or span['pages'] < 1 or
+                (index == 0 and span['pages'] != count)):
+            raise ValueError('Invalid checked document span or main length')
+        size = span['pages']
+        physical = [p - offset for p in pages if offset < p <= offset + size]
+        if index == 0:
+            main = physical
+        else:
+            supplemental.append({'role': 'si', 'virtual_page_offset': offset, 'page_count': size,
+                                 'pages_read': physical, 'all_text_read': len(physical) == size,
+                                 'all_visually_reviewed': False})
+        offset += size
+    if not main or pages[-1] > offset:
+        raise ValueError('Checked page is outside its bound document scope')
+    return main, count, supplemental
+
+
 def inventory_entry(builder, doc, record_ids):
     """The site keeps one entry per paper saying what was read. This one says: extracted, not reviewed."""
     src = builder.source()
-    pages = doc.get('pages_read') or []
+    pages, page_count, supplemental = inventory_document_scope(doc)
+    has_si_read = any(x['pages_read'] for x in supplemental)
     return {'source_group': builder.source_id, 'paper_id': builder.source_id, 'doi': src['doi'] or '', 'url': src['url'], 'title': src['title'], 'year': src['year'],
             'has_local_corpus_group': False, 'review_status': 'source_extracted',
-            'review_scope': 'Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.',
-            'documents': [{'role': 'main', 'page_count': doc.get('page_count') or (max(pages) if pages else 0), 'pages_read': pages, 'actual_pages_text_read': pages,
+            'review_scope': 'Synthesis and product pages of the main text' +
+                            (' and listed supporting information' if has_si_read else '') +
+                            ', read by the extraction pipeline. Not a whole-paper reading and not an expert review.',
+            'documents': [{'role': 'main', 'page_count': page_count, 'pages_read': pages, 'actual_pages_text_read': pages,
                            'actual_pages_visually_read': [], 'all_text_read': bool(pages) and len(pages) == doc.get('page_count'), 'all_visually_reviewed': False,
                            'scope': 'Pages selected automatically as describing the synthesis and the product.'}],
             'evidence_locator': f'data/records/{record_ids[0]}.json', 'paper_review_url': None, 'main_status': 'extracted_not_expert_reviewed',
-            'si_status': 'not_read', 'notes': [getattr(builder, 'review_scope', REVIEW_SCOPE)], 'record_ids': record_ids}
+            'si_status': 'extracted_not_expert_reviewed' if has_si_read else 'not_read',
+            **({'supporting_information_extraction': supplemental} if supplemental else {}),
+            'notes': [getattr(builder, 'review_scope', REVIEW_SCOPE)], 'record_ids': record_ids}
 
 
 def cmd_records(a):
