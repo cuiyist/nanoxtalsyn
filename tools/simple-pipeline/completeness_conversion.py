@@ -78,9 +78,12 @@ def builder_class(base):
                     if exact:matches=exact
                     if len(matches)>1:
                         ranks={i:overlap(step.get('quote') or '',checked[i].get('quote') or '') for i in matches}
-                        best=max(ranks.values());matches=[i for i in matches if ranks[i]==best]
+                        original=matches;best=max(ranks.values());matches=[i for i in matches if ranks[i]==best]
                         if best<.5 or len(matches)!=1:
-                            raise AmbiguousChemicalUse('Distinct checked charges lack unique source-quote use binding')
+                            from w10_materials import compatible_charge_tie
+                            if not compatible_charge_tie(original,materials):
+                                raise AmbiguousChemicalUse('Distinct checked charges lack unique source-quote use binding')
+                            matches=[next((i for i in original if materials[i]['quantities']),original[0])]
                     if len(matches)==1:
                         material=materials[matches[0]];mid=material['id']
                         if mid not in ids:ids.append(mid)
