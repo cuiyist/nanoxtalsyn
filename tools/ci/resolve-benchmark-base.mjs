@@ -11,6 +11,7 @@ const sha = raw => createHash('sha256').update(raw).digest('hex');
 const PROTOCOL = 'tools/ci/protocol-scenes-targets.json';
 const METHODS = 'tools/ci/method-families-targets.json';
 const changedFields = new Set(['record_id','operation_index','operation_id','operation_label','record_json_bytes','record_json_sha256']);
+const explicitPinFields = new Set(['operation_index','record_json_bytes','record_json_sha256']);
 
 export function checkReconciledDefaults(original, replacement, declared) {
   validateTargets(original); validateTargets(replacement);
@@ -32,6 +33,31 @@ export function checkReconciledDefaults(original, replacement, declared) {
   assert.deepEqual(changed.sort(), [...declared].sort(), 'Every and only declared default change is required');
 }
 
+// A verified recipe revision may shift a named operation's position while
+// preserving its identity. Rebind raw pins and that position only; test the
+// same explicit record, route, operation ID, label and size requirement.
+export function checkReconciledExplicitPins(original, replacement, declaredDefaults, declaredExplicit) {
+  validateTargets(original); validateTargets(replacement);
+  assert.equal(original.targets.length,replacement.targets.length);
+  assert(Array.isArray(declaredExplicit) && new Set(declaredExplicit).size===declaredExplicit.length);
+  const changed=[];
+  const defaultsOnly={...replacement,targets:replacement.targets.map((next,i)=>{
+    const old=original.targets[i];
+    assert.equal(next.id,old.id);
+    if(old.group==='benchmark-default')return next;
+    if(JSON.stringify(old)!==JSON.stringify(next)){
+      assert(old.group==='route-example'||old.group==='reader-e-step1','K targets remain fixed');
+      for(const key of new Set([...Object.keys(old),...Object.keys(next)])){
+        if(!explicitPinFields.has(key))assert.deepEqual(next[key],old[key],'Explicit record, route and operation identity must stay');
+      }
+      changed.push(old.id);
+    }
+    return old;
+  })};
+  checkReconciledDefaults(original,defaultsOnly,declaredDefaults);
+  assert.deepEqual(changed.sort(),[...declaredExplicit].sort(),'Every and only declared explicit pin change is required');
+}
+
 export function resolveBaseTargets(base, readGit, readFile, reconciliations) {
   assert(/^[0-9a-f]{40}$/.test(base), 'Exact comparison-base commit required');
   assert.equal(reconciliations.schema, 'fixed-benchmark-base-reconciliation/1');
@@ -49,7 +75,11 @@ export function resolveBaseTargets(base, readGit, readFile, reconciliations) {
     assert.equal(sha(pr),entry.protocol_sha256);
     assert.equal(sha(mr),entry.methods_sha256);
     const revisedProtocol=JSON.parse(pr), revisedMethods=JSON.parse(mr);
-    checkReconciledDefaults(protocol,revisedProtocol,entry.changed_protocol_defaults);
+    if(Object.hasOwn(entry,'changed_protocol_explicit')){
+      checkReconciledExplicitPins(protocol,revisedProtocol,entry.changed_protocol_defaults,entry.changed_protocol_explicit);
+    }else{
+      checkReconciledDefaults(protocol,revisedProtocol,entry.changed_protocol_defaults);
+    }
     assert.equal(methods.schema,revisedMethods.schema);
     assert.equal(methods.phase,revisedMethods.phase);
     assert.equal(methods.preview_policy,revisedMethods.preview_policy);
