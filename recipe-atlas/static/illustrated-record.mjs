@@ -1,5 +1,5 @@
 import {bootstrapRecord,reviewedProtocolArt} from './reader-app.mjs?v=0.49.0';
-import {mountProtocol} from './protocol-visuals.mjs?v=0.48.0';
+import {mountProtocol} from './protocol-visuals.mjs?v=0.49.0';
 import {enhanceRecordChemicals} from './chemical-viewer.mjs?v=0.48.0';
 import {mountEvidence, mountCrystalReferences} from './material-guide.mjs?v=0.49.0';
 const id=document.body.dataset.recordId;

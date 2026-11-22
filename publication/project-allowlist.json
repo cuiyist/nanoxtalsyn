@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "owner-website-o-20261119-benchmark-rebind",
+  "release_id": "owner-website-o-20261119-substrate-leader",
   "repo": "mattersyn",
-  "source_commit": "17ceb4e4583d9ea8b3510d4477afa034cf7a807f",
+  "source_commit": "da7aaa8ef0f2f493276dbf86663a0f14890daa68",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "05976117a003f7999864970a013265edf005f2d5ee6dd49d88a00ba9f79ffbc1",
+    "sha256": "3c41040858f4ba789026defaf0d59c162c4102184eca75d7d54ede52add134bc",
     "file_count": 63727,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,13 +150,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "2544077ef4ff8a5a8832b2dbc75f329dffd82e3d398ba300615bacb2c0f84eea",
+      "sha256": "0d9fcb23ca64961336cf512a4266d73665dc800bed75c8ce6dec30be236633b4",
       "bytes": 14707230,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T05:00:19.387793+00:00",
+      "reviewed_at": "2026-11-22T05:35:32.113329+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -124760,7 +124760,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T05:00:19.387793+00:00",
+      "reviewed_at": "2026-11-22T05:35:32.113329+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1071100,13 +1071100,13 @@
     },
     {
       "path": "recipe-atlas/static/illustrated-record.mjs",
-      "sha256": "a1de3ec0ff5057f6cb2123857e92c42ab4dcf3f11d11207c3f1b22712ef7690d",
+      "sha256": "fe29a4e1533e4290bf90e55ceb043b08c0f961eb5527787f838e963924398dac",
       "bytes": 1147,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1071257,13 +1071257,13 @@
     },
     {
       "path": "recipe-atlas/static/material-guide.mjs",
-      "sha256": "a79caacad2cca227cdb90ba84929916a5ac6160180f42563333ec984fa1ecd35",
+      "sha256": "af699440aef40a72388ea9c4eb6d0891ab30fb14b4c74ba6c946465980eb72b2",
       "bytes": 13635,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1071653,15 +1071653,15 @@
     },
     {
       "path": "recipe-atlas/static/protocol-visuals.mjs",
-      "review_status": "approved",
-      "reviewer": "Root: owner-authorized N project rename; exact brand/code/checksum changes reviewed; original scientific record bytes and rights decisions preserved",
-      "reviewed_at": "2026-11-09T20:53:49+00:00",
-      "source_refs": [],
-      "decision": "allow",
-      "sha256": "2c88cc690d5e83e704ef8902b88f60b4a87fee78718ab21ede34da189d8fb273",
+      "sha256": "e983ebc24a1857a56ca9e3fe23e08c848eebe4e7f8b9bb38cc393aa38fa1aaaa",
       "bytes": 18787,
       "git_mode": "100644",
-      "content_class": "authored_code"
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/static/quantity-value.mjs",
@@ -1071701,13 +1071701,13 @@
     },
     {
       "path": "recipe-atlas/static/reader-app.mjs",
-      "sha256": "797ff2f75960b25ff2bbd97cdd50c01eeca5b9ced8a89f13e317d9c473c47074",
+      "sha256": "49f55869e578c7dc7392cbd4789e08b57ae82d04f41c2d5ddad09e5f0d103ee9",
       "bytes": 37429,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1071845,27 +1071845,27 @@
     },
     {
       "path": "recipe-atlas/static/reported-protocol-scenes.mjs",
-      "sha256": "11f712e6c4ee3dca265accd1beb76fcae1ac7eb0e784a2a61820946726fe9715",
+      "sha256": "6d2c9c5237a5ae1c2c7fec36803df3ecfb6428458b2020d98bb900ff97279af6",
       "bytes": 26027,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized K reader drawing, wording and display code; no scientific record approval",
-      "reviewed_at": "2026-11-09T02:19:21.416906+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/static/reported-scene-drawing.mjs",
-      "sha256": "3d8ae999ce63dbd06bc37c46b39ad8cf97aea4d5cdf38d238261caa9c39e6fba",
-      "bytes": 29711,
+      "sha256": "51a10eb28f526aecba954066844f356f8a8102bd18ee703aa62c3ccac4541551",
+      "bytes": 30413,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized K reader drawing, wording and display code; no scientific record approval",
-      "reviewed_at": "2026-11-08T22:27:07.011648+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/static/reported-scene-extensions.mjs",
@@ -1072662,15 +1072662,15 @@
     },
     {
       "path": "recipe-atlas/tests/reported-scene-drawing.test.mjs",
-      "sha256": "c278da88867e2f8b25d1444cc5219da6ac0eba75e4693cba6a2bff5113ccde92",
-      "bytes": 16795,
+      "sha256": "564b945b587d5c0d633a7e64e08339c241a0ae9e33b570c98993f40b6b2a77e5",
+      "bytes": 17786,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: owner-authorized K reader drawing, wording and display code; no scientific record approval",
-      "reviewed_at": "2026-11-08T22:27:07.011648+00:00",
-      "source_refs": [],
-      "content_class": "authored_code"
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
     },
     {
       "path": "recipe-atlas/tests/reported-scene-extensions.test.mjs",
@@ -1072834,13 +1072834,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_chemical_reference_cache.py",
-      "sha256": "a12123bfa887e38f4ac5346ca9413e4ef414abc71b2f1fb223a6f8229646c523",
-      "bytes": 5041,
+      "sha256": "63917df5f27bcf96db9646e0da45317d73ed8b49083f113348651110289fb328",
+      "bytes": 5151,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1073223,13 +1073223,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_public_reader_cache_rollout.py",
-      "sha256": "1c793dffd45d5e3567df02697ee8e9e4609c4a362e832a762bd394fa3a1c43d3",
-      "bytes": 9366,
+      "sha256": "2ce18e4ec44749008d208cef996cc23f255dac79c0555a69128cdd39a0722046",
+      "bytes": 9476,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1073343,13 +1073343,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_reader_cache_versions.py",
-      "sha256": "c28d6ae24b3ea3a467dc3df0dc3e6d2c0a77c6fd039cc02b9c42be9285bf8c61",
-      "bytes": 10560,
+      "sha256": "2fdc0f581191e1f016f859a59d807e834f88dae0fe70cb7fb2851eed9ae6d043",
+      "bytes": 10787,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner website part O exact code and display review",
-      "reviewed_at": "2026-11-22T04:31:05+00:00",
+      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
+      "reviewed_at": "2026-11-22T05:35:09+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

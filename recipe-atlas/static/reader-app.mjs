@@ -12,7 +12,7 @@ import {quantityValue} from './quantity-value.mjs';
 
 import {chemicalRegistry,chemicalEntry,chemicalImage,openChemical,hasRotatableChemicalModel,chemicalButtonLabel,chemicalDisplayCaption} from './chemical-viewer.mjs?v=0.48.0';
 
-import {mountProtocol} from './protocol-visuals.mjs?v=0.48.0';
+import {mountProtocol} from './protocol-visuals.mjs?v=0.49.0';
 
 import {mountReaderStructures} from './reader-structures.mjs?v=0.48.0';
 

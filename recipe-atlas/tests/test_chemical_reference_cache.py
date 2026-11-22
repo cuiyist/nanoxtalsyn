@@ -16,7 +16,7 @@ READER_MODULES={'illustrated-record.mjs', 'crystal-defaults.mjs', 'chemical-view
 
 N_VERSION='0.48.0'
 N_MODULES=('chemical-viewer.mjs', 'crystal-viewer.mjs', 'evans2010-products.mjs', 'illustrated-record.mjs', 'material-guide.mjs', 'material-hub.mjs', 'paper-app.mjs', 'paper-review.mjs', 'particle-shapes.mjs', 'protocol-modules.mjs', 'protocol-references.mjs', 'protocol-visuals.mjs', 'reader-app.mjs', 'reader-figure-morphology.mjs', 'reader-particle.mjs', 'reader-scoped-product-art.mjs', 'reader-structures.mjs', 'williamson2021-protocol.mjs')
-def version_for(name):return ENTRY_VERSION if name in ('reader-app.mjs','material-guide.mjs','material-hub.mjs','illustrated-record.mjs') else N_VERSION if name in N_MODULES else '0.49.0' if name == 'reader.css' else ENTRY_VERSION if name in M_MODULES else L_VERSION if name in L_MODULES else K_PATCH_VERSION if name in PATCH_MODULES else READER_VERSION if name in READER_MODULES else H_VERSION
+def version_for(name):return ENTRY_VERSION if name in ('reader-app.mjs','material-guide.mjs','material-hub.mjs','illustrated-record.mjs') else '0.49.0' if name in ('protocol-visuals.mjs','reported-protocol-scenes.mjs','reported-scene-drawing.mjs') else N_VERSION if name in N_MODULES else '0.49.0' if name == 'reader.css' else ENTRY_VERSION if name in M_MODULES else L_VERSION if name in L_MODULES else K_PATCH_VERSION if name in PATCH_MODULES else READER_VERSION if name in READER_MODULES else H_VERSION
 
 
 class ChemicalReferenceCacheTests(unittest.TestCase):

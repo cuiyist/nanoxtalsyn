@@ -5,7 +5,7 @@ import {quantityValue} from './quantity-value.mjs';
 import {sourceItemCard} from './source-evidence.mjs?v=0.41.9';
 import {mountCrystalReferences} from './crystal-viewer.mjs?v=0.48.0';
 export {mountCrystalReferences} from './crystal-viewer.mjs?v=0.48.0';
-import {mountProtocol} from './protocol-visuals.mjs?v=0.48.0';
+import {mountProtocol} from './protocol-visuals.mjs?v=0.49.0';
 import {chemicalRegistry,chemicalEntry,chemicalImage,openChemical,mountStockComponents,mountReagentComponents} from './chemical-viewer.mjs?v=0.48.0';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const link=(text,url)=>{const a=el('a',text);a.href=new URL(url.startsWith('/')&&!url.startsWith('//')?url.slice(1):url,import.meta.url);return a;};
