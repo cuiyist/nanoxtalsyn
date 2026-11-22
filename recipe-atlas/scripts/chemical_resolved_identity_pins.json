@@ -1,6 +1,6 @@
 {
   "schema": "MatterSyn-H-exact-reported-name-CID-proof/1",
-  "originalRegistrySha256": "c3c3b6ba0e3e810058450774da857f38c6557c389d482b6c18799280029c1002",
+  "originalRegistrySha256": "b88c05ce5c1eb4403c5a5640578e5e796a05ec20f28728e07f2ac6ec66934f54",
   "entries": {
     "ethanol": {
       "entry_id": "ethanol",
