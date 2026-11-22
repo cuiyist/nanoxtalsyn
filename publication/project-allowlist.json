@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "owner-website-o-20261119-substrate-leader",
+  "release_id": "owner-website-o-20261119-chamber-atmosphere",
   "repo": "mattersyn",
-  "source_commit": "da7aaa8ef0f2f493276dbf86663a0f14890daa68",
+  "source_commit": "dc4d67a47797fff3aae8a11cd764c13c54c3edd4",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "3c41040858f4ba789026defaf0d59c162c4102184eca75d7d54ede52add134bc",
+    "sha256": "79db9afeb4d0d4ac9da6c80761aaa55c490f250afcacd560be0da41a3e08a37c",
     "file_count": 63727,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,13 +150,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "0d9fcb23ca64961336cf512a4266d73665dc800bed75c8ce6dec30be236633b4",
-      "bytes": 14707230,
+      "sha256": "cae1b9cbae52b83946c9347e055bda16729b94c1880e885a27b4d309b0252f0c",
+      "bytes": 14707232,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T05:35:32.113329+00:00",
+      "reviewed_at": "2026-11-22T05:40:35.337490+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -124760,7 +124760,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-22T05:35:32.113329+00:00",
+      "reviewed_at": "2026-11-22T05:40:35.337490+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1071857,13 +1071857,13 @@
     },
     {
       "path": "recipe-atlas/static/reported-scene-drawing.mjs",
-      "sha256": "51a10eb28f526aecba954066844f356f8a8102bd18ee703aa62c3ccac4541551",
-      "bytes": 30413,
+      "sha256": "50af1c68eef4096f9f53f7cdc380a464902dd788608f2b4356bc40fb6f7d95cc",
+      "bytes": 30489,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
-      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "reviewer": "Codex O reported chamber atmosphere leader",
+      "reviewed_at": "2026-11-22T05:40:14+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1072662,13 +1072662,13 @@
     },
     {
       "path": "recipe-atlas/tests/reported-scene-drawing.test.mjs",
-      "sha256": "564b945b587d5c0d633a7e64e08339c241a0ae9e33b570c98993f40b6b2a77e5",
-      "bytes": 17786,
+      "sha256": "d5665c3b249731771149e96a211d0a794a670cb431df826b4d862a1b80fdb619",
+      "bytes": 18819,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact O substrate drawing and cache-edge repair",
-      "reviewed_at": "2026-11-22T05:35:09+00:00",
+      "reviewer": "Codex O reported chamber atmosphere leader",
+      "reviewed_at": "2026-11-22T05:40:14+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

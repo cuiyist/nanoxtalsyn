@@ -283,6 +283,7 @@ function updateFittedAnnotations(drawing,svg,plot,spec,facts,options){
  if(spec.kind==='chamber'){
   const identified=facts.sources.filter(s=>s.identified);
   sources.forEach((label,index)=>{const source=facts.sources[index],i=identified.indexOf(source);if(i<0){line(label,point(42,140));return;}const angle=identified.length===1?-Math.PI/2:-Math.PI*.82+i*(Math.PI*.64/Math.max(identified.length-1,1));line(label,point(150+107*Math.cos(angle),147+107*Math.sin(angle)));});
+  line(drawing.querySelector('.reported-scene-atmosphere'),point(215,116));
  }else{
   const port=portsFor(spec);line(drawing.querySelector('.reported-scene-inlet'),point(port.inlet[0],spec.kind==='inject'?port.inlet[1]-124:port.inlet[1]-6),spec.kind!=='inject');
   line(drawing.querySelector('.reported-scene-atmosphere'),point(port.gas[0],port.gas[1]));
