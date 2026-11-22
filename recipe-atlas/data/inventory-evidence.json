@@ -150234,6 +150234,4429 @@
       "record_ids": [
         "wu2023-d3tc02894a-pbs-i-1"
       ]
+    },
+    {
+      "source_group": "esgandari2020-jcp-30046",
+      "paper_id": "esgandari2020-jcp-30046",
+      "doi": "10.1002/jcp.30046",
+      "url": "https://doi.org/10.1002/jcp.30046",
+      "title": "Combined treatment with silver graphene quantum dot, radiation, and 17‐AAG induces anticancer effects in breast cancer cells",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/esgandari2020-jcp-30046-silver-graphene-quantum-dot-sqd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "esgandari2020-jcp-30046-silver-graphene-quantum-dot-sqd-1"
+      ]
+    },
+    {
+      "source_group": "ren2026-adfm-202529207",
+      "paper_id": "ren2026-adfm-202529207",
+      "doi": "10.1002/adfm.202529207",
+      "url": "https://doi.org/10.1002/adfm.202529207",
+      "title": "22.8%‐EQE and ns‐Level Response CsPbBr 3 Perovskite Quantum Dot‐Based Light‐Emitting Diodes",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ren2026-adfm-202529207-cspbbr3-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ren2026-adfm-202529207-cspbbr3-qds-1"
+      ]
+    },
+    {
+      "source_group": "chen2019-s11664-019-07169-8",
+      "paper_id": "chen2019-s11664-019-07169-8",
+      "doi": "10.1007/s11664-019-07169-8",
+      "url": "https://doi.org/10.1007/s11664-019-07169-8",
+      "title": "Facile One-Pot Synthesis of LiMnO2 Nanowire-Graphene Nanoplatelet Composites and Their Applications in Battery-Like Electrodes for High Performance Electrochemical Capacitors",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chen2019-s11664-019-07169-8-limno2-nanowires-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chen2019-s11664-019-07169-8-limno2-nanowires-1"
+      ]
+    },
+    {
+      "source_group": "lee2026-smll-202514995",
+      "paper_id": "lee2026-smll-202514995",
+      "doi": "10.1002/smll.202514995",
+      "url": "https://doi.org/10.1002/smll.202514995",
+      "title": "Positive Aging‐Free Quantum Dot Light‐Emitting Diodes Enabled by Single‐Source Chloride‐Doped ZnMgO Electron Transport Layers",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lee2026-smll-202514995-cdse-cds-cdzns-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lee2026-smll-202514995-cdse-cds-cdzns-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "prins2017-acs-nanolett-6b03212",
+      "paper_id": "prins2017-acs-nanolett-6b03212",
+      "doi": "10.1021/acs.nanolett.6b03212",
+      "url": "https://doi.org/10.1021/acs.nanolett.6b03212",
+      "title": "Direct Patterning of Colloidal Quantum-Dot Thin Films for Enhanced and Spectrally Selective Out-Coupling of Emission",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/prins2017-acs-nanolett-6b03212-red-emitting-core-shell-quantum-dots-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "prins2017-acs-nanolett-6b03212-red-emitting-core-shell-quantum-dots-4",
+        "prins2017-acs-nanolett-6b03212-green-emitting-core-shell-quantum-dots-5",
+        "prins2017-acs-nanolett-6b03212-blue-emitting-core-shell-quantum-dots-6"
+      ]
+    },
+    {
+      "source_group": "gunther2026-aelm-70468",
+      "paper_id": "gunther2026-aelm-70468",
+      "doi": "10.1002/aelm.70468",
+      "url": "https://doi.org/10.1002/aelm.70468",
+      "title": "Charge Transport in All‐Inorganic CuInSe 2 Nanocrystal Transistors: Linking Material Design and Device Performance",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gunther2026-aelm-70468-cuinse2-nanocrystals-cise-ncs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gunther2026-aelm-70468-cuinse2-nanocrystals-cise-ncs-1"
+      ]
+    },
+    {
+      "source_group": "imaninabiyyi2014-bio-2649",
+      "paper_id": "imaninabiyyi2014-bio-2649",
+      "doi": "10.1002/bio.2649",
+      "url": "https://doi.org/10.1002/bio.2649",
+      "title": "Determination of naphazoline hydrochloride in biological and pharmaceutical samples by a quantum dot‐assisted chemiluminescence system using response‐surface methodology",
+      "year": 2014,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/imaninabiyyi2014-bio-2649-cysteine-capped-cadmium-telluride-quantu-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "imaninabiyyi2014-bio-2649-cysteine-capped-cadmium-telluride-quantu-1"
+      ]
+    },
+    {
+      "source_group": "gao2026-adma-74127",
+      "paper_id": "gao2026-adma-74127",
+      "doi": "10.1002/adma.74127",
+      "url": "https://doi.org/10.1002/adma.74127",
+      "title": "Precisely Assembly of Individual‐Atom‐to‐Twinned Ruthenium Nanocrystal for Seawater Hydrogen Evolution",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gao2026-adma-74127-rutqds-fgdy-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gao2026-adma-74127-rutqds-fgdy-1"
+      ]
+    },
+    {
+      "source_group": "ren2025-adom-202501388",
+      "paper_id": "ren2025-adom-202501388",
+      "doi": "10.1002/adom.202501388",
+      "url": "https://doi.org/10.1002/adom.202501388",
+      "title": "Robust ZnMgO Capped with Benzyl‐Phosphonic Acid as Armor Layer Enables Efficient and Stable Quantum Dot Light‐Emitting Diodes",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ren2025-adom-202501388-zn0-9mg0-1o-zmo-nanoparticles-capped-wit-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ren2025-adom-202501388-zn0-9mg0-1o-zmo-nanoparticles-capped-wit-1"
+      ]
+    },
+    {
+      "source_group": "zhang2024-adma-202413828",
+      "paper_id": "zhang2024-adma-202413828",
+      "doi": "10.1002/adma.202413828",
+      "url": "https://doi.org/10.1002/adma.202413828",
+      "title": "A New Generation of Multimilliwatt‐Class Colloidal Quantum‐Dot Lasers at Full Colors",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2024-adma-202413828-cdznse-znses-zns-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2024-adma-202413828-cdznse-znses-zns-qds-1"
+      ]
+    },
+    {
+      "source_group": "cargnello2013-adma-201304136",
+      "paper_id": "cargnello2013-adma-201304136",
+      "doi": "10.1002/adma.201304136",
+      "url": "https://doi.org/10.1002/adma.201304136",
+      "title": "Enhanced Energy Transfer in Quasi‐Quaternary Nanocrystal Superlattices",
+      "year": 2013,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/cargnello2013-adma-201304136-cdse-zns-qds-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "cargnello2013-adma-201304136-cdse-zns-qds-2",
+        "cargnello2013-adma-201304136-cdse-zns-cds-qds-3"
+      ]
+    },
+    {
+      "source_group": "pal2012-adfm-201102532",
+      "paper_id": "pal2012-adfm-201102532",
+      "doi": "10.1002/adfm.201102532",
+      "url": "https://doi.org/10.1002/adfm.201102532",
+      "title": "High‐Sensitivity p–n Junction Photodiodes Based on PbS Nanocrystal Quantum Dots",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pal2012-adfm-201102532-pbs-nqd-4-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pal2012-adfm-201102532-pbs-nqd-4-nm-1"
+      ]
+    },
+    {
+      "source_group": "lee2026-adfm-76028",
+      "paper_id": "lee2026-adfm-76028",
+      "doi": "10.1002/adfm.76028",
+      "url": "https://doi.org/10.1002/adfm.76028",
+      "title": "Polarity‐Reversible Photoresponse–Driven Autonomous Wavelength Discrimination in Quantum Dot–Tellurium Thin‐Film Photodetectors via Engineered Energy‐Band Alignment",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lee2026-adfm-76028-cdse-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lee2026-adfm-76028-cdse-qds-1",
+        "lee2026-adfm-76028-pbs-qds-2"
+      ]
+    },
+    {
+      "source_group": "keum2017-mi8010018",
+      "paper_id": "keum2017-mi8010018",
+      "doi": "10.3390/mi8010018",
+      "url": "https://doi.org/10.3390/mi8010018",
+      "title": "Solvent-Free Patterning of Colloidal Quantum Dot Films Utilizing Shape Memory Polymers",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/keum2017-mi8010018-cdse-cds-core-shell-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "keum2017-mi8010018-cdse-cds-core-shell-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "wan2025-adma-202418300",
+      "paper_id": "wan2025-adma-202418300",
+      "doi": "10.1002/adma.202418300",
+      "url": "https://doi.org/10.1002/adma.202418300",
+      "title": "Atomic Layer Deposition Stabilizes Nanocrystals, Enabling Reliably High‐Performance Quantum Dot LEDs",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wan2025-adma-202418300-inp-znse-zns-quantum-dots-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wan2025-adma-202418300-inp-znse-zns-quantum-dots-qds-1"
+      ]
+    },
+    {
+      "source_group": "litvin2018-adom-201701055",
+      "paper_id": "litvin2018-adom-201701055",
+      "doi": "10.1002/adom.201701055",
+      "url": "https://doi.org/10.1002/adom.201701055",
+      "title": "Strong Enhancement of PbS Quantum Dot NIR Emission Using Plasmonic Semiconductor Nanocrystals in Nanoporous Silicate Matrix",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/litvin2018-adom-201701055-pbs-qds-in-nsm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "litvin2018-adom-201701055-pbs-qds-in-nsm-1"
+      ]
+    },
+    {
+      "source_group": "bera2020-acs-jpcc-0c03947",
+      "paper_id": "bera2020-acs-jpcc-0c03947",
+      "doi": "10.1021/acs.jpcc.0c03947",
+      "url": "https://doi.org/10.1021/acs.jpcc.0c03947",
+      "title": "Insights of Crystal Growth, Nucleation Density, and Shape Modulations in the Formation of I–V–VI Ternary Semiconductor Nanoplatelet Photoelectrocatalysts",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/bera2020-acs-jpcc-0c03947-cu3bis3-nanoplatelets-platelet-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "bera2020-acs-jpcc-0c03947-cu3bis3-nanoplatelets-platelet-a-1",
+        "bera2020-acs-jpcc-0c03947-cu3bis3-nanoplatelets-platelet-b-2",
+        "bera2020-acs-jpcc-0c03947-cu3bis3-nanoplatelets-platelet-c-3"
+      ]
+    },
+    {
+      "source_group": "kendall2020-nano10050863",
+      "paper_id": "kendall2020-nano10050863",
+      "doi": "10.3390/nano10050863",
+      "url": "https://doi.org/10.3390/nano10050863",
+      "title": "Fluorine-Doped Tin Oxide Colloidal Nanocrystals",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kendall2020-nano10050863-fto5-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kendall2020-nano10050863-fto5-1",
+        "kendall2020-nano10050863-fto10-2",
+        "kendall2020-nano10050863-fto20-3"
+      ]
+    },
+    {
+      "source_group": "tappan2019-chemrxiv-11339063-v1",
+      "paper_id": "tappan2019-chemrxiv-11339063-v1",
+      "doi": "10.26434/chemrxiv.11339063.v1",
+      "url": "https://doi.org/10.26434/chemrxiv.11339063.v1",
+      "title": "Ligand-Mediated Phase Control in Colloidal AgInSe2 Nanocrystals",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 15,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tappan2019-chemrxiv-11339063-v1-orthorhombic-aginse2-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tappan2019-chemrxiv-11339063-v1-orthorhombic-aginse2-nanocrystals-1",
+        "tappan2019-chemrxiv-11339063-v1-chalcopyrite-aginse2-nanocrystals-2"
+      ]
+    },
+    {
+      "source_group": "yun2019-pssr-201900573",
+      "paper_id": "yun2019-pssr-201900573",
+      "doi": "10.1002/pssr.201900573",
+      "url": "https://doi.org/10.1002/pssr.201900573",
+      "title": "CsPbBr 3 Perovskite Quantum Dot Light‐Emitting Diodes Using Atomic Layer Deposited Al 2 O 3 and ZnO Interlayers",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yun2019-pssr-201900573-cspbbr3-pqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yun2019-pssr-201900573-cspbbr3-pqds-1"
+      ]
+    },
+    {
+      "source_group": "kim2021-er-7162",
+      "paper_id": "kim2021-er-7162",
+      "doi": "10.1002/er.7162",
+      "url": "https://doi.org/10.1002/er.7162",
+      "title": "Aqua‐processable carbon quantum dot–assisted resilient polymer binder for advanced lithium‐sulfur batteries",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2021-er-7162-wpu-cqd5-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2021-er-7162-wpu-cqd5-1"
+      ]
+    },
+    {
+      "source_group": "mansur2012-pssc-201100251",
+      "paper_id": "mansur2012-pssc-201100251",
+      "doi": "10.1002/pssc.201100251",
+      "url": "https://doi.org/10.1002/pssc.201100251",
+      "title": "Protein‐semiconductor quantum dot hybrids for biomedical applications",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mansur2012-pssc-201100251-cds-bsa-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mansur2012-pssc-201100251-cds-bsa-1",
+        "mansur2012-pssc-201100251-cds-pva-c-o-nh-bsa-2"
+      ]
+    },
+    {
+      "source_group": "itzhakov2011-aenm-201100110",
+      "paper_id": "itzhakov2011-aenm-201100110",
+      "doi": "10.1002/aenm.201100110",
+      "url": "https://doi.org/10.1002/aenm.201100110",
+      "title": "Design Principles of FRET‐Based Dye‐Sensitized Solar Cells with Buried Quantum Dot Donors",
+      "year": 2011,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/itzhakov2011-aenm-201100110-cdse-cds-zns-qd-wurtzite-crystal-structu-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "itzhakov2011-aenm-201100110-cdse-cds-zns-qd-wurtzite-crystal-structu-1"
+      ]
+    },
+    {
+      "source_group": "xiao2025-ma18163844",
+      "paper_id": "xiao2025-ma18163844",
+      "doi": "10.3390/ma18163844",
+      "url": "https://doi.org/10.3390/ma18163844",
+      "title": "Robust Mesoporous SiO2-Coated TiO2 Colloidal Nanocrystal with Enhanced Adsorption, Stability, and Adhesion for Photocatalytic Antibacterial and Benzene Removal",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/xiao2025-ma18163844-2-t-s-nps-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "xiao2025-ma18163844-2-t-s-nps-1"
+      ]
+    },
+    {
+      "source_group": "abolhasani2014-bio-2802",
+      "paper_id": "abolhasani2014-bio-2802",
+      "doi": "10.1002/bio.2802",
+      "url": "https://doi.org/10.1002/bio.2802",
+      "title": "Determination of ethanol using permanganate–CdS quantum dot chemiluminescence system",
+      "year": 2014,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/abolhasani2014-bio-2802-tga-capped-cds-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "abolhasani2014-bio-2802-tga-capped-cds-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "feng2022-rcm-9405",
+      "paper_id": "feng2022-rcm-9405",
+      "doi": "10.1002/rcm.9405",
+      "url": "https://doi.org/10.1002/rcm.9405",
+      "title": "Hydrophilic, dual amino acid–functionalized zinc sulfide quantum dot for specific identification of N ‐glycopeptides from biological samples",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/feng2022-rcm-9405-zns-au-gc-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "feng2022-rcm-9405-zns-au-gc-1"
+      ]
+    },
+    {
+      "source_group": "hong2020-bkcs-12125",
+      "paper_id": "hong2020-bkcs-12125",
+      "doi": "10.1002/bkcs.12125",
+      "url": "https://doi.org/10.1002/bkcs.12125",
+      "title": "Highly Active Binary Exfoliated MoS 2 Sheet– Cu 2 O Nanocrystal Hybrids for Efficient Photocatalytic Pollutant Degradation",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/hong2020-bkcs-12125-e-mos2sheetcu2onc-hybrids-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "hong2020-bkcs-12125-e-mos2sheetcu2onc-hybrids-1"
+      ]
+    },
+    {
+      "source_group": "su2017-adfm-201700056",
+      "paper_id": "su2017-adfm-201700056",
+      "doi": "10.1002/adfm.201700056",
+      "url": "https://doi.org/10.1002/adfm.201700056",
+      "title": "Hierarchically Targeted and Penetrated Delivery of Drugs to Tumors by Size‐Changeable Graphene Quantum Dot Nanoaircrafts for Photolytic Therapy",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/su2017-adfm-201700056-size-changeable-graphene-quantum-dot-nan-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "su2017-adfm-201700056-size-changeable-graphene-quantum-dot-nan-1"
+      ]
+    },
+    {
+      "source_group": "williams2017-acs-chemmater-6b05058",
+      "paper_id": "williams2017-acs-chemmater-6b05058",
+      "doi": "10.1021/acs.chemmater.6b05058",
+      "url": "https://doi.org/10.1021/acs.chemmater.6b05058",
+      "title": "Effect of Nanocrystal Size and Carbon on Grain Growth during Annealing of Copper Zinc Tin Sulfide Nanocrystal Coatings",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/williams2017-acs-chemmater-6b05058-czts-nanocrystal-coatings-5-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "williams2017-acs-chemmater-6b05058-czts-nanocrystal-coatings-5-nm-1",
+        "williams2017-acs-chemmater-6b05058-czts-nanocrystal-coatings-35-nm-2"
+      ]
+    },
+    {
+      "source_group": "wang2025-smll-202509148",
+      "paper_id": "wang2025-smll-202509148",
+      "doi": "10.1002/smll.202509148",
+      "url": "https://doi.org/10.1002/smll.202509148",
+      "title": "Doping Strategy Enabling CsPbBrI 2 Perovskite Quantum Dot‐Photoresist Compatible Blending with High Stability for Ultra‐Simplified Photolithography",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wang2025-smll-202509148-sr-doped-cspbbri2-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wang2025-smll-202509148-sr-doped-cspbbri2-qds-1"
+      ]
+    },
+    {
+      "source_group": "pan2025-adfm-202507724",
+      "paper_id": "pan2025-adfm-202507724",
+      "doi": "10.1002/adfm.202507724",
+      "url": "https://doi.org/10.1002/adfm.202507724",
+      "title": "Trap‐State Suppression via Dual Defect Healing Enables Stable Near‐Infrared Lanthanide‐Based Quantum Dot LEDs",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pan2025-adfm-202507724-yb3-cspb-cl1-xbrx-3-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pan2025-adfm-202507724-yb3-cspb-cl1-xbrx-3-qds-1"
+      ]
+    },
+    {
+      "source_group": "pan2025-adfm-202500765",
+      "paper_id": "pan2025-adfm-202500765",
+      "doi": "10.1002/adfm.202500765",
+      "url": "https://doi.org/10.1002/adfm.202500765",
+      "title": "Enhancement of Stability and Durability in Nanocrystal Memristors with Surface Defect Control for Image Encryption and Storage",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pan2025-adfm-202500765-mn-cspbcl3-nanocrystals-with-short-chain-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pan2025-adfm-202500765-mn-cspbcl3-nanocrystals-with-short-chain-1"
+      ]
+    },
+    {
+      "source_group": "liu2017-acs-chemmater-6b05428",
+      "paper_id": "liu2017-acs-chemmater-6b05428",
+      "doi": "10.1021/acs.chemmater.6b05428",
+      "url": "https://doi.org/10.1021/acs.chemmater.6b05428",
+      "title": "Kuramite Cu3SnS4 and Mohite Cu2SnS3 Nanoplatelet Synthesis Using Covellite CuS Templates with Sn(II) and Sn(IV) Sources",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2017-acs-chemmater-6b05428-kuramite-cu3snxs4-npls-x-1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2017-acs-chemmater-6b05428-kuramite-cu3snxs4-npls-x-1-1"
+      ]
+    },
+    {
+      "source_group": "yermakov2020-pssb-202000399",
+      "paper_id": "yermakov2020-pssb-202000399",
+      "doi": "10.1002/pssb.202000399",
+      "url": "https://doi.org/10.1002/pssb.202000399",
+      "title": "Magnetic Properties, Electron Paramagnetic Resonance, and Photoelectron Spectroscopy Studies of Nanocrystalline TiO 2 Co‐Doped with Al and Fe",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yermakov2020-pssb-202000399-tio2-al-fe-nanopowders-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yermakov2020-pssb-202000399-tio2-al-fe-nanopowders-1"
+      ]
+    },
+    {
+      "source_group": "ye2024-bte2-20240033",
+      "paper_id": "ye2024-bte2-20240033",
+      "doi": "10.1002/bte2.20240033",
+      "url": "https://doi.org/10.1002/bte2.20240033",
+      "title": "Highly Efficient and Stable Potassium‐Doped g‐C 3 N 4 /Zn 0.5 Cd 0.5 S Quantum Dot Heterojunction Photocatalyst for Hydrogen Evolution",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ye2024-bte2-20240033-zcs-51-k-cn-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ye2024-bte2-20240033-zcs-51-k-cn-1"
+      ]
+    },
+    {
+      "source_group": "kim2025-adma-202420633",
+      "paper_id": "kim2025-adma-202420633",
+      "doi": "10.1002/adma.202420633",
+      "url": "https://doi.org/10.1002/adma.202420633",
+      "title": "Intrinsically‐Stretchable and Patternable Quantum Dot Color Conversion Layers for Stretchable Displays in Robotic Skin and Wearable Electronics",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2025-adma-202420633-udac-qds-pdms-ccls-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2025-adma-202420633-udac-qds-pdms-ccls-1",
+        "kim2025-adma-202420633-red-emitting-inp-znse-zns-quantum-dots-q-2",
+        "kim2025-adma-202420633-green-emitting-inp-znse-zns-quantum-dots-3"
+      ]
+    },
+    {
+      "source_group": "li2017-acsnano-6b08674",
+      "paper_id": "li2017-acsnano-6b08674",
+      "doi": "10.1021/acsnano.6b08674",
+      "url": "https://doi.org/10.1021/acsnano.6b08674",
+      "title": "Low Threshold Multiexciton Optical Gain in Colloidal CdSe/CdTe Core/Crown Type-II Nanoplatelet Heterostructures",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/li2017-acsnano-6b08674-cdse-cdte-cc-npls-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "li2017-acsnano-6b08674-cdse-cdte-cc-npls-1",
+        "li2017-acsnano-6b08674-cdse-colloidal-nanoplatelets-npls-2"
+      ]
+    },
+    {
+      "source_group": "oseni2022-app-53293",
+      "paper_id": "oseni2022-app-53293",
+      "doi": "10.1002/app.53293",
+      "url": "https://doi.org/10.1002/app.53293",
+      "title": "Tri‐metallic quantum dot under the influence of solvent additive for improved performance of polymer solar cells",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/oseni2022-app-53293-cdtese-quantum-dot-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "oseni2022-app-53293-cdtese-quantum-dot-1"
+      ]
+    },
+    {
+      "source_group": "hu2014-1-4900930",
+      "paper_id": "hu2014-1-4900930",
+      "doi": "10.1063/1.4900930",
+      "url": "https://doi.org/10.1063/1.4900930",
+      "title": "Air-stable short-wave infrared PbS colloidal quantum dot photoconductors passivated with Al2O3 atomic layer deposition",
+      "year": 2014,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/hu2014-1-4900930-pbs-s2-photoconductor-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "hu2014-1-4900930-pbs-s2-photoconductor-1",
+        "hu2014-1-4900930-pbs-oh-photoconductor-2"
+      ]
+    },
+    {
+      "source_group": "petronella2017-cryst7010030",
+      "paper_id": "petronella2017-cryst7010030",
+      "doi": "10.3390/cryst7010030",
+      "url": "https://doi.org/10.3390/cryst7010030",
+      "title": "Colloidal Nanocrystalline Semiconductor Materials as Photocatalysts for Environmental Protection of Architectural Stone",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 17,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/petronella2017-cryst7010030-tio2-nrs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "petronella2017-cryst7010030-tio2-nrs-1"
+      ]
+    },
+    {
+      "source_group": "priya2026-adsu-202501705",
+      "paper_id": "priya2026-adsu-202501705",
+      "doi": "10.1002/adsu.202501705",
+      "url": "https://doi.org/10.1002/adsu.202501705",
+      "title": "Ti 3 C 2 T x MXene Decorated MoS 2 Quantum Dot as Efficient Anode Material for Wide Temperature Na‐Ion Batteries",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/priya2026-adsu-202501705-mos2-qd-ti3c2tx-mxene-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "priya2026-adsu-202501705-mos2-qd-ti3c2tx-mxene-1"
+      ]
+    },
+    {
+      "source_group": "wei2015-bio-3068",
+      "paper_id": "wei2015-bio-3068",
+      "doi": "10.1002/bio.3068",
+      "url": "https://doi.org/10.1002/bio.3068",
+      "title": "Do the cations in clay and the polymer matrix affect quantum dot fluorescent properties?",
+      "year": 2015,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wei2015-bio-3068-cdte-qds-550-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wei2015-bio-3068-cdte-qds-550-nm-1",
+        "wei2015-bio-3068-cdte-qds-580-nm-2",
+        "wei2015-bio-3068-cdte-qds-620-nm-3"
+      ]
+    },
+    {
+      "source_group": "yoon2024-adom-202401085",
+      "paper_id": "yoon2024-adom-202401085",
+      "doi": "10.1002/adom.202401085",
+      "url": "https://doi.org/10.1002/adom.202401085",
+      "title": "Efficient, Stable Blue Light‐Emitting Diodes Enabled by Heterostructural Alteration of ZnSeTe Quantum Dot and Functionalization of ZnMgO",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yoon2024-adom-202401085-small-znsete-thin-znse-zns-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yoon2024-adom-202401085-small-znsete-thin-znse-zns-qds-1",
+        "yoon2024-adom-202401085-large-znsete-thick-znse-zns-qds-2"
+      ]
+    },
+    {
+      "source_group": "hu2018-1-5010833",
+      "paper_id": "hu2018-1-5010833",
+      "doi": "10.1063/1.5010833",
+      "url": "https://doi.org/10.1063/1.5010833",
+      "title": "Photoluminescence of ZnS: Mn quantum dot by hydrothermal method",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/hu2018-1-5010833-zns-mn-quantum-dots-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "hu2018-1-5010833-zns-mn-quantum-dots-qds-1"
+      ]
+    },
+    {
+      "source_group": "nsibande2019-bio-3620",
+      "paper_id": "nsibande2019-bio-3620",
+      "doi": "10.1002/bio.3620",
+      "url": "https://doi.org/10.1002/bio.3620",
+      "title": "Development of a quantum dot molecularly imprinted polymer sensor for fluorescence detection of atrazine",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/nsibande2019-bio-3620-cdsete-zns-mip-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "nsibande2019-bio-3620-cdsete-zns-mip-1"
+      ]
+    },
+    {
+      "source_group": "raksawong2017-s00216-017-0466-8",
+      "paper_id": "raksawong2017-s00216-017-0466-8",
+      "doi": "10.1007/s00216-017-0466-8",
+      "url": "https://doi.org/10.1007/s00216-017-0466-8",
+      "title": "A hybrid molecularly imprinted polymer coated quantum dot nanocomposite optosensor for highly sensitive and selective determination of salbutamol in animal feeds and meat samples",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/raksawong2017-s00216-017-0466-8-hybrid-mip-coated-cdte-qd-nanocomposite-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "raksawong2017-s00216-017-0466-8-hybrid-mip-coated-cdte-qd-nanocomposite-1"
+      ]
+    },
+    {
+      "source_group": "komoto2006-1-2338804",
+      "paper_id": "komoto2006-1-2338804",
+      "doi": "10.1063/1.2338804",
+      "url": "https://doi.org/10.1063/1.2338804",
+      "title": "Photoinduced fluorescence intensity oscillation in a reaction-diffusion cell containing a colloidal quantum dot dispersion",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/komoto2006-1-2338804-cdse-zns-core-shell-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "komoto2006-1-2338804-cdse-zns-core-shell-qds-1"
+      ]
+    },
+    {
+      "source_group": "kethineedi2013-s00216-013-7422-z",
+      "paper_id": "kethineedi2013-s00216-013-7422-z",
+      "doi": "10.1007/s00216-013-7422-z",
+      "url": "https://doi.org/10.1007/s00216-013-7422-z",
+      "title": "Quantum dot–NBD–liposome luminescent probes for monitoring phospholipase A2 activity",
+      "year": 2013,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kethineedi2013-s00216-013-7422-z-topo-capped-cdse-zns-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kethineedi2013-s00216-013-7422-z-topo-capped-cdse-zns-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "jo2021-acsaem-1c02511",
+      "paper_id": "jo2021-acsaem-1c02511",
+      "doi": "10.1021/acsaem.1c02511",
+      "url": "https://doi.org/10.1021/acsaem.1c02511",
+      "title": "Unprecedentedly Large Photocurrents in Colloidal PbS Quantum-Dot Solar Cells Enabled by Atomic Layer Deposition of Zinc Oxide Electron Buffer Layer",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/jo2021-acsaem-1c02511-pbs-quantum-dots-with-band-gap-of-1-18-e-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "jo2021-acsaem-1c02511-pbs-quantum-dots-with-band-gap-of-1-18-e-1"
+      ]
+    },
+    {
+      "source_group": "kim2022-sdtp-15762",
+      "paper_id": "kim2022-sdtp-15762",
+      "doi": "10.1002/sdtp.15762",
+      "url": "https://doi.org/10.1002/sdtp.15762",
+      "title": "P‐87: Localized Surface Plasmon Resonance‐Enhanced ZnSeTe Blue Quantum Dot Light‐emitting Diodes with AuAg Alloy Nanoparticles",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2022-sdtp-15762-auag-alloy-nanoparticles-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2022-sdtp-15762-auag-alloy-nanoparticles-1"
+      ]
+    },
+    {
+      "source_group": "oberg2017-app7101020",
+      "paper_id": "oberg2017-app7101020",
+      "doi": "10.3390/app7101020",
+      "url": "https://doi.org/10.3390/app7101020",
+      "title": "Solution-Processed Environmentally Friendly Ag2S Colloidal Quantum Dot Solar Cells with Broad Spectral Absorption",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/oberg2017-app7101020-ag2s-colloidal-quantum-dots-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "oberg2017-app7101020-ag2s-colloidal-quantum-dots-cqds-1"
+      ]
+    },
+    {
+      "source_group": "gui2025-adfm-202516801",
+      "paper_id": "gui2025-adfm-202516801",
+      "doi": "10.1002/adfm.202516801",
+      "url": "https://doi.org/10.1002/adfm.202516801",
+      "title": "Boosting Near‐Infrared Utilization in PbS Quantum Dot Solar Cells via a Back‐Interface Chemical‐Bonding Molecular Buffer",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gui2025-adfm-202516801-pbs-qds-with-excitonic-absorption-peak-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gui2025-adfm-202516801-pbs-qds-with-excitonic-absorption-peak-a-1",
+        "gui2025-adfm-202516801-pbs-qds-with-excitonic-absorption-peak-a-2"
+      ]
+    },
+    {
+      "source_group": "baravaglio2024-d4nr02401j",
+      "paper_id": "baravaglio2024-d4nr02401j",
+      "doi": "10.1039/d4nr02401j",
+      "url": "https://doi.org/10.1039/d4nr02401j",
+      "title": "Energy deposition in liquid scintillators composed of CsPbBr3 colloidal nanocrystal dispersions",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/baravaglio2024-d4nr02401j-cspbbr3-nanocrystals-s-fraction-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "baravaglio2024-d4nr02401j-cspbbr3-nanocrystals-s-fraction-1"
+      ]
+    },
+    {
+      "source_group": "savchuk2016-pssc-201510283",
+      "paper_id": "savchuk2016-pssc-201510283",
+      "doi": "10.1002/pssc.201510283",
+      "url": "https://doi.org/10.1002/pssc.201510283",
+      "title": "Structural, optical and magnetic characteristics of II‐VI semiconductor nanocrystal‐graphene hybrid nanostructures",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/savchuk2016-pssc-201510283-cds-nanocrystal-graphene-hybrid-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "savchuk2016-pssc-201510283-cds-nanocrystal-graphene-hybrid-1",
+        "savchuk2016-pssc-201510283-zno-nanocrystal-graphene-hybrid-3",
+        "savchuk2016-pssc-201510283-zno-co-nanocrystal-graphene-hybrid-4"
+      ]
+    },
+    {
+      "source_group": "rico2025-chemrxiv-2025-db58r",
+      "paper_id": "rico2025-chemrxiv-2025-db58r",
+      "doi": "10.26434/chemrxiv-2025-db58r",
+      "url": "https://doi.org/10.26434/chemrxiv-2025-db58r",
+      "title": "The Role of Colloidal Quantum Dots Capping Ligands in Photocatalytic Lignin Valorization",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 15,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/rico2025-chemrxiv-2025-db58r-cds-oa-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "rico2025-chemrxiv-2025-db58r-cds-oa-2"
+      ]
+    },
+    {
+      "source_group": "fokina2016-admi-201600279",
+      "paper_id": "fokina2016-admi-201600279",
+      "doi": "10.1002/admi.201600279",
+      "url": "https://doi.org/10.1002/admi.201600279",
+      "title": "The Role of Emission Layer Morphology on the Enhanced Performance of Light‐Emitting Diodes Based on Quantum Dot‐Semiconducting Polymer Hybrids",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/fokina2016-admi-201600279-cdse-cd-x-zn-1x-s-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "fokina2016-admi-201600279-cdse-cd-x-zn-1x-s-qds-1"
+      ]
+    },
+    {
+      "source_group": "alvand2017-s00604-017-2134-2",
+      "paper_id": "alvand2017-s00604-017-2134-2",
+      "doi": "10.1007/s00604-017-2134-2",
+      "url": "https://doi.org/10.1007/s00604-017-2134-2",
+      "title": "A Fe3O4@SiO2@graphene quantum dot core-shell structured nanomaterial as a fluorescent probe and for magnetic removal of mercury(II) ion",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/alvand2017-s00604-017-2134-2-fe3o4-sio2-gqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "alvand2017-s00604-017-2134-2-fe3o4-sio2-gqds-1"
+      ]
+    },
+    {
+      "source_group": "kim2020-app10217440",
+      "paper_id": "kim2020-app10217440",
+      "doi": "10.3390/app10217440",
+      "url": "https://doi.org/10.3390/app10217440",
+      "title": "Understanding Temporal Evolution of Electroluminescence Intensity in Lead Sulfide (PbS) Colloidal Quantum Dot Infrared Light-Emitting Diodes",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2020-app10217440-pbs-colloidal-quantum-dots-cqds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2020-app10217440-pbs-colloidal-quantum-dots-cqds-1"
+      ]
+    },
+    {
+      "source_group": "dominguez2020-chemrxiv-12943508-v1",
+      "paper_id": "dominguez2020-chemrxiv-12943508-v1",
+      "doi": "10.26434/chemrxiv.12943508.v1",
+      "url": "https://doi.org/10.26434/chemrxiv.12943508.v1",
+      "title": "Assembly of Linked Nanocrystal Colloids by Reversible Covalent Bonds",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 26,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/dominguez2020-chemrxiv-12943508-v1-sn-in2o3-ito-nanocrystals-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "dominguez2020-chemrxiv-12943508-v1-sn-in2o3-ito-nanocrystals-2"
+      ]
+    },
+    {
+      "source_group": "roo2018-acs-chemmater-8b03768",
+      "paper_id": "roo2018-acs-chemmater-8b03768",
+      "doi": "10.1021/acs.chemmater.8b03768",
+      "url": "https://doi.org/10.1021/acs.chemmater.8b03768",
+      "title": "Synthesis of Phosphonic Acid Ligands for Nanocrystal Surface Functionalization and Solution Processed Memristors",
+      "year": 2018,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/roo2018-acs-chemmater-8b03768-hfo2-ncs-functionalized-with-octadecylph-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "roo2018-acs-chemmater-8b03768-hfo2-ncs-functionalized-with-octadecylph-4"
+      ]
+    },
+    {
+      "source_group": "kottayi2021-er-6685",
+      "paper_id": "kottayi2021-er-6685",
+      "doi": "10.1002/er.6685",
+      "url": "https://doi.org/10.1002/er.6685",
+      "title": "Cu 2 AgInS 2 Se 2 quantum dots sensitized porous TiO 2 nanofibers as a photoanode for high‐performance quantum dot sensitized solar cell",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kottayi2021-er-6685-cu2agins2se2-qds-caisse-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kottayi2021-er-6685-cu2agins2se2-qds-caisse-qds-1"
+      ]
+    },
+    {
+      "source_group": "malachosky2024-nano14161354",
+      "paper_id": "malachosky2024-nano14161354",
+      "doi": "10.3390/nano14161354",
+      "url": "https://doi.org/10.3390/nano14161354",
+      "title": "Enhanced Thermal Stability of Conductive Mercury Telluride Colloidal Quantum Dot Thin Films Using Atomic Layer Deposition",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/malachosky2024-nano14161354-p-type-hgte-colloidal-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "malachosky2024-nano14161354-p-type-hgte-colloidal-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "lai2026-adom-202503635",
+      "paper_id": "lai2026-adom-202503635",
+      "doi": "10.1002/adom.202503635",
+      "url": "https://doi.org/10.1002/adom.202503635",
+      "title": "ZnCl 2 Post‐Treatment Enables High‐Efficiency Violet CsPbCl 3 Quantum Dot LEDs",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lai2026-adom-202503635-zncl2-doped-cspbcl3-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lai2026-adom-202503635-zncl2-doped-cspbcl3-quantum-dots-1"
+      ]
+    },
+    {
+      "source_group": "yang2020-s12649-020-01132-z",
+      "paper_id": "yang2020-s12649-020-01132-z",
+      "doi": "10.1007/s12649-020-01132-z",
+      "url": "https://doi.org/10.1007/s12649-020-01132-z",
+      "title": "Valorization of Expired Passion Fruit Shell by Hydrothermal Conversion into Carbon Quantum Dot: Physical and Optical Properties",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yang2020-s12649-020-01132-z-expired-passion-fruit-shell-based-carbon-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yang2020-s12649-020-01132-z-expired-passion-fruit-shell-based-carbon-1"
+      ]
+    },
+    {
+      "source_group": "keating2024-5-0203710",
+      "paper_id": "keating2024-5-0203710",
+      "doi": "10.1063/5.0203710",
+      "url": "https://doi.org/10.1063/5.0203710",
+      "title": "A high temperature in situ optical probe for colloidal nanocrystal synthesis",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/keating2024-5-0203710-cdse-cds-core-shell-qds-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "keating2024-5-0203710-cdse-cds-core-shell-qds-2"
+      ]
+    },
+    {
+      "source_group": "li2016-adma-201600064",
+      "paper_id": "li2016-adma-201600064",
+      "doi": "10.1002/adma.201600064",
+      "url": "https://doi.org/10.1002/adma.201600064",
+      "title": "Highly Efficient Perovskite Nanocrystal Light‐Emitting Diodes Enabled by a Universal Crosslinking Method",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/li2016-adma-201600064-cspbi3-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "li2016-adma-201600064-cspbi3-nanocrystals-1",
+        "li2016-adma-201600064-cspbbr3-nanocrystals-2",
+        "li2016-adma-201600064-cspbi2-25br0-75-nanocrystals-3",
+        "li2016-adma-201600064-cspbbr1-5cl1-5-nanocrystals-4"
+      ]
+    },
+    {
+      "source_group": "kouzoudis2021-fmats-2021-638019",
+      "paper_id": "kouzoudis2021-fmats-2021-638019",
+      "doi": "10.3389/fmats.2021.638019",
+      "url": "https://doi.org/10.3389/fmats.2021.638019",
+      "title": "Magnetic Hyperthermia in the 400–1,100 kHz Frequency Range Using MIONs of Condensed Colloidal Nanocrystal Clusters",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kouzoudis2021-fmats-2021-638019-magalg-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kouzoudis2021-fmats-2021-638019-magalg-1"
+      ]
+    },
+    {
+      "source_group": "tang2010-adma-200903240",
+      "paper_id": "tang2010-adma-200903240",
+      "doi": "10.1002/adma.200903240",
+      "url": "https://doi.org/10.1002/adma.200903240",
+      "title": "Schottky Quantum Dot Solar Cells Stable in Air under Solar Illumination",
+      "year": 2010,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tang2010-adma-200903240-pbs-colloidal-quantum-dots-cqds-with-0-8-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tang2010-adma-200903240-pbs-colloidal-quantum-dots-cqds-with-0-8-1"
+      ]
+    },
+    {
+      "source_group": "guyot-sionnest2012-1-4758318",
+      "paper_id": "guyot-sionnest2012-1-4758318",
+      "doi": "10.1063/1.4758318",
+      "url": "https://doi.org/10.1063/1.4758318",
+      "title": "A mirage study of CdSe colloidal quantum dot films, Urbach tail, and surface states",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/guyot-sionnest2012-1-4758318-cdse-cds-core-shell-nanocrystals-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "guyot-sionnest2012-1-4758318-cdse-cds-core-shell-nanocrystals-2",
+        "guyot-sionnest2012-1-4758318-cdse-zns-core-shell-nanocrystals-3"
+      ]
+    },
+    {
+      "source_group": "weilnau2012-jat-2811",
+      "paper_id": "weilnau2012-jat-2811",
+      "doi": "10.1002/jat.2811",
+      "url": "https://doi.org/10.1002/jat.2811",
+      "title": "ZnS nanocrystal cytotoxicity is influenced by capping agent chemical structure and duration of time in suspension",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/weilnau2012-jat-2811-zns-nanocrystals-capped-with-glutamic-ac-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "weilnau2012-jat-2811-zns-nanocrystals-capped-with-glutamic-ac-1",
+        "weilnau2012-jat-2811-zns-nanocrystals-capped-with-cysteine-2",
+        "weilnau2012-jat-2811-zns-nanocrystals-capped-with-phenylalani-3",
+        "weilnau2012-jat-2811-zns-nanocrystals-capped-with-l-histidine-4",
+        "weilnau2012-jat-2811-zns-nanocrystals-capped-with-l-isoleucin-5"
+      ]
+    },
+    {
+      "source_group": "ozu2019-fenrg-2019-00011",
+      "paper_id": "ozu2019-fenrg-2019-00011",
+      "doi": "10.3389/fenrg.2019.00011",
+      "url": "https://doi.org/10.3389/fenrg.2019.00011",
+      "title": "Improving Photovoltaic Performance of ZnO Nanowires Based Colloidal Quantum Dot Solar Cells via SnO2 Passivation Strategy",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ozu2019-fenrg-2019-00011-zno-sno2-nw-based-pbs-cqdscs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ozu2019-fenrg-2019-00011-zno-sno2-nw-based-pbs-cqdscs-1"
+      ]
+    },
+    {
+      "source_group": "yoon2022-sdtp-15764",
+      "paper_id": "yoon2022-sdtp-15764",
+      "doi": "10.1002/sdtp.15764",
+      "url": "https://doi.org/10.1002/sdtp.15764",
+      "title": "P‐89: High‐Efficiency Red Quantum Dot Light‐Emitting Diodes with Acrylate‐Treated ZnMgO as an Electron Transport Layer",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yoon2022-sdtp-15764-inp-znse-zns-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yoon2022-sdtp-15764-inp-znse-zns-qds-1"
+      ]
+    },
+    {
+      "source_group": "shang2012-s00604-012-0784-7",
+      "paper_id": "shang2012-s00604-012-0784-7",
+      "doi": "10.1007/s00604-012-0784-7",
+      "url": "https://doi.org/10.1007/s00604-012-0784-7",
+      "title": "Functionalized manganese-doped zinc sulfide quantum dot-based fluorescent probe for zinc ion",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/shang2012-s00604-012-0784-7-zns-mn-qds-capped-n-acetyl-l-cysteine-qd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "shang2012-s00604-012-0784-7-zns-mn-qds-capped-n-acetyl-l-cysteine-qd-1"
+      ]
+    },
+    {
+      "source_group": "pagano2024-admi-202300659",
+      "paper_id": "pagano2024-admi-202300659",
+      "doi": "10.1002/admi.202300659",
+      "url": "https://doi.org/10.1002/admi.202300659",
+      "title": "Nanocrystalline Lead Halide Perovskites to Boost Time‐of‐Flight Performance of Medical Imaging Detectors",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pagano2024-admi-202300659-cspbbr3-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pagano2024-admi-202300659-cspbbr3-nanocrystals-1"
+      ]
     }
   ],
   "material_notes": {
