@@ -1,0 +1,2528 @@
+{
+  "schema": "mattersyn-reader-background-library/2",
+  "label": "General background, not the authors' interpretation",
+  "limit": 4,
+  "selection_precedence": [
+    "reagent combination and route",
+    "reagent",
+    "route",
+    "general fallback"
+  ],
+  "statements": [
+    {
+      "id": "cdo-oleic-acid",
+      "title": "Making a soluble cadmium feed",
+      "summary": "A carboxylic acid such as oleic acid can convert cadmium oxide into cadmium carboxylate in the flask. Changing this soluble feed and the free acid changes cadmium availability during nucleation and growth.",
+      "kind": "pair",
+      "topic": "metal-carboxylate-formation",
+      "compound_ids": [
+        "cid:10197697",
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja003633m",
+      "requires_product_elements": []
+    },
+    {
+      "id": "oleate-surface",
+      "title": "Oleate and the nanocrystal surface",
+      "summary": "Bound oleate can stabilize dispersed metal chalcogenide nanocrystals, and not all surface carboxylate need occupy the same binding environment. Displacing metal carboxylate from the surface can change surface stoichiometry as well as colloidal stability.",
+      "kind": "reagent",
+      "topic": "carboxylate-surface",
+      "compound_ids": [
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja4086758",
+      "requires_product_elements": []
+    },
+    {
+      "id": "ode-solvent",
+      "title": "Octadecene is not always inert",
+      "summary": "Octadecene provides a weakly coordinating medium for hot solution growth, leaving the ligands more freedom to control surface binding. It can also polymerize under growth conditions, leaving an alkene-derived residue that is difficult to separate from hydrophobic nanocrystals.",
+      "kind": "reagent",
+      "topic": "ode-polymerization",
+      "compound_ids": [
+        "cid:8217"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 95,
+      "reference": "10.1021/acs.nanolett.9b03088",
+      "requires_product_elements": []
+    },
+    {
+      "id": "water-thiol",
+      "title": "Aqueous thiol-capped growth",
+      "summary": "In aqueous cadmium chalcogenide synthesis, a thiol with a water-compatible group can stabilize growing particles in the liquid. Solution acidity changes thiol speciation, so the precursor equilibria and the resulting surface coverage can change together.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "cid:962"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "oleylamine-reduction",
+      "title": "Oleylamine can act as both solvent and reductant",
+      "summary": "In amine-mediated noble-metal syntheses, oleylamine can help reduce the metal precursor while also binding the particle surface. Reduction and adsorption therefore affect both the formation of nuclei and the persistence of exposed facets.",
+      "kind": "reagent",
+      "topic": "amine-reductant",
+      "compound_ids": [
+        "cid:5356789"
+      ],
+      "route_classes": [
+        "Chemical reduction",
+        "Seed-mediated growth"
+      ],
+      "priority": 75,
+      "reference": "10.1021/cm4000476",
+      "requires_product_elements": []
+    },
+    {
+      "id": "oleylamine-surface",
+      "title": "A primary amine can change surface growth",
+      "summary": "Oleylamine can coordinate soluble metal species and bind exposed surface sites during colloidal growth. It can therefore change how rapidly precursors react and how readily the resulting particles remain dispersed.",
+      "kind": "reagent",
+      "topic": "amine-surface",
+      "compound_ids": [
+        "cid:5356789"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cm4000476",
+      "requires_product_elements": []
+    },
+    {
+      "id": "ethanol-wash",
+      "title": "Precipitation can select particles by size",
+      "summary": "When ethanol is used as a poor solvent for ligand-coated nanocrystals, it can precipitate part of the dispersion without a new solid-forming reaction. Choosing how far precipitation proceeds can separate size fractions as well as remove soluble residues.",
+      "kind": "reagent",
+      "topic": "antisolvent-separation",
+      "compound_ids": [
+        "cid:702"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 10,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "methanol-wash",
+      "title": "Methanol and ligand-coated particles",
+      "summary": "In a size-selective precipitation, methanol can reduce the dispersing power of a nonpolar solvent for particles bearing hydrocarbon ligands. Which fraction precipitates depends on particle size and the surface coating, as well as the solvent mixture.",
+      "kind": "reagent",
+      "topic": "antisolvent-separation",
+      "compound_ids": [
+        "cid:887"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 10,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "acetone-wash",
+      "title": "Antisolvent washing",
+      "summary": "When acetone serves as an antisolvent for hydrophobically capped particles, it can move the crystals into a precipitate while some free ligand remains in solution. Repeated precipitation and redispersion can change the amount of loosely associated material left at the surface.",
+      "kind": "reagent",
+      "topic": "antisolvent-separation",
+      "compound_ids": [
+        "cid:180"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 10,
+      "reference": "10.1021/cr900137k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "top-chalcogen",
+      "title": "A phosphine can carry a chalcogen feed",
+      "summary": "Trioctylphosphine can solubilize elemental selenium or tellurium as a phosphine chalcogenide for colloidal growth. Delivering the chalcogen in this bonded form changes the chemistry that supplies reactive growth species.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "cid:20851"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "topse-feed",
+      "title": "Selenium delivery from TOP–Se",
+      "summary": "Trioctylphosphine selenide carries selenium in a soluble feed, rather than as separate solid selenium. The conversion of that feed can affect how much selenium is available while nuclei form and grow.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "cid:12163534"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "selenium-top",
+      "title": "Preparing a selenium feed in phosphine",
+      "summary": "Elemental selenium and trioctylphosphine can form a soluble selenium feed before injection. Preforming that feed separates selenium dissolution from the event that starts nanocrystal nucleation.",
+      "kind": "pair",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "cid:6326970",
+        "cid:20851"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "topo-coordinating-medium",
+      "title": "TOPO as a coordinating medium",
+      "summary": "Trioctylphosphine oxide supplies a coordinating medium in which metal chalcogenide nanocrystals can nucleate and grow. Coordination at the particle surface influences which growth sites remain accessible and how the particles disperse afterward.",
+      "kind": "reagent",
+      "topic": "phosphine-oxide-medium",
+      "compound_ids": [
+        "cid:65577"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cdo-reactivity",
+      "title": "Cadmium oxide needs conversion to a soluble feed",
+      "summary": "Cadmium oxide is a solid precursor that can be converted into a soluble cadmium complex by an acidic ligand. That conversion makes it possible to control the cadmium delivered during nucleation without using a volatile organocadmium feed.",
+      "kind": "reagent",
+      "topic": "metal-carboxylate-formation",
+      "compound_ids": [
+        "cid:10197697"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja003633m",
+      "requires_product_elements": []
+    },
+    {
+      "id": "dimethylcadmium-reactivity",
+      "title": "A reactive organocadmium feed",
+      "summary": "Dimethylcadmium can supply cadmium directly in a hot-injection route instead of requiring an oxide to dissolve and form a complex first. Its different activation chemistry can change how quickly the mixture becomes supersaturated and nucleates.",
+      "kind": "reagent",
+      "topic": "cadmium-feed-reactivity",
+      "compound_ids": [
+        "cid:10479"
+      ],
+      "route_classes": [
+        "Hot injection"
+      ],
+      "priority": 75,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "tdpa-cdse",
+      "title": "Cadmium phosphonates and elongated growth",
+      "summary": "Phosphonic acids can coordinate cadmium and alter the relative growth rates of the surfaces of wurtzite cadmium selenide. When the growth supply sustains that difference, elongation can compete with more uniform growth.",
+      "kind": "reagent",
+      "topic": "phosphonate-shape",
+      "compound_ids": [
+        "cid:78401"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja0027766",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    },
+    {
+      "id": "odpa-cdse",
+      "title": "A phosphonate can bias shape evolution",
+      "summary": "Long-chain phosphonic acids can modify both cadmium availability and surface chemistry in wurtzite cadmium selenide growth. Changes in those processes can favor axial growth over growth across the rod.",
+      "kind": "reagent",
+      "topic": "phosphonate-shape",
+      "compound_ids": [
+        "entry:gary2015-inp-5b00286-971b4f4219"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja0027766",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    },
+    {
+      "id": "thiol-cdte",
+      "title": "Water-compatible thiolate capping",
+      "summary": "In aqueous cadmium chalcogenide growth, a mercaptocarboxylic acid can bind surface cadmium through sulfur while its carboxylate promotes water dispersibility. Changes in acidity alter the balance between metal complexation, surface binding, and dispersion.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "smiles:O=C(O)CCS"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cdcl2-thiol",
+      "title": "Aqueous cadmium and thiol complexation",
+      "summary": "A thiolate can coordinate cadmium from a water-soluble salt such as cadmium chloride before the chalcogenide forms. Soluble complexation and surface passivation both depend on thiol speciation, so the two effects cannot always be tuned independently.",
+      "kind": "pair",
+      "topic": "cadmium-aqueous-feed",
+      "compound_ids": [
+        "entry:chen2010-jf101778t-cdte-cdcl2-reference",
+        "smiles:O=C(O)CCS"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "citrate-gold",
+      "title": "Citrate participates in gold nucleation",
+      "summary": "In citrate reduction, citrate participates in the reduction of dissolved gold and can help stabilize the resulting dispersion. Changing the conditions for reduction changes how gold is divided between new nuclei and growing particles.",
+      "kind": "reagent",
+      "topic": "citrate-reduction",
+      "compound_ids": [
+        "entry:wuister2004-yagce-b401299b-citric-acid"
+      ],
+      "route_classes": [
+        "Turkevich/citrate reduction"
+      ],
+      "priority": 50,
+      "reference": "10.1039/df9511100055",
+      "requires_product_elements": []
+    },
+    {
+      "id": "gold-chloride-citrate",
+      "title": "Citrate reduction of a dissolved gold salt",
+      "summary": "In the citrate route, a dissolved gold chloride precursor supplies metal while citrate participates in reduction and dispersion. The balance between nucleation and growth influences the resulting particle size distribution.",
+      "kind": "pair",
+      "topic": "citrate-reduction",
+      "compound_ids": [
+        "entry:jie2012-fe3o4-cdse-ac203261x-haucl4-c944f-reference",
+        "entry:wuister2004-yagce-b401299b-citric-acid"
+      ],
+      "route_classes": [
+        "Turkevich/citrate reduction"
+      ],
+      "priority": 50,
+      "reference": "10.1039/df9511100055",
+      "requires_product_elements": []
+    },
+    {
+      "id": "thiol-gold-brust",
+      "title": "Dodecanethiol supplies the gold surface coating",
+      "summary": "In a two-phase gold synthesis, an alkanethiol binds the new gold surface through sulfur. Its hydrocarbon tail helps the particles disperse in the organic phase and limits aggregation during isolation.",
+      "kind": "reagent",
+      "topic": "brust-thiol-surface",
+      "compound_ids": [
+        "smiles:CCCCCCCCCCCCS"
+      ],
+      "route_classes": [
+        "Brust"
+      ],
+      "priority": 50,
+      "reference": "10.1039/c39940000801",
+      "requires_product_elements": []
+    },
+    {
+      "id": "borohydride-brust",
+      "title": "A strong reductant starts gold nucleation",
+      "summary": "Borohydride can turn a soluble gold precursor into gold rapidly in a two-phase thiol route. Formation of new nuclei competes with growth on existing particles, while the surface ligand helps limit coalescence.",
+      "kind": "reagent",
+      "topic": "fast-metal-reduction",
+      "compound_ids": [
+        "cid:4311764"
+      ],
+      "route_classes": [
+        "Brust",
+        "Chemical reduction"
+      ],
+      "priority": 50,
+      "reference": "10.1039/c39940000801",
+      "requires_product_elements": []
+    },
+    {
+      "id": "toluene-brust",
+      "title": "Toluene as the organic phase",
+      "summary": "Toluene provides an organic phase for the transferred gold precursor and for the thiol-coated particles in the two-phase route. Phase transfer and ligand binding allow precursor conversion and product dispersion to occur in different chemical environments from the initial salt solution.",
+      "kind": "reagent",
+      "topic": "brust-organic-phase",
+      "compound_ids": [
+        "cid:1140"
+      ],
+      "route_classes": [
+        "Brust"
+      ],
+      "priority": 50,
+      "reference": "10.1039/c39940000801",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silver-nitrate-rods",
+      "title": "Silver and bromide surfactant in gold-rod growth",
+      "summary": "A silver additive and a bromide-bearing surfactant can modify axial relative to lateral growth in seed-mediated gold synthesis. Their effects are coupled to the growth solution and surface environment rather than being independent shape controls.",
+      "kind": "pair",
+      "topic": "gold-rod-surface",
+      "compound_ids": [
+        "entry:henkel2009-agno3-identity",
+        "cid:5974"
+      ],
+      "route_classes": [
+        "Seed-mediated growth"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cm020732l",
+      "requires_product_elements": []
+    },
+    {
+      "id": "ctab-rods",
+      "title": "Surfactant-mediated gold growth",
+      "summary": "Cetyltrimethylammonium bromide helps define the surface and ionic environment around gold seeds during rod growth. The resulting difference between axial and lateral growth depends on the rest of the growth solution as well as the surfactant.",
+      "kind": "reagent",
+      "topic": "gold-rod-surface",
+      "compound_ids": [
+        "cid:5974"
+      ],
+      "route_classes": [
+        "Seed-mediated growth"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cm020732l",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silylsulfide-reactivity",
+      "title": "A reactive sulfur feed",
+      "summary": "Bis(trimethylsilyl)sulfide can supply sulfur rapidly to a reactive metal precursor in a nonaqueous colloidal route. The resulting rate of sulfur delivery affects the period over which new nuclei can form.",
+      "kind": "reagent",
+      "topic": "silyl-chalcogenide-reactivity",
+      "compound_ids": [
+        "cid:76920"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 75,
+      "reference": "10.1002/adma.200305395",
+      "requires_product_elements": []
+    },
+    {
+      "id": "inp-tms-p",
+      "title": "A reactive phosphide feed changes growth timing",
+      "summary": "Tris(trimethylsilyl)phosphine reacts with indium carboxylate in common colloidal indium phosphide routes. Rapid precursor conversion does not necessarily make all particles form at once, because molecular clusters can participate before continued crystal growth.",
+      "kind": "reagent",
+      "topic": "indium-phosphide-precursor",
+      "compound_ids": [
+        "entry:basel2020-p-tms3-reference"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.5b00286",
+      "requires_product_elements": []
+    },
+    {
+      "id": "indium-acetate-inp",
+      "title": "Indium carboxylate as a precursor",
+      "summary": "Indium acetate can be exchanged into a more soluble indium carboxylate by a long-chain acid before a phosphorus reagent is added. Conversion of the carboxylate and the formation of intermediate clusters can separate precursor consumption from the emergence of larger crystals.",
+      "kind": "reagent",
+      "topic": "indium-phosphide-precursor",
+      "compound_ids": [
+        "entry:chandrasiri2020-reference-in-acetate"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.5b00286",
+      "requires_product_elements": []
+    },
+    {
+      "id": "eg-polyol",
+      "title": "A polyol can act as solvent and reductant",
+      "summary": "Ethylene glycol can dissolve metal precursors and participate in reduction in a polyol synthesis. The rate of reduction relative to surface stabilization influences nucleation and growth.",
+      "kind": "reagent",
+      "topic": "polyol-reduction",
+      "compound_ids": [
+        "cid:174"
+      ],
+      "route_classes": [
+        "Polyol"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hot-injection-nucleation",
+      "title": "Nucleation and size focusing",
+      "summary": "A rapid change in precursor availability can create a short nucleation period followed by growth on existing particles. Growth can narrow the size distribution while material is supplied, whereas later ripening can consume smaller particles and change that distribution again.",
+      "kind": "route",
+      "topic": "nucleation-and-focusing",
+      "compound_ids": [],
+      "route_classes": [
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr400544s",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silar-shell",
+      "title": "Alternate supply during shell growth",
+      "summary": "Sequential cation and anion additions can favor growth at existing nanocrystal surfaces rather than the formation of separate particles. Core and shell lattice mismatch can build strain at the interface as the shell develops.",
+      "kind": "route",
+      "topic": "shell-growth",
+      "compound_ids": [],
+      "route_classes": [
+        "SILAR"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acsnano.5b05329",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cation-exchange-solid",
+      "title": "Cations can be replaced within a particle",
+      "summary": "Cation exchange can replace one set of cations while substantially retaining the anion framework of an ionic nanocrystal. The extent and location of exchange depend on ion mobility and the relative stability of the phases, so partial exchange can give distinct material domains.",
+      "kind": "route",
+      "topic": "cation-exchange",
+      "compound_ids": [],
+      "route_classes": [
+        "Cation exchange"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemrev.5b00739",
+      "requires_product_elements": []
+    },
+    {
+      "id": "heatup-cluster",
+      "title": "Stable cluster intermediates can delay particle growth",
+      "summary": "In some indium phosphide routes, unusually stable molecular clusters accumulate instead of turning immediately into a smoothly growing distribution. Their appearance breaks the simple link between mixing the precursor and forming the final nanocrystals.",
+      "kind": "route",
+      "topic": "magic-size-clusters",
+      "compound_ids": [],
+      "route_classes": [
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.5b00286",
+      "requires_product_elements": []
+    },
+    {
+      "id": "pbo-oleic-acid",
+      "title": "Lead oleate can form in the flask",
+      "summary": "Oleic acid can convert lead oxide to a soluble lead carboxylate in colloidal lead sulfide synthesis. That step affects how lead is supplied to the growth solution and also leaves carboxylate available to stabilize the particle surface.",
+      "kind": "pair",
+      "topic": "metal-carboxylate-formation",
+      "compound_ids": [
+        "entry:durmusoglu2020-pbs-taa-acsami0c06694-ref-pbo",
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1002/adma.200305395",
+      "requires_product_elements": []
+    },
+    {
+      "id": "zinc-acetate-oleic-acid",
+      "title": "Long-chain ligands can replace acetate",
+      "summary": "A long-chain acid such as oleic acid can exchange with acetate at the zinc precursor in liquid-phase growth. Changing the carboxylate can alter precursor solubility and surface binding, which changes how growth proceeds.",
+      "kind": "pair",
+      "topic": "metal-carboxylate-formation",
+      "compound_ids": [
+        "entry:chambrier2015-reference-zn-acetate",
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "indium-acetate-oleic-acid",
+      "title": "An indium carboxylate feed",
+      "summary": "Oleic acid can exchange with acetate when preparing an indium carboxylate feed for colloidal phosphide growth. The carboxylate environment affects how molecular intermediates and particle surfaces accommodate indium.",
+      "kind": "pair",
+      "topic": "metal-carboxylate-formation",
+      "compound_ids": [
+        "entry:chandrasiri2020-reference-in-acetate",
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/acs.chemmater.5b00286",
+      "requires_product_elements": []
+    },
+    {
+      "id": "sodium-sulfide-precipitation",
+      "title": "Dissolved sulfide supplies sulfur for precipitation",
+      "summary": "Sodium sulfide supplies dissolved sulfide species for low-solubility metal sulfides in aqueous synthesis. Changing acidity changes sulfide speciation and can shift when precipitation overtakes complexation.",
+      "kind": "reagent",
+      "topic": "aqueous-sulfide-feed",
+      "compound_ids": [
+        "cid:14804"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "thiourea-slow-sulfur",
+      "title": "Thiourea can release sulfide in the bath",
+      "summary": "Thiourea is a sulfur-bearing precursor that can generate reactive sulfur species as the solution chemistry proceeds. Sulfur delivery coupled to precursor conversion can change the balance between surface growth and unwanted precipitation in the bulk.",
+      "kind": "reagent",
+      "topic": "aqueous-sulfide-feed",
+      "compound_ids": [
+        "entry:lee2007-cds-polymers-1p2752021-thiourea"
+      ],
+      "route_classes": [
+        "Chemical bath deposition",
+        "Solvothermal or hydrothermal"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "ammonia-cbd",
+      "title": "Ammonia moderates free metal in a bath",
+      "summary": "Ammonia can complex dissolved metal ions in a chemical bath, keeping some metal out of the free-ion pool. The competition between complexation and precipitation affects whether growth occurs mainly on the intended surface or throughout the liquid.",
+      "kind": "reagent",
+      "topic": "ammonia-metal-complexation",
+      "compound_ids": [
+        "cid:222"
+      ],
+      "route_classes": [
+        "Chemical bath deposition"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "naoh-thiol",
+      "title": "Base changes thiol speciation",
+      "summary": "Changing the acidity of an aqueous thiol-capped synthesis changes the amount of thiolate available to coordinate the metal or bind the crystal surface. It can therefore alter precipitation as well as the stability of the final dispersion.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "smiles:[Na+].[OH-]"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hcl-thiol",
+      "title": "Acid can change capping-ligand binding",
+      "summary": "When used for acidity adjustment in an aqueous thiol-capped synthesis, acid changes the equilibrium between thiol and thiolate. Ligand protonation can change dissolved metal complexation and the colloidal stability of ligand-coated crystals.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "cid:313"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "nitrogen-blanket",
+      "title": "An inert atmosphere limits oxygen exposure",
+      "summary": "A nitrogen blanket can limit oxygen exposure during hot solution synthesis when an air-sensitive feed or surface is present. It helps preserve the intended precursor and surface chemistry without being a source of the nanocrystal elements.",
+      "kind": "reagent",
+      "topic": "inert-reaction-atmosphere",
+      "compound_ids": [
+        "cid:947"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 10,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "argon-blanket",
+      "title": "Excluding air during colloidal growth",
+      "summary": "An argon atmosphere can limit contact between air and reactive precursors during hot colloidal growth. Protecting the feed from oxidation helps keep the supply of growth species distinct from side reactions with air.",
+      "kind": "reagent",
+      "topic": "inert-reaction-atmosphere",
+      "compound_ids": [
+        "cid:23968"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 10,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hexane-dispersion",
+      "title": "A nonpolar liquid disperses hydrocarbon-capped particles",
+      "summary": "Hexane can redisperse nanocrystals whose surface ligands present hydrocarbon groups to the liquid. Its compatibility with the capping layer contrasts with the poor-solvent conditions used to precipitate that same dispersion.",
+      "kind": "reagent",
+      "topic": "solvent-ligand-dispersibility",
+      "compound_ids": [
+        "cid:8058"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 15,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "chloroform-dispersion",
+      "title": "Solvent choice follows the surface coating",
+      "summary": "Chloroform can disperse many nanocrystals coated with organic ligands after colloidal growth. This dispersibility reflects the particle surface and does not establish that the crystalline core dissolved.",
+      "kind": "reagent",
+      "topic": "solvent-ligand-dispersibility",
+      "compound_ids": [
+        "cid:6212"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 15,
+      "reference": "10.1021/cr900137k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "stearic-acid",
+      "title": "Saturated carboxylic acids can supply coordinating carboxylate",
+      "summary": "Stearic acid can make a long-chain metal carboxylate when it reacts with a metal oxide or exchanges with a shorter ligand. Both the identity of the soluble feed and carboxylate binding at the surface can affect colloidal growth.",
+      "kind": "reagent",
+      "topic": "carboxylate-surface",
+      "compound_ids": [
+        "entry:jie2012-fe3o4-cdse-ac203261x-stearic-a76cc-reference"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja003633m",
+      "requires_product_elements": []
+    },
+    {
+      "id": "myristic-acid",
+      "title": "Myristate binds indium and particle surfaces",
+      "summary": "In colloidal indium phosphide synthesis, myristic acid can supply a carboxylate for soluble indium species and a stabilizing ligand for the growing solid. Carboxylate coordination can help determine which molecular intermediates persist during growth.",
+      "kind": "reagent",
+      "topic": "carboxylate-surface",
+      "compound_ids": [
+        "cid:11005"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.5b00286",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hexadecylamine-surface",
+      "title": "An alkylamine changes the ligand environment",
+      "summary": "Hexadecylamine can supplement other ligands in hot solution growth by coordinating accessible surface metal sites. A later ligand exchange can change surface passivation even if the underlying crystal remains the same.",
+      "kind": "reagent",
+      "topic": "amine-surface",
+      "compound_ids": [
+        "entry:khatun2012-qd-lhd-am301048m-ref-912f6ad3ef5a"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp047078c",
+      "requires_product_elements": []
+    },
+    {
+      "id": "dodecylamine-surface",
+      "title": "Alkylamine coordination and exchange",
+      "summary": "Dodecylamine can bind surface metal sites in colloidal cadmium chalcogenide syntheses. Replacing a labile amine with a more strongly binding ligand changes surface chemistry and can change how the particles disperse.",
+      "kind": "reagent",
+      "topic": "amine-surface",
+      "compound_ids": [
+        "smiles:CCCCCCCCCCCCN"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp047078c",
+      "requires_product_elements": []
+    },
+    {
+      "id": "pyridine-exchange",
+      "title": "A short donor ligand can replace a growth ligand",
+      "summary": "When pyridine is used for post-growth ligand exchange, its nitrogen donor can interact with exposed metal sites after bulky growth ligands are displaced. A shorter coating changes particle interactions and can alter the liquids that disperse the particles.",
+      "kind": "reagent",
+      "topic": "ligand-exchange-accessibility",
+      "compound_ids": [
+        "cid:1049"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": []
+    },
+    {
+      "id": "diethylzinc-shell",
+      "title": "An organozinc feed is chemically distinct from a zinc salt",
+      "summary": "Diethylzinc supplies zinc in a reactive organometallic form in some shell growth routes. Its conversion chemistry differs from a zinc carboxylate or oxide, so changing feeds can shift the balance between shell deposition and separate nucleation.",
+      "kind": "reagent",
+      "topic": "zinc-precursor-reactivity",
+      "compound_ids": [
+        "smiles:CC[Zn]CC"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "SILAR"
+      ],
+      "priority": 75,
+      "reference": "10.1021/jp971091y",
+      "requires_product_elements": []
+    },
+    {
+      "id": "zinc-stearate-shell",
+      "title": "A zinc carboxylate carries zinc into a nonpolar phase",
+      "summary": "Zinc stearate provides a zinc species compatible with a hydrophobic growth medium. Conversion of that feed and its binding environment can influence whether zinc reaches existing surfaces or contributes to other growth.",
+      "kind": "reagent",
+      "topic": "zinc-precursor-reactivity",
+      "compound_ids": [
+        "entry:chandrasiri2020-reference-zn-stearate"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "SILAR"
+      ],
+      "priority": 75,
+      "reference": "10.1021/cr900137k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "titanium-alkoxide-gel",
+      "title": "Titanium alkoxide hydrolysis starts network formation",
+      "summary": "Titanium isopropoxide can hydrolyze and then condense to form titanium–oxygen connectivity in a sol-gel route. How hydrolysis and condensation compete affects the structure of the early oxide network.",
+      "kind": "reagent",
+      "topic": "solgel-hydrolysis",
+      "compound_ids": [
+        "entry:tio2-b200053a-identity-4"
+      ],
+      "route_classes": [
+        "Sol-gel"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "urea-basification",
+      "title": "Urea can provide gradual basification",
+      "summary": "Under aqueous heating, urea can generate basic species as it decomposes. Gradual basification changes the buildup of supersaturation, which can affect how uniformly a metal hydroxide or oxide precursor precipitates.",
+      "kind": "reagent",
+      "topic": "controlled-base-release",
+      "compound_ids": [
+        "entry:name-card-co-nh2-2"
+      ],
+      "route_classes": [
+        "Solvothermal or hydrothermal",
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "aqueous-chalcogen-size",
+      "title": "A thiol can affect both precursor and surface",
+      "summary": "A water-compatible thiol can bind precursor metal in solution and the metal-rich sites on a growing chalcogenide surface. Because these processes share the same ligand, acidity can jointly affect the growth rate and the coating that remains on the nanocrystal.",
+      "kind": "route",
+      "topic": "thiolate-surface",
+      "compound_ids": [],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "octadecylamine-surface",
+      "title": "A long-chain primary amine coordinates metal sites",
+      "summary": "During amine-assisted colloidal growth, octadecylamine can coordinate surface metal sites while keeping the surface compatible with a nonpolar liquid. Changing the capping layer changes which sites remain available for growth.",
+      "kind": "reagent",
+      "topic": "amine-surface",
+      "compound_ids": [
+        "entry:jie2012-fe3o4-cdse-ac203261x-oda-89e5e-reference"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cm4000476",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hexylphosphonic-acid",
+      "title": "A phosphonic acid can change cadmium selenide shape evolution",
+      "summary": "Hexylphosphonic acid can act as a coordinating ligand in cadmium selenide growth. Cadmium binding in solution and differences in surface growth rates can change which crystal dimensions grow fastest.",
+      "kind": "reagent",
+      "topic": "phosphonate-shape",
+      "compound_ids": [
+        "cid:312552"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja0027766",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    },
+    {
+      "id": "thioglycolic-acid",
+      "title": "A thiol end and a water-compatible end",
+      "summary": "Thioglycolic acid can bind to cadmium chalcogenide surfaces through sulfur while its carboxylate interacts with water. Acid–base speciation changes how the ligand partitions between precursor complexes and growing surfaces.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "entry:dai2017-pbs-nio-analchem7b01557-tga-e6928-reference"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "thioglycerol-surface",
+      "title": "Thioglycerol can keep particles dispersed in water",
+      "summary": "In aqueous cadmium chalcogenide growth, thioglycerol can bind surface cadmium through sulfur while the hydroxyl groups remain accessible to water. That capping layer influences the stability of the dispersion and the surface sites available for growth.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "entry:lee2007-cds-polymers-1p2752021-thioglycerol"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp025541k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "thioacetamide-sulfur",
+      "title": "A sulfur donor whose reactivity depends on the liquid",
+      "summary": "Thioacetamide can produce sulfide species during heated solution growth, rather than supplying the full reactive sulfide dose immediately. Its conversion can therefore affect the competition between separate nucleation and growth at existing surfaces.",
+      "kind": "reagent",
+      "topic": "aqueous-sulfide-feed",
+      "compound_ids": [
+        "entry:durmusoglu2020-pbs-taa-acsami0c06694-ref-taa"
+      ],
+      "route_classes": [
+        "Chemical bath deposition",
+        "Solvothermal or hydrothermal"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hydrothermal-base",
+      "title": "Alkalinity changes dissolved growth species",
+      "summary": "Sodium hydroxide can change which soluble hydroxide complexes exist during hydrothermal growth. That shifts the balance between dissolution and precipitation and can change the phase that crystallizes.",
+      "kind": "reagent",
+      "topic": "base-dependent-speciation",
+      "compound_ids": [
+        "smiles:[Na+].[OH-]"
+      ],
+      "route_classes": [
+        "Solvothermal or hydrothermal"
+      ],
+      "priority": 50,
+      "reference": "10.1016/j.pcrysgrow.2007.04.001",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hydrated-zinc-acetate",
+      "title": "A hydrated acetate can supply soluble zinc",
+      "summary": "Zinc acetate dihydrate can supply a zinc precursor in a liquid oxide synthesis. Hydrolysis and condensation of the dissolved species participate in forming the zinc–oxygen network rather than simply copying the structure of the starting salt.",
+      "kind": "reagent",
+      "topic": "acetate-hydrolysis",
+      "compound_ids": [
+        "smiles:[Zn+2].CC(=O)[O-].CC(=O)[O-].O.O"
+      ],
+      "route_classes": [
+        "Sol-gel"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hydrated-cadmium-acetate",
+      "title": "An acetate salt must enter a soluble growth feed",
+      "summary": "Cadmium acetate used in nonaqueous colloidal growth can exchange ligands with the surrounding carboxylic acids. The resulting ligand environment changes the availability of cadmium for precipitation or growth on existing crystals.",
+      "kind": "reagent",
+      "topic": "cadmium-feed-conversion",
+      "compound_ids": [
+        "smiles:[Cd+2].CC(=O)[O-].CC(=O)[O-].O.O"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "amino-arsine-inas",
+      "title": "Aminoarsine conversion depends on reduction",
+      "summary": "An aminoarsine provides an alternative arsenic feed in colloidal indium arsenide synthesis. Its transformation depends on the reductant environment, which can change how quickly arsenic becomes available to nucleating and growing nanocrystals.",
+      "kind": "reagent",
+      "topic": "aminoarsine-reactivity",
+      "compound_ids": [
+        "entry:bellato2024-inas-acsenergylett4c00295-amino-as"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.8b01137",
+      "requires_product_elements": [
+        "In",
+        "As"
+      ]
+    },
+    {
+      "id": "amino-p-inp",
+      "title": "Aminophosphine supplies phosphorus through a different pathway",
+      "summary": "In aminophosphine-based indium phosphide synthesis, ligand exchange and phosphorus conversion can occur before the particles grow. This changes the relation between precursor consumption, nucleation, and the supply of phosphorus to existing particles.",
+      "kind": "reagent",
+      "topic": "aminophosphine-reactivity",
+      "compound_ids": [
+        "cid:15355"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jacs.6b01254",
+      "requires_product_elements": []
+    },
+    {
+      "id": "aminophosphine-ethyl-inp",
+      "title": "An amino-substituted phosphorus precursor must first react",
+      "summary": "Tris(diethylamino)phosphine is an amino-substituted phosphorus source rather than a preformed metal phosphide. Its precursor chemistry affects how rapidly phosphorus becomes available to the indium feed and growing crystals.",
+      "kind": "reagent",
+      "topic": "aminophosphine-reactivity",
+      "compound_ids": [
+        "cid:75292"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jacs.6b01254",
+      "requires_product_elements": []
+    },
+    {
+      "id": "lead-bromide-topo",
+      "title": "Coordinating solvent helps dissolve lead halide",
+      "summary": "Trioctylphosphine oxide can help solubilize lead halide through metal–oxygen coordination in halide nanocrystal synthesis. Changing how the halide feed is dissolved influences the supply of species that form the crystalline product.",
+      "kind": "pair",
+      "topic": "phosphine-oxide-halide-solvation",
+      "compound_ids": [
+        "entry:name-card-lead-bromide",
+        "cid:65577"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acs.chemmater.9b03918",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silar-precursor-timing",
+      "title": "Sequencing shell precursors separates growth events",
+      "summary": "Sequential cation and anion supply can bias crystallization toward an existing particle rather than promoting independent nucleation from a premixed solution. The result depends on how growth species reach the existing interface.",
+      "kind": "route",
+      "topic": "shell-growth",
+      "compound_ids": [],
+      "route_classes": [
+        "SILAR"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp711395f",
+      "requires_product_elements": []
+    },
+    {
+      "id": "indium-chloride-amino",
+      "title": "Indium chloride supplies indium in aminophosphine synthesis",
+      "summary": "Indium chloride supplies indium to a solution whose amines and aminophosphine can coordinate the metal before indium phosphide forms. That precursor environment affects conversion and is distinct from the conversion of a preformed silyl phosphide feed.",
+      "kind": "pair",
+      "topic": "aminophosphine-indium-feed",
+      "compound_ids": [
+        "cid:24812",
+        "cid:15355"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jacs.6b01254",
+      "requires_product_elements": []
+    },
+    {
+      "id": "zinc-chloride-amino",
+      "title": "Zinc halide changes the coordination environment",
+      "summary": "A zinc halide additive can participate in the coordination chemistry of aminophosphine-based indium phosphide growth without being the phosphorus source. That environment can change the growth and surface chemistry of the resulting nanocrystals.",
+      "kind": "reagent",
+      "topic": "zinc-additive-inp",
+      "compound_ids": [
+        "cid:5727"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jacs.6b01254",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cadmium-oleate",
+      "title": "A long-chain carboxylate carries cadmium in solution",
+      "summary": "Cadmium oleate provides a soluble cadmium feed in nonpolar nanocrystal growth. This couples metal availability to carboxylate chemistry rather than requiring solid cadmium oxide to dissolve during nucleation.",
+      "kind": "reagent",
+      "topic": "cadmium-feed-conversion",
+      "compound_ids": [
+        "entry:ghosh2012-cd-oleate-reference"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja003633m",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cadmium-acetate-feed",
+      "title": "Acetate can be exchanged before colloidal growth",
+      "summary": "Cadmium acetate can exchange with a long-chain carboxylic acid to make a feed better suited to a nonpolar liquid. That precursor conversion can change when the mixture supplies cadmium to nuclei and existing crystals.",
+      "kind": "reagent",
+      "topic": "cadmium-feed-conversion",
+      "compound_ids": [
+        "entry:name-card-cadmium-acetate-cdac"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": []
+    },
+    {
+      "id": "cesium-carbonate-oleic-acid",
+      "title": "Oleic acid helps put cesium into a soluble feed",
+      "summary": "Oleic acid can convert cesium carbonate into cesium oleate for hot solution synthesis of cesium lead halide nanocrystals. Preparing that feed separately helps control when cesium becomes available to form the crystalline phase.",
+      "kind": "pair",
+      "topic": "cesium-oleate-formation",
+      "compound_ids": [
+        "cid:10796",
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Hot injection"
+      ],
+      "priority": 50,
+      "reference": "10.1021/nl5048779",
+      "requires_product_elements": [
+        "Cs",
+        "Pb"
+      ]
+    },
+    {
+      "id": "cysteine-capping",
+      "title": "Cysteine can bind by sulfur and disperse in water",
+      "summary": "The sulfur group of cysteine can bind surface metal sites as an aqueous chalcogenide nanocrystal forms. Its other functional groups interact with the liquid, linking surface coordination to dispersion stability.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "entry:name-card-l-cysteine"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/la702972d",
+      "requires_product_elements": []
+    },
+    {
+      "id": "elemental-sulfur-diamine",
+      "title": "A diamine can activate elemental sulfur in solution",
+      "summary": "A sulfur–ethylenediamine feed can bring elemental sulfur into a reactive solution for sulfur nanocrystal formation. The amine environment changes how sulfur is delivered to the growing material rather than acting only as an inert liquid.",
+      "kind": "pair",
+      "topic": "sulfur-diamine-activation",
+      "compound_ids": [
+        "cid:5362487",
+        "entry:cu7te4-jssc19998303-ref-li2000-ethylenediamine"
+      ],
+      "route_classes": [
+        "Heat-up",
+        "Solvothermal or hydrothermal"
+      ],
+      "priority": 50,
+      "reference": "10.1021/acssuschemeng.2c00036",
+      "requires_product_elements": []
+    },
+    {
+      "id": "n-acetyl-cysteine-cdte",
+      "title": "A hydrophilic thiol can cap hydrothermal dots",
+      "summary": "In aqueous hydrothermal cadmium telluride growth, an acetylated cysteine ligand can bind surface cadmium through sulfur. Its water-compatible groups help stabilize the dispersed particles after growth.",
+      "kind": "reagent",
+      "topic": "thiolate-surface",
+      "compound_ids": [
+        "entry:liu2015-cdte-nucleobases-ac503819e-n-acetyl-l-cysteine-3cfe82"
+      ],
+      "route_classes": [
+        "Solvothermal or hydrothermal"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp402951c",
+      "requires_product_elements": []
+    },
+    {
+      "id": "x-l-z-coating",
+      "title": "Ligand exchange can alter surface stoichiometry",
+      "summary": "A neutral donor is an L-type ligand, an anionic ligand can be X-type, and a surface-bound Lewis acid can act as Z-type. Displacing a Lewis-acidic metal carboxylate during ligand exchange can change surface stoichiometry as well as the coating.",
+      "kind": "reagent",
+      "topic": "ligand-exchange-accessibility",
+      "compound_ids": [
+        "cid:445639"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja4086758",
+      "requires_product_elements": []
+    },
+    {
+      "id": "topo-technical-grade",
+      "title": "Technical-grade TOPO is not always chemically equivalent to purified TOPO",
+      "summary": "Phosphorus-containing impurities in technical-grade TOPO can change cadmium precursor coordination and surface binding during colloidal growth. They can therefore change shape selection without a change in the nominal solvent name.",
+      "kind": "reagent",
+      "topic": "phosphine-oxide-grade",
+      "compound_ids": [
+        "cid:65577"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 70,
+      "reference": "10.1021/nl801692g",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    },
+    {
+      "id": "sulfur-oleylamine",
+      "title": "Oleylamine changes how sulfur is delivered",
+      "summary": "An amine can convert elemental sulfur into soluble polysulfide species before metal sulfide nanocrystals form. How sulfur is made available from that solution affects whether new nuclei form or existing particles keep growing.",
+      "kind": "pair",
+      "topic": "amine-sulfur-feed",
+      "compound_ids": [
+        "cid:5362487",
+        "cid:5356789"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja1109997",
+      "requires_product_elements": []
+    },
+    {
+      "id": "inas-interruption",
+      "title": "Strain and growth interruptions affect epitaxial islands",
+      "summary": "In strain-driven indium arsenide epitaxy, a wetting layer can give way to islands as the growing film relieves lattice strain. During a growth interruption the surface can continue to reorganize, so the island population need not remain fixed when the incoming flux changes.",
+      "kind": "route",
+      "topic": "strain-driven-island-growth",
+      "compound_ids": [],
+      "route_classes": [
+        "Molecular beam epitaxy"
+      ],
+      "priority": 50,
+      "reference": "10.1116/1.1515912",
+      "requires_product_elements": [
+        "In",
+        "As"
+      ]
+    },
+    {
+      "id": "top-s-shell",
+      "title": "A phosphine sulfide feed changes sulfur conversion",
+      "summary": "Trioctylphosphine sulfide provides sulfur in a soluble, coordinated feed for chalcogenide growth. Differences in precursor conversion can affect whether sulfur is incorporated at an existing surface or helps form a separate phase.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "entry:name-card-tops"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up",
+        "SILAR"
+      ],
+      "priority": 90,
+      "reference": "10.1021/jp040689k",
+      "requires_product_elements": []
+    },
+    {
+      "id": "tbp-se-reactivity",
+      "title": "Phosphine identity changes selenium delivery",
+      "summary": "Tributylphosphine selenide is a molecular selenium source in colloidal chalcogenide growth. Its conversion can differ from that of other phosphine chalcogenides, changing how the composition and shape evolve when several feeds compete.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "entry:yang2005-anie200502279-tbpse"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/nn301182h",
+      "requires_product_elements": []
+    },
+    {
+      "id": "tbp-chalcogen-stock",
+      "title": "Tributylphosphine as a chalcogen carrier",
+      "summary": "Tributylphosphine can react with elemental chalcogen to form a soluble molecular phosphine chalcogenide feed. When that feed supplies growing nanocrystals, its conversion rate affects the availability of chalcogen for nucleation and growth.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "cid:13831"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/nn301182h",
+      "requires_product_elements": []
+    },
+    {
+      "id": "hydrated-sodium-sulfide",
+      "title": "Hydrated sulfide as an aqueous feed",
+      "summary": "Hydrated sodium sulfide dissolves to supply sulfide species for precipitation of metal sulfide nanocrystals. The acidity and metal complexation determine how quickly those species become available for nucleation.",
+      "kind": "reagent",
+      "topic": "aqueous-sulfide-feed",
+      "compound_ids": [
+        "entry:cds-polyurethane-la062210g-sulfide"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1021/cr030027b",
+      "requires_product_elements": [
+        "S"
+      ]
+    },
+    {
+      "id": "methyl-acetate-iodide-perovskite",
+      "title": "Washing ligand-coated iodide perovskite dots",
+      "summary": "When methyl acetate is used as an antisolvent, it helps separate hydrophobic cesium lead iodide dots from soluble residues. Washing must balance cleanup against loss of weakly bound surface ligands needed for stable dispersions.",
+      "kind": "reagent",
+      "topic": "antisolvent-separation",
+      "compound_ids": [
+        "entry:dhaene2019-d3f8b6fddbe9"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 10,
+      "reference": "10.1126/science.aag2700",
+      "requires_product_elements": [
+        "Cs",
+        "Pb",
+        "I"
+      ]
+    },
+    {
+      "id": "tetraethoxysilane-silica-solgel",
+      "title": "Silica growth by alkoxide condensation",
+      "summary": "In alcohol-based silica sol-gel synthesis, tetraethoxysilane hydrolyzes and the resulting species condense into a silica network. The balance between hydrolysis, nucleation and further condensation influences the particle-size distribution.",
+      "kind": "reagent",
+      "topic": "silica-condensation",
+      "compound_ids": [
+        "smiles:CCO[Si](OCC)(OCC)OCC"
+      ],
+      "route_classes": [
+        "Sol-gel",
+        "Stöber"
+      ],
+      "priority": 50,
+      "reference": "10.1016/0021-9797(68)90272-5",
+      "requires_product_elements": [
+        "Si",
+        "O"
+      ]
+    },
+    {
+      "id": "tetraethyl-orthosilicate-silica-solgel",
+      "title": "Silica growth by alkoxide condensation",
+      "summary": "In alcohol-based silica sol-gel synthesis, tetraethyl orthosilicate hydrolyzes and the resulting species condense into a silica network. The balance between hydrolysis, nucleation and further condensation influences the particle-size distribution.",
+      "kind": "reagent",
+      "topic": "silica-condensation",
+      "compound_ids": [
+        "cid:6517"
+      ],
+      "route_classes": [
+        "Sol-gel",
+        "Stöber"
+      ],
+      "priority": 50,
+      "reference": "10.1016/0021-9797(68)90272-5",
+      "requires_product_elements": [
+        "Si",
+        "O"
+      ]
+    },
+    {
+      "id": "tmaoh-iron-oxide-peptization",
+      "title": "Dispersing iron oxide after precipitation",
+      "summary": "When used to peptize washed iron oxide particles, tetramethylammonium hydroxide provides an alkaline environment that favors a charged oxide surface. Electrostatic repulsion can stabilize an aqueous ferrofluid without growth of a new solid phase.",
+      "kind": "reagent",
+      "topic": "iron-oxide-peptization",
+      "compound_ids": [
+        "cid:60966"
+      ],
+      "route_classes": [
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1109/tmag.1981.1061188",
+      "requires_product_elements": [
+        "Fe",
+        "O"
+      ]
+    },
+    {
+      "id": "dmf-pbs-ink",
+      "title": "Dispersing ligand-exchanged lead sulfide dots",
+      "summary": "In solution processing of lead sulfide dots, dimethylformamide can disperse particles after their native long-chain ligands are exchanged for ionic surface ligands. Changing that surface shell can change dot spacing and electronic coupling after the solvent is removed.",
+      "kind": "reagent",
+      "topic": "polar-ligand-exchange",
+      "compound_ids": [
+        "smiles:CN(C)C=O"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up",
+        "Aqueous or colloidal precipitation"
+      ],
+      "priority": 50,
+      "reference": "10.1038/nmat4800",
+      "requires_product_elements": [
+        "Pb",
+        "S"
+      ]
+    },
+    {
+      "id": "top-te-reactivity",
+      "title": "A solvated tellurium feed for chalcogenide growth",
+      "summary": "Trioctylphosphine telluride allows tellurium to be supplied in a soluble phosphine-bound form. When tellurium conversion competes with other chalcogen sources, their different delivery rates can influence which material forms at each growth stage.",
+      "kind": "reagent",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "entry:name-card-topte"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 90,
+      "reference": "10.1021/nn401274e",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silyl-se-fast-feed",
+      "title": "A silyl selenium precursor reacts differently from a phosphine feed",
+      "summary": "Bis(trimethylsilyl)selenide is a reactive selenium source for nonaqueous metal selenide growth. Controlling its delivery helps control whether the available selenium is consumed by new nuclei or incorporated into existing nanocrystals.",
+      "kind": "reagent",
+      "topic": "silyl-chalcogenide-reactivity",
+      "compound_ids": [
+        "cid:553451"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up",
+        "SILAR"
+      ],
+      "priority": 75,
+      "reference": "10.1021/jacs.3c02190",
+      "requires_product_elements": []
+    },
+    {
+      "id": "silyl-arsine-delivery",
+      "title": "Silyl arsine conversion makes delivery important",
+      "summary": "Tris(trimethylsilyl)arsine can react rapidly with an indium precursor to form indium arsenide. The rate at which the feeds meet and become available together can affect the balance between fresh nuclei and growth of existing dots.",
+      "kind": "reagent",
+      "topic": "arsine-feed-reactivity",
+      "compound_ids": [
+        "smiles:C[Si](C)(C)[As]([Si](C)(C)C)[Si](C)(C)C"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1038/s41467-021-23259-w",
+      "requires_product_elements": [
+        "In",
+        "As"
+      ]
+    },
+    {
+      "id": "lead-chloride-sulfur-amine",
+      "title": "Lead chloride and sulfur supply distinct growth species in oleylamine",
+      "summary": "When colloidal lead sulfide is grown from a lead halide and sulfur in oleylamine, the amine environment affects sulfur activation and coordination of the soluble metal feed. Their relative availability can affect particle growth and the nature of the resulting surface.",
+      "kind": "pair",
+      "topic": "lead-halide-sulfide-feed",
+      "compound_ids": [
+        "entry:liu2020-pbse-inks-energylett0c02011-pbcl2",
+        "cid:5362487",
+        "cid:5356789"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 75,
+      "reference": "10.1021/nn5018654",
+      "requires_product_elements": [
+        "Pb",
+        "S"
+      ]
+    },
+    {
+      "id": "thiol-source-and-ligand",
+      "title": "A thiol can both supply sulfur and bind the surface",
+      "summary": "In metal-sulfide routes that use an alkanethiol as the sulfur feed, metal–thiolate chemistry can supply sulfur to the growing lattice. Thiol or thiolate species can also bind at the particle surface, so sulfur delivery and surface capping may be linked.",
+      "kind": "reagent",
+      "topic": "thiol-sulfur-and-surface",
+      "compound_ids": [
+        "smiles:CCCCCCCCCCCCS"
+      ],
+      "route_classes": [
+        "Hot injection",
+        "Heat-up"
+      ],
+      "priority": 75,
+      "reference": "10.1021/cm5005642",
+      "requires_product_elements": [
+        "S"
+      ]
+    },
+    {
+      "id": "sulfur-octadecene",
+      "title": "Elemental sulfur can be delivered in a noncoordinating liquid",
+      "summary": "When dissolved in octadecene for cadmium sulfide growth, elemental sulfur can supply the chalcogen without first being prepared as a phosphine sulfide. Its activation competes with metal precursor conversion and helps determine when the crystalline phase begins to form.",
+      "kind": "pair",
+      "topic": "chalcogen-in-noncoordinating-medium",
+      "compound_ids": [
+        "cid:5362487",
+        "cid:8217"
+      ],
+      "route_classes": [
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/ja0459678",
+      "requires_product_elements": [
+        "Cd",
+        "S"
+      ]
+    },
+    {
+      "id": "selenium-octadecene",
+      "title": "A phosphine-free selenium feed has different chemistry",
+      "summary": "When used as a phosphine-free feed in non-injection cadmium selenide synthesis, selenium dispersed or dissolved in octadecene has different conversion chemistry from phosphine-bound selenium. The choice of reaction medium changes the supply of growth species and can shift the balance between discrete clusters and continued growth.",
+      "kind": "pair",
+      "topic": "chalcogen-in-noncoordinating-medium",
+      "compound_ids": [
+        "cid:6326970",
+        "cid:8217"
+      ],
+      "route_classes": [
+        "Heat-up"
+      ],
+      "priority": 50,
+      "reference": "10.1021/jp909310a",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    },
+    {
+      "id": "inas-arsenic-overpressure",
+      "title": "Arsenic supply sets the growth surface environment",
+      "summary": "The group-V to group-III supply ratio helps determine how arsenic-rich the surface remains during indium arsenide growth. Changing arsenic pressure at a fixed indium supply can alter surface incorporation and the way strained islands grow.",
+      "kind": "route",
+      "topic": "arsenic-supply-and-surface",
+      "compound_ids": [],
+      "route_classes": [
+        "Molecular beam epitaxy"
+      ],
+      "priority": 50,
+      "reference": "10.1002/pssc.200460465",
+      "requires_product_elements": [
+        "In",
+        "As"
+      ]
+    },
+    {
+      "id": "isopropanol-wash",
+      "title": "Isopropanol can help recover ligand-capped particles",
+      "summary": "In a hot-injection workup, isopropanol can act as an antisolvent for nanocrystals capped with long-chain ligands. Which particles precipitate depends on how well the solvent mixture keeps their ligand shells dispersed, so the wash can select the recovered fraction without changing the growth reaction.",
+      "kind": "reagent",
+      "topic": "antisolvent-separation",
+      "compound_ids": [
+        "cid:3776"
+      ],
+      "route_classes": [
+        "Hot injection"
+      ],
+      "priority": 10,
+      "reference": "10.1021/acs.chemmater.7b00354",
+      "requires_product_elements": []
+    },
+    {
+      "id": "selenium-top-powder",
+      "title": "Preparing a selenium feed in phosphine",
+      "summary": "Elemental selenium powder can be dissolved in trioctylphosphine to prepare a soluble feed for cadmium selenide hot injection. Preparing the stock first separates selenium dissolution from the injection that starts nanocrystal nucleation.",
+      "kind": "pair",
+      "topic": "phosphine-chalcogenide",
+      "compound_ids": [
+        "entry:name-card-se-powder",
+        "cid:20851"
+      ],
+      "route_classes": [
+        "Hot injection"
+      ],
+      "priority": 90,
+      "reference": "10.1021/ja00072a025",
+      "requires_product_elements": [
+        "Cd",
+        "Se"
+      ]
+    }
+  ],
+  "references": {
+    "10.1002/adma.200305395": {
+      "doi": "10.1002/adma.200305395",
+      "url": "https://doi.org/10.1002/adma.200305395",
+      "title": "Colloidal PbS Nanocrystals with Size‐Tunable Near‐Infrared Emission: Observation of Post‐Synthesis Self‐Narrowing of the Particle Size Distribution",
+      "authors": [
+        "M.A. Hines",
+        "G.D. Scholes"
+      ],
+      "year": 2003,
+      "metadata_response_sha256": "52db80dc3627f2b5cdb1170e243e7d7f76e910ac99942bb4f872868d56513a3d",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1002/pssc.200460465": {
+      "doi": "10.1002/pssc.200460465",
+      "url": "https://doi.org/10.1002/pssc.200460465",
+      "title": "Arsenic pressure and spacer layer thickness effects on the optical properties of stacked InAs/InAlAs quantum dot array",
+      "authors": [
+        "M. Hjiri",
+        "F. Hassen",
+        "H. Maaref",
+        "A. Jbeli",
+        "M. Senes",
+        "X. Marie",
+        "T. Amand",
+        "B. Salem",
+        "G. Bremond",
+        "M. Gendry"
+      ],
+      "year": 2005,
+      "metadata_response_sha256": "b3e457d890e18b14469a427573ee6225727fd1f32ee56c66437dc497e62b8bb7",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1016/0021-9797(68)90272-5": {
+      "doi": "10.1016/0021-9797(68)90272-5",
+      "url": "https://doi.org/10.1016/0021-9797(68)90272-5",
+      "title": "Controlled growth of monodisperse silica spheres in the micron size range",
+      "authors": [
+        "Werner Stöber",
+        "Arthur Fink",
+        "Ernst Bohn"
+      ],
+      "year": 1968,
+      "metadata_response_sha256": "4548307c21926e890b217690a4aa8f46b7ae093b4195ba0149a9d4f4efdcd52c",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1016/j.pcrysgrow.2007.04.001": {
+      "doi": "10.1016/j.pcrysgrow.2007.04.001",
+      "url": "https://doi.org/10.1016/j.pcrysgrow.2007.04.001",
+      "title": "Hydrothermal technology for nanotechnology",
+      "authors": [
+        "K. Byrappa",
+        "T. Adschiri"
+      ],
+      "year": 2007,
+      "metadata_response_sha256": "be34403774275d03b8eb317266d5abb41fce62df2bdb62dc65933dbd4c5c053c",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.chemmater.5b00286": {
+      "doi": "10.1021/acs.chemmater.5b00286",
+      "url": "https://doi.org/10.1021/acs.chemmater.5b00286",
+      "title": "Two-Step Nucleation and Growth of InP Quantum Dots via Magic-Sized Cluster Intermediates",
+      "authors": [
+        "Dylan C. Gary",
+        "Maxwell W. Terban",
+        "Simon J. L. Billinge",
+        "Brandi M. Cossairt"
+      ],
+      "year": 2015,
+      "metadata_response_sha256": "cc30b14a9dfbfab52c89494742d860ec1dc456a6a6be5224a6ff68bfe809cb66",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.chemmater.7b00354": {
+      "doi": "10.1021/acs.chemmater.7b00354",
+      "url": "https://doi.org/10.1021/acs.chemmater.7b00354",
+      "title": "Mechanistic Insights in Seeded Growth Synthesis of Colloidal Core/Shell Quantum Dots",
+      "authors": [
+        "Igor Nakonechnyi",
+        "Michael Sluydts",
+        "Yolanda Justo",
+        "Jacek Jasieniak",
+        "Zeger Hens"
+      ],
+      "year": 2017,
+      "metadata_response_sha256": "46abeffdf2ea0cc206fb6d5baa207ea871565a73f51b32154b61eb2398f9aa20",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.chemmater.8b01137": {
+      "doi": "10.1021/acs.chemmater.8b01137",
+      "url": "https://doi.org/10.1021/acs.chemmater.8b01137",
+      "title": "Monodisperse InAs Quantum Dots from Aminoarsine Precursors: Understanding the Role of Reducing Agent",
+      "authors": [
+        "Vishwas Srivastava",
+        "Eleanor Dunietz",
+        "Vladislav Kamysbayev",
+        "John S. Anderson",
+        "Dmitri V. Talapin"
+      ],
+      "year": 2018,
+      "metadata_response_sha256": "c85ccc1a1e57029c29e55bdf2d963e635290ab1a47f8cf4a7734228b42937459",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.chemmater.9b03918": {
+      "doi": "10.1021/acs.chemmater.9b03918",
+      "url": "https://doi.org/10.1021/acs.chemmater.9b03918",
+      "title": "Trioctylphosphine Oxide Acts as Alkahest for SnX2/PbX2: A General Synthetic Route to Perovskite ASnxPb1–xX3 (A = Cs, FA, MA; X = Cl, Br, I) Quantum Dots",
+      "authors": [
+        "Feng Liu",
+        "Yaohong Zhang",
+        "Chao Ding",
+        "Kentaro Kawabata",
+        "Yasuha Yoshihara",
+        "Taro Toyoda",
+        "Shuzi Hayase",
+        "Takashi Minemoto",
+        "Ruixiang Wang",
+        "Qing Shen"
+      ],
+      "year": 2020,
+      "metadata_response_sha256": "44626add70c2c05a2148e729b707e57ef3e7ed4276826c04c20ae2f042afadc2",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.chemrev.5b00739": {
+      "doi": "10.1021/acs.chemrev.5b00739",
+      "url": "https://doi.org/10.1021/acs.chemrev.5b00739",
+      "title": "Forging Colloidal Nanostructures via Cation Exchange Reactions",
+      "authors": [
+        "Luca De Trizio",
+        "Liberato Manna"
+      ],
+      "year": 2016,
+      "metadata_response_sha256": "b648b0c9b56f758f4cf4fd8c973c4c3d6b09c1e0b2a6077fa8b76f3e73711042",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acs.nanolett.9b03088": {
+      "doi": "10.1021/acs.nanolett.9b03088",
+      "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+      "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis",
+      "authors": [
+        "Evert Dhaene",
+        "Jonas Billet",
+        "Ellie Bennett",
+        "Isabel Van Driessche",
+        "Jonathan De Roo"
+      ],
+      "year": 2019,
+      "metadata_response_sha256": "76d6a9889aa3c4081d11d7cd082d3a30ac0153629988595d1deefc8393a00158",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acsnano.5b05329": {
+      "doi": "10.1021/acsnano.5b05329",
+      "url": "https://doi.org/10.1021/acsnano.5b05329",
+      "title": "Broadband Near-Infrared to Visible Upconversion in Quantum Dot–Quantum Well Heterostructures",
+      "authors": [
+        "Ayelet Teitelboim",
+        "Dan Oron"
+      ],
+      "year": 2016,
+      "metadata_response_sha256": "5f445540e544f8bdd5fdbee76051eb5339f6ad4b3886f3a765dba5c0a5b75bae",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/acssuschemeng.2c00036": {
+      "doi": "10.1021/acssuschemeng.2c00036",
+      "url": "https://doi.org/10.1021/acssuschemeng.2c00036",
+      "title": "Efficient Conversion of Elemental Sulfur to Robust Ultrabright Fluorescent Sulfur Quantum Dots Using Sulfur-Ethylenediamine Precursor",
+      "authors": [
+        "Pengxiang Gao",
+        "Zhengyu Huang",
+        "Jisuan Tan",
+        "Guangsheng Lv",
+        "Li Zhou"
+      ],
+      "year": 2022,
+      "metadata_response_sha256": "ef81f4daae83a23bb87dfb8d5793df68b5b2f6081ccb3412e9457f4c994dacd1",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cm020732l": {
+      "doi": "10.1021/cm020732l",
+      "url": "https://doi.org/10.1021/cm020732l",
+      "title": "Preparation and Growth Mechanism of Gold Nanorods (NRs) Using Seed-Mediated Growth Method",
+      "authors": [
+        "Babak Nikoobakht",
+        "Mostafa A. El-Sayed"
+      ],
+      "year": 2003,
+      "metadata_response_sha256": "f6ef9d11895c0dcceb53501639741d0b5fe00e6256025b994ef16edab3488d6a",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cm4000476": {
+      "doi": "10.1021/cm4000476",
+      "url": "https://doi.org/10.1021/cm4000476",
+      "title": "Oleylamine in Nanoparticle Synthesis",
+      "authors": [
+        "Stefanos Mourdikoudis",
+        "Luis M. Liz-Marzán"
+      ],
+      "year": 2013,
+      "metadata_response_sha256": "10145cffa0994fbf2433c60f1c7ca0580cda251d1fbe3d72e8e219b1849dace1",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cm5005642": {
+      "doi": "10.1021/cm5005642",
+      "url": "https://doi.org/10.1021/cm5005642",
+      "title": "Selective Nanocrystal Synthesis and Calculated Electronic Structure of All Four Phases of Copper–Antimony–Sulfide",
+      "authors": [
+        "Karthik Ramasamy",
+        "Hunter Sims",
+        "William H. Butler",
+        "Arunava Gupta"
+      ],
+      "year": 2014,
+      "metadata_response_sha256": "ec16887074751f36a030dfce188faaf7713bc316714252e79e95e1766e46d272",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cr030027b": {
+      "doi": "10.1021/cr030027b",
+      "url": "https://doi.org/10.1021/cr030027b",
+      "title": "Recent Advances in the Liquid-Phase Syntheses of Inorganic Nanoparticles",
+      "authors": [
+        "Brian L. Cushing",
+        "Vladimir L. Kolesnichenko",
+        "Charles J. O'Connor"
+      ],
+      "year": 2004,
+      "metadata_response_sha256": "043ca1f549a8f73f591062962e6916b426a5056aa1a07d3c0442d2f9c4217a5e",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cr400544s": {
+      "doi": "10.1021/cr400544s",
+      "url": "https://doi.org/10.1021/cr400544s",
+      "title": "Mechanisms of Nucleation and Growth of Nanoparticles in Solution",
+      "authors": [
+        "Nguyen T. K. Thanh",
+        "N. Maclean",
+        "S. Mahiddine"
+      ],
+      "year": 2014,
+      "metadata_response_sha256": "997f5bb631896f547843d7cf01573d11c3d62d6de6a941962d5c52a408320998",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/cr900137k": {
+      "doi": "10.1021/cr900137k",
+      "url": "https://doi.org/10.1021/cr900137k",
+      "title": "Prospects of Colloidal Nanocrystals for Electronic and Optoelectronic Applications",
+      "authors": [
+        "Dmitri V. Talapin",
+        "Jong-Soo Lee",
+        "Maksym V. Kovalenko",
+        "Elena V. Shevchenko"
+      ],
+      "year": 2010,
+      "metadata_response_sha256": "438529d4d25fa4e3163f426928f09cb807d83528218a6faca98a79ab85e784df",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja00072a025": {
+      "doi": "10.1021/ja00072a025",
+      "url": "https://doi.org/10.1021/ja00072a025",
+      "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+      "authors": [
+        "C. B. Murray",
+        "D. J. Norris",
+        "M. G. Bawendi"
+      ],
+      "year": 1993,
+      "metadata_response_sha256": "4d24baddb03828d85088876ca0b66dc3416fcd1267f7d46e9ef26bd4591d894c",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja0027766": {
+      "doi": "10.1021/ja0027766",
+      "url": "https://doi.org/10.1021/ja0027766",
+      "title": "Mechanisms of the Shape Evolution of CdSe Nanocrystals",
+      "authors": [
+        "Z. Adam Peng",
+        "Xiaogang Peng"
+      ],
+      "year": 2001,
+      "metadata_response_sha256": "3d2e99ffe493718ea75700701c2e8c160283900587c2f413dabb31ab37cb660d",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja003633m": {
+      "doi": "10.1021/ja003633m",
+      "url": "https://doi.org/10.1021/ja003633m",
+      "title": "Formation of High-Quality CdTe, CdSe, and CdS Nanocrystals Using CdO as Precursor",
+      "authors": [
+        "Z. Adam Peng",
+        "Xiaogang Peng"
+      ],
+      "year": 2001,
+      "metadata_response_sha256": "6e4de474571cf92eeaeb0b6dc4691238534e36f86cbfadac0c8554f1c9250047",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja0459678": {
+      "doi": "10.1021/ja0459678",
+      "url": "https://doi.org/10.1021/ja0459678",
+      "title": "One-Pot Synthesis of High-Quality Zinc-Blende CdS Nanocrystals",
+      "authors": [
+        "Y. Charles Cao",
+        "Jianhui Wang"
+      ],
+      "year": 2004,
+      "metadata_response_sha256": "4d70c483ea8e440c785cea0293b01055885f06a1eb9b43f5d4c96b09f4b5d07b",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja1109997": {
+      "doi": "10.1021/ja1109997",
+      "url": "https://doi.org/10.1021/ja1109997",
+      "title": "From Sulfur−Amine Solutions to Metal Sulfide Nanocrystals: Peering into the Oleylamine−Sulfur Black Box",
+      "authors": [
+        "Jordan W. Thomson",
+        "Kaz Nagashima",
+        "Peter M. Macdonald",
+        "Geoffrey A. Ozin"
+      ],
+      "year": 2011,
+      "metadata_response_sha256": "54ab950032a3e0e35188ec0bbb3eb5ac3ed3c7b049cf67516ebb1d23c29a93f9",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/ja4086758": {
+      "doi": "10.1021/ja4086758",
+      "url": "https://doi.org/10.1021/ja4086758",
+      "title": "Ligand Exchange and the Stoichiometry of Metal Chalcogenide Nanocrystals: Spectroscopic Observation of Facile Metal-Carboxylate Displacement and Binding",
+      "authors": [
+        "Nicholas C. Anderson",
+        "Mark P. Hendricks",
+        "Joshua J. Choi",
+        "Jonathan S. Owen"
+      ],
+      "year": 2013,
+      "metadata_response_sha256": "10288c4ef333174b71bca1a3ed53534054d28ad6c6e5cc3ee649f168e94d5212",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jacs.3c02190": {
+      "doi": "10.1021/jacs.3c02190",
+      "url": "https://doi.org/10.1021/jacs.3c02190",
+      "title": "Bright Fluorophores in the Second Near-Infrared Window: HgSe/CdSe Quantum Dots",
+      "authors": [
+        "Ananth Kamath",
+        "Richard D. Schaller",
+        "Philippe Guyot-Sionnest"
+      ],
+      "year": 2023,
+      "metadata_response_sha256": "e22ef809ac6c751a34c24fb482a98b933936b046db1782c524a94ae12f94e2f1",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jacs.6b01254": {
+      "doi": "10.1021/jacs.6b01254",
+      "url": "https://doi.org/10.1021/jacs.6b01254",
+      "title": "Aminophosphines: A Double Role in the Synthesis of Colloidal Indium Phosphide Quantum Dots",
+      "authors": [
+        "Mickael D. Tessier",
+        "Kim De Nolf",
+        "Dorian Dupont",
+        "Davy Sinnaeve",
+        "Jonathan De Roo",
+        "Zeger Hens"
+      ],
+      "year": 2016,
+      "metadata_response_sha256": "e6883cbe51663dfc652036b64b8d6ae4ee5f78335066c60520af629f4ac22b90",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp025541k": {
+      "doi": "10.1021/jp025541k",
+      "url": "https://doi.org/10.1021/jp025541k",
+      "title": "Thiol-Capping of CdTe Nanocrystals: An Alternative to Organometallic Synthetic Routes",
+      "authors": [
+        "Nikolai Gaponik",
+        "Dmitri V. Talapin",
+        "Andrey L. Rogach",
+        "Kathrin Hoppe",
+        "Elena V. Shevchenko",
+        "Andreas Kornowski",
+        "Alexander Eychmüller",
+        "Horst Weller"
+      ],
+      "year": 2002,
+      "metadata_response_sha256": "f8d2eee1a55115d5b7cd0648ff8dcc099d633a3e39481c4366d57bce3c41ba4f",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp040689k": {
+      "doi": "10.1021/jp040689k",
+      "url": "https://doi.org/10.1021/jp040689k",
+      "title": "Colloidal ZnSe, ZnSe/ZnS, and ZnSe/ZnSeS Quantum Dots Synthesized from ZnO",
+      "authors": [
+        "Hsueh-Shih Chen",
+        "Bertrand Lo",
+        "Jen-Yu Hwang",
+        "Gwo-Yang Chang",
+        "Chien-Ming Chen",
+        "Shih-Jung Tasi",
+        "Shian-Jy Jassy Wang"
+      ],
+      "year": 2004,
+      "metadata_response_sha256": "ae5463d35e2239b6d3a1364cb29c02d0989cb5b25ffc289fc17cd654ec6d0430",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp047078c": {
+      "doi": "10.1021/jp047078c",
+      "url": "https://doi.org/10.1021/jp047078c",
+      "title": "Influence of Thiol Capping on the Exciton Luminescence and Decay Kinetics of CdTe and CdSe Quantum Dots",
+      "authors": [
+        "Sander F. Wuister",
+        "Celso de Mello Donegá",
+        "Andries Meijerink"
+      ],
+      "year": 2004,
+      "metadata_response_sha256": "c069f3c931a0831416c85589be158dc89cf6b4ea8a8b7b1fb6f8ff9d72d8543f",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp402951c": {
+      "doi": "10.1021/jp402951c",
+      "url": "https://doi.org/10.1021/jp402951c",
+      "title": "Synthesis of High-Quality N-Acetyl-l-Cysteine-Capped CdTe Quantum Dots by Hydrothermal Route and the Characterization through MALDI-TOF Mass Spectrometry",
+      "authors": [
+        "Jiaotian Li",
+        "Tianming Yang",
+        "W. H. Chan",
+        "Martin M. F. Choi",
+        "Dan Zhao"
+      ],
+      "year": 2013,
+      "metadata_response_sha256": "153a2a9b387142a64a0743857dfc152ed9dc9eb0b232139d00196a75ad3f9c1f",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp711395f": {
+      "doi": "10.1021/jp711395f",
+      "url": "https://doi.org/10.1021/jp711395f",
+      "title": "Synthesis and Optical Properties of Type II CdTe/CdS Core/Shell Quantum Dots in Aqueous Solution via Successive Ion Layer Adsorption and Reaction",
+      "authors": [
+        "Qinghui Zeng",
+        "Xianggui Kong",
+        "Yajuan Sun",
+        "Youlin Zhang",
+        "Langping Tu",
+        "Jialong Zhao",
+        "Hong Zhang"
+      ],
+      "year": 2008,
+      "metadata_response_sha256": "977d4607f933a73a48eb6510a8c5484e3ad523f3d9f5605662eedefd3a6f52cb",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp909310a": {
+      "doi": "10.1021/jp909310a",
+      "url": "https://doi.org/10.1021/jp909310a",
+      "title": "Thermodynamic Equilibrium-Driven Formation of Single-Sized Nanocrystals: Reaction Media Tuning CdSe Magic-Sized versus Regular Quantum Dots",
+      "authors": [
+        "Kui Yu",
+        "Michael Z. Hu",
+        "Ruibing Wang",
+        "Mickaël Le Piolet",
+        "Marion Frotey",
+        "Md. Badruz Zaman",
+        "Xiaohua Wu",
+        "Donald M. Leek",
+        "Ye Tao",
+        "Diana Wilkinson",
+        "Chunsheng Li"
+      ],
+      "year": 2010,
+      "metadata_response_sha256": "540248908c13a0edef505a3daed1983aae0e25f4e661298cb14bdc0d109ed6dc",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/jp971091y": {
+      "doi": "10.1021/jp971091y",
+      "url": "https://doi.org/10.1021/jp971091y",
+      "title": "(CdSe)ZnS Core−Shell Quantum Dots: Synthesis and Characterization of a Size Series of Highly Luminescent Nanocrystallites",
+      "authors": [
+        "B. O. Dabbousi",
+        "J. Rodriguez-Viejo",
+        "F. V. Mikulec",
+        "J. R. Heine",
+        "H. Mattoussi",
+        "R. Ober",
+        "K. F. Jensen",
+        "M. G. Bawendi"
+      ],
+      "year": 1997,
+      "metadata_response_sha256": "a9a0363d6374b668d1c94f079f56353ce52c335b6ee9a419d3b375b838ccf1b3",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/la702972d": {
+      "doi": "10.1021/la702972d",
+      "url": "https://doi.org/10.1021/la702972d",
+      "title": "Synthesis of Cysteine-Capped ZnxCd1-xSe Alloyed Quantum Dots Emitting in the Blue−Green Spectral Range",
+      "authors": [
+        "Fang-Chen Liu",
+        "Tian-Lu Cheng",
+        "Chien-Chih Shen",
+        "Wei-Lung Tseng",
+        "Michael Y. Chiang"
+      ],
+      "year": 2008,
+      "metadata_response_sha256": "510c4fe0e23b73619f134d0ef5e29099206f45b8a80c21320969814a988f0039",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/nl5048779": {
+      "doi": "10.1021/nl5048779",
+      "url": "https://doi.org/10.1021/nl5048779",
+      "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX 3 , X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+      "authors": [
+        "Loredana Protesescu",
+        "Sergii Yakunin",
+        "Maryna I. Bodnarchuk",
+        "Franziska Krieg",
+        "Riccarda Caputo",
+        "Christopher H. Hendon",
+        "Ruo Xi Yang",
+        "Aron Walsh",
+        "Maksym V. Kovalenko"
+      ],
+      "year": 2015,
+      "metadata_response_sha256": "af24534d4668124b1faec3fe14e40d198881daac103b7dbf18e5df3b85b7f738",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/nl801692g": {
+      "doi": "10.1021/nl801692g",
+      "url": "https://doi.org/10.1021/nl801692g",
+      "title": "The Trouble with TOPO; Identification of Adventitious Impurities Beneficial to the Growth of Cadmium Selenide Quantum Dots, Rods, and Wires",
+      "authors": [
+        "Fudong Wang",
+        "Rui Tang",
+        "William E. Buhro"
+      ],
+      "year": 2008,
+      "metadata_response_sha256": "441a008eb2b86e044bfc7c90dfb9a54bfda046c307022024bf0e740b2230e609",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/nn301182h": {
+      "doi": "10.1021/nn301182h",
+      "url": "https://doi.org/10.1021/nn301182h",
+      "title": "Molecular Control of the Nanoscale: Effect of Phosphine–Chalcogenide Reactivity on CdS–CdSe Nanocrystal Composition and Morphology",
+      "authors": [
+        "T. Purnima A. Ruberu",
+        "Haley R. Albright",
+        "Brandon Callis",
+        "Brittney Ward",
+        "Joana Cisneros",
+        "Hua-Jun Fan",
+        "Javier Vela"
+      ],
+      "year": 2012,
+      "metadata_response_sha256": "2310749dc668a8fd43b87dd34e1e3da006397a5e6e50ea4e4c04abaf840ebf34",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/nn401274e": {
+      "doi": "10.1021/nn401274e",
+      "url": "https://doi.org/10.1021/nn401274e",
+      "title": "Fabrication of CuInTe2 and CuInTe2–xSex Ternary Gradient Quantum Dots and Their Application to Solar Cells",
+      "authors": [
+        "Sungwoo Kim",
+        "Meejae Kang",
+        "Seajin Kim",
+        "Jin-Hyuk Heo",
+        "Jun Hong Noh",
+        "Sang Hyuk Im",
+        "Sang Il Seok",
+        "Sang-Wook Kim"
+      ],
+      "year": 2013,
+      "metadata_response_sha256": "9835acce678136bc2e338b63f8ebe0df830fb133cd8039d0849b0eb40b8c98c9",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1021/nn5018654": {
+      "doi": "10.1021/nn5018654",
+      "url": "https://doi.org/10.1021/nn5018654",
+      "title": "Monodisperse, Air-Stable PbS Nanocrystals via Precursor Stoichiometry Control",
+      "authors": [
+        "Mark C. Weidman",
+        "Megan E. Beck",
+        "Rachel S. Hoffman",
+        "Ferry Prins",
+        "William A. Tisdale"
+      ],
+      "year": 2014,
+      "metadata_response_sha256": "12de0f3f905e1bf742a16f940dbca12e628d04371e9e4ffbf85bb47332085c7d",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1038/nmat4800": {
+      "doi": "10.1038/nmat4800",
+      "url": "https://doi.org/10.1038/nmat4800",
+      "title": "Hybrid organic–inorganic inks flatten the energy landscape in colloidal quantum dot solids",
+      "authors": [
+        "Mengxia Liu",
+        "Oleksandr Voznyy",
+        "Randy Sabatini",
+        "F. Pelayo García de Arquer",
+        "Rahim Munir",
+        "Ahmed Hesham Balawi",
+        "Xinzheng Lan",
+        "Fengjia Fan",
+        "Grant Walters",
+        "Ahmad R. Kirmani",
+        "Sjoerd Hoogland",
+        "Frédéric Laquai",
+        "Aram Amassian",
+        "Edward H. Sargent"
+      ],
+      "year": 2017,
+      "metadata_response_sha256": "cf4b92a34d6a33975fa8a17369f57887f5cc478196a2627c1e3b32326bd0b084",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1038/s41467-021-23259-w": {
+      "doi": "10.1038/s41467-021-23259-w",
+      "url": "https://doi.org/10.1038/s41467-021-23259-w",
+      "title": "Diffusion dynamics controlled colloidal synthesis of highly monodisperse InAs nanocrystals",
+      "authors": [
+        "Taewan Kim",
+        "Seongmin Park",
+        "Sohee Jeong"
+      ],
+      "year": 2021,
+      "metadata_response_sha256": "9a4b3c7832a35e1dfb4d62118fa94f260ce585889c757e1b6eac835ed8a20597",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1039/c39940000801": {
+      "doi": "10.1039/C39940000801",
+      "url": "https://doi.org/10.1039/C39940000801",
+      "title": "Synthesis of thiol-derivatised gold nanoparticles in a two-phase Liquid–Liquid system",
+      "authors": [
+        "Mathias Brust",
+        "Merryl Walker",
+        "Donald Bethell",
+        "David J. Schiffrin",
+        "Robin Whyman"
+      ],
+      "year": 1994,
+      "metadata_response_sha256": "897fa12ef1e6c0cd2fd529477bc2adaa8bb6516346e24ac36639d08248ccb778",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1039/df9511100055": {
+      "doi": "10.1039/DF9511100055",
+      "url": "https://doi.org/10.1039/DF9511100055",
+      "title": "A study of the nucleation and growth processes in the synthesis of colloidal gold",
+      "authors": [
+        "John Turkevich",
+        "Peter Cooper Stevenson",
+        "James Hillier"
+      ],
+      "year": 1951,
+      "metadata_response_sha256": "eb3d3805071f6c752c73d226b2a2ee6d56cbc356de10bcf952058aa206ccce55",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1109/tmag.1981.1061188": {
+      "doi": "10.1109/TMAG.1981.1061188",
+      "url": "https://doi.org/10.1109/TMAG.1981.1061188",
+      "title": "Preparation of aqueous magnetic liquids in alkaline and acidic media",
+      "authors": [
+        "R. Massart"
+      ],
+      "year": 1981,
+      "metadata_response_sha256": "3c8d350a82e3dbb291b869d1860f9ef673445dd7aee095099b44d2ea36052349",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1116/1.1515912": {
+      "doi": "10.1116/1.1515912",
+      "url": "https://doi.org/10.1116/1.1515912",
+      "title": "Reflection high-energy electron diffraction observation of the dynamics of semiconductor quantum dot formation and decay",
+      "authors": [
+        "P. Finnie",
+        "B. J. Riel",
+        "Z. R. Wasilewski"
+      ],
+      "year": 2002,
+      "metadata_response_sha256": "f65402080df9147f39a161d72b32e055bafa5576b7f54d7e8cd11ea779596876",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    },
+    "10.1126/science.aag2700": {
+      "doi": "10.1126/science.aag2700",
+      "url": "https://doi.org/10.1126/science.aag2700",
+      "title": "Quantum dot–induced phase stabilization of α-CsPbI 3 perovskite for high-efficiency photovoltaics",
+      "authors": [
+        "Abhishek Swarnkar",
+        "Ashley R. Marshall",
+        "Erin M. Sanehira",
+        "Boris D. Chernomordik",
+        "David T. Moore",
+        "Jeffrey A. Christians",
+        "Tamoghna Chakrabarti",
+        "Joseph M. Luther"
+      ],
+      "year": 2016,
+      "metadata_response_sha256": "20bc6a8b19fd1c25d0063ef12693a7adb6f348f402139b3f48c87c30305b1273",
+      "resolver_redirect_verified": true,
+      "exact_DOI_metadata_verified": true,
+      "paper_or_abstract_requested": false
+    }
+  },
+  "fallback": {
+    "id": "general-context",
+    "title": "Thermodynamics and kinetics",
+    "summary": "Thermodynamics describes which states are energetically favoured, while kinetics governs how quickly a system can move between them. A change can be favourable yet proceed slowly when an activation barrier or limited transport restricts the pathway.",
+    "topic": "general-context",
+    "kind": "fallback",
+    "compound_ids": [],
+    "route_classes": [],
+    "reference": "10.1021/cr400544s"
+  },
+  "includes_source_interpretation_fields": false
+}

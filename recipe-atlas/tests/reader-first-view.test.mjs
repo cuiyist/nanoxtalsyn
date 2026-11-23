@@ -79,12 +79,12 @@ test('background-only intuition stays visible and uses DOI rather than source Ev
 }));
 test('source titles summaries evidence and order remain unchanged under a uniform interpretation label',()=>withDOM(()=>{
  const r={record_id:'r',lineage:{source_group:'s'},sources:[{id:'s'}]},source=Array.from({length:4},(_,i)=>({title:'Source '+i,summary:'Original '+i,claim_type:i%2?'audited_model':'reviewed procedure rationale'}));
- const presentation={intuition:source,general_background:Array.from({length:4},(_,i)=>backgroundItem('b'+i))},before=structuredClone(presentation),host=new Element('section');
+ const presentation={intuition:source,general_background:Array.from({length:5},(_,i)=>backgroundItem('b'+i))},before=structuredClone(presentation),host=new Element('section');
  assert.equal(renderIntuition(host,r,presentation),true);
- const cards=descendants(host).filter(n=>n.tagName==='article');assert.equal(cards.length,6);
+ const cards=descendants(host).filter(n=>n.tagName==='article');assert.equal(cards.length,7);
  assert.ok(cards[0].textContent.includes('Original 0'));assert.ok(cards[2].textContent.includes('Original 2'));
  assert.deepEqual(cards.slice(0,3).map(card=>card.children.find(n=>n.tagName==='small').textContent),Array(3).fill('Source interpretation'));
- assert.equal(cards[3].dataset.backgroundId,'b0');assert.equal(cards[5].dataset.backgroundId,'b2');
+ assert.deepEqual(cards.slice(3).map(card=>card.dataset.backgroundId),['b0','b1','b2','b3']);
  assert.equal(descendants(host).filter(n=>n.tagName==='a'&&n.textContent==='Evidence →').length,3);
  assert.equal(descendants(host).filter(n=>n.tagName==='a'&&n.textContent==='All interpretations and references →').length,1);
  assert.deepEqual(presentation,before);

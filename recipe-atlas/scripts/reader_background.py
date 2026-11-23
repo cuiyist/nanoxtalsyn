@@ -148,8 +148,19 @@ def load_library(root):
     return validate_library(json.loads(raw), pins)
 
 
+def load_active_library(root):
+    """Use approved Q only when its separate authored library is installed."""
+    q=Path(root)/'data/reader-background-q.json'
+    if not q.is_file():return load_library(root)
+    from reader_background_q import validated
+    return {**validated(json.loads(q.read_bytes())), '_active_atlas': str(Path(root).resolve())}
+
+
 def select_background(record, presentation, library):
     """One route then ordered distinct roles, or a universal nonmechanistic fallback."""
+    if library['schema']=='mattersyn-reader-background-library/2':
+        from reader_background_q import identity_projection, select_q_background
+        return select_q_background(record,presentation,library,identity_projection(library['_active_atlas']))
     by_id = {item['id']: item for item in library['statements']}
     selected = []
     own_route = route(record, presentation.get('method_label'))
@@ -202,6 +213,7 @@ def attach_background(view, records, library):
         projected[rid] = {**entry, 'general_background': background}
     canonical_distribution = Counter(str(len(select_background(record, {}, library))) for record in records.values())
     data_only = len(records)-len(projected)
+    cardinalities = range(library['limit']+1)
     coverage = {'schema': 'mattersyn-reader-background-coverage/1',
                 'canonical_records': len(records), 'reader_records': len(projected),
                 'before_sections_visible': before_visible,
@@ -210,18 +222,19 @@ def attach_background(view, records, library):
                 'source_cards_before_and_after': counts['source_cards_before'],
                 'source_only': 0, 'background_only': counts['background_only'],
                 'both': counts['both'], 'neither': 0,
-                'background_card_distribution': {str(n): selection_counts[str(n)] for n in range(4)},
+                'background_card_distribution': {str(n): selection_counts[str(n)] for n in cardinalities},
                 'all_canonical': {
                     'record_pages': len(records),
                     'static_Data_sections_before': len(records),
                     'static_Data_sections_after': len(records),
                     'static_Data_sections_include_placeholders': True,
                     'pages_with_authored_background_after': len(records),
-                    'background_card_distribution': {str(n): canonical_distribution[str(n)] for n in range(4)},
+                    'background_card_distribution': {str(n): canonical_distribution[str(n)] for n in cardinalities},
                     'Data_only_default_pages': data_only,
                     'default_visible_union_before': before_visible+data_only,
                     'default_visible_union_after': len(records),
                     'scope': 'Default Reader for indexed records, otherwise existing Data/evidence page. Static Data section presence includes note/link-only placeholders and is not source-content coverage.'},
+                'records_with_reagent_specific_background':sum(any(c.get('reagent_specific') for c in v.get('general_background',[])) for v in projected.values()),
                 'status_affects_selection': False, 'scientific_record_values_modified': False,
                 'scope': 'Current Reader records; protected source-only placeholder sections count as visible before, not as source content.'}
     # Keep the existing audited-byte fast path when there is no record to enrich.
@@ -240,4 +253,6 @@ def source_interpretations(entry):
 
 
 def library_digest(root):
-    return hashlib.sha256((Path(root)/'data/reader-background-library.json').read_bytes()).hexdigest()
+    d=Path(root)/'data';q=d/'reader-background-q.json'
+    active=q if q.is_file() else d/'reader-background-library.json'
+    return hashlib.sha256(active.read_bytes()).hexdigest()

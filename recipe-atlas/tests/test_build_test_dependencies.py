@@ -33,16 +33,17 @@ class BuildTestDependencies(unittest.TestCase):
     def copy(self,rows=None):
         build_release.copy_test_dependencies(self.source,self.work,{'input_files':self.rows if rows is None else rows})
 
-    def test_eight_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
+    def test_exact_dependencies_keep_repository_layout_and_stay_out_of_dist(self):
         self.assertEqual(set(build_release.TEST_MODULE_INPUTS),{
             'tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py',
             'tools/simple-pipeline/completeness_policy.py','tools/simple-pipeline/completeness_policy.json',
             'tools/simple-pipeline/chemical_name_card_identity.py','tools/simple-pipeline/starting_particle_roles.py',
+            'tools/simple-pipeline/completeness_identity.py',
             'tools/package-importer/importer.py','tools/package-importer/preflight.py'})
         self.copy()
         for relative in build_release.TEST_MODULE_INPUTS:
             self.assertEqual((self.work.parent/relative).read_bytes(),(self.source/relative).read_bytes())
-        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),7)
+        self.assertEqual(len(list((self.work.parent/'tools').rglob('*.py'))),8)
         self.assertTrue((self.work.parent/'tools/simple-pipeline/completeness_policy.json').is_file())
         self.assertFalse((self.work/'dist/tools').exists())
 
@@ -108,6 +109,28 @@ class BuildTestDependencies(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
         self.assertIn('Ran 7 tests',result.stderr)
         self.assertNotIn('skipped',result.stderr)
+        self.assertFalse((self.work/'dist').exists())
+
+    def test_q_build_uses_the_snapshot_bound_identity_in_the_isolated_candidate(self):
+        rows=[{'path':relative,'sha256':build_release.sha(ROOT.parent/relative)}
+              for relative in build_release.TEST_MODULE_INPUTS]
+        build_release.copy_test_dependencies(ROOT.parent,self.work,{'input_files':rows})
+        scripts=self.work/'scripts';scripts.mkdir()
+        for source in (ROOT/'scripts').glob('*.py'):
+            shutil.copyfile(source,scripts/source.name)
+        chemical=self.work/'static/assets/chemical-registry';chemical.mkdir(parents=True)
+        (chemical/'registry.json').write_bytes(b'{"entries":[]}')
+        (chemical/'bindings.json').write_bytes(b'{"recordBindings":{}}')
+        command=("import sys; from pathlib import Path; sys.path.insert(0,'scripts'); "
+                 "from reader_background_q import identity_projection; "
+                 "alias,ids,records=identity_projection(Path.cwd()); "
+                 "assert not ids and not records; "
+                 "module=Path(sys.modules[type(alias).__module__].__file__); "
+                 "expected=Path.cwd().parent/'tools/simple-pipeline/completeness_identity.py'; "
+                 "assert module.samefile(expected), (str(module),str(expected))")
+        result=subprocess.run([sys.executable,'-B','-I','-c',command],cwd=self.work,
+                              text=True,encoding='utf-8',capture_output=True)
+        self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
         self.assertFalse((self.work/'dist').exists())
 
 

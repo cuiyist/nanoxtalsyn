@@ -19,9 +19,10 @@ def execute(command,cwd):
 TEST_MODULE_INPUTS=('tools/simple-pipeline/to_site.py','tools/simple-pipeline/local_caption_backfill.py',
                     'tools/simple-pipeline/completeness_policy.py','tools/simple-pipeline/completeness_policy.json',
                     'tools/simple-pipeline/chemical_name_card_identity.py','tools/simple-pipeline/starting_particle_roles.py',
+                    'tools/simple-pipeline/completeness_identity.py',
                     'tools/package-importer/importer.py','tools/package-importer/preflight.py')
 def copy_test_dependencies(source_root,work,snapshot):
-    """Carry only the exact snapshot-bound authored test dependencies."""
+    """Carry only the exact snapshot-bound authored build and test dependencies."""
     selected=[]
     for relative in TEST_MODULE_INPUTS:
         rows=[row for row in snapshot['input_files'] if row['path']==relative]

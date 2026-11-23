@@ -263,6 +263,84 @@
         }
       ],
       "basis": "Exact verified preceding Site and Source. No explicit target changed."
+    },
+    "3d0a4d19e2c4c22491903ad3135f098391793663": {
+      "prior_site_commit": "195579127cc4976136c2845e2f5caae4d9a00875",
+      "prior_publisher_run": 45050103376,
+      "prior_publisher_conclusion": "success",
+      "publication_credit": 0,
+      "original_protocol_sha256": "f240cdfb121ddf030d9b5df91c05c940aec98a9730c7d06ca6c71407551a9b69",
+      "original_methods_sha256": "2e5814f3d1b4ef9abc92ffb549c0558221664888a2c6a179d7043595d1e629ec",
+      "protocol_path": "tools/ci/release14-before-protocol-targets.json",
+      "protocol_sha256": "0655f83caa47b489c1ba239f736886dbf76e03a2d996e865f291737ed89de0cd",
+      "methods_path": "tools/ci/release14-before-method-targets.json",
+      "methods_sha256": "60b1e0f884a646e506719966cc64d53e99736965f9c96cf02f45201fe02e3488",
+      "changed_protocol_defaults": [
+        "default-gaas"
+      ],
+      "published_material_pins": [
+        {
+          "formula": "CdSe",
+          "path": "data/materials/cdse-d923c5.json",
+          "prior_site_bytes": 1238376,
+          "prior_site_sha256": "ece1ae1eb348826e5ea942e2f7d199bbb3854fdc713e4e5d86deafa3b75d59fa"
+        },
+        {
+          "formula": "CdS",
+          "path": "data/materials/cds-fad408.json",
+          "prior_site_bytes": 698955,
+          "prior_site_sha256": "472bc6741df7aaedf9d00c499a415f2ad20272197daff724c7219ce2ade18ff6"
+        },
+        {
+          "formula": "ZnS",
+          "path": "data/materials/zns-b01883.json",
+          "prior_site_bytes": 701247,
+          "prior_site_sha256": "e2924791f6f642afc5b76509a8003f30cc738781caf0fb26ac00d62a0684ac3b"
+        },
+        {
+          "formula": "InAs",
+          "path": "data/materials/inas-a2e691.json",
+          "prior_site_bytes": 466545,
+          "prior_site_sha256": "b98dda5ea6ba125b4f5d06bf21e814126f191246cb8074523da74afb7e35065b"
+        },
+        {
+          "formula": "PbS",
+          "path": "data/materials/pbs-7e1774.json",
+          "prior_site_bytes": 493238,
+          "prior_site_sha256": "1583a6dd3db9fadbe5ac203064bd9ec5dcdd76f1a14cc39ddc701abe4b378f70"
+        },
+        {
+          "formula": "InP",
+          "path": "data/materials/inp-9eb58d.json",
+          "prior_site_bytes": 351484,
+          "prior_site_sha256": "7c3ac8187c55d01a1abc2e6cf16a155a587d47984824e43c958b1f26b2e7bfd5"
+        },
+        {
+          "formula": "Au",
+          "path": "data/materials/au-3325c2.json",
+          "prior_site_bytes": 203876,
+          "prior_site_sha256": "5541ce13bbaada14b1431abd84ee8e4f5a239bac03dfa7cc6352283dc59c0f34"
+        },
+        {
+          "formula": "TiO2",
+          "path": "data/materials/tio2-ce6bfd.json",
+          "prior_site_bytes": 212169,
+          "prior_site_sha256": "9d461c92bcef494b4bc695a9c19d62f69a5fad4ea387039da6683f8572ba95a6"
+        },
+        {
+          "formula": "GaAs",
+          "path": "data/materials/gaas-889234.json",
+          "prior_site_bytes": 182695,
+          "prior_site_sha256": "99304375c5798cd736a700289367b405c76d2ab1bbd621ddbdc55441cf9b7cfd"
+        },
+        {
+          "formula": "SnO2",
+          "path": "data/materials/sno2-0fe88f.json",
+          "prior_site_bytes": 88950,
+          "prior_site_sha256": "ae43d4c1e27d66d7c0ee467282bdcf0d14d2ae331d2e7f4e5a53139ac5c96bb2"
+        }
+      ],
+      "basis": "Exact verified preceding Site and Source. No explicit target changed."
     }
   }
 }
