@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "owner-website-q-20261119",
+  "release_id": "owner-website-q-20261119-isolation-repair",
   "repo": "mattersyn",
-  "source_commit": "3d0a4d19e2c4c22491903ad3135f098391793663",
+  "source_commit": "b5b7e073ee952a83ef6835733ff2c4954d7d87d1",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "ed09d3a672e3c652f127c3e184b8ea1f4916719e9b9c91b8eafc9381c9fb3382",
+    "sha256": "2856790ab20d0736b2b4e9f0686776db5563549b2088d9451c5acd9a0a418e3a",
     "file_count": 66067,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,13 +150,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "c97db1346841533506730e35f27a1be8c541faa2a56068a33ffc99915e49e12f",
-      "bytes": 15241779,
+      "sha256": "d1af6b759e56ecd57bb396518b6931cc0a80e0c3060c48a3432280d4e1350043",
+      "bytes": 15241796,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-23T16:51:39.778493+00:00",
+      "reviewed_at": "2026-11-23T17:16:48.305736+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -128084,7 +128084,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-23T16:51:39.778493+00:00",
+      "reviewed_at": "2026-11-23T17:16:48.305736+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -140226,13 +140226,13 @@
     },
     {
       "path": "recipe-atlas/scripts/build_release.py",
-      "sha256": "bde0eee9894aaee49612c45c86a888e6c572664a8064de1b57074216f06c5430",
-      "bytes": 8700,
+      "sha256": "4d908d4734c1e10b10aca8092a3785e59a2aeea87114a8c4089a11a1d35ae614",
+      "bytes": 8780,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 W engineering and preservation review",
-      "reviewed_at": "2026-11-18T18:40:15+00:00",
+      "reviewer": "Codex Q exact isolated build dependency review",
+      "reviewed_at": "2026-11-23T17:16:26+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1110069,13 +1110069,13 @@
     },
     {
       "path": "recipe-atlas/tests/test_build_test_dependencies.py",
-      "sha256": "caa479c970fe2a6fab2a37eb77218c5feda377544e67e34d851a5e1b72501ab6",
-      "bytes": 6238,
+      "sha256": "896a2d567fa44261c781624fc39aba03f0c58c0343ca0d8d18652920e7c2868b",
+      "bytes": 7777,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 W engineering and preservation review",
-      "reviewed_at": "2026-11-18T18:40:15+00:00",
+      "reviewer": "Codex Q exact isolated build dependency review",
+      "reviewed_at": "2026-11-23T17:16:26+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
