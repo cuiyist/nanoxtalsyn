@@ -101,13 +101,13 @@
       "id": "default-gaas",
       "group": "benchmark-default",
       "formula": "GaAs",
-      "record_id": "zhou2025-jacs-4c13568-gaas-ncs-1",
+      "record_id": "srivastava2017-acs-nanolett-7b00481-gaas-ncs-1",
       "route": "material.html?id=gaas-889234",
       "operation_index": 0,
-      "operation_id": "s01-melt",
-      "operation_label": "Melt a eutectic mixture of GaI3 and KI",
-      "record_json_bytes": 10148,
-      "record_json_sha256": "b78086463b4bc265552caf4d963ebe038136aaa86fa3693af2291521a0916d9b"
+      "operation_id": "s01-purify",
+      "operation_label": "Treatment with 1% ethanolic HCl solution",
+      "record_json_bytes": 16141,
+      "record_json_sha256": "12e4ce9aa7a4e240fcc6c21688cd8f9c164057ae48da101a4ed135ad987665f4"
     },
     {
       "id": "default-sno2",

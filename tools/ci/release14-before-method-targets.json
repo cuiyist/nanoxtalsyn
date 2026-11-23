@@ -1,0 +1,91 @@
+{
+  "schema": "mattersyn-method-family-targets/2",
+  "preview_policy": "three-families-two-papers/1",
+  "phase": "after",
+  "targets": [
+    {
+      "id": "method-list-cdse",
+      "formula": "CdSe",
+      "material_id": "cdse-d923c5",
+      "route": "cdse.html",
+      "default_record_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop",
+      "record_json_bytes": 52757,
+      "record_json_sha256": "0b9511bb37ac1f09198a71cd9c9579de749b2de98e82243cd6102b272fe8c830",
+      "family_metadata_sha256": "62ea0088c9fc06facec325deca9bbc80bae20cb36d598fa974b83679127c52b5",
+      "family_count": 31,
+      "paper_card_count": 569,
+      "first_family_id": "method-family-1845d19817b0",
+      "first_family_papers": 40
+    },
+    {
+      "id": "method-list-cds",
+      "formula": "CdS",
+      "material_id": "cds-fad408",
+      "route": "material.html?id=cds-fad408",
+      "default_record_id": "wang2023-acs-inorgchem-3c02600-cds-368-1",
+      "record_json_bytes": 24439,
+      "record_json_sha256": "fbeab21fbe4e8dde80e090a653814689f24e15a4834f52f51d897b7136a80f83",
+      "family_metadata_sha256": "83eba962f05aad5d42faf97c30e1a73e0108f8f242bfe3e603d8b8159fe4e614",
+      "family_count": 26,
+      "paper_card_count": 293,
+      "first_family_id": "method-family-a74909add2de",
+      "first_family_papers": 5
+    },
+    {
+      "id": "method-list-zns",
+      "formula": "ZnS",
+      "material_id": "zns-b01883",
+      "route": "material.html?id=zns-b01883",
+      "default_record_id": "li2010-ie901086d-mps-replaced-zns-qds-1",
+      "record_json_bytes": 27745,
+      "record_json_sha256": "71b3b7b0793c7580195c04b8c3b0933a87380ccde3920805bda68b6424a489de",
+      "family_metadata_sha256": "146b94205594e2b2cee17ba287d6d8bb087726c2cdd8d35aaffc64cba6cdd841",
+      "family_count": 11,
+      "paper_card_count": 323,
+      "first_family_id": "method-family-6b8eaef748d8",
+      "first_family_papers": 4
+    },
+    {
+      "id": "method-list-inas",
+      "formula": "InAs",
+      "material_id": "inas-a2e691",
+      "route": "material.html?id=inas-a2e691",
+      "default_record_id": "salikhova2025-chemrxiv-2025-hgkl3-inas-clusters-1",
+      "record_json_bytes": 15170,
+      "record_json_sha256": "72b23549e768bee5ab8ff82c279d84a1c6ab4da986058811d9663de5d5ae4ad5",
+      "family_metadata_sha256": "e99adb461f15fb1647b23616016626f57bd017cee7270450e1edd3d2f9aea316",
+      "family_count": 14,
+      "paper_card_count": 227,
+      "first_family_id": "method-family-6a4bb77dbf33",
+      "first_family_papers": 6
+    },
+    {
+      "id": "method-list-pbs",
+      "formula": "PbS",
+      "material_id": "pbs-7e1774",
+      "route": "material.html?id=pbs-7e1774",
+      "default_record_id": "yarema2017-underpressure-chemmater6b04789-pbs-large-6p25",
+      "record_json_bytes": 53603,
+      "record_json_sha256": "ebe57c176536638e91dcf1139f352bf4afc9867132fc19188b34a7258b74b6ce",
+      "family_metadata_sha256": "85761923178a3ce87247dee684a4be7f6657c34870bc73c7dd941be0e85a7c4c",
+      "family_count": 24,
+      "paper_card_count": 205,
+      "first_family_id": "method-family-fefdde1ebc00",
+      "first_family_papers": 29
+    },
+    {
+      "id": "method-list-au",
+      "formula": "Au",
+      "material_id": "au-3325c2",
+      "route": "material.html?id=au-3325c2",
+      "default_record_id": "henkel2009-au-aucu-jp810979r-au-nanorod",
+      "record_json_bytes": 29884,
+      "record_json_sha256": "37acc411d20b46c564934415be369f72bd605bac30abe8fa4455ecab9034ae43",
+      "family_metadata_sha256": "2372287ab6c9112ae4b2ca2282e49f1c29fd1a3959c17c27e8646c91be70f902",
+      "family_count": 24,
+      "paper_card_count": 93,
+      "first_family_id": "method-family-9877682ccaee",
+      "first_family_papers": 5
+    }
+  ]
+}

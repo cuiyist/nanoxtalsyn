@@ -5,7 +5,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = '0.41.9'
-PUBLIC_READER_VERSION = '0.49.0'
+PUBLIC_READER_VERSION = '0.51.0'
 L_VERSION = '0.46.0'
 M_MODULES = ('illustrated-record.mjs', 'material-guide.mjs', 'material-hub.mjs', 'reader-app.mjs', 'reader.css')
 H_VERSION = '0.43.0'
@@ -20,7 +20,7 @@ G_HEATER_VERSION = '0.41.10'
 G_HEATER_MODULES = ('reported-protocol-scenes.mjs', 'reported-scene-drawing.mjs')
 N_VERSION='0.48.0'
 N_MODULES=('chemical-viewer.mjs', 'crystal-viewer.mjs', 'evans2010-products.mjs', 'illustrated-record.mjs', 'material-guide.mjs', 'material-hub.mjs', 'paper-app.mjs', 'paper-review.mjs', 'particle-shapes.mjs', 'protocol-modules.mjs', 'protocol-references.mjs', 'protocol-visuals.mjs', 'reader-app.mjs', 'reader-figure-morphology.mjs', 'reader-particle.mjs', 'reader-scoped-product-art.mjs', 'reader-structures.mjs', 'williamson2021-protocol.mjs')
-def version_for(module): return PUBLIC_READER_VERSION if module in ('reader-presentation-loader.mjs','reader-app.mjs','material-guide.mjs','material-hub.mjs','illustrated-record.mjs') else '0.49.0' if module in ('protocol-visuals.mjs','reported-protocol-scenes.mjs','reported-scene-drawing.mjs') else N_VERSION if module in N_MODULES else '0.49.0' if module == 'reader.css' else '0.44.0' if module == 'method-families.mjs' else PUBLIC_READER_VERSION if module in M_MODULES else L_VERSION if module in L_MODULES else K_PATCH_VERSION if module in K_PATCH_MODULES else K_VERSION if module in K_MODULES else H_VERSION if module in H_MODULES else PUBLIC_READER_VERSION if module == 'reader.css' else G_HEATER_VERSION if module in G_HEATER_MODULES else VERSION
+def version_for(module): return PUBLIC_READER_VERSION if module in ('reader-app.mjs','material-guide.mjs','material-hub.mjs','illustrated-record.mjs') else '0.49.0' if module in ('protocol-visuals.mjs','reported-protocol-scenes.mjs','reported-scene-drawing.mjs') else '0.49.0' if module == 'reader-presentation-loader.mjs' else N_VERSION if module in N_MODULES else '0.49.0' if module == 'reader.css' else '0.44.0' if module == 'method-families.mjs' else PUBLIC_READER_VERSION if module in M_MODULES else L_VERSION if module in L_MODULES else K_PATCH_VERSION if module in K_PATCH_MODULES else K_VERSION if module in K_MODULES else H_VERSION if module in H_MODULES else PUBLIC_READER_VERSION if module == 'reader.css' else G_HEATER_VERSION if module in G_HEATER_MODULES else VERSION
 
 
 class ReaderCacheVersionTests(unittest.TestCase):
@@ -91,6 +91,9 @@ class ReaderCacheVersionTests(unittest.TestCase):
                 text = self.read(rel)
                 if rel == 'static/paper-review.mjs':
                     self.assertIn('source-evidence.mjs?v='+version_for('source-evidence.mjs'), text)
+                elif rel == 'static/reader-app.mjs':
+                    self.assertIn('compact-method-chooser.mjs?v=0.49.0', text)
+                    self.assertIn('reader-presentation-loader.mjs?v=0.49.0', text)
                 else:
                     self.assertIn(PUBLIC_READER_VERSION if rel in ('templates/material-reader.html', 'scripts/build_dataset.py', 'scripts/build_reader_views.py', 'static/illustrated-record.mjs', 'static/material-hub.mjs', 'static/material-guide.mjs', 'static/reader-app.mjs') else version_for(Path(rel).name), text)
                 self.assertNotIn('0.41.6', text)

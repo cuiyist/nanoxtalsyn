@@ -6,7 +6,7 @@ from collections import Counter
 from urllib.parse import urlsplit,parse_qsl
 from dataset_lib import ROOT,SCHEMA,validate_record,eligibility,build_groups,training_view,digest,chemical_signature,fmt
 from review_scope import source_review_scope, pending_variants, pending_variants_html
-from reader_background import load_library, render_record_background
+from reader_background import load_active_library as load_library, render_record_background
 from record_export import write_export
 
 DISPLAY=json.loads((ROOT/'data/measurement-display.json').read_text(encoding='utf-8'))
@@ -160,7 +160,7 @@ def render_record(r,meta,background_library=None):
     if contextual:body+='<h3>Additional source observations and preparation data</h3><p>Retained source fields outside the structural and property sections. Recipe conditions, reagent specifications and author interpretations are not product-property labels.</p>'+measurement_table(contextual)
     body+='<details class="record-audit"><summary>Provenance and record integrity</summary><p>Revision '+str(r['revision'])+' · Schema '+r['schema_version']+'</p><p>Evaluation group: '+meta['group_id']+' · '+meta['split']+'</p><p>Record SHA-256: <code>'+meta['record_sha256']+'</code></p><p>All records in the same source, recipe, parent/batch or duplicate group stay together in data splits.</p>'+''.join('<p><a href="'+esc(x['url'])+'">'+esc(x['title'])+'</a><br>Main: '+esc('Source page locators retained in record JSON.' if extracted else x['main_status'])+'<br>SI: '+esc(x['si_status'])+'</p>' for x in r['sources'])+'</details>'
     s+=section('evidence','06','Evidence and training','Task eligibility follows source review and sample linkage',body)
-    s+='</main><dialog id="record-molecule-dialog" class="record-dialog"><div class="dialog-header"><h2 id="record-molecule-title">Molecular identity</h2><button id="record-molecule-close" type="button">Close ×</button></div><div id="record-molecule-view" class="record-molecule-view"></div><p id="record-molecule-note"></p><a id="record-molecule-source" target="_blank" rel="noopener">Reference ↗</a></dialog><script src="../vendor/3Dmol-min.js"></script><script type="module" src="../illustrated-record.mjs?v=0.49.0"></script></body></html>'
+    s+='</main><dialog id="record-molecule-dialog" class="record-dialog"><div class="dialog-header"><h2 id="record-molecule-title">Molecular identity</h2><button id="record-molecule-close" type="button">Close ×</button></div><div id="record-molecule-view" class="record-molecule-view"></div><p id="record-molecule-note"></p><a id="record-molecule-source" target="_blank" rel="noopener">Reference ↗</a></dialog><script src="../vendor/3Dmol-min.js"></script><script type="module" src="../illustrated-record.mjs?v=0.51.0"></script></body></html>'
     return s
 
 def measurement_table(ms):

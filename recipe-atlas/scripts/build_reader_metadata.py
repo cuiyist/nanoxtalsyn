@@ -11,7 +11,7 @@ from build_reader_shards import main as write_reader_shards
 from reader_presentation_registry import load_reviewed_reader, source_paths
 from public_reader_registry import public_parts
 from route_labels import route_label
-from reader_background import attach_background, load_library, library_digest
+from reader_background import attach_background, load_active_library as load_library, library_digest
 from reader_brand_projection import project_reader_branding
 ROOT=Path(__file__).resolve().parents[1]
 
