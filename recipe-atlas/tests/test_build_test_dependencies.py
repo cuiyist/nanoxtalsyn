@@ -125,8 +125,9 @@ class BuildTestDependencies(unittest.TestCase):
                  "from reader_background_q import identity_projection; "
                  "alias,ids,records=identity_projection(Path.cwd()); "
                  "assert not ids and not records; "
-                 "module=Path(sys.modules[type(alias).__module__].__file__).resolve(); "
-                 "assert module==Path.cwd().parent/'tools/simple-pipeline/completeness_identity.py'")
+                 "module=Path(sys.modules[type(alias).__module__].__file__); "
+                 "expected=Path.cwd().parent/'tools/simple-pipeline/completeness_identity.py'; "
+                 "assert module.samefile(expected), (str(module),str(expected))")
         result=subprocess.run([sys.executable,'-B','-I','-c',command],cwd=self.work,
                               text=True,encoding='utf-8',capture_output=True)
         self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
