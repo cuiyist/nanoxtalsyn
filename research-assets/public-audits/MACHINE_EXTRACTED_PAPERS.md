@@ -8134,3 +8134,226 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1007/s12541-014-0343-8 | Out of scope | new X reading |
 | 10.1007/s12541-015-0310-z | Unclear | new X reading |
 | 10.1007/s12541-021-00536-8 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-154-X04 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1007/s12596-012-0073-1 | Unclear | new X reading |
+| 10.1007/s12596-012-0104-y | Unclear | new X reading |
+| 10.1007/s12596-016-0317-6 | Unclear | new X reading |
+| 10.1007/s12596-018-0488-4 | Unclear | new X reading |
+| 10.1007/s12596-019-00573-7 | Unclear | new X reading |
+| 10.1007/s12596-020-00660-0 | Unclear | new X reading |
+| 10.1007/s12596-021-00687-x | Unclear | new X reading |
+| 10.1007/s12596-021-00723-w | Unclear | new X reading |
+| 10.1007/s12596-021-00793-w | Unclear | new X reading |
+| 10.1007/s12596-022-00894-0 | Unclear | new X reading |
+| 10.1007/s12596-023-01343-2 | Unclear | new X reading |
+| 10.1007/s12596-023-01417-1 | Out of scope | new X reading |
+| 10.1007/s12596-023-01500-7 | Unclear | new X reading |
+| 10.1007/s12596-023-01501-6 | Unclear | new X reading |
+| 10.1007/s12596-023-01576-1 | Unclear | new X reading |
+| 10.1007/s12596-023-01653-5 | Unclear | new X reading |
+| 10.1007/s12596-024-01725-0 | Unclear | new X reading |
+| 10.1007/s12596-024-01743-y | Unclear | new X reading |
+| 10.1007/s12596-024-01939-2 | Unclear | new X reading |
+| 10.1007/s12596-024-02109-0 | Unclear | new X reading |
+| 10.1007/s12596-024-02267-1 | Unclear | new X reading |
+| 10.1007/s12596-024-02269-z | Unclear | new X reading |
+| 10.1007/s12596-025-02539-4 | Unclear | new X reading |
+| 10.1007/s12596-025-02635-5 | Unclear | new X reading |
+| 10.1007/s12596-025-02656-0 | Unclear | new X reading |
+| 10.1007/s12596-025-02790-9 | Unclear | new X reading |
+| 10.1007/s12596-025-02945-8 | Unclear | new X reading |
+| 10.1007/s12596-026-03091-5 | Unclear | new X reading |
+| 10.1007/s12598-013-0159-1 | Out of scope | new X reading |
+| 10.1007/s12598-014-0343-y | Unclear | new X reading |
+| 10.1007/s12598-017-0987-5 | Out of scope | new X reading |
+| 10.1007/s12598-018-01201-2 | Out of scope | new X reading |
+| 10.1007/s12598-018-1037-7 | Unclear | new X reading |
+| 10.1007/s12598-021-01931-w | Unclear | new X reading |
+| 10.1007/s12598-024-02678-w | Unclear | new X reading |
+| 10.1007/s12598-024-02907-2 | Unclear | new X reading |
+| 10.1007/s12598-024-03104-x | Unclear | new X reading |
+| 10.1007/s12598-024-03134-5 | Unclear | new X reading |
+| 10.1007/s12598-025-03601-7 | Unclear | new X reading |
+| 10.1007/s12598-025-03655-7 | Unclear | new X reading |
+| 10.1007/s12613-014-0993-7 | Unclear | new X reading |
+| 10.1007/s12613-021-2324-0 | Out of scope | new X reading |
+| 10.1007/s12613-025-3266-8 | Out of scope | new X reading |
+| 10.1007/s12633-013-9175-x | Unclear | new X reading |
+| 10.1007/s12633-014-9252-9 | Unclear | new X reading |
+| 10.1007/s12633-015-9356-x | Out of scope | new X reading |
+| 10.1007/s12633-017-9634-x | Unclear | new X reading |
+| 10.1007/s12633-018-9866-4 | Unclear | new X reading |
+| 10.1007/s12633-018-9879-z | Unclear | new X reading |
+| 10.1007/s12633-019-0065-8 | Unclear | new X reading |
+| 10.1007/s12633-020-00703-y | Unclear | new X reading |
+| 10.1007/s12633-022-01949-4 | Unclear | new X reading |
+| 10.1007/s12648-012-0100-8 | Unclear | new X reading |
+| 10.1007/s12648-012-0105-3 | Out of scope | new X reading |
+| 10.1007/s12648-012-0144-9 | Unclear | new X reading |
+| 10.1007/s12648-013-0281-9 | Unclear | new X reading |
+| 10.1007/s12648-014-0477-7 | Unclear | new X reading |
+| 10.1007/s12648-014-0543-1 | Unclear | new X reading |
+| 10.1007/s12648-014-0583-6 | Unclear | new X reading |
+| 10.1007/s12648-015-0715-7 | Unclear | new X reading |
+| 10.1007/s12648-015-0757-x | Unclear | new X reading |
+| 10.1007/s12648-015-0770-0 | Unclear | new X reading |
+| 10.1007/s12648-015-0810-9 | Unclear | new X reading |
+| 10.1007/s12648-016-0852-7 | Unclear | new X reading |
+| 10.1007/s12648-016-0854-5 | Unclear | new X reading |
+| 10.1007/s12648-017-0969-3 | Unclear | new X reading |
+| 10.1007/s12648-017-1026-y | Unclear | new X reading |
+| 10.1007/s12648-017-1085-0 | Unclear | new X reading |
+| 10.1007/s12648-017-1131-y | Unclear | new X reading |
+| 10.1007/s12648-018-1168-6 | Unclear | new X reading |
+| 10.1007/s12648-018-1302-5 | Unclear | new X reading |
+| 10.1007/s12648-018-1319-9 | Unclear | new X reading |
+| 10.1007/s12648-019-01513-8 | Unclear | new X reading |
+| 10.1007/s12648-019-01525-4 | Unclear | new X reading |
+| 10.1007/s12648-019-01621-5 | Unclear | new X reading |
+| 10.1007/s12648-020-01774-8 | Unclear | new X reading |
+| 10.1007/s12648-020-01813-4 | Unclear | new X reading |
+| 10.1007/s12648-020-01814-3 | Unclear | new X reading |
+| 10.1007/s12648-020-01827-y | Unclear | new X reading |
+| 10.1007/s12648-021-02161-7 | Unclear | new X reading |
+| 10.1007/s12648-022-02379-z | Unclear | new X reading |
+| 10.1007/s12648-022-02390-4 | Unclear | new X reading |
+| 10.1007/s12648-022-02563-1 | Unclear | new X reading |
+| 10.1007/s12648-022-02572-0 | Unclear | new X reading |
+| 10.1007/s12648-023-02672-5 | Unclear | new X reading |
+| 10.1007/s12648-023-02731-x | Unclear | new X reading |
+| 10.1007/s12648-023-02822-9 | Unclear | new X reading |
+| 10.1007/s12648-023-02824-7 | Unclear | new X reading |
+| 10.1007/s12648-023-02901-x | Unclear | new X reading |
+| 10.1007/s12648-023-03017-y | Unclear | new X reading |
+| 10.1007/s12648-023-03064-5 | Unclear | new X reading |
+| 10.1007/s12648-024-03093-8 | Unclear | new X reading |
+| 10.1007/s12648-024-03113-7 | Unclear | new X reading |
+| 10.1007/s12648-024-03209-0 | Out of scope | new X reading |
+| 10.1007/s12648-024-03320-2 | Unclear | new X reading |
+| 10.1007/s12648-024-03362-6 | Unclear | new X reading |
+| 10.1007/s12648-024-03467-y | Unclear | new X reading |
+| 10.1007/s12648-024-03538-0 | Unclear | new X reading |
+| 10.1007/s12648-025-03771-1 | Unclear | new X reading |
+| 10.1007/s12648-025-03880-x | Unclear | new X reading |
+| 10.1007/s12648-025-03903-7 | Unclear | new X reading |
+| 10.1007/s12648-026-04086-5 | Unclear | new X reading |
+| 10.1007/s12648-026-04106-4 | Unclear | new X reading |
+| 10.1007/s12649-023-02372-5 | Unclear | new X reading |
+| 10.1007/s12649-024-02484-6 | Unclear | new X reading |
+| 10.1007/s12666-017-1051-8 | Unclear | new X reading |
+| 10.1007/s12666-017-1130-x | Unclear | new X reading |
+| 10.1007/s12666-023-03258-9 | Unclear | new X reading |
+| 10.1007/s12666-024-03427-4 | Unclear | new X reading |
+| 10.1007/s12666-025-03638-3 | Unclear | new X reading |
+| 10.1007/s12668-025-01931-5 | Unclear | new X reading |
+| 10.1007/s12672-024-01345-x | Unclear | new X reading |
+| 10.1007/s12678-014-0233-y | Unclear | new X reading |
+| 10.1007/s12678-017-0397-3 | Unclear | new X reading |
+| 10.1007/s12678-019-00563-0 | Unclear | new X reading |
+| 10.1007/s12678-020-00630-x | Unclear | new X reading |
+| 10.1007/s12678-024-00893-8 | Unclear | new X reading |
+| 10.1007/s13204-011-0007-2 | Unclear | new X reading |
+| 10.1007/s13204-012-0119-3 | Unclear | new X reading |
+| 10.1007/s13204-013-0210-4 | Out of scope | new X reading |
+| 10.1007/s13204-015-0440-8 | Unclear | new X reading |
+| 10.1007/s13204-018-0757-1 | Unclear | new X reading |
+| 10.1007/s13204-018-0887-5 | Unclear | new X reading |
+| 10.1007/s13204-019-00981-y | Unclear | new X reading |
+| 10.1007/s13204-020-01565-x | Unclear | new X reading |
+| 10.1007/s13204-020-01595-5 | Unclear | new X reading |
+| 10.1007/s13204-020-01626-1 | Unclear | new X reading |
+| 10.1007/s13204-021-02128-4 | Unclear | new X reading |
+| 10.1007/s13204-023-02877-4 | Unclear | new X reading |
+| 10.1007/s13206-022-00053-4 | Unclear | new X reading |
+| 10.1007/s13233-016-4124-3 | Unclear | new X reading |
+| 10.1007/s13277-015-4079-6 | Unclear | new X reading |
+| 10.1007/s13320-023-0698-5 | Unclear | new X reading |
+| 10.1007/s13346-018-00596-w | Unclear | new X reading |
+| 10.1007/s13346-021-01012-6 | Unclear | new X reading |
+| 10.1007/s13369-013-0832-6 | Unclear | new X reading |
+| 10.1007/s13369-016-2297-x | Out of scope | new X reading |
+| 10.1007/s13369-020-05166-2 | Out of scope | new X reading |
+| 10.1007/s13369-021-06556-w | Unclear | new X reading |
+| 10.1007/s13369-022-06619-6 | Unclear | new X reading |
+| 10.1007/s13369-024-09270-5 | Out of scope | new X reading |
+| 10.1007/s13391-012-2069-z | Unclear | new X reading |
+| 10.1007/s13391-012-2106-y | Out of scope | new X reading |
+| 10.1007/s13391-014-4144-0 | Out of scope | new X reading |
+| 10.1007/s13391-014-4158-7 | Unclear | new X reading |
+| 10.1007/s13391-015-4466-6 | Out of scope | new X reading |
+| 10.1007/s13391-015-5410-5 | Unclear | new X reading |
+| 10.1007/s13391-016-5448-z | Unclear | new X reading |
+| 10.1007/s13391-016-6224-9 | Unclear | new X reading |
+| 10.1007/s13391-017-6219-1 | Unclear | new X reading |
+| 10.1007/s13391-019-00126-x | Out of scope | new X reading |
+| 10.1007/s13391-023-00464-x | Unclear | new X reading |
+| 10.1007/s13399-020-00713-1 | Unclear | new X reading |
+| 10.1007/s13399-020-00717-x | Out of scope | new X reading |
+| 10.1007/s13399-024-05591-5 | Out of scope | new X reading |
+| 10.1007/s13538-014-0181-2 | Unclear | new X reading |
+| 10.1007/s13538-019-00648-7 | Unclear | new X reading |
+| 10.1007/s13538-019-00656-7 | Unclear | new X reading |
+| 10.1007/s13538-020-00780-9 | Unclear | new X reading |
+| 10.1007/s13538-021-00891-x | Out of scope | new X reading |
+| 10.1007/s13538-024-01425-x | Unclear | new X reading |
+| 10.1007/s13538-024-01690-w | Out of scope | new X reading |
+| 10.1007/s13538-025-01733-w | Unclear | new X reading |
+| 10.1007/s13726-022-01025-z | Unclear | new X reading |
+| 10.1007/s13738-017-1235-5 | Unclear | new X reading |
+| 10.1007/s13738-020-02104-9 | Unclear | new X reading |
+| 10.1007/s13738-021-02367-w | Unclear | new X reading |
+| 10.1007/s13738-026-03503-0 | Unclear | new X reading |
+| 10.1007/s40009-024-01561-7 | Unclear | new X reading |
+| 10.1007/s40042-021-00149-4 | Unclear | new X reading |
+| 10.1007/s40042-021-00153-8 | Unclear | new X reading |
+| 10.1007/s40042-021-00215-x | Unclear | new X reading |
+| 10.1007/s40042-021-00265-1 | Unclear | new X reading |
+| 10.1007/s40042-022-00445-7 | Unclear | new X reading |
+| 10.1007/s40042-022-00460-8 | Unclear | new X reading |
+| 10.1007/s40042-023-00936-1 | Unclear | new X reading |
+| 10.1007/s40042-023-00962-z | Unclear | new X reading |
+| 10.1007/s40042-024-01093-9 | Unclear | new X reading |
+| 10.1007/s40042-024-01164-x | Unclear | new X reading |
+| 10.1007/s40042-025-01388-5 | Unclear | new X reading |
+| 10.1007/s40042-025-01391-w | Unclear | new X reading |
+| 10.1007/s40042-025-01551-y | Unclear | new X reading |
+| 10.1007/s40195-015-0326-5 | Out of scope | new X reading |
+| 10.1007/s40195-017-0606-3 | Out of scope | new X reading |
+| 10.1007/s40195-020-01178-x | Out of scope | new X reading |
+| 10.1007/s40195-021-01244-y | Unclear | new X reading |
+| 10.1007/s40195-023-01603-x | Unclear | new X reading |
+| 10.1007/s40195-024-01729-6 | Unclear | new X reading |
+| 10.1007/s40544-019-0272-8 | Unclear | new X reading |
+| 10.1007/s40544-022-0621-x | Out of scope | new X reading |
+| 10.1007/s40544-023-0853-4 | Unclear | new X reading |
+| 10.1007/s40684-020-00303-6 | Unclear | new X reading |
+| 10.1007/s40710-018-0337-0 | Unclear | new X reading |
+| 10.1007/s40820-016-0124-2 | Unclear | new X reading |
+| 10.1007/s40820-020-00455-9 | Unclear | new X reading |
+| 10.1007/s40820-022-00946-x | Unclear | new X reading |
+| 10.1007/s40830-022-00390-1 | Unclear | new X reading |
+| 10.1007/s40843-015-0054-1 | Out of scope | new X reading |
+| 10.1007/s40843-016-5103-7 | Out of scope | new X reading |
+| 10.1007/s40843-021-1793-3 | Unclear | new X reading |
+| 10.1007/s40843-021-1930-5 | Unclear | new X reading |
+| 10.1007/s40843-023-2534-1 | Unclear | new X reading |
+| 10.1007/s40843-023-2854-7 | Unclear | new X reading |
+| 10.1007/s40843-024-2919-6 | Out of scope | new X reading |
+| 10.1007/s40843-025-3883-2 | Unclear | new X reading |
+| 10.1007/s40843-025-3900-8 | Unclear | new X reading |
+| 10.1007/s40883-025-00525-7 | Unclear | new X reading |
+| 10.1007/s40995-016-0021-z | Unclear | new X reading |
+| 10.1007/s40995-016-0103-y | Unclear | new X reading |
+| 10.1007/s40995-016-0138-0 | Unclear | new X reading |
+| 10.1007/s40995-017-0153-9 | Unclear | new X reading |
+| 10.1007/s40995-017-0233-x | Unclear | new X reading |
+| 10.1007/s40995-019-00684-7 | Unclear | new X reading |
+| 10.1007/s40995-019-00705-5 | Unclear | new X reading |
+| 10.1007/s40995-020-00923-2 | Unclear | new X reading |
