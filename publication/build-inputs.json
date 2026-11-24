@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "owner-website-r-20261119",
-  "updated_at": "2026-11-24T00:28:48.340343+00:00",
+  "release_id": "owner-weekly-s6-20261124",
+  "updated_at": "2026-11-24T15:00:21.582908+00:00",
   "record_count": 7763,
   "input_files": [
     {
@@ -21,8 +21,8 @@
     },
     {
       "path": ".github/workflows/weekly-published-brand.yml",
-      "sha256": "fbcb49c3aff2dca1941b93a6896f702489e01c98b9df7d44b45451f4affcfb6d",
-      "bytes": 4938
+      "sha256": "f1575d4486fe6f4f3b662b57272531856f1720cca47250fa73452769b91f0c32",
+      "bytes": 6463
     },
     {
       "path": ".gitignore",
@@ -334120,6 +334120,11 @@
       "bytes": 6193
     },
     {
+      "path": "tools/ci/weekly_publisher_wait.py",
+      "sha256": "4131044fa9a9d62a81f74f50b30fa1fa31d3214d2f7c010017080d9cb0774cc6",
+      "bytes": 2458
+    },
+    {
       "path": "tools/mattersyn-release/README.md",
       "sha256": "cc0e12021bac7fb43a592248a116505eec382dca08c3bbf49e1cc6f932bbbba6",
       "bytes": 4035
@@ -334538,6 +334543,11 @@
       "path": "tools/publication/tests/test_brand_scan_truncation.py",
       "sha256": "6beaf42de835836556a044bd810a571ee49ea9eecfbd3688a48a48a532f67d2b",
       "bytes": 4263
+    },
+    {
+      "path": "tools/publication/tests/test_brand_weekly_wait.py",
+      "sha256": "1e6a8e61f55d1bf20e1d85b2a7c1a6362b3c76bb6d6c9b876341fb7b2a0842ea",
+      "bytes": 2308
     },
     {
       "path": "tools/silver/MONITORING.md",
