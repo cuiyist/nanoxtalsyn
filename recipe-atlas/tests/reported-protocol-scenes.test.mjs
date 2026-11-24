@@ -608,3 +608,8 @@ test('ambiguous own abbreviations and non-input names cannot authorize repeat fe
 test('no short feed name is invented when the own material does not give an abbreviation',()=>{
  const r=repeatedAliasRecord();r.materials[1].name='tris(trimethylsilyl)arsine';assert.deepEqual(choose(r.operations[1],r).added,['InCl3']);
 });
+
+import './linked-protocol-reference.test.mjs';
+import './linked-protocol-inlet.test.mjs';
+import './coordinate-still.test.mjs';
+import './closed-cell-reference.test.mjs';
