@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "owner-website-r-20261119",
+  "release_id": "owner-weekly-s6-20261124",
   "repo": "mattersyn",
-  "source_commit": "dab66f98b20affb5118d749e2721377f155f6cc9",
+  "source_commit": "8d55af0bf24b04a35f6dff696d66c6a8d90e5411",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "6778572da47cb25a6124f8b84978358bd2f4fc7523f8a2979896890e20ae9361",
-    "file_count": 67012,
+    "sha256": "dfa9830da056b78d6339fa427dfcd396b1697e3d826c07ca1fa7c0b1bea4f4d4",
+    "file_count": 67014,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -54,13 +54,13 @@
     },
     {
       "path": ".github/workflows/weekly-published-brand.yml",
-      "sha256": "fbcb49c3aff2dca1941b93a6896f702489e01c98b9df7d44b45451f4affcfb6d",
-      "bytes": 4938,
+      "sha256": "f1575d4486fe6f4f3b662b57272531856f1720cca47250fa73452769b91f0c32",
+      "bytes": 6463,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex owner S scoped publisher implementation review",
-      "reviewed_at": "2026-11-18T23:38:52+00:00",
+      "reviewer": "Codex owner S6 exact code review",
+      "reviewed_at": "2026-11-24T14:59:35+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -150,13 +150,13 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "c8f623f53027142c9fbff9777dec9c469a3541c4980860605d38a3cbb2773ac0",
-      "bytes": 15461154,
+      "sha256": "2e8b621a17c5b4d9abd21ba5eddb52088c5461d500b997072946e73be4622f76",
+      "bytes": 15461506,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T00:28:48.340343+00:00",
+      "reviewed_at": "2026-11-24T15:00:21.582908+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -129252,7 +129252,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T00:28:48.340343+00:00",
+      "reviewed_at": "2026-11-24T15:00:21.582908+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -1152901,6 +1152901,18 @@
       "content_class": "authored_code"
     },
     {
+      "path": "tools/ci/weekly_publisher_wait.py",
+      "sha256": "4131044fa9a9d62a81f74f50b30fa1fa31d3214d2f7c010017080d9cb0774cc6",
+      "bytes": 2458,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner S6 exact code review",
+      "reviewed_at": "2026-11-24T14:59:35+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
       "path": "tools/mattersyn-release/README.md",
       "review_status": "approved",
       "reviewer": "Root: owner-authorized N project rename; exact brand/code/checksum changes reviewed; original scientific record bytes and rights decisions preserved",
@@ -1153939,6 +1153951,18 @@
       "review_status": "approved",
       "reviewer": "Codex-root-additive-engineering-review",
       "reviewed_at": "2026-11-16T12:32:54+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/publication/tests/test_brand_weekly_wait.py",
+      "sha256": "1e6a8e61f55d1bf20e1d85b2a7c1a6362b3c76bb6d6c9b876341fb7b2a0842ea",
+      "bytes": 2308,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex owner S6 exact code review",
+      "reviewed_at": "2026-11-24T14:59:35+00:00",
       "content_class": "authored_code",
       "source_refs": []
     },

@@ -2,6 +2,7 @@ name: NanoXtalSyn weekly full published-brand inventory
 on:
   schedule:
     - cron: '27 12 * * 1'
+  workflow_dispatch:
 permissions:
   contents: read
   actions: read
@@ -10,8 +11,47 @@ concurrency:
   group: nanoxtalsyn-weekly-full-brand
   cancel-in-progress: false
 jobs:
-  scan:
+  wait_for_publisher:
     if: github.repository == 'cuiyist/nanoxtalsyn'
+    runs-on: ubuntu-latest
+    timeout-minutes: 315
+    outputs:
+      ready: ${{ steps.poll.outputs.ready }}
+      started_at: ${{ steps.poll.outputs.started_at }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/ci
+          persist-credentials: false
+      - name: Check now and every 30 minutes through hour five
+        id: poll
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/ci/weekly_publisher_wait.py
+  finish_publisher_wait:
+    needs: wait_for_publisher
+    if: needs.wait_for_publisher.outputs.ready == 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    outputs:
+      ready: ${{ steps.poll.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/ci
+          persist-credentials: false
+      - name: Try again at 5.5 and 6 hours if still pending
+        id: poll
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FIRST_CHECK: ${{ needs.wait_for_publisher.outputs.started_at }}
+        run: python3 tools/ci/weekly_publisher_wait.py --finish "$FIRST_CHECK"
+  scan:
+    needs: [wait_for_publisher, finish_publisher_wait]
+    if: >-
+      !cancelled() && needs.wait_for_publisher.result == 'success' &&
+      ((needs.wait_for_publisher.outputs.ready == 'true' && needs.finish_publisher_wait.result == 'skipped') ||
+      (needs.finish_publisher_wait.result == 'success' && needs.finish_publisher_wait.outputs.ready == 'true'))
     runs-on: ubuntu-latest
     timeout-minutes: 240
     steps:
