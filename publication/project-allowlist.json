@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x05-optical-size-correction",
+  "release_id": "tanjin-x05-optical-size-correction-r02",
   "repo": "mattersyn",
-  "source_commit": "dedd8bd8096cfd2c02ddd487137ce296e52109a4",
+  "source_commit": "c719dc334abfe3eb90a414301f44669c20eb5330",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "8504c0f72cc7b3cca6d2537042ac5d7f7361da4e8a08b4fccea754b43a2fff22",
+    "sha256": "61753d40410af4d153f20ab5d0a5a843201415f38378723fa9935c244273cf0c",
     "file_count": 67227,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,22 +150,16 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "bd2a7a385d65efc410ce4d57119f1ddc44cf8cd9cacf39f9b1626487c0a61a39",
-      "bytes": 15509695,
+      "sha256": "c815bcf83c05ec5ff56bc0dbd51dac56272fe63e6a8291d6b725a76b05de86b0",
+      "bytes": 15509699,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T23:41:27.450433+00:00",
+      "reviewed_at": "2026-11-24T23:53:23.883630+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval",
-      "metadata_review": {
-        "before_sha256": "2a16e23e6cbd43b83c96f27bc42f1d105619236e9130a36b0ae117cb6952aad5",
-        "sha256": "7b637ea7ed919429936b5a69581f7c084690813c7ab8deba316e9110e2edce88",
-        "reviewer": "Codex exact X05 optical-size projection correction",
-        "reviewed_at": "2026-11-24T17:41:03.996112-06:00"
-      }
+      "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/public-release-policy.json",
@@ -129530,7 +129524,7 @@
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T23:41:27.450433+00:00",
+      "reviewed_at": "2026-11-24T23:53:23.883630+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -174730,13 +174724,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "859b00a5e2a38521f928b4aeee283838b0b57d5c046b1766cfbece3ae1d379d2",
+      "sha256": "fdab1e9e55617e043eada76c2b38536f7c918e5245a335ab3779eebaf6aaf833",
       "bytes": 4990379,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact three-value registry overlay rebind",
+      "reviewed_at": "2026-11-24T23:53:00+00:00",
       "content_class": "site_data",
       "source_refs": []
     },

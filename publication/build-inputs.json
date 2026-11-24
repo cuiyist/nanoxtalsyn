@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x05-optical-size-correction",
-  "updated_at": "2026-11-24T23:41:27.450433+00:00",
+  "release_id": "tanjin-x05-optical-size-correction-r02",
+  "updated_at": "2026-11-24T23:53:23.883630+00:00",
   "record_count": 7780,
   "input_files": [
     {
@@ -52846,7 +52846,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "859b00a5e2a38521f928b4aeee283838b0b57d5c046b1766cfbece3ae1d379d2",
+      "sha256": "fdab1e9e55617e043eada76c2b38536f7c918e5245a335ab3779eebaf6aaf833",
       "bytes": 4990379
     },
     {
