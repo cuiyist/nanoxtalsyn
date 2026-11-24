@@ -741,6 +741,30 @@ def without_quotes(value):
     return value
 
 
+def has_misattributed_optical_size(structure):
+    """Detect an unambiguous duplicate wavelength in the particle-size slot.
+
+    Apply only to projections of checked data. Preserve the saved passes and
+    CHECK receipts, and never infer a replacement size.
+    """
+    size = structure.get('size') or {}
+    if not size or (structure.get('size_method') or {}).get('value'):
+        return False
+    quote = size.get('quote') or ''
+    if (str(size.get('unit') or '').strip().lower() != 'nm'
+            or not re.search(r'\b(?:absorption|absorbance|emission|cutoff|wavelength|band[ -]edge)\b', quote, re.I)
+            or re.search(r'\b(?:sizes?|diameters?|sizing|TEM|DLS|SAXS|radius|radii)\b', quote, re.I)):
+        return False
+    for key in ('absorption_peak', 'emission_peak'):
+        optical = structure.get(key) or {}
+        if (optical.get('value') is not None and optical.get('value') == size.get('value')
+                and str(optical.get('unit') or '').strip().lower() == 'nm'
+                and optical.get('quote') == quote and size.get('page') is not None
+                and optical.get('page') == size.get('page')):
+            return True
+    return False
+
+
 def public_pair(pair):
     """Keep only checked factual fields and locators, not private annotations."""
     def fields(value, keys):
@@ -779,7 +803,16 @@ def public_document(doc):
     keys = ('id', 'doi', 'title', 'authors', 'year', 'journal', 'check', 'values_kept',
             'values_extracted', 'page_count', 'pages_read')
     public = without_quotes({k: doc[k] for k in keys if k in doc})
-    public['pairs'] = [public_pair(pair) for pair in doc.get('pairs') or []]
+    public['pairs'] = []
+    removed = 0
+    for pair in doc.get('pairs') or []:
+        structure = pair.get('structure') or {}
+        if has_misattributed_optical_size(structure):
+            pair = {**pair, 'structure': {k: v for k, v in structure.items() if k != 'size'}}
+            removed += 1
+        public['pairs'].append(public_pair(pair))
+    if removed and type(public.get('values_kept')) is int:
+        public['values_kept'] -= removed
     public['figures'] = []
     for fig in doc.get('figures') or []:
         categories = [c for c in fig.get('categories') or ['other'] if c in ('structure', 'property', 'other')]

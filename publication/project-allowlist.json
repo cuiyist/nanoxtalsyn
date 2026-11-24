@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x-release05",
+  "release_id": "tanjin-x05-optical-size-correction",
   "repo": "mattersyn",
-  "source_commit": "61a9a7295eb0ccddf97b41c28db8622f98093f4a",
+  "source_commit": "dedd8bd8096cfd2c02ddd487137ce296e52109a4",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "c6be9b32a1f1a6ec42033b5d01850f4bb7dd3aa65ff0ae21c42a30927d7ef1c8",
-    "file_count": 67226,
+    "sha256": "8504c0f72cc7b3cca6d2537042ac5d7f7361da4e8a08b4fccea754b43a2fff22",
+    "file_count": 67227,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -150,16 +150,22 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "777683d4de576d6c87d4506d5d851f757f1becfe33a74eed9fb9a0fd0db21089",
-      "bytes": 15509373,
+      "sha256": "bd2a7a385d65efc410ce4d57119f1ddc44cf8cd9cacf39f9b1626487c0a61a39",
+      "bytes": 15509695,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T21:09:52.136488+00:00",
+      "reviewed_at": "2026-11-24T23:41:27.450433+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval"
+      "approval_scope": "Derived source control only; no scientific or eligibility approval",
+      "metadata_review": {
+        "before_sha256": "2a16e23e6cbd43b83c96f27bc42f1d105619236e9130a36b0ae117cb6952aad5",
+        "sha256": "7b637ea7ed919429936b5a69581f7c084690813c7ab8deba316e9110e2edce88",
+        "reviewer": "Codex exact X05 optical-size projection correction",
+        "reviewed_at": "2026-11-24T17:41:03.996112-06:00"
+      }
     },
     {
       "path": "publication/public-release-policy.json",
@@ -3014,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "bf948191d31b8065dc2bc2828053cfab5f337867c11f0ec631d222220fec6d82",
+      "sha256": "3472fca8fbb738ee2e87ee4d3caa934a0510c924874af35a557e946e0df6a969",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3038,25 +3044,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "a67fd67425b6fc832975c335ade6e2426b2a5e28270838515eccd0c604e35d5b",
-      "bytes": 83880895,
+      "sha256": "824b92c19886cae2dec5bdfc81431d1f5bf90e635f9bc1e718f403f3cfe31c8b",
+      "bytes": 83879647,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "4fb5b545075a6020ae3fbaa51172ffee079a69e2c84b89de77062be92431a865",
+      "sha256": "e1c5045c689c9ffe41addc3374ecb4df0c7f89e6d715a2767ae5cc4163a749d2",
       "bytes": 9952378,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -52871,13 +52877,13 @@
     },
     {
       "path": "recipe-atlas/data/records/kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1.json",
-      "sha256": "86d2a31125fa02e6578661618d3e78b005b42c35ebfe519d7e2e0dfa09ee2fe7",
-      "bytes": 30905,
+      "sha256": "7d4400b55a3b14de8f6a98b7d5e021a0f224fb145ee6964ceb813c4bf3dd541b",
+      "bytes": 29997,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -129518,13 +129524,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "ad239637eeea414a8691a0f211d7d35a2e4dd27aea8ea6c90985948cab1ed320",
+      "sha256": "a48c7cb0d52f6469183d6d0eeb5933524c02c10f44fbd2561037ebb3a61a4c0c",
       "bytes": 27284379,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-24T21:09:52.136488+00:00",
+      "reviewed_at": "2026-11-24T23:41:27.450433+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -141498,13 +141504,13 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release05-pairs.json",
-      "sha256": "b806ac081d20156df2eb0d4539f86c18fab1aa8c2eafe2d7039d83c21d6d69b6",
-      "bytes": 79962,
+      "sha256": "3d7fafc0d2317246488f2f97bb93aaeafbc882e0e9da8a26fd13e6cf06de9a8a",
+      "bytes": 79912,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -143443,13 +143449,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "9d8f54898a03d0ea14850e22f98163cd70d8c70c5a49c2dc8a47f248d747cd38",
+      "sha256": "8167bc951c19a243a76ab6de0b524e13d5bebbb263bdb907bbdfecae63974403",
       "bytes": 11072390,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -1033737,13 +1033743,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1.json",
-      "sha256": "d403ebcf0488100350fc78a45c6a6eb401eb10135671cbaaa21df02e254b2f3d",
+      "sha256": "95001a5c69d04967e3f4fc80782f54f9ba64b7b6e8d78527fcc2183ec64c143f",
       "bytes": 6106,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-24T21:09:10+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1157608,13 +1157614,13 @@
     },
     {
       "path": "tools/simple-pipeline/completeness_conversion.py",
-      "sha256": "1776d26e9fe311af9b87767d15c4a6df91da59a880faae1592f80fd4841c7e98",
-      "bytes": 5885,
+      "sha256": "5b21712e5b8b66bae34d81c0e9c9587ecb53b47e8513ff991ee6f2d67d71d574",
+      "bytes": 5988,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1157692,13 +1157698,13 @@
     },
     {
       "path": "tools/simple-pipeline/mattersyn_simple.py",
-      "sha256": "c4ea95e546cfc328fe54a98de6e3d092dce3e5955981a1e4db88700db97293a2",
-      "bytes": 53289,
+      "sha256": "8e80779931460689e427811401b5c788f5437ad1bcad1660b0c9088a1a8dd434",
+      "bytes": 54846,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T17:30:56+00:00",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1158155,6 +1158161,18 @@
       "review_status": "approved",
       "reviewer": "/root",
       "reviewed_at": "2026-10-27T10:56:30+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/simple-pipeline/test_optical_size_projection.py",
+      "sha256": "30a1802250cf6d1466a5a38775ab39a562879741e4db760637acee5662d028d4",
+      "bytes": 2252,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex exact X05 optical-size projection correction",
+      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
