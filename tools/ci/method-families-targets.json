@@ -11,9 +11,9 @@
       "default_record_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop",
       "record_json_bytes": 52757,
       "record_json_sha256": "0b9511bb37ac1f09198a71cd9c9579de749b2de98e82243cd6102b272fe8c830",
-      "family_metadata_sha256": "62ea0088c9fc06facec325deca9bbc80bae20cb36d598fa974b83679127c52b5",
+      "family_metadata_sha256": "9883558dac2308d0a247b02f8adfb8985dd7271f4e0d4c48cfef9ad4e1340b49",
       "family_count": 31,
-      "paper_card_count": 569,
+      "paper_card_count": 573,
       "first_family_id": "method-family-1845d19817b0",
       "first_family_papers": 40
     },
@@ -22,14 +22,14 @@
       "formula": "CdS",
       "material_id": "cds-fad408",
       "route": "material.html?id=cds-fad408",
-      "default_record_id": "wang2023-acs-inorgchem-3c02600-cds-368-1",
-      "record_json_bytes": 24439,
-      "record_json_sha256": "fbeab21fbe4e8dde80e090a653814689f24e15a4834f52f51d897b7136a80f83",
-      "family_metadata_sha256": "83eba962f05aad5d42faf97c30e1a73e0108f8f242bfe3e603d8b8159fe4e614",
+      "default_record_id": "sahoo2010-cds-jp912103t-as-prepared",
+      "record_json_bytes": 22704,
+      "record_json_sha256": "e6bef1a46b28b59fe9e3cb39b468b12fac664b6cb9f20631acf38a3b2ec4bf7e",
+      "family_metadata_sha256": "d2e96377d9ab05857ec54f575497c8d080b9c158144b87e1193bc30800f73124",
       "family_count": 26,
-      "paper_card_count": 293,
-      "first_family_id": "method-family-a74909add2de",
-      "first_family_papers": 5
+      "paper_card_count": 301,
+      "first_family_id": "method-family-7d352dcf2da9",
+      "first_family_papers": 6
     },
     {
       "id": "method-list-zns",
@@ -39,11 +39,11 @@
       "default_record_id": "li2010-ie901086d-mps-replaced-zns-qds-1",
       "record_json_bytes": 27745,
       "record_json_sha256": "71b3b7b0793c7580195c04b8c3b0933a87380ccde3920805bda68b6424a489de",
-      "family_metadata_sha256": "146b94205594e2b2cee17ba287d6d8bb087726c2cdd8d35aaffc64cba6cdd841",
-      "family_count": 11,
-      "paper_card_count": 323,
+      "family_metadata_sha256": "e38cd9a394ac8e0193239f60586cc8a4a126afb94361fadc08cac2e56bce5a3e",
+      "family_count": 12,
+      "paper_card_count": 334,
       "first_family_id": "method-family-6b8eaef748d8",
-      "first_family_papers": 4
+      "first_family_papers": 3
     },
     {
       "id": "method-list-inas",
@@ -67,9 +67,9 @@
       "default_record_id": "yarema2017-underpressure-chemmater6b04789-pbs-large-6p25",
       "record_json_bytes": 53603,
       "record_json_sha256": "ebe57c176536638e91dcf1139f352bf4afc9867132fc19188b34a7258b74b6ce",
-      "family_metadata_sha256": "85761923178a3ce87247dee684a4be7f6657c34870bc73c7dd941be0e85a7c4c",
+      "family_metadata_sha256": "d7f5b035b8129153ec4307562957e686c69dfa85b63150644befbbb1d80de2c7",
       "family_count": 24,
-      "paper_card_count": 205,
+      "paper_card_count": 210,
       "first_family_id": "method-family-fefdde1ebc00",
       "first_family_papers": 29
     },
