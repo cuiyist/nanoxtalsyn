@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release05",
-  "updated_at": "2026-11-24T21:09:52.136488+00:00",
+  "release_id": "tanjin-x05-optical-size-correction-r02",
+  "updated_at": "2026-11-24T23:53:23.883630+00:00",
   "record_count": 7780,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "bf948191d31b8065dc2bc2828053cfab5f337867c11f0ec631d222220fec6d82",
+      "sha256": "3472fca8fbb738ee2e87ee4d3caa934a0510c924874af35a557e946e0df6a969",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "a67fd67425b6fc832975c335ade6e2426b2a5e28270838515eccd0c604e35d5b",
-      "bytes": 83880895
+      "sha256": "824b92c19886cae2dec5bdfc81431d1f5bf90e635f9bc1e718f403f3cfe31c8b",
+      "bytes": 83879647
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "4fb5b545075a6020ae3fbaa51172ffee079a69e2c84b89de77062be92431a865",
+      "sha256": "e1c5045c689c9ffe41addc3374ecb4df0c7f89e6d715a2767ae5cc4163a749d2",
       "bytes": 9952378
     },
     {
@@ -16681,8 +16681,8 @@
     },
     {
       "path": "recipe-atlas/data/records/kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1.json",
-      "sha256": "86d2a31125fa02e6578661618d3e78b005b42c35ebfe519d7e2e0dfa09ee2fe7",
-      "bytes": 30905
+      "sha256": "7d4400b55a3b14de8f6a98b7d5e021a0f224fb145ee6964ceb813c4bf3dd541b",
+      "bytes": 29997
     },
     {
       "path": "recipe-atlas/data/records/kwon2025-s11814-025-00590-2-ag2te-qds-synthesized-with-dma-3p-te-2.json",
@@ -40086,7 +40086,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "ad239637eeea414a8691a0f211d7d35a2e4dd27aea8ea6c90985948cab1ed320",
+      "sha256": "a48c7cb0d52f6469183d6d0eeb5933524c02c10f44fbd2561037ebb3a61a4c0c",
       "bytes": 27284379
     },
     {
@@ -40851,8 +40851,8 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release05-pairs.json",
-      "sha256": "b806ac081d20156df2eb0d4539f86c18fab1aa8c2eafe2d7039d83c21d6d69b6",
-      "bytes": 79962
+      "sha256": "3d7fafc0d2317246488f2f97bb93aaeafbc882e0e9da8a26fd13e6cf06de9a8a",
+      "bytes": 79912
     },
     {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
@@ -41631,7 +41631,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "9d8f54898a03d0ea14850e22f98163cd70d8c70c5a49c2dc8a47f248d747cd38",
+      "sha256": "8167bc951c19a243a76ab6de0b524e13d5bebbb263bdb907bbdfecae63974403",
       "bytes": 11072390
     },
     {
@@ -52846,7 +52846,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "859b00a5e2a38521f928b4aeee283838b0b57d5c046b1766cfbece3ae1d379d2",
+      "sha256": "fdab1e9e55617e043eada76c2b38536f7c918e5245a335ab3779eebaf6aaf833",
       "bytes": 4990379
     },
     {
@@ -307696,7 +307696,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1.json",
-      "sha256": "d403ebcf0488100350fc78a45c6a6eb401eb10135671cbaaa21df02e254b2f3d",
+      "sha256": "95001a5c69d04967e3f4fc80782f54f9ba64b7b6e8d78527fcc2183ec64c143f",
       "bytes": 6106
     },
     {
@@ -335716,8 +335716,8 @@
     },
     {
       "path": "tools/simple-pipeline/completeness_conversion.py",
-      "sha256": "1776d26e9fe311af9b87767d15c4a6df91da59a880faae1592f80fd4841c7e98",
-      "bytes": 5885
+      "sha256": "5b21712e5b8b66bae34d81c0e9c9587ecb53b47e8513ff991ee6f2d67d71d574",
+      "bytes": 5988
     },
     {
       "path": "tools/simple-pipeline/completeness_identity.py",
@@ -335751,8 +335751,8 @@
     },
     {
       "path": "tools/simple-pipeline/mattersyn_simple.py",
-      "sha256": "c4ea95e546cfc328fe54a98de6e3d092dce3e5955981a1e4db88700db97293a2",
-      "bytes": 53289
+      "sha256": "8e80779931460689e427811401b5c788f5437ad1bcad1660b0c9088a1a8dd434",
+      "bytes": 54846
     },
     {
       "path": "tools/simple-pipeline/prepare_pending_batch_caption_plan.py",
@@ -335943,6 +335943,11 @@
       "path": "tools/simple-pipeline/test_normalized_doi_sici.py",
       "sha256": "5e6f54f5702aed32046b5603d265fb2066bbd08a2977c8bbea2b6e276572acb5",
       "bytes": 2322
+    },
+    {
+      "path": "tools/simple-pipeline/test_optical_size_projection.py",
+      "sha256": "30a1802250cf6d1466a5a38775ab39a562879741e4db760637acee5662d028d4",
+      "bytes": 2252
     },
     {
       "path": "tools/simple-pipeline/test_original_ordinal_selection.py",
@@ -340554,7 +340559,8 @@
     "fischer2003-1-1606498-fe-sheathed-mgb2-tapes-1": "a2a7ff62cecf265b439fb1ff323510858cc00224f0405db42e95d30ca1438c30",
     "oh2020-er-5695-agbis2-ncs-modified100c-2": "a71653441935992f8c6a9c30b292b23287bd9c02c4657ea1676ccf7862c7efa3",
     "oh2020-er-5695-agbis2-ncs-control100c-1": "edbc847af5671dd3c6b79d38a8dded105fc25bddc4f2d7ff746c7087b20c4ad3",
-    "wanghe2006-s11434-006-2022-3-tio2-nanocrystalline-film-5-layers-1": "dc6fde14927612a6bbdb2be84257d17e641426129f5374fe0e0c1f6d138e22b2"
+    "wanghe2006-s11434-006-2022-3-tio2-nanocrystalline-film-5-layers-1": "dc6fde14927612a6bbdb2be84257d17e641426129f5374fe0e0c1f6d138e22b2",
+    "kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1": "02720693763757923bcaeeaff0afda1db73c1930abd745e561dabb6282619c20"
   },
   "schema": "mattersyn-build-input-blueprint/1",
   "note": "Exact public source inputs; the blueprint and its enclosing approval manifest are excluded to avoid self-reference. The external runtime snapshot binds the clean source commit."

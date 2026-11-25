@@ -49,6 +49,8 @@ def builder_class(base):
 
         def record(self,pair,index):
             scoped=copy.deepcopy(pair);structure=scoped.setdefault('structure',{})
+            if engine.has_misattributed_optical_size(structure):
+                structure.pop('size')
             for key in OPTICAL-self.allowed_optics:structure.pop(key,None)
             record=super().record(scoped,index)
             if record is None:return None
