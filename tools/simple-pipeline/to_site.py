@@ -29,6 +29,22 @@ SIZE_PROPERTY = {'tem': ('diameter', 'TEM'), 'hrtem': ('diameter', 'HRTEM'), 'st
 ELEMENT = r'A[cglmrstu]|B[aehikr]?|C[adeflmorsu]?|D[sy]|E[rsu]|F[emr]?|G[ade]|H[efgos]?|I[nr]?|Kr?|L[airu]|M[gnot]|N[abdeiop]?|Os?|P[abdmortu]?|R[abehnu]|S[bcegimnr]?|T[abcehilm]|U|V|W|Xe|Yb?|Z[nr]'
 
 
+def measurement_display_fields(measurement):
+    v = measurement['value']
+    prop = measurement['property']
+    label = prop.replace('_', ' ').capitalize()
+    value = f'{v["value"]:g} {v["unit"]}'.strip()
+    scope = f'{measurement["technique"]}; as stated for this product.'
+    if prop.startswith('nanosheet_thickness'):
+        if prop.endswith('_lower_endpoint'):
+            label = 'Nanosheet thickness (lower endpoint)'
+        if v['approximate']:
+            value = '≈' + value
+        if v['qualifier']:
+            scope = f'{measurement["technique"]}; {v["qualifier"]}'
+    return {'label': label, 'value': value, 'scope': scope}
+
+
 def microscopy_grid_preparation(step, product):
     """Recognize explicit placement of existing clusters, without demoting growth."""
     if (step.get('action') or '').lower() != 'deposit':
@@ -418,10 +434,14 @@ class Builder:
                    'composition': self.fact(st.get('composition')), 'phase': self.fact(st.get('phase')), 'morphology': self.fact(st.get('shape')), 'surface': self.fact(st.get('ligand')),
                    'recipe_link': 'explicit', 'link_evidence': self.evidence(link_page), 'notes': []}
         measurements = []
+        thickness = None
         if st.get('size'):
+            from mattersyn_simple import checked_sheet_thickness, sheet_thickness_measurement
+            thickness = checked_sheet_thickness(st)
             prop, technique = SIZE_PROPERTY.get(str((st.get('size_method') or {}).get('value') or '').lower(), ('particle_size', 'not reported'))
-            measurements.append({'id': f'{rid}--size', 'sample_id': sample, 'property': prop, 'technique': technique,
-                                 'value': self.quantity(st['size']['value'], st['size'].get('unit') or 'nm', st['size'].get('page')), 'conditions': '', 'derives_from': [], 'evidence': self.evidence(st['size'].get('page'))})
+            measure = {'id': f'{rid}--size', 'sample_id': sample, 'property': prop, 'technique': technique,
+                       'value': self.quantity(st['size']['value'], st['size'].get('unit') or 'nm', st['size'].get('page')), 'conditions': '', 'derives_from': [], 'evidence': self.evidence(st['size'].get('page'))}
+            measurements.append(sheet_thickness_measurement(st, measure, thickness) if thickness else measure)
         for key, prop, technique, default_unit in (('absorption_peak', 'absorption_peak', 'UV-vis absorption spectroscopy', 'nm'), ('emission_peak', 'photoluminescence_peak', 'photoluminescence spectroscopy', 'nm'),
                                                    ('plqy', 'photoluminescence_quantum_yield', 'photoluminescence spectroscopy', '%')):
             if st.get(key) and self.include_optical:
@@ -429,7 +449,7 @@ class Builder:
                                      'value': self.quantity(st[key]['value'], st[key].get('unit') or default_unit, st[key].get('page')), 'conditions': '', 'derives_from': [], 'evidence': self.evidence(st[key].get('page'))})
         missing = [name.replace('_', ' ') for group, names in ((st, ('phase', 'shape', 'ligand', 'size') + (('absorption_peak', 'emission_peak', 'plqy') if self.include_optical else ())), (rc, ('reactor', 'atmosphere', 'reaction_temperature', 'reaction_time'))) for name in names if not group.get(name)]
         missing += [f'amount of {c["name"]}' for c in rc.get('chemicals') or [] if c.get('amount') is None]
-        size = st.get('size') or {}
+        size = {} if thickness else st.get('size') or {}
         components = components_of(composition)
         reported_architecture = str((st.get('architecture') or {}).get('value') or '').strip().lower()
         architecture = ARCHITECTURE.get(reported_architecture, reported_architecture if reported_architecture in {'single_material', 'core_shell', 'heterostructure', 'alloy', 'composite', 'phase_mixture', 'unresolved'} else 'unresolved' if len(components) > 1 else 'single_material')
@@ -779,8 +799,7 @@ def cmd_sync(a):
             (atlas / 'static/data/protocol-art-bindings' / f'{rid}.json').write_text(json.dumps({'record_id': rid, 'source_record_sha256': digest, 'bindings': bindings}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
             sample = record['products'][0]['sample_id']; facts = []
             for i, m in enumerate(record['measurements']):
-                v = m['value']
-                facts.append({'label': m['property'].replace('_', ' ').capitalize(), 'value': f'{v["value"]:g} {v["unit"]}'.strip(), 'scope': f'{m["technique"]}; as stated for this product.', 'sample_id': sample,
+                facts.append({**measurement_display_fields(m), 'sample_id': sample,
                               'status': 'reported', 'source': pointer(f'/measurements/{i}/value'), 'source_locator': m['evidence'], 'record_id': rid, 'kind': 'measurement', 'measurement_id': m['id']})
             for key, label in (('phase', 'Crystal phase'), ('morphology', 'Shape'), ('surface', 'Surface ligand')):
                 fact = record['products'][0][key]
