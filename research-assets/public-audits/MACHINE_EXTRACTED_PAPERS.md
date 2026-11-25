@@ -8595,3 +8595,161 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1134/s1061933x25601398 | Unclear | new X reading |
 | 10.26434/chemrxiv-2024-4r7fz | Unclear | new X reading |
 | 10.3390/ijms24043797 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-159-X06 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1007/s40995-022-01366-7 | Unclear | new X reading |
+| 10.1007/s40995-023-01561-0 | Unclear | new X reading |
+| 10.1007/s41403-019-00073-x | Unclear | new X reading |
+| 10.1007/s41403-021-00280-5 | Unclear | new X reading |
+| 10.1007/s41742-019-00236-2 | Unclear | new X reading |
+| 10.1007/s41742-020-00265-2 | Unclear | new X reading |
+| 10.1007/s41779-019-00366-y | Unclear | new X reading |
+| 10.1007/s41779-020-00555-0 | Unclear | new X reading |
+| 10.1007/s41779-023-00988-3 | Unclear | new X reading |
+| 10.1007/s42243-018-0087-2 | Unclear | new X reading |
+| 10.1007/s42247-023-00477-0 | Unclear | new X reading |
+| 10.1007/s42247-024-00810-1 | Unclear | new X reading |
+| 10.1007/s42247-025-00998-w | Unclear | new X reading |
+| 10.1007/s42247-025-01147-z | Out of scope | new X reading |
+| 10.1007/s42247-025-01230-5 | Unclear | new X reading |
+| 10.1007/s42250-021-00264-6 | Out of scope | new X reading |
+| 10.1007/s42250-025-01215-1 | Unclear | new X reading |
+| 10.1007/s42341-018-0059-z | Unclear | new X reading |
+| 10.1007/s42341-023-00499-9 | Unclear | new X reading |
+| 10.1007/s42765-026-00706-1 | Unclear | new X reading |
+| 10.1007/s42823-022-00455-2 | Unclear | new X reading |
+| 10.1007/s42835-023-01711-9 | Unclear | new X reading |
+| 10.1007/s42864-022-00188-9 | Out of scope | new X reading |
+| 10.1007/s43207-025-00527-9 | Unclear | new X reading |
+| 10.1007/s43207-025-00528-8 | Unclear | new X reading |
+| 10.1007/s43538-025-00456-5 | Unclear | new X reading |
+| 10.1007/s43939-026-00809-x | Unclear | new X reading |
+| 10.1007/s44210-023-00013-z | Unclear | new X reading |
+| 10.1007/s44211-022-00153-z | Unclear | new X reading |
+| 10.1007/s44211-023-00320-w | Unclear | new X reading |
+| 10.1007/s44211-024-00548-0 | Unclear | new X reading |
+| 10.1007/s44211-025-00716-w | Unclear | new X reading |
+| 10.1016/j.infrared.2009.09.003 | Unclear | new X reading |
+| 10.1017/s1431927604880255 | Unclear | new X reading |
+| 10.1017/s1431927606067754 | Unclear | new X reading |
+| 10.1017/s1431927611005599 | Unclear | new X reading |
+| 10.1017/s1431927611006465 | Unclear | new X reading |
+| 10.1017/s1431927611011962 | Unclear | new X reading |
+| 10.1017/s1431927612001559 | Unclear | new X reading |
+| 10.1017/s1431927612002528 | Unclear | new X reading |
+| 10.1017/s1431927613006430 | Unclear | new X reading |
+| 10.1017/s1431927613011884 | Unclear | new X reading |
+| 10.1017/s1431927614000294 | Unclear | new X reading |
+| 10.1017/s1431927614004796 | Unclear | new X reading |
+| 10.1017/s1431927614009726 | Unclear | new X reading |
+| 10.1017/s1431927615007436 | Unclear | new X reading |
+| 10.1017/s1431927615008545 | Unclear | new X reading |
+| 10.1017/s1431927616007121 | Out of scope | new X reading |
+| 10.1017/s1431927616007273 | Unclear | new X reading |
+| 10.1017/s1431927616011491 | Unclear | new X reading |
+| 10.1017/s1431927616011569 | Unclear | new X reading |
+| 10.1017/s1431927617001878 | Unclear | new X reading |
+| 10.1017/s1431927617008054 | Out of scope | new X reading |
+| 10.1017/s1431927617008285 | Out of scope | new X reading |
+| 10.1017/s1431927618001721 | Unclear | new X reading |
+| 10.1017/s1431927618008760 | Unclear | new X reading |
+| 10.1017/s1431927619003866 | Unclear | new X reading |
+| 10.1017/s1431927619004240 | Unclear | new X reading |
+| 10.1017/s1431927619008420 | Unclear | new X reading |
+| 10.1017/s1431927620017055 | Unclear | new X reading |
+| 10.1017/s1431927620022060 | Unclear | new X reading |
+| 10.1017/s1431927620022928 | Unclear | new X reading |
+| 10.1017/s1431927620024101 | Unclear | new X reading |
+| 10.1017/s1431927622007449 | Unclear | new X reading |
+| 10.1017/s1551929511001556 | Thin | new X reading |
+| 10.1021/ac0353740 | Unclear | new X reading |
+| 10.1021/ac049351c | Unclear | new X reading |
+| 10.1021/ac060412b | Unclear | new X reading |
+| 10.1021/ac070055k | Unclear | new X reading |
+| 10.1021/ac0715064 | Unclear | new X reading |
+| 10.1021/ac100260m | Unclear | new X reading |
+| 10.1021/ac200222d | Unclear | new X reading |
+| 10.1021/ac2013114 | Unclear | new X reading |
+| 10.1021/ac202077x | Unclear | new X reading |
+| 10.1021/ac400320n | Unclear | new X reading |
+| 10.1021/ac402082s | Unclear | new X reading |
+| 10.1021/ac4040357 | Unclear | new X reading |
+| 10.1021/ac502600a | Unclear | new X reading |
+| 10.1021/ac702416e | Unclear | new X reading |
+| 10.1021/ac801396y | Thin | new X reading |
+| 10.1021/ac902221d | Unclear | new X reading |
+| 10.1021/accountsmr.5c00016 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00463 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00712 | Unclear | new X reading |
+| 10.1021/acs.accounts.0c00719 | Unclear | new X reading |
+| 10.1021/acs.accounts.1c00745 | Unclear | new X reading |
+| 10.1021/acs.accounts.2c00613 | Unclear | new X reading |
+| 10.1021/acs.accounts.3c00125 | Unclear | new X reading |
+| 10.1021/acs.accounts.3c00147 | Unclear | new X reading |
+| 10.1021/acs.accounts.4c00454 | Unclear | new X reading |
+| 10.1021/acs.accounts.5b00537 | Unclear | new X reading |
+| 10.1021/acs.accounts.8b00355 | Unclear | new X reading |
+| 10.1021/acs.analchem.0c03131 | Unclear | new X reading |
+| 10.1021/acs.analchem.0c03289 | Unclear | new X reading |
+| 10.1021/acs.analchem.0c03484 | Unclear | new X reading |
+| 10.1021/acs.analchem.1c00560 | Unclear | new X reading |
+| 10.1021/acs.analchem.1c02709 | Unclear | new X reading |
+| 10.1021/acs.analchem.1c03085 | Unclear | new X reading |
+| 10.1021/acs.analchem.1c03675 | Unclear | new X reading |
+| 10.1021/acs.analchem.2c01495 | Unclear | new X reading |
+| 10.1021/acs.analchem.2c02544 | Unclear | new X reading |
+| 10.1021/acs.analchem.2c04747 | Unclear | new X reading |
+| 10.1021/acs.analchem.3c04791 | Unclear | new X reading |
+| 10.1021/acs.analchem.4c00097 | Unclear | new X reading |
+| 10.1021/acs.analchem.4c01042 | Unclear | new X reading |
+| 10.1021/acs.analchem.4c01170 | Unclear | new X reading |
+| 10.1021/acs.analchem.4c03541 | Unclear | new X reading |
+| 10.1021/acs.analchem.4c04594 | Unclear | new X reading |
+| 10.1021/acs.analchem.5b02907 | Unclear | new X reading |
+| 10.1021/acs.analchem.5b03559 | Unclear | new X reading |
+| 10.1021/acs.analchem.5b04190 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c00707 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c01691 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c02078 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c04514 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c06665 | Unclear | new X reading |
+| 10.1021/acs.analchem.5c08146 | Unclear | new X reading |
+| 10.1021/acs.analchem.6b01625 | Unclear | new X reading |
+| 10.1021/acs.analchem.6b02420 | Unclear | new X reading |
+| 10.1021/acs.analchem.6b02958 | Out of scope | new X reading |
+| 10.1021/acs.analchem.6c01588 | Out of scope | new X reading |
+| 10.1021/acs.analchem.6c02889 | Unclear | new X reading |
+| 10.1021/acs.analchem.6c03806 | Unclear | new X reading |
+| 10.1021/acs.analchem.7b00869 | Unclear | new X reading |
+| 10.1021/acs.analchem.7b00989 | Out of scope | new X reading |
+| 10.1021/acs.analchem.7b02291 | Unclear | new X reading |
+| 10.1021/acs.analchem.7b04274 | Unclear | new X reading |
+| 10.1021/acs.analchem.7b05235 | Unclear | new X reading |
+| 10.1021/acs.analchem.8b03572 | Unclear | new X reading |
+| 10.1021/acs.analchem.9b00924 | Unclear | new X reading |
+| 10.1021/acs.analchem.9b01811 | Out of scope | new X reading |
+| 10.1021/acs.analchem.9b05199 | Unclear | new X reading |
+| 10.1021/acs.biochem.4c00155 | Unclear | new X reading |
+| 10.1021/acs.bioconjchem.4c00521 | Unclear | new X reading |
+| 10.1021/acs.bioconjchem.7b00056 | Unclear | new X reading |
+| 10.1021/acs.bioconjchem.8b00647 | Unclear | new X reading |
+| 10.1021/acs.cgd.1c01410 | Unclear | new X reading |
+| 10.1021/acs.cgd.2c01220 | Out of scope | new X reading |
+| 10.1021/acs.cgd.3c00374 | Unclear | new X reading |
+| 10.1021/acs.cgd.3c00640 | Unclear | new X reading |
+| 10.1021/acs.cgd.3c01007 | Out of scope | new X reading |
+| 10.1021/acs.cgd.3c01009 | Unclear | new X reading |
+| 10.1021/acs.cgd.5c00423 | Unclear | new X reading |
+| 10.1021/acs.cgd.6b01090 | Unclear | new X reading |
+| 10.1021/acs.cgd.7b01294 | Out of scope | new X reading |
+| 10.1021/acs.chemmater.0c00714 | Unclear | new X reading |
+| 10.1021/acs.chemmater.0c03615 | Unclear | new X reading |
+| 10.1021/acs.chemmater.1c00832 | Unclear | new X reading |
+| 10.1021/acs.chemmater.2c00199 | Unclear | new X reading |
+| 10.1021/acs.chemmater.2c00640 | Unclear | new X reading |

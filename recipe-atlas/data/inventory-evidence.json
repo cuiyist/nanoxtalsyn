@@ -162679,6 +162679,469 @@
       "record_ids": [
         "kwon2025-chemrxiv-2025-w75wn-insb-cl-qds-1"
       ]
+    },
+    {
+      "source_group": "aziz2025-s44371-025-00374-x",
+      "paper_id": "aziz2025-s44371-025-00374-x",
+      "doi": "10.1007/s44371-025-00374-x",
+      "url": "https://doi.org/10.1007/s44371-025-00374-x",
+      "title": "Carbon quantum dot doped NH₂-MIL-53 for sustainable atmospheric water harvesting",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 22,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/aziz2025-s44371-025-00374-x-cqds-nh2-mil-53-al-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "aziz2025-s44371-025-00374-x-cqds-nh2-mil-53-al-1"
+      ]
+    },
+    {
+      "source_group": "wang2024-acs-analchem-4c00695",
+      "paper_id": "wang2024-acs-analchem-4c00695",
+      "doi": "10.1021/acs.analchem.4c00695",
+      "url": "https://doi.org/10.1021/acs.analchem.4c00695",
+      "title": "A Long Wave-Infrared Miniatured Quantum Dot Spectrometer",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wang2024-acs-analchem-4c00695-hgse-qds-sample-7-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 38,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wang2024-acs-analchem-4c00695-hgse-qds-sample-7-1"
+      ]
+    },
+    {
+      "source_group": "sagayaraj2020-s42250-020-00153-4",
+      "paper_id": "sagayaraj2020-s42250-020-00153-4",
+      "doi": "10.1007/s42250-020-00153-4",
+      "url": "https://doi.org/10.1007/s42250-020-00153-4",
+      "title": "Structural, Spectroscopic and Magnetic Study of Nanocrystalline Terbium–Nickel Ferrite by Oxalate Co-Precipitation Method",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/sagayaraj2020-s42250-020-00153-4-ni0-5tb0-5fe2o4-pvp-nanoparticles-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "sagayaraj2020-s42250-020-00153-4-ni0-5tb0-5fe2o4-pvp-nanoparticles-1"
+      ]
+    },
+    {
+      "source_group": "karkhaneh2024-s42247-024-00705-1",
+      "paper_id": "karkhaneh2024-s42247-024-00705-1",
+      "doi": "10.1007/s42247-024-00705-1",
+      "url": "https://doi.org/10.1007/s42247-024-00705-1",
+      "title": "Facile fabrication of quantum dot–sensitized solar cells with multilayer TiO2 NCs/TiO2 HSs/CIS/CdS/CdSe(Xmin)/ZnS photoanode and modification of light scattering and co-sensitization for higher efficiencies",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/karkhaneh2024-s42247-024-00705-1-cis-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "karkhaneh2024-s42247-024-00705-1-cis-qds-1"
+      ]
+    },
+    {
+      "source_group": "mao2020-acs-analchem-0c03078",
+      "paper_id": "mao2020-acs-analchem-0c03078",
+      "doi": "10.1021/acs.analchem.0c03078",
+      "url": "https://doi.org/10.1021/acs.analchem.0c03078",
+      "title": "Novel Method of Clickable Quantum Dot Construction for Bioorthogonal Labeling",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mao2020-acs-analchem-0c03078-n3-dna-functionalized-cdte-zn2-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mao2020-acs-analchem-0c03078-n3-dna-functionalized-cdte-zn2-qds-1",
+        "mao2020-acs-analchem-0c03078-dbco-dna-functionalized-cdte-zn2-qds-2"
+      ]
+    },
+    {
+      "source_group": "zhang2020-acs-analchem-0c00529",
+      "paper_id": "zhang2020-acs-analchem-0c00529",
+      "doi": "10.1021/acs.analchem.0c00529",
+      "url": "https://doi.org/10.1021/acs.analchem.0c00529",
+      "title": "Quantum Dot-Based Sensitization System for Boosted Photon Absorption and Enhanced Second Near-Infrared Luminescence of Lanthanide-Doped Nanoparticle",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2020-acs-analchem-0c00529-ag2s-qd-sensitized-er3-doped-lnp-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 31,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2020-acs-analchem-0c00529-ag2s-qd-sensitized-er3-doped-lnp-1",
+        "zhang2020-acs-analchem-0c00529-ag2s-qds-2",
+        "zhang2020-acs-analchem-0c00529-ag2se-qds-3",
+        "zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4"
+      ]
     }
   ],
   "material_notes": {
