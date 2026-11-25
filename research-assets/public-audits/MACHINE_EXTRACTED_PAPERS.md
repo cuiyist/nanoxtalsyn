@@ -8894,3 +8894,140 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1021/acs.jpcc.8b08413 | Unclear | new X reading |
 | 10.1021/acs.jpcc.8b09108 | Unclear | new X reading |
 | 10.1021/acs.jpcc.8b09137 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-168-X08 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1021/acs.jpcc.8b10565 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b00210 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b00783 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b01340 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b01365 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b03348 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b04174 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b04880 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b05013 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b05086 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b05863 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b06264 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.9b06551 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b07957 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b10946 | Unclear | new X reading |
+| 10.1021/acs.jpcc.9b11698 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c01599 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c02419 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c03047 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c03153 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c03519 | Unclear | new X reading |
+| 10.1021/acs.jpclett.0c03628 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c00811 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c01154 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c01206 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.1c01551 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c02470 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c02741 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c03060 | Unclear | new X reading |
+| 10.1021/acs.jpclett.1c03530 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c00514 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c00604 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c00841 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c01036 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c01577 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.2c02370 | Unclear | new X reading |
+| 10.1021/acs.jpclett.2c02856 | Unclear | new X reading |
+| 10.1021/acs.jpclett.3c00307 | Unclear | new X reading |
+| 10.1021/acs.jpclett.3c01618 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c01594 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c01878 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c01974 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c02080 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.4c02446 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c03019 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c03350 | Unclear | new X reading |
+| 10.1021/acs.jpclett.4c03570 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5b00293 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5b00295 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5b01214 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5b02251 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c00094 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.5c00401 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c00697 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c00734 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c00907 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c02298 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c02394 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c02795 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c02937 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c03183 | Unclear | new X reading |
+| 10.1021/acs.jpclett.5c03990 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b00430 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b01309 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b01569 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b01899 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b02224 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6b02864 | Out of scope | new X reading |
+| 10.1021/acs.jpclett.6b02980 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6c00410 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6c00694 | Unclear | new X reading |
+| 10.1021/acs.jpclett.6c01359 | Unclear | new X reading |
+| 10.1021/acs.jpclett.7b00534 | Unclear | new X reading |
+| 10.1021/acs.jpclett.7b00584 | Unclear | new X reading |
+| 10.1021/acs.jpclett.7b00846 | Unclear | new X reading |
+| 10.1021/acs.jpclett.7b01709 | Unclear | new X reading |
+| 10.1021/acs.jpclett.7b03278 | Unclear | new X reading |
+| 10.1021/acs.jpclett.8b00109 | Unclear | new X reading |
+| 10.1021/acs.jpclett.8b00409 | Unclear | new X reading |
+| 10.1021/acs.jpclett.8b02278 | Unclear | new X reading |
+| 10.1021/acs.jpclett.8b03713 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b00178 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b00180 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b00189 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b00439 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b00499 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b01083 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b01282 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b01433 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b02082 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b02950 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b03164 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b03204 | Unclear | new X reading |
+| 10.1021/acs.jpclett.9b03567 | Unclear | new X reading |
+| 10.1021/acs.langmuir.1c00194 | Unclear | new X reading |
+| 10.1021/acs.langmuir.4c00544 | Unclear | new X reading |
+| 10.1021/acs.langmuir.4c01476 | Unclear | new X reading |
+| 10.1021/acs.langmuir.4c02757 | Unclear | new X reading |
+| 10.1021/acs.langmuir.4c03281 | Unclear | new X reading |
+| 10.1021/acs.langmuir.4c04770 | Unclear | new X reading |
+| 10.1021/acs.langmuir.5b01570 | Unclear | new X reading |
+| 10.1021/acs.langmuir.5c06053 | Unclear | new X reading |
+| 10.1021/acs.langmuir.6b03355 | Unclear | new X reading |
+| 10.1021/acs.langmuir.6c00300 | Unclear | new X reading |
+| 10.1021/acs.langmuir.7b01365 | Unclear | new X reading |
+| 10.1021/acs.langmuir.7b01738 | Unclear | new X reading |
+| 10.1021/acs.langmuir.7b02659 | Unclear | new X reading |
+| 10.1021/acs.langmuir.7b03400 | Unclear | new X reading |
+| 10.1021/acs.langmuir.8b02674 | Unclear | new X reading |
+| 10.1021/acs.langmuir.9b00816 | Unclear | new X reading |
+| 10.1021/acs.langmuir.9b01168 | Unclear | new X reading |
+| 10.1021/acs.langmuir.9b03001 | Unclear | new X reading |
+| 10.1021/acs.macromol.0c02639 | Unclear | new X reading |
+| 10.1021/acs.macromol.5b02295 | Unclear | new X reading |
+| 10.1021/acs.macromol.5c01415 | Unclear | new X reading |
+| 10.1021/acs.molpharmaceut.3c00785 | Unclear | new X reading |
+| 10.1021/acs.molpharmaceut.5c01483 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c00162 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c00984 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c01579 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c01913 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c02644 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c02992 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c03400 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c03911 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c04017 | Unclear | new X reading |
+| 10.1021/acs.nanolett.0c04060 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c00413 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c00783 | Unclear | new X reading |
