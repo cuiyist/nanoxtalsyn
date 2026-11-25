@@ -60,6 +60,21 @@ def microscopy_grid_preparation(step, product):
                         r'(?:(?:a|the)\s+)?copper\s+(?:(?:tem|microscopy)\s+)?grid\.?', description) is not None
 
 
+def checked_vacuum_environment(step):
+    """Don't project a recipe-wide gas onto an explicitly checked vacuum degas."""
+    if (step.get('action') or '').strip().casefold() not in {'degas', 'evacuate'}:
+        return None
+    description = str(step.get('description') or '')
+    quote = str(step.get('quote') or '')
+    explicit = re.compile(r'\bunder\s+(?:a\s+)?vacuum\b', re.I)
+    if not (explicit.search(description) and explicit.search(quote) and step.get('page')):
+        return None
+    # A quote with another environment/transition doesn't isolate this step's state.
+    if re.search(r'\b(?:then|backfill\w*|nitrogen|argon|air|N\s*[2₂]|Ar)\b', quote, re.I):
+        return None
+    return {'value': 'vacuum', 'page': step['page']}
+
+
 def public_figure_caption(figure):
     """An explicit public paraphrase only; raw captions and quotes stay local."""
     caption = figure.get('public_caption')
@@ -425,7 +440,8 @@ class Builder:
             operations.append({'id': oid, 'action': (s.get('action') or 'step').lower(), 'label': first_upper((s.get('description') or s.get('action') or 'Step').strip()),
                                'stage': 'workup' if workup else 'synthesis', 'branch': '', 'optional': False, 'depends_on': [previous_op] if previous_op else [],
                                'inputs': list(state['parent_ids']), 'outputs': [state['id']], 'parameters': parameters,
-                               'environment': self.fact(atmosphere if not workup else None), 'endpoint': self.fact(None), 'retained_fraction': None,
+                               'environment': self.fact((checked_vacuum_environment(s) or atmosphere) if not workup else None),
+                               'endpoint': self.fact(None), 'retained_fraction': None,
                                'description': first_upper((s.get('description') or s.get('action') or '').strip()), 'evidence': self.evidence(s.get('page'))})
             previous_state, previous_op = state['id'], oid
         sample = f'{rid}--product'

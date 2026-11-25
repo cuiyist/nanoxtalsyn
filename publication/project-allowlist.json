@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x-release08",
+  "release_id": "tanjin-x08-vacuum-correction",
   "repo": "mattersyn",
-  "source_commit": "85ace1d7af1d79a6d42abf121e45c83a2a5fd79b",
+  "source_commit": "7c763f9c7d23340e3446b300ea3bf97b80286d08",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "cde3a9740b237d605d6bbf14222566b576a5fa15639ff19ccb1e025e50882831",
-    "file_count": 67654,
+    "sha256": "5276c6e0f21c13fa74ca258026c74565eb79f25091fa504bf42ef5b34298184a",
+    "file_count": 67655,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -150,16 +150,22 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "cc021067baf0ead3c3a5253d40d1190a5e21c1de06a515ff420b8d13638f204f",
-      "bytes": 15610663,
+      "sha256": "6aefd50aaec6af4890009d6649cf4d4b33ac20c5969f6003b917462953c8b4e2",
+      "bytes": 15610991,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T12:42:08.956996+00:00",
+      "reviewed_at": "2026-11-25T15:18:09.831447+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval"
+      "approval_scope": "Derived source control only; no scientific or eligibility approval",
+      "metadata_review": {
+        "before_sha256": "2b5a3adbd45e3c2ba05972516663de5765685dc91a273ea79893c003c1d0fa01",
+        "sha256": "3bb59ec97ab0399227c87fccb50a650472693c600d5763a8abdabcd6cbb12b1c",
+        "reviewer": "Codex exact checked vacuum degassing correction",
+        "reviewed_at": "2026-11-25T09:17:34.947339-06:00"
+      }
     },
     {
       "path": "publication/public-release-policy.json",
@@ -3014,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "1d1cb1e36f8b8431b07c764cc17b9e2a80cc1bfbab883f0787df230c36879b9e",
+      "sha256": "fdf5ade61e5173f5538e98d143f38129b7ed75398ffbc134d2e49097636dbe61",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3038,25 +3044,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "069fd16e0335d38428eb0ff57195072a2812efa3f7c18888937cc926624f5009",
+      "sha256": "ea2d6edfd4920538a3e09b3029b966131157d86c9df7c8b0093fdf7e490c40b6",
       "bytes": 83881244,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "7f7d53cd48654c7b0e5442e612cd61a3c44ab070bade613535034bb8573238c0",
+      "sha256": "ce3f07efaeb40ecb6cc977b6183755ec2200698416d03a1ca692e46a5296aa5d",
       "bytes": 10566208,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -32874,13 +32880,13 @@
     },
     {
       "path": "recipe-atlas/data/records/ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1.json",
-      "sha256": "dee26a41030c0d59bc922942fe7c5c262243aba35fae67a37c5fa5b2aea923f9",
-      "bytes": 28650,
+      "sha256": "35668cddb6d8193ad34e0978cf28678270573ab294163884a9d60276925c8d4d",
+      "bytes": 28654,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -130190,13 +130196,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "ef55e7feb6327abf9c59f148de34589594a034fbbf2b35f0d5d15cfbd6da11ae",
+      "sha256": "d6f1a4d80a0837e0c83a759bf7267374d298ce0283246760b2663f1b610a9bca",
       "bytes": 27439663,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T12:42:08.956996+00:00",
+      "reviewed_at": "2026-11-25T15:18:09.831447+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -144151,13 +144157,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "56aacc2d26191ddd1430ca15afbec966d6c4e97446f5c4ada3b7a20b2e5af084",
+      "sha256": "c0dfba1798d61327410ff96a57d77ae7c038083a88a8d3a39b6c205831391fe3",
       "bytes": 11107945,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175432,13 +175438,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "6686d85d7ce521db355e016a355d1300438591b07c86e6e7fb826cb1592cca10",
+      "sha256": "c65465b4acad1ff89e24f1af50e8b652a18611ef2c237b3a1b922912517926b7",
       "bytes": 5002052,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -1014196,13 +1014202,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1.json",
-      "sha256": "5f052fdd74f7184657e6538ad18489fae6e2b91272632e380d9b1e71d048def2",
+      "sha256": "88d818a605e32d8a317c3aedff856f58fd19abb40156cb3ece8bbe89a1980df6",
       "bytes": 3459,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1164647,6 +1164653,18 @@
       "source_refs": []
     },
     {
+      "path": "tools/simple-pipeline/test_checked_vacuum_environment.py",
+      "sha256": "194b35bda6b9e03a2d5f009133c696ecb4cbe2214db41d6ab0b11de0c202d532",
+      "bytes": 1667,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
       "path": "tools/simple-pipeline/test_chemical_matching.py",
       "sha256": "d0f64d0b25f70499e1ac49978d454a9b30da48db9a047a7ff6f0207adb42fdba",
       "bytes": 9192,
@@ -1165252,13 +1165270,13 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "582072de79ff4ee7ffbe5476067191c16e84dc41ab362f921b69aab8783c6d67",
-      "bytes": 65270,
+      "sha256": "f988864d4bdd0527f82031c260cbd478b0c91084d358bde87fa7ebfee98a8484",
+      "bytes": 66082,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X07 thickness evidence projection correction",
-      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
+      "reviewer": "Codex exact checked vacuum degassing correction",
+      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },

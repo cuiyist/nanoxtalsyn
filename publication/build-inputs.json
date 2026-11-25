@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release08",
-  "updated_at": "2026-11-25T12:42:08.956996+00:00",
+  "release_id": "tanjin-x08-vacuum-correction",
+  "updated_at": "2026-11-25T15:18:09.831447+00:00",
   "record_count": 7822,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "1d1cb1e36f8b8431b07c764cc17b9e2a80cc1bfbab883f0787df230c36879b9e",
+      "sha256": "fdf5ade61e5173f5538e98d143f38129b7ed75398ffbc134d2e49097636dbe61",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "069fd16e0335d38428eb0ff57195072a2812efa3f7c18888937cc926624f5009",
+      "sha256": "ea2d6edfd4920538a3e09b3029b966131157d86c9df7c8b0093fdf7e490c40b6",
       "bytes": 83881244
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "7f7d53cd48654c7b0e5442e612cd61a3c44ab070bade613535034bb8573238c0",
+      "sha256": "ce3f07efaeb40ecb6cc977b6183755ec2200698416d03a1ca692e46a5296aa5d",
       "bytes": 10566208
     },
     {
@@ -10466,8 +10466,8 @@
     },
     {
       "path": "recipe-atlas/data/records/ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1.json",
-      "sha256": "dee26a41030c0d59bc922942fe7c5c262243aba35fae67a37c5fa5b2aea923f9",
-      "bytes": 28650
+      "sha256": "35668cddb6d8193ad34e0978cf28678270573ab294163884a9d60276925c8d4d",
+      "bytes": 28654
     },
     {
       "path": "recipe-atlas/data/records/ghosha1999-1-369585-ga0-57in0-43p-alloy-layers-with-gap-2-in-1.json",
@@ -40296,7 +40296,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "ef55e7feb6327abf9c59f148de34589594a034fbbf2b35f0d5d15cfbd6da11ae",
+      "sha256": "d6f1a4d80a0837e0c83a759bf7267374d298ce0283246760b2663f1b610a9bca",
       "bytes": 27439663
     },
     {
@@ -41856,7 +41856,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "56aacc2d26191ddd1430ca15afbec966d6c4e97446f5c4ada3b7a20b2e5af084",
+      "sha256": "c0dfba1798d61327410ff96a57d77ae7c038083a88a8d3a39b6c205831391fe3",
       "bytes": 11107945
     },
     {
@@ -53071,7 +53071,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "6686d85d7ce521db355e016a355d1300438591b07c86e6e7fb826cb1592cca10",
+      "sha256": "c65465b4acad1ff89e24f1af50e8b652a18611ef2c237b3a1b922912517926b7",
       "bytes": 5002052
     },
     {
@@ -304881,7 +304881,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1.json",
-      "sha256": "5f052fdd74f7184657e6538ad18489fae6e2b91272632e380d9b1e71d048def2",
+      "sha256": "88d818a605e32d8a317c3aedff856f58fd19abb40156cb3ece8bbe89a1980df6",
       "bytes": 3459
     },
     {
@@ -337945,6 +337945,11 @@
       "bytes": 3041
     },
     {
+      "path": "tools/simple-pipeline/test_checked_vacuum_environment.py",
+      "sha256": "194b35bda6b9e03a2d5f009133c696ecb4cbe2214db41d6ab0b11de0c202d532",
+      "bytes": 1667
+    },
+    {
       "path": "tools/simple-pipeline/test_chemical_matching.py",
       "sha256": "d0f64d0b25f70499e1ac49978d454a9b30da48db9a047a7ff6f0207adb42fdba",
       "bytes": 9192
@@ -338196,8 +338201,8 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "582072de79ff4ee7ffbe5476067191c16e84dc41ab362f921b69aab8783c6d67",
-      "bytes": 65270
+      "sha256": "f988864d4bdd0527f82031c260cbd478b0c91084d358bde87fa7ebfee98a8484",
+      "bytes": 66082
     },
     {
       "path": "tools/simple-pipeline/w10_materials.py",
@@ -342702,7 +342707,8 @@
     "zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4": "b4e0f1240be707b74c77dbb4ec14a8f75c6836179206ee3f1f840091902eec89",
     "guo2018-acs-est-8b00352-biocl-1-1": "7635c432dc1c7358798ca5238860041531a7205b8fbfc42114ab08a804a0b754",
     "guo2018-acs-est-8b00352-biocl-2-2": "b95f48a98097fc9d51ade9f2cf353af0b1ebc7e3b71c25580c718c9bb4aaea5d",
-    "guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3": "ecf38d65ca5970d68d32fcdb57ed98ea77a5f6225b08c52c829341b1123b381d"
+    "guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3": "ecf38d65ca5970d68d32fcdb57ed98ea77a5f6225b08c52c829341b1123b381d",
+    "ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1": "64b6bb9910ad48879f25d5f992ed0102d7abe73e78f772077b3f98111803314a"
   },
   "schema": "mattersyn-build-input-blueprint/1",
   "note": "Exact public source inputs; the blueprint and its enclosing approval manifest are excluded to avoid self-reference. The external runtime snapshot binds the clean source commit."
