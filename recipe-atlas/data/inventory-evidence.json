@@ -164185,6 +164185,326 @@
       "record_ids": [
         "yang2015-acs-jpcc-5b10546-cdsete-cds-core-shell-qds-1"
       ]
+    },
+    {
+      "source_group": "zenatti2026-acs-jpclett-6c01392",
+      "paper_id": "zenatti2026-acs-jpclett-6c01392",
+      "doi": "10.1021/acs.jpclett.6c01392",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c01392",
+      "title": "From Exciton to Tetraexciton: Final-State Doublets and 1P Addition Energies in a Weakly Confined Perovskite Quantum Dot",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zenatti2026-acs-jpclett-6c01392-5-8-nm-cspbbr3-ncs-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zenatti2026-acs-jpclett-6c01392-5-8-nm-cspbbr3-ncs-2",
+        "zenatti2026-acs-jpclett-6c01392-10-8-nm-cspbbr3-ncs-3",
+        "zenatti2026-acs-jpclett-6c01392-18-0-nm-cspbbr3-ncs-4"
+      ]
+    },
+    {
+      "source_group": "ghosh2023-acs-jpclett-2c03373",
+      "paper_id": "ghosh2023-acs-jpclett-2c03373",
+      "doi": "10.1021/acs.jpclett.2c03373",
+      "url": "https://doi.org/10.1021/acs.jpclett.2c03373",
+      "title": "Beneficial Intrinsic Hole Trapping and Its Amplitude Variation in a Highly Photoluminescent Toxic-Metal-Free Quantum Dot",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 17,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1"
+      ]
+    },
+    {
+      "source_group": "mondal2024-acs-jpclett-4c00540",
+      "paper_id": "mondal2024-acs-jpclett-4c00540",
+      "doi": "10.1021/acs.jpclett.4c00540",
+      "url": "https://doi.org/10.1021/acs.jpclett.4c00540",
+      "title": "Plasmon Mediated Single Photon Emission from a Nanocrystal Ensemble",
+      "year": 2024,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mondal2024-acs-jpclett-4c00540-cdse-cds-core-shell-colloidal-quantum-do-4.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 10,
+          "page_count": 18,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mondal2024-acs-jpclett-4c00540-cdse-cds-core-shell-colloidal-quantum-do-4",
+        "mondal2024-acs-jpclett-4c00540-au-nanospheres-5",
+        "mondal2024-acs-jpclett-4c00540-au-ag-nanoparticles-nps-6"
+      ]
+    },
+    {
+      "source_group": "munro2016-acs-jpcc-6b08247",
+      "paper_id": "munro2016-acs-jpcc-6b08247",
+      "doi": "10.1021/acs.jpcc.6b08247",
+      "url": "https://doi.org/10.1021/acs.jpcc.6b08247",
+      "title": "Phenyldithiocarbamate Ligands Decompose During Nanocrystal Ligand Exchange",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/munro2016-acs-jpcc-6b08247-cdse-nanocrystals-with-amine-capped-surf-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 18,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "munro2016-acs-jpcc-6b08247-cdse-nanocrystals-with-amine-capped-surf-1",
+        "munro2016-acs-jpcc-6b08247-cdse-nanocrystals-with-oleate-capped-sur-2"
+      ]
     }
   ],
   "material_notes": {
