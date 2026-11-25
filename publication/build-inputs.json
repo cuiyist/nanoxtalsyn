@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release07",
-  "updated_at": "2026-11-25T07:34:08.027018+00:00",
+  "release_id": "tanjin-x07-thickness-correction",
+  "updated_at": "2026-11-25T10:17:23.849354+00:00",
   "record_count": 7813,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "b988f8f5590cfed6d25110e76b2e7a9a81d8276d3f49e810ba7af8189b303007",
+      "sha256": "adeddef3e0cf954a858e744002ea8d9816ad3b141cc4d38412c3e6168a7b3c09",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "a7c6681c62c003e69b610db042d25c0865fc883c184ac0e5fd035c4d98c7aa77",
-      "bytes": 83879447
+      "sha256": "e5ab973105d795a2f3079e833e88ab75f6869e3b082ed3159823adcd0421f234",
+      "bytes": 83879783
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "ac05202e2bba7b5d00c106b844056b772e7727b9cdcb7ad2074a2fb355ef5da7",
+      "sha256": "387775699547628a678f8fe40ab98dff5f1e796e0999fd217bcda283cde81870",
       "bytes": 10456348
     },
     {
@@ -11051,18 +11051,18 @@
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-biocl-1-1.json",
-      "sha256": "fad74e18ad7a55c3f6d280bb9c58e6706a4b0df68aefaba865769939a6a96ee0",
-      "bytes": 19413
+      "sha256": "2c15e7692b247bc6ebcb913effeab74a9cf53a4cfce10297ed3b2c56a4ab5508",
+      "bytes": 19422
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-biocl-2-2.json",
-      "sha256": "b3f85e753073c6b02d9d43b49085dab977b62821f176590bd29e357658d779e1",
-      "bytes": 19383
+      "sha256": "3ba6977864e1c49e724a29d8a96aea79a0093e71f4c2ae3e96be54126c66714c",
+      "bytes": 19390
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3.json",
-      "sha256": "4dfb1b695b04b6becd6d609c5af23a95b043e505fa25fbb9014e711c3470f874",
-      "bytes": 18136
+      "sha256": "bb77265b60aee63d065f35df4d06f1024351c921e92856f0d39b072e4bcc9d97",
+      "bytes": 18029
     },
     {
       "path": "recipe-atlas/data/records/guo2020-acssuschemeng-9b06395-mn-doped-zns-qds-gelatin-nanocomposite-2.json",
@@ -40251,7 +40251,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "30a50992b9eef03104583223bdf63d53d303d55d3e27cd3fd872816f7db98d44",
+      "sha256": "233d6218292571ec41d23c74f81ebe2616022c6942391a9c26c16ae0f9fa6c58",
       "bytes": 27406097
     },
     {
@@ -41026,8 +41026,8 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release07-pairs.json",
-      "sha256": "72a11af55aafda17dc8837e89d82e117fa122e98aba92ffc3b9c0631d28db6ec",
-      "bytes": 63987
+      "sha256": "24e1176f600d4b07f296a9ff7fef6509d80fb5f98f988242f00acc9bee3602d5",
+      "bytes": 64190
     },
     {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
@@ -41806,7 +41806,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "cf8adab73b66ca945b1fbb932e0d50e90972aa2de821123813bb21e0a0e864ed",
+      "sha256": "00cb10bb6affe54526298fb82a7ad4c294895341485add9216fb20441822afbd",
       "bytes": 11098618
     },
     {
@@ -53021,7 +53021,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "c83acb96abc5b47f4ac98d291bc284c8be7ee092ff121563a90512a790e0bf3e",
+      "sha256": "214f339bd646dd148a009efcfc2b7c9af466857133acab9672e79c2ab4b899a5",
       "bytes": 4999670
     },
     {
@@ -304966,17 +304966,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-biocl-1-1.json",
-      "sha256": "7a8a167725da4fddb2d0b12986a1096f254e70c9a49628531427490482035bf0",
+      "sha256": "169858c6b3fad081760ca5b720508c7470e911bdd7cc8191c8c6aed5717978ea",
       "bytes": 3609
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-biocl-2-2.json",
-      "sha256": "c5a43f2632ccdd406cce927cbdad273c3dab05efcc0bed98dd81166103c99322",
+      "sha256": "0467fe415024d97467094e4888d20b6b8698c03254544b8926d91f5c4d5c4720",
       "bytes": 3605
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3.json",
-      "sha256": "d218f8a39706966a20e55bd76ce25f5d4fddbfffc7fc5512b87e26b41c094329",
+      "sha256": "17ce0e748293ce18e7f6fdcf7f9ed87ffbb2cdbcd9f044d5c403aba70505f7a7",
       "bytes": 3250
     },
     {
@@ -337426,8 +337426,8 @@
     },
     {
       "path": "tools/simple-pipeline/mattersyn_simple.py",
-      "sha256": "28e857cec3eb8e892f0dbcb1da5ec4aa47e89fa2be89c3470846e39705b7d7a7",
-      "bytes": 56378
+      "sha256": "1c3f7b6a7b6519705c7f658060b38c8a81538b6db96306215599bfd2135d3614",
+      "bytes": 58794
     },
     {
       "path": "tools/simple-pipeline/prepare_pending_batch_caption_plan.py",
@@ -337675,6 +337675,11 @@
       "bytes": 2575
     },
     {
+      "path": "tools/simple-pipeline/test_sheet_thickness_projection.py",
+      "sha256": "4624f930a9c75bb9e7d98c8a3919082618df8106130cda81c344d8b402e1432b",
+      "bytes": 2745
+    },
+    {
       "path": "tools/simple-pipeline/test_starting_particle_roles.py",
       "sha256": "da558fa4e446b53db26f8637adbddc204262f6066161106f57344295ee640f61",
       "bytes": 4645
@@ -337741,8 +337746,8 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "0555cbf77c8a548e0fa6a062e3f01cb70e9bc21e22e056ea4f57fd16f5be1f3e",
-      "bytes": 64499
+      "sha256": "582072de79ff4ee7ffbe5476067191c16e84dc41ab362f921b69aab8783c6d67",
+      "bytes": 65270
     },
     {
       "path": "tools/simple-pipeline/w10_materials.py",
@@ -342244,7 +342249,10 @@
     "aziz2025-s44371-025-00374-x-cqds-nh2-mil-53-al-1": "03bd2535a21fa1f1131e5163c9d050905916e2727f77c4ef4135a2d9b253e114",
     "sagayaraj2020-s42250-020-00153-4-ni0-5tb0-5fe2o4-pvp-nanoparticles-1": "1f942168c22bb9c9c6b8648ccc46598cae547f65bbb883c3ca9bb711b72929f7",
     "zhang2020-acs-analchem-0c00529-ag2se-qds-3": "c38fb45d4191a6dc156cf8d680228e7606004855879f84265a557f394e6d3d1b",
-    "zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4": "b4e0f1240be707b74c77dbb4ec14a8f75c6836179206ee3f1f840091902eec89"
+    "zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4": "b4e0f1240be707b74c77dbb4ec14a8f75c6836179206ee3f1f840091902eec89",
+    "guo2018-acs-est-8b00352-biocl-1-1": "7635c432dc1c7358798ca5238860041531a7205b8fbfc42114ab08a804a0b754",
+    "guo2018-acs-est-8b00352-biocl-2-2": "b95f48a98097fc9d51ade9f2cf353af0b1ebc7e3b71c25580c718c9bb4aaea5d",
+    "guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3": "ecf38d65ca5970d68d32fcdb57ed98ea77a5f6225b08c52c829341b1123b381d"
   },
   "schema": "mattersyn-build-input-blueprint/1",
   "note": "Exact public source inputs; the blueprint and its enclosing approval manifest are excluded to avoid self-reference. The external runtime snapshot binds the clean source commit."

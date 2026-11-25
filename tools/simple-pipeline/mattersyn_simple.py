@@ -795,6 +795,47 @@ def withheld_projection_fields(structure):
     ) if check(structure))
 
 
+def checked_sheet_thickness(structure):
+    """Identify a checked sheet thickness without adding an unchecked endpoint."""
+    size = structure.get('size') or {}
+    shape = str((structure.get('shape') or {}).get('value') or '')
+    value = size.get('value')
+    if (type(value) not in (int, float) or size.get('page') is None
+            or str(size.get('unit') or '').strip().casefold() != 'nm'
+            or not re.search(r'\b(?:nano\s*sheets?|nano\s*platelets?|2d\s+sheets?)\b', shape, re.I)):
+        return None
+    quote = unicodedata.normalize('NFKC', str(size.get('quote') or '')).casefold()
+    quote = re.sub(r'[\u2010-\u2015\u2212]', '-', quote)
+    if re.search(r'\b(?:diameters?|lateral|radii|radius|wavelengths?|shell)\b', quote):
+        return None
+    number = r'(?<![\w.])\d+(?:\.\d+)?(?![\w.])'
+    matches = list(re.finditer(
+        rf'({number})(?:\s*(?:-|to)\s*({number}))?\s*nm\b', quote))
+    if len(matches) != 1:
+        return None
+    match = matches[0]
+    before, after = quote[:match.start()], quote[match.end():]
+    tied = re.search(r'\bthickness\b[^.;:!?]{0,96}$', before) or re.match(r'\s*(?:in\s+thickness|thick)\b', after)
+    if not tied or float(match.group(1)) != value:
+        return None
+    if match.group(2) and float(match.group(2)) <= value:
+        return None
+    prop = 'nanosheet_thickness_lower_endpoint' if match.group(2) else 'nanosheet_thickness'
+    approximate = bool(re.search(r'\b(?:approximately|about|ca\.)\s*$', before) or before.rstrip().endswith('~'))
+    return prop, approximate
+
+
+def sheet_thickness_measurement(structure, measurement, thickness):
+    """Retain the checked number and locator, but identify its measured axis."""
+    prop, approximate = thickness
+    method = str((structure.get('size_method') or {}).get('value') or '').strip().casefold()
+    technique = 'AFM' if method == 'afm' else measurement['technique']
+    value = {**measurement['value'], 'approximate': approximate}
+    if prop.endswith('_lower_endpoint'):
+        value['qualifier'] = 'Lower endpoint of the reported thickness range; the upper endpoint was not checked.'
+    return {**measurement, 'property': prop, 'technique': technique, 'value': value}
+
+
 def public_pair(pair):
     """Keep only checked factual fields and locators, not private annotations."""
     def fields(value, keys):
@@ -816,7 +857,7 @@ def public_pair(pair):
         return value if 'value' in value else {}
 
     structure, recipe = pair.get('structure') or {}, pair.get('recipe') or {}
-    return {
+    output = {
         'product': pair.get('product') or '',
         'structure': {k: fact(structure[k]) for k in STRUCTURE_FIELDS if k in structure},
         'recipe': {
@@ -826,6 +867,11 @@ def public_pair(pair):
                       for s in recipe.get('steps') or []],
         },
     }
+    thickness = checked_sheet_thickness(structure)
+    if thickness:
+        prop, approximate = thickness
+        output['structure']['size'].update(dimension=prop, approximate=approximate)
+    return output
 
 
 def public_document(doc):

@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x-release07",
+  "release_id": "tanjin-x07-thickness-correction",
   "repo": "mattersyn",
-  "source_commit": "88ab6e9c410c02921edf43d47317b1a3c7c366fd",
+  "source_commit": "a96d442a04b9b3d12ee8b27e03a77badf3cb68a0",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "591b33751bfb84f429ca35d667610baae30d98a625b103498b1f83745883ce07",
-    "file_count": 67563,
+    "sha256": "03fb6b16df6a213a5c473784fd0950888648ec963ebf3f67e7045fac6c1f7fbf",
+    "file_count": 67564,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -150,16 +150,22 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "7ee1ace10c3a985b8eb440497e37f2fc0beb447d0bc8b8e5371899635b727611",
-      "bytes": 15588700,
+      "sha256": "eb46f63c8102b1d9685fcf3975d3cb55d94d61d37b0ef50eb2203d0ce73c4672",
+      "bytes": 15589254,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T07:34:08.027018+00:00",
+      "reviewed_at": "2026-11-25T10:17:23.849354+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval"
+      "approval_scope": "Derived source control only; no scientific or eligibility approval",
+      "metadata_review": {
+        "before_sha256": "6936eae020b81754abe8d4ee4119f32d2bb3a73c64b64aa36dd5954686702a8c",
+        "sha256": "2b5a3adbd45e3c2ba05972516663de5765685dc91a273ea79893c003c1d0fa01",
+        "reviewer": "Codex exact X07 thickness evidence projection correction",
+        "reviewed_at": "2026-11-25T04:16:49.224013-06:00"
+      }
     },
     {
       "path": "publication/public-release-policy.json",
@@ -3014,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "b988f8f5590cfed6d25110e76b2e7a9a81d8276d3f49e810ba7af8189b303007",
+      "sha256": "adeddef3e0cf954a858e744002ea8d9816ad3b141cc4d38412c3e6168a7b3c09",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3038,25 +3044,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "a7c6681c62c003e69b610db042d25c0865fc883c184ac0e5fd035c4d98c7aa77",
-      "bytes": 83879447,
+      "sha256": "e5ab973105d795a2f3079e833e88ab75f6869e3b082ed3159823adcd0421f234",
+      "bytes": 83879783,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "ac05202e2bba7b5d00c106b844056b772e7727b9cdcb7ad2074a2fb355ef5da7",
+      "sha256": "387775699547628a678f8fe40ab98dff5f1e796e0999fd217bcda283cde81870",
       "bytes": 10456348,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -34706,13 +34712,13 @@
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-biocl-1-1.json",
-      "sha256": "fad74e18ad7a55c3f6d280bb9c58e6706a4b0df68aefaba865769939a6a96ee0",
-      "bytes": 19413,
+      "sha256": "2c15e7692b247bc6ebcb913effeab74a9cf53a4cfce10297ed3b2c56a4ab5508",
+      "bytes": 19422,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -34722,13 +34728,13 @@
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-biocl-2-2.json",
-      "sha256": "b3f85e753073c6b02d9d43b49085dab977b62821f176590bd29e357658d779e1",
-      "bytes": 19383,
+      "sha256": "3ba6977864e1c49e724a29d8a96aea79a0093e71f4c2ae3e96be54126c66714c",
+      "bytes": 19390,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -34738,13 +34744,13 @@
     },
     {
       "path": "recipe-atlas/data/records/guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3.json",
-      "sha256": "4dfb1b695b04b6becd6d609c5af23a95b043e505fa25fbb9014e711c3470f874",
-      "bytes": 18136,
+      "sha256": "bb77265b60aee63d065f35df4d06f1024351c921e92856f0d39b072e4bcc9d97",
+      "bytes": 18029,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -130046,13 +130052,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "30a50992b9eef03104583223bdf63d53d303d55d3e27cd3fd872816f7db98d44",
+      "sha256": "233d6218292571ec41d23c74f81ebe2616022c6942391a9c26c16ae0f9fa6c58",
       "bytes": 27406097,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T07:34:08.027018+00:00",
+      "reviewed_at": "2026-11-25T10:17:23.849354+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -142050,13 +142056,13 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release07-pairs.json",
-      "sha256": "72a11af55aafda17dc8837e89d82e117fa122e98aba92ffc3b9c0631d28db6ec",
-      "bytes": 63987,
+      "sha256": "24e1176f600d4b07f296a9ff7fef6509d80fb5f98f988242f00acc9bee3602d5",
+      "bytes": 64190,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -143995,13 +144001,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "cf8adab73b66ca945b1fbb932e0d50e90972aa2de821123813bb21e0a0e864ed",
+      "sha256": "00cb10bb6affe54526298fb82a7ad4c294895341485add9216fb20441822afbd",
       "bytes": 11098618,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175276,13 +175282,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "c83acb96abc5b47f4ac98d291bc284c8be7ee092ff121563a90512a790e0bf3e",
+      "sha256": "214f339bd646dd148a009efcfc2b7c9af466857133acab9672e79c2ab4b899a5",
       "bytes": 4999670,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -1016002,13 +1016008,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-biocl-1-1.json",
-      "sha256": "7a8a167725da4fddb2d0b12986a1096f254e70c9a49628531427490482035bf0",
+      "sha256": "169858c6b3fad081760ca5b720508c7470e911bdd7cc8191c8c6aed5717978ea",
       "bytes": 3609,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1016018,13 +1016024,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-biocl-2-2.json",
-      "sha256": "c5a43f2632ccdd406cce927cbdad273c3dab05efcc0bed98dd81166103c99322",
+      "sha256": "0467fe415024d97467094e4888d20b6b8698c03254544b8926d91f5c4d5c4720",
       "bytes": 3605,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1016034,13 +1016040,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3.json",
-      "sha256": "d218f8a39706966a20e55bd76ce25f5d4fddbfffc7fc5512b87e26b41c094329",
+      "sha256": "17ce0e748293ce18e7f6fdcf7f9ed87ffbb2cdbcd9f044d5c403aba70505f7a7",
       "bytes": 3250,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T07:33:40+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1163044,13 +1163050,13 @@
     },
     {
       "path": "tools/simple-pipeline/mattersyn_simple.py",
-      "sha256": "28e857cec3eb8e892f0dbcb1da5ec4aa47e89fa2be89c3470846e39705b7d7a7",
-      "bytes": 56378,
+      "sha256": "1c3f7b6a7b6519705c7f658060b38c8a81538b6db96306215599bfd2135d3614",
+      "bytes": 58794,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X06 emission projection correction",
-      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1163643,6 +1163649,18 @@
       "source_refs": []
     },
     {
+      "path": "tools/simple-pipeline/test_sheet_thickness_projection.py",
+      "sha256": "4624f930a9c75bb9e7d98c8a3919082618df8106130cda81c344d8b402e1432b",
+      "bytes": 2745,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
       "path": "tools/simple-pipeline/test_starting_particle_roles.py",
       "sha256": "da558fa4e446b53db26f8637adbddc204262f6066161106f57344295ee640f61",
       "bytes": 4645,
@@ -1163804,13 +1163822,13 @@
     },
     {
       "path": "tools/simple-pipeline/to_site.py",
-      "sha256": "0555cbf77c8a548e0fa6a062e3f01cb70e9bc21e22e056ea4f57fd16f5be1f3e",
-      "bytes": 64499,
+      "sha256": "582072de79ff4ee7ffbe5476067191c16e84dc41ab362f921b69aab8783c6d67",
+      "bytes": 65270,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact inventory projection, original ordinals and unchanged publisher route check",
-      "reviewed_at": "2026-11-22T11:17:12+00:00",
+      "reviewer": "Codex exact X07 thickness evidence projection correction",
+      "reviewed_at": "2026-11-25T04:16:49.224013-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
