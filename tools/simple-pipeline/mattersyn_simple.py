@@ -765,6 +765,36 @@ def has_misattributed_optical_size(structure):
     return False
 
 
+def has_misattributed_emission_peak(structure):
+    """Withhold an explicitly vibrational band or laser excitation from PL output."""
+    fact = structure.get('emission_peak') or {}
+    value, quote = fact.get('value'), fact.get('quote') or ''
+    if type(value) not in (int, float) or not quote or fact.get('page') is None:
+        return False
+    unit = re.sub(r'[\s^]', '', unicodedata.normalize('NFKC', str(fact.get('unit') or '')).lower())
+    unit = unit.replace('−', '-').replace('–', '-')
+    numeric = rf'(?<![\d.]){re.escape(format(value, "g"))}(?:\.0+)?(?![\d.])'
+    if unit == 'cm-1':
+        return (bool(re.search(numeric, quote)) and
+                bool(re.search(r'\b(?:FT[ -]?IR|infrared|vibrat\w*|bands?)\b', quote, re.I)) and
+                not re.search(r'\b(?:photo)?luminescen\w*\b|\bfluorescen\w*\b|\bemissi\w*\b', quote, re.I))
+    if unit == 'nm':
+        # The retained value itself, not another number in this quote, must
+        # modify the excitation laser. Do not discard a separately named PL peak.
+        return bool(re.search(
+            numeric + r'\s*nm\b(?:\s*\([\w\d ./%,²µ⁻±−+^\-]{1,40}\))?[ -]*'
+            r'(?:[A-Za-z][A-Za-z-]*\s+){0,3}laser\s+excitation\b',
+            quote, re.I))
+    return False
+
+
+def withheld_projection_fields(structure):
+    return tuple(name for name, check in (
+        ('size', has_misattributed_optical_size),
+        ('emission_peak', has_misattributed_emission_peak),
+    ) if check(structure))
+
+
 def public_pair(pair):
     """Keep only checked factual fields and locators, not private annotations."""
     def fields(value, keys):
@@ -807,9 +837,10 @@ def public_document(doc):
     removed = 0
     for pair in doc.get('pairs') or []:
         structure = pair.get('structure') or {}
-        if has_misattributed_optical_size(structure):
-            pair = {**pair, 'structure': {k: v for k, v in structure.items() if k != 'size'}}
-            removed += 1
+        excluded = withheld_projection_fields(structure)
+        if excluded:
+            pair = {**pair, 'structure': {k: v for k, v in structure.items() if k not in excluded}}
+            removed += len(excluded)
         public['pairs'].append(public_pair(pair))
     if removed and type(public.get('values_kept')) is int:
         public['values_kept'] -= removed

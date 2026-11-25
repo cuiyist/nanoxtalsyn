@@ -1,13 +1,13 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x-release06",
+  "release_id": "tanjin-x06-emission-correction",
   "repo": "mattersyn",
-  "source_commit": "20226615344da69cf7a708df0846f38a9db71265",
+  "source_commit": "3b723829d6ef3b0ecb3bb9eda1d5e4ddc4331489",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "fe88d66d3b40cc22d9ec6a44070a431599c20c2ecc9dada6a9ea099eb4a7c2ae",
-    "file_count": 67342,
+    "sha256": "91341bd919d05d932166506810180ff5446c53a81e2c28cbe40d632efb5a0ce1",
+    "file_count": 67343,
     "excludes": [
       "publication/project-allowlist.json"
     ]
@@ -150,16 +150,22 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "3e1532b2c9043db305deafa7066fab41aa97aba83226c95b036d6ef21a82a02d",
-      "bytes": 15536448,
+      "sha256": "5f041631375e731c821cc0639b23fa164f08028202fe52f9d64921c6d8f08558",
+      "bytes": 15537178,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T02:10:59.811925+00:00",
+      "reviewed_at": "2026-11-25T04:58:13.909386+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval"
+      "approval_scope": "Derived source control only; no scientific or eligibility approval",
+      "metadata_review": {
+        "before_sha256": "7b637ea7ed919429936b5a69581f7c084690813c7ab8deba316e9110e2edce88",
+        "sha256": "6936eae020b81754abe8d4ee4119f32d2bb3a73c64b64aa36dd5954686702a8c",
+        "reviewer": "Codex exact X06 emission projection correction",
+        "reviewed_at": "2026-11-24T22:57:50.664548-06:00"
+      }
     },
     {
       "path": "publication/public-release-policy.json",
@@ -3014,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "661168ed37be3f7334c07eb833b3b8163f2de0a0aba152713116ba890bbe5fc7",
+      "sha256": "29db95f2ff1dc4a9be96069e3d008d2173a970ad2762a58fe81e9f4773f8d7e1",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3038,25 +3044,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "09af3df16cfae25e73761a3973d5911515ab72f95d41a51dd5777b9889cc5ef0",
-      "bytes": 83877354,
+      "sha256": "e56a0606346015e23da1c7db616bfd3fb167435e7d6ae9b80cd620347e58f609",
+      "bytes": 83871476,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "3638bc6283e2b8c4414281a0b9f0ec547e193bac910dd0c1eaee53c700609409",
+      "sha256": "81dbc7c59dbc6508de6dac2cc660a298680ff45ce273ef16a506b21e871ae368",
       "bytes": 10147381,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -8484,13 +8490,13 @@
     },
     {
       "path": "recipe-atlas/data/records/aziz2025-s44371-025-00374-x-cqds-nh2-mil-53-al-1.json",
-      "sha256": "19ed0eb2a6ecba518cf04d89c54ff6615f8fc557813e5c2003f067a81b89d8b2",
-      "bytes": 24259,
+      "sha256": "746168ac1a8b4e09bad39ee6d79fb6dba9e4cd47a80d59a254def1002648eac4",
+      "bytes": 23406,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -90456,13 +90462,13 @@
     },
     {
       "path": "recipe-atlas/data/records/sagayaraj2020-s42250-020-00153-4-ni0-5tb0-5fe2o4-pvp-nanoparticles-1.json",
-      "sha256": "44c2f1f9fdc075404cf1d89e9168439e3b46ac6731a1c1082dd6f35e547e9481",
-      "bytes": 20208,
+      "sha256": "000cbc62875fa66ac201107a0969da2a5f6579898e99c2d43ddbdb9e453e9585",
+      "bytes": 19309,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -125591,13 +125597,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2020-acs-analchem-0c00529-ag2se-qds-3.json",
-      "sha256": "6c66b0c2f18288919ebd2b97d017d36cede3b150cfae6822f88d29b383200cd9",
-      "bytes": 29152,
+      "sha256": "7a7b40aecd2f7729f0a368406ee9993e4b865f2e6719aad8289bfd76bba508b6",
+      "bytes": 28313,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -125607,13 +125613,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4.json",
-      "sha256": "6f6b4fec0d098047a710e35474652509cf1bc332dcd4c9cb34b795d1694e5671",
-      "bytes": 25326,
+      "sha256": "539386bbecb50daadf519ef9c8e477e7bff8814c15818b5b9eb51717a3fb3664",
+      "bytes": 24427,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -129678,13 +129684,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "79c4ebf20f1dfcb810aa699f6c31a2a6e87281f28dafeb3d0b1c6005c5b27680",
-      "bytes": 27321317,
+      "sha256": "ba802ed3e8c60b39b52694fc9dc52d954f8e3bcf06944c5d804e47f695f81658",
+      "bytes": 27321318,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T02:10:59.811925+00:00",
+      "reviewed_at": "2026-11-25T04:58:13.909386+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -141670,13 +141676,13 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release06-pairs.json",
-      "sha256": "b5c9b05dc525fb5e332e98f985507d422e5198c925503bd5d3684fa8a0b39149",
-      "bytes": 33807,
+      "sha256": "83a6da56e80956c949ce33ee82eca6de7f479b3cb2bb6097613ad57202d0a877",
+      "bytes": 33563,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -143615,13 +143621,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "edfe5eaeda84405b4059711986a45c13f46c6d6a44db016358cd6a72f1fb4f57",
+      "sha256": "9fa4a858cfb9ff68affbd0513d83bce11610237735d7c94436cef0676d847485",
       "bytes": 11081971,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -174896,13 +174902,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "b946ed662838849ea4e61322e6ccf74dad0ef1d4b15d2ab5e8500a751900a2b8",
+      "sha256": "eb9fbf143bdcf7fd1d01eea00e2adf0144ce79dfa199dd6c260a8147d5a01dd1",
       "bytes": 4995477,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -981948,13 +981954,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/aziz2025-s44371-025-00374-x-cqds-nh2-mil-53-al-1.json",
-      "sha256": "6ca17311c5456196f2d60655743174362c9f24cd14dc340a60792207af8d2aac",
+      "sha256": "1d977dbce9cdb1c2bd1d1a91b34a5dfdc4dbefb6f1bde864e419571b22663aa2",
       "bytes": 4167,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1081014,13 +1081020,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/sagayaraj2020-s42250-020-00153-4-ni0-5tb0-5fe2o4-pvp-nanoparticles-1.json",
-      "sha256": "31e3132794858906ae2ecac42f650474a238f18d0b2e76ba179fd9e5431fcf12",
+      "sha256": "f81a838eea3d06a832788f37437435be4795997565ed548139208782b63fd323",
       "bytes": 2510,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1123785,13 +1123791,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2020-acs-analchem-0c00529-ag2se-qds-3.json",
-      "sha256": "80931b57035988fde8f897eb0c377c0ca978bf8b4e092913b8fdb982ae3de50c",
+      "sha256": "c2ff9e60fb41ec8231a067fa77b19fb964826fa3d63c66a9477fa24982f64e6e",
       "bytes": 5115,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1123801,13 +1123807,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2020-acs-analchem-0c00529-nay0-8f4-yb0-18-er0-02-core-with-1-9-nm-4.json",
-      "sha256": "dfe7c45093b9c502376848cd91b6aca9d74e2497266d84681b567c1ee12c6b0a",
+      "sha256": "19e4c3848fb708e3bfc38aaba8cd530b8dd94de27d3facd1ca63cf896223ee65",
       "bytes": 3631,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T02:10:33+00:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1159444,13 +1159450,13 @@
     },
     {
       "path": "tools/simple-pipeline/completeness_conversion.py",
-      "sha256": "5b21712e5b8b66bae34d81c0e9c9587ecb53b47e8513ff991ee6f2d67d71d574",
-      "bytes": 5988,
+      "sha256": "38a7d566b4db6fbb3e4b677971ab9a0f599963b0b5b394cb8142feaf7bb52588",
+      "bytes": 5993,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X05 optical-size projection correction",
-      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1159528,13 +1159534,13 @@
     },
     {
       "path": "tools/simple-pipeline/mattersyn_simple.py",
-      "sha256": "8e80779931460689e427811401b5c788f5437ad1bcad1660b0c9088a1a8dd434",
-      "bytes": 54846,
+      "sha256": "28e857cec3eb8e892f0dbcb1da5ec4aa47e89fa2be89c3470846e39705b7d7a7",
+      "bytes": 56378,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X05 optical-size projection correction",
-      "reviewed_at": "2026-11-24T17:41:03.996112-06:00",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
@@ -1159811,6 +1159817,18 @@
       "review_status": "approved",
       "reviewer": "Root exact delivery review; source_extracted, no scientific audit asserted",
       "reviewed_at": "2026-10-12T13:31:30+00:00",
+      "content_class": "authored_code",
+      "source_refs": []
+    },
+    {
+      "path": "tools/simple-pipeline/test_emission_projection.py",
+      "sha256": "a1630b3e2d62c0af6a032b716ae7d9ffff367c8ff71ccf8c250e62ce1c6399c3",
+      "bytes": 2329,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex exact X06 emission projection correction",
+      "reviewed_at": "2026-11-24T22:57:50.664548-06:00",
       "content_class": "authored_code",
       "source_refs": []
     },
