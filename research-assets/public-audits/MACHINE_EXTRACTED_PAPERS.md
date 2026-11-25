@@ -8753,3 +8753,144 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1021/acs.chemmater.1c00832 | Unclear | new X reading |
 | 10.1021/acs.chemmater.2c00199 | Unclear | new X reading |
 | 10.1021/acs.chemmater.2c00640 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-164-X07 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1021/acs.chemmater.3c03258 | Unclear | new X reading |
+| 10.1021/acs.chemmater.5b02870 | Thin | new X reading |
+| 10.1021/acs.chemmater.5b02894 | Unclear | new X reading |
+| 10.1021/acs.chemmater.5b02953 | Unclear | new X reading |
+| 10.1021/acs.chemmater.5b04120 | Out of scope | new X reading |
+| 10.1021/acs.chemmater.5c00579 | Unclear | new X reading |
+| 10.1021/acs.chemmater.6b00434 | Unclear | new X reading |
+| 10.1021/acs.chemmater.6b01225 | Unclear | new X reading |
+| 10.1021/acs.chemmater.6b04631 | Unclear | new X reading |
+| 10.1021/acs.chemmater.7b00108 | Unclear | new X reading |
+| 10.1021/acs.chemmater.7b01609 | Unclear | new X reading |
+| 10.1021/acs.chemmater.7b04322 | Unclear | new X reading |
+| 10.1021/acs.chemmater.7b04689 | Unclear | new X reading |
+| 10.1021/acs.chemmater.8b00930 | Unclear | new X reading |
+| 10.1021/acs.chemmater.8b03331 | Unclear | new X reading |
+| 10.1021/acs.chemmater.8b04596 | Unclear | new X reading |
+| 10.1021/acs.chemmater.9b01767 | Unclear | new X reading |
+| 10.1021/acs.chemmater.9b02965 | Unclear | new X reading |
+| 10.1021/acs.chemrestox.1c00382 | Unclear | new X reading |
+| 10.1021/acs.energyfuels.3c00350 | Out of scope | new X reading |
+| 10.1021/acs.energyfuels.5c02923 | Unclear | new X reading |
+| 10.1021/acs.iecr.0c06323 | Unclear | new X reading |
+| 10.1021/acs.iecr.9b05689 | Out of scope | new X reading |
+| 10.1021/acs.iecr.9b06289 | Unclear | new X reading |
+| 10.1021/acs.iecr.9b06816 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.1c01506 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.1c02109 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.2c02422 | Out of scope | new X reading |
+| 10.1021/acs.inorgchem.5c01308 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.8b01482 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.8b03178 | Unclear | new X reading |
+| 10.1021/acs.jafc.6b03732 | Unclear | new X reading |
+| 10.1021/acs.jafc.9b02832 | Unclear | new X reading |
+| 10.1021/acs.jcim.8b00269 | Unclear | new X reading |
+| 10.1021/acs.jctc.3c00749 | Unclear | new X reading |
+| 10.1021/acs.jpca.2c00947 | Unclear | new X reading |
+| 10.1021/acs.jpca.5b03404 | Unclear | new X reading |
+| 10.1021/acs.jpca.5b06360 | Unclear | new X reading |
+| 10.1021/acs.jpca.5c08166 | Unclear | new X reading |
+| 10.1021/acs.jpca.6b06959 | Unclear | new X reading |
+| 10.1021/acs.jpcb.0c08992 | Out of scope | new X reading |
+| 10.1021/acs.jpcb.1c02043 | Unclear | new X reading |
+| 10.1021/acs.jpcb.1c09376 | Unclear | new X reading |
+| 10.1021/acs.jpcb.5c05315 | Unclear | new X reading |
+| 10.1021/acs.jpcb.5c07069 | Unclear | new X reading |
+| 10.1021/acs.jpcb.5c08234 | Unclear | new X reading |
+| 10.1021/acs.jpcb.6c02879 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c00351 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c02853 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.0c03052 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.0c05179 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c05572 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c06751 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c08195 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c09813 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c09814 | Unclear | new X reading |
+| 10.1021/acs.jpcc.0c11052 | Unclear | new X reading |
+| 10.1021/acs.jpcc.1c00453 | Unclear | new X reading |
+| 10.1021/acs.jpcc.1c03607 | Unclear | new X reading |
+| 10.1021/acs.jpcc.1c04218 | Thin | new X reading |
+| 10.1021/acs.jpcc.1c07830 | Unclear | new X reading |
+| 10.1021/acs.jpcc.1c10830 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.2c02170 | Unclear | new X reading |
+| 10.1021/acs.jpcc.2c03107 | Unclear | new X reading |
+| 10.1021/acs.jpcc.2c03833 | Unclear | new X reading |
+| 10.1021/acs.jpcc.2c04734 | Unclear | new X reading |
+| 10.1021/acs.jpcc.2c06591 | Unclear | new X reading |
+| 10.1021/acs.jpcc.2c07893 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c01562 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c01603 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c01877 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.3c02281 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c02308 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c03832 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c04800 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c05857 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c07658 | Unclear | new X reading |
+| 10.1021/acs.jpcc.3c08322 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.4c03174 | Unclear | new X reading |
+| 10.1021/acs.jpcc.4c04349 | Unclear | new X reading |
+| 10.1021/acs.jpcc.4c05577 | Unclear | new X reading |
+| 10.1021/acs.jpcc.4c08645 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b01132 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b02987 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b04885 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b06190 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.5b06192 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b06339 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.5b07828 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b08021 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b08578 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b09126 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b11556 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b11653 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5b12692 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c00574 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c04678 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c05117 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c05963 | Unclear | new X reading |
+| 10.1021/acs.jpcc.5c06300 | Thin | new X reading |
+| 10.1021/acs.jpcc.6b00512 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b00910 | Thin | new X reading |
+| 10.1021/acs.jpcc.6b03637 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b03695 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b04130 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b04734 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b05837 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.6b07171 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b07591 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b07734 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b07779 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b09124 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.6b09780 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6b11431 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6c00396 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6c02715 | Unclear | new X reading |
+| 10.1021/acs.jpcc.6c03809 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b00717 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.7b03731 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b03763 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b06383 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b07571 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b08054 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.7b09950 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b11799 | Unclear | new X reading |
+| 10.1021/acs.jpcc.7b12619 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.7b12837 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b04104 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b06610 | Out of scope | new X reading |
+| 10.1021/acs.jpcc.8b06996 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b08413 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b09108 | Unclear | new X reading |
+| 10.1021/acs.jpcc.8b09137 | Unclear | new X reading |
