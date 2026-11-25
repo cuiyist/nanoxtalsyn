@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release09",
-  "updated_at": "2026-11-25T18:42:16.013738+00:00",
+  "release_id": "tanjin-x09-precursor-correction",
+  "updated_at": "2026-11-25T21:20:15.058763+00:00",
   "record_count": 7840,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "dcbbb375d318199483a7cf117ef7ab10311be59519a813cc025b413088b18a06",
+      "sha256": "6294a79033d2d1a7e0e14256f364a531cfdd8bcdd8df7e11a42349ec93b7f157",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "57c3e6d0a8444dd51953470c0c30c2c64901ba214bb1dd82141b2f76e1c1ddb1",
+      "sha256": "db6bc9ad2f65f2284250600b660000d28a7c146dac01a0e374c4a47f26af2917",
       "bytes": 83885508
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "b57e8fdf91caa7e3a2e766b991cb9799090e1972801833cff4ef434401a7b19c",
+      "sha256": "a8e5e31d3dc88058f6a16da226f2a22b0ffe171fbe53487fbb51a2591be018a9",
       "bytes": 10808042
     },
     {
@@ -5456,18 +5456,18 @@
     },
     {
       "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2.json",
-      "sha256": "3185e3ece2782976c98df6703a9148276542d6a8282851cdb33373da536a5ff0",
-      "bytes": 30465
+      "sha256": "0689eb262f54566f6571708a3a075b705003fcd98eb5a425f41667e53b3430af",
+      "bytes": 30481
     },
     {
       "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1.json",
-      "sha256": "5296d9810a62d6e8727795c936a4df9097ebddc51c754995822b98ab33124c0c",
-      "bytes": 28068
+      "sha256": "70e004afbbb2bedc52ecea4e115bbc8095ca11c6f0aaa6e1fa641750d3742d56",
+      "bytes": 28084
     },
     {
       "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4.json",
-      "sha256": "e0a11c2de2fe7d55a56b313b2097ef98152a70a9ceb24680ab2e092b4bd0cf78",
-      "bytes": 17889
+      "sha256": "f2996b805397578a05be6ff20b07930b9719a22577ac454076e5b2702dab3422",
+      "bytes": 17905
     },
     {
       "path": "recipe-atlas/data/records/chehaibou2023-acs-jpcc-3c01837-hgte-nanocrystals-rod-shaped-1.json",
@@ -6636,13 +6636,13 @@
     },
     {
       "path": "recipe-atlas/data/records/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1.json",
-      "sha256": "0eb75134b063a6858db973351e248d839ad255a9c2800a14b20d802ccc3f2a28",
-      "bytes": 38316
+      "sha256": "1f44f846dc8355b5758c2d37288d5ad8452ac2f57ea9a765f0971c6176d23f2c",
+      "bytes": 38329
     },
     {
       "path": "recipe-atlas/data/records/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2.json",
-      "sha256": "31a82fdb8ec7b119f4dd6de67971c40a343445e495e842c69cd5521e23de0a93",
-      "bytes": 38230
+      "sha256": "c2d05479242259b781968440a671ee4457bb6a18f47b7349b4408548c1187df6",
+      "bytes": 38243
     },
     {
       "path": "recipe-atlas/data/records/cordones2014-jp406369a-pbsesnse2-nanocomposite-1.json",
@@ -40386,7 +40386,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "40876763c5e8e33f167c0160d4e69b6c3251096eda80a6984d63b7ebe7b33b76",
+      "sha256": "112bc99bd116d8974adbe0c664f4ef2fe941eb962b8f583816b79a2d5d10a6ee",
       "bytes": 27506845
     },
     {
@@ -41171,8 +41171,8 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release09-pairs.json",
-      "sha256": "357966bda098cc86c23ae1f3e3f226d29652f3457529928935fc133bca8157a0",
-      "bytes": 53184
+      "sha256": "2d3a456c8785b66133cc43c3ced1adba8b3f8d7bf4c6bfbe5e97c5fca44375ef",
+      "bytes": 53300
     },
     {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
@@ -41951,8 +41951,8 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "0105e04fe14fcc7c2eb60f090019437ce9a0716f9e083a04f09c66bc7d58c4d1",
-      "bytes": 11122892
+      "sha256": "253de1dff01e90d1615ffc83f55c6f286ef63cfe9d4d844ee61f8a319e505f9f",
+      "bytes": 11122937
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/friedfeld2019-products/friedfeld2019-acid-product-symbol.svg",
@@ -53166,7 +53166,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "32d26a7c45aa5c07b524f169d513319a039303f322e63178287cd80be8552dc5",
+      "sha256": "afa0df85c31c9c1ab9d25ddfb7cb1ed778cdad72e556406993c80a36fe1ab65b",
       "bytes": 5005924
     },
     {
@@ -302566,17 +302566,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2.json",
-      "sha256": "9ef0ac598c2584b6d9197f6061cb05662773ddf34d65923a3135e21e6a356a81",
+      "sha256": "1b1ce60664bb02c87d96b1a7884709606f016ccb4d77728bb084cd975e41b9c0",
       "bytes": 7949
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1.json",
-      "sha256": "5bd8e20f7eb27ca2ea0c9acdf5a5a9ef47530a31df446b46dc6adb5b09c0d2e1",
+      "sha256": "a0b458a8b40f6df179b81ad9902cbb50668ad36d2604eb66e15ba1f9ee1bb337",
       "bytes": 6950
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4.json",
-      "sha256": "10b062e59471040e8f58c4a2600a108e0b0e2b29228a8bd73cb9069edddf779c",
+      "sha256": "93a3189c0c91adeadfe693115961fdb710ad5c4e525f59366cedf86f3494ed01",
       "bytes": 3377
     },
     {
@@ -303421,12 +303421,12 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1.json",
-      "sha256": "18fa675e9e6ad8a655c06573ba56663a52ec5c923ca6511b9823dc46b47cb9ac",
+      "sha256": "aa527bf879d9208cf7f44d0423e65ccfedbcf36d017a7e6e2af0b9ef264c841d",
       "bytes": 6959
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2.json",
-      "sha256": "11f435081b34fbcebbf70ec221064f54a9f314e0db274fb472983bde13602750",
+      "sha256": "a40a5561f535c351286fa4469cad3a8a12071da738b51bedf5dc02792f07e459",
       "bytes": 6945
     },
     {
@@ -343738,7 +343738,12 @@
     "guo2018-acs-est-8b00352-biocl-1-1": "7635c432dc1c7358798ca5238860041531a7205b8fbfc42114ab08a804a0b754",
     "guo2018-acs-est-8b00352-biocl-2-2": "b95f48a98097fc9d51ade9f2cf353af0b1ebc7e3b71c25580c718c9bb4aaea5d",
     "guo2018-acs-est-8b00352-ultrathin-biocl-nanosheets-ubn-3": "ecf38d65ca5970d68d32fcdb57ed98ea77a5f6225b08c52c829341b1123b381d",
-    "ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1": "64b6bb9910ad48879f25d5f992ed0102d7abe73e78f772077b3f98111803314a"
+    "ghosh2023-acs-jpclett-2c03373-cuins2-znses-cas-qd-1": "64b6bb9910ad48879f25d5f992ed0102d7abe73e78f772077b3f98111803314a",
+    "chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1": "7400e48c388510fac2fefc327330c7fd2ffa5dc2083fd4ec59c81903e1918292",
+    "chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2": "bf1ef213df66f2723fffd3f6944b4e2ad887a1ef11c358bce984aef8dd80e1bf",
+    "chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4": "ba1628653f15b34339cd21c32f881d17006abb69ffefde638702518370274cb8",
+    "coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1": "41e02f0eb23fa9e08cfd2e9e6e94ef0b543353057e15b438e7b5d6bdfcb6091c",
+    "coopersmith2015-acs-langmuir-5b01130-b-qd-635-2": "d7407a742e408219f2ed035b8e2cf45f2b7972c84f9838f4599686265da5f13d"
   },
   "schema": "mattersyn-build-input-blueprint/1",
   "note": "Exact public source inputs; the blueprint and its enclosing approval manifest are excluded to avoid self-reference. The external runtime snapshot binds the clean source commit."
