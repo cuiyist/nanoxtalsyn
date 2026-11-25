@@ -164505,6 +164505,916 @@
         "munro2016-acs-jpcc-6b08247-cdse-nanocrystals-with-amine-capped-surf-1",
         "munro2016-acs-jpcc-6b08247-cdse-nanocrystals-with-oleate-capped-sur-2"
       ]
+    },
+    {
+      "source_group": "guo2025-acs-nanolett-5c01111",
+      "paper_id": "guo2025-acs-nanolett-5c01111",
+      "doi": "10.1021/acs.nanolett.5c01111",
+      "url": "https://doi.org/10.1021/acs.nanolett.5c01111",
+      "title": "Degradation Pathway Tailoring through Nanocrystal Interface Engineering for Photostable Perovskite Solar Cells",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 28,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2"
+      ]
+    },
+    {
+      "source_group": "marino2023-acs-nanolett-3c00299",
+      "paper_id": "marino2023-acs-nanolett-3c00299",
+      "doi": "10.1021/acs.nanolett.3c00299",
+      "url": "https://doi.org/10.1021/acs.nanolett.3c00299",
+      "title": "Temperature-Controlled Reversible Formation and Phase Transformation of 3D Nanocrystal Superlattices Through In Situ Small-Angle X-ray Scattering",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2"
+      ]
+    },
+    {
+      "source_group": "huang2020-acs-nanolett-0c00692",
+      "paper_id": "huang2020-acs-nanolett-0c00692",
+      "doi": "10.1021/acs.nanolett.0c00692",
+      "url": "https://doi.org/10.1021/acs.nanolett.0c00692",
+      "title": "Lead-free Cesium Europium Halide Perovskite Nanocrystals",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 6,
+          "page_count": 13,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1"
+      ]
+    },
+    {
+      "source_group": "parobek2016-acs-nanolett-6b02772",
+      "paper_id": "parobek2016-acs-nanolett-6b02772",
+      "doi": "10.1021/acs.nanolett.6b02772",
+      "url": "https://doi.org/10.1021/acs.nanolett.6b02772",
+      "title": "Exciton-to-Dopant Energy Transfer in Mn-Doped Cesium Lead Halide Perovskite Nanocrystals",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 5,
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1"
+      ]
+    },
+    {
+      "source_group": "nagamine2025-acs-nanolett-5c02663",
+      "paper_id": "nagamine2025-acs-nanolett-5c02663",
+      "doi": "10.1021/acs.nanolett.5c02663",
+      "url": "https://doi.org/10.1021/acs.nanolett.5c02663",
+      "title": "Spectroscopy of Single CdSe Magic-Sized Nanocrystals",
+      "year": 2025,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/nagamine2025-acs-nanolett-5c02663-cdse565-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 8,
+          "page_count": 22,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "nagamine2025-acs-nanolett-5c02663-cdse565-2"
+      ]
+    },
+    {
+      "source_group": "yang2015-acs-langmuir-5b02307",
+      "paper_id": "yang2015-acs-langmuir-5b02307",
+      "doi": "10.1021/acs.langmuir.5b02307",
+      "url": "https://doi.org/10.1021/acs.langmuir.5b02307",
+      "title": "Radical Initiated Hydrosilylation on Silicon Nanocrystal Surfaces: An Evaluation of Functional Group Tolerance and Mechanistic Study",
+      "year": 2015,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 13,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1"
+      ]
+    },
+    {
+      "source_group": "staller2022-acs-nanolett-2c01852",
+      "paper_id": "staller2022-acs-nanolett-2c01852",
+      "doi": "10.1021/acs.nanolett.2c01852",
+      "url": "https://doi.org/10.1021/acs.nanolett.2c01852",
+      "title": "Contact Conductance Governs Metallicity in Conducting Metal Oxide Nanocrystal Films",
+      "year": 2022,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 6,
+          "page_count": 26,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1",
+        "staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2",
+        "staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3"
+      ]
+    },
+    {
+      "source_group": "chen2023-acs-nanolett-3c01621",
+      "paper_id": "chen2023-acs-nanolett-3c01621",
+      "doi": "10.1021/acs.nanolett.3c01621",
+      "url": "https://doi.org/10.1021/acs.nanolett.3c01621",
+      "title": "Volumetric Nanocrystal Lattice Reconstruction through Dynamic Metal Complex Docking",
+      "year": 2023,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1"
+      ]
+    },
+    {
+      "source_group": "zhang2016-acs-nanolett-5b04959",
+      "paper_id": "zhang2016-acs-nanolett-5b04959",
+      "doi": "10.1021/acs.nanolett.5b04959",
+      "url": "https://doi.org/10.1021/acs.nanolett.5b04959",
+      "title": "Enhancing the Brightness of Cesium Lead Halide Perovskite Nanocrystal Based Green Light-Emitting Devices through the Interface Engineering with Perfluorinated Ionomer",
+      "year": 2016,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1"
+      ]
+    },
+    {
+      "source_group": "freyria2017-acs-nanolett-7b03735",
+      "paper_id": "freyria2017-acs-nanolett-7b03735",
+      "doi": "10.1021/acs.nanolett.7b03735",
+      "url": "https://doi.org/10.1021/acs.nanolett.7b03735",
+      "title": "Near-Infrared Quantum Dot Emission Enhanced by Stabilized Self-Assembled J-Aggregate Antennas",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/freyria2017-acs-nanolett-7b03735-pbs770-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 10,
+          "page_count": 16,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "freyria2017-acs-nanolett-7b03735-pbs770-1",
+        "freyria2017-acs-nanolett-7b03735-pbs980-2"
+      ]
+    },
+    {
+      "source_group": "chee2021-acs-nanolett-0c04346",
+      "paper_id": "chee2021-acs-nanolett-0c04346",
+      "doi": "10.1021/acs.nanolett.0c04346",
+      "url": "https://doi.org/10.1021/acs.nanolett.0c04346",
+      "title": "Correlating Structure and Detection Properties in HgTe Nanocrystal Films",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 7,
+          "page_count": 29,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1",
+        "chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2",
+        "chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4"
+      ]
+    },
+    {
+      "source_group": "coopersmith2015-acs-langmuir-5b01130",
+      "paper_id": "coopersmith2015-acs-langmuir-5b01130",
+      "doi": "10.1021/acs.langmuir.5b01130",
+      "url": "https://doi.org/10.1021/acs.langmuir.5b01130",
+      "title": "Stepwise Assembly and Characterization of DNA Linked Two-Color Quantum Dot Clusters",
+      "year": 2015,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1",
+        "coopersmith2015-acs-langmuir-5b01130-b-qd-635-2"
+      ]
     }
   ],
   "material_notes": {

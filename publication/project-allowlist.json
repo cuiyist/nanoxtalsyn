@@ -1,19 +1,19 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x08-vacuum-correction",
+  "release_id": "tanjin-x-release09",
   "repo": "mattersyn",
-  "source_commit": "7c763f9c7d23340e3446b300ea3bf97b80286d08",
+  "source_commit": "f760ea8c037186b4ace28305f917cb0218c89b9f",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "5276c6e0f21c13fa74ca258026c74565eb79f25091fa504bf42ef5b34298184a",
-    "file_count": 67655,
+    "sha256": "9f20ed4a2511dcbbcb10370967cc5907901d640980f87d0917d56bb9bc7fe6bd",
+    "file_count": 67861,
     "excludes": [
       "publication/project-allowlist.json"
     ]
   },
-  "policy_sha256": "90b536714bf5b8976297aabb3bee4b5d1c2713998af43c88774200bfbde1d70f",
-  "asset_rights_registry_sha256": "2002a53f8485da2c8ac3e25eb6d8306ba0eb2beebb4d943ccc7dfd88d1997590",
+  "policy_sha256": "e9cf83e7cc479935a16301cbe052f4cddba7d1d48d565f58fca4c771472b0289",
+  "asset_rights_registry_sha256": "4dc2a6f8b8bec76c4ce0f10e1f6cd905cd6cdb21ca8427bd077daac2fb82c100",
   "review_scope": "Exact staged payload identities. Scientific review remains separately bound to paper content.",
   "files": [
     {
@@ -138,44 +138,38 @@
     },
     {
       "path": "publication/asset-rights-registry.json",
-      "sha256": "2002a53f8485da2c8ac3e25eb6d8306ba0eb2beebb4d943ccc7dfd88d1997590",
-      "bytes": 82660797,
+      "sha256": "4dc2a6f8b8bec76c4ce0f10e1f6cd905cd6cdb21ca8427bd077daac2fb82c100",
+      "bytes": 82881581,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "6aefd50aaec6af4890009d6649cf4d4b33ac20c5969f6003b917462953c8b4e2",
-      "bytes": 15610991,
+      "sha256": "d904b10502c5895c1036422406cbbd0197bf242a4022a5ab894066bed2798a7d",
+      "bytes": 15659578,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T15:18:09.831447+00:00",
+      "reviewed_at": "2026-11-25T18:42:16.013738+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval",
-      "metadata_review": {
-        "before_sha256": "2b5a3adbd45e3c2ba05972516663de5765685dc91a273ea79893c003c1d0fa01",
-        "sha256": "3bb59ec97ab0399227c87fccb50a650472693c600d5763a8abdabcd6cbb12b1c",
-        "reviewer": "Codex exact checked vacuum degassing correction",
-        "reviewed_at": "2026-11-25T09:17:34.947339-06:00"
-      }
+      "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "90b536714bf5b8976297aabb3bee4b5d1c2713998af43c88774200bfbde1d70f",
+      "sha256": "e9cf83e7cc479935a16301cbe052f4cddba7d1d48d565f58fca4c771472b0289",
       "bytes": 295487,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -229,13 +223,13 @@
     },
     {
       "path": "recipe-atlas/data/inventory-evidence.json",
-      "sha256": "acda10ec1938002ce753eec33403c37efec9b15caa1db2bbaa986ccd0b45e088",
-      "bytes": 6352901,
+      "sha256": "4a9fc88a7a2ce6c0a4231cc7727609a73823a3dbfef9c4c16f1489c6d098101d",
+      "bytes": 6383559,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3020,13 +3014,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "fdf5ade61e5173f5538e98d143f38129b7ed75398ffbc134d2e49097636dbe61",
+      "sha256": "dcbbb375d318199483a7cf117ef7ab10311be59519a813cc025b413088b18a06",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact checked vacuum degassing correction",
-      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3044,25 +3038,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "ea2d6edfd4920538a3e09b3029b966131157d86c9df7c8b0093fdf7e490c40b6",
-      "bytes": 83881244,
+      "sha256": "57c3e6d0a8444dd51953470c0c30c2c64901ba214bb1dd82141b2f76e1c1ddb1",
+      "bytes": 83885508,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact checked vacuum degassing correction",
-      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "ce3f07efaeb40ecb6cc977b6183755ec2200698416d03a1ca692e46a5296aa5d",
-      "bytes": 10566208,
+      "sha256": "b57e8fdf91caa7e3a2e766b991cb9799090e1972801833cff4ef434401a7b19c",
+      "bytes": 10808042,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact checked vacuum degassing correction",
-      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -16734,6 +16728,54 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2.json",
+      "sha256": "3185e3ece2782976c98df6703a9148276542d6a8282851cdb33373da536a5ff0",
+      "bytes": 30465,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1.json",
+      "sha256": "5296d9810a62d6e8727795c936a4df9097ebddc51c754995822b98ab33124c0c",
+      "bytes": 28068,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4.json",
+      "sha256": "e0a11c2de2fe7d55a56b313b2097ef98152a70a9ceb24680ab2e092b4bd0cf78",
+      "bytes": 17889,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/chehaibou2023-acs-jpcc-3c01837-hgte-nanocrystals-rod-shaped-1.json",
       "sha256": "f3a180230eb78e64d9d2e97ff53077d34d16e5ddbd1c0eb9ee7be426e0e51430",
       "bytes": 14565,
@@ -18489,6 +18531,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsanm.1c04005"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1.json",
+      "sha256": "5ebf52a2699bebaf6420da6ec34b4ca28d52d7e52425dc13a2eac44261ad7859",
+      "bytes": 22359,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
         }
       ]
     },
@@ -20386,6 +20444,38 @@
         {
           "doi": "10.1103/physrevb.73.193311",
           "url": "https://doi.org/10.1103/physrevb.73.193311"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1.json",
+      "sha256": "0eb75134b063a6858db973351e248d839ad255a9c2800a14b20d802ccc3f2a28",
+      "bytes": 38316,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2.json",
+      "sha256": "31a82fdb8ec7b119f4dd6de67971c40a343445e495e842c69cd5521e23de0a93",
+      "bytes": 38230,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -29416,6 +29506,38 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/freyria2017-acs-nanolett-7b03735-pbs770-1.json",
+      "sha256": "b0d2bae044e210a66aadbfba1f58f243d91d1ce37f2d60ea9e770fbbd98edc64",
+      "bytes": 20510,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/freyria2017-acs-nanolett-7b03735-pbs980-2.json",
+      "sha256": "f03d7bf6af0e7a535c5c0f2cf4d817bd4a867ade23709aca195f7085f991c0e2",
+      "bytes": 20510,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/fridman2021-d1nr05371j-cdxzn1xs-nps-x-0-91-1.json",
       "sha256": "cef09c9d6a75b0069cb398bb8549c2b99c2f5e61257f7afbe68c0b8c5d8b6c59",
       "bytes": 10643,
@@ -34832,6 +34954,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.3c05055"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2.json",
+      "sha256": "0f4a4a957fcb19b83b18fbdb810cf0b78f464366483bdd9ca1c551396fa4cf7b",
+      "bytes": 21739,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
         }
       ]
     },
@@ -40714,6 +40852,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1186/s11671-018-2842-5"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1.json",
+      "sha256": "78e58755049c7bd7b5a3773b2c9a823ee2c3b96876fc9545c6cfcbb1bf8947c5",
+      "bytes": 30319,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
         }
       ]
     },
@@ -66483,6 +66637,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2.json",
+      "sha256": "a33e2d9ad7e30e3ab16c3e4b2433926d64c053b63c2a4dd3465a702f400fe3b3",
+      "bytes": 28591,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/markovic2020-acssuschemeng-0c06260-cl-doped-carbon-quantum-dots-clcqds-2.json",
       "sha256": "54a77bd76bfbc44bbe5f73a79300e0bb8dfcd8143edfee418f74122e6722b671",
       "bytes": 24901,
@@ -71682,6 +71852,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/ja301285x"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/nagamine2025-acs-nanolett-5c02663-cdse565-2.json",
+      "sha256": "fb598c28c30206f857b59b1cb4b2854a112e64d302be9efdec5f850edcbc872c",
+      "bytes": 25110,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
         }
       ]
     },
@@ -79724,6 +79910,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsomega.2c04668"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1.json",
+      "sha256": "9497cece46eea2540046d707b38f0bc8bfebbbb96796e7a32baf68ca27cee174",
+      "bytes": 20006,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
         }
       ]
     },
@@ -100704,6 +100906,54 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3.json",
+      "sha256": "faf592474483129a284e1adbac94535af38a83c54b27f1e472a12eaf0d077703",
+      "bytes": 16402,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2.json",
+      "sha256": "a9fc1fa1fa1b70d4f894197b8ded385df0e7e9052f11921486b1fa5d0af2f467",
+      "bytes": 16065,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1.json",
+      "sha256": "861aafc1322750a51961aaca491bab05607762bef3678665ed3248775f41c283",
+      "bytes": 16974,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/stam2014-nl4046069-hexagonal-bifrustum-shaped-zns-nanocryst-2.json",
       "sha256": "dba8cbc192a4b1ca56799578fc8f26439739f1529324fbe0e7316d6d7ae3d217",
       "bytes": 7784,
@@ -118579,6 +118829,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1.json",
+      "sha256": "51bacf7076cdba0a256d597a547fd7cc03a61dd36a94dd702508ded52f0f2637",
+      "bytes": 25668,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/yang2015-acsami-5b05372-gd-doped-cuins-zns-bqds-gcis-zns-1.json",
       "sha256": "f1e0f2dd28792dbe12439325543bcc96c11e71e6bd0aaae0c0095552f41a956f",
       "bytes": 14006,
@@ -125684,6 +125950,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1.json",
+      "sha256": "04565b7a3b62215d0944ae24bb77a9c157d0f788b01283862886cabf86deb261",
+      "bytes": 32339,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/zhang2016-acsami-6b09496-3d-0d-graphene-fe3o4-qd-hybrids-1.json",
       "sha256": "7f2bef7cfce589e691d8635e208cc88cd6c8fc49fc523685da13566aa10011c6",
       "bytes": 17800,
@@ -130196,13 +130478,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "d6f1a4d80a0837e0c83a759bf7267374d298ce0283246760b2663f1b610a9bca",
-      "bytes": 27439663,
+      "sha256": "40876763c5e8e33f167c0160d4e69b6c3251096eda80a6984d63b7ebe7b33b76",
+      "bytes": 27506845,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-25T15:18:09.831447+00:00",
+      "reviewed_at": "2026-11-25T18:42:16.013738+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -142223,6 +142505,18 @@
       "source_refs": []
     },
     {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release09-pairs.json",
+      "sha256": "357966bda098cc86c23ae1f3e3f226d29652f3457529928935fc133bca8157a0",
+      "bytes": 53184,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": []
+    },
+    {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
       "sha256": "8e3cfbde4da74b513a60567fc4f7960a79b1fe6e7836278e2f3deca5eab22b0b",
       "bytes": 5435,
@@ -142556,25 +142850,25 @@
     },
     {
       "path": "recipe-atlas/scripts/chemical_resolved_identity_pins.json",
-      "sha256": "ad6e6e83c6e7e2045e681ec6e3d7e9be9a32952927e6e0e7d8e3fe7feddaf922",
+      "sha256": "1dfb83f3a3746d12fddc93de6c04e42ff86f359ee7a0cec43192f6ae3a2e5e61",
       "bytes": 152140,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/scripts/chemical_standard_abbreviation_pins.json",
-      "sha256": "cca0469ed77d8bd992ea69ce875056dd286ad5df9e336ef0ff2fd4d035f3e24f",
+      "sha256": "af23748f7e1091ac204b6604587a2ce5c0e01f7ea4401f0694ecd24296201d77",
       "bytes": 32285,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -144157,13 +144451,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "c0dfba1798d61327410ff96a57d77ae7c038083a88a8d3a39b6c205831391fe3",
-      "bytes": 11107945,
+      "sha256": "0105e04fe14fcc7c2eb60f090019437ce9a0716f9e083a04f09c66bc7d58c4d1",
+      "bytes": 11122892,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact checked vacuum degassing correction",
-      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175438,25 +175732,25 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "c65465b4acad1ff89e24f1af50e8b652a18611ef2c237b3a1b922912517926b7",
-      "bytes": 5002052,
+      "sha256": "32d26a7c45aa5c07b524f169d513319a039303f322e63178287cd80be8552dc5",
+      "bytes": 5005924,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact checked vacuum degassing correction",
-      "reviewed_at": "2026-11-25T09:17:34.947339-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/registry.json",
-      "sha256": "7663ddd910b53a68a6b6f6e2796a53b638b4098e3bd9e56847bcf37880195be9",
-      "bytes": 13178340,
+      "sha256": "419567b8edb1896684ef59aaeb04648b762fd220e22430e462909e1a0698a056",
+      "bytes": 13191134,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -210666,6 +210960,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-octyne.svg",
+      "sha256": "1c90232dc0b22634b81866be373dd9ffff862a5165fff4bd06c940bfa5fb5239",
+      "bytes": 608,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-1-ode.svg",
       "sha256": "b3222de43241e106192f09c74003077ee10118510f2c9cda30c8f1005889e66f",
       "bytes": 602,
@@ -211036,6 +211346,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1007/s11814-015-0008-z"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-2-2-azobis-2-methylpropionitrile.svg",
+      "sha256": "030e667e499df9bff8a78ed79564bcfc55443e43b5c30e2600b2e7f764102824",
+      "bytes": 664,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
         }
       ]
     },
@@ -227313,6 +227639,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cs-oleate-precursor-solution.svg",
+      "sha256": "6c9686eb215f879cd4d9ac4ba205ba0a6133e081771f17385efceedc73980fd6",
+      "bytes": 648,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cs-oleate-precursor.svg",
       "sha256": "65a09d5f982958c88a5fbc90ec1f1efc3167156047e31a71e7da50a18a09a0de",
       "bytes": 630,
@@ -229133,6 +229475,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1016/j.materresbull.2018.03.008"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-dda-be1185df5a11.svg",
+      "sha256": "65c8d7760713507479a4193f5f348def58bd2f68363cdac781b9aad5cf0fce76",
+      "bytes": 598,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -232958,6 +233316,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-eu2-precursor.svg",
+      "sha256": "d044d19ac66e3fddd7bafc939d67f32664cc42114613f3259491ea4ea4ae7243",
+      "bytes": 620,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-eu2o3.svg",
       "sha256": "07e7f3ef22cb17a37f477b1fbed6a53f38e3f617c6aa0ddea4929ab2ab0a82e5",
       "bytes": 602,
@@ -235695,6 +236069,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-gd-ch3coo-3.svg",
+      "sha256": "02a7aded4078b198ec538af6323dd8ab322993752158ac48a6cebf87d0453dd3",
+      "bytes": 614,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-gd-metal.svg",
       "sha256": "04415b3d30fc1b65998174355e80688a17743328aa84ea26f674d55dcf518e56",
       "bytes": 608,
@@ -236888,6 +237278,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsami.4c21351"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-h-sincs.svg",
+      "sha256": "6dc38a02e0afe0f50e3a39e0c32ca5a8017e20b0aa1eb50e4e009f5aeff956af",
+      "bytes": 606,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
         }
       ]
     },
@@ -245941,6 +246347,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-methyl-10-undecenoate.svg",
+      "sha256": "14a0fb41710a1529a90a979e6e2cecadc5481373bb5ea3c59e4f8c2e97bfda48",
+      "bytes": 634,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-methyl-4-formyl-benzoate.svg",
       "sha256": "dbc396c496f88946528ff6b7a370dc587e382ddb61ce2ae5ed7ae27b95ae960c",
       "bytes": 640,
@@ -246778,6 +247200,22 @@
         {
           "doi": "10.1021/jz1012164",
           "url": "https://doi.org/10.1021/jz1012164"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-mncl2-h2o-4.svg",
+      "sha256": "b95340cbca2491f766fc8a0578df3671861eeb4b1449f574745bf06907490d90",
+      "bytes": 618,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
         }
       ]
     },
@@ -251521,6 +251959,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-norbornene-acid.svg",
+      "sha256": "c56e4bb0528b2f45a583915a70df2427071a147315508f9c9467e8a979914c8c",
+      "bytes": 622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-not-specified.svg",
       "sha256": "35982a8b1209d55df5e72b2872d175410c89d8deae267d7cf05cc040a592c59f",
       "bytes": 618,
@@ -255891,6 +256345,22 @@
         {
           "doi": "10.1021/jp900131h",
           "url": "https://doi.org/10.1021/jp900131h"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-phenylacetylene.svg",
+      "sha256": "c3880a38bca68543a15aec2136c17dc67a1e6b1c3fbd34a1fc30eac97039f4f1",
+      "bytes": 622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
         }
       ]
     },
@@ -268008,6 +268478,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-tin-acetate.svg",
+      "sha256": "f3d92ecf42ba247a35f3df006814cb56a7ac66a92793f8af2cc39c7171bec846",
+      "bytes": 614,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-tin-bis-acetylacetonate-dichloride.svg",
       "sha256": "182ac70d06ecd4ce033a4d70516fe09f3863d0d79440c2040de1944411dade36",
       "bytes": 660,
@@ -276318,6 +276804,22 @@
         {
           "doi": "10.1021/nl4046069",
           "url": "https://doi.org/10.1021/nl4046069"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-znac.svg",
+      "sha256": "c9b37bf77d87e544a82bbb62dfc7fbbafd1f789fb1dd8b6e3967877e519c19d6",
+      "bytes": 600,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -356381,6 +356883,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/chee2021-acs-nanolett-0c04346/figure-1.png",
+      "sha256": "241b4724de812b6bb2137f2a21a82c8ce56c8794f88d781a1fe151fa6ed6cfdc",
+      "bytes": 653237,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/chehaibou2023-acs-jpcc-3c01837/figure-6.png",
       "sha256": "25904f1a93121afeb536a37760b96d0755a856f582e1cd3415e7303b0d8549f7",
       "bytes": 594220,
@@ -360247,6 +360765,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsanm.1c04005"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/chen2023-acs-nanolett-3c01621/figure-2.png",
+      "sha256": "52b2384445e23c38f5628b5b2f38403ccc23ae1df9c2bb71b9ac18acbaff1474",
+      "bytes": 1296237,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
         }
       ]
     },
@@ -366713,6 +367247,22 @@
         {
           "doi": "10.1103/physrevb.73.193311",
           "url": "https://doi.org/10.1103/physrevb.73.193311"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/coopersmith2015-acs-langmuir-5b01130/figure-5.png",
+      "sha256": "1ad14df0e158b1c0dc0dceb8c6412fda01e04bea47f9b178e326b137c1e6dc65",
+      "bytes": 591750,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -385532,6 +386082,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/freyria2017-acs-nanolett-7b03735/figure-1.png",
+      "sha256": "f7066ed6501ac8492f1aa65621909fd6527ce992bb491d0c13dab2f50baadb6d",
+      "bytes": 469109,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/fridman2021-d1nr05371j/figure-1.png",
       "sha256": "21775c4b4e124e7462912efa4176921aa63ca5a663f0c3ff05641bedab26e647",
       "bytes": 725640,
@@ -395590,6 +396156,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.3c05055"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/guo2025-acs-nanolett-5c01111/figure-1.png",
+      "sha256": "ec9d80969749d7c4c9d1b4e2aa660b8ef771083278027a23c11ab191678c1bfb",
+      "bytes": 508399,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
         }
       ]
     },
@@ -408216,6 +408798,22 @@
         {
           "doi": "10.1186/s11671-018-2842-5",
           "url": "https://doi.org/10.1186/s11671-018-2842-5"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2020-acs-nanolett-0c00692/figure-2.png",
+      "sha256": "c6d264b139e1084d16614bef652311d2dcf694cd5a03f94f6f22c452b15fad4e",
+      "bytes": 324042,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
         }
       ]
     },
@@ -473851,6 +474449,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/marino2023-acs-nanolett-3c00299/figure-1.png",
+      "sha256": "d45d66de951b9e1bf4a5523310e229f3563ec091e9dc7f428a0ac0a47a3b1fee",
+      "bytes": 235864,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/markovic2020-acssuschemeng-0c06260/figure-2.png",
       "sha256": "d17d159c68f1a1cabdadddec04ae7d05630e16b3c450c09a125c7771d32982dc",
       "bytes": 805536,
@@ -484824,6 +485438,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/ja301285x"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/nagamine2025-acs-nanolett-5c02663/figure-2.png",
+      "sha256": "0ef4da409ee2bb1cdce776c9acc6daa0b6901c06ba30284015248dd95e7e842f",
+      "bytes": 66311,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
         }
       ]
     },
@@ -499097,6 +499727,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsomega.2c04668"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/parobek2016-acs-nanolett-6b02772/figure-1.png",
+      "sha256": "3c34946808022882d688fa6bac081cc71e148dc0d976ca4e8e1e9c481a52b23c",
+      "bytes": 105341,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
         }
       ]
     },
@@ -544330,6 +544976,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.3390/inorganics9120089"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/staller2022-acs-nanolett-2c01852/figure-1.png",
+      "sha256": "474fdc4f8e34921e84244ac7c10301cf1ebe69256f58fc69ca183def74ca32bd",
+      "bytes": 563590,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
         }
       ]
     },
@@ -590856,6 +591518,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/yang2015-acs-langmuir-5b02307/figure-4.png",
+      "sha256": "564d5ccd4940887c8e50f8a843375c5a0b576859299d1b2750faf183e5171590",
+      "bytes": 332381,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/yang2015-acsami-5b05372/figure-1.png",
       "sha256": "c21fc69d97f0754002ec402d4be36a92794f9afe16f12e8fc0273a0c4dcb23d0",
       "bytes": 856097,
@@ -607897,6 +608575,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.6b10920"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/zhang2016-acs-nanolett-5b04959/figure-1.png",
+      "sha256": "dbe7ca87c3d22a48ebd17a436f05b1d4e61428fcd3b1aa21fa8f9487f7221855",
+      "bytes": 241426,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
         }
       ]
     },
@@ -661353,6 +662047,550 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s01-synthesize.svg",
+      "sha256": "fadac5e96e8a53d5fb462218ca1b47bd33df526c79aa9a98e7e268a714b05af2",
+      "bytes": 1342,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s02-redisperse.svg",
+      "sha256": "06ebf05fc0b4a402faea1155e5efb8bbf4b39bb1a4d5a6d93fdce7988db311eb",
+      "bytes": 1207,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s03-dry.svg",
+      "sha256": "81275110cea463954e104402e4730002651f58ab4c422f19762abfb0b07c7f11",
+      "bytes": 1188,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s04-cool.svg",
+      "sha256": "d0093053307850baee9a922fb09b2141cd4212325fdc2d32e08fcf3b4b2b9603",
+      "bytes": 1210,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s05-precipitate.svg",
+      "sha256": "3aa3e0b3477dd3d48e638b335bf7e547e496dff04a87e8e14fd45f7072c00bdf",
+      "bytes": 1220,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s06-degas.svg",
+      "sha256": "22d552e30a0d132ba31c82614bd48f9a6df2b8af700c8c42fd632708dbb3021f",
+      "bytes": 1270,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s07-dissolve.svg",
+      "sha256": "af9c52ac75b08e7a11be7ceb854db650c6c1bbf976b6bad73de46b16ce94f8ab",
+      "bytes": 1160,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s08-degas.svg",
+      "sha256": "0bf3f54500517c9c391abe3c661e1088c64c99c4f4cf830413936c404623d5b7",
+      "bytes": 1199,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s09-inject.svg",
+      "sha256": "8955226ab5501701684670a9f4898acdc0f79c4947209a3da232ceea0f5f2055",
+      "bytes": 1218,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s10-inject.svg",
+      "sha256": "f93cdcf7fdae2fd9823cab8be7af7b16c53f2b539512eafa4ba2d5b1d8bcd804",
+      "bytes": 1325,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s11-precipitate.svg",
+      "sha256": "26b32d094058bad3395efe51314c3d90ed4aebb27b3fbeff5609616ed8cf2e36",
+      "bytes": 1223,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s12-centrifuge.svg",
+      "sha256": "630b8c234b419d242a349c35d01bb90e0fc47f9f55c8aa2f148dec4ebebe0bf4",
+      "bytes": 1228,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s13-centrifuge.svg",
+      "sha256": "8a60d0274e1b2425e072890d727b3edc63ccafde5bde45e1f4c626ef89a79d88",
+      "bytes": 1255,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s14-precipitate.svg",
+      "sha256": "26b32d094058bad3395efe51314c3d90ed4aebb27b3fbeff5609616ed8cf2e36",
+      "bytes": 1223,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2-s15-redisperse.svg",
+      "sha256": "06ebf05fc0b4a402faea1155e5efb8bbf4b39bb1a4d5a6d93fdce7988db311eb",
+      "bytes": 1207,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s01-synthesize.svg",
+      "sha256": "fadac5e96e8a53d5fb462218ca1b47bd33df526c79aa9a98e7e268a714b05af2",
+      "bytes": 1342,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s02-degas.svg",
+      "sha256": "22d552e30a0d132ba31c82614bd48f9a6df2b8af700c8c42fd632708dbb3021f",
+      "bytes": 1270,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s03-precipitate.svg",
+      "sha256": "26b32d094058bad3395efe51314c3d90ed4aebb27b3fbeff5609616ed8cf2e36",
+      "bytes": 1223,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s04-redisperse.svg",
+      "sha256": "06ebf05fc0b4a402faea1155e5efb8bbf4b39bb1a4d5a6d93fdce7988db311eb",
+      "bytes": 1207,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s05-precipitate.svg",
+      "sha256": "3aa3e0b3477dd3d48e638b335bf7e547e496dff04a87e8e14fd45f7072c00bdf",
+      "bytes": 1220,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s06-centrifuge.svg",
+      "sha256": "8a60d0274e1b2425e072890d727b3edc63ccafde5bde45e1f4c626ef89a79d88",
+      "bytes": 1255,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s07-precipitate.svg",
+      "sha256": "26b32d094058bad3395efe51314c3d90ed4aebb27b3fbeff5609616ed8cf2e36",
+      "bytes": 1223,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s08-dry.svg",
+      "sha256": "9e96c2841c1acf99b87b875373211324b53508f472cd42918b03c0d99f1d699c",
+      "bytes": 1302,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s09-redisperse.svg",
+      "sha256": "06ebf05fc0b4a402faea1155e5efb8bbf4b39bb1a4d5a6d93fdce7988db311eb",
+      "bytes": 1207,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s10-heat.svg",
+      "sha256": "7a9c74036ea9f25e06eb2f020498b774f1f94f8f5b6bc44fb186b0004b6d08b0",
+      "bytes": 1144,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s11-inject.svg",
+      "sha256": "a816c649081d0afa6d13d1a45ab30b7ffddde9a73653decf38694c4b9df10caf",
+      "bytes": 1330,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s12-inject.svg",
+      "sha256": "0962ba551dc42dde1a60964da95c012a385bda52cb696bfabf3e63e2b5e3c2d5",
+      "bytes": 1327,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1-s13-redisperse.svg",
+      "sha256": "06ebf05fc0b4a402faea1155e5efb8bbf4b39bb1a4d5a6d93fdce7988db311eb",
+      "bytes": 1207,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s01-synthesis.svg",
+      "sha256": "f9ef57cbe18357d1fd67eda34677cde80c53185babafdb6caaddf7d567bae91a",
+      "bytes": 1263,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s02-degas.svg",
+      "sha256": "5b6bd4f071a1e6f96acc2136d652ab5c54569dfb30ed92235b929ee939fc4640",
+      "bytes": 1321,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s03-heat.svg",
+      "sha256": "000ccb4ae209e2c06fa23dd1e007eee61a516038e6b47833cb76b1cf16fb70fa",
+      "bytes": 1380,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s04-inject.svg",
+      "sha256": "d09e9b3a727c87c0a78616f19b8087b2e7b60a8f0fb6b6c998852b5f5e42ecea",
+      "bytes": 1328,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s05-precipitate.svg",
+      "sha256": "26b32d094058bad3395efe51314c3d90ed4aebb27b3fbeff5609616ed8cf2e36",
+      "bytes": 1223,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4-s06-dry.svg",
+      "sha256": "81275110cea463954e104402e4730002651f58ab4c422f19762abfb0b07c7f11",
+      "bytes": 1188,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/chehaibou2023-acs-jpcc-3c01837-hgte-nanocrystals-rod-shaped-1-s01-degas.svg",
       "sha256": "7bc06c283ca30455566fcd4fcc7e6447f83eb0230cbc95d08a31e505640377b9",
       "bytes": 1548,
@@ -664718,6 +665956,86 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsanm.1c04005"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1-s01-heat.svg",
+      "sha256": "7d05da7e9e8830dbf6bb9f2838a95181ced999cf70b20facc1c1e93f203bb838",
+      "bytes": 1631,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1-s02-add.svg",
+      "sha256": "30a64a301f27529a0140c648e9bc0b2fc997c1527d13a2b9b8514ed4ac49641a",
+      "bytes": 1547,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1-s03-heat.svg",
+      "sha256": "11a8362e97a254623d345c451726193998ed405c82e05fbaf3ed461fd009471a",
+      "bytes": 1607,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1-s04-heat.svg",
+      "sha256": "67fdeaefa41b8b5adb4632dd19124be0f766e1f34fd5329f88866e6d2bc28d59",
+      "bytes": 1547,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1-s05-cool.svg",
+      "sha256": "5f5330815204637ef0c87b8f064f6bd5da213c97b162523f70388995392b7aa3",
+      "bytes": 1308,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
         }
       ]
     },
@@ -669938,6 +671256,422 @@
         {
           "doi": "10.1103/physrevb.73.193311",
           "url": "https://doi.org/10.1103/physrevb.73.193311"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s01-dissolve.svg",
+      "sha256": "d4891f6d9e27740f77550b5de5e8b2e5ab5f2e6b4d2c44d1286547c41f892c98",
+      "bytes": 1408,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s02-dissolve.svg",
+      "sha256": "043831d9069782e17aaaa1c30778903f72354c0ae14b828ed873a9db0320f461",
+      "bytes": 1435,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s03-inject.svg",
+      "sha256": "64e73818cdeb3240cbb1cdb71604692ebb9fef1261c5880494d5a0be72b35a99",
+      "bytes": 1397,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s04-quench.svg",
+      "sha256": "b5a4521de6e33a384934f226ed4c2000a3a0a8ecb0f37c3d17c2667130e97e13",
+      "bytes": 1293,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s05-purified.svg",
+      "sha256": "8390ed6c22cf0e8bc18acf5b4c2fec5d3ad8500cd67d808279b5d58a9d9746ea",
+      "bytes": 1338,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s06-anneal.svg",
+      "sha256": "8ce6557ae7e0093868e4b942a5ffa21f19750a597e01900b9692b08efde2d60f",
+      "bytes": 1425,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s07-cool.svg",
+      "sha256": "0d4489d208d6d77e40885f5e9e8521a54d8672b567831f2c3ad9be4cd27f2323",
+      "bytes": 1348,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s08-mix.svg",
+      "sha256": "7d837cb78450bcfc94968fa6f453bc14c39fc3ecce1e85ab646fffa1ea214d3c",
+      "bytes": 1275,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s09-add.svg",
+      "sha256": "8d7ec30fa7643269496b615926dfdf1eb687b54ee7e297c8d01b57032db54ab9",
+      "bytes": 1413,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s10-remove.svg",
+      "sha256": "431334eca053eca5b1b60489c9bfc3de58c1b7d0e8b1339927082112eeac0a09",
+      "bytes": 1347,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s11-centrifuge.svg",
+      "sha256": "ba5b8e308662bff1e6c434f35e4e602069891725069be957bf6ba757ebb2e704",
+      "bytes": 1511,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s12-salting.svg",
+      "sha256": "2fbf5cefe17612854d9831528304190b21c786f04a7ea0b697d2bbd633d4bc48",
+      "bytes": 1357,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1-s13-purified.svg",
+      "sha256": "65916fdc9bc25a281039452a36cabf548921c46bd3fd7012996ccd2d0bb69541",
+      "bytes": 1362,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s01-dissolve.svg",
+      "sha256": "d4891f6d9e27740f77550b5de5e8b2e5ab5f2e6b4d2c44d1286547c41f892c98",
+      "bytes": 1408,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s02-dissolve.svg",
+      "sha256": "043831d9069782e17aaaa1c30778903f72354c0ae14b828ed873a9db0320f461",
+      "bytes": 1435,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s03-inject.svg",
+      "sha256": "64e73818cdeb3240cbb1cdb71604692ebb9fef1261c5880494d5a0be72b35a99",
+      "bytes": 1397,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s04-quench.svg",
+      "sha256": "b5a4521de6e33a384934f226ed4c2000a3a0a8ecb0f37c3d17c2667130e97e13",
+      "bytes": 1293,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s05-purified.svg",
+      "sha256": "8390ed6c22cf0e8bc18acf5b4c2fec5d3ad8500cd67d808279b5d58a9d9746ea",
+      "bytes": 1338,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s06-anneal.svg",
+      "sha256": "8ce6557ae7e0093868e4b942a5ffa21f19750a597e01900b9692b08efde2d60f",
+      "bytes": 1425,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s07-cool.svg",
+      "sha256": "0d4489d208d6d77e40885f5e9e8521a54d8672b567831f2c3ad9be4cd27f2323",
+      "bytes": 1348,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s08-mix.svg",
+      "sha256": "7d837cb78450bcfc94968fa6f453bc14c39fc3ecce1e85ab646fffa1ea214d3c",
+      "bytes": 1275,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s09-add.svg",
+      "sha256": "8d7ec30fa7643269496b615926dfdf1eb687b54ee7e297c8d01b57032db54ab9",
+      "bytes": 1413,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s10-remove.svg",
+      "sha256": "431334eca053eca5b1b60489c9bfc3de58c1b7d0e8b1339927082112eeac0a09",
+      "bytes": 1347,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s11-centrifuge.svg",
+      "sha256": "ba5b8e308662bff1e6c434f35e4e602069891725069be957bf6ba757ebb2e704",
+      "bytes": 1511,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s12-salting.svg",
+      "sha256": "2fbf5cefe17612854d9831528304190b21c786f04a7ea0b697d2bbd633d4bc48",
+      "bytes": 1357,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2-s13-purified.svg",
+      "sha256": "65916fdc9bc25a281039452a36cabf548921c46bd3fd7012996ccd2d0bb69541",
+      "bytes": 1362,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -690415,6 +692149,230 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s01-dissolve.svg",
+      "sha256": "bcbe47c87eb596d788ccccd9406a2a1daf4c867e7944c9dbb4a034cfeee39012",
+      "bytes": 1556,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s02-inject.svg",
+      "sha256": "8072ed107c081ab3dcc501fd01bc5d4c944dfa0f9c44a65b18de361ae2908e9e",
+      "bytes": 1266,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s03-quench.svg",
+      "sha256": "19e03623c764aebd3a95869263e3cf792e1429eb624e2d61f50661ad1954cc48",
+      "bytes": 1341,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s04-centrifuge.svg",
+      "sha256": "4a0af2467403b1920b5d7009e7a34b4b7e2fd75dbc736623dce085dea83ccef7",
+      "bytes": 1219,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s05-wash.svg",
+      "sha256": "dd77ba95372e6eaa78673162022235ce8dda49ebb95b2bb7fbfe90f47b19c17e",
+      "bytes": 1228,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s06-disperse.svg",
+      "sha256": "808b452f755a06bcdc45c0ec862e21cbb23f68f54646a11904a24b9ed02611ad",
+      "bytes": 1214,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs770-1-s07-filter.svg",
+      "sha256": "2da5e79d7d0a4a9cabd1b34b2eec5a2d7d91fe0d827d31c754a9f318fe237c79",
+      "bytes": 1275,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s01-dissolve.svg",
+      "sha256": "bcbe47c87eb596d788ccccd9406a2a1daf4c867e7944c9dbb4a034cfeee39012",
+      "bytes": 1556,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s02-inject.svg",
+      "sha256": "8072ed107c081ab3dcc501fd01bc5d4c944dfa0f9c44a65b18de361ae2908e9e",
+      "bytes": 1266,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s03-quench.svg",
+      "sha256": "f6e9557112490f36ec3a204e2a60a233b3619463631eac4952a6f417b5ffabb7",
+      "bytes": 1341,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s04-centrifuge.svg",
+      "sha256": "4a0af2467403b1920b5d7009e7a34b4b7e2fd75dbc736623dce085dea83ccef7",
+      "bytes": 1219,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s05-wash.svg",
+      "sha256": "dd77ba95372e6eaa78673162022235ce8dda49ebb95b2bb7fbfe90f47b19c17e",
+      "bytes": 1228,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s06-disperse.svg",
+      "sha256": "808b452f755a06bcdc45c0ec862e21cbb23f68f54646a11904a24b9ed02611ad",
+      "bytes": 1214,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/freyria2017-acs-nanolett-7b03735-pbs980-2-s07-filter.svg",
+      "sha256": "2da5e79d7d0a4a9cabd1b34b2eec5a2d7d91fe0d827d31c754a9f318fe237c79",
+      "bytes": 1275,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/fridman2021-d1nr05371j-cdxzn1xs-nps-x-0-91-1-s01-heat.svg",
       "sha256": "c8be0a71e1af4217c21e17e8475118dd2857ad52083f0292ba7926071ef4e9d2",
       "bytes": 1444,
@@ -701567,6 +703525,102 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.3c05055"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s01-dissolve.svg",
+      "sha256": "00e065aed2b6b0f9d0afe7116bd13c93308d51ba45524da89eb534912e65dedf",
+      "bytes": 1456,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s02-heat.svg",
+      "sha256": "ee0891a4ee20a7ebf2a0d6db918a3a01b534ff90acf256381c5b6bfd9f8c3042",
+      "bytes": 1555,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s03-inject.svg",
+      "sha256": "6a7d8eb6bf79ea0c3180d5d829a0fa89da9e020093072eda5665179720448d29",
+      "bytes": 1454,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s04-cool.svg",
+      "sha256": "aed5d354bbe945ee30e5bf570531afdb72f1d513118b86724e2682cc20d3b1f6",
+      "bytes": 1288,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s05-centrifuge.svg",
+      "sha256": "3c0fe0c6ae833a6509744b071cb682011483f507e294e82bfaaa8351382ae370",
+      "bytes": 1414,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2-s06-redisperse.svg",
+      "sha256": "09681d2488c51157bc5c8422b0c395e52efb49041fbe0da49ec6657c198ac589",
+      "bytes": 1306,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
         }
       ]
     },
@@ -718931,6 +720985,134 @@
         {
           "doi": "10.1186/s11671-018-2842-5",
           "url": "https://doi.org/10.1186/s11671-018-2842-5"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s01-dissolve.svg",
+      "sha256": "691576046e16ae7b0cc86b5434fc39872a804e34099d155decf2eba83c6fdc0e",
+      "bytes": 1562,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s02-reduce.svg",
+      "sha256": "dc395b97d98d04b1666b1343095009e74b18b98fdc1a0933b3523ed548f26148",
+      "bytes": 1533,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s03-dissolve.svg",
+      "sha256": "7f6f7c86aee2cb000b5a15cc20220d0da0c31747793c5b01883a2d410db39d2b",
+      "bytes": 1553,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s04-inject.svg",
+      "sha256": "d3c2af92ddc29b9d446171fbbb3a7b9addb80cc30043f87e347c7771f507b708",
+      "bytes": 1596,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s05-inject.svg",
+      "sha256": "aa5ba8465e7090569b6d3ed393faaf984d71f20783fab62c2ceb8001f44d1dda",
+      "bytes": 1420,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s06-quench.svg",
+      "sha256": "18df64dc289b055b41b9523576d87d7a54812e6d349d985c3006931a093d9339",
+      "bytes": 1462,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s07-centrifuge.svg",
+      "sha256": "19f78aa605bf1f47ae9818785399a22ff9d50bb6ef9ef7a9c10a3a99ab13caba",
+      "bytes": 1461,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1-s08-redisperse.svg",
+      "sha256": "d3101587942e9050cb344f0cb5eaac21f09389177bcec3a6c1eab48a0cc273ad",
+      "bytes": 1479,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
         }
       ]
     },
@@ -801807,6 +803989,166 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s01-stir.svg",
+      "sha256": "4c8958599f801ecff022a148db4bca508df26276a62a097b3df7ad76c3789812",
+      "bytes": 1612,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s02-heat.svg",
+      "sha256": "d5f6b0fc96168ee8b5470fe420d6132351cfb8655d868edf7b728506ae397d26",
+      "bytes": 1582,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s03-heat.svg",
+      "sha256": "4f05c295dc9ea6a648037418ddbe5031b4a194f11acf713c92611ebe6f3f9c75",
+      "bytes": 1489,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s04-cool.svg",
+      "sha256": "777254fe69955808ba605db6ffeb8ec31b7e1fed0b035628eae6b052d732a978",
+      "bytes": 1439,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s05-cool.svg",
+      "sha256": "fffc0bfe3963306af82542a63b31d82eac19d864b5c3a0b6588c01a19cf3a6fc",
+      "bytes": 1439,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s06-centrifuge.svg",
+      "sha256": "7516382eb9c60a28eebd9e0a3eadb66e6350d3b5414cf9ae00aa56e7edea4de6",
+      "bytes": 1503,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s07-redisperse.svg",
+      "sha256": "804647dc5eca195a74db19ebe93d8772c510bb9214af286046f99bcf255248dc",
+      "bytes": 1346,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s08-centrifuge.svg",
+      "sha256": "114da95086c601b813c6275378bf98411bc69b3997ab330e54a3b220ec7c5910",
+      "bytes": 1391,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s09-centrifuge.svg",
+      "sha256": "52d4c625f0e8d8f6fff0656d38f05c9a9fb6306465fb18429ddcf6fff9e9fb2d",
+      "bytes": 1503,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2-s10-redisperse.svg",
+      "sha256": "804647dc5eca195a74db19ebe93d8772c510bb9214af286046f99bcf255248dc",
+      "bytes": 1346,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/markovic2020-acssuschemeng-0c06260-cl-doped-carbon-quantum-dots-clcqds-2-s01-sonicate.svg",
       "sha256": "5ad244d9031a5d82eac75634459b8315eb8d69bbf1fbd80d6790f4b067f95fc7",
       "bytes": 1309,
@@ -813665,6 +816007,150 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/ja301285x"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s01-heat.svg",
+      "sha256": "56375dc53ed69b415d75f69f5b3062cff598642bd2b4713b1badde2d1df944e9",
+      "bytes": 1267,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s02-heat.svg",
+      "sha256": "6ae2b819c4c502fe40c6b1ec5cbfec3abb6a5d2f78307fbd03149dbb767bacd5",
+      "bytes": 1482,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s03-heat.svg",
+      "sha256": "3663d0671995b0613194ce6650f0e15047e85557265dce88eff61b287d34078d",
+      "bytes": 1326,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s04-dissolve.svg",
+      "sha256": "71c36de606a2f9950e8e85adf9d44079a55dbebccdc58ceb224befcf9aec0fa0",
+      "bytes": 1382,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s05-inject.svg",
+      "sha256": "892c23fa6d9fd7c6cba7953bb9d6a6fae2e25a6946834a8b73f9f601fe6c09f4",
+      "bytes": 1415,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s06-purge.svg",
+      "sha256": "c86d43cceb2820deb309e00d312357c90729778fa4c0df01528c9ba75a5fae7c",
+      "bytes": 1471,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s07-grow.svg",
+      "sha256": "549a9f305fee739231d998e00d11f5ff21697fae18a80e892f0861c178173585",
+      "bytes": 1452,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s08-cool.svg",
+      "sha256": "0ecc2bf84f849a15529f4cd4038df46feee9a882edfc24a6d7332be8ee1c1181",
+      "bytes": 1264,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/nagamine2025-acs-nanolett-5c02663-cdse565-2-s09-centrifuge.svg",
+      "sha256": "3c24358fe54c7c5f0d61079ba316dcb7fd70d2328cd5414cd167a9bb96d5eb77",
+      "bytes": 1373,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
         }
       ]
     },
@@ -837752,6 +840238,70 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsomega.2c04668"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1-s01-heat.svg",
+      "sha256": "723bbf30c2acf30e7fb08acc9ef937d681ec04cdf2fe7f34fd729952fc7a28d9",
+      "bytes": 1653,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1-s02-heat.svg",
+      "sha256": "b7942f974be16926801cfa56f52d4f77b6abba231245fb62b8ab24bcee28aeb7",
+      "bytes": 1653,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1-s03-precipitate.svg",
+      "sha256": "8b2bcb5cf3e49778f7f083bc31116ad83f0254faa3f5bf3335eb9c2363a1dd51",
+      "bytes": 1364,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1-s04-purify.svg",
+      "sha256": "c62db82d7b546a3e457b99ecb9dc80dae7c22c10c469abdbfbc00970aa7ac3a7",
+      "bytes": 1443,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
         }
       ]
     },
@@ -889960,6 +892510,198 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3-s01-dissolve.svg",
+      "sha256": "1214b60bcf28e762abcb11af1494c1e6e67e1f7075863ba5df9a9c118ff3bda7",
+      "bytes": 1461,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3-s02-heat.svg",
+      "sha256": "acaedd2e6c045c5cf4b85ef788bb047715f57da89609414e3b2b90cff2755a0b",
+      "bytes": 1400,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3-s03-inject.svg",
+      "sha256": "b10801ebc9cd8693a0a3a5d737894e3ea055efe83c786342e89d82c0cb26b8be",
+      "bytes": 1441,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3-s04-purify.svg",
+      "sha256": "4a52ae8a62f337d9678679b95e21d684f5f75ca17f504a032d1e13aaa73ef94b",
+      "bytes": 1349,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2-s01-dissolve.svg",
+      "sha256": "1214b60bcf28e762abcb11af1494c1e6e67e1f7075863ba5df9a9c118ff3bda7",
+      "bytes": 1461,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2-s02-heat.svg",
+      "sha256": "acaedd2e6c045c5cf4b85ef788bb047715f57da89609414e3b2b90cff2755a0b",
+      "bytes": 1400,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2-s03-inject.svg",
+      "sha256": "b10801ebc9cd8693a0a3a5d737894e3ea055efe83c786342e89d82c0cb26b8be",
+      "bytes": 1441,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2-s04-purify.svg",
+      "sha256": "4a52ae8a62f337d9678679b95e21d684f5f75ca17f504a032d1e13aaa73ef94b",
+      "bytes": 1349,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1-s01-dissolve.svg",
+      "sha256": "1214b60bcf28e762abcb11af1494c1e6e67e1f7075863ba5df9a9c118ff3bda7",
+      "bytes": 1461,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1-s02-heat.svg",
+      "sha256": "acaedd2e6c045c5cf4b85ef788bb047715f57da89609414e3b2b90cff2755a0b",
+      "bytes": 1400,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1-s03-inject.svg",
+      "sha256": "b10801ebc9cd8693a0a3a5d737894e3ea055efe83c786342e89d82c0cb26b8be",
+      "bytes": 1441,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1-s04-purify.svg",
+      "sha256": "4a52ae8a62f337d9678679b95e21d684f5f75ca17f504a032d1e13aaa73ef94b",
+      "bytes": 1349,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/stam2014-nl4046069-hexagonal-bifrustum-shaped-zns-nanocryst-2-s01-synthesize.svg",
       "sha256": "b0c72455e125e625987bd7b5e8e716562b693ae799c5ee46aca4d02749176ba3",
       "bytes": 1240,
@@ -936103,6 +938845,86 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1-s01-redisperse.svg",
+      "sha256": "1977cd463ca5ae4ef40a90067598897afe30973ed84e435d2b68c6b35a8ef669",
+      "bytes": 1350,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1-s02-add.svg",
+      "sha256": "eed7b02e07cf33dadeefe5a45c3009f61d86478e1642cc49b696fb56e150f7be",
+      "bytes": 1373,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1-s03-freezepumpthaw.svg",
+      "sha256": "968d5a717d7bd1a9e6de1ca91b275b2e405be76d6b5d23670deb3e027f28e001",
+      "bytes": 1447,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1-s04-heat.svg",
+      "sha256": "cb0b2618e50786b6fde0a53a9883b9f939cba4a45e809fd52a9ffabaee1d4a9b",
+      "bytes": 1637,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1-s05-purification.svg",
+      "sha256": "cb1de9f1c5a8065f39130303f70eda7243400b3eafffe9c174e7615c7e2c316f",
+      "bytes": 1380,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/yang2015-acsami-5b05372-gd-doped-cuins-zns-bqds-gcis-zns-1-s01-heat.svg",
       "sha256": "e4473d8152447520eca46f01eeaee6da6c998d7ec955fdeca86fed7d4109f837",
       "bytes": 1583,
@@ -955339,6 +958161,182 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.6b10920"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s01-degas.svg",
+      "sha256": "dda1adad547500ea46e1aa6bbd92f2dbddb4c58c9f49515c3f8966389a6ed935",
+      "bytes": 1459,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s02-heat.svg",
+      "sha256": "0170fe5341dabb35b0c10322437c2ea3718201e4a89e1eaee771978f4e4a0ee9",
+      "bytes": 1371,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s03-degas.svg",
+      "sha256": "dda1adad547500ea46e1aa6bbd92f2dbddb4c58c9f49515c3f8966389a6ed935",
+      "bytes": 1459,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s04-add.svg",
+      "sha256": "e45996889540776e2eca68218a138d4a5a2e9d7c8263eebed15e61218bc31c0c",
+      "bytes": 1227,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s05-heat.svg",
+      "sha256": "20f0e979e66b9c6c70414f6995576b49a810e5001b9441986c5201a878d682c5",
+      "bytes": 1344,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s06-inject.svg",
+      "sha256": "a0946599378fd2f1bc4243c0d3c830ac98236e6851a80b749d8240d8504ddbc7",
+      "bytes": 1326,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s07-cool.svg",
+      "sha256": "7fac226c0bf867b11e95feaec7b23ca834dc6d78fa07b636ac666d37f9c7d23f",
+      "bytes": 1216,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s08-centrifuge.svg",
+      "sha256": "2c31ac13a98a5f14cb33e22c0c2516ff58d5d83d446f195dee2488d888d039d9",
+      "bytes": 1351,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s09-redisperse.svg",
+      "sha256": "cd17ec85248530b003d8c1527d04bfc4dd8e0501679895d5731ad5ed547bf430",
+      "bytes": 1255,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s10-centrifuge.svg",
+      "sha256": "e32391ffdffd978f81ac40a4e34a5d423bc1490d7fc2e1b50047e55aa276fe08",
+      "bytes": 1363,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1-s11-redisperse.svg",
+      "sha256": "cd17ec85248530b003d8c1527d04bfc4dd8e0501679895d5731ad5ed547bf430",
+      "bytes": 1255,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
         }
       ]
     },
@@ -996364,6 +999362,54 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-spheres-2.json",
+      "sha256": "9ef0ac598c2584b6d9197f6061cb05662773ddf34d65923a3135e21e6a356a81",
+      "bytes": 7949,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-hgte-nanocrystals-tripods-1.json",
+      "sha256": "5bd8e20f7eb27ca2ea0c9acdf5a5a9ef47530a31df446b46dc6adb5b09c0d2e1",
+      "bytes": 6950,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/chee2021-acs-nanolett-0c04346-quasi-spherical-hgte-nanocrystals-4.json",
+      "sha256": "10b062e59471040e8f58c4a2600a108e0b0e2b29228a8bd73cb9069edddf779c",
+      "bytes": 3377,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04346"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/chehaibou2023-acs-jpcc-3c01837-hgte-nanocrystals-rod-shaped-1.json",
       "sha256": "3e40bde898e3ebc9026a85c00285665317e55ae96de86bd8ce17d691c94c7045",
       "bytes": 1843,
@@ -998060,6 +1001106,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsanm.1c04005"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/chen2023-acs-nanolett-3c01621-nagdf4-yb-tm-49-1-nayf4-coreshell-nanopa-1.json",
+      "sha256": "eb0e70f84e3445f2f8ac0093b2d95a1485795bfb6bb51a49d757de6acd22e399",
+      "bytes": 3063,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c01621"
         }
       ]
     },
@@ -1002048,6 +1005110,38 @@
         {
           "doi": "10.1149/2.0171906jss",
           "url": "https://doi.org/10.1149/2.0171906jss"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/coopersmith2015-acs-langmuir-5b01130-ab-qd-570-1.json",
+      "sha256": "18fa675e9e6ad8a655c06573ba56663a52ec5c923ca6511b9823dc46b47cb9ac",
+      "bytes": 6959,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/coopersmith2015-acs-langmuir-5b01130-b-qd-635-2.json",
+      "sha256": "11f435081b34fbcebbf70ec221064f54a9f314e0db274fb472983bde13602750",
+      "bytes": 6945,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b01130"
         }
       ]
     },
@@ -1012050,6 +1015144,38 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/freyria2017-acs-nanolett-7b03735-pbs770-1.json",
+      "sha256": "7c8962c587a00cc0dbb6de98aaf0790977655caf79010c8e6e0d93a45f922146",
+      "bytes": 3784,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/freyria2017-acs-nanolett-7b03735-pbs980-2.json",
+      "sha256": "7fc62be42543d88e64258f72aeec41fe103286b654e8b7cc836ecc325d7fdd10",
+      "bytes": 3784,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.7b03735"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fridman2021-d1nr05371j-cdxzn1xs-nps-x-0-91-1.json",
       "sha256": "fe279691c3515293d805bc6ddea316274a8e4ae1b4504727f3132d7d58d46c80",
       "bytes": 715,
@@ -1017420,6 +1020546,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.3c05055"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/guo2025-acs-nanolett-5c01111-cs2pbi2cl2-nanocrystals-2.json",
+      "sha256": "576f323010a9f6c01040114290a800251c7dcdb9a9298f8488acc95e17948f09",
+      "bytes": 3412,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c01111"
         }
       ]
     },
@@ -1025088,6 +1028230,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1186/s11671-018-2842-5"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/huang2020-acs-nanolett-0c00692-cseucl3-nanocrystals-1.json",
+      "sha256": "4d61c4dc9cb9f67a729fc839e00ecf7f5ffcf4a1c5b3d1877345aabf36b4326e",
+      "bytes": 4617,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.0c00692"
         }
       ]
     },
@@ -1058054,6 +1061212,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/marino2023-acs-nanolett-3c00299-pbs-nanocrystals-2.json",
+      "sha256": "7d3148625a9493047fd13fa98a224d16daa62acd31569888f5a670dc1213c616",
+      "bytes": 5767,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.3c00299"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/markovic2020-acssuschemeng-0c06260-cl-doped-carbon-quantum-dots-clcqds-2.json",
       "sha256": "4dfcaaf2a9e5a1325e4628c3d6f962763cb2a20bb98ef3b91a0ec1070af8d9c1",
       "bytes": 3025,
@@ -1065092,6 +1068266,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/ja301285x"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/nagamine2025-acs-nanolett-5c02663-cdse565-2.json",
+      "sha256": "de77470ad4c00e8a6a096443e5c296c66fb675548878832edd1a8367622defd9",
+      "bytes": 4929,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5c02663"
         }
       ]
     },
@@ -1073489,6 +1076679,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acsomega.2c04668"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/parobek2016-acs-nanolett-6b02772-mn-doped-cspbcl3-nanocrystals-1.json",
+      "sha256": "8883a1ec5559db006813f116df2c5672e4f3a3da2878e86fe4a61dff86d0f7b4",
+      "bytes": 2550,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.6b02772"
         }
       ]
     },
@@ -1097797,6 +1101003,54 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/staller2022-acs-nanolett-2c01852-0-at-sn-ito-nanocrystals-5-nm-3.json",
+      "sha256": "683e84f35fa8a8c8f8cc7a459ed1f0747bc2908702f5af5cc7f140faf152bef9",
+      "bytes": 2397,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-15-nm-2.json",
+      "sha256": "6384685bb811ef7db51cbba1e6c9a6661a71e2a21d5854e951dbdb12246bad30",
+      "bytes": 2402,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/staller2022-acs-nanolett-2c01852-3-at-sn-ito-nanocrystals-5-nm-1.json",
+      "sha256": "debd574d0ebe626a009370c1c7a1f17731d7bc45cb1becdd8a566a7cde416103",
+      "bytes": 2397,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.2c01852"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/stam2014-nl4046069-hexagonal-bifrustum-shaped-zns-nanocryst-2.json",
       "sha256": "f4ac530babbfc31e9b5ae35e20ac45284e0ef603e5cff1d871c4a4636bb2c6b7",
       "bytes": 726,
@@ -1120321,6 +1123575,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/yang2015-acs-langmuir-5b02307-3-nm-dodecyl-passivated-sincs-1.json",
+      "sha256": "9cedeb5e27893f5f2b2a814bf6b03e8b14f22d026769f13a1414dd73cc11bfb6",
+      "bytes": 3014,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.langmuir.5b02307"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/yang2015-acsami-5b05372-gd-doped-cuins-zns-bqds-gcis-zns-1.json",
       "sha256": "638edf50590fd3cb03cea403a8024f3703956f83960f1e4eb66ef58ab808ed2b",
       "bytes": 1865,
@@ -1128311,6 +1131581,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.jpcc.6b10920"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2016-acs-nanolett-5b04959-cspbbr3-nanocrystals-1.json",
+      "sha256": "c1b5db281811431ea338fc721c91c4f5b917eee8cc7eef1aceefb89c9531af58",
+      "bytes": 6006,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acs.nanolett.5b04959"
         }
       ]
     },
@@ -1159857,13 +1163143,13 @@
     },
     {
       "path": "research-assets/public-audits/MACHINE_EXTRACTED_PAPERS.md",
-      "sha256": "3b21737f0892eeea9aaec1a399d49d350858b86c226d8f355b800f0889af3890",
-      "bytes": 1049283,
+      "sha256": "71c5168d0a09d8fef61e78f12681e4f9bf53c959e83c4459d73b02017b9f6846",
+      "bytes": 1059522,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T12:41:30+00:00",
+      "reviewed_at": "2026-11-25T18:41:33+00:00",
       "content_class": "authored_docs",
       "source_refs": []
     },

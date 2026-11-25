@@ -9031,3 +9031,178 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1021/acs.nanolett.0c04060 | Unclear | new X reading |
 | 10.1021/acs.nanolett.1c00413 | Unclear | new X reading |
 | 10.1021/acs.nanolett.1c00783 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-173-X09 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1021/acs.nanolett.1c00860 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c01280 | Thin | new X reading |
+| 10.1021/acs.nanolett.1c01892 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c02051 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.1c02193 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c02449 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c02479 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c02647 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c03457 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c03865 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c04553 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.1c04775 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c04937 | Unclear | new X reading |
+| 10.1021/acs.nanolett.1c04938 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c00017 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c00606 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c00976 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c01011 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c01098 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c01222 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c01459 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c02427 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c02769 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c03034 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c03098 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.2c03409 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c03564 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c03611 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c04254 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c04286 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c04446 | Unclear | new X reading |
+| 10.1021/acs.nanolett.2c04981 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c00146 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c00641 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c01064 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c01491 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c01658 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.3c02058 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c02073 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c02456 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c03349 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c03543 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c03761 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c03941 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c04229 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c04230 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c04661 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c04828 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c04987 | Unclear | new X reading |
+| 10.1021/acs.nanolett.3c05060 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c01463 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c01511 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c01781 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c01791 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c02345 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c02395 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c03024 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c03921 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c04032 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c04545 | Unclear | new X reading |
+| 10.1021/acs.nanolett.4c05820 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b00068 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b00448 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b00454 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b00513 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b00947 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b01429 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b02725 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03161 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03363 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03442 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03568 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03814 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b03904 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5b04217 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.5b05192 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.5c00643 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c01069 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c02379 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c02448 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.5c03173 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c03779 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c04530 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c04534 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c04636 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c04912 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c05526 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c05613 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.5c05731 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c05860 | Unclear | new X reading |
+| 10.1021/acs.nanolett.5c06282 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b00060 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b00062 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6b00275 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6b00706 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6b02147 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b02331 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b02382 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6b02522 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b02688 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b03007 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6b03752 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04006 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04201 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04279 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04354 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04403 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04716 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04911 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b05175 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c00152 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c00330 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c00452 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c00602 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c01356 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6c02123 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.6c02630 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b00109 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.7b00392 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.7b00927 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b01284 | Out of scope | new X reading |
+| 10.1021/acs.nanolett.7b01323 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b02327 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b02680 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b03123 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b03248 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b04138 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b04603 | Unclear | new X reading |
+| 10.1021/acs.nanolett.7b05351 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b00272 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b01869 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b01981 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b03640 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b04343 | Unclear | new X reading |
+| 10.1021/acs.nanolett.8b04544 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b02207 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b02374 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b02483 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b02937 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b03424 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b03858 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b04491 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b04650 | Unclear | new X reading |
+| 10.1021/acs.nanolett.9b05342 | Unclear | new X reading |
+| 10.1021/acsabm.1c00943 | Unclear | new X reading |
+| 10.1021/acsabm.2c00827 | Unclear | new X reading |
+| 10.1021/acsabm.3c00413 | Unclear | new X reading |
+| 10.1021/acsabm.3c00595 | Unclear | new X reading |
+| 10.1021/acsabm.4c01230 | Unclear | new X reading |
+| 10.1021/acsabm.9b00264 | Unclear | new X reading |
+| 10.1021/acsaelm.0c00091 | Unclear | new X reading |
+| 10.1021/acsaelm.0c00237 | Out of scope | new X reading |
+| 10.1021/acsaelm.0c00332 | Unclear | new X reading |
+| 10.1021/acsaelm.0c00643 | Out of scope | new X reading |
+| 10.1021/acsaelm.0c00968 | Unclear | new X reading |
+| 10.1021/acsaelm.0c01011 | Unclear | new X reading |
+| 10.1021/acsaelm.2c00549 | Out of scope | new X reading |
+| 10.1021/acsaelm.2c01223 | Unclear | new X reading |
+| 10.1021/acsaelm.2c01781 | Unclear | new X reading |
+| 10.1021/acsaelm.2c01785 | Unclear | new X reading |
+| 10.1021/acsaelm.3c00609 | Unclear | new X reading |
+| 10.1021/acsaelm.3c01316 | Unclear | new X reading |
+| 10.1021/acsaelm.4c01120 | Unclear | new X reading |
+| 10.1021/acsaelm.4c01970 | Unclear | new X reading |
+| 10.1021/acsaelm.5c00342 | Unclear | new X reading |
+| 10.1021/acsaelm.5c01521 | Unclear | new X reading |
+| 10.1021/acsaelm.5c01793 | Unclear | new X reading |
