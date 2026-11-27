@@ -448,14 +448,9 @@
         }
       },
       "environment": {
-        "value": "Ar",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "wang2021-acsami-1c02515",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -476,7 +471,7 @@
     {
       "id": "s03-anneal",
       "action": "anneal",
-      "label": "Annealing at 270 °C",
+      "label": "Annealing",
       "stage": "synthesis",
       "branch": "",
       "optional": false,
@@ -510,14 +505,9 @@
         }
       },
       "environment": {
-        "value": "Ar",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "wang2021-acsami-1c02515",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -527,7 +517,7 @@
         "note": ""
       },
       "retained_fraction": null,
-      "description": "Annealing at 270 °C",
+      "description": "Annealing",
       "evidence": [
         {
           "source_id": "wang2021-acsami-1c02515",

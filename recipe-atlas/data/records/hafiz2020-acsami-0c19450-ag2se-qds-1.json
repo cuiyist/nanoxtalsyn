@@ -375,25 +375,6 @@
           "locator": "Main PDF p.5"
         }
       ]
-    },
-    {
-      "id": "hafiz2020-acsami-0c19450-ag2se-qds-1--selenium",
-      "name": "selenium",
-      "formula": null,
-      "role": "chalcogen_precursor",
-      "stage": "synthesis",
-      "identity": {
-        "pubchem_cid": null,
-        "smiles": null
-      },
-      "quantities": {},
-      "notes": [],
-      "evidence": [
-        {
-          "source_id": "hafiz2020-acsami-0c19450",
-          "locator": "Main PDF p.5"
-        }
-      ]
     }
   ],
   "stocks": [],

@@ -274,7 +274,7 @@
     },
     {
       "id": "yan2026-acsaelm-5c02448-oa-pqds-1--cesium-precursor",
-      "name": "cesium precursor",
+      "name": "cesium precursor in octadecene and oleic acid",
       "formula": null,
       "role": "metal_precursor",
       "stage": "synthesis",
@@ -584,14 +584,9 @@
         }
       },
       "environment": {
-        "value": "N2",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "yan2026-acsaelm-5c02448",
-            "locator": "Main PDF p.3"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {

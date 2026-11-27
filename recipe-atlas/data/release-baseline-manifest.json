@@ -578348,7 +578348,7 @@
       "source_doi": "10.1021/acs.nanolett.9b01305",
       "revision": 1,
       "record_sha256": "b05cce70e698840969abfe08499f758d874f68b2884d9c1c49a547fba59b500d",
-      "recipe_signature": "dd6386f1eb08f0cf9991a623cd446b94c43f23ca7539d6adc5d6c9a19c02b45a",
+      "recipe_signature": "b1113a059119aa390d7bebc487af0c707c9b443b8e9e9f02d59cfe076246ba9d",
       "group_id": "group-587fb67b808e",
       "split": "test",
       "eligibility": {
@@ -578423,7 +578423,7 @@
       "source_doi": "10.1021/acsami.0c19450",
       "revision": 1,
       "record_sha256": "5771c945203b25f9c86c48a01f656748a9117e90554b1914eee1d4dea7576d4f",
-      "recipe_signature": "7ba4e1cd4554fc8afa2824ccd2fa36a88488f6867d9458a3203b3e732bad0b3a",
+      "recipe_signature": "525f230565f14de5e124d312fda0e73049f25b8bd76002d9f5b41c1e5ac97e9c",
       "group_id": "group-55cea070ed73",
       "split": "train",
       "eligibility": {
@@ -578573,7 +578573,7 @@
       "source_doi": "10.1021/acsabm.0c01165",
       "revision": 1,
       "record_sha256": "6e5dcfba82f185d3a3bf9b54dcfcb700dea8fc0b43cef6f0ba880fec47b9d3e2",
-      "recipe_signature": "620e09510d1f55476ea7d3f6833d1d6da9ab73c4ca343dc35c342c162cace0e9",
+      "recipe_signature": "14a4fb04b395a3cb553ba4fb816f9bdbb4eb6980d286218401b1a713b03a5580",
       "group_id": "group-9fad69bc67fa",
       "split": "train",
       "eligibility": {
@@ -578648,7 +578648,7 @@
       "source_doi": "10.1021/acsaem.8b00783",
       "revision": 1,
       "record_sha256": "7d515da0f4951c6a77bb43b7081196b971c6e8d727d8ec4582fbc345bc3254d5",
-      "recipe_signature": "bce6678338eb675495b698688c5a93a7a7b9a013d956233735e824fd84850ef1",
+      "recipe_signature": "1336814f2cd907dba58ec4a5669686b9306d879f1dd535f828124f4ecd799f84",
       "group_id": "group-02bd450077fd",
       "split": "train",
       "eligibility": {
@@ -578723,7 +578723,7 @@
       "source_doi": "10.1021/acsami.2c14711",
       "revision": 1,
       "record_sha256": "832002758cf3556a5a902a9f81796fe8c8e22a78422678280c4b76eab44d121a",
-      "recipe_signature": "a8f06c2c93ef30148952a44167bd934acd527a5a525c38e87cb6b71ba62af438",
+      "recipe_signature": "dce2efc643b45c773957c460352533e50f8e16e2d2d44c24273ca4644316382a",
       "group_id": "group-ca4442a8d818",
       "split": "test",
       "eligibility": {
@@ -578800,7 +578800,7 @@
       "source_doi": "10.1021/acsami.1c02515",
       "revision": 1,
       "record_sha256": "eb0459d146ca746a72836b1443d95a3626f7b047c4c8696ac3229266ab02c55f",
-      "recipe_signature": "458eabd40b550ac134ced986253c8d9416c85a77f97c7c9162f58cb6cee588bd",
+      "recipe_signature": "6af35d8080f9235d675100490ea56f9071a623ea8d20d053b43ef448358bb286",
       "group_id": "group-9d97aab71090",
       "split": "train",
       "eligibility": {
@@ -578877,7 +578877,7 @@
       "source_doi": "10.1021/acsaelm.5c02448",
       "revision": 1,
       "record_sha256": "6cef409aa25ec1302224699c79adfafd8f86e0d4d9acb683edbf66e2ff86220b",
-      "recipe_signature": "25f24bd30565035c9b3e09a85172b0a29b279076ba146be297c618b7273f1d2f",
+      "recipe_signature": "c158809ef6c2f426620b877e99fa143d91e64d662ac5addd8b02bfeb352e1c16",
       "group_id": "group-e1a89a954c32",
       "split": "train",
       "eligibility": {

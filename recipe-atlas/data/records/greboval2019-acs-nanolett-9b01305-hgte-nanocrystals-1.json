@@ -447,7 +447,7 @@
         }
       },
       "environment": {
-        "value": "Ar",
+        "value": "vacuum",
         "status": "reported",
         "evidence": [
           {
@@ -556,14 +556,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "Ar",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "greboval2019-acs-nanolett-9b01305",
-            "locator": "Main PDF p.8"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {

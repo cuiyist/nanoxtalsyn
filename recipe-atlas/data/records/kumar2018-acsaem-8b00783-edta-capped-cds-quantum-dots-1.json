@@ -294,14 +294,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "air",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "kumar2018-acsaem-8b00783",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -338,14 +333,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "air",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "kumar2018-acsaem-8b00783",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -420,14 +410,9 @@
         }
       },
       "environment": {
-        "value": "air",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "kumar2018-acsaem-8b00783",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -464,14 +449,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "air",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "kumar2018-acsaem-8b00783",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {

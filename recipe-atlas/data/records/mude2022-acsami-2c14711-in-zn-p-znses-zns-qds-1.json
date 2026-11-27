@@ -96,7 +96,7 @@
       "name": "Indium chloride",
       "formula": null,
       "role": "metal_precursor",
-      "stage": "workup",
+      "stage": "synthesis",
       "identity": {
         "pubchem_cid": null,
         "smiles": null
@@ -134,7 +134,7 @@
       "name": "zinc oxo cluster",
       "formula": null,
       "role": "metal_precursor",
-      "stage": "workup",
+      "stage": "synthesis",
       "identity": {
         "pubchem_cid": null,
         "smiles": null
@@ -286,7 +286,7 @@
       "name": "1-octadecene",
       "formula": null,
       "role": "solvent",
-      "stage": "workup",
+      "stage": "synthesis",
       "identity": {
         "pubchem_cid": null,
         "smiles": null
@@ -477,14 +477,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "inert gas",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "mude2022-acsami-2c14711",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -524,14 +519,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "inert gas",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "mude2022-acsami-2c14711",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -592,14 +582,9 @@
         }
       },
       "environment": {
-        "value": "inert gas",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "mude2022-acsami-2c14711",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {

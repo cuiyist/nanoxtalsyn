@@ -331,14 +331,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "N2",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "karmakar2020-acsabm-0c01165",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -420,14 +415,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "N2",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "karmakar2020-acsabm-0c01165",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -483,14 +473,9 @@
         }
       },
       "environment": {
-        "value": "N2",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "karmakar2020-acsabm-0c01165",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
@@ -608,14 +593,9 @@
         }
       },
       "environment": {
-        "value": "N2",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "karmakar2020-acsabm-0c01165",
-            "locator": "Main PDF p.2"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {
