@@ -232404,9 +232404,9 @@
       "record_type": "literature_protocol",
       "source_year": 2025,
       "source_doi": "10.1021/acsanm.5c00275",
-      "revision": 2,
+      "revision": 3,
       "record_sha256": "e3ef2a57523e3912971f9d31502fbdfa26ccd4d5ed569ded5479e9a16dab1902",
-      "recipe_signature": "c087ca49534f658efc52e9811d338fa5b397fd1e6156ae9e114b7204dc2370a4",
+      "recipe_signature": "f5bfd3218bd013257a403a71b84baeec3b63e77097626cbf830344800705bc9a",
       "group_id": "group-6c777948d6e2",
       "split": "train",
       "eligibility": {

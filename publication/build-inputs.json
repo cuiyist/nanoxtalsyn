@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x18b-part02-exact-optical",
-  "updated_at": "2026-11-28T13:20:35.091062+00:00",
+  "release_id": "tanjin-x18b-part03-exact-conditions",
+  "updated_at": "2026-11-28T16:00:34.705564+00:00",
   "record_count": 7855,
   "input_files": [
     {
@@ -1166,17 +1166,17 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "5d969208dea986b8a006f6ff50e7195b20b2c4edd392132a316d88e7ce01aabe",
+      "sha256": "3bc1d27f30f22ef5da852a0463d0dfddbe2f4b75b52f3fb46687613a67c4e2cb",
       "bytes": 1110
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part2.json",
-      "sha256": "aef1d1a4b5e207040280acde822750ca1bf4988688bd7c7fa4e54a84dd717db0",
+      "sha256": "e25439625dbf6b4091422a3ae7d3f1c8780bbf48719f80e491f43a416a5f7a5d",
       "bytes": 83874556
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "9f42d188b295ca3ba8792b0872d10c7489c85be06271bb901923bc0c77e33ec0",
+      "sha256": "b0bdc572a2d9759b03bcf6676da1d3268c616c27cb99075c0c15ddc1ccfa9752",
       "bytes": 83879276
     },
     {
@@ -15941,8 +15941,8 @@
     },
     {
       "path": "recipe-atlas/data/records/kim2025-acsanm-5c00275-znste-znse-zns-core-shell-shell-qds-1.json",
-      "sha256": "b1caffa2a37fc67720aca560b32d89c9824d4134454ef83477074e831580a900",
-      "bytes": 20549
+      "sha256": "a31cd3b0e557f4ed9c0476c18fbee07c41a4bae1ba61be4c259debd57874a8e2",
+      "bytes": 20553
     },
     {
       "path": "recipe-atlas/data/records/kim2025-adma-202420633-green-emitting-inp-znse-zns-quantum-dots-3.json",
@@ -40461,7 +40461,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "be0961f122a5f7b2c2af9a5bef23705c12320580f1704bfb7f55d68179a0d6bd",
+      "sha256": "9765f8d2bb3c2fe382813f8a4863f7ad379496c92265e630b266372d88edc6c6",
       "bytes": 27561384
     },
     {
@@ -42036,7 +42036,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "363cb7e3b655c9c33ff35e89d84ae08a6314b77c5dd0627648ec2e36c42b00e5",
+      "sha256": "c0c59706a5e12d7efc175f5067f3ee80cf699db82bfbf165cd0a26484e322119",
       "bytes": 11133451
     },
     {
@@ -53251,7 +53251,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "6acb1cc2e2309e95cbc38175b334fc41fb70e7509988d87984cc0544d0129a7c",
+      "sha256": "7ac796ce0f81207faf8808f8a3c6a8e7c552da273595440cda54eb112de5c059",
       "bytes": 5007112
     },
     {
@@ -310526,7 +310526,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/kim2025-acsanm-5c00275-znste-znse-zns-core-shell-shell-qds-1.json",
-      "sha256": "bc4ab57968309698a7049667c058980438546ce17b988c141810506feb12abdd",
+      "sha256": "6e4987c082d451a7f81f202249928e2c2072c4fffe3886dc4ee0fd8226f4ec60",
       "bytes": 2437
     },
     {
@@ -343749,7 +343749,7 @@
     "jena2025-acs-langmuir-5c01176-zns-quantum-dots-10-nm-heat-treated-at-1-4": "418bdfe7e400a6b776682b78ad2e8b59b956febc86186543ca7e19686682bab0",
     "jena2025-acs-langmuir-5c01176-zns-cubes-370-nm-1": "6bb914446ceccc85f47e94446c5e149b0f2c588e384f73b41d2daa490b255554",
     "enomoto2022-acsanm-1c04403-cds-qd-nanofibers-1": "ec96417bf66193b1ac3b9461fb5736df2c522b551dd996ae64659aac8e89c2f3",
-    "kim2025-acsanm-5c00275-znste-znse-zns-core-shell-shell-qds-1": "2458a46e32b6a7036a4f389dd0c55032958ff4fe3b84e3c35b7d9b6c2460a6c1",
+    "kim2025-acsanm-5c00275-znste-znse-zns-core-shell-shell-qds-1": "b3740d8d5465e73ef21e1d750a2310a9643f762a16ae4a361463955c3e733692",
     "zhang2010-am100274d-hexagonal-faceted-zno-quantum-dots-1": "9945c6e21d0ef8033d46627825dbd21d0a978815433a85accc6c178d03643431",
     "wang1999-ja9832414-bi2se3-3": "1b761d5fbae7670838dec37dee7f3190a8d26eeb2d3c6ee8cdc71c78e826169a",
     "wang1999-ja9832414-cdse-2": "1e2dc0f51efdc48cc0ef62569f5c87ad77fa14206b729c0409d8b14fb24fc748",
