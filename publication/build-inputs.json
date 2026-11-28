@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x18b-part01-exact-conditions",
-  "updated_at": "2026-11-28T11:08:38.394990+00:00",
+  "release_id": "tanjin-x18b-part02-exact-optical",
+  "updated_at": "2026-11-28T13:20:35.091062+00:00",
   "record_count": 7855,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "218f0a562cd05d48a2289a0c0d9c47d54dda32188df9d86b74e10479a20f19e2",
+      "sha256": "5d969208dea986b8a006f6ff50e7195b20b2c4edd392132a316d88e7ce01aabe",
       "bytes": 1110
     },
     {
@@ -1176,8 +1176,8 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "4348ec96e032ef141436d82be9e3379a3010a202f2245a584f533d12ad74705a",
-      "bytes": 83880620
+      "sha256": "9f42d188b295ca3ba8792b0872d10c7489c85be06271bb901923bc0c77e33ec0",
+      "bytes": 83879276
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
@@ -9006,8 +9006,8 @@
     },
     {
       "path": "recipe-atlas/data/records/fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1.json",
-      "sha256": "0f3dae3fcb19715ba49675d7e77eb5c7cb48c7a5d1455029f0ba8a526443c7cb",
-      "bytes": 16352
+      "sha256": "376388def05d8eb9f85562a9cafa29b6e1901c116e13d1381c7e204f401c374c",
+      "bytes": 15460
     },
     {
       "path": "recipe-atlas/data/records/fan2003-cm0208509-snox-thin-film-o-sno2-phase-1.json",
@@ -40461,7 +40461,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "1e3bd6062c78345adbe9f4d95bba7e53de619fa99f43dce3d1c24c6bd657d529",
+      "sha256": "be0961f122a5f7b2c2af9a5bef23705c12320580f1704bfb7f55d68179a0d6bd",
       "bytes": 27561384
     },
     {
@@ -40756,8 +40756,8 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/particles07-pairs.json",
-      "sha256": "014e4a46cc29bed4c960c35824138978b2c30719e7e148eb7e62506e9f3a5e67",
-      "bytes": 335264
+      "sha256": "3ae23a59ecb9193ab7ad547c71bb1e5ad61b342abc7fc3e849f1e1866de93f0b",
+      "bytes": 335206
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/particles08-pairs.json",
@@ -42036,7 +42036,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "61e33db704e6339d8608438b032c394cbf79679b3695c8d308e92b8eb485822a",
+      "sha256": "363cb7e3b655c9c33ff35e89d84ae08a6314b77c5dd0627648ec2e36c42b00e5",
       "bytes": 11133451
     },
     {
@@ -53251,7 +53251,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "3f517bef5797b4b11a616f792d640fcdd2e51cd535951221e18703ad3a0c9852",
+      "sha256": "6acb1cc2e2309e95cbc38175b334fc41fb70e7509988d87984cc0544d0129a7c",
       "bytes": 5007112
     },
     {
@@ -305631,7 +305631,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1.json",
-      "sha256": "9c61b5e8d87e83078fd89f0f400576196112cf02c4bf06db929a158a85b5e10e",
+      "sha256": "4d2efb6a4bdb9036528dd14f48872155ba9f0b0391c4254de8cc323f64a20ed6",
       "bytes": 2415
     },
     {
@@ -342893,7 +342893,7 @@
     "ma2013-pssa-201329136-g-mno2-d01-1": "80f86678f83d0b56cdebf95c36d12c72698d6690ee8bf075e7a9bd2bd29b08b4",
     "ferdousi2009-s11664-008-0645-7-pbse-nanocrystals-1": "003ea185f05e0863e98cbe05f94712a2a16b97fdadc4780fc4a431e1ea35d1ed",
     "kitada2009-j-ssc-2009-07-002-pbse-colloidal-quantum-dots-qds-capped-w-1": "cbf13360fca36c77fbe2d60cdf807b0a75381482d256d76afe6cc5ef23ce643f",
-    "fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1": "ecdf61817c73dc1f3edd95c1c5fee5f9204024df7a1e12445e3d7e26d278535b",
+    "fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1": "6ad9409b7ae41fbacde99eb25dc3c706ec513438329a181fec5c74c0e75e396b",
     "sun2023-acs-langmuir-3c00008-n-gqds-1": "d815643f51b88317d0c4d74e165e4ec9ce535b77f636387d251005d3d518c26b",
     "zacharia2021-acsanm-1c02685-ag3in5se9-ncs-s1-1": "1ca66477eed85efcd42e035c4e65a006ee411b63374663c57b18f2be6aebabf1",
     "zacharia2021-acsanm-1c02685-ag3in5se9-ncs-s2-2": "286d195683032cddbdb37a4d8c1dd3e6bd08550b4162f53ae780349c0630d121",
