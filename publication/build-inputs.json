@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x-release11",
-  "updated_at": "2026-11-28T06:13:41.491058+00:00",
+  "release_id": "tanjin-x11-live-qa-correction",
+  "updated_at": "2026-11-28T08:52:51.135351+00:00",
   "record_count": 7855,
   "input_files": [
     {
@@ -56,12 +56,12 @@
     },
     {
       "path": "publication/asset-rights-registry.json",
-      "sha256": "f47436b62a5c856bb698bd72a7f4681ef141c96f9cb93c77b82576a33b0f283c",
-      "bytes": 83009327
+      "sha256": "e725851cdd630d24e82638a8a4070949dbd94e22a9c33cd97958385818d5ab35",
+      "bytes": 83011352
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "046daaa9c2d9bb0146c7bedbd10797138dc18c42819ef67fe591d64aacd2aa98",
+      "sha256": "f36fa95a29ebdc394eab7d540e00b961d1e0ba5504c4a5acb2ea2139df40f0d1",
       "bytes": 295487
     },
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "82846a65e402f1d4e4fe85e050be472ff4849fda822d7971a4265e3fefe66efd",
+      "sha256": "d99ee5b47014f839101592a682463a293a4d7b990a2a48454ec3a10fccc49132",
       "bytes": 1110
     },
     {
@@ -1176,13 +1176,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "041c397f70449e1ea066b8a72b10e471ce54d0ef5710a085c786e509f0d28202",
-      "bytes": 83880594
+      "sha256": "8dc9f0574fa538c31e58d10f9812caa0352c3b6f1e895516f2a7d6da5d91ed6b",
+      "bytes": 83880620
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "acf0a64e34e45ec75a270dd6fa05cc7a3ddf05109780fee6c5aa4ee358774eb8",
-      "bytes": 11016839
+      "sha256": "8dd04d60809998dac43a6425d8a088530d865c6c968db78d79513974ef1a18e7",
+      "bytes": 11016865
     },
     {
       "path": "recipe-atlas/data/records/1-105026-gaas-tetrahedral-quantum-dots-tqds-1.json",
@@ -27606,18 +27606,18 @@
     },
     {
       "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-oam-capped-cdse-qds-3.json",
-      "sha256": "8940a028468026e7d8368947629dc637c2bcf602f01c90e39fab2bc8e208a60e",
-      "bytes": 18180
+      "sha256": "9190228ce68b88876fdf3df751643e0299f51bad1a11143eae7a97e8456812c6",
+      "bytes": 17708
     },
     {
       "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-s2-capped-cdse-qds-2.json",
-      "sha256": "8b5df4a45daefc66c59b254de336a8ed1612a0461c98be11787b9de3ba886732",
-      "bytes": 21176
+      "sha256": "4afee620db3af96eb703829fe80b60aeee4d432b433aede719771a6f8f7cd990",
+      "bytes": 20704
     },
     {
       "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1.json",
-      "sha256": "5a7273dcbb8567ae2bc80b85e79c9fc30fe09733f00c84e0f225eb30839953ea",
-      "bytes": 22107
+      "sha256": "72c6545fc7e96baaf9b20412b09bc78a3ea10b966b2315b783921ef630a02019",
+      "bytes": 21635
     },
     {
       "path": "recipe-atlas/data/records/ren2019-acsomega-9b01612-n-gqds-1.json",
@@ -40461,7 +40461,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "71f7c8f4bf49c1f711c5e190888cef9e91900624c452479fc51995d8068053cd",
+      "sha256": "9218a6bc0488a92bbb31d8649427c5904c9de6a6f7d45bfc901bdcb47fc9fccd",
       "bytes": 27561384
     },
     {
@@ -41256,8 +41256,8 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release11-pairs.json",
-      "sha256": "d810f9e767fb684a4fd70d26e7ea605dd4844942e462f6767cfdde9282c80444",
-      "bytes": 16983
+      "sha256": "c887c3efc094fcd5f513a6a1600758af10dee7a4906938cd6fae4f6266de1240",
+      "bytes": 16922
     },
     {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
@@ -42036,7 +42036,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "e24ffdce3744c0cf609c8000637edde298457b428b74351f1826f5c7a69af994",
+      "sha256": "5cb3e835a1529db663ead1a5b2e5d77b34b307e33185056f86b8765a84b578a9",
       "bytes": 11133451
     },
     {
@@ -53251,7 +53251,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "23be7838330f1c5091e29537caaff443bbf6ef4644266e973a6b3e0e2d35f37a",
+      "sha256": "8e0eb496bc7f4ebb6229ebb8c4df003f3aa54c9c241707ccd8732d12d6ea2117",
       "bytes": 5007112
     },
     {
@@ -126901,8 +126901,8 @@
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/huang2009-s11051-009-9777-9/figure-1.png",
-      "sha256": "ed22303dffb03a84865b7d741f785deaf0bb38405f89164fc6d9432f1b251a93",
-      "bytes": 44015
+      "sha256": "ebe5a9ead52a71757fd163dd47ed4256dee21dcba269fb7cbc6aa1224c2edff1",
+      "bytes": 41123
     },
     {
       "path": "recipe-atlas/static/assets/paper-reviews/huang2011-bm200889k/figure-1.png",
@@ -317976,17 +317976,17 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-oam-capped-cdse-qds-3.json",
-      "sha256": "b96ee290b3d47f37d54f1b2e35269bd6fadac2842a06ab54da2d33b0a6bb6e36",
+      "sha256": "dda869ec30dfa08d50ccfb5ab2b62423ff8f6d93485a376ceb63e2f998d4229d",
       "bytes": 2377
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-s2-capped-cdse-qds-2.json",
-      "sha256": "44427ea30c4ba0409a68dc6cb82334383c1d19444accf8393ead1e2ea23dc4f9",
+      "sha256": "3c94c69a3c62297649f5f1df6632c788bcba85aaec7996f8538617ab68dcf05a",
       "bytes": 3467
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1.json",
-      "sha256": "c5a9565ee99ce2f7fe365bcbfbfad0bbd8ae00c3e6898ceeed4f7d2441b80645",
+      "sha256": "d385bf73a9687763631834e3f6495c314033fb6690f24804775f0b4f90d2e6d4",
       "bytes": 3490
     },
     {
@@ -344415,7 +344415,10 @@
     "wang2024-acs-analchem-4c00695-hgse-qds-sample-7-1": "1188fbbfa73f56d8bdac4137350843bbc71f7b8c33b8dfc7b102f509061359dc",
     "yang2026-acs-jpcc-5c05899-cis-a-1": "bd8b5fe7b54194b6d0fabe4f3b23d37c8096c45b03e27bac945ca9e40bb2d7e3",
     "yang2026-acs-jpcc-5c05899-cis-b-2": "c5dc6610bd1f11bc61f2ce5861f3b45b789c11346c7ddfe3dff015b5754b927c",
-    "yoon2016-acs-jpcc-6b07331-oleylamine-passivated-hgs-cqd-1": "5c9a2f7472c017bc55a88f7242dca73d87cba837a3ddae30746f45b10afbf710"
+    "yoon2016-acs-jpcc-6b07331-oleylamine-passivated-hgs-cqd-1": "5c9a2f7472c017bc55a88f7242dca73d87cba837a3ddae30746f45b10afbf710",
+    "ren2017-acsami-7b03715-oam-capped-cdse-qds-3": "d95a156ed4ffa74dc7206fb5de8e2df892be256e2a51ef8366b4301856f6f1fc",
+    "ren2017-acsami-7b03715-s2-capped-cdse-qds-2": "e96db1d6e32495aadbb3a34faa0b3cdb725314c6fe04f6aee1fcb135bcfbb379",
+    "ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1": "970c6b373cef96c411aa2881aec80397018ffb11cde3cd94116cfb3c941dcdf0"
   },
   "schema": "mattersyn-build-input-blueprint/1",
   "note": "Exact public source inputs; the blueprint and its enclosing approval manifest are excluded to avoid self-reference. The external runtime snapshot binds the clean source commit."
