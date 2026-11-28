@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
   "release_id": "tanjin-x-release10",
-  "updated_at": "2026-11-27T23:52:21.849404+00:00",
+  "updated_at": "2026-11-28T01:23:26.348492+00:00",
   "record_count": 7849,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "3df7a1c7afc52672d6926a3fc83cf9e77ceb69bf3eee58f55bc44c34a660214e",
+      "sha256": "73327c2b2babc3235d193b98384b7e2eb3d23854a6d7c651777cfc6a7b8cffd1",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "deb35628c56b96b98e82c02782047378768eab3322a2bae31a0cdfb481e4dd6d",
+      "sha256": "f0dcc79578d649646220f494b315b67ca614ff9faee04c568e7c01b71089b6b2",
       "bytes": 83880831
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "fb490ca32ca3b2e299ad19fd7f6c7272a5d71ad7428e0c333a81d568097128ce",
+      "sha256": "c37b51d0ebe4cc8219d4e4639917239431e3c585a3ff71030972f5919226658e",
       "bytes": 10930023
     },
     {
@@ -34376,8 +34376,8 @@
     },
     {
       "path": "recipe-atlas/data/records/wang2021-acsami-1c02515-cdznse-cdzns-zns-qds-1.json",
-      "sha256": "56dba5b94c81a8c4b8fe29cad7f8043f8ef6873ddbdd92142e946e04d534bbc0",
-      "bytes": 21542
+      "sha256": "f7e9ed24980e89ea0949fe5c5fe9a7b051fa01e463ffb88e8888c2a1319048e4",
+      "bytes": 21423
     },
     {
       "path": "recipe-atlas/data/records/wang2021-acsomega-1c00162-water-soluble-cds-quantum-dots-1.json",
@@ -40431,7 +40431,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "033f7ebf45cf7e9d9f8fdd0cf43ec38f1c2a0817f21f34e0466fe5a7bd98ccb3",
+      "sha256": "781b5ea9b454088d195a8965b5893ccbcee4f4a116b96737b2bc9c5de63485da",
       "bytes": 27539714
     },
     {
@@ -42001,7 +42001,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "6f59e2a6d6d6f257083c09e6e70165837f69244ec5e351c4017d413b107dd835",
+      "sha256": "ef2f9911b1f066fe99fc3a7ee8d1f58e2394fe3a9ce3797a5bf0c3209614b36e",
       "bytes": 11129264
     },
     {
@@ -53216,7 +53216,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "e0e623596f7bc8bd7d722bbb3da1a8709f9f5aafc44dd0c16d07bb95309e549e",
+      "sha256": "3eaafc8760aa81a5eb485878037e1e6e0bbe7b16d4f55e50aa36e2f033ec3282",
       "bytes": 5006812
     },
     {
@@ -322406,7 +322406,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/wang2021-acsami-1c02515-cdznse-cdzns-zns-qds-1.json",
-      "sha256": "6a1bd126a5b9475b4975648650b7028817ad74a438729e6d7ea500b657b1379a",
+      "sha256": "598505128ee68c5fcfb216ee5b0efd246381c6ef6c108abd0f8123e865bb3d79",
       "bytes": 3277
     },
     {
@@ -344138,7 +344138,7 @@
     "greboval2019-acs-nanolett-9b01305-hgte-nanocrystals-1": "f87c5fbbb3354631d8689b4bb5eb574c0bccb00f9fa720ae55039263ff12b3b7",
     "kumar2018-acsaem-8b00783-edta-capped-cds-quantum-dots-1": "15d5a1eaff6bfab2065c6b21c7bb00b81924804768e6aac16a8fe1ea542105a9",
     "yan2026-acsaelm-5c02448-oa-pqds-1": "d1329fd6bff5900921ae0095ec02c2113e308dd4b910bfde40697a3172612986",
-    "wang2021-acsami-1c02515-cdznse-cdzns-zns-qds-1": "4c06203afbb090cbc78a1a0cd8530d3daebfaf9835beb21b871ccc5403a8bd25",
+    "wang2021-acsami-1c02515-cdznse-cdzns-zns-qds-1": "4db69e8a5b3f200f4572fe74326fc2c983c621d38fc65c2053052f577c995d47",
     "hafiz2020-acsami-0c19450-ag2se-qds-1": "41646111b08865f05d9e9584b4a073b83e9eaccb8c06771bfdd81a6e40dfffb0",
     "mude2022-acsami-2c14711-in-zn-p-znses-zns-qds-1": "3c86c5bf36d86f1c065a3bc42d2908b96f6720d26bb5285e771fe634a706d8ca"
   },

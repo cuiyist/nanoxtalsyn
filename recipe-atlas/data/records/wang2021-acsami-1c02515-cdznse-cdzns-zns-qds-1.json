@@ -543,14 +543,9 @@
       ],
       "parameters": {},
       "environment": {
-        "value": "Ar",
-        "status": "reported",
-        "evidence": [
-          {
-            "source_id": "wang2021-acsami-1c02515",
-            "locator": "Main PDF p.6"
-          }
-        ],
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
         "note": ""
       },
       "endpoint": {

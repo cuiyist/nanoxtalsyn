@@ -578800,7 +578800,7 @@
       "source_doi": "10.1021/acsami.1c02515",
       "revision": 1,
       "record_sha256": "eb0459d146ca746a72836b1443d95a3626f7b047c4c8696ac3229266ab02c55f",
-      "recipe_signature": "6af35d8080f9235d675100490ea56f9071a623ea8d20d053b43ef448358bb286",
+      "recipe_signature": "64b9b481f597097ed95c4106262dde0d9346ea1c6cd637754d90164cd518bff8",
       "group_id": "group-9d97aab71090",
       "split": "train",
       "eligibility": {
