@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x11-live-qa-correction",
+  "release_id": "tanjin-x18b-part01-exact-conditions",
   "repo": "mattersyn",
-  "source_commit": "2eab9d9c111dd77537db06f4594055f1c21e3d0c",
+  "source_commit": "a062265009286de4794ae024d3cfd08a6591e5ec",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "e1ebb4f61d12103480866512a0df6a791be90a9c5a4d8e0dbe9cf83fb6e36291",
+    "sha256": "27292f5ef21056bd9bc07ca19412dd03dcd6bc845dfba69439f34c0bb3bbd881",
     "file_count": 67989,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,21 +150,21 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "f2a891fda31d727afd1ee41dbeeaee3db405b15894db975a5bc7ef046df91fed",
-      "bytes": 15693414,
+      "sha256": "c23084420f921a5ae12bd2cbaea7e3d125a5a3330e290ccafbd1cc09c7e3f702",
+      "bytes": 15693420,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T08:52:51.135351+00:00",
+      "reviewed_at": "2026-11-28T11:08:38.394990+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "7f3cf0526337dced4e31d45249730910077060c9644243a23b2af5dc25262e08",
-        "sha256": "81d29e15c8cb2d74df5856d5e388dde65f6d305a179f44d2884f4b19443e6d94",
-        "reviewer": "Codex exact published crop and stock-volume source checks",
-        "reviewed_at": "2026-11-28T02:52:12.759574-06:00"
+        "before_sha256": "81d29e15c8cb2d74df5856d5e388dde65f6d305a179f44d2884f4b19443e6d94",
+        "sha256": "620dd3763b596409dc8e0c95de235951c9b07f7e545ae7fa08fd64aa37fe5d83",
+        "reviewer": "Codex exact X18b source evidence; not an independent audit",
+        "reviewed_at": "2026-11-28T05:08:06.952726-06:00"
       }
     },
     {
@@ -3020,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "d99ee5b47014f839101592a682463a293a4d7b990a2a48454ec3a10fccc49132",
+      "sha256": "218f0a562cd05d48a2289a0c0d9c47d54dda32188df9d86b74e10479a20f19e2",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact published crop and stock-volume source checks",
-      "reviewed_at": "2026-11-28T02:52:12.759574-06:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3044,25 +3044,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "8dc9f0574fa538c31e58d10f9812caa0352c3b6f1e895516f2a7d6da5d91ed6b",
+      "sha256": "4348ec96e032ef141436d82be9e3379a3010a202f2245a584f533d12ad74705a",
       "bytes": 83880620,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact published crop and stock-volume source checks",
-      "reviewed_at": "2026-11-28T02:52:12.759574-06:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "8dd04d60809998dac43a6425d8a088530d865c6c968db78d79513974ef1a18e7",
+      "sha256": "e70990f0d11e3c5fee08a5b08bfc953e701a9ec0d9a15e145c6c4c8b7ad8cc98",
       "bytes": 11016865,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact published crop and stock-volume source checks",
-      "reviewed_at": "2026-11-28T02:52:12.759574-06:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3960,13 +3960,13 @@
     },
     {
       "path": "recipe-atlas/data/records/ahmad2026-s11664-026-12912-z-hgte-cqds-1.json",
-      "sha256": "d4bf0fb7c143e527fc33e60acebb209ae34b6d3517daed683477b7fc13aed288",
-      "bytes": 23198,
+      "sha256": "ec0350829495b2e596dd1b091476bc0277e00f5cc129a6073d737c4f338711e7",
+      "bytes": 23202,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -126662,13 +126662,13 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "78118c4f2fe78405ca2560d2cc9bd5242ea5da72e1d1982bc3eaf74447c1882a",
-      "bytes": 18987,
+      "sha256": "8e7f8957158379bc3283327f7903f0d56cd3f6d39d3e1e895e37bacf4dd83efd",
+      "bytes": 18983,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -130673,13 +130673,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "9218a6bc0488a92bbb31d8649427c5904c9de6a6f7d45bfc901bdcb47fc9fccd",
+      "sha256": "1e3bd6062c78345adbe9f4d95bba7e53de619fa99f43dce3d1c24c6bd657d529",
       "bytes": 27561384,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T08:52:51.135351+00:00",
+      "reviewed_at": "2026-11-28T11:08:38.394990+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -144670,13 +144670,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "5cb3e835a1529db663ead1a5b2e5d77b34b307e33185056f86b8765a84b578a9",
+      "sha256": "61e33db704e6339d8608438b032c394cbf79679b3695c8d308e92b8eb485822a",
       "bytes": 11133451,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact published crop and stock-volume source checks",
-      "reviewed_at": "2026-11-28T02:52:12.759574-06:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175951,13 +175951,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "8e0eb496bc7f4ebb6229ebb8c4df003f3aa54c9c241707ccd8732d12d6ea2117",
+      "sha256": "3f517bef5797b4b11a616f792d640fcdd2e51cd535951221e18703ad3a0c9852",
       "bytes": 5007112,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact published crop and stock-volume source checks",
-      "reviewed_at": "2026-11-28T02:52:12.759574-06:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -978949,13 +978949,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ahmad2026-s11664-026-12912-z-hgte-cqds-1.json",
-      "sha256": "41fc6af722370c5eff9b8174628d8fecd25799203d7143bc2a95020c379e56f0",
+      "sha256": "8a50d6b47d186e1566ae71b94c6026abcf67f406c2f5bfe5df27fc2c6d6bd77a",
       "bytes": 2263,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-20T20:57:46+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -1133373,13 +1133373,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "0ee9d52598d523ac94f8dfa9c8e1ef8497475e1127bd2d8f16d3884a02b7910f",
+      "sha256": "aff591b200fcb0918fccc6de38849fe6a87149a7bd340da0afe0808ebe671324",
       "bytes": 2814,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-22T02:26:37+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
