@@ -1,19 +1,19 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x18a-guard-correction",
+  "release_id": "tanjin-x-release11",
   "repo": "mattersyn",
-  "source_commit": "6a47fbbfd425e7e3dc1c31b089c2bde97b5195b5",
+  "source_commit": "c1a3cb7626cf836629b0dce8e66a214bf03e9177",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "ab271cfa637779271408ef57e64cdb998c49de3b6cd8b0cd2da0a345bc97e2aa",
-    "file_count": 67939,
+    "sha256": "1cd2cbf30cd3be14226422af10880ae2b73056b23423632df1720ca275984905",
+    "file_count": 67989,
     "excludes": [
       "publication/project-allowlist.json"
     ]
   },
-  "policy_sha256": "ac1472c8be7daa43da97a7264521534f2ebd2c59e0d581c00be2558b4b91d67e",
-  "asset_rights_registry_sha256": "b12aba958dc5b1c4f27f2afa888d6a630ea53e5d233d99e468938ca79008e9de",
+  "policy_sha256": "046daaa9c2d9bb0146c7bedbd10797138dc18c42819ef67fe591d64aacd2aa98",
+  "asset_rights_registry_sha256": "f47436b62a5c856bb698bd72a7f4681ef141c96f9cb93c77b82576a33b0f283c",
   "review_scope": "Exact staged payload identities. Scientific review remains separately bound to paper content.",
   "files": [
     {
@@ -138,44 +138,38 @@
     },
     {
       "path": "publication/asset-rights-registry.json",
-      "sha256": "b12aba958dc5b1c4f27f2afa888d6a630ea53e5d233d99e468938ca79008e9de",
-      "bytes": 82961754,
+      "sha256": "f47436b62a5c856bb698bd72a7f4681ef141c96f9cb93c77b82576a33b0f283c",
+      "bytes": 83009327,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "b338d6b8dbaaf09f5d690fd3e2260c380ad4b36715bd4f4e72cd3856bf6ea3af",
-      "bytes": 15681684,
+      "sha256": "ef699fa9fb4eae7a6971e2790597efc615c00295bda6895f4575fdd276cb0bbe",
+      "bytes": 15693041,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T03:52:01.403303+00:00",
+      "reviewed_at": "2026-11-28T06:13:41.491058+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
-      "approval_scope": "Derived source control only; no scientific or eligibility approval",
-      "metadata_review": {
-        "before_sha256": "34dc9767909e244397747a5cc46cdb62c30c5a5ab863dfe0c96587e0d2ca1284",
-        "sha256": "7f3cf0526337dced4e31d45249730910077060c9644243a23b2af5dc25262e08",
-        "reviewer": "Codex exact X18a source guards; no independent audit",
-        "reviewed_at": "2026-11-27T21:51:17.251140-06:00"
-      }
+      "approval_scope": "Derived source control only; no scientific or eligibility approval"
     },
     {
       "path": "publication/public-release-policy.json",
-      "sha256": "ac1472c8be7daa43da97a7264521534f2ebd2c59e0d581c00be2558b4b91d67e",
+      "sha256": "046daaa9c2d9bb0146c7bedbd10797138dc18c42819ef67fe591d64aacd2aa98",
       "bytes": 295487,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "audit_summary",
       "source_refs": []
     },
@@ -229,13 +223,13 @@
     },
     {
       "path": "recipe-atlas/data/inventory-evidence.json",
-      "sha256": "5762154126bc98201003e3c4ca540e1feb4101bef1cfbb02f19cb0a3eab6840b",
-      "bytes": 6402271,
+      "sha256": "73fbe74cb0f41757f699d1c7f8b34d8662b82f6bc9b2219353c916397f75b985",
+      "bytes": 6410761,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3020,13 +3014,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "60b23979b4583ec8e19be060cd46377890769c156e4e7bbcc43fc35f09fb411d",
+      "sha256": "82846a65e402f1d4e4fe85e050be472ff4849fda822d7971a4265e3fefe66efd",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X18a source guards; no independent audit",
-      "reviewed_at": "2026-11-27T21:51:17.251140-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3044,25 +3038,25 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "0dda2c2872575e5ad8b3c1b5b417bd83071c5d070117a771f0b6e7bcc025f878",
-      "bytes": 83881111,
+      "sha256": "041c397f70449e1ea066b8a72b10e471ce54d0ef5710a085c786e509f0d28202",
+      "bytes": 83880594,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X18a source guards; no independent audit",
-      "reviewed_at": "2026-11-27T21:51:17.251140-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "a57cf2cc2e52dee3c8e8ebf831cb160056b433765d8b732d8f4cd8c6d0a5dbae",
-      "bytes": 10930023,
+      "sha256": "acf0a64e34e45ec75a270dd6fa05cc7a3ddf05109780fee6c5aa4ee358774eb8",
+      "bytes": 11016839,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X18a source guards; no independent audit",
-      "reviewed_at": "2026-11-27T21:51:17.251140-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -40708,6 +40702,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/data/records/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1.json",
+      "sha256": "23e8c63c9681b3a60ebf98d30de4fa9cfe51e5367b6b36a0cd719ee90479efab",
+      "bytes": 17001,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/data/records/huang2011-bm200889k-cdse-zns-core-shell-qds-1.json",
       "sha256": "8d6ce4367c1567814be17b2bdd370df4af07c47b1fe2cc4c5249d3999e2bcc1c",
       "bytes": 13857,
@@ -41907,6 +41917,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.langmuir.7b01699"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/hussain2026-acsami-5c25535-pbs-qds-1.json",
+      "sha256": "060186060489515766846c743ae296a8e2256241ce9da7a15d82cc94a5b0751c",
+      "bytes": 23705,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
         }
       ]
     },
@@ -50131,6 +50157,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.chemmater.0c01275"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/kim2020-acsami-0c06904-cspbbr3-qd-1.json",
+      "sha256": "60072eb992d97808f2503ca74e2515d1f56c2cb01e848a111bcbf74c5fb47544",
+      "bytes": 14467,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
         }
       ]
     },
@@ -88873,6 +88915,54 @@
         {
           "doi": "10.1021/am503517s",
           "url": "https://doi.org/10.1021/am503517s"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-oam-capped-cdse-qds-3.json",
+      "sha256": "8940a028468026e7d8368947629dc637c2bcf602f01c90e39fab2bc8e208a60e",
+      "bytes": 18180,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-s2-capped-cdse-qds-2.json",
+      "sha256": "8b5df4a45daefc66c59b254de336a8ed1612a0461c98be11787b9de3ba886732",
+      "bytes": 21176,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/data/records/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1.json",
+      "sha256": "5a7273dcbb8567ae2bc80b85e79c9fc30fe09733f00c84e0f225eb30839953ea",
+      "bytes": 22107,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
         }
       ]
     },
@@ -130577,13 +130667,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "2c5fb75e017c87760339bc0df4b026e1a24bd1ad0d0d8f5b8b88f4bf440dbf10",
-      "bytes": 27539714,
+      "sha256": "71f7c8f4bf49c1f711c5e190888cef9e91900624c452479fc51995d8068053cd",
+      "bytes": 27561384,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T03:52:01.403303+00:00",
+      "reviewed_at": "2026-11-28T06:13:41.491058+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -142628,6 +142718,18 @@
       "source_refs": []
     },
     {
+      "path": "recipe-atlas/data/simple-pipeline-batches/tanjin-x-release11-pairs.json",
+      "sha256": "d810f9e767fb684a4fd70d26e7ea605dd4844942e462f6767cfdde9282c80444",
+      "bytes": 16983,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": []
+    },
+    {
       "path": "recipe-atlas/data/structure-outcome-policy.json",
       "sha256": "8e3cfbde4da74b513a60567fc4f7960a79b1fe6e7836278e2f3deca5eab22b0b",
       "bytes": 5435,
@@ -142961,25 +143063,25 @@
     },
     {
       "path": "recipe-atlas/scripts/chemical_resolved_identity_pins.json",
-      "sha256": "5e8ade6df0560e0c318cad2ba7ef670d1a4c5d82445e86a61ded4f7c38c81b26",
+      "sha256": "20ec84e567cb7dde4ba1fd50ae8560b75722dbb988500038c4afd2e68ce6fa3b",
       "bytes": 152140,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/scripts/chemical_standard_abbreviation_pins.json",
-      "sha256": "2d35632b393dc9aa5ed0a960ffebb9bb5b95ec3d5f140cf3bbf5189ae48edf85",
+      "sha256": "b62408242c2fd7dc4e930c29f4e5f79d4e691be269f3ae6be5cbdf2dbd26c30e",
       "bytes": 32285,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -144562,13 +144664,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "5da3472805a12a92688911eb2ca380f47e3ba4abde074dbb97dc3dc2dd6ad66d",
-      "bytes": 11129315,
+      "sha256": "e24ffdce3744c0cf609c8000637edde298457b428b74351f1826f5c7a69af994",
+      "bytes": 11133451,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X18a source guards; no independent audit",
-      "reviewed_at": "2026-11-27T21:51:17.251140-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175843,25 +175945,25 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "c9c65b3dae16a8c6aaf20778a14dbca5387bc4e9f5839809fd73dab5d0f4c3d6",
-      "bytes": 5006812,
+      "sha256": "23be7838330f1c5091e29537caaff443bbf6ef4644266e973a6b3e0e2d35f37a",
+      "bytes": 5007112,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex exact X18a source guards; no independent audit",
-      "reviewed_at": "2026-11-27T21:51:17.251140-06:00",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/registry.json",
-      "sha256": "cbbe74fbd8e9b9d03e33d1ef5cc0eb019d71324d5096244670bff99ed4511355",
-      "bytes": 13194036,
+      "sha256": "37c72c7aabf5e4b4fe81b8bf4dcddd9da41ba3fb40d310ab17f0707a0195018a",
+      "bytes": 13195024,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -222498,6 +222600,22 @@
         {
           "doi": "10.1021/nn203683s",
           "url": "https://doi.org/10.1021/nn203683s"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/chemical-registry/svg/name-card-cd-stock-solution.svg",
+      "sha256": "728d06118ebb94d679ac84326c8d1d8b24a506e70e1598447986cb5313ee9507",
+      "bytes": 626,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
         }
       ]
     },
@@ -407920,6 +408038,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/paper-reviews/huang2009-s11051-009-9777-9/figure-1.png",
+      "sha256": "ed22303dffb03a84865b7d741f785deaf0bb38405f89164fc6d9432f1b251a93",
+      "bytes": 44015,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/paper-reviews/huang2011-bm200889k/figure-1.png",
       "sha256": "58f4b0d3f50684fa08336c91caa2945194d758e95e18ea3a458c74a38bf37370",
       "bytes": 665827,
@@ -410402,6 +410536,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.langmuir.7b01699"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/hussain2026-acsami-5c25535/figure-2.png",
+      "sha256": "b180d8ab7b39d34c58de1ac7e44e4fcaedef9fe461aca7c77d1bf1c205447c92",
+      "bytes": 1143942,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
         }
       ]
     },
@@ -432378,6 +432528,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.chemmater.0c01275"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/kim2020-acsami-0c06904/figure-2.png",
+      "sha256": "0394235baa7a48df450566c5ec73397c66ff3b010c88a1a02e5d77abc9a4e2bd",
+      "bytes": 371545,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
         }
       ]
     },
@@ -520108,6 +520274,38 @@
         {
           "doi": "10.1021/am503517s",
           "url": "https://doi.org/10.1021/am503517s"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ren2017-acsami-7b03715/figure-1.png",
+      "sha256": "9a4b22a40e0fd7dbc1c11214c5e6f8dd4f5f632ff9a6c9eacec5ac9abb1d89d1",
+      "bytes": 166985,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/paper-reviews/ren2017-acsami-7b03715/figure-3.png",
+      "sha256": "95688a6f7a1d7e6ab158484cbe191f5ef6f1a1f16839853b72fc60321b8f0eca",
+      "bytes": 47205,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
         }
       ]
     },
@@ -720981,6 +721179,70 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/assets/protocol/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1-s01-dissolve.svg",
+      "sha256": "c973e5c1a88f8721d7267afd7167d63b69fe2afa82de2a4401fad4e98b74a731",
+      "bytes": 1395,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1-s02-heat.svg",
+      "sha256": "6ab6f6e9a07daca91251e76dcc500104799d075dcc87465ecec9cc3edd9417fc",
+      "bytes": 1651,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1-s03-precipitate.svg",
+      "sha256": "dd655cf09f2cd31bf9bfa7149ac5c3f52b8d9fa468733f1880902d5dcd8b7e8e",
+      "bytes": 1365,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1-s04-dissolve.svg",
+      "sha256": "4081e2e56b14677587358e993bc3c39fe75b6c1281d49e759604b50982e6eec9",
+      "bytes": 1401,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/assets/protocol/huang2011-bm200889k-cdse-zns-core-shell-qds-1-s01-heat.svg",
       "sha256": "f934728abc6ba3245e04428d84398446b8b86a5fa516be3415faf25e499310fa",
       "bytes": 1591,
@@ -724107,6 +724369,118 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.langmuir.7b01699"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s01-degas.svg",
+      "sha256": "9ad31b4e62ff5b4cf889ab84484812290bffe7ac45309db35f2b19cb9d270f9d",
+      "bytes": 1715,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s02-introduce.svg",
+      "sha256": "1da64ab34e91169901a133fd4b5dfe9c4162c9dc7090b7d1d44dcdc306228c68",
+      "bytes": 1527,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s03-heat.svg",
+      "sha256": "59892974e41f7dfeb8b231670a6e535fd1e5226b2abac4438c27c11780e4a497",
+      "bytes": 1545,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s04-inject.svg",
+      "sha256": "1c64c36dd82c6abf2f0462b7773e9c5842be47e18e2f08a23393182e2fec1cc6",
+      "bytes": 1601,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s05-quench.svg",
+      "sha256": "f99532ce66535854480d3b7a0139d8524d44140f4ffd40fc6773a83dfff3057a",
+      "bytes": 1446,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s06-purify.svg",
+      "sha256": "01a431802a254c5fe3ae19cffdaeaaac0b580bdcaf0847a46543d83572078b51",
+      "bytes": 1479,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/hussain2026-acsami-5c25535-pbs-qds-1-s07-dry.svg",
+      "sha256": "4fe1099b0ad39d1af379cd6909f66d96be0ea29765a8808117f04c6b885a1831",
+      "bytes": 1622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
         }
       ]
     },
@@ -750964,6 +751338,70 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.chemmater.0c01275"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kim2020-acsami-0c06904-cspbbr3-qd-1-s01-cool.svg",
+      "sha256": "f18ae43f3648b15620443d2791cee9f881de7f13e8973586142609a753a96388",
+      "bytes": 1405,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kim2020-acsami-0c06904-cspbbr3-qd-1-s02-precipitate.svg",
+      "sha256": "0cc6f967990a3fdd7a36ef0083ca13fcf523fc429fbbd5cd7e4a2cc4a7cc5d0e",
+      "bytes": 1346,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kim2020-acsami-0c06904-cspbbr3-qd-1-s03-centrifuge.svg",
+      "sha256": "031d515ae9f41d47f2747d6ca1277644cc383740a7377badaf24c338b1908d66",
+      "bytes": 1321,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/kim2020-acsami-0c06904-cspbbr3-qd-1-s04-redisperse.svg",
+      "sha256": "aceb38896872295d4e18d2e8e3cfa83e9d33fca38367f055f68483fd931a7290",
+      "bytes": 1315,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
         }
       ]
     },
@@ -865371,6 +865809,262 @@
         {
           "doi": "10.1021/am503517s",
           "url": "https://doi.org/10.1021/am503517s"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-oam-capped-cdse-qds-3-s01-heat.svg",
+      "sha256": "7a13bc8258888c5e8daca5bea29d31694c0566c7792a486aa8585d0d064a0a1d",
+      "bytes": 1550,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-oam-capped-cdse-qds-3-s02-inject.svg",
+      "sha256": "862bb906ef30e8f8a617774a037c33787fcdc093ad88f28cf323fb5881ca4a85",
+      "bytes": 1622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-oam-capped-cdse-qds-3-s03-precipitate.svg",
+      "sha256": "465c81a5570679202453cdffd8247f2b35aa1246e175348916aa2044aa89c579",
+      "bytes": 1396,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-oam-capped-cdse-qds-3-s04-centrifuge.svg",
+      "sha256": "07433ac4b67ca519426fadcde588a4405b69a11075c376ba6004a2f42bbbf7d6",
+      "bytes": 1329,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s01-heat.svg",
+      "sha256": "7a13bc8258888c5e8daca5bea29d31694c0566c7792a486aa8585d0d064a0a1d",
+      "bytes": 1550,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s02-inject.svg",
+      "sha256": "862bb906ef30e8f8a617774a037c33787fcdc093ad88f28cf323fb5881ca4a85",
+      "bytes": 1622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s03-precipitate.svg",
+      "sha256": "465c81a5570679202453cdffd8247f2b35aa1246e175348916aa2044aa89c579",
+      "bytes": 1396,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s04-centrifuge.svg",
+      "sha256": "5a425a49d2e5240efa0c526d52256f181337811ad9f3bd30aa37e2914e053df2",
+      "bytes": 1404,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s05-ligand-exchange.svg",
+      "sha256": "7258241fac877b238a5a47ec5d519f337235f4ea91a31a121232e2053354c6fd",
+      "bytes": 1430,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2-capped-cdse-qds-2-s06-precipitate.svg",
+      "sha256": "108160d24bdaf3acdcd3032156bf09dd0462b0520298274908fb49ee3d036698",
+      "bytes": 1360,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s01-heat.svg",
+      "sha256": "7a13bc8258888c5e8daca5bea29d31694c0566c7792a486aa8585d0d064a0a1d",
+      "bytes": 1550,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s02-inject.svg",
+      "sha256": "862bb906ef30e8f8a617774a037c33787fcdc093ad88f28cf323fb5881ca4a85",
+      "bytes": 1622,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s03-precipitate.svg",
+      "sha256": "465c81a5570679202453cdffd8247f2b35aa1246e175348916aa2044aa89c579",
+      "bytes": 1396,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s04-centrifuge.svg",
+      "sha256": "5a425a49d2e5240efa0c526d52256f181337811ad9f3bd30aa37e2914e053df2",
+      "bytes": 1404,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s05-ligand-exchange.svg",
+      "sha256": "719d485c2f581a09df210c2f9292bebdd5d422fa2f6f2fc94c789de600156069",
+      "bytes": 1436,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/assets/protocol/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1-s06-redisperse.svg",
+      "sha256": "40d8d84e36148a56c6ccf015731d4fc054c3fdf59903be20c527fbc1dff3aa16",
+      "bytes": 1347,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_asset",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
         }
       ]
     },
@@ -1028507,6 +1029201,22 @@
       ]
     },
     {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1.json",
+      "sha256": "c4930f4f607c4626821d396cb5f8b686ae5d037872f048bf2c42fad2aa655a1a",
+      "bytes": 2492,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1007/s11051-009-9777-9"
+        }
+      ]
+    },
+    {
       "path": "recipe-atlas/static/data/protocol-art-bindings/huang2011-bm200889k-cdse-zns-core-shell-qds-1.json",
       "sha256": "1713d164dd299b0e3fd1cc9eaa46804ad05a4e4a100f644f1d287185502a85c4",
       "bytes": 1856,
@@ -1029088,6 +1029798,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.langmuir.7b01699"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/hussain2026-acsami-5c25535-pbs-qds-1.json",
+      "sha256": "58f538fb903863567c38adb89ab5e1e8154d02579d460db67419cd2bfc8910ae",
+      "bytes": 4145,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.5c25535"
         }
       ]
     },
@@ -1038983,6 +1039709,22 @@
       "source_refs": [
         {
           "url": "https://doi.org/10.1021/acs.chemmater.0c01275"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/kim2020-acsami-0c06904-cspbbr3-qd-1.json",
+      "sha256": "66373d3a299464653531f4278daf26891f8e5ac92bd68b96f09cbf2ee1d19dad",
+      "bytes": 2216,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.0c06904"
         }
       ]
     },
@@ -1085231,6 +1085973,54 @@
         {
           "doi": "10.1103/physrevb.66.201302",
           "url": "https://doi.org/10.1103/physrevb.66.201302"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-oam-capped-cdse-qds-3.json",
+      "sha256": "b96ee290b3d47f37d54f1b2e35269bd6fadac2842a06ab54da2d33b0a6bb6e36",
+      "bytes": 2377,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-s2-capped-cdse-qds-2.json",
+      "sha256": "44427ea30c4ba0409a68dc6cb82334383c1d19444accf8393ead1e2ea23dc4f9",
+      "bytes": 3467,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
+        }
+      ]
+    },
+    {
+      "path": "recipe-atlas/static/data/protocol-art-bindings/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1.json",
+      "sha256": "c5a9565ee99ce2f7fe365bcbfbfad0bbd8ae00c3e6898ceeed4f7d2441b80645",
+      "bytes": 3490,
+      "git_mode": "100644",
+      "decision": "allow",
+      "review_status": "approved",
+      "reviewer": "Codex X exact source engineering review; no independent science audit",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
+      "content_class": "site_data",
+      "source_refs": [
+        {
+          "url": "https://doi.org/10.1021/acsami.7b03715"
         }
       ]
     },
@@ -1163615,13 +1164405,13 @@
     },
     {
       "path": "research-assets/public-audits/MACHINE_EXTRACTED_PAPERS.md",
-      "sha256": "4dbd52fe2bdb297cffa2a45d38cef8a9d32c2a6b408be7e78a1b6e4da6b994c0",
-      "bytes": 1066814,
+      "sha256": "1f4ecb1aa10ae50f8a99132dfd7f3443334497b148cccbcf6a0ea4812779e373",
+      "bytes": 1113296,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex X exact source engineering review; no independent science audit",
-      "reviewed_at": "2026-11-25T23:52:10+00:00",
+      "reviewed_at": "2026-11-28T06:13:02+00:00",
       "content_class": "authored_docs",
       "source_refs": []
     },

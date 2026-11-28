@@ -165949,6 +165949,238 @@
       "record_ids": [
         "greboval2019-acs-nanolett-9b01305-hgte-nanocrystals-1"
       ]
+    },
+    {
+      "source_group": "kim2020-acsami-0c06904",
+      "paper_id": "kim2020-acsami-0c06904",
+      "doi": "10.1021/acsami.0c06904",
+      "url": "https://doi.org/10.1021/acsami.0c06904",
+      "title": "Cesium Lead Bromide Quantum Dot Light-Emitting Field-Effect Transistors",
+      "year": 2020,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kim2020-acsami-0c06904-cspbbr3-qd-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kim2020-acsami-0c06904-cspbbr3-qd-1"
+      ]
+    },
+    {
+      "source_group": "hussain2026-acsami-5c25535",
+      "paper_id": "hussain2026-acsami-5c25535",
+      "doi": "10.1021/acsami.5c25535",
+      "url": "https://doi.org/10.1021/acsami.5c25535",
+      "title": "High-Performance Solution-Processed Quantum Dot Infrared Photodetectors via Interface Engineering with MXenes",
+      "year": 2026,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/hussain2026-acsami-5c25535-pbs-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "hussain2026-acsami-5c25535-pbs-qds-1"
+      ]
+    },
+    {
+      "source_group": "huang2009-s11051-009-9777-9",
+      "paper_id": "huang2009-s11051-009-9777-9",
+      "doi": "10.1007/s11051-009-9777-9",
+      "url": "https://doi.org/10.1007/s11051-009-9777-9",
+      "title": "Extracting fluorescence signal due to direct excitation of the energy acceptor from quantum dot-based FRET",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "huang2009-s11051-009-9777-9-gsh-capped-zn0-3cd0-7se-alloyed-qdots-1"
+      ]
+    },
+    {
+      "source_group": "ren2017-acsami-7b03715",
+      "paper_id": "ren2017-acsami-7b03715",
+      "doi": "10.1021/acsami.7b03715",
+      "url": "https://doi.org/10.1021/acsami.7b03715",
+      "title": "Inorganic Ligand Thiosulfate-Capped Quantum Dots for Efficient Quantum Dot Sensitized Solar Cells",
+      "year": 2017,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text and listed supporting information, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "extracted_not_expert_reviewed",
+      "supporting_information_extraction": [
+        {
+          "role": "si",
+          "virtual_page_offset": 9,
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": false
+        }
+      ],
+      "notes": [
+        "Processed by two separate local-model extraction passes and the owner-calibrated CHECK V6. Chemical names and steps may be retained through source-quote support under that CHECK; Only approved numeric fields can be kept from one pass with contiguous source-quote support and no conflicting value in the other pass; all other numeric fields require agreement. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ren2017-acsami-7b03715-s2o3-2-capped-cdse-qds-1",
+        "ren2017-acsami-7b03715-s2-capped-cdse-qds-2",
+        "ren2017-acsami-7b03715-oam-capped-cdse-qds-3"
+      ]
     }
   ],
   "material_notes": {
