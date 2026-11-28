@@ -1,7 +1,7 @@
 {
   "published_baseline_commit": "5363bea2c1de410b75a3356fecc99731f7c9140f",
-  "release_id": "tanjin-x11-live-qa-correction",
-  "updated_at": "2026-11-28T08:52:51.135351+00:00",
+  "release_id": "tanjin-x18b-part01-exact-conditions",
+  "updated_at": "2026-11-28T11:08:38.394990+00:00",
   "record_count": 7855,
   "input_files": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "d99ee5b47014f839101592a682463a293a4d7b990a2a48454ec3a10fccc49132",
+      "sha256": "218f0a562cd05d48a2289a0c0d9c47d54dda32188df9d86b74e10479a20f19e2",
       "bytes": 1110
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "8dc9f0574fa538c31e58d10f9812caa0352c3b6f1e895516f2a7d6da5d91ed6b",
+      "sha256": "4348ec96e032ef141436d82be9e3379a3010a202f2245a584f533d12ad74705a",
       "bytes": 83880620
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part4.json",
-      "sha256": "8dd04d60809998dac43a6425d8a088530d865c6c968db78d79513974ef1a18e7",
+      "sha256": "e70990f0d11e3c5fee08a5b08bfc953e701a9ec0d9a15e145c6c4c8b7ad8cc98",
       "bytes": 11016865
     },
     {
@@ -1461,8 +1461,8 @@
     },
     {
       "path": "recipe-atlas/data/records/ahmad2026-s11664-026-12912-z-hgte-cqds-1.json",
-      "sha256": "d4bf0fb7c143e527fc33e60acebb209ae34b6d3517daed683477b7fc13aed288",
-      "bytes": 23198
+      "sha256": "ec0350829495b2e596dd1b091476bc0277e00f5cc129a6073d737c4f338711e7",
+      "bytes": 23202
     },
     {
       "path": "recipe-atlas/data/records/ahmed2019-acsanm-9b00071-fe3o4-qds-1.json",
@@ -39161,8 +39161,8 @@
     },
     {
       "path": "recipe-atlas/data/records/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "78118c4f2fe78405ca2560d2cc9bd5242ea5da72e1d1982bc3eaf74447c1882a",
-      "bytes": 18987
+      "sha256": "8e7f8957158379bc3283327f7903f0d56cd3f6d39d3e1e895e37bacf4dd83efd",
+      "bytes": 18983
     },
     {
       "path": "recipe-atlas/data/records/zhang2021-acs-chemmater-1c02610-ag2te-qds-14-7-plqy-1.json",
@@ -40461,7 +40461,7 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "9218a6bc0488a92bbb31d8649427c5904c9de6a6f7d45bfc901bdcb47fc9fccd",
+      "sha256": "1e3bd6062c78345adbe9f4d95bba7e53de619fa99f43dce3d1c24c6bd657d529",
       "bytes": 27561384
     },
     {
@@ -42036,7 +42036,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "5cb3e835a1529db663ead1a5b2e5d77b34b307e33185056f86b8765a84b578a9",
+      "sha256": "61e33db704e6339d8608438b032c394cbf79679b3695c8d308e92b8eb485822a",
       "bytes": 11133451
     },
     {
@@ -53251,7 +53251,7 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "8e0eb496bc7f4ebb6229ebb8c4df003f3aa54c9c241707ccd8732d12d6ea2117",
+      "sha256": "3f517bef5797b4b11a616f792d640fcdd2e51cd535951221e18703ad3a0c9852",
       "bytes": 5007112
     },
     {
@@ -300116,7 +300116,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/ahmad2026-s11664-026-12912-z-hgte-cqds-1.json",
-      "sha256": "41fc6af722370c5eff9b8174628d8fecd25799203d7143bc2a95020c379e56f0",
+      "sha256": "8a50d6b47d186e1566ae71b94c6026abcf67f406c2f5bfe5df27fc2c6d6bd77a",
       "bytes": 2263
     },
     {
@@ -325816,7 +325816,7 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/zhang2020-s40820-020-00448-8-pbs-cqd-1.json",
-      "sha256": "0ee9d52598d523ac94f8dfa9c8e1ef8497475e1127bd2d8f16d3884a02b7910f",
+      "sha256": "aff591b200fcb0918fccc6de38849fe6a87149a7bd340da0afe0808ebe671324",
       "bytes": 2814
     },
     {
@@ -344029,7 +344029,7 @@
     "jiang2007-s10895-007-0191-3-monoclinic-gd2moo6-er3-yb3-3": "9161137e648efba7f10f9b5af96e37ded7e7bb41849fa0c4d17321784cad1201",
     "jiang2007-s10895-007-0191-3-monoclinic-gd2-moo4-3-er3-yb3-1": "96b902efc3d28f6af32f03fadbe41eedf3429006afa00e8ec6f05a3d5905e82f",
     "jiang2007-s10895-007-0191-3-orthorhombic-gd2-moo4-3-er3-yb3-2": "62955ca44207aae7b6ab64038909fae63329406f9123f85c009e4274dbf125fd",
-    "ahmad2026-s11664-026-12912-z-hgte-cqds-1": "e17324224f486660e8587069689451801f60402527bb43ce0bb81ad6119f3328",
+    "ahmad2026-s11664-026-12912-z-hgte-cqds-1": "6bbfb52eabd256217b5285226953511ad17bea07e50b81a253065741373dcdb3",
     "zhang2025-acsenergylett-5c01449-target-pqds-1": "469d65503d4b1b54ce77b540fcfddf2e58a7915647b04da3f97ca828098ca522",
     "yu2014-am404811j-cdte-cds-coreshell-qds-capped-with-3-mer-1": "fe84dae69d85ab1fb9a8ec6317554a65eb6b5ebce8345013087946a7637eec6d",
     "sun2008-ja800837v-cdte-quantum-wires-1": "b5efc50c18c6fe784e041186d143f19fbc0f79f4a08198eb00024084e5503c24",
@@ -344075,7 +344075,7 @@
     "iacovo2016-srep37913-pbs-quantum-dots-qds-capped-with-butylam-1": "7a7eb20b19ec8aa42fb2f5b33d58509f1698dd93821b356d50a8dc41a14868b3",
     "mehta2010-1-3488812-site-selectively-grown-inas-quantum-dots-1": "90257acf61999c010b8bcc8adb81d0e3b6bd6942a9b896c8c14c254fd76bb200",
     "cai2018-s12274-017-1760-7-cspbbr3-ncs-1": "5c965faabd92aad46fd08ab2c12c46b4fd02dd9765866d0883b84da50db0c2e0",
-    "zhang2020-s40820-020-00448-8-pbs-cqd-1": "b7ecf267e35ad6aeeca0a4cf38c1830808d4f3583c72dc99f9155ed0995b0763",
+    "zhang2020-s40820-020-00448-8-pbs-cqd-1": "dcf5a7b60651cec00deeafae5b688f24a030cfcf4deda5d5bae8a2ac2d749179",
     "song2022-acsanm-1c04195-cspbcl3-mn2-er3-qds-1": "2991acdae9b2286e27b880ff420cc4f615d89893bde61af3de0e869aefeb9186",
     "hassinen2013-jp4008575-4-4-nm-cdte-qds-1": "075b886466ed28b63fd8eba1580c3c9a4ddb9ca31a6d991c7f306b6b6b40ee73",
     "cate2013-jz4007492-infilled-pbse-edt-qd-solid-with-al2o3-1": "175336ed2c9ab91095090a9b43aa81bcf5bd9a5716f14f69b3e72b846def07c7",
