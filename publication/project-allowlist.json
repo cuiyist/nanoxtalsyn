@@ -1,12 +1,12 @@
 {
   "schema_version": "mattersyn-public-release-allowlist/1",
-  "release_id": "tanjin-x18b-part01-exact-conditions",
+  "release_id": "tanjin-x18b-part02-exact-optical",
   "repo": "mattersyn",
-  "source_commit": "a062265009286de4794ae024d3cfd08a6591e5ec",
+  "source_commit": "c1b572e66549b14c50642cb6d3356895fcb2b9ae",
   "source_commit_role": "preparation_base",
   "source_payload_binding": {
     "schema": "mattersyn-source-payload-binding/1",
-    "sha256": "27292f5ef21056bd9bc07ca19412dd03dcd6bc845dfba69439f34c0bb3bbd881",
+    "sha256": "b02ce6f8c6ff64f5dba295b3189355bbb69494aada8dbd19be8468511e8bd924",
     "file_count": 67989,
     "excludes": [
       "publication/project-allowlist.json"
@@ -150,21 +150,21 @@
     },
     {
       "path": "publication/build-inputs.json",
-      "sha256": "c23084420f921a5ae12bd2cbaea7e3d125a5a3330e290ccafbd1cc09c7e3f702",
-      "bytes": 15693420,
+      "sha256": "543d594804e3d22cd908047f374c41292c32a7d05f34caaa77a67ef875cadccb",
+      "bytes": 15693417,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T11:08:38.394990+00:00",
+      "reviewed_at": "2026-11-28T13:20:35.091062+00:00",
       "content_class": "audit_summary",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval",
       "metadata_review": {
-        "before_sha256": "81d29e15c8cb2d74df5856d5e388dde65f6d305a179f44d2884f4b19443e6d94",
-        "sha256": "620dd3763b596409dc8e0c95de235951c9b07f7e545ae7fa08fd64aa37fe5d83",
+        "before_sha256": "620dd3763b596409dc8e0c95de235951c9b07f7e545ae7fa08fd64aa37fe5d83",
+        "sha256": "dadeb7b783f1783e477638421e478bde3798269fe90c3cd7df5b8fd5063d0137",
         "reviewer": "Codex exact X18b source evidence; not an independent audit",
-        "reviewed_at": "2026-11-28T05:08:06.952726-06:00"
+        "reviewed_at": "2026-11-28T07:20:11.217988-06:00"
       }
     },
     {
@@ -3020,13 +3020,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.json",
-      "sha256": "218f0a562cd05d48a2289a0c0d9c47d54dda32188df9d86b74e10479a20f19e2",
+      "sha256": "5d969208dea986b8a006f6ff50e7195b20b2c4edd392132a316d88e7ce01aabe",
       "bytes": 1110,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex exact X18b source evidence; not an independent audit",
-      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -3044,13 +3044,13 @@
     },
     {
       "path": "recipe-atlas/data/reader-presentation-reviewed.part3.json",
-      "sha256": "4348ec96e032ef141436d82be9e3379a3010a202f2245a584f533d12ad74705a",
-      "bytes": 83880620,
+      "sha256": "9f42d188b295ca3ba8792b0872d10c7489c85be06271bb901923bc0c77e33ec0",
+      "bytes": 83879276,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex exact X18b source evidence; not an independent audit",
-      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -28176,13 +28176,13 @@
     },
     {
       "path": "recipe-atlas/data/records/fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1.json",
-      "sha256": "0f3dae3fcb19715ba49675d7e77eb5c7cb48c7a5d1455029f0ba8a526443c7cb",
-      "bytes": 16352,
+      "sha256": "376388def05d8eb9f85562a9cafa29b6e1901c116e13d1381c7e204f401c374c",
+      "bytes": 15460,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
@@ -130673,13 +130673,13 @@
     },
     {
       "path": "recipe-atlas/data/release-baseline-manifest.json",
-      "sha256": "1e3bd6062c78345adbe9f4d95bba7e53de619fa99f43dce3d1c24c6bd657d529",
+      "sha256": "be0961f122a5f7b2c2af9a5bef23705c12320580f1704bfb7f55d68179a0d6bd",
       "bytes": 27561384,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "deterministic-source-control-generator",
-      "reviewed_at": "2026-11-28T11:08:38.394990+00:00",
+      "reviewed_at": "2026-11-28T13:20:35.091062+00:00",
       "content_class": "site_data",
       "source_refs": [],
       "approval_scope": "Derived source control only; no scientific or eligibility approval"
@@ -139230,164 +139230,17 @@
     },
     {
       "path": "recipe-atlas/data/simple-pipeline-batches/particles07-pairs.json",
-      "sha256": "014e4a46cc29bed4c960c35824138978b2c30719e7e148eb7e62506e9f3a5e67",
-      "bytes": 335264,
+      "sha256": "3ae23a59ecb9193ab7ad547c71bb1e5ad61b342abc7fc3e849f1e1866de93f0b",
+      "bytes": 335206,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Root: exact Q20 source-extracted integration bytes; no independent scientific audit",
-      "reviewed_at": "2026-10-21T07:20:53+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
-          "url": "https://doi.org/10.1021/ja1101932"
-        },
-        {
-          "url": "https://doi.org/10.1021/ja8040527"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp108561u"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp304728u"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp402951c"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp510466k"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp8028227"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp803746b"
-        },
-        {
-          "url": "https://doi.org/10.1021/la100866z"
-        },
-        {
-          "url": "https://doi.org/10.1021/la702972d"
-        },
-        {
-          "url": "https://doi.org/10.1021/la900962t"
-        },
-        {
-          "url": "https://doi.org/10.1021/nn505793y"
-        },
-        {
-          "url": "https://doi.org/10.1021/la900614e"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.chemmater.8b04727"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.1c01720"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.3c04490"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp510908f"
-        },
-        {
-          "url": "https://doi.org/10.1021/jp906390y"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.jpclett.2c00333"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsami.0c11651"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.analchem.5c04255"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.analchem.7b04893"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.chemmater.0c00551"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.chemmater.7b00411"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.chemmater.8b03871"
-        },
-        {
           "url": "https://doi.org/10.1021/acs.iecr.3c00274"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.inorgchem.3c02600"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.jpcc.0c03193"
-        },
-        {
-          "url": "https://doi.org/10.1021/acs.jpcc.7b12607"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsaem.5c00230"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsami.5c16396"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.0c02434"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.0c03483"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.3c05208"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.4c02882"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsanm.6c00834"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsaom.3c00132"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsnano.2c07677"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsnano.5c14864"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsnano.6b01266"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsnano.7b04199"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsomega.3c04962"
-        },
-        {
-          "url": "https://doi.org/10.1021/acsphotonics.5c02318"
-        },
-        {
-          "url": "https://doi.org/10.1021/cm300837z"
-        },
-        {
-          "url": "https://doi.org/10.1021/cm9027995"
-        },
-        {
-          "url": "https://doi.org/10.1021/ja0115215"
-        },
-        {
-          "url": "https://doi.org/10.1021/ja065996d"
-        },
-        {
-          "url": "https://doi.org/10.1021/ja3081023"
-        },
-        {
-          "url": "https://doi.org/10.1021/jacs.3c09413"
-        },
-        {
-          "url": "https://doi.org/10.1021/jacs.5c23332"
         }
       ]
     },
@@ -144670,13 +144523,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/bindings.json",
-      "sha256": "61e33db704e6339d8608438b032c394cbf79679b3695c8d308e92b8eb485822a",
+      "sha256": "363cb7e3b655c9c33ff35e89d84ae08a6314b77c5dd0627648ec2e36c42b00e5",
       "bytes": 11133451,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex exact X18b source evidence; not an independent audit",
-      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -175951,13 +175804,13 @@
     },
     {
       "path": "recipe-atlas/static/assets/chemical-registry/reader-3d-reference-overrides.json",
-      "sha256": "3f517bef5797b4b11a616f792d640fcdd2e51cd535951221e18703ad3a0c9852",
+      "sha256": "6acb1cc2e2309e95cbc38175b334fc41fb70e7509988d87984cc0544d0129a7c",
       "bytes": 5007112,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
       "reviewer": "Codex exact X18b source evidence; not an independent audit",
-      "reviewed_at": "2026-11-28T05:08:06.952726-06:00",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": []
     },
@@ -1015052,13 +1014905,13 @@
     },
     {
       "path": "recipe-atlas/static/data/protocol-art-bindings/fakheri2023-acs-iecr-3c00274-n-f-gqds0-07-1.json",
-      "sha256": "9c61b5e8d87e83078fd89f0f400576196112cf02c4bf06db929a158a85b5e10e",
+      "sha256": "4d2efb6a4bdb9036528dd14f48872155ba9f0b0391c4254de8cc323f64a20ed6",
       "bytes": 2415,
       "git_mode": "100644",
       "decision": "allow",
       "review_status": "approved",
-      "reviewer": "Codex F6 preservation review",
-      "reviewed_at": "2026-11-21T14:08:00+00:00",
+      "reviewer": "Codex exact X18b source evidence; not an independent audit",
+      "reviewed_at": "2026-11-28T07:20:11.217988-06:00",
       "content_class": "site_data",
       "source_refs": [
         {
