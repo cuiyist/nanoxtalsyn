@@ -9206,3 +9206,139 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1021/acsaelm.5c00342 | Unclear | new X reading |
 | 10.1021/acsaelm.5c01521 | Unclear | new X reading |
 | 10.1021/acsaelm.5c01793 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-178-X10 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1021/acsaelm.5c02276 | Unclear | new X reading |
+| 10.1021/acsaelm.6c00722 | Unclear | new X reading |
+| 10.1021/acsaelm.6c00970 | Unclear | new X reading |
+| 10.1021/acsaelm.9b00323 | Unclear | new X reading |
+| 10.1021/acsaelm.9b00479 | Unclear | new X reading |
+| 10.1021/acsaelm.9b00625 | Out of scope | new X reading |
+| 10.1021/acsaelm.9b00667 | Unclear | new X reading |
+| 10.1021/acsaelm.9b00685 | Unclear | new X reading |
+| 10.1021/acsaem.0c01242 | Unclear | new X reading |
+| 10.1021/acsaem.0c02292 | Unclear | new X reading |
+| 10.1021/acsaem.1c00513 | Unclear | new X reading |
+| 10.1021/acsaem.1c00654 | Out of scope | new X reading |
+| 10.1021/acsaem.1c01525 | Unclear | new X reading |
+| 10.1021/acsaem.1c01720 | Unclear | new X reading |
+| 10.1021/acsaem.1c03544 | Unclear | new X reading |
+| 10.1021/acsaem.3c02735 | Out of scope | new X reading |
+| 10.1021/acsaem.3c03121 | Unclear | new X reading |
+| 10.1021/acsaem.5c00612 | Unclear | new X reading |
+| 10.1021/acsaem.5c00753 | Unclear | new X reading |
+| 10.1021/acsaem.5c02289 | Out of scope | new X reading |
+| 10.1021/acsaem.5c02464 | Unclear | new X reading |
+| 10.1021/acsaem.6c00049 | Unclear | new X reading |
+| 10.1021/acsaem.6c00097 | Unclear | new X reading |
+| 10.1021/acsaem.7b00218 | Unclear | new X reading |
+| 10.1021/acsaem.8b00075 | Unclear | new X reading |
+| 10.1021/acsaem.8b00204 | Out of scope | new X reading |
+| 10.1021/acsaem.8b01756 | Unclear | new X reading |
+| 10.1021/acsaem.9b01216 | Unclear | new X reading |
+| 10.1021/acsaem.9b01765 | Unclear | new X reading |
+| 10.1021/acsami.0c04694 | Out of scope | new X reading |
+| 10.1021/acsami.0c05264 | Unclear | new X reading |
+| 10.1021/acsami.0c05646 | Unclear | new X reading |
+| 10.1021/acsami.0c05980 | Unclear | new X reading |
+| 10.1021/acsami.0c06781 | Unclear | new X reading |
+| 10.1021/acsami.0c11966 | Unclear | new X reading |
+| 10.1021/acsami.0c14246 | Unclear | new X reading |
+| 10.1021/acsami.0c15469 | Unclear | new X reading |
+| 10.1021/acsami.0c15576 | Out of scope | new X reading |
+| 10.1021/acsami.0c17336 | Unclear | new X reading |
+| 10.1021/acsami.0c17764 | Unclear | new X reading |
+| 10.1021/acsami.0c20254 | Unclear | new X reading |
+| 10.1021/acsami.1c01886 | Unclear | new X reading |
+| 10.1021/acsami.1c01898 | Unclear | new X reading |
+| 10.1021/acsami.1c02390 | Unclear | new X reading |
+| 10.1021/acsami.1c04821 | Unclear | new X reading |
+| 10.1021/acsami.1c06410 | Unclear | new X reading |
+| 10.1021/acsami.1c07644 | Unclear | new X reading |
+| 10.1021/acsami.1c08325 | Unclear | new X reading |
+| 10.1021/acsami.1c11214 | Unclear | new X reading |
+| 10.1021/acsami.1c11529 | Unclear | new X reading |
+| 10.1021/acsami.1c13052 | Unclear | new X reading |
+| 10.1021/acsami.1c13581 | Unclear | new X reading |
+| 10.1021/acsami.1c14857 | Unclear | new X reading |
+| 10.1021/acsami.1c16034 | Unclear | new X reading |
+| 10.1021/acsami.1c17152 | Unclear | new X reading |
+| 10.1021/acsami.1c18041 | Unclear | new X reading |
+| 10.1021/acsami.1c18344 | Unclear | new X reading |
+| 10.1021/acsami.1c19926 | Unclear | new X reading |
+| 10.1021/acsami.1c21013 | Out of scope | new X reading |
+| 10.1021/acsami.1c22097 | Unclear | new X reading |
+| 10.1021/acsami.2c01196 | Unclear | new X reading |
+| 10.1021/acsami.2c01238 | Unclear | new X reading |
+| 10.1021/acsami.2c04369 | Unclear | new X reading |
+| 10.1021/acsami.2c05662 | Unclear | new X reading |
+| 10.1021/acsami.2c07015 | Out of scope | new X reading |
+| 10.1021/acsami.2c10508 | Unclear | new X reading |
+| 10.1021/acsami.2c11205 | Unclear | new X reading |
+| 10.1021/acsami.2c13254 | Unclear | new X reading |
+| 10.1021/acsami.2c14212 | Out of scope | new X reading |
+| 10.1021/acsami.2c16554 | Unclear | new X reading |
+| 10.1021/acsami.2c16914 | Unclear | new X reading |
+| 10.1021/acsami.2c18064 | Unclear | new X reading |
+| 10.1021/acsami.2c18475 | Unclear | new X reading |
+| 10.1021/acsami.2c20716 | Unclear | new X reading |
+| 10.1021/acsami.2c20982 | Unclear | new X reading |
+| 10.1021/acsami.2c23218 | Unclear | new X reading |
+| 10.1021/acsami.3c00184 | Unclear | new X reading |
+| 10.1021/acsami.3c01289 | Unclear | new X reading |
+| 10.1021/acsami.3c01566 | Unclear | new X reading |
+| 10.1021/acsami.3c02356 | Unclear | new X reading |
+| 10.1021/acsami.3c02437 | Unclear | new X reading |
+| 10.1021/acsami.3c05272 | Unclear | new X reading |
+| 10.1021/acsami.3c06257 | Unclear | new X reading |
+| 10.1021/acsami.3c08691 | Unclear | new X reading |
+| 10.1021/acsami.3c09025 | Out of scope | new X reading |
+| 10.1021/acsami.3c09106 | Unclear | new X reading |
+| 10.1021/acsami.3c09996 | Unclear | new X reading |
+| 10.1021/acsami.3c10070 | Unclear | new X reading |
+| 10.1021/acsami.3c12897 | Unclear | new X reading |
+| 10.1021/acsami.3c16599 | Unclear | new X reading |
+| 10.1021/acsami.3c17786 | Unclear | new X reading |
+| 10.1021/acsami.3c18371 | Unclear | new X reading |
+| 10.1021/acsami.4c01115 | Unclear | new X reading |
+| 10.1021/acsami.4c01567 | Unclear | new X reading |
+| 10.1021/acsami.4c02069 | Unclear | new X reading |
+| 10.1021/acsami.4c02517 | Unclear | new X reading |
+| 10.1021/acsami.4c04128 | Unclear | new X reading |
+| 10.1021/acsami.4c04902 | Unclear | new X reading |
+| 10.1021/acsami.4c07582 | Unclear | new X reading |
+| 10.1021/acsami.4c11431 | Unclear | new X reading |
+| 10.1021/acsami.4c11480 | Unclear | new X reading |
+| 10.1021/acsami.4c15012 | Unclear | new X reading |
+| 10.1021/acsami.4c16075 | Unclear | new X reading |
+| 10.1021/acsami.4c18246 | Unclear | new X reading |
+| 10.1021/acsami.4c19450 | Unclear | new X reading |
+| 10.1021/acsami.4c19653 | Out of scope | new X reading |
+| 10.1021/acsami.4c22232 | Unclear | new X reading |
+| 10.1021/acsami.5b00040 | Unclear | new X reading |
+| 10.1021/acsami.5b01738 | Unclear | new X reading |
+| 10.1021/acsami.5b02434 | Unclear | new X reading |
+| 10.1021/acsami.5b02523 | Unclear | new X reading |
+| 10.1021/acsami.5b03672 | Unclear | new X reading |
+| 10.1021/acsami.5b04050 | Unclear | new X reading |
+| 10.1021/acsami.5b06352 | Unclear | new X reading |
+| 10.1021/acsami.5b08097 | Unclear | new X reading |
+| 10.1021/acsami.5b09084 | Unclear | new X reading |
+| 10.1021/acsami.5b09538 | Unclear | new X reading |
+| 10.1021/acsami.5b09613 | Out of scope | new X reading |
+| 10.1021/acsami.5b11154 | Unclear | new X reading |
+| 10.1021/acsami.5b11354 | Out of scope | new X reading |
+| 10.1021/acsami.5c05780 | Unclear | new X reading |
+| 10.1021/acsami.5c09493 | Unclear | new X reading |
+| 10.1021/acsami.5c10939 | Unclear | new X reading |
+| 10.1021/acsami.5c11654 | Out of scope | new X reading |
+| 10.1021/acsami.5c13831 | Out of scope | new X reading |
+| 10.1021/acsami.5c17575 | Out of scope | new X reading |
+| 10.1021/acsami.5c18654 | Out of scope | new X reading |
+| 10.1021/acsami.5c18760 | Unclear | new X reading |
