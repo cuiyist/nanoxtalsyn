@@ -9342,3 +9342,841 @@ Scope and thin-recipe dispositions from the checked extraction. These are not ne
 | 10.1021/acsami.5c17575 | Out of scope | new X reading |
 | 10.1021/acsami.5c18654 | Out of scope | new X reading |
 | 10.1021/acsami.5c18760 | Unclear | new X reading |
+
+<!-- owner-x5-checked-dispositions-210-X11 -->
+## X intake: DOI-only skipped papers
+
+Scope and thin-recipe dispositions from the checked extraction. These are not new recipe records or an independent audit. The saved passes and checked pairs remain available locally. Technical/context holds without a successful retry and already live records are not classified here.
+
+| DOI | Reason | Basis |
+|---|---|---|
+| 10.1007/s11664-021-09196-w | Unclear | new X reading |
+| 10.1007/s12209-021-00291-x | Unclear | new X reading |
+| 10.1016/j.actbio.2010.01.025 | Unclear | new X reading |
+| 10.1016/j.apcatb.2018.11.012 | Unclear | new X reading |
+| 10.1016/j.apcatb.2019.01.019 | Unclear | new X reading |
+| 10.1016/j.apcatb.2023.122571 | Unclear | new X reading |
+| 10.1016/j.apcatb.2023.122878 | Unclear | new X reading |
+| 10.1016/j.apradiso.2010.09.004 | Unclear | new X reading |
+| 10.1016/j.apsusc.2005.11.046 | Unclear | new X reading |
+| 10.1016/j.apsusc.2009.08.019 | Unclear | new X reading |
+| 10.1016/j.apsusc.2009.08.057 | Out of scope | new X reading |
+| 10.1016/j.apsusc.2013.01.191 | Unclear | new X reading |
+| 10.1016/j.apsusc.2015.12.169 | Unclear | new X reading |
+| 10.1016/j.apsusc.2017.03.082 | Unclear | new X reading |
+| 10.1016/j.apsusc.2018.02.018 | Unclear | new X reading |
+| 10.1016/j.apsusc.2018.09.080 | Unclear | new X reading |
+| 10.1016/j.apsusc.2019.02.097 | Unclear | new X reading |
+| 10.1016/j.apsusc.2020.145715 | Out of scope | new X reading |
+| 10.1016/j.apsusc.2020.148241 | Unclear | new X reading |
+| 10.1016/j.apsusc.2021.149086 | Unclear | new X reading |
+| 10.1016/j.apsusc.2022.154114 | Unclear | new X reading |
+| 10.1016/j.apsusc.2022.154797 | Unclear | new X reading |
+| 10.1016/j.asej.2016.04.015 | Unclear | new X reading |
+| 10.1016/j.biomaterials.2008.11.007 | Unclear | new X reading |
+| 10.1016/j.biomaterials.2013.09.054 | Unclear | new X reading |
+| 10.1016/j.biomaterials.2014.05.071 | Unclear | new X reading |
+| 10.1016/j.biomaterials.2017.07.038 | Unclear | new X reading |
+| 10.1016/j.bios.2011.11.011 | Unclear | new X reading |
+| 10.1016/j.bios.2013.12.023 | Unclear | new X reading |
+| 10.1016/j.bios.2014.09.038 | Unclear | new X reading |
+| 10.1016/j.bios.2015.04.015 | Unclear | new X reading |
+| 10.1016/j.bios.2017.12.040 | Unclear | new X reading |
+| 10.1016/j.bios.2018.02.026 | Out of scope | new X reading |
+| 10.1016/j.bios.2018.09.089 | Unclear | new X reading |
+| 10.1016/j.bios.2019.111825 | Unclear | new X reading |
+| 10.1016/j.bios.2023.115425 | Unclear | new X reading |
+| 10.1016/j.bios.2024.116924 | Unclear | new X reading |
+| 10.1016/j.cap.2003.11.063 | Unclear | new X reading |
+| 10.1016/j.cap.2015.03.008 | Out of scope | new X reading |
+| 10.1016/j.carbon.2008.12.044 | Unclear | new X reading |
+| 10.1016/j.carbon.2012.06.002 | Unclear | new X reading |
+| 10.1016/j.carbon.2014.03.021 | Unclear | new X reading |
+| 10.1016/j.carbon.2015.05.069 | Unclear | new X reading |
+| 10.1016/j.carbon.2016.11.039 | Unclear | new X reading |
+| 10.1016/j.carbon.2018.03.039 | Unclear | new X reading |
+| 10.1016/j.carbon.2019.06.061 | Unclear | new X reading |
+| 10.1016/j.carbon.2021.10.027 | Unclear | new X reading |
+| 10.1016/j.cca.2010.08.012 | Unclear | new X reading |
+| 10.1016/j.cej.2019.122491 | Out of scope | new X reading |
+| 10.1016/j.cej.2020.124654 | Unclear | new X reading |
+| 10.1016/j.cej.2020.125616 | Unclear | new X reading |
+| 10.1016/j.cej.2021.130659 | Unclear | new X reading |
+| 10.1016/j.cej.2022.139569 | Thin | new X reading |
+| 10.1016/j.cej.2023.143507 | Thin | new X reading |
+| 10.1016/j.cej.2023.144715 | Unclear | new X reading |
+| 10.1016/j.cej.2024.149282 | Unclear | new X reading |
+| 10.1016/j.cej.2024.156185 | Unclear | new X reading |
+| 10.1016/j.cej.2024.156792 | Unclear | new X reading |
+| 10.1016/j.cej.2025.159477 | Unclear | new X reading |
+| 10.1016/j.cej.2025.170311 | Unclear | new X reading |
+| 10.1016/j.cmi.2020.02.027 | Unclear | new X reading |
+| 10.1016/j.cocis.2015.10.008 | Unclear | new X reading |
+| 10.1016/j.colsurfa.2006.05.038 | Unclear | new X reading |
+| 10.1016/j.colsurfa.2009.02.027 | Unclear | new X reading |
+| 10.1016/j.cplett.2004.06.138 | Unclear | new X reading |
+| 10.1016/j.cplett.2013.10.023 | Unclear | new X reading |
+| 10.1016/j.cplett.2018.05.082 | Unclear | new X reading |
+| 10.1016/j.cplett.2018.06.029 | Out of scope | new X reading |
+| 10.1016/j.cplett.2020.137646 | Unclear | new X reading |
+| 10.1016/j.diamond.2012.04.003 | Unclear | new X reading |
+| 10.1016/j.dyepig.2024.112087 | Unclear | new X reading |
+| 10.1016/j.elecom.2010.05.046 | Unclear | new X reading |
+| 10.1016/j.electacta.2014.06.075 | Unclear | new X reading |
+| 10.1016/j.electacta.2014.08.136 | Out of scope | new X reading |
+| 10.1016/j.electacta.2022.140401 | Unclear | new X reading |
+| 10.1016/j.ica.2024.122059 | Unclear | new X reading |
+| 10.1016/j.ijhydene.2011.09.046 | Unclear | new X reading |
+| 10.1016/j.ijhydene.2015.11.003 | Unclear | new X reading |
+| 10.1016/j.ijhydene.2024.07.145 | Unclear | new X reading |
+| 10.1016/j.jallcom.2007.08.026 | Unclear | new X reading |
+| 10.1016/j.jallcom.2010.12.021 | Out of scope | new X reading |
+| 10.1016/j.jallcom.2011.07.030 | Unclear | new X reading |
+| 10.1016/j.jallcom.2012.10.080 | Out of scope | new X reading |
+| 10.1016/j.jallcom.2014.01.106 | Unclear | new X reading |
+| 10.1016/j.jallcom.2017.08.097 | Unclear | new X reading |
+| 10.1016/j.jallcom.2019.01.146 | Unclear | new X reading |
+| 10.1016/j.jallcom.2019.04.146 | Unclear | new X reading |
+| 10.1016/j.jallcom.2019.152889 | Unclear | new X reading |
+| 10.1016/j.jallcom.2024.175061 | Unclear | new X reading |
+| 10.1016/j.jallcom.2024.175405 | Unclear | new X reading |
+| 10.1016/j.jallcom.2025.179021 | Unclear | new X reading |
+| 10.1016/j.jcis.2012.07.065 | Unclear | new X reading |
+| 10.1016/j.jcis.2017.08.083 | Unclear | new X reading |
+| 10.1016/j.jcis.2018.02.057 | Unclear | new X reading |
+| 10.1016/j.jcis.2024.08.125 | Out of scope | new X reading |
+| 10.1016/j.jcis.2025.137531 | Unclear | new X reading |
+| 10.1016/j.jcis.2025.137850 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2004.01.017 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2004.11.123 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2005.05.083 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2005.06.055 | Out of scope | new X reading |
+| 10.1016/j.jcrysgro.2005.09.054 | Out of scope | new X reading |
+| 10.1016/j.jcrysgro.2006.10.174 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2007.04.024 | Out of scope | new X reading |
+| 10.1016/j.jcrysgro.2007.11.203 | Out of scope | new X reading |
+| 10.1016/j.jcrysgro.2007.12.016 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2009.10.057 | Unclear | new X reading |
+| 10.1016/j.jcrysgro.2010.12.036 | Out of scope | new X reading |
+| 10.1016/j.jcrysgro.2017.02.046 | Out of scope | new X reading |
+| 10.1016/j.jelechem.2016.05.016 | Unclear | new X reading |
+| 10.1016/j.jnoncrysol.2004.02.064 | Out of scope | new X reading |
+| 10.1016/j.jnoncrysol.2004.08.033 | Unclear | new X reading |
+| 10.1016/j.jpcs.2017.07.028 | Unclear | new X reading |
+| 10.1016/j.jphotobiol.2017.05.014 | Unclear | new X reading |
+| 10.1016/j.jphotochem.2017.11.032 | Unclear | new X reading |
+| 10.1016/j.jpowsour.2010.10.018 | Unclear | new X reading |
+| 10.1016/j.jpowsour.2015.01.071 | Out of scope | new X reading |
+| 10.1016/j.jpowsour.2016.11.107 | Out of scope | new X reading |
+| 10.1016/j.materresbull.2012.11.056 | Unclear | new X reading |
+| 10.1016/j.materresbull.2017.01.012 | Unclear | new X reading |
+| 10.1016/j.materresbull.2018.05.023 | Out of scope | new X reading |
+| 10.1016/j.materresbull.2018.08.033 | Unclear | new X reading |
+| 10.1016/j.materresbull.2018.09.014 | Out of scope | new X reading |
+| 10.1016/j.materresbull.2018.12.004 | Unclear | new X reading |
+| 10.1016/j.materresbull.2019.110754 | Unclear | new X reading |
+| 10.1016/j.materresbull.2020.110886 | Unclear | new X reading |
+| 10.1016/j.materresbull.2023.112220 | Unclear | new X reading |
+| 10.1016/j.matpr.2020.04.195 | Unclear | new X reading |
+| 10.1016/j.molliq.2015.07.075 | Unclear | new X reading |
+| 10.1016/j.molliq.2020.113273 | Unclear | new X reading |
+| 10.1016/j.mseb.2005.08.046 | Out of scope | new X reading |
+| 10.1016/j.mseb.2007.09.087 | Out of scope | new X reading |
+| 10.1016/j.msec.2008.11.015 | Unclear | new X reading |
+| 10.1016/j.msec.2014.11.035 | Thin | new X reading |
+| 10.1016/j.msec.2017.03.084 | Unclear | new X reading |
+| 10.1016/j.mtquan.2024.100014 | Out of scope | new X reading |
+| 10.1016/j.nanoen.2017.05.015 | Unclear | new X reading |
+| 10.1016/j.nanoen.2020.105511 | Unclear | new X reading |
+| 10.1016/j.nanoen.2024.109623 | Unclear | new X reading |
+| 10.1016/j.nanoen.2025.111152 | Unclear | new X reading |
+| 10.1016/j.nimb.2011.03.015 | Unclear | new X reading |
+| 10.1016/j.optlastec.2015.05.010 | Unclear | new X reading |
+| 10.1016/j.optmat.2005.01.012 | Unclear | new X reading |
+| 10.1016/j.optmat.2006.11.021 | Unclear | new X reading |
+| 10.1016/j.optmat.2012.03.033 | Unclear | new X reading |
+| 10.1016/j.optmat.2017.05.015 | Unclear | new X reading |
+| 10.1016/j.optmat.2017.12.006 | Thin | new X reading |
+| 10.1016/j.optmat.2019.05.012 | Unclear | new X reading |
+| 10.1016/j.optmat.2019.05.045 | Unclear | new X reading |
+| 10.1016/j.optmat.2019.109479 | Out of scope | new X reading |
+| 10.1016/j.orgel.2015.07.053 | Unclear | new X reading |
+| 10.1016/j.physb.2006.07.011 | Unclear | new X reading |
+| 10.1016/j.physe.2003.12.130 | Out of scope | new X reading |
+| 10.1016/j.physe.2005.05.060 | Out of scope | new X reading |
+| 10.1016/j.physe.2005.12.017 | Unclear | new X reading |
+| 10.1016/j.physe.2007.10.102 | Unclear | new X reading |
+| 10.1016/j.polymer.2014.12.061 | Unclear | new X reading |
+| 10.1016/j.saa.2020.118387 | Unclear | new X reading |
+| 10.1016/j.saa.2024.124744 | Unclear | new X reading |
+| 10.1016/j.saa.2024.125232 | Unclear | new X reading |
+| 10.1016/j.saa.2025.125963 | Unclear | new X reading |
+| 10.1016/j.snb.2009.10.057 | Unclear | new X reading |
+| 10.1016/j.snb.2012.12.078 | Unclear | new X reading |
+| 10.1016/j.snb.2014.04.006 | Unclear | new X reading |
+| 10.1016/j.snb.2015.07.096 | Unclear | new X reading |
+| 10.1016/j.snb.2016.11.109 | Unclear | new X reading |
+| 10.1016/j.snb.2017.02.014 | Unclear | new X reading |
+| 10.1016/j.snb.2017.04.084 | Unclear | new X reading |
+| 10.1016/j.snb.2017.08.028 | Unclear | new X reading |
+| 10.1016/j.snb.2023.134081 | Unclear | new X reading |
+| 10.1016/j.snb.2024.136065 | Unclear | new X reading |
+| 10.1016/j.snb.2024.136461 | Unclear | new X reading |
+| 10.1016/j.snb.2024.136639 | Unclear | new X reading |
+| 10.1016/j.snb.2024.136654 | Unclear | new X reading |
+| 10.1016/j.snr.2020.100014 | Unclear | new X reading |
+| 10.1016/j.solener.2020.02.032 | Out of scope | new X reading |
+| 10.1016/j.ssc.2003.09.015 | Unclear | new X reading |
+| 10.1016/j.ssc.2007.05.026 | Unclear | new X reading |
+| 10.1016/j.susc.2006.07.026 | Out of scope | new X reading |
+| 10.1016/j.susc.2008.04.024 | Unclear | new X reading |
+| 10.1016/j.synthmet.2024.117595 | Unclear | new X reading |
+| 10.1016/j.talanta.2010.08.052 | Unclear | new X reading |
+| 10.1016/j.talanta.2013.01.051 | Thin | new X reading |
+| 10.1016/j.talanta.2015.04.015 | Unclear | new X reading |
+| 10.1016/j.talanta.2017.01.032 | Unclear | new X reading |
+| 10.1016/j.talanta.2018.01.006 | Unclear | new X reading |
+| 10.1016/j.tetlet.2008.12.029 | Unclear | new X reading |
+| 10.1016/j.tsf.2005.04.094 | Unclear | new X reading |
+| 10.1016/j.tsf.2006.09.052 | Unclear | new X reading |
+| 10.1016/j.tsf.2012.03.085 | Unclear | new X reading |
+| 10.1016/j.tsf.2013.10.160 | Unclear | new X reading |
+| 10.1016/s0022-0248(02)02279-0 | Out of scope | new X reading |
+| 10.1021/acs.bioconjchem.1c00002 | Unclear | new X reading |
+| 10.1021/acs.biomac.7b00306 | Unclear | new X reading |
+| 10.1021/acs.cgd.2c01481 | Unclear | new X reading |
+| 10.1021/acs.chemmater.0c00482 | Unclear | new X reading |
+| 10.1021/acs.chemmater.5c02865 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.3c00702 | Unclear | new X reading |
+| 10.1021/acs.inorgchem.9b03183 | Unclear | new X reading |
+| 10.1021/acs.jpcc.4c01756 | Unclear | new X reading |
+| 10.1021/acs.jpclett.8b01520 | Unclear | new X reading |
+| 10.1021/acs.langmuir.5c00875 | Unclear | new X reading |
+| 10.1021/acs.nanolett.6b04852 | Out of scope | new X reading |
+| 10.1021/acsaelm.4c00126 | Out of scope | new X reading |
+| 10.1021/acsami.2c21052 | Unclear | new X reading |
+| 10.1021/acsami.5c20935 | Unclear | new X reading |
+| 10.1021/acsami.5c23347 | Unclear | new X reading |
+| 10.1021/acsami.5c23696 | Unclear | new X reading |
+| 10.1021/acsami.5c24915 | Unclear | new X reading |
+| 10.1021/acsami.5c26273 | Unclear | new X reading |
+| 10.1021/acsami.6b00039 | Unclear | new X reading |
+| 10.1021/acsami.6b00155 | Unclear | new X reading |
+| 10.1021/acsami.6b01018 | Unclear | new X reading |
+| 10.1021/acsami.6b02013 | Unclear | new X reading |
+| 10.1021/acsami.6b02871 | Unclear | new X reading |
+| 10.1021/acsami.6b03198 | Unclear | new X reading |
+| 10.1021/acsami.6b03219 | Unclear | new X reading |
+| 10.1021/acsami.6b03367 | Out of scope | new X reading |
+| 10.1021/acsami.6b04381 | Unclear | new X reading |
+| 10.1021/acsami.6b05061 | Unclear | new X reading |
+| 10.1021/acsami.6b06833 | Unclear | new X reading |
+| 10.1021/acsami.6b06989 | Unclear | new X reading |
+| 10.1021/acsami.6b07303 | Unclear | new X reading |
+| 10.1021/acsami.6b07789 | Unclear | new X reading |
+| 10.1021/acsami.6b08679 | Unclear | new X reading |
+| 10.1021/acsami.6b08931 | Unclear | new X reading |
+| 10.1021/acsami.6b09766 | Out of scope | new X reading |
+| 10.1021/acsami.6b11712 | Out of scope | new X reading |
+| 10.1021/acsami.6b12536 | Unclear | new X reading |
+| 10.1021/acsami.6b12842 | Unclear | new X reading |
+| 10.1021/acsami.6c00777 | Unclear | new X reading |
+| 10.1021/acsami.6c01886 | Unclear | new X reading |
+| 10.1021/acsami.6c06321 | Out of scope | new X reading |
+| 10.1021/acsami.7b00555 | Unclear | new X reading |
+| 10.1021/acsami.7b00615 | Unclear | new X reading |
+| 10.1021/acsami.7b01588 | Unclear | new X reading |
+| 10.1021/acsami.7b01615 | Unclear | new X reading |
+| 10.1021/acsami.7b02026 | Unclear | new X reading |
+| 10.1021/acsami.7b02867 | Unclear | new X reading |
+| 10.1021/acsami.7b02900 | Unclear | new X reading |
+| 10.1021/acsami.7b03262 | Unclear | new X reading |
+| 10.1021/acsami.7b04662 | Unclear | new X reading |
+| 10.1021/acsami.7b05381 | Unclear | new X reading |
+| 10.1021/acsami.7b05629 | Unclear | new X reading |
+| 10.1021/acsami.7b06145 | Unclear | new X reading |
+| 10.1021/acsami.7b07893 | Unclear | new X reading |
+| 10.1021/acsami.7b08574 | Unclear | new X reading |
+| 10.1021/acsami.7b10785 | Unclear | new X reading |
+| 10.1021/acsami.7b11449 | Unclear | new X reading |
+| 10.1021/acsami.7b13997 | Unclear | new X reading |
+| 10.1021/acsami.7b16261 | Unclear | new X reading |
+| 10.1021/acsami.7b17619 | Unclear | new X reading |
+| 10.1021/acsami.7b18526 | Unclear | new X reading |
+| 10.1021/acsami.8b00729 | Unclear | new X reading |
+| 10.1021/acsami.8b01814 | Unclear | new X reading |
+| 10.1021/acsami.8b03285 | Unclear | new X reading |
+| 10.1021/acsami.8b03552 | Unclear | new X reading |
+| 10.1021/acsami.8b04072 | Out of scope | new X reading |
+| 10.1021/acsami.8b05429 | Unclear | new X reading |
+| 10.1021/acsami.8b06044 | Unclear | new X reading |
+| 10.1021/acsami.8b06323 | Unclear | new X reading |
+| 10.1021/acsami.8b06754 | Unclear | new X reading |
+| 10.1021/acsami.8b06917 | Unclear | new X reading |
+| 10.1021/acsami.8b09229 | Unclear | new X reading |
+| 10.1021/acsami.8b14752 | Unclear | new X reading |
+| 10.1021/acsami.8b15100 | Unclear | new X reading |
+| 10.1021/acsami.8b20808 | Unclear | new X reading |
+| 10.1021/acsami.8b22336 | Unclear | new X reading |
+| 10.1021/acsami.9b00298 | Unclear | new X reading |
+| 10.1021/acsami.9b02495 | Out of scope | new X reading |
+| 10.1021/acsami.9b07437 | Unclear | new X reading |
+| 10.1021/acsami.9b08294 | Unclear | new X reading |
+| 10.1021/acsami.9b08466 | Out of scope | new X reading |
+| 10.1021/acsami.9b08603 | Unclear | new X reading |
+| 10.1021/acsami.9b12198 | Unclear | new X reading |
+| 10.1021/acsami.9b12514 | Unclear | new X reading |
+| 10.1021/acsami.9b13362 | Unclear | new X reading |
+| 10.1021/acsami.9b13394 | Unclear | new X reading |
+| 10.1021/acsami.9b14161 | Out of scope | new X reading |
+| 10.1021/acsami.9b14645 | Out of scope | new X reading |
+| 10.1021/acsami.9b17783 | Unclear | new X reading |
+| 10.1021/acsami.9b18487 | Unclear | new X reading |
+| 10.1021/acsami.9b21385 | Unclear | new X reading |
+| 10.1021/acsami.9b22408 | Unclear | new X reading |
+| 10.1021/acsanm.0c00086 | Unclear | new X reading |
+| 10.1021/acsanm.0c00125 | Unclear | new X reading |
+| 10.1021/acsanm.0c00570 | Unclear | new X reading |
+| 10.1021/acsanm.0c00639 | Unclear | new X reading |
+| 10.1021/acsanm.0c00670 | Unclear | new X reading |
+| 10.1021/acsanm.0c00695 | Unclear | new X reading |
+| 10.1021/acsanm.0c00973 | Unclear | new X reading |
+| 10.1021/acsanm.0c01186 | Unclear | new X reading |
+| 10.1021/acsanm.0c01258 | Unclear | new X reading |
+| 10.1021/acsanm.0c01650 | Out of scope | new X reading |
+| 10.1021/acsanm.0c01784 | Unclear | new X reading |
+| 10.1021/acsanm.0c02113 | Out of scope | new X reading |
+| 10.1021/acsanm.0c02324 | Unclear | new X reading |
+| 10.1021/acsanm.0c02592 | Unclear | new X reading |
+| 10.1021/acsanm.0c02667 | Unclear | new X reading |
+| 10.1021/acsanm.0c03227 | Out of scope | new X reading |
+| 10.1021/acsanm.1c00509 | Unclear | new X reading |
+| 10.1021/acsanm.1c01007 | Unclear | new X reading |
+| 10.1021/acsanm.1c01096 | Unclear | new X reading |
+| 10.1021/acsanm.1c02606 | Out of scope | new X reading |
+| 10.1021/acsanm.1c02885 | Out of scope | new X reading |
+| 10.1021/acsanm.1c03101 | Out of scope | new X reading |
+| 10.1021/acsanm.1c03235 | Unclear | new X reading |
+| 10.1021/acsanm.2c00743 | Unclear | new X reading |
+| 10.1021/acsanm.2c01894 | Unclear | new X reading |
+| 10.1021/acsanm.2c02103 | Unclear | new X reading |
+| 10.1021/acsanm.2c02240 | Unclear | new X reading |
+| 10.1021/acsanm.2c02638 | Out of scope | new X reading |
+| 10.1021/acsanm.2c02844 | Unclear | new X reading |
+| 10.1021/acsanm.2c02926 | Unclear | new X reading |
+| 10.1021/acsanm.2c03005 | Unclear | new X reading |
+| 10.1021/acsanm.2c03105 | Out of scope | new X reading |
+| 10.1021/acsanm.2c03839 | Unclear | new X reading |
+| 10.1021/acsanm.3c00370 | Unclear | new X reading |
+| 10.1021/acsanm.3c00506 | Unclear | new X reading |
+| 10.1021/acsanm.3c00736 | Unclear | new X reading |
+| 10.1021/acsanm.3c01254 | Unclear | new X reading |
+| 10.1021/acsanm.3c01899 | Unclear | new X reading |
+| 10.1021/acsanm.3c02387 | Unclear | new X reading |
+| 10.1021/acsanm.3c02401 | Unclear | new X reading |
+| 10.1021/acsanm.3c02454 | Unclear | new X reading |
+| 10.1021/acsanm.3c03195 | Out of scope | new X reading |
+| 10.1021/acsanm.3c03250 | Unclear | new X reading |
+| 10.1021/acsanm.3c03252 | Unclear | new X reading |
+| 10.1021/acsanm.3c03838 | Unclear | new X reading |
+| 10.1021/acsanm.3c04151 | Out of scope | new X reading |
+| 10.1021/acsanm.3c05401 | Unclear | new X reading |
+| 10.1021/acsanm.3c05703 | Unclear | new X reading |
+| 10.1021/acsanm.3c05964 | Unclear | new X reading |
+| 10.1021/acsanm.3c06041 | Unclear | new X reading |
+| 10.1021/acsanm.3c06101 | Unclear | new X reading |
+| 10.1021/acsanm.4c00402 | Unclear | new X reading |
+| 10.1021/acsanm.4c00581 | Unclear | new X reading |
+| 10.1021/acsanm.4c00593 | Unclear | new X reading |
+| 10.1021/acsanm.4c01029 | Unclear | new X reading |
+| 10.1021/acsanm.4c01052 | Unclear | new X reading |
+| 10.1021/acsanm.4c01800 | Unclear | new X reading |
+| 10.1021/acsanm.4c02342 | Unclear | new X reading |
+| 10.1021/acsanm.4c02604 | Unclear | new X reading |
+| 10.1021/acsanm.4c02726 | Out of scope | new X reading |
+| 10.1021/acsanm.4c04349 | Unclear | new X reading |
+| 10.1021/acsanm.4c04800 | Unclear | new X reading |
+| 10.1021/acsanm.4c05251 | Out of scope | new X reading |
+| 10.1021/acsanm.4c05571 | Unclear | new X reading |
+| 10.1021/acsanm.4c05909 | Unclear | new X reading |
+| 10.1021/acsanm.4c06685 | Unclear | new X reading |
+| 10.1021/acsanm.4c06769 | Unclear | new X reading |
+| 10.1021/acsanm.4c06874 | Unclear | new X reading |
+| 10.1021/acsanm.4c06928 | Unclear | new X reading |
+| 10.1021/acsanm.4c07090 | Unclear | new X reading |
+| 10.1021/acsanm.5c00068 | Unclear | new X reading |
+| 10.1021/acsanm.5c00567 | Unclear | new X reading |
+| 10.1021/acsanm.5c00884 | Unclear | new X reading |
+| 10.1021/acsanm.5c01321 | Unclear | new X reading |
+| 10.1021/acsanm.5c01615 | Unclear | new X reading |
+| 10.1021/acsanm.5c02337 | Unclear | new X reading |
+| 10.1021/acsanm.5c02714 | Unclear | new X reading |
+| 10.1021/acsanm.5c02751 | Unclear | new X reading |
+| 10.1021/acsanm.5c03469 | Unclear | new X reading |
+| 10.1021/acsanm.5c03478 | Unclear | new X reading |
+| 10.1021/acsanm.5c03549 | Unclear | new X reading |
+| 10.1021/acsanm.5c04849 | Unclear | new X reading |
+| 10.1021/acsanm.5c04976 | Unclear | new X reading |
+| 10.1021/acsanm.5c05195 | Unclear | new X reading |
+| 10.1021/acsanm.6c00169 | Unclear | new X reading |
+| 10.1021/acsanm.6c00495 | Unclear | new X reading |
+| 10.1021/acsanm.6c01064 | Unclear | new X reading |
+| 10.1021/acsanm.6c01840 | Unclear | new X reading |
+| 10.1021/acsanm.6c02671 | Unclear | new X reading |
+| 10.1021/acsanm.8b01256 | Unclear | new X reading |
+| 10.1021/acsanm.8b01381 | Out of scope | new X reading |
+| 10.1021/acsanm.8b01424 | Unclear | new X reading |
+| 10.1021/acsanm.8b01577 | Out of scope | new X reading |
+| 10.1021/acsanm.8b01786 | Unclear | new X reading |
+| 10.1021/acsanm.9b00233 | Unclear | new X reading |
+| 10.1021/acsanm.9b00863 | Unclear | new X reading |
+| 10.1021/acsanm.9b00889 | Unclear | new X reading |
+| 10.1021/acsanm.9b01550 | Unclear | new X reading |
+| 10.1021/acsanm.9b01873 | Unclear | new X reading |
+| 10.1021/acsanm.9b02091 | Unclear | new X reading |
+| 10.1021/acsanm.9b02358 | Unclear | new X reading |
+| 10.1021/acsaom.2c00003 | Out of scope | new X reading |
+| 10.1021/acsaom.2c00053 | Unclear | new X reading |
+| 10.1021/acsaom.3c00432 | Unclear | new X reading |
+| 10.1021/acsaom.4c00018 | Unclear | new X reading |
+| 10.1021/acsaom.4c00044 | Unclear | new X reading |
+| 10.1021/acsaom.4c00332 | Unclear | new X reading |
+| 10.1021/acsaom.5c00441 | Unclear | new X reading |
+| 10.1021/acsaom.6c00064 | Unclear | new X reading |
+| 10.1021/acsapm.1c00436 | Unclear | new X reading |
+| 10.1021/acsapm.1c00821 | Unclear | new X reading |
+| 10.1021/acsapm.3c03210 | Unclear | new X reading |
+| 10.1021/acsapm.4c02998 | Unclear | new X reading |
+| 10.1021/acsbiomaterials.1c00753 | Unclear | new X reading |
+| 10.1021/acsbiomaterials.4c02124 | Unclear | new X reading |
+| 10.1021/acsbiomaterials.6b00644 | Unclear | new X reading |
+| 10.1021/acsbiomaterials.7b00531 | Unclear | new X reading |
+| 10.1021/acsbiomaterials.9b01932 | Unclear | new X reading |
+| 10.1021/acscatal.0c02933 | Unclear | new X reading |
+| 10.1021/acscatal.3c01181 | Unclear | new X reading |
+| 10.1021/acscatal.3c04492 | Unclear | new X reading |
+| 10.1021/acscatal.4c06490 | Unclear | new X reading |
+| 10.1021/acscatal.8b00366 | Unclear | new X reading |
+| 10.1021/acschemneuro.8b00214 | Unclear | new X reading |
+| 10.1021/acsenergylett.0c00093 | Unclear | new X reading |
+| 10.1021/acsenergylett.0c01086 | Unclear | new X reading |
+| 10.1021/acsenergylett.0c01216 | Unclear | new X reading |
+| 10.1021/acsenergylett.0c01295 | Unclear | new X reading |
+| 10.1021/acsenergylett.0c02193 | Unclear | new X reading |
+| 10.1021/acsenergylett.2c00311 | Unclear | new X reading |
+| 10.1021/acsenergylett.2c01065 | Thin | new X reading |
+| 10.1021/acsenergylett.2c01380 | Unclear | new X reading |
+| 10.1021/acsenergylett.2c02270 | Unclear | new X reading |
+| 10.1021/acsenergylett.3c00211 | Unclear | new X reading |
+| 10.1021/acsenergylett.4c02088 | Unclear | new X reading |
+| 10.1021/acsenergylett.5c01431 | Unclear | new X reading |
+| 10.1021/acsenergylett.5c02209 | Unclear | new X reading |
+| 10.1021/acsenergylett.5c02489 | Unclear | new X reading |
+| 10.1021/acsenergylett.6c00480 | Unclear | new X reading |
+| 10.1021/acsenergylett.6c01826 | Unclear | new X reading |
+| 10.1021/acsenergylett.7b00244 | Unclear | new X reading |
+| 10.1021/acsenergylett.7b00923 | Unclear | new X reading |
+| 10.1021/acsenergylett.8b00460 | Unclear | new X reading |
+| 10.1021/acsenergylett.8b02013 | Unclear | new X reading |
+| 10.1021/acsenergylett.8b02157 | Unclear | new X reading |
+| 10.1021/acsenergylett.8b02207 | Unclear | new X reading |
+| 10.1021/acsenergylett.9b00388 | Unclear | new X reading |
+| 10.1021/acsenergylett.9b00946 | Unclear | new X reading |
+| 10.1021/acsenergylett.9b02301 | Unclear | new X reading |
+| 10.1021/acsmacrolett.2c00542 | Unclear | new X reading |
+| 10.1021/acsmaterialsau.1c00043 | Unclear | new X reading |
+| 10.1021/acsmaterialslett.3c00955 | Unclear | new X reading |
+| 10.1021/acsmaterialslett.4c00220 | Unclear | new X reading |
+| 10.1021/acsmaterialslett.4c02624 | Unclear | new X reading |
+| 10.1021/acsmaterialslett.5c01328 | Unclear | new X reading |
+| 10.1021/acsnano.0c00791 | Unclear | new X reading |
+| 10.1021/acsnano.0c04075 | Unclear | new X reading |
+| 10.1021/acsnano.0c04224 | Unclear | new X reading |
+| 10.1021/acsnano.0c05935 | Unclear | new X reading |
+| 10.1021/acsnano.0c07890 | Unclear | new X reading |
+| 10.1021/acsnano.0c08772 | Unclear | new X reading |
+| 10.1021/acsnano.0c08802 | Unclear | new X reading |
+| 10.1021/acsnano.0c10373 | Unclear | new X reading |
+| 10.1021/acsnano.1c02182 | Unclear | new X reading |
+| 10.1021/acsnano.1c04772 | Unclear | new X reading |
+| 10.1021/acsnano.1c05185 | Unclear | new X reading |
+| 10.1021/acsnano.1c10596 | Unclear | new X reading |
+| 10.1021/acsnano.1c11330 | Unclear | new X reading |
+| 10.1021/acsnano.2c03806 | Unclear | new X reading |
+| 10.1021/acsnano.2c04595 | Unclear | new X reading |
+| 10.1021/acsnano.2c06032 | Unclear | new X reading |
+| 10.1021/acsnano.2c08038 | Out of scope | new X reading |
+| 10.1021/acsnano.2c09069 | Unclear | new X reading |
+| 10.1021/acsnano.2c10141 | Out of scope | new X reading |
+| 10.1021/acsnano.2c11077 | Unclear | new X reading |
+| 10.1021/acsnano.3c03911 | Unclear | new X reading |
+| 10.1021/acsnano.3c03921 | Unclear | new X reading |
+| 10.1021/acsnano.3c03989 | Unclear | new X reading |
+| 10.1021/acsnano.3c04835 | Unclear | new X reading |
+| 10.1021/acsnano.3c05138 | Unclear | new X reading |
+| 10.1021/acsnano.3c06050 | Unclear | new X reading |
+| 10.1021/acsnano.3c07999 | Unclear | new X reading |
+| 10.1021/acsnano.3c09515 | Unclear | new X reading |
+| 10.1021/acsnano.3c09772 | Unclear | new X reading |
+| 10.1021/acsnano.3c10092 | Out of scope | new X reading |
+| 10.1021/acsnano.3c11991 | Unclear | new X reading |
+| 10.1021/acsnano.4c03206 | Unclear | new X reading |
+| 10.1021/acsnano.4c07819 | Unclear | new X reading |
+| 10.1021/acsnano.4c12509 | Unclear | new X reading |
+| 10.1021/acsnano.4c14792 | Unclear | new X reading |
+| 10.1021/acsnano.4c15199 | Unclear | new X reading |
+| 10.1021/acsnano.5b00321 | Unclear | new X reading |
+| 10.1021/acsnano.5b02597 | Unclear | new X reading |
+| 10.1021/acsnano.5b02676 | Out of scope | new X reading |
+| 10.1021/acsnano.5b05513 | Unclear | new X reading |
+| 10.1021/acsnano.5b05876 | Unclear | new X reading |
+| 10.1021/acsnano.5b06387 | Unclear | new X reading |
+| 10.1021/acsnano.5c03395 | Unclear | new X reading |
+| 10.1021/acsnano.5c04078 | Unclear | new X reading |
+| 10.1021/acsnano.5c04130 | Unclear | new X reading |
+| 10.1021/acsnano.5c05939 | Unclear | new X reading |
+| 10.1021/acsnano.5c10261 | Unclear | new X reading |
+| 10.1021/acsnano.5c15222 | Unclear | new X reading |
+| 10.1021/acsnano.5c15434 | Out of scope | new X reading |
+| 10.1021/acsnano.5c16549 | Out of scope | new X reading |
+| 10.1021/acsnano.5c22120 | Unclear | new X reading |
+| 10.1021/acsnano.6b01682 | Unclear | new X reading |
+| 10.1021/acsnano.6b02562 | Unclear | new X reading |
+| 10.1021/acsnano.6b03700 | Out of scope | new X reading |
+| 10.1021/acsnano.6b07853 | Unclear | new X reading |
+| 10.1021/acsnano.6b08142 | Unclear | new X reading |
+| 10.1021/acsnano.6b08189 | Unclear | new X reading |
+| 10.1021/acsnano.6b08392 | Unclear | new X reading |
+| 10.1021/acsnano.6b08567 | Unclear | new X reading |
+| 10.1021/acsnano.6c06291 | Out of scope | new X reading |
+| 10.1021/acsnano.6c08804 | Unclear | new X reading |
+| 10.1021/acsnano.6c08987 | Unclear | new X reading |
+| 10.1021/acsnano.7b00451 | Unclear | new X reading |
+| 10.1021/acsnano.7b02649 | Unclear | new X reading |
+| 10.1021/acsnano.7b04332 | Unclear | new X reading |
+| 10.1021/acsnano.7b05534 | Unclear | new X reading |
+| 10.1021/acsnano.7b06363 | Unclear | new X reading |
+| 10.1021/acsnano.7b06783 | Unclear | new X reading |
+| 10.1021/acsnano.7b07132 | Unclear | new X reading |
+| 10.1021/acsnano.8b01094 | Out of scope | new X reading |
+| 10.1021/acsnano.8b02934 | Unclear | new X reading |
+| 10.1021/acsnano.8b04462 | Unclear | new X reading |
+| 10.1021/acsnano.8b06806 | Unclear | new X reading |
+| 10.1021/acsnano.8b07578 | Unclear | new X reading |
+| 10.1021/acsnano.8b07938 | Unclear | new X reading |
+| 10.1021/acsnano.9b01107 | Unclear | new X reading |
+| 10.1021/acsnano.9b02935 | Unclear | new X reading |
+| 10.1021/acsnano.9b03305 | Unclear | new X reading |
+| 10.1021/acsnano.9b04951 | Unclear | new X reading |
+| 10.1021/acsnano.9b07454 | Out of scope | new X reading |
+| 10.1021/acsnano.9b09466 | Unclear | new X reading |
+| 10.1021/acsnano.9b09554 | Unclear | new X reading |
+| 10.1021/acsnanoscienceau.5c00054 | Thin | new X reading |
+| 10.1021/acsnanoscienceau.5c00127 | Unclear | new X reading |
+| 10.1021/acsomega.1c01618 | Unclear | new X reading |
+| 10.1021/acsomega.1c03404 | Unclear | new X reading |
+| 10.1021/acsomega.1c06138 | Out of scope | new X reading |
+| 10.1021/acsomega.2c01310 | Thin | new X reading |
+| 10.1021/acsomega.2c03396 | Out of scope | new X reading |
+| 10.1021/acsomega.2c04943 | Out of scope | new X reading |
+| 10.1021/acsomega.2c07073 | Out of scope | new X reading |
+| 10.1021/acsomega.3c01595 | Unclear | new X reading |
+| 10.1021/acsomega.3c02884 | Thin | new X reading |
+| 10.1021/acsomega.3c04942 | Unclear | new X reading |
+| 10.1021/acsomega.3c07680 | Unclear | new X reading |
+| 10.1021/acsomega.3c07952 | Unclear | new X reading |
+| 10.1021/acsomega.4c00453 | Out of scope | new X reading |
+| 10.1021/acsomega.4c09080 | Unclear | new X reading |
+| 10.1021/acsomega.5c04527 | Unclear | new X reading |
+| 10.1021/acsomega.7b01486 | Unclear | new X reading |
+| 10.1021/acsomega.8b00633 | Unclear | new X reading |
+| 10.1021/acsomega.8b00867 | Unclear | new X reading |
+| 10.1021/acsomega.8b01159 | Unclear | new X reading |
+| 10.1021/acsomega.8b01959 | Unclear | new X reading |
+| 10.1021/acsomega.8b02085 | Unclear | new X reading |
+| 10.1021/acsomega.9b00464 | Unclear | new X reading |
+| 10.1021/acsomega.9b02637 | Unclear | new X reading |
+| 10.1021/acsphotonics.0c00748 | Unclear | new X reading |
+| 10.1021/acsphotonics.0c00758 | Unclear | new X reading |
+| 10.1021/acsphotonics.0c00771 | Unclear | new X reading |
+| 10.1021/acsphotonics.0c01490 | Unclear | new X reading |
+| 10.1021/acsphotonics.0c01586 | Unclear | new X reading |
+| 10.1021/acsphotonics.1c00550 | Unclear | new X reading |
+| 10.1021/acsphotonics.1c01613 | Unclear | new X reading |
+| 10.1021/acsphotonics.1c01981 | Out of scope | new X reading |
+| 10.1021/acsphotonics.2c00027 | Out of scope | new X reading |
+| 10.1021/acsphotonics.2c00113 | Unclear | new X reading |
+| 10.1021/acsphotonics.2c00155 | Unclear | new X reading |
+| 10.1021/acsphotonics.2c00555 | Unclear | new X reading |
+| 10.1021/acsphotonics.2c00735 | Unclear | new X reading |
+| 10.1021/acsphotonics.2c01495 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00108 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00172 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00214 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00332 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00428 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00788 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00821 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c00973 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c01225 | Out of scope | new X reading |
+| 10.1021/acsphotonics.3c01232 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c01368 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c01464 | Unclear | new X reading |
+| 10.1021/acsphotonics.3c01896 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c00027 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c00165 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c00202 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c00211 | Out of scope | new X reading |
+| 10.1021/acsphotonics.4c00413 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c00731 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c01856 | Out of scope | new X reading |
+| 10.1021/acsphotonics.4c02140 | Unclear | new X reading |
+| 10.1021/acsphotonics.4c02421 | Unclear | new X reading |
+| 10.1021/acsphotonics.5b00496 | Unclear | new X reading |
+| 10.1021/acsphotonics.5b00499 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c00568 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c00580 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c01006 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c01016 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c01299 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c01512 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c01682 | Unclear | new X reading |
+| 10.1021/acsphotonics.5c03001 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00076 | Out of scope | new X reading |
+| 10.1021/acsphotonics.6b00151 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00178 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00211 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00327 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00377 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00485 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00552 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00707 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b00724 | Unclear | new X reading |
+| 10.1021/acsphotonics.6b01039 | Unclear | new X reading |
+| 10.1021/acsphotonics.6c00106 | Unclear | new X reading |
+| 10.1021/acsphotonics.6c00107 | Unclear | new X reading |
+| 10.1021/acsphotonics.6c00397 | Unclear | new X reading |
+| 10.1021/acsphotonics.7b00026 | Out of scope | new X reading |
+| 10.1021/acsphotonics.7b00102 | Unclear | new X reading |
+| 10.1021/acsphotonics.7b00119 | Unclear | new X reading |
+| 10.1021/acsphotonics.7b00188 | Out of scope | new X reading |
+| 10.1021/acsphotonics.7b00253 | Unclear | new X reading |
+| 10.1021/acsphotonics.7b00276 | Out of scope | new X reading |
+| 10.1021/acsphotonics.7b00673 | Out of scope | new X reading |
+| 10.1021/acsphotonics.7b01238 | Unclear | new X reading |
+| 10.1021/acsphotonics.7b01387 | Out of scope | new X reading |
+| 10.1021/acsphotonics.8b00163 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b00185 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b00919 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b00982 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01396 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01496 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01586 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01672 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01676 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01707 | Unclear | new X reading |
+| 10.1021/acsphotonics.8b01749 | Unclear | new X reading |
+| 10.1021/acsphotonics.9b00976 | Unclear | new X reading |
+| 10.1021/acsphotonics.9b01651 | Thin | new X reading |
+| 10.1021/acsphotonics.9b01709 | Out of scope | new X reading |
+| 10.1021/acsphotonics.9b01782 | Unclear | new X reading |
+| 10.1021/acsphotonics.9b01805 | Unclear | new X reading |
+| 10.1021/acsphotonics.9b01825 | Unclear | new X reading |
+| 10.1021/acssensors.0c00738 | Unclear | new X reading |
+| 10.1021/acssensors.1c02572 | Unclear | new X reading |
+| 10.1021/acssensors.2c02114 | Unclear | new X reading |
+| 10.1021/acssensors.4c01812 | Out of scope | new X reading |
+| 10.1021/acssensors.5c02186 | Unclear | new X reading |
+| 10.1021/acssensors.5c02797 | Unclear | new X reading |
+| 10.1021/acssensors.6b00452 | Thin | new X reading |
+| 10.1021/acssensors.7b00124 | Unclear | new X reading |
+| 10.1021/acssensors.7b00199 | Unclear | new X reading |
+| 10.1021/acssensors.8b00263 | Unclear | new X reading |
+| 10.1021/acssuschemeng.0c02496 | Unclear | new X reading |
+| 10.1021/acssuschemeng.0c03230 | Unclear | new X reading |
+| 10.1021/acssuschemeng.1c00376 | Unclear | new X reading |
+| 10.1021/acssuschemeng.1c05969 | Unclear | new X reading |
+| 10.1021/acssuschemeng.2c01345 | Unclear | new X reading |
+| 10.1021/acssuschemeng.2c01819 | Out of scope | new X reading |
+| 10.1021/acssuschemeng.2c06094 | Unclear | new X reading |
+| 10.1021/acssuschemeng.2c06206 | Unclear | new X reading |
+| 10.1021/acssuschemeng.5c00754 | Out of scope | new X reading |
+| 10.1021/acssuschemeng.5c10725 | Unclear | new X reading |
+| 10.1021/acssuschemeng.8b01705 | Unclear | new X reading |
+| 10.1021/acssusresmgt.4c00397 | Unclear | new X reading |
+| 10.1021/am400443w | Unclear | new X reading |
+| 10.1021/am501407m | Unclear | new X reading |
+| 10.1021/am502135h | Unclear | new X reading |
+| 10.1021/am5043164 | Unclear | new X reading |
+| 10.1021/am504958f | Unclear | new X reading |
+| 10.1021/ar200315d | Unclear | new X reading |
+| 10.1021/ar200331z | Unclear | new X reading |
+| 10.1021/ar300228x | Unclear | new X reading |
+| 10.1021/ar800112v | Unclear | new X reading |
+| 10.1021/ar9001069 | Unclear | new X reading |
+| 10.1021/ar900134d | Thin | new X reading |
+| 10.1021/ar900242r | Unclear | new X reading |
+| 10.1021/bc060367e | Unclear | new X reading |
+| 10.1021/bc400494j | Unclear | new X reading |
+| 10.1021/bc800421f | Unclear | new X reading |
+| 10.1021/bm500232h | Unclear | new X reading |
+| 10.1021/cm050962a | Unclear | new X reading |
+| 10.1021/cm201077t | Unclear | new X reading |
+| 10.1021/cs300085h | Unclear | new X reading |
+| 10.1021/es1031097 | Unclear | new X reading |
+| 10.1021/es801925c | Unclear | new X reading |
+| 10.1021/ie501947u | Unclear | new X reading |
+| 10.1021/ja005932h | Unclear | new X reading |
+| 10.1021/ja011262j | Unclear | new X reading |
+| 10.1021/ja0206137 | Unclear | new X reading |
+| 10.1021/ja035369d | Unclear | new X reading |
+| 10.1021/ja037970h | Unclear | new X reading |
+| 10.1021/ja039686w | Unclear | new X reading |
+| 10.1021/ja0423421 | Unclear | new X reading |
+| 10.1021/ja0440248 | Unclear | new X reading |
+| 10.1021/ja048121c | Unclear | new X reading |
+| 10.1021/ja049650j | Unclear | new X reading |
+| 10.1021/ja051089h | Unclear | new X reading |
+| 10.1021/ja054630i | Unclear | new X reading |
+| 10.1021/ja0579816 | Unclear | new X reading |
+| 10.1021/ja0773406 | Unclear | new X reading |
+| 10.1021/ja101031r | Unclear | new X reading |
+| 10.1021/ja1058229 | Unclear | new X reading |
+| 10.1021/ja201841p | Unclear | new X reading |
+| 10.1021/ja2096865 | Unclear | new X reading |
+| 10.1021/ja211224s | Unclear | new X reading |
+| 10.1021/ja302290e | Unclear | new X reading |
+| 10.1021/ja304724u | Unclear | new X reading |
+| 10.1021/ja311059m | Out of scope | new X reading |
+| 10.1021/ja405026x | Unclear | new X reading |
+| 10.1021/ja511273c | Unclear | new X reading |
+| 10.1021/ja906837s | Thin | new X reading |
+| 10.1021/ja908784b | Unclear | new X reading |
+| 10.1021/jacs.0c01809 | Unclear | new X reading |
+| 10.1021/jacs.1c06777 | Unclear | new X reading |
+| 10.1021/jacs.2c02426 | Unclear | new X reading |
+| 10.1021/jacs.2c09705 | Unclear | new X reading |
+| 10.1021/jacs.3c02909 | Out of scope | new X reading |
+| 10.1021/jacs.3c03582 | Unclear | new X reading |
+| 10.1021/jacs.3c10214 | Unclear | new X reading |
+| 10.1021/jacs.3c10706 | Unclear | new X reading |
+| 10.1021/jacs.4c03308 | Thin | new X reading |
+| 10.1021/jacs.4c06498 | Unclear | new X reading |
+| 10.1021/jacs.4c18090 | Unclear | new X reading |
+| 10.1021/jacs.5b00839 | Unclear | new X reading |
+| 10.1021/jacs.5b01391 | Thin | new X reading |
+| 10.1021/jacs.5b11353 | Unclear | new X reading |
+| 10.1021/jacs.5b12662 | Unclear | new X reading |
+| 10.1021/jacs.5b12758 | Unclear | new X reading |
+| 10.1021/jacs.5c11022 | Unclear | new X reading |
+| 10.1021/jacs.5c13973 | Unclear | new X reading |
+| 10.1021/jacs.5c19326 | Unclear | new X reading |
+| 10.1021/jacs.5c21773 | Unclear | new X reading |
+| 10.1021/jacs.6b00055 | Unclear | new X reading |
+| 10.1021/jacs.6b10681 | Unclear | new X reading |
+| 10.1021/jacs.6c10243 | Unclear | new X reading |
+| 10.1021/jacs.6c11186 | Unclear | new X reading |
+| 10.1021/jacs.7b01735 | Unclear | new X reading |
+| 10.1021/jacs.7b03705 | Unclear | new X reading |
+| 10.1021/jacs.8b01347 | Unclear | new X reading |
+| 10.1021/jacs.8b08023 | Unclear | new X reading |
+| 10.1021/jacs.8b10752 | Unclear | new X reading |
+| 10.1021/jacs.8b10901 | Unclear | new X reading |
+| 10.1021/jacs.9b00082 | Thin | new X reading |
+| 10.1021/jacs.9b01033 | Unclear | new X reading |
+| 10.1021/jacs.9b03385 | Unclear | new X reading |
+| 10.1021/jacs.9b04659 | Unclear | new X reading |
+| 10.1021/jacs.9b07236 | Unclear | new X reading |
+| 10.1021/jacsau.3c00809 | Unclear | new X reading |
+| 10.1021/jp025802q | Unclear | new X reading |
+| 10.1021/jp0275084 | Unclear | new X reading |
+| 10.1021/jp031369o | Unclear | new X reading |
+| 10.1021/jp035484a | Unclear | new X reading |
+| 10.1021/jp0366771 | Out of scope | new X reading |
+| 10.1021/jp044581g | Unclear | new X reading |
+| 10.1021/jp0447688 | Unclear | new X reading |
+| 10.1021/jp046485l | Unclear | new X reading |
+| 10.1021/jp047832u | Unclear | new X reading |
+| 10.1021/jp052229c | Unclear | new X reading |
+| 10.1021/jp075042p | Unclear | new X reading |
+| 10.1021/jp105890x | Unclear | new X reading |
+| 10.1021/jp107676h | Unclear | new X reading |
+| 10.1021/jp1093096 | Thin | new X reading |
+| 10.1021/jp208011y | Unclear | new X reading |
+| 10.1021/jp210458j | Unclear | new X reading |
+| 10.1021/jp3075699 | Unclear | new X reading |
+| 10.1021/jp402425w | Unclear | new X reading |
+| 10.1021/jp408727a | Unclear | new X reading |
+| 10.1021/jp410794j | Unclear | new X reading |
+| 10.1021/jp4125217 | Out of scope | new X reading |
+| 10.1021/jp501447q | Unclear | new X reading |
+| 10.1021/jp507825r | Unclear | new X reading |
+| 10.1021/jp5098469 | Unclear | new X reading |
+| 10.1021/jp511375a | Unclear | new X reading |
+| 10.1021/jp7097944 | Unclear | new X reading |
+| 10.1021/jp8074817 | Unclear | new X reading |
+| 10.1021/jp8075518 | Unclear | new X reading |
+| 10.1021/jp808562x | Unclear | new X reading |
+| 10.1021/jp811078e | Unclear | new X reading |
+| 10.1021/jp9017713 | Unclear | new X reading |
+| 10.1021/jp9025317 | Unclear | new X reading |
+| 10.1021/jp984060r | Unclear | new X reading |
+| 10.1021/jp990080x | Unclear | new X reading |
+| 10.1021/jp990165y | Unclear | new X reading |
+| 10.1021/jp990349c | Thin | new X reading |
+| 10.1021/jp991085x | Unclear | new X reading |
+| 10.1021/jz300672x | Unclear | new X reading |
+| 10.1021/ma070855x | Unclear | new X reading |
+| 10.1021/nl802160z | Unclear | new X reading |
+| 10.1021/nn103050w | Unclear | new X reading |
+| 10.1038/nmat5000 | Unclear | new X reading |
+| 10.1038/s41467-018-04509-w | Unclear | new X reading |
+| 10.1038/s41467-020-17563-0 | Unclear | new X reading |
+| 10.1038/s41563-018-0081-x | Unclear | new X reading |
+| 10.1038/s41586-020-2441-3 | Unclear | new X reading |
+| 10.1038/s41598-017-01676-6 | Unclear | new X reading |
+| 10.1038/s41598-018-25473-x | Unclear | new X reading |
+| 10.1038/s41598-019-38772-8 | Unclear | new X reading |
+| 10.1038/s41598-020-61881-8 | Unclear | new X reading |
+| 10.1038/s41928-020-0382-3 | Unclear | new X reading |
+| 10.1039/c5cp04457j | Unclear | new X reading |
+| 10.1039/c5nj00489f | Unclear | new X reading |
+| 10.1039/c5nj03117f | Unclear | new X reading |
+| 10.1039/c6ay02822e | Unclear | new X reading |
+| 10.1039/c6ra02553f | Unclear | new X reading |
+| 10.1039/c6ra10836a | Unclear | new X reading |
+| 10.1039/c6ra22813e | Unclear | new X reading |
+| 10.1039/c6ra23604a | Unclear | new X reading |
+| 10.1039/c7cp04882c | Unclear | new X reading |
+| 10.1039/c7ra01313b | Unclear | new X reading |
+| 10.1039/c7ra10471e | Unclear | new X reading |
+| 10.1039/c8na00374b | Unclear | new X reading |
+| 10.1039/c8ra06326e | Unclear | new X reading |
+| 10.1039/c8ta01408f | Unclear | new X reading |
+| 10.1039/c9ra01045a | Unclear | new X reading |
+| 10.1039/c9ra07445g | Unclear | new X reading |
+| 10.1039/d0na01045f | Unclear | new X reading |
+| 10.1039/d0ra10144c | Unclear | new X reading |
+| 10.1039/d0sc03349a | Out of scope | new X reading |
+| 10.1039/d0ta02760j | Unclear | new X reading |
+| 10.1039/d1ma01247a | Out of scope | new X reading |
+| 10.1039/d1na00405k | Out of scope | new X reading |
+| 10.1039/d1ra03278j | Unclear | new X reading |
+| 10.1039/d2nj06313a | Unclear | new X reading |
+| 10.1039/d2ra04641e | Unclear | new X reading |
+| 10.1039/d2ra06091d | Unclear | new X reading |
+| 10.1039/d3ay00209h | Unclear | new X reading |
+| 10.1039/d3ay00256j | Unclear | new X reading |
+| 10.1039/d3lf00128h | Out of scope | new X reading |
+| 10.1039/d3na01078c | Unclear | new X reading |
+| 10.1039/d3nj03782g | Unclear | new X reading |
+| 10.1039/d3qm01128c | Unclear | new X reading |
+| 10.1039/d3ta06356a | Out of scope | new X reading |
+| 10.1039/d4cp03243h | Unclear | new X reading |
+| 10.1039/d4mh00928b | Unclear | new X reading |
+| 10.1039/d4nj01104j | Unclear | new X reading |
+| 10.1039/d4nj02728k | Unclear | new X reading |
+| 10.1039/d4tc00960f | Unclear | new X reading |
+| 10.1103/physrevapplied.13.064029 | Unclear | new X reading |
+| 10.1103/physrevmaterials.3.023001 | Out of scope | new X reading |
+| 10.1149/2.0241610jss | Unclear | new X reading |
